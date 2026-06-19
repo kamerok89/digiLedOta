@@ -2,8 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.803",
-  "filesystem_version": "1.0.0.606",
-  "notes": "Auth guard persistence moved to NVS and noisy missing-key/gzip startup logs reduced.",
+  "filesystem_version": "1.0.0.607",
+  "notes": "Lista zmian w oknie aktualizacji jest teraz schowana pod przyciskiem, a komunikaty OTA są prostsze i mniej techniczne.",
+  "changes": [
+    "Lista zmian w oknie aktualizacji jest schowana pod przyciskiem i nie zajmuje miejsca, dopóki jej nie otworzysz.",
+    "Komunikaty sprawdzania i instalowania aktualizacji są prostsze oraz mniej techniczne.",
+    "Notatki aktualizacji publikowane w OTA mają być przygotowywane po polsku."
+  ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
     "size": 1651216,
@@ -12,6 +17,6 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "1415F9E629871CF8C836FA51B15916D6"
+    "md5": "F4EB9C34FE343E00B9B0D08AB77D1E9D"
   }
 }
