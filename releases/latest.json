@@ -1,0 +1,17 @@
+{
+  "product": "digiled-xiao-esp32s3",
+  "channel": "stable",
+  "firmware_version": "1.0.0.788",
+  "filesystem_version": "1.0.0.590",
+  "notes": "Initial GitHub update package. Update versions and binary files when publishing a new release.",
+  "firmware": {
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+    "size": 1651232,
+    "md5": "AB2B6AD42B12FEE1A473BD07DEEDC809"
+  },
+  "filesystem": {
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+    "size": 4194304,
+    "md5": "CE9410049FCE5657A408C4D04ED4425B"
+  }
+}
