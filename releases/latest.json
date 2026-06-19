@@ -1,17 +1,17 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.802",
-  "filesystem_version": "1.0.0.605",
-  "notes": "GitHub OTA test package with the compact update modal and current portal assets.",
+  "firmware_version": "1.0.0.803",
+  "filesystem_version": "1.0.0.606",
+  "notes": "Auth guard persistence moved to NVS and noisy missing-key/gzip startup logs reduced.",
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1651232,
-    "md5": "2C05DB7AC57EB2B944CB441E7C9C02DA"
+    "size": 1651216,
+    "md5": "FFD1DE7BFD6B55A2134705DA42D35EB8"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "275CC29D9137B075DA74C3E7D94248EE"
+    "md5": "1415F9E629871CF8C836FA51B15916D6"
   }
 }
