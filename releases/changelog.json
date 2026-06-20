@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.626",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.626",
+    "date": "2026-06-20T09:12:59+01:00",
+    "title": "Przywrócona paczka portalu",
+    "changes": [
+      "Zbudowano paczkę portalu z aktualnie przywróconego stanu plików.",
+      "Odświeżono pliki CSS, skrypt portalu oraz skompresowane zasoby .gz.",
+      "Podbito wersję portalu do 1.0.0.626, aby aktualizacja online była wykrywalna."
+    ]
+  },
+  {
     "version": "1.0.0.625",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.625",
