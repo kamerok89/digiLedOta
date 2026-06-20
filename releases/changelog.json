@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.633",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.633",
+    "date": "2026-06-20T11:17:50+01:00",
+    "title": "Zwarta karta zapisanych pilotów",
+    "changes": [
+      "Karta zapisanego pilota ma teraz mniejszą miniaturę pilota i niższą wysokość.",
+      "Zmniejszono tytuł, opisy, metadane oraz przyciski akcji, aby całość mieściła się w panelu.",
+      "Długie informacje, takie jak typ pilota, nie powinny już wypychać układu poza kafelek."
+    ]
+  },
+  {
     "version": "1.0.0.632",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.632",
