@@ -3,6 +3,17 @@
   "channel": "stable",
   "releases": [
     {
+      "version": "Firmware 1.0.0.806 / Portal 1.0.0.616",
+      "date": "2026-06-20T01:56:29+01:00",
+      "changes": [
+        "Przed aktualizacją filesystemu urządzenie pokazuje listę plików LittleFS, które zostaną nadpisane.",
+        "Dodano możliwość pobrania kopii ustawień digiLed.json przed instalacją portalu WWW.",
+        "Eksport i import ustawień obejmuje teraz piloty MiLight, mapowanie akcji, reguły live i tryby płytki dotykowej.",
+        "Wyrównano obramowania ikon aktualizacji online i lokalnej oraz poprawiono hover przycisków w jasnym motywie.",
+        "Dodano wersjonowanie i no-cache dla głównych plików portalu, aby po OTA nie ładował się stary skrypt."
+      ]
+    },
+    {
       "version": "Portal 1.0.0.613",
       "date": "2026-06-20T01:17:50+01:00",
       "changes": [
