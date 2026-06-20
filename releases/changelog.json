@@ -1,5 +1,16 @@
 [
   {
+    "version": "1.0.0.644",
+    "firmware_version": "1.0.0.811",
+    "filesystem_version": "1.0.0.644",
+    "date": "2026-06-20T17:52:28+01:00",
+    "title": "Testowe podbicie wersji portalu",
+    "changes": [
+      "Podbito wersję portalu do testów wykrywania i instalacji aktualizacji online.",
+      "Paczka filesystemu zawiera aktualne zasoby portalu oraz cache-bustery ustawione na wersję 1.0.0.644."
+    ]
+  },
+  {
     "version": "1.0.0.643",
     "firmware_version": "1.0.0.811",
     "filesystem_version": "1.0.0.643",
