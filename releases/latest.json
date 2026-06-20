@@ -2,7 +2,7 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.811",
-  "filesystem_version": "1.0.0.643",
+  "filesystem_version": "1.0.0.644",
   "notes": "Kafelki aktualizacji online są teraz bardziej zwarte, gdy aktualizacja dotyczy tylko jednego komponentu.",
   "changes": [
     "Kafelki aktualizacji online układają treść od góry, bez rozciągania tekstu na całą wysokość kafelka.",
