@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.652",
+    "firmware_version": "1.0.0.814",
+    "filesystem_version": "1.0.0.652",
+    "date": "2026-06-20T21:23:25+01:00",
+    "title": "Poprawka pierścienia koloru MiLight",
+    "changes": [
+      "Dodano domyślne mapowanie pierścienia koloru MiLight na akcję sterowania kolorem, także gdy nie ma osobnego wiersza w portalu.",
+      "Ruszenie pierścienia koloru wychodzi teraz z trybu bieli temperaturowej i przywraca kolor po sterowaniu temperaturą bieli.",
+      "Dodano awaryjny fallback dla zdarzenia CCT, żeby temperatura białego koloru działała nawet po niepełnym zapisie mapowań."
+    ]
+  },
+  {
     "version": "1.0.0.651",
     "firmware_version": "1.0.0.813",
     "filesystem_version": "1.0.0.651",
