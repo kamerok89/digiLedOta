@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.632",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.632",
+    "date": "2026-06-20T10:48:26+01:00",
+    "title": "Nowy wygląd zapisanych pilotów",
+    "changes": [
+      "Karta zapisanego pilota ma większą miniaturę pilota, metadane z ikonami i pionowe przyciski akcji.",
+      "Nagłówek „Zapisane piloty” dostał ikonę i mocniejszą hierarchię wizualną.",
+      "Przycisk „Usuń wszystkie” jest większy i bardziej czytelny."
+    ]
+  },
+  {
     "version": "1.0.0.631",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.631",

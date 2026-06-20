@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.807",
-  "filesystem_version": "1.0.0.631",
-  "notes": "Ulepszono kafelek dodawania pilota i dodano automatyczne wygaszanie komunikatu o dodaniu pilota.",
+  "filesystem_version": "1.0.0.632",
+  "notes": "Przebudowano kartę zapisanych pilotów MiLight na czytelniejszy, bardziej wizualny układ.",
   "changes": [
-    "Komunikat „Pilot dodany” znika automatycznie po około 5 sekundach.",
-    "Kafelek dodawania pilota dostał nowy układ z ikoną, ilustracją pilota i mocniejszym przyciskiem.",
-    "Przycisk w pustym stanie pokazuje teraz „Dodaj pierwszego pilota”, a po zapisaniu pilotów wraca do „Dodaj pilota”."
+    "Karta zapisanego pilota ma większą miniaturę pilota, metadane z ikonami i pionowe przyciski akcji.",
+    "Nagłówek „Zapisane piloty” dostał ikonę i mocniejszą hierarchię wizualną.",
+    "Przycisk „Usuń wszystkie” jest większy i bardziej czytelny."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "616AE45AFCF0F02E11B692A508834D06"
+    "md5": "512C1834F9EC443667E70D38B1E52F07"
   },
-  "build_time": "2026-06-20T09:25:04+01:00",
+  "build_time": "2026-06-20T10:48:26+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
