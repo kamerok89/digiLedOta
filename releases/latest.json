@@ -1,26 +1,23 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.806",
-  "filesystem_version": "1.0.0.616",
-  "notes": "Dodano ostrzeżenie przed aktualizacją portalu WWW, uzupełniono kopię ustawień o MiLight i poprawiono odświeżanie zasobów po OTA.",
+  "firmware_version": "1.0.0.807",
+  "filesystem_version": "1.0.0.617",
+  "notes": "Testowe podbicie wersji OTA do sprawdzenia mechanizmu aktualizacji.",
   "changes": [
-    "Przed aktualizacją filesystemu urządzenie pokazuje listę plików LittleFS, które zostaną nadpisane.",
-    "Dodano możliwość pobrania kopii ustawień digiLed.json przed instalacją portalu WWW.",
-    "Eksport i import ustawień obejmuje teraz piloty MiLight, mapowanie akcji, reguły live i tryby płytki dotykowej.",
-    "Wyrównano obramowania ikon aktualizacji online i lokalnej oraz poprawiono hover przycisków w jasnym motywie.",
-    "Dodano wersjonowanie i no-cache dla głównych plików portalu, aby po OTA nie ładował się stary skrypt."
+    "Testowo podbito wersj? firmware i portalu WWW, aby sprawdzi? wykrywanie aktualizacji online.",
+    "Paczki OTA zosta?y ponownie zbudowane i opublikowane w repozytorium digiLedOta."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
     "size": 1653296,
-    "md5": "1C7A3CB112FC96132623739092B1A120"
+    "md5": "216B6714B64FB18D010D7A01D183180C"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "426ABD5E28039F11899C4C20A629EB97"
+    "md5": "605063354500C1CBC3DA56001B4D650C"
   },
-  "build_time": "2026-06-20T01:56:29+01:00",
+  "build_time": "2026-06-20T02:03:37+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
