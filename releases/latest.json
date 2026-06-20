@@ -1,8 +1,8 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.807",
-  "filesystem_version": "1.0.0.619",
+  "firmware_version": "1.0.0.800",
+  "filesystem_version": "1.0.0.610",
   "notes": "Poprawiono jasny motyw modala kopii ustawień oraz uproszczono podgląd wczytywanych ustawień.",
   "changes": [
     "Poprawiono kolor przycisku zamknięcia i komunikatu kopii ustawień w jasnym motywie.",
