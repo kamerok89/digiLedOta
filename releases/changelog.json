@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.628",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.628",
+    "date": "2026-06-20T08:41:13+01:00",
+    "title": "Wyrównane karty MiLight",
+    "changes": [
+      "Karty dodawania pilota, zapisanych pilotów i radia mają teraz spójniejsze wyrównanie.",
+      "Sekcja radia lepiej trzyma wysokość rzędu i nie odstaje od karty dodawania.",
+      "Widok po dodaniu pilota ma czytelniejszą kartę ostatnio wykrytej ramki oraz równiejszy panel zapisanych pilotów."
+    ]
+  },
+  {
     "version": "1.0.0.627",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.627",
