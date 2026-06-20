@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.807",
-  "filesystem_version": "1.0.0.634",
-  "notes": "Kafelek zapisanego pilota jest bardziej przezroczysty, mniejszy i otwiera modal aktywności po kliknięciu.",
+  "filesystem_version": "1.0.0.635",
+  "notes": "Dodano ikonę aktualizacji w nagłówku portalu, widoczną tylko wtedy, gdy jest dostępna nowa wersja.",
   "changes": [
-    "Zmniejszono ikonę pilota, tytuł, metadane, opis trybu oraz przyciski akcji.",
-    "Hover nie przesuwa już kafelka do góry, tylko lekko go podświetla.",
-    "Kliknięcie w kafelek pilota otwiera teraz ten sam modal informacji co przycisk aktywności pilota."
+    "Po poprawnym połączeniu STA z Wi-Fi portal cicho sprawdza, czy jest dostępna aktualizacja online.",
+    "Gdy aktualizacja jest dostępna, po lewej stronie przycisku motywu pojawia się ikona aktualizacji U+EA8F.",
+    "Kliknięcie ikony przenosi do zakładki Oprogramowanie i uruchamia standardowe sprawdzenie aktualizacji."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "2E20CACA21DCB810A86EC979BA7EC0A0"
+    "md5": "8AF7CCE4F088A0638F783A30E99E3994"
   },
-  "build_time": "2026-06-20T11:30:01+01:00",
+  "build_time": "2026-06-20T11:45:34+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
