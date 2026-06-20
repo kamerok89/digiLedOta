@@ -3,6 +3,15 @@
   "channel": "stable",
   "releases": [
     {
+      "version": "Firmware 1.0.0.807 / Portal 1.0.0.618",
+      "date": "2026-06-20T02:17:36+01:00",
+      "changes": [
+        "Poprawiono kolor przycisku zamknięcia i komunikatu kopii ustawień w jasnym motywie.",
+        "Podgląd wczytywania ustawień pokazuje teraz bardziej zrozumiałe nazwy sekcji i wartości.",
+        "Przebudowano paczkę portalu WWW z nową wersją zasobów."
+      ]
+    },
+    {
       "version": "Firmware 1.0.0.807 / Portal 1.0.0.617",
       "date": "2026-06-20T02:03:37+01:00",
       "changes": [

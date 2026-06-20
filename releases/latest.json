@@ -2,11 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.807",
-  "filesystem_version": "1.0.0.617",
-  "notes": "Testowe podbicie wersji OTA do sprawdzenia mechanizmu aktualizacji.",
+  "filesystem_version": "1.0.0.618",
+  "notes": "Poprawiono jasny motyw modala kopii ustawień oraz uproszczono podgląd wczytywanych ustawień.",
   "changes": [
-    "Testowo podbito wersję firmware i portalu WWW, aby sprawdzić wykrywanie aktualizacji online.",
-    "Paczki OTA zostały ponownie zbudowane i opublikowane w repozytorium digiLedOta."
+    "Poprawiono kolor przycisku zamknięcia i komunikatu kopii ustawień w jasnym motywie.",
+    "Podgląd wczytywania ustawień pokazuje teraz bardziej zrozumiałe nazwy sekcji i wartości.",
+    "Przebudowano paczkę portalu WWW z nową wersją zasobów."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -16,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "605063354500C1CBC3DA56001B4D650C"
+    "md5": "A152E429782C320881B310C733C9CF97"
   },
-  "build_time": "2026-06-20T02:03:37+01:00",
+  "build_time": "2026-06-20T02:17:36+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
