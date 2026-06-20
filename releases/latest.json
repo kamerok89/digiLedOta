@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.811",
-  "filesystem_version": "1.0.0.639",
-  "notes": "Mapowanie akcji MiLight ma teraz osobną sekcję grup pilota z opisem zależnym od użytego pilota.",
+  "filesystem_version": "1.0.0.640",
+  "notes": "Kafelki aktualizacji online pokazują teraz jasny status dla Firmware i Filesystem oraz przycisk tylko wtedy, gdy aktualizacja jest dostępna.",
   "changes": [
-    "Mapowanie akcji MiLight rozdziela teraz przyciski ogólne od grup pilota.",
-    "Sekcja grup ma osobny nagłówek i krótki opis informujący, że liczba grup zależy od użytego pilota.",
-    "Odświeżono style i tłumaczenia portalu dla nowego układu mapowania."
+    "Kafelki Firmware i Filesystem pokazują teraz opis stanu, aktualną wersję i rozmiar bez nieaktywnego przycisku, gdy nie ma aktualizacji.",
+    "Gdy aktualizacja jest dostępna, kafelek pokazuje aktualną oraz dostępną wersję i dopiero wtedy wyświetla przycisk Aktualizuj.",
+    "Usunięto techniczne chipy BIN i LittleFS z widocznego układu kafelków aktualizacji online."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "EF584F186AEAC3B1EDBB431F1C416F59"
+    "md5": "89A15011D2F7ECFA39263951AAA2AC52"
   },
-  "build_time": "2026-06-20T16:05:21+01:00",
+  "build_time": "2026-06-20T17:15:11+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
