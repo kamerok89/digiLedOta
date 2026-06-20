@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.807",
-  "filesystem_version": "1.0.0.626",
-  "notes": "Przywrócono poprzednią wersję portalu po problemie z kodowaniem znaków.",
+  "filesystem_version": "1.0.0.627",
+  "notes": "Uporządkowano widok MiLight: usunięto log, poprawiono dodawanie pilota i sekcję radia.",
   "changes": [
-    "Zbudowano paczkę portalu z aktualnie przywróconego stanu plików.",
-    "Odświeżono pliki CSS, skrypt portalu oraz skompresowane zasoby .gz.",
-    "Podbito wersję portalu do 1.0.0.626, aby aktualizacja online była wykrywalna."
+    "Usunięto panel logu MiLight razem z jego obsługą w skrypcie, stylami i tekstami tłumaczeń.",
+    "Sekcja dodawania pilota dostała bardziej wyraźny, spójny wizualnie wygląd.",
+    "Sekcja Radio nRF24L01+ jest teraz bardziej zwarta i pokazuje status oraz przycisk Odśwież bezpośrednio w swoim nagłówku."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "420FFEA9D421DABF555CFD18527511D4"
+    "md5": "36A666A33198F2D7EE8E94CEDEA8520C"
   },
-  "build_time": "2026-06-20T09:12:59+01:00",
+  "build_time": "2026-06-20T09:24:48+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
