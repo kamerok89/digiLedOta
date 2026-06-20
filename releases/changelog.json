@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.639",
+    "firmware_version": "1.0.0.811",
+    "filesystem_version": "1.0.0.639",
+    "date": "2026-06-20T16:05:21+01:00",
+    "title": "Czytelniejsze grupy MiLight",
+    "changes": [
+      "Mapowanie akcji MiLight rozdziela teraz przyciski ogólne od grup pilota.",
+      "Sekcja grup ma osobny nagłówek i krótki opis informujący, że liczba grup zależy od użytego pilota.",
+      "Odświeżono style i tłumaczenia portalu dla nowego układu mapowania."
+    ]
+  },
+  {
     "version": "1.0.0.811",
     "firmware_version": "1.0.0.811",
     "filesystem_version": "1.0.0.638",
