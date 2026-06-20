@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.650",
+    "firmware_version": "1.0.0.812",
+    "filesystem_version": "1.0.0.650",
+    "date": "2026-06-20T20:48:19+01:00",
+    "title": "Poprawione pola dotykowe pilota MiLight",
+    "changes": [
+      "Naprawiono mapowanie pól dotykowych pilota FUT092: płytka nasycenia steruje nasyceniem, a płytka jasności steruje jasnością.",
+      "Płytka temperatury barwowej/CCT została chwilowo odłączona od akcji, żeby nie zmieniała już nasycenia.",
+      "Dodano migrację starych mapowań MiLight, która przestawia błędne wpisy jasności/nasycenia i usuwa dawne podpięcie CCT pod nasycenie."
+    ]
+  },
+  {
     "version": "1.0.0.648",
     "firmware_version": "1.0.0.811",
     "filesystem_version": "1.0.0.648",

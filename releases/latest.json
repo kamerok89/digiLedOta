@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.811",
-  "filesystem_version": "1.0.0.648",
-  "notes": "Dodano now? miniaturk? pilota MiLight inspirowan? pilotem RGB+CCT, bez dodawania pliku graficznego do portalu.",
+  "firmware_version": "1.0.0.812",
+  "filesystem_version": "1.0.0.650",
+  "notes": "Naprawiono obsługę pól dotykowych pilota MiLight FUT092 oraz odłączono chwilowo sterowanie temperaturą barwową.",
   "changes": [
-    "Miniaturka pilota MiLight ma teraz ciemny korpus, kolorowy pier?cie?, ?uk barwy, pionowe suwaki i przyciski stref.",
-    "Miniaturka jest rysowana w CSS, wi?c nie zwi?ksza portalu osobnym obrazkiem rastrowym.",
-    "Od?wie?ono CSS, skrypt portalu oraz cache-bustery zasob?w dla wersji 1.0.0.648."
+    "Naprawiono mapowanie pól dotykowych pilota FUT092: płytka nasycenia steruje nasyceniem, a płytka jasności steruje jasnością.",
+    "Płytka temperatury barwowej/CCT została chwilowo odłączona od akcji, żeby nie zmieniała już nasycenia.",
+    "Dodano migrację starych mapowań MiLight, która przestawia błędne wpisy jasności/nasycenia i usuwa dawne podpięcie CCT pod nasycenie."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1651984,
-    "md5": "B742BFA470DA4C5F0AC648B740A4C7A9"
+    "size": 1652048,
+    "md5": "08405113A7D0BD1729BB04A84D2BF831"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "613CA5A75CB1F5B7007E73510946523A"
+    "md5": "9B6D5DC5D6057290FF51EDFFBB9E519D"
   },
-  "build_time": "2026-06-20T20:18:34+01:00",
+  "build_time": "2026-06-20T20:48:19+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
