@@ -3,6 +3,16 @@
   "channel": "stable",
   "releases": [
     {
+      "version": "Firmware 1.0.0.807 / Portal 1.0.0.619",
+      "date": "2026-06-20T03:09:05+01:00",
+      "changes": [
+        "Przebudowano widok Integracja MiLight na nowy ciemny układ Fluent/glass z hero, kartami i statystykami radia.",
+        "Dodano osobne stany widoku dla braku pilotów, trybu uczenia oraz zapisanych pilotów.",
+        "Zachowano obsługę dodawania, anulowania uczenia, odświeżania, usuwania pilotów, diagnostyki i mapowania akcji.",
+        "Poprawiono responsywność panelu MiLight dla tabletów i telefonów."
+      ]
+    },
+    {
       "version": "Firmware 1.0.0.807 / Portal 1.0.0.618",
       "date": "2026-06-20T02:17:36+01:00",
       "changes": [

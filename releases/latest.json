@@ -1,13 +1,14 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.800",
-  "filesystem_version": "1.0.0.610",
-  "notes": "Poprawiono jasny motyw modala kopii ustawień oraz uproszczono podgląd wczytywanych ustawień.",
+  "firmware_version": "1.0.0.807",
+  "filesystem_version": "1.0.0.619",
+  "notes": "Przebudowano panel Integracja MiLight zgodnie z nowymi wizualizacjami.",
   "changes": [
-    "Poprawiono kolor przycisku zamknięcia i komunikatu kopii ustawień w jasnym motywie.",
-    "Podgląd wczytywania ustawień pokazuje teraz bardziej zrozumiałe nazwy sekcji i wartości.",
-    "Przebudowano paczkę portalu WWW z nową wersją zasobów."
+    "Przebudowano widok Integracja MiLight na nowy ciemny układ Fluent/glass z hero, kartami i statystykami radia.",
+    "Dodano osobne stany widoku dla braku pilotów, trybu uczenia oraz zapisanych pilotów.",
+    "Zachowano obsługę dodawania, anulowania uczenia, odświeżania, usuwania pilotów, diagnostyki i mapowania akcji.",
+    "Poprawiono responsywność panelu MiLight dla tabletów i telefonów."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "A152E429782C320881B310C733C9CF97"
+    "md5": "AEE2228D9DDC8B9C9B4B462487600124"
   },
-  "build_time": "2026-06-20T02:17:36+01:00",
+  "build_time": "2026-06-20T03:09:05+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
