@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.636",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.636",
+    "date": "2026-06-20T11:54:44+01:00",
+    "title": "Test ikony dostępnej aktualizacji",
+    "changes": [
+      "Portal ma nową wersję testową do sprawdzenia ikony aktualizacji U+EA8F.",
+      "Po połączeniu z Wi-Fi urządzenie powinno wykryć nowszy filesystem i pokazać ikonę w górnym pasku.",
+      "Kliknięcie ikony nadal przenosi do zakładki Oprogramowanie."
+    ]
+  },
+  {
     "version": "1.0.0.635",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.635",
