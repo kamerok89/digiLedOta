@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.807",
-  "filesystem_version": "1.0.0.633",
-  "notes": "Zmniejszono czcionki, ikonę pilota i odstępy w karcie zapisanych pilotów MiLight.",
+  "filesystem_version": "1.0.0.634",
+  "notes": "Kafelek zapisanego pilota jest bardziej przezroczysty, mniejszy i otwiera modal aktywności po kliknięciu.",
   "changes": [
-    "Karta zapisanego pilota ma teraz mniejszą miniaturę pilota i niższą wysokość.",
-    "Zmniejszono tytuł, opisy, metadane oraz przyciski akcji, aby całość mieściła się w panelu.",
-    "Długie informacje, takie jak typ pilota, nie powinny już wypychać układu poza kafelek."
+    "Zmniejszono ikonę pilota, tytuł, metadane, opis trybu oraz przyciski akcji.",
+    "Hover nie przesuwa już kafelka do góry, tylko lekko go podświetla.",
+    "Kliknięcie w kafelek pilota otwiera teraz ten sam modal informacji co przycisk aktywności pilota."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "829FBAAAD74F537630BAA2322C822F2A"
+    "md5": "2E20CACA21DCB810A86EC979BA7EC0A0"
   },
-  "build_time": "2026-06-20T11:17:50+01:00",
+  "build_time": "2026-06-20T11:30:01+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

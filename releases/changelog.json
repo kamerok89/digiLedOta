@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.634",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.634",
+    "date": "2026-06-20T11:30:01+01:00",
+    "title": "Lżejszy kafelek pilota MiLight",
+    "changes": [
+      "Zmniejszono ikonę pilota, tytuł, metadane, opis trybu oraz przyciski akcji.",
+      "Hover nie przesuwa już kafelka do góry, tylko lekko go podświetla.",
+      "Kliknięcie w kafelek pilota otwiera teraz ten sam modal informacji co przycisk aktywności pilota."
+    ]
+  },
+  {
     "version": "1.0.0.633",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.633",
