@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.631",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.631",
+    "date": "2026-06-20T09:25:04+01:00",
+    "title": "Lepsze dodawanie pilota MiLight",
+    "changes": [
+      "Komunikat „Pilot dodany” znika automatycznie po około 5 sekundach.",
+      "Kafelek dodawania pilota dostał nowy układ z ikoną, ilustracją pilota i mocniejszym przyciskiem.",
+      "Przycisk w pustym stanie pokazuje teraz „Dodaj pierwszego pilota”, a po zapisaniu pilotów wraca do „Dodaj pilota”."
+    ]
+  },
+  {
     "version": "1.0.0.630",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.630",
