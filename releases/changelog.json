@@ -1,0 +1,75 @@
+{
+  "product": "digiled-xiao-esp32s3",
+  "channel": "stable",
+  "releases": [
+    {
+      "version": "Portal 1.0.0.613",
+      "date": "2026-06-20T01:17:50+01:00",
+      "changes": [
+        "Ujednolicono wygląd karty Aktualizacja online z kartą Aktualizacja lokalna.",
+        "Dodano datę i godzinę przygotowania pakietu w manifeście aktualizacji.",
+        "Dodano osobny plik historii zmian dla aktualizacji online."
+      ]
+    },
+    {
+      "version": "Portal 1.0.0.610",
+      "date": "2026-06-20T01:01:34+01:00",
+      "changes": [
+        "Spinner aktualizacji online jest mniejszy i znajduje się przy przycisku sprawdzania aktualizacji.",
+        "Stan pracy nie zwiększa już wysokości karty Aktualizacja online."
+      ]
+    },
+    {
+      "version": "Portal 1.0.0.609",
+      "date": "2026-06-20T00:51:20+01:00",
+      "changes": [
+        "Usunięto dublowanie komunikatów przy braku aktualizacji.",
+        "Kafelki Firmware i Portal WWW są ukryte do czasu sprawdzenia aktualizacji.",
+        "Pill Online nie jest już pokazywany w normalnym stanie karty."
+      ]
+    },
+    {
+      "version": "Portal 1.0.0.608",
+      "date": "2026-06-20T00:39:28+01:00",
+      "changes": [
+        "Przeniesiono aktualizację online z modala do osobnej karty w zakładce Oprogramowanie.",
+        "Oddzielono aktualizację online od ręcznej aktualizacji lokalnej.",
+        "Zachowano wspólny układ zakładki Oprogramowanie."
+      ]
+    },
+    {
+      "version": "Portal 1.0.0.607",
+      "date": "2026-06-20T00:15:46+01:00",
+      "changes": [
+        "Lista zmian jest otwierana przyciskiem zamiast zajmować miejsce od razu po sprawdzeniu aktualizacji.",
+        "Zmieniono komunikaty sprawdzania aktualizacji na bardziej zrozumiałe dla użytkownika.",
+        "Ustalono, że publiczna lista zmian w OTA ma być po polsku."
+      ]
+    },
+    {
+      "version": "Firmware 1.0.0.803 / Portal 1.0.0.606",
+      "date": "2026-06-19T23:53:20+01:00",
+      "changes": [
+        "Dopracowano modal aktualizacji GitHub OTA.",
+        "Dodano czytelniejsze informacje o wersjach firmware i portalu.",
+        "Poprawiono prezentację dostępnych komponentów aktualizacji."
+      ]
+    },
+    {
+      "version": "Firmware 1.0.0.802 / Portal 1.0.0.605",
+      "date": "2026-06-19T23:42:20+01:00",
+      "changes": [
+        "Przeniesiono paczki OTA do osobnego publicznego repozytorium digiLedOta.",
+        "Zaktualizowano adresy manifestu i plików binarnych dla aktualizacji z GitHuba."
+      ]
+    },
+    {
+      "version": "Firmware 1.0.0.800 / Portal 1.0.0.600",
+      "date": "2026-06-19T23:01:46+01:00",
+      "changes": [
+        "Przygotowano pierwszą testową paczkę aktualizacji online przez GitHub.",
+        "Dodano manifest z wersjami, rozmiarami i sumami kontrolnymi plików aktualizacji."
+      ]
+    }
+  ]
+}
