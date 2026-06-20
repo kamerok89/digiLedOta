@@ -1,151 +1,163 @@
 [
-    {
-        "version":  "1.0.0.624",
-        "firmware_version":  "1.0.0.807",
-        "filesystem_version":  "1.0.0.624",
-        "date":  "2026-06-20T08:50:31+01:00",
-        "title":  "Spójniejszy panel MiLight",
-        "changes":  [
-                        "Panel MiLight zachowuje pełny nowoczesny wygląd, ale ma spokojniejsze kolory i obramowania.",
-                        "Promienie, cienie i akcenty zostały delikatnie zbliżone do reszty portalu.",
-                        "Nie zmieniono działania uczenia pilotów, mapowania akcji ani diagnostyki."
-                    ]
-    },
-    {
-        "version":  "1.0.0.623",
-        "firmware_version":  "1.0.0.807",
-        "filesystem_version":  "1.0.0.623",
-        "date":  "2026-06-20T08:41:27+01:00",
-        "title":  "PrzywrĂłcony wyglÄ…d MiLight",
-        "changes":  [
-                        "PrzywrĂłcono poprzedni peĹ‚ny wyglÄ…d zakĹ‚adki Integracja MiLight.",
-                        "UsuniÄ™to spĹ‚aszczonÄ… warstwÄ™ stylistycznÄ…, ktĂłra zbyt mocno uproĹ›ciĹ‚a zakĹ‚adkÄ™.",
-                        "Pozostawiono bez zmian dziaĹ‚anie uczenia pilotĂłw, mapowania akcji i diagnostyki."
-                    ]
-    },
-    {
-        "version":  "1.0.0.622",
-        "firmware_version":  "1.0.0.807",
-        "filesystem_version":  "1.0.0.622",
-        "date":  "2026-06-20T08:19:00+01:00",
-        "title":  "SpÄ‚Ĺ‚jny wyglĂ„â€¦d panelu MiLight",
-        "changes":  [
-                        "Panel Integracja MiLight korzysta teraz z kolorÄ‚Ĺ‚w, obramowaÄąâ€ž i promieni spÄ‚Ĺ‚jnych z pozostaÄąâ€šymi kartami portalu.",
-                        "Tryb jasny panelu MiLight nie wymusza juÄąÄ˝ ciĂ„â„˘ÄąÄ˝kiej ciemnej stylistyki.",
-                        "UsuniĂ„â„˘to stary nadmiarowy blok CSS MiLight, zmniejszajĂ„â€¦c paczkĂ„â„˘ portalu."
-                    ]
-    },
-    {
-        "product":  "digiled-xiao-esp32s3",
-        "channel":  "stable",
-        "releases":  [
-                         {
-                             "version":  "Firmware 1.0.0.807 / Portal 1.0.0.619",
-                             "date":  "2026-06-20T03:09:05+01:00",
-                             "changes":  [
-                                             "Przebudowano widok Integracja MiLight na nowy ciemny ukĂ„Ä…Ă˘â‚¬Ĺˇad Fluent/glass z hero, kartami i statystykami radia.",
-                                             "Dodano osobne stany widoku dla braku pilotĂ„â€šÄąâ€šw, trybu uczenia oraz zapisanych pilotĂ„â€šÄąâ€šw.",
-                                             "Zachowano obsĂ„Ä…Ă˘â‚¬ĹˇugÄ‚â€žĂ˘â€žË dodawania, anulowania uczenia, odĂ„Ä…Ă˘â‚¬ĹźwieĂ„Ä…Ă„Ëťania, usuwania pilotĂ„â€šÄąâ€šw, diagnostyki i mapowania akcji.",
-                                             "Poprawiono responsywnoĂ„Ä…Ă˘â‚¬ĹźÄ‚â€žĂ˘â‚¬Ë‡ panelu MiLight dla tabletĂ„â€šÄąâ€šw i telefonĂ„â€šÄąâ€šw."
-                                         ]
-                         },
-                         {
-                             "version":  "Firmware 1.0.0.807 / Portal 1.0.0.618",
-                             "date":  "2026-06-20T02:17:36+01:00",
-                             "changes":  [
-                                             "Poprawiono kolor przycisku zamkniÄ‚â€žĂ˘â€žËcia i komunikatu kopii ustawieĂ„Ä…Ă˘â‚¬Ĺľ w jasnym motywie.",
-                                             "PodglÄ‚â€žĂ˘â‚¬Â¦d wczytywania ustawieĂ„Ä…Ă˘â‚¬Ĺľ pokazuje teraz bardziej zrozumiaĂ„Ä…Ă˘â‚¬Ĺˇe nazwy sekcji i wartoĂ„Ä…Ă˘â‚¬Ĺźci.",
-                                             "Przebudowano paczkÄ‚â€žĂ˘â€žË portalu WWW z nowÄ‚â€žĂ˘â‚¬Â¦ wersjÄ‚â€žĂ˘â‚¬Â¦ zasobĂ„â€šÄąâ€šw."
-                                         ]
-                         },
-                         {
-                             "version":  "Firmware 1.0.0.807 / Portal 1.0.0.617",
-                             "date":  "2026-06-20T02:03:37+01:00",
-                             "changes":  [
-                                             "Testowo podbito wersjÄ‚â€žĂ˘â€žË firmware i portalu WWW, aby sprawdziÄ‚â€žĂ˘â‚¬Ë‡ wykrywanie aktualizacji online.",
-                                             "Paczki OTA zostaĂ„Ä…Ă˘â‚¬Ĺˇy ponownie zbudowane i opublikowane w repozytorium digiLedOta."
-                                         ]
-                         },
-                         {
-                             "version":  "Firmware 1.0.0.806 / Portal 1.0.0.616",
-                             "date":  "2026-06-20T01:56:29+01:00",
-                             "changes":  [
-                                             "Przed aktualizacjÄ‚â€žĂ˘â‚¬Â¦ filesystemu urzÄ‚â€žĂ˘â‚¬Â¦dzenie pokazuje listÄ‚â€žĂ˘â€žË plikĂ„â€šÄąâ€šw LittleFS, ktĂ„â€šÄąâ€šre zostanÄ‚â€žĂ˘â‚¬Â¦ nadpisane.",
-                                             "Dodano moĂ„Ä…Ă„ËťliwoĂ„Ä…Ă˘â‚¬ĹźÄ‚â€žĂ˘â‚¬Ë‡ pobrania kopii ustawieĂ„Ä…Ă˘â‚¬Ĺľ digiLed.json przed instalacjÄ‚â€žĂ˘â‚¬Â¦ portalu WWW.",
-                                             "Eksport i import ustawieĂ„Ä…Ă˘â‚¬Ĺľ obejmuje teraz piloty MiLight, mapowanie akcji, reguĂ„Ä…Ă˘â‚¬Ĺˇy live i tryby pĂ„Ä…Ă˘â‚¬Ĺˇytki dotykowej.",
-                                             "WyrĂ„â€šÄąâ€šwnano obramowania ikon aktualizacji online i lokalnej oraz poprawiono hover przyciskĂ„â€šÄąâ€šw w jasnym motywie.",
-                                             "Dodano wersjonowanie i no-cache dla gĂ„Ä…Ă˘â‚¬ĹˇĂ„â€šÄąâ€šwnych plikĂ„â€šÄąâ€šw portalu, aby po OTA nie Ă„Ä…Ă˘â‚¬ĹˇadowaĂ„Ä…Ă˘â‚¬Ĺˇ siÄ‚â€žĂ˘â€žË stary skrypt."
-                                         ]
-                         },
-                         {
-                             "version":  "Portal 1.0.0.613",
-                             "date":  "2026-06-20T01:17:50+01:00",
-                             "changes":  [
-                                             "Ujednolicono wyglÄ‚â€žĂ˘â‚¬Â¦d karty Aktualizacja online z kartÄ‚â€žĂ˘â‚¬Â¦ Aktualizacja lokalna.",
-                                             "Dodano datÄ‚â€žĂ˘â€žË i godzinÄ‚â€žĂ˘â€žË przygotowania pakietu w manifeĂ„Ä…Ă˘â‚¬Ĺźcie aktualizacji.",
-                                             "Dodano osobny plik historii zmian dla aktualizacji online."
-                                         ]
-                         },
-                         {
-                             "version":  "Portal 1.0.0.610",
-                             "date":  "2026-06-20T01:01:34+01:00",
-                             "changes":  [
-                                             "Spinner aktualizacji online jest mniejszy i znajduje siÄ‚â€žĂ˘â€žË przy przycisku sprawdzania aktualizacji.",
-                                             "Stan pracy nie zwiÄ‚â€žĂ˘â€žËksza juĂ„Ä…Ă„Ëť wysokoĂ„Ä…Ă˘â‚¬Ĺźci karty Aktualizacja online."
-                                         ]
-                         },
-                         {
-                             "version":  "Portal 1.0.0.609",
-                             "date":  "2026-06-20T00:51:20+01:00",
-                             "changes":  [
-                                             "UsuniÄ‚â€žĂ˘â€žËto dublowanie komunikatĂ„â€šÄąâ€šw przy braku aktualizacji.",
-                                             "Kafelki Firmware i Portal WWW sÄ‚â€žĂ˘â‚¬Â¦ ukryte do czasu sprawdzenia aktualizacji.",
-                                             "Pill Online nie jest juĂ„Ä…Ă„Ëť pokazywany w normalnym stanie karty."
-                                         ]
-                         },
-                         {
-                             "version":  "Portal 1.0.0.608",
-                             "date":  "2026-06-20T00:39:28+01:00",
-                             "changes":  [
-                                             "Przeniesiono aktualizacjÄ‚â€žĂ˘â€žË online z modala do osobnej karty w zakĂ„Ä…Ă˘â‚¬Ĺˇadce Oprogramowanie.",
-                                             "Oddzielono aktualizacjÄ‚â€žĂ˘â€žË online od rÄ‚â€žĂ˘â€žËcznej aktualizacji lokalnej.",
-                                             "Zachowano wspĂ„â€šÄąâ€šlny ukĂ„Ä…Ă˘â‚¬Ĺˇad zakĂ„Ä…Ă˘â‚¬Ĺˇadki Oprogramowanie."
-                                         ]
-                         },
-                         {
-                             "version":  "Portal 1.0.0.607",
-                             "date":  "2026-06-20T00:15:46+01:00",
-                             "changes":  [
-                                             "Lista zmian jest otwierana przyciskiem zamiast zajmowaÄ‚â€žĂ˘â‚¬Ë‡ miejsce od razu po sprawdzeniu aktualizacji.",
-                                             "Zmieniono komunikaty sprawdzania aktualizacji na bardziej zrozumiaĂ„Ä…Ă˘â‚¬Ĺˇe dla uĂ„Ä…Ă„Ëťytkownika.",
-                                             "Ustalono, Ă„Ä…Ă„Ëťe publiczna lista zmian w OTA ma byÄ‚â€žĂ˘â‚¬Ë‡ po polsku."
-                                         ]
-                         },
-                         {
-                             "version":  "Firmware 1.0.0.803 / Portal 1.0.0.606",
-                             "date":  "2026-06-19T23:53:20+01:00",
-                             "changes":  [
-                                             "Dopracowano modal aktualizacji GitHub OTA.",
-                                             "Dodano czytelniejsze informacje o wersjach firmware i portalu.",
-                                             "Poprawiono prezentacjÄ‚â€žĂ˘â€žË dostÄ‚â€žĂ˘â€žËpnych komponentĂ„â€šÄąâ€šw aktualizacji."
-                                         ]
-                         },
-                         {
-                             "version":  "Firmware 1.0.0.802 / Portal 1.0.0.605",
-                             "date":  "2026-06-19T23:42:20+01:00",
-                             "changes":  [
-                                             "Przeniesiono paczki OTA do osobnego publicznego repozytorium digiLedOta.",
-                                             "Zaktualizowano adresy manifestu i plikĂ„â€šÄąâ€šw binarnych dla aktualizacji z GitHuba."
-                                         ]
-                         },
-                         {
-                             "version":  "Firmware 1.0.0.800 / Portal 1.0.0.600",
-                             "date":  "2026-06-19T23:01:46+01:00",
-                             "changes":  [
-                                             "Przygotowano pierwszÄ‚â€žĂ˘â‚¬Â¦ testowÄ‚â€žĂ˘â‚¬Â¦ paczkÄ‚â€žĂ˘â€žË aktualizacji online przez GitHub.",
-                                             "Dodano manifest z wersjami, rozmiarami i sumami kontrolnymi plikĂ„â€šÄąâ€šw aktualizacji."
-                                         ]
-                         }
-                     ]
-    }
+  {
+    "version": "1.0.0.625",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.625",
+    "date": "2026-06-20T09:03:47+01:00",
+    "title": "Usuni?ty nag??wek i log MiLight",
+    "changes": [
+      "Widok Integracja MiLight nie pokazuje ju? dodatkowego g?rnego paska z nazw?, statusem i przyciskami.",
+      "Usuni?to panel logu MiLight wraz z obs?ug? w skrypcie portalu.",
+      "Wyczyszczono nieu?ywane style i teksty t?umacze? powi?zane z nag??wkiem oraz logiem MiLight."
+    ]
+  },
+  {
+    "version": "1.0.0.624",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.624",
+    "date": "2026-06-20T08:50:31+01:00",
+    "title": "Spójniejszy panel MiLight",
+    "changes": [
+      "Panel MiLight zachowuje pełny nowoczesny wygląd, ale ma spokojniejsze kolory i obramowania.",
+      "Promienie, cienie i akcenty zostały delikatnie zbliżone do reszty portalu.",
+      "Nie zmieniono działania uczenia pilotów, mapowania akcji ani diagnostyki."
+    ]
+  },
+  {
+    "version": "1.0.0.623",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.623",
+    "date": "2026-06-20T08:41:27+01:00",
+    "title": "PrzywrĂłcony wyglÄ…d MiLight",
+    "changes": [
+      "PrzywrĂłcono poprzedni peĹ‚ny wyglÄ…d zakĹ‚adki Integracja MiLight.",
+      "UsuniÄ™to spĹ‚aszczonÄ… warstwÄ™ stylistycznÄ…, ktĂłra zbyt mocno uproĹ›ciĹ‚a zakĹ‚adkÄ™.",
+      "Pozostawiono bez zmian dziaĹ‚anie uczenia pilotĂłw, mapowania akcji i diagnostyki."
+    ]
+  },
+  {
+    "version": "1.0.0.622",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.622",
+    "date": "2026-06-20T08:19:00+01:00",
+    "title": "SpÄ‚Ĺ‚jny wyglĂ„â€¦d panelu MiLight",
+    "changes": [
+      "Panel Integracja MiLight korzysta teraz z kolorÄ‚Ĺ‚w, obramowaÄąâ€ž i promieni spÄ‚Ĺ‚jnych z pozostaÄąâ€šymi kartami portalu.",
+      "Tryb jasny panelu MiLight nie wymusza juÄąÄ˝ ciĂ„â„˘ÄąÄ˝kiej ciemnej stylistyki.",
+      "UsuniĂ„â„˘to stary nadmiarowy blok CSS MiLight, zmniejszajĂ„â€¦c paczkĂ„â„˘ portalu."
+    ]
+  },
+  {
+    "product": "digiled-xiao-esp32s3",
+    "channel": "stable",
+    "releases": [
+      {
+        "version": "Firmware 1.0.0.807 / Portal 1.0.0.619",
+        "date": "2026-06-20T03:09:05+01:00",
+        "changes": [
+          "Przebudowano widok Integracja MiLight na nowy ciemny ukĂ„Ä…Ă˘â‚¬Ĺˇad Fluent/glass z hero, kartami i statystykami radia.",
+          "Dodano osobne stany widoku dla braku pilotĂ„â€šÄąâ€šw, trybu uczenia oraz zapisanych pilotĂ„â€šÄąâ€šw.",
+          "Zachowano obsĂ„Ä…Ă˘â‚¬ĹˇugÄ‚â€žĂ˘â€žË dodawania, anulowania uczenia, odĂ„Ä…Ă˘â‚¬ĹźwieĂ„Ä…Ă„Ëťania, usuwania pilotĂ„â€šÄąâ€šw, diagnostyki i mapowania akcji.",
+          "Poprawiono responsywnoĂ„Ä…Ă˘â‚¬ĹźÄ‚â€žĂ˘â‚¬Ë‡ panelu MiLight dla tabletĂ„â€šÄąâ€šw i telefonĂ„â€šÄąâ€šw."
+        ]
+      },
+      {
+        "version": "Firmware 1.0.0.807 / Portal 1.0.0.618",
+        "date": "2026-06-20T02:17:36+01:00",
+        "changes": [
+          "Poprawiono kolor przycisku zamkniÄ‚â€žĂ˘â€žËcia i komunikatu kopii ustawieĂ„Ä…Ă˘â‚¬Ĺľ w jasnym motywie.",
+          "PodglÄ‚â€žĂ˘â‚¬Â¦d wczytywania ustawieĂ„Ä…Ă˘â‚¬Ĺľ pokazuje teraz bardziej zrozumiaĂ„Ä…Ă˘â‚¬Ĺˇe nazwy sekcji i wartoĂ„Ä…Ă˘â‚¬Ĺźci.",
+          "Przebudowano paczkÄ‚â€žĂ˘â€žË portalu WWW z nowÄ‚â€žĂ˘â‚¬Â¦ wersjÄ‚â€žĂ˘â‚¬Â¦ zasobĂ„â€šÄąâ€šw."
+        ]
+      },
+      {
+        "version": "Firmware 1.0.0.807 / Portal 1.0.0.617",
+        "date": "2026-06-20T02:03:37+01:00",
+        "changes": [
+          "Testowo podbito wersjÄ‚â€žĂ˘â€žË firmware i portalu WWW, aby sprawdziÄ‚â€žĂ˘â‚¬Ë‡ wykrywanie aktualizacji online.",
+          "Paczki OTA zostaĂ„Ä…Ă˘â‚¬Ĺˇy ponownie zbudowane i opublikowane w repozytorium digiLedOta."
+        ]
+      },
+      {
+        "version": "Firmware 1.0.0.806 / Portal 1.0.0.616",
+        "date": "2026-06-20T01:56:29+01:00",
+        "changes": [
+          "Przed aktualizacjÄ‚â€žĂ˘â‚¬Â¦ filesystemu urzÄ‚â€žĂ˘â‚¬Â¦dzenie pokazuje listÄ‚â€žĂ˘â€žË plikĂ„â€šÄąâ€šw LittleFS, ktĂ„â€šÄąâ€šre zostanÄ‚â€žĂ˘â‚¬Â¦ nadpisane.",
+          "Dodano moĂ„Ä…Ă„ËťliwoĂ„Ä…Ă˘â‚¬ĹźÄ‚â€žĂ˘â‚¬Ë‡ pobrania kopii ustawieĂ„Ä…Ă˘â‚¬Ĺľ digiLed.json przed instalacjÄ‚â€žĂ˘â‚¬Â¦ portalu WWW.",
+          "Eksport i import ustawieĂ„Ä…Ă˘â‚¬Ĺľ obejmuje teraz piloty MiLight, mapowanie akcji, reguĂ„Ä…Ă˘â‚¬Ĺˇy live i tryby pĂ„Ä…Ă˘â‚¬Ĺˇytki dotykowej.",
+          "WyrĂ„â€šÄąâ€šwnano obramowania ikon aktualizacji online i lokalnej oraz poprawiono hover przyciskĂ„â€šÄąâ€šw w jasnym motywie.",
+          "Dodano wersjonowanie i no-cache dla gĂ„Ä…Ă˘â‚¬ĹˇĂ„â€šÄąâ€šwnych plikĂ„â€šÄąâ€šw portalu, aby po OTA nie Ă„Ä…Ă˘â‚¬ĹˇadowaĂ„Ä…Ă˘â‚¬Ĺˇ siÄ‚â€žĂ˘â€žË stary skrypt."
+        ]
+      },
+      {
+        "version": "Portal 1.0.0.613",
+        "date": "2026-06-20T01:17:50+01:00",
+        "changes": [
+          "Ujednolicono wyglÄ‚â€žĂ˘â‚¬Â¦d karty Aktualizacja online z kartÄ‚â€žĂ˘â‚¬Â¦ Aktualizacja lokalna.",
+          "Dodano datÄ‚â€žĂ˘â€žË i godzinÄ‚â€žĂ˘â€žË przygotowania pakietu w manifeĂ„Ä…Ă˘â‚¬Ĺźcie aktualizacji.",
+          "Dodano osobny plik historii zmian dla aktualizacji online."
+        ]
+      },
+      {
+        "version": "Portal 1.0.0.610",
+        "date": "2026-06-20T01:01:34+01:00",
+        "changes": [
+          "Spinner aktualizacji online jest mniejszy i znajduje siÄ‚â€žĂ˘â€žË przy przycisku sprawdzania aktualizacji.",
+          "Stan pracy nie zwiÄ‚â€žĂ˘â€žËksza juĂ„Ä…Ă„Ëť wysokoĂ„Ä…Ă˘â‚¬Ĺźci karty Aktualizacja online."
+        ]
+      },
+      {
+        "version": "Portal 1.0.0.609",
+        "date": "2026-06-20T00:51:20+01:00",
+        "changes": [
+          "UsuniÄ‚â€žĂ˘â€žËto dublowanie komunikatĂ„â€šÄąâ€šw przy braku aktualizacji.",
+          "Kafelki Firmware i Portal WWW sÄ‚â€žĂ˘â‚¬Â¦ ukryte do czasu sprawdzenia aktualizacji.",
+          "Pill Online nie jest juĂ„Ä…Ă„Ëť pokazywany w normalnym stanie karty."
+        ]
+      },
+      {
+        "version": "Portal 1.0.0.608",
+        "date": "2026-06-20T00:39:28+01:00",
+        "changes": [
+          "Przeniesiono aktualizacjÄ‚â€žĂ˘â€žË online z modala do osobnej karty w zakĂ„Ä…Ă˘â‚¬Ĺˇadce Oprogramowanie.",
+          "Oddzielono aktualizacjÄ‚â€žĂ˘â€žË online od rÄ‚â€žĂ˘â€žËcznej aktualizacji lokalnej.",
+          "Zachowano wspĂ„â€šÄąâ€šlny ukĂ„Ä…Ă˘â‚¬Ĺˇad zakĂ„Ä…Ă˘â‚¬Ĺˇadki Oprogramowanie."
+        ]
+      },
+      {
+        "version": "Portal 1.0.0.607",
+        "date": "2026-06-20T00:15:46+01:00",
+        "changes": [
+          "Lista zmian jest otwierana przyciskiem zamiast zajmowaÄ‚â€žĂ˘â‚¬Ë‡ miejsce od razu po sprawdzeniu aktualizacji.",
+          "Zmieniono komunikaty sprawdzania aktualizacji na bardziej zrozumiaĂ„Ä…Ă˘â‚¬Ĺˇe dla uĂ„Ä…Ă„Ëťytkownika.",
+          "Ustalono, Ă„Ä…Ă„Ëťe publiczna lista zmian w OTA ma byÄ‚â€žĂ˘â‚¬Ë‡ po polsku."
+        ]
+      },
+      {
+        "version": "Firmware 1.0.0.803 / Portal 1.0.0.606",
+        "date": "2026-06-19T23:53:20+01:00",
+        "changes": [
+          "Dopracowano modal aktualizacji GitHub OTA.",
+          "Dodano czytelniejsze informacje o wersjach firmware i portalu.",
+          "Poprawiono prezentacjÄ‚â€žĂ˘â€žË dostÄ‚â€žĂ˘â€žËpnych komponentĂ„â€šÄąâ€šw aktualizacji."
+        ]
+      },
+      {
+        "version": "Firmware 1.0.0.802 / Portal 1.0.0.605",
+        "date": "2026-06-19T23:42:20+01:00",
+        "changes": [
+          "Przeniesiono paczki OTA do osobnego publicznego repozytorium digiLedOta.",
+          "Zaktualizowano adresy manifestu i plikĂ„â€šÄąâ€šw binarnych dla aktualizacji z GitHuba."
+        ]
+      },
+      {
+        "version": "Firmware 1.0.0.800 / Portal 1.0.0.600",
+        "date": "2026-06-19T23:01:46+01:00",
+        "changes": [
+          "Przygotowano pierwszÄ‚â€žĂ˘â‚¬Â¦ testowÄ‚â€žĂ˘â‚¬Â¦ paczkÄ‚â€žĂ˘â€žË aktualizacji online przez GitHub.",
+          "Dodano manifest z wersjami, rozmiarami i sumami kontrolnymi plikĂ„â€šÄąâ€šw aktualizacji."
+        ]
+      }
+    ]
+  }
 ]

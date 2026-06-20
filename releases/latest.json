@@ -1,24 +1,24 @@
 {
-    "product":  "digiled-xiao-esp32s3",
-    "channel":  "stable",
-    "firmware_version":  "1.0.0.807",
-    "filesystem_version":  "1.0.0.624",
-    "notes":  "Dopasowano panel Integracja MiLight do stylistyki portalu bez zmiany jego układu.",
-    "changes":  [
-                    "Zachowano pełny nowoczesny układ panelu MiLight z dużym nagłówkiem i kartami.",
-                    "Stonowano tła, obramowania, cienie i akcenty, aby panel lepiej pasował do pozostałych zakładek portalu.",
-                    "Delikatnie ujednolicono promienie narożników i rozmiary elementów bez spłaszczania całej zakładki."
-                ],
-    "firmware":  {
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1653296,
-                     "md5":  "216B6714B64FB18D010D7A01D183180C"
-                 },
-    "filesystem":  {
-                       "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
-                       "size":  4194304,
-                       "md5":  "399A8CA3BFC72D6B4F9CB28B484ACC11"
-                   },
-    "build_time":  "2026-06-20T08:50:31+01:00",
-    "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
+  "product": "digiled-xiao-esp32s3",
+  "channel": "stable",
+  "firmware_version": "1.0.0.807",
+  "filesystem_version": "1.0.0.625",
+  "notes": "Usuni?to g?rny nag??wek oraz panel logu z widoku Integracja MiLight.",
+  "changes": [
+    "Widok Integracja MiLight nie pokazuje ju? dodatkowego g?rnego paska z nazw?, statusem i przyciskami.",
+    "Usuni?to panel logu MiLight wraz z obs?ug? w skrypcie portalu.",
+    "Wyczyszczono nieu?ywane style i teksty t?umacze? powi?zane z nag??wkiem oraz logiem MiLight."
+  ],
+  "firmware": {
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+    "size": 1653296,
+    "md5": "216B6714B64FB18D010D7A01D183180C"
+  },
+  "filesystem": {
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+    "size": 4194304,
+    "md5": "1FE4693D83F1EFC2BB3D9B1C6C24E14D"
+  },
+  "build_time": "2026-06-20T09:03:47+01:00",
+  "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
