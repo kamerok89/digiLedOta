@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.0.0.637",
+    "firmware_version": "1.0.0.809",
+    "filesystem_version": "1.0.0.637",
+    "date": "2026-06-20T12:28:33+01:00",
+    "title": "Nowe mapowanie akcji MiLight",
+    "changes": [
+      "Usunięto sekcję Sterowanie live z portalu i firmware.",
+      "Mapowanie akcji MiLight ma teraz pola: Power ON, Power OFF, Szybciej, Wolniej, Następny efekt, Nasycenie, Jasność oraz Grupa 1-8 ON/OFF.",
+      "Jasność i nasycenie działają teraz przez normalne mapowanie akcji, bez niezależnych reguł live.",
+      "Domyślne akcje ustawiają grupy pilota jako przełączanie odpowiadających scen."
+    ]
+  },
+  {
     "version": "1.0.0.636",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.636",

@@ -1,24 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.807",
-  "filesystem_version": "1.0.0.636",
-  "notes": "Podbito wersję portalu, aby przetestować ikonę dostępnej aktualizacji w nagłówku.",
+  "firmware_version": "1.0.0.809",
+  "filesystem_version": "1.0.0.637",
+  "notes": "Przebudowano mapowanie akcji MiLight: usunięto osobne sterowanie live i przeniesiono jasność, nasycenie oraz grupy do zwykłych pól mapowania.",
   "changes": [
-    "Portal ma nową wersję testową do sprawdzenia ikony aktualizacji U+EA8F.",
-    "Po połączeniu z Wi-Fi urządzenie powinno wykryć nowszy filesystem i pokazać ikonę w górnym pasku.",
-    "Kliknięcie ikony nadal przenosi do zakładki Oprogramowanie."
+    "Usunięto sekcję Sterowanie live z portalu i firmware.",
+    "Mapowanie akcji MiLight ma teraz pola: Power ON, Power OFF, Szybciej, Wolniej, Następny efekt, Nasycenie, Jasność oraz Grupa 1-8 ON/OFF.",
+    "Jasność i nasycenie działają teraz przez normalne mapowanie akcji, bez niezależnych reguł live.",
+    "Domyślne akcje ustawiają grupy pilota jako przełączanie odpowiadających scen."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1653296,
-    "md5": "216B6714B64FB18D010D7A01D183180C"
+    "size": 1651840,
+    "md5": "64A0AAA5BF9C7F07486EC2C2ABC3565F"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "39792FA1EE14A6161DA5338192873C4D"
+    "md5": "0989AA59F2FE7EBF6CB17A644BDBAAB1"
   },
-  "build_time": "2026-06-20T11:54:44+01:00",
+  "build_time": "2026-06-20T12:28:33+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
