@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.638",
+    "firmware_version": "1.0.0.810",
+    "filesystem_version": "1.0.0.638",
+    "date": "2026-06-20T12:44:25+01:00",
+    "title": "Osobne ON i OFF dla grup MiLight",
+    "changes": [
+      "Każda grupa pilota MiLight ma teraz dwa osobne pola mapowania: Grupa N ON oraz Grupa N OFF.",
+      "Domyślne akcje grup ustawiają odpowiednio włączenie i wyłączenie odpowiadającej sceny.",
+      "Stary zapis ON/OFF zostaje obsłużony awaryjnie, ale nowy zapis używa już osobnych akcji."
+    ]
+  },
+  {
     "version": "1.0.0.637",
     "firmware_version": "1.0.0.809",
     "filesystem_version": "1.0.0.637",

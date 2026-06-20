@@ -1,25 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.809",
-  "filesystem_version": "1.0.0.637",
-  "notes": "Przebudowano mapowanie akcji MiLight: usunięto osobne sterowanie live i przeniesiono jasność, nasycenie oraz grupy do zwykłych pól mapowania.",
+  "firmware_version": "1.0.0.810",
+  "filesystem_version": "1.0.0.638",
+  "notes": "Rozdzielono mapowanie grup MiLight na osobne akcje ON i OFF dla każdej grupy.",
   "changes": [
-    "Usunięto sekcję Sterowanie live z portalu i firmware.",
-    "Mapowanie akcji MiLight ma teraz pola: Power ON, Power OFF, Szybciej, Wolniej, Następny efekt, Nasycenie, Jasność oraz Grupa 1-8 ON/OFF.",
-    "Jasność i nasycenie działają teraz przez normalne mapowanie akcji, bez niezależnych reguł live.",
-    "Domyślne akcje ustawiają grupy pilota jako przełączanie odpowiadających scen."
+    "Każda grupa pilota MiLight ma teraz dwa osobne pola mapowania: Grupa N ON oraz Grupa N OFF.",
+    "Domyślne akcje grup ustawiają odpowiednio włączenie i wyłączenie odpowiadającej sceny.",
+    "Stary zapis ON/OFF zostaje obsłużony awaryjnie, ale nowy zapis używa już osobnych akcji."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1651840,
-    "md5": "64A0AAA5BF9C7F07486EC2C2ABC3565F"
+    "size": 1651968,
+    "md5": "9BA36B1CEA5508762528AFF93A815692"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "0989AA59F2FE7EBF6CB17A644BDBAAB1"
+    "md5": "3243649AF858485121E3173335276B83"
   },
-  "build_time": "2026-06-20T12:28:33+01:00",
+  "build_time": "2026-06-20T12:44:25+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
