@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.641",
+    "firmware_version": "1.0.0.811",
+    "filesystem_version": "1.0.0.641",
+    "date": "2026-06-20T17:17:04+01:00",
+    "title": "Czytelniejsze kafelki aktualizacji",
+    "changes": [
+      "Kafelki Firmware i Filesystem pokazują teraz opis stanu, aktualną wersję i rozmiar bez nieaktywnego przycisku, gdy nie ma aktualizacji.",
+      "Gdy aktualizacja jest dostępna, kafelek pokazuje aktualną oraz dostępną wersję i dopiero wtedy wyświetla przycisk Aktualizuj.",
+      "Odświeżono cache-bustery CSS i JS, aby po OTA portal pobierał najnowsze zasoby."
+    ]
+  },
+  {
     "version": "1.0.0.640",
     "firmware_version": "1.0.0.811",
     "filesystem_version": "1.0.0.640",

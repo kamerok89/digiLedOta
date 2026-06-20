@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.811",
-  "filesystem_version": "1.0.0.640",
+  "filesystem_version": "1.0.0.641",
   "notes": "Kafelki aktualizacji online pokazują teraz jasny status dla Firmware i Filesystem oraz przycisk tylko wtedy, gdy aktualizacja jest dostępna.",
   "changes": [
     "Kafelki Firmware i Filesystem pokazują teraz opis stanu, aktualną wersję i rozmiar bez nieaktywnego przycisku, gdy nie ma aktualizacji.",
     "Gdy aktualizacja jest dostępna, kafelek pokazuje aktualną oraz dostępną wersję i dopiero wtedy wyświetla przycisk Aktualizuj.",
-    "Usunięto techniczne chipy BIN i LittleFS z widocznego układu kafelków aktualizacji online."
+    "Odświeżono cache-bustery CSS i JS, aby po OTA portal pobierał najnowsze zasoby."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "89A15011D2F7ECFA39263951AAA2AC52"
+    "md5": "1358577EF5F526B4873CCFD06F43A55E"
   },
-  "build_time": "2026-06-20T17:15:11+01:00",
+  "build_time": "2026-06-20T17:17:04+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
