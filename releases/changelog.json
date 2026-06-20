@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.630",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.630",
+    "date": "2026-06-20T09:11:03+01:00",
+    "title": "Aktywność pilota w modalu",
+    "changes": [
+      "Każdy zapisany pilot ma nowy przycisk aktywności z ikoną E946 obok ustawień i usuwania.",
+      "Główny kafelek „Aktywność pilota” został usunięty z sekcji MiLight.",
+      "Ostatnia ramka i ostatnia akcja pilota są teraz pokazane w kompaktowym modalu dla wybranego pilota."
+    ]
+  },
+  {
     "version": "1.0.0.629",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.629",
