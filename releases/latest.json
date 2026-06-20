@@ -2,12 +2,12 @@
     "product":  "digiled-xiao-esp32s3",
     "channel":  "stable",
     "firmware_version":  "1.0.0.807",
-    "filesystem_version":  "1.0.0.623",
-    "notes":  "Przywrócono poprzedni, pełny wygląd panelu Integracja MiLight.",
+    "filesystem_version":  "1.0.0.624",
+    "notes":  "Dopasowano panel Integracja MiLight do stylistyki portalu bez zmiany jego układu.",
     "changes":  [
-                    "Cofnięto spłaszczoną wersję panelu Integracja MiLight.",
-                    "Przywrócono poprzedni ciemny układ Fluent/glass z dużym nagłówkiem, kartami i statystykami.",
-                    "Zachowano dotychczasową logikę MiLight, mapowanie akcji i obsługę pilotów."
+                    "Zachowano pełny nowoczesny układ panelu MiLight z dużym nagłówkiem i kartami.",
+                    "Stonowano tła, obramowania, cienie i akcenty, aby panel lepiej pasował do pozostałych zakładek portalu.",
+                    "Delikatnie ujednolicono promienie narożników i rozmiary elementów bez spłaszczania całej zakładki."
                 ],
     "firmware":  {
                      "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
     "filesystem":  {
                        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
                        "size":  4194304,
-                       "md5":  "84852AEFEC698A0C5D54DCE85C0CF6D0"
+                       "md5":  "399A8CA3BFC72D6B4F9CB28B484ACC11"
                    },
-    "build_time":  "2026-06-20T08:41:27+01:00",
+    "build_time":  "2026-06-20T08:50:31+01:00",
     "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
