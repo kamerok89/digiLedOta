@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.642",
+    "firmware_version": "1.0.0.811",
+    "filesystem_version": "1.0.0.642",
+    "date": "2026-06-20T17:28:08+01:00",
+    "title": "Ładniejszy postęp aktualizacji online",
+    "changes": [
+      "Proces aktualizacji online pokazuje teraz fazę, procent i czytelny transfer w MB zamiast surowych bajtów.",
+      "Pasek postępu dostał osobny nagłówek, wartość procentową i linię szczegółów z nazwą pliku oraz rozmiarem.",
+      "Komunikat podczas pobierania i zapisywania pliku jest spokojniejszy wizualnie i spójny z kafelkami aktualizacji."
+    ]
+  },
+  {
     "version": "1.0.0.641",
     "firmware_version": "1.0.0.811",
     "filesystem_version": "1.0.0.641",
