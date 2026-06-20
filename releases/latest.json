@@ -3,11 +3,11 @@
   "channel": "stable",
   "firmware_version": "1.0.0.807",
   "filesystem_version": "1.0.0.625",
-  "notes": "Usuni?to g?rny nag??wek oraz panel logu z widoku Integracja MiLight.",
+  "notes": "Usunięto górny nagłówek oraz panel logu z widoku Integracja MiLight.",
   "changes": [
-    "Widok Integracja MiLight nie pokazuje ju? dodatkowego g?rnego paska z nazw?, statusem i przyciskami.",
-    "Usuni?to panel logu MiLight wraz z obs?ug? w skrypcie portalu.",
-    "Wyczyszczono nieu?ywane style i teksty t?umacze? powi?zane z nag??wkiem oraz logiem MiLight."
+    "Widok Integracja MiLight nie pokazuje już dodatkowego górnego paska z nazwą, statusem i przyciskami.",
+    "Usunięto panel logu MiLight wraz z obsługą w skrypcie portalu.",
+    "Wyczyszczono nieużywane style i teksty tłumaczeń powiązane z nagłówkiem oraz logiem MiLight."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
