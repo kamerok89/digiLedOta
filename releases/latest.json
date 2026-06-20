@@ -2,11 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.811",
-  "filesystem_version": "1.0.0.644",
-  "notes": "Wersja testowa portalu do sprawdzenia procesu aktualizacji online.",
+  "filesystem_version": "1.0.0.645",
+  "notes": "Usunięto pill Gotowa i odchudzono paczkę portalu z nieużywanych plików CSS.",
   "changes": [
-    "Podbito wersję portalu do testów wykrywania i instalacji aktualizacji online.",
-    "Paczka filesystemu zawiera aktualne zasoby portalu oraz cache-bustery ustawione na wersję 1.0.0.644."
+    "Usunięto górny pill Gotowa z karty aktualizacji online.",
+    "Źródłowe moduły CSS przeniesiono poza katalog data, dzięki czemu nie trafiają już do obrazu LittleFS.",
+    "Usunięto nieużywane pliki styles.min.css oraz styles.min.css.gz z paczki portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -16,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "CB6C2193572DB46894845519E49C7A74"
+    "md5": "F35261DEB2AE3ADA73FA79E90059E140"
   },
-  "build_time": "2026-06-20T17:52:28+01:00",
+  "build_time": "2026-06-20T18:06:01+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

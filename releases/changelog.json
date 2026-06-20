@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.645",
+    "firmware_version": "1.0.0.811",
+    "filesystem_version": "1.0.0.645",
+    "date": "2026-06-20T18:06:01+01:00",
+    "title": "Odchudzona paczka portalu",
+    "changes": [
+      "Usunięto górny pill Gotowa z karty aktualizacji online.",
+      "Źródłowe moduły CSS przeniesiono poza katalog data, dzięki czemu nie trafiają już do obrazu LittleFS.",
+      "Usunięto nieużywane pliki styles.min.css oraz styles.min.css.gz z paczki portalu."
+    ]
+  },
+  {
     "version": "1.0.0.644",
     "firmware_version": "1.0.0.811",
     "filesystem_version": "1.0.0.644",
