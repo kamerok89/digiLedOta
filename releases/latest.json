@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.810",
+  "firmware_version": "1.0.0.811",
   "filesystem_version": "1.0.0.638",
-  "notes": "Rozdzielono mapowanie grup MiLight na osobne akcje ON i OFF dla każdej grupy.",
+  "notes": "Run FX pozostaje aktywny podczas Start FX i Stop FX, bez resetowania animacji przy wyłączaniu sceny.",
   "changes": [
-    "Każda grupa pilota MiLight ma teraz dwa osobne pola mapowania: Grupa N ON oraz Grupa N OFF.",
-    "Domyślne akcje grup ustawiają odpowiednio włączenie i wyłączenie odpowiadającej sceny.",
-    "Stary zapis ON/OFF zostaje obsłużony awaryjnie, ale nowy zapis używa już osobnych akcji."
+    "Faza Run FX jest dalej liczona podczas efektu startu i efektu wyłączania.",
+    "Stop FX wygasza aktualnie działającą animację, zamiast zaczynać Run FX od początku.",
+    "Komendy wyłączania scen nie kasują już tymczasowego Run FX przed rozpoczęciem wygaszania."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1651968,
-    "md5": "9BA36B1CEA5508762528AFF93A815692"
+    "size": 1651984,
+    "md5": "B742BFA470DA4C5F0AC648B740A4C7A9"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "3243649AF858485121E3173335276B83"
   },
-  "build_time": "2026-06-20T12:44:25+01:00",
+  "build_time": "2026-06-20T13:06:06+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

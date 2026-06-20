@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.811",
+    "firmware_version": "1.0.0.811",
+    "filesystem_version": "1.0.0.638",
+    "date": "2026-06-20T13:06:06+01:00",
+    "title": "Płynny Stop FX bez resetowania animacji",
+    "changes": [
+      "Faza Run FX jest dalej liczona podczas efektu startu i efektu wyłączania.",
+      "Stop FX wygasza aktualnie działającą animację, zamiast zaczynać Run FX od początku.",
+      "Komendy wyłączania scen nie kasują już tymczasowego Run FX przed rozpoczęciem wygaszania."
+    ]
+  },
+  {
     "version": "1.0.0.638",
     "firmware_version": "1.0.0.810",
     "filesystem_version": "1.0.0.638",
