@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.643",
+    "firmware_version": "1.0.0.811",
+    "filesystem_version": "1.0.0.643",
+    "date": "2026-06-20T17:43:19+01:00",
+    "title": "Zwarty układ kafelków aktualizacji online",
+    "changes": [
+      "Kafelki aktualizacji online układają treść od góry, bez rozciągania tekstu na całą wysokość kafelka.",
+      "Gdy aktualizacja dotyczy tylko portalu, kafelek Firmware pozostaje zwarty i pokazuje wersję oraz rozmiar jeden pod drugim.",
+      "Zmniejszono odstępy między opisem, wersją i rozmiarem w kafelkach Firmware oraz Filesystem."
+    ]
+  },
+  {
     "version": "1.0.0.642",
     "firmware_version": "1.0.0.811",
     "filesystem_version": "1.0.0.642",

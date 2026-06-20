@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.811",
-  "filesystem_version": "1.0.0.642",
-  "notes": "Proces aktualizacji online pokazuje teraz ładniejszy pasek postępu z fazą, procentem i transferem w MB.",
+  "filesystem_version": "1.0.0.643",
+  "notes": "Kafelki aktualizacji online są teraz bardziej zwarte, gdy aktualizacja dotyczy tylko jednego komponentu.",
   "changes": [
-    "Proces aktualizacji online pokazuje teraz fazę, procent i czytelny transfer w MB zamiast surowych bajtów.",
-    "Pasek postępu dostał osobny nagłówek, wartość procentową i linię szczegółów z nazwą pliku oraz rozmiarem.",
-    "Komunikat podczas pobierania i zapisywania pliku jest spokojniejszy wizualnie i spójny z kafelkami aktualizacji."
+    "Kafelki aktualizacji online układają treść od góry, bez rozciągania tekstu na całą wysokość kafelka.",
+    "Gdy aktualizacja dotyczy tylko portalu, kafelek Firmware pozostaje zwarty i pokazuje wersję oraz rozmiar jeden pod drugim.",
+    "Zmniejszono odstępy między opisem, wersją i rozmiarem w kafelkach Firmware oraz Filesystem."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "C29E56A5527ACC7F64EFCEF47574DF93"
+    "md5": "28E6709914D529E9DBDE07B8991802A2"
   },
-  "build_time": "2026-06-20T17:28:08+01:00",
+  "build_time": "2026-06-20T17:43:19+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
