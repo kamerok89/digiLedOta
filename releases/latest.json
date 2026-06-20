@@ -5,8 +5,8 @@
   "filesystem_version": "1.0.0.617",
   "notes": "Testowe podbicie wersji OTA do sprawdzenia mechanizmu aktualizacji.",
   "changes": [
-    "Testowo podbito wersj? firmware i portalu WWW, aby sprawdzi? wykrywanie aktualizacji online.",
-    "Paczki OTA zosta?y ponownie zbudowane i opublikowane w repozytorium digiLedOta."
+    "Testowo podbito wersję firmware i portalu WWW, aby sprawdzić wykrywanie aktualizacji online.",
+    "Paczki OTA zostały ponownie zbudowane i opublikowane w repozytorium digiLedOta."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
