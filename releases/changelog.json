@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.646",
+    "firmware_version": "1.0.0.811",
+    "filesystem_version": "1.0.0.646",
+    "date": "2026-06-20T18:26:10+01:00",
+    "title": "Spójniejszy kafelek pilota MiLight",
+    "changes": [
+      "Podgląd zapisanego pilota MiLight nie ma już osobnej ramki, gradientu ani cienia.",
+      "Ikona pilota jest teraz osadzona bezpośrednio w kafelku, zgodnie z resztą stylistyki portalu.",
+      "Odświeżono wygenerowany CSS i cache-bustery zasobów portalu."
+    ]
+  },
+  {
     "version": "1.0.0.645",
     "firmware_version": "1.0.0.811",
     "filesystem_version": "1.0.0.645",

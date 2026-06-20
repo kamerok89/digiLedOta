@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.811",
-  "filesystem_version": "1.0.0.645",
-  "notes": "Usunięto pill Gotowa i odchudzono paczkę portalu z nieużywanych plików CSS.",
+  "filesystem_version": "1.0.0.646",
+  "notes": "Usunięto osobne tło pod ikoną zapisanego pilota MiLight, aby kafelek był spójniejszy z resztą portalu.",
   "changes": [
-    "Usunięto górny pill Gotowa z karty aktualizacji online.",
-    "Źródłowe moduły CSS przeniesiono poza katalog data, dzięki czemu nie trafiają już do obrazu LittleFS.",
-    "Usunięto nieużywane pliki styles.min.css oraz styles.min.css.gz z paczki portalu."
+    "Podgląd zapisanego pilota MiLight nie ma już osobnej ramki, gradientu ani cienia.",
+    "Ikona pilota jest teraz osadzona bezpośrednio w kafelku, zgodnie z resztą stylistyki portalu.",
+    "Odświeżono wygenerowany CSS i cache-bustery zasobów portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "F35261DEB2AE3ADA73FA79E90059E140"
+    "md5": "30176AD6EF15432A9836AA90246327AA"
   },
-  "build_time": "2026-06-20T18:06:01+01:00",
+  "build_time": "2026-06-20T18:26:10+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
