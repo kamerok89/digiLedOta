@@ -2,12 +2,11 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.803",
-  "filesystem_version": "1.0.0.609",
-  "notes": "Karta Aktualizacja online została uproszczona: bez dublowania komunikatów, bez pilla Online i bez kafelków przed sprawdzeniem aktualizacji.",
+  "filesystem_version": "1.0.0.610",
+  "notes": "Spinner aktualizacji online został przeniesiony do nagłówka karty i zmniejszony, aby nie zwiększał wysokości kafelka.",
   "changes": [
-    "Usunięto dublowanie komunikatów przy braku aktualizacji.",
-    "Kafelki Firmware i Portal WWW są ukryte do czasu sprawdzenia aktualizacji.",
-    "Pill Online nie jest już pokazywany w normalnym stanie karty."
+    "Spinner aktualizacji online jest mniejszy i znajduje się przy przycisku sprawdzania aktualizacji.",
+    "Stan pracy nie zwiększa już wysokości karty Aktualizacja online."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,6 +16,6 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "60592EFAC3F542741A1DEDA6B3AB5D66"
+    "md5": "E882591DFF9FC25AE27BD615B3674B81"
   }
 }
