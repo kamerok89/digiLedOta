@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.812",
-  "filesystem_version": "1.0.0.650",
-  "notes": "Naprawiono obsługę pól dotykowych pilota MiLight FUT092 oraz odłączono chwilowo sterowanie temperaturą barwową.",
+  "firmware_version": "1.0.0.813",
+  "filesystem_version": "1.0.0.651",
+  "notes": "Dodano obsługę temperatury białego koloru dla pilota MiLight oraz nowy wiersz mapowania akcji.",
   "changes": [
-    "Naprawiono mapowanie pól dotykowych pilota FUT092: płytka nasycenia steruje nasyceniem, a płytka jasności steruje jasnością.",
-    "Płytka temperatury barwowej/CCT została chwilowo odłączona od akcji, żeby nie zmieniała już nasycenia.",
-    "Dodano migrację starych mapowań MiLight, która przestawia błędne wpisy jasności/nasycenia i usuwa dawne podpięcie CCT pod nasycenie."
+    "Dodano w mapowaniu MiLight nowe combo Temperatura białego koloru z domyślną akcją regulacji temperatury bieli.",
+    "Sterowanie temperaturą bieli przełącza scenę w tryb białego koloru i miksuje ciepły żółty odcień z neutralną bielą.",
+    "Ruszenie pierścienia koloru wychodzi z trybu bieli i przywraca kolor z zapamiętaną saturacją."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1652048,
-    "md5": "08405113A7D0BD1729BB04A84D2BF831"
+    "size": 1653584,
+    "md5": "0DB33F01267CE11051A60A6B6524BF0D"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "9B6D5DC5D6057290FF51EDFFBB9E519D"
+    "md5": "690DEDA575254C4C800C8FA891E76ECF"
   },
-  "build_time": "2026-06-20T20:48:19+01:00",
+  "build_time": "2026-06-20T21:08:49+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

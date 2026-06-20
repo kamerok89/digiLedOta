@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.651",
+    "firmware_version": "1.0.0.813",
+    "filesystem_version": "1.0.0.651",
+    "date": "2026-06-20T21:08:49+01:00",
+    "title": "Temperatura białego koloru z pilota MiLight",
+    "changes": [
+      "Dodano w mapowaniu MiLight nowe combo Temperatura białego koloru z domyślną akcją regulacji temperatury bieli.",
+      "Sterowanie temperaturą bieli przełącza scenę w tryb białego koloru i miksuje ciepły żółty odcień z neutralną bielą.",
+      "Ruszenie pierścienia koloru wychodzi z trybu bieli i przywraca kolor z zapamiętaną saturacją."
+    ]
+  },
+  {
     "version": "1.0.0.650",
     "firmware_version": "1.0.0.812",
     "filesystem_version": "1.0.0.650",
