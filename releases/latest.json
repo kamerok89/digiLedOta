@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.807",
-  "filesystem_version": "1.0.0.628",
-  "notes": "Wyrównano układ kart MiLight i dopracowano widok po dodaniu pilota.",
+  "filesystem_version": "1.0.0.629",
+  "notes": "Poprawiono wysokość karty zapisanego pilota i skrócono podsumowanie po dodaniu pilota.",
   "changes": [
-    "Karty dodawania pilota, zapisanych pilotów i radia mają teraz spójniejsze wyrównanie.",
-    "Sekcja radia lepiej trzyma wysokość rzędu i nie odstaje od karty dodawania.",
-    "Widok po dodaniu pilota ma czytelniejszą kartę ostatnio wykrytej ramki oraz równiejszy panel zapisanych pilotów."
+    "Karta zapisanego pilota zachowuje naturalną wysokość i nie rozciąga się na cały kafelek.",
+    "Podsumowanie „Pilot dodany” pokazuje tylko protokół, ID pilota oraz RAW.",
+    "Widok MiLight jest czytelniejszy po dodaniu pilota i lepiej wykorzystuje miejsce w panelu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "258725C7F2608B4D93F267198F14A182"
+    "md5": "A0FAFB0BAD875F05B00777AFABB46FAA"
   },
-  "build_time": "2026-06-20T08:41:13+01:00",
+  "build_time": "2026-06-20T08:52:45+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

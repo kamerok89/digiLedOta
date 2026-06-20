@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.629",
+    "firmware_version": "1.0.0.807",
+    "filesystem_version": "1.0.0.629",
+    "date": "2026-06-20T08:52:45+01:00",
+    "title": "Poprawiony widok zapisanych pilotów",
+    "changes": [
+      "Karta zapisanego pilota zachowuje naturalną wysokość i nie rozciąga się na cały kafelek.",
+      "Podsumowanie „Pilot dodany” pokazuje tylko protokół, ID pilota oraz RAW.",
+      "Widok MiLight jest czytelniejszy po dodaniu pilota i lepiej wykorzystuje miejsce w panelu."
+    ]
+  },
+  {
     "version": "1.0.0.628",
     "firmware_version": "1.0.0.807",
     "filesystem_version": "1.0.0.628",
