@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.677",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.677",
+      "date": "2026-06-21T17:54:50+01:00",
+      "title": "Czytelne błędy sprawdzania aktualizacji",
+      "changes": [
+        "Gdy nie uda się pobrać manifestu OTA, panel aktualizacji pokazuje komunikat o błędzie zamiast tekstu Urządzenie ma aktualną wersję.",
+        "Dodano osobny komunikat dla problemu z połączeniem internetowym oraz osobny dla błędu serwera aktualizacji.",
+        "Status błędu ma wyróżniony wygląd w jasnym i ciemnym motywie."
+      ]
+    },
+    {
       "version": "1.0.0.676",
       "firmware_version": "1.0.0.815",
       "filesystem_version": "1.0.0.676",

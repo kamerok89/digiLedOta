@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.676",
-  "notes": "Naprawiono ukrywanie wpisu Aktualizuj w menu LittleFS, gdy aktualizacja online nie jest dostępna.",
+  "filesystem_version": "1.0.0.677",
+  "notes": "Poprawiono komunikaty sprawdzania aktualizacji, aby błąd internetu lub serwera nie był pokazywany jako aktualna wersja.",
   "changes": [
-    "Wpis Aktualizuj w popup menu LittleFS jest teraz rzeczywiście ukrywany, gdy manifest nie pokazuje aktualizacji dla danego kafelka.",
-    "Pozostawiono istniejący mechanizm sprawdzania aktualizacji: menu korzysta ze stanu manifestu online dla Firmware i Filesystem.",
-    "Dodano dedykowaną regułę CSS dla ukrytych pozycji menu, aby display:flex nie nadpisywał atrybutu hidden."
+    "Gdy nie uda się pobrać manifestu OTA, panel aktualizacji pokazuje komunikat o błędzie zamiast tekstu Urządzenie ma aktualną wersję.",
+    "Dodano osobny komunikat dla problemu z połączeniem internetowym oraz osobny dla błędu serwera aktualizacji.",
+    "Status błędu ma wyróżniony wygląd w jasnym i ciemnym motywie."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "B6BE3E6F4610629559701370BF224525"
+    "md5": "234354BE168638CBE5E63F29F82B10ED"
   },
-  "build_time": "2026-06-21T16:42:21+01:00",
+  "build_time": "2026-06-21T17:54:50+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
