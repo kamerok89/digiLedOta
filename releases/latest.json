@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.814",
+  "firmware_version": "1.0.0.817",
   "filesystem_version": "1.0.0.678",
-  "notes": "Poprawiono zawijanie kafelków wyboru w sekcji Stan po restarcie przy węższym panelu konfiguracji.",
+  "notes": "Dodano captive portal dla wbudowanego AP, aby telefony po połączeniu wyświetlały powiadomienie Połącz z siecią i otwierały portal pod adresem 192.168.4.1.",
   "changes": [
-    "Kafelki Stan po restarcie korzystają teraz z responsywnej siatki auto-fit zamiast sztywnego układu zależnego tylko od szerokości okna.",
-    "Przy zbyt małej szerokości panelu kafelki przechodzą do kolejnego rzędu zamiast ściskać teksty w jednej linii.",
-    "Zachowano dotychczasowy wygląd kafelków i podgląd LED."
+    "SoftAP uruchamia teraz serwer DNS przechwytujący zapytania i kierujący je na adres portalu 192.168.4.1.",
+    "Dodano przekierowania dla testów captive portal używanych przez Androida, iOS, Windows i inne urządzenia.",
+    "Nieznane ścieżki HTTP spoza API przekierowują do portalu, a endpointy /api nadal zwracają JSON 404."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1653664,
-    "md5": "0BD1D4413BAA686D0E4DDDBBD8C4A62D"
+    "size": 1661344,
+    "md5": "01B5DAAEF1B1532CA898B511B223750D"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "725A728813B3A3D18FE9D2A84C834F5E"
   },
-  "build_time": "2026-06-21T18:44:22+01:00",
+  "build_time": "2026-06-21T19:15:02+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
