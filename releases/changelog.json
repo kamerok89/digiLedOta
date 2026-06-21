@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.673",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.673",
+      "date": "2026-06-21T15:07:07+01:00",
+      "title": "Poprawki jasnego motywu aktualizacji",
+      "changes": [
+        "Poprawiono modal aktualizacji filesystemu: akcja bez kopii jest po lewej i nazywa się Wyczyść ustawienia.",
+        "Wzmocniono kontrast statusowych pilli i przycisku Aktualizuj w jasnym motywie.",
+        "Dodano widoczny hover i focus dla obszarów LittleFS (C:), LittleFS (D:) i LittleFS (E:) w jasnym motywie."
+      ]
+    },
+    {
       "version": "1.0.0.672",
       "firmware_version": "1.0.0.815",
       "filesystem_version": "1.0.0.672",
