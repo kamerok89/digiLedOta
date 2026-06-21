@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.676",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.676",
+      "date": "2026-06-21T16:42:21+01:00",
+      "title": "Poprawka menu LittleFS",
+      "changes": [
+        "Wpis Aktualizuj w popup menu LittleFS jest teraz rzeczywiście ukrywany, gdy manifest nie pokazuje aktualizacji dla danego kafelka.",
+        "Pozostawiono istniejący mechanizm sprawdzania aktualizacji: menu korzysta ze stanu manifestu online dla Firmware i Filesystem.",
+        "Dodano dedykowaną regułę CSS dla ukrytych pozycji menu, aby display:flex nie nadpisywał atrybutu hidden."
+      ]
+    },
+    {
       "version": "1.0.0.675",
       "firmware_version": "1.0.0.815",
       "filesystem_version": "1.0.0.675",
