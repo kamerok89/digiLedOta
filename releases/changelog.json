@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.671",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.671",
+      "date": "2026-06-21T14:41:55+01:00",
+      "title": "Dedykowany styl przycisku Aktualizuj",
+      "changes": [
+        "Odpięto przycisk Aktualizuj w kafelkach aktualizacji od globalnych klas btn i primary.",
+        "Przycisk Aktualizuj ma teraz jeden dedykowany styl updateHubOnlineBtn z własnym resetem, rozmiarem i stanami hover/focus/disabled.",
+        "Usunięto konflikt z ogólnymi regułami #advCard.softwareCard .btn, które zawyżały wizualną wysokość przycisku."
+      ]
+    },
+    {
       "version": "1.0.0.670",
       "firmware_version": "1.0.0.815",
       "filesystem_version": "1.0.0.670",

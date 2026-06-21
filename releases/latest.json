@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.815",
-  "filesystem_version": "1.0.0.670",
-  "notes": "Naprawiono kodowanie polskich tekstów w menu aktualizacji.",
+  "filesystem_version": "1.0.0.671",
+  "notes": "Odizolowano styl przycisku Aktualizuj w widoku aktualizacji.",
   "changes": [
-    "Naprawiono polskie znaki w tekstach menu aktualizacji: Sprawdź aktualizacje, Ręczna aktualizacja i Przełącz Firmware.",
-    "Odświeżono skompresowany plik tłumaczeń pl.json.gz, aby portal po aktualizacji nie pokazywał znaków zapytania.",
-    "Zbudowano nowy obraz LittleFS z poprawionymi tłumaczeniami updatera."
+    "Odpięto przycisk Aktualizuj w kafelkach aktualizacji od globalnych klas btn i primary.",
+    "Przycisk Aktualizuj ma teraz jeden dedykowany styl updateHubOnlineBtn z własnym resetem, rozmiarem i stanami hover/focus/disabled.",
+    "Usunięto konflikt z ogólnymi regułami #advCard.softwareCard .btn, które zawyżały wizualną wysokość przycisku."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "AA455B03AC6B34D815B2675B6FAC16F1"
+    "md5": "A75602E44971C1ABB432B22CB7452CCE"
   },
-  "build_time": "2026-06-21T14:24:59+01:00",
+  "build_time": "2026-06-21T14:41:55+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
