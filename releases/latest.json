@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.815",
-  "filesystem_version": "1.0.0.674",
-  "notes": "Dodano akcję Aktualizuj do menu LittleFS, gdy dla danego kafelka jest dostępna aktualizacja online.",
+  "filesystem_version": "1.0.0.675",
+  "notes": "Dopasowano układ modala kopii ustawień oraz nazwy akcji w menu LittleFS.",
   "changes": [
-    "Dodano wpis Aktualizuj do menu LittleFS (C:), LittleFS (D:) i LittleFS (E:), widoczny tylko przy dostępnej aktualizacji online.",
-    "Kliknięcie wpisu Aktualizuj uruchamia ten sam proces aktualizacji online co przycisk w kafelku.",
-    "Gdy aktualizacja nie jest dostępna, menu pozostaje bez dodatkowego wpisu i pokazuje tylko dotychczasowe akcje."
+    "Przycisk Anuluj w modalu aktualizacji filesystemu jest teraz całkiem po lewej, a Wyczyść ustawienia znajduje się obok niego.",
+    "Zmieniono wpisy ręcznej aktualizacji w menu LittleFS na Wybierz plik aktualizacji.",
+    "Zmieniono opis przełączania firmware na App0 C: albo App1 D: zależnie od aktywnego slotu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "26434E49FD16A2150A08B7B9E0F443E8"
+    "md5": "16E9CBDCBE9CCC00E3006E625D5C2435"
   },
-  "build_time": "2026-06-21T15:54:40+01:00",
+  "build_time": "2026-06-21T16:01:21+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.675",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.675",
+      "date": "2026-06-21T16:01:21+01:00",
+      "title": "Porządek w modalu i menu LittleFS",
+      "changes": [
+        "Przycisk Anuluj w modalu aktualizacji filesystemu jest teraz całkiem po lewej, a Wyczyść ustawienia znajduje się obok niego.",
+        "Zmieniono wpisy ręcznej aktualizacji w menu LittleFS na Wybierz plik aktualizacji.",
+        "Zmieniono opis przełączania firmware na App0 C: albo App1 D: zależnie od aktywnego slotu."
+      ]
+    },
+    {
       "version": "1.0.0.674",
       "firmware_version": "1.0.0.815",
       "filesystem_version": "1.0.0.674",
