@@ -2,7 +2,7 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.667",
+  "filesystem_version": "1.0.0.668",
   "notes": "Zmniejszono przycisk Aktualizuj i usunięto dolne pille informacyjne z kafelków Test updt.",
   "changes": [
     "Przycisk Aktualizuj ma teraz minimalną wysokość 17 px, z ikoną i tekstem dopasowanymi do małego pill-a.",
