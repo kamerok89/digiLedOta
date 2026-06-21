@@ -1,511 +1,529 @@
 [
   {
-    "version": "1.0.0.655",
+    "version": "1.0.0.656",
     "firmware_version": "1.0.0.814",
-    "filesystem_version": "1.0.0.655",
-    "date": "2026-06-21T09:29:55+01:00",
-    "title": "Prototyp zunifikowanej aktualizacji",
+    "filesystem_version": "1.0.0.656",
+    "date": "2026-06-21T10:46:57+01:00",
+    "title": "Zunifikowany widok aktualizacji Test updt",
     "changes": [
-      "Dodano trzecią zakładkę Test updt z prototypem zunifikowanego widoku aktualizacji.",
-      "Nowy widok pokazuje karty Firmware i Filesystem, mini-podgląd zajętości LittleFS w stylu fileman oraz pasek mapy flash w stylu diagnostyki.",
-      "Testowy pasek wyboru pliku jest przygotowany jako wizualizacja; realny upload zostaje do podpięcia po akceptacji widoku."
+      "Przebudowano Test updt: usunięto dolny pasek uploadu, a wybór pliku i aktualizacja online są teraz dostępne bezpośrednio w kartach Firmware i Filesystem.",
+      "Wybór lokalnego pliku uruchamia aktualizację od razu; dla filesystemu wyświetlany jest znany modal pobrania ustawień albo kontynuacji bez kopii.",
+      "Paski w kartach pokazują zajętość pamięci w spoczynku oraz postęp pobierania i zapisu podczas aktualizacji lokalnej lub online.",
+      "Dodano ikony firmware i filesystem z zasobów portalu oraz zachowano listę zmian z manifestu OTA w widoku Test updt."
     ]
   },
   {
-    "version": "1.0.0.654",
-    "firmware_version": "1.0.0.814",
-    "filesystem_version": "1.0.0.654",
-    "date": "2026-06-21T08:30:59+01:00",
-    "title": "Zakładki aktualizacji online i lokalnej",
-    "changes": [
-      "Sekcja Oprogramowanie ma teraz dwie zakładki jak w przeglądarce: Aktualizacja online i Aktualizacja lokalna.",
-      "Domyślnie widoczna jest tylko aktywna zakładka, a przełączenie ukrywa drugi panel bez rozciągania widoku.",
-      "W trybie użytkownika aktualizacja lokalna pozostaje ukryta tak jak wcześniej narzędzia serwisowe."
-    ]
-  },
-  {
-    "version": "1.0.0.652",
-    "firmware_version": "1.0.0.814",
-    "filesystem_version": "1.0.0.652",
-    "date": "2026-06-20T21:23:25+01:00",
-    "title": "Poprawka pierścienia koloru MiLight",
-    "changes": [
-      "Dodano domyślne mapowanie pierścienia koloru MiLight na akcję sterowania kolorem, także gdy nie ma osobnego wiersza w portalu.",
-      "Ruszenie pierścienia koloru wychodzi teraz z trybu bieli temperaturowej i przywraca kolor po sterowaniu temperaturą bieli.",
-      "Dodano awaryjny fallback dla zdarzenia CCT, żeby temperatura białego koloru działała nawet po niepełnym zapisie mapowań."
-    ]
-  },
-  {
-    "version": "1.0.0.651",
-    "firmware_version": "1.0.0.813",
-    "filesystem_version": "1.0.0.651",
-    "date": "2026-06-20T21:08:49+01:00",
-    "title": "Temperatura białego koloru z pilota MiLight",
-    "changes": [
-      "Dodano w mapowaniu MiLight nowe combo Temperatura białego koloru z domyślną akcją regulacji temperatury bieli.",
-      "Sterowanie temperaturą bieli przełącza scenę w tryb białego koloru i miksuje ciepły żółty odcień z neutralną bielą.",
-      "Ruszenie pierścienia koloru wychodzi z trybu bieli i przywraca kolor z zapamiętaną saturacją."
-    ]
-  },
-  {
-    "version": "1.0.0.650",
-    "firmware_version": "1.0.0.812",
-    "filesystem_version": "1.0.0.650",
-    "date": "2026-06-20T20:48:19+01:00",
-    "title": "Poprawione pola dotykowe pilota MiLight",
-    "changes": [
-      "Naprawiono mapowanie pól dotykowych pilota FUT092: płytka nasycenia steruje nasyceniem, a płytka jasności steruje jasnością.",
-      "Płytka temperatury barwowej/CCT została chwilowo odłączona od akcji, żeby nie zmieniała już nasycenia.",
-      "Dodano migrację starych mapowań MiLight, która przestawia błędne wpisy jasności/nasycenia i usuwa dawne podpięcie CCT pod nasycenie."
-    ]
-  },
-  {
-    "version": "1.0.0.648",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.648",
-    "date": "2026-06-20T20:18:34+01:00",
-    "title": "Nowa miniaturka pilota MiLight",
-    "changes": [
-      "Miniaturka pilota MiLight ma teraz ciemny korpus, kolorowy pier?cie?, ?uk barwy, pionowe suwaki i przyciski stref.",
-      "Miniaturka jest rysowana w CSS, wi?c nie zwi?ksza portalu osobnym obrazkiem rastrowym.",
-      "Od?wie?ono CSS, skrypt portalu oraz cache-bustery zasob?w dla wersji 1.0.0.648."
-    ]
-  },
-  {
-    "version": "1.0.0.647",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.647",
-    "date": "2026-06-20T19:50:11+01:00",
-    "title": "Panel pilota jak kafelek sceny",
-    "changes": [
-      "Kafelek zapisanego pilota MiLight ma teraz szerok? struktur? z tre?ci? po lewej i pionow? szyn? akcji po prawej.",
-      "Pozostawiono dotychczasowe ikony akcji oraz mini-ikony metadanych: ID, Typ, Grupa, Funkcja, Warto?? i Pakiety.",
-      "Od?wie?ono CSS, skrypt portalu oraz cache-bustery zasob?w dla wersji 1.0.0.647."
-    ]
-  },
-  {
-    "version": "1.0.0.646",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.646",
-    "date": "2026-06-20T18:26:10+01:00",
-    "title": "Spójniejszy kafelek pilota MiLight",
-    "changes": [
-      "Podgląd zapisanego pilota MiLight nie ma już osobnej ramki, gradientu ani cienia.",
-      "Ikona pilota jest teraz osadzona bezpośrednio w kafelku, zgodnie z resztą stylistyki portalu.",
-      "Odświeżono wygenerowany CSS i cache-bustery zasobów portalu."
-    ]
-  },
-  {
-    "version": "1.0.0.645",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.645",
-    "date": "2026-06-20T18:06:01+01:00",
-    "title": "Odchudzona paczka portalu",
-    "changes": [
-      "Usunięto górny pill Gotowa z karty aktualizacji online.",
-      "Źródłowe moduły CSS przeniesiono poza katalog data, dzięki czemu nie trafiają już do obrazu LittleFS.",
-      "Usunięto nieużywane pliki styles.min.css oraz styles.min.css.gz z paczki portalu."
-    ]
-  },
-  {
-    "version": "1.0.0.644",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.644",
-    "date": "2026-06-20T17:52:28+01:00",
-    "title": "Testowe podbicie wersji portalu",
-    "changes": [
-      "Podbito wersję portalu do testów wykrywania i instalacji aktualizacji online.",
-      "Paczka filesystemu zawiera aktualne zasoby portalu oraz cache-bustery ustawione na wersję 1.0.0.644."
-    ]
-  },
-  {
-    "version": "1.0.0.643",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.643",
-    "date": "2026-06-20T17:43:19+01:00",
-    "title": "Zwarty układ kafelków aktualizacji online",
-    "changes": [
-      "Kafelki aktualizacji online układają treść od góry, bez rozciągania tekstu na całą wysokość kafelka.",
-      "Gdy aktualizacja dotyczy tylko portalu, kafelek Firmware pozostaje zwarty i pokazuje wersję oraz rozmiar jeden pod drugim.",
-      "Zmniejszono odstępy między opisem, wersją i rozmiarem w kafelkach Firmware oraz Filesystem."
-    ]
-  },
-  {
-    "version": "1.0.0.642",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.642",
-    "date": "2026-06-20T17:28:08+01:00",
-    "title": "Ładniejszy postęp aktualizacji online",
-    "changes": [
-      "Proces aktualizacji online pokazuje teraz fazę, procent i czytelny transfer w MB zamiast surowych bajtów.",
-      "Pasek postępu dostał osobny nagłówek, wartość procentową i linię szczegółów z nazwą pliku oraz rozmiarem.",
-      "Komunikat podczas pobierania i zapisywania pliku jest spokojniejszy wizualnie i spójny z kafelkami aktualizacji."
-    ]
-  },
-  {
-    "version": "1.0.0.641",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.641",
-    "date": "2026-06-20T17:17:04+01:00",
-    "title": "Czytelniejsze kafelki aktualizacji",
-    "changes": [
-      "Kafelki Firmware i Filesystem pokazują teraz opis stanu, aktualną wersję i rozmiar bez nieaktywnego przycisku, gdy nie ma aktualizacji.",
-      "Gdy aktualizacja jest dostępna, kafelek pokazuje aktualną oraz dostępną wersję i dopiero wtedy wyświetla przycisk Aktualizuj.",
-      "Odświeżono cache-bustery CSS i JS, aby po OTA portal pobierał najnowsze zasoby."
-    ]
-  },
-  {
-    "version": "1.0.0.640",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.640",
-    "date": "2026-06-20T17:15:11+01:00",
-    "title": "Czytelniejsze kafelki aktualizacji",
-    "changes": [
-      "Kafelki Firmware i Filesystem pokazują teraz opis stanu, aktualną wersję i rozmiar bez nieaktywnego przycisku, gdy nie ma aktualizacji.",
-      "Gdy aktualizacja jest dostępna, kafelek pokazuje aktualną oraz dostępną wersję i dopiero wtedy wyświetla przycisk Aktualizuj.",
-      "Usunięto techniczne chipy BIN i LittleFS z widocznego układu kafelków aktualizacji online."
-    ]
-  },
-  {
-    "version": "1.0.0.639",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.639",
-    "date": "2026-06-20T16:05:21+01:00",
-    "title": "Czytelniejsze grupy MiLight",
-    "changes": [
-      "Mapowanie akcji MiLight rozdziela teraz przyciski ogólne od grup pilota.",
-      "Sekcja grup ma osobny nagłówek i krótki opis informujący, że liczba grup zależy od użytego pilota.",
-      "Odświeżono style i tłumaczenia portalu dla nowego układu mapowania."
-    ]
-  },
-  {
-    "version": "1.0.0.811",
-    "firmware_version": "1.0.0.811",
-    "filesystem_version": "1.0.0.638",
-    "date": "2026-06-20T13:06:06+01:00",
-    "title": "Płynny Stop FX bez resetowania animacji",
-    "changes": [
-      "Faza Run FX jest dalej liczona podczas efektu startu i efektu wyłączania.",
-      "Stop FX wygasza aktualnie działającą animację, zamiast zaczynać Run FX od początku.",
-      "Komendy wyłączania scen nie kasują już tymczasowego Run FX przed rozpoczęciem wygaszania."
-    ]
-  },
-  {
-    "version": "1.0.0.638",
-    "firmware_version": "1.0.0.810",
-    "filesystem_version": "1.0.0.638",
-    "date": "2026-06-20T12:44:25+01:00",
-    "title": "Osobne ON i OFF dla grup MiLight",
-    "changes": [
-      "Każda grupa pilota MiLight ma teraz dwa osobne pola mapowania: Grupa N ON oraz Grupa N OFF.",
-      "Domyślne akcje grup ustawiają odpowiednio włączenie i wyłączenie odpowiadającej sceny.",
-      "Stary zapis ON/OFF zostaje obsłużony awaryjnie, ale nowy zapis używa już osobnych akcji."
-    ]
-  },
-  {
-    "version": "1.0.0.637",
-    "firmware_version": "1.0.0.809",
-    "filesystem_version": "1.0.0.637",
-    "date": "2026-06-20T12:28:33+01:00",
-    "title": "Nowe mapowanie akcji MiLight",
-    "changes": [
-      "Usunięto sekcję Sterowanie live z portalu i firmware.",
-      "Mapowanie akcji MiLight ma teraz pola: Power ON, Power OFF, Szybciej, Wolniej, Następny efekt, Nasycenie, Jasność oraz Grupa 1-8 ON/OFF.",
-      "Jasność i nasycenie działają teraz przez normalne mapowanie akcji, bez niezależnych reguł live.",
-      "Domyślne akcje ustawiają grupy pilota jako przełączanie odpowiadających scen."
-    ]
-  },
-  {
-    "version": "1.0.0.636",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.636",
-    "date": "2026-06-20T11:54:44+01:00",
-    "title": "Test ikony dostępnej aktualizacji",
-    "changes": [
-      "Portal ma nową wersję testową do sprawdzenia ikony aktualizacji U+EA8F.",
-      "Po połączeniu z Wi-Fi urządzenie powinno wykryć nowszy filesystem i pokazać ikonę w górnym pasku.",
-      "Kliknięcie ikony nadal przenosi do zakładki Oprogramowanie."
-    ]
-  },
-  {
-    "version": "1.0.0.635",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.635",
-    "date": "2026-06-20T11:45:34+01:00",
-    "title": "Ikona dostępnej aktualizacji w nagłówku",
-    "changes": [
-      "Po poprawnym połączeniu STA z Wi-Fi portal cicho sprawdza, czy jest dostępna aktualizacja online.",
-      "Gdy aktualizacja jest dostępna, po lewej stronie przycisku motywu pojawia się ikona aktualizacji U+EA8F.",
-      "Kliknięcie ikony przenosi do zakładki Oprogramowanie i uruchamia standardowe sprawdzenie aktualizacji."
-    ]
-  },
-  {
-    "version": "1.0.0.634",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.634",
-    "date": "2026-06-20T11:30:01+01:00",
-    "title": "Lżejszy kafelek pilota MiLight",
-    "changes": [
-      "Zmniejszono ikonę pilota, tytuł, metadane, opis trybu oraz przyciski akcji.",
-      "Hover nie przesuwa już kafelka do góry, tylko lekko go podświetla.",
-      "Kliknięcie w kafelek pilota otwiera teraz ten sam modal informacji co przycisk aktywności pilota."
-    ]
-  },
-  {
-    "version": "1.0.0.633",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.633",
-    "date": "2026-06-20T11:17:50+01:00",
-    "title": "Zwarta karta zapisanych pilotów",
-    "changes": [
-      "Karta zapisanego pilota ma teraz mniejszą miniaturę pilota i niższą wysokość.",
-      "Zmniejszono tytuł, opisy, metadane oraz przyciski akcji, aby całość mieściła się w panelu.",
-      "Długie informacje, takie jak typ pilota, nie powinny już wypychać układu poza kafelek."
-    ]
-  },
-  {
-    "version": "1.0.0.632",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.632",
-    "date": "2026-06-20T10:48:26+01:00",
-    "title": "Nowy wygląd zapisanych pilotów",
-    "changes": [
-      "Karta zapisanego pilota ma większą miniaturę pilota, metadane z ikonami i pionowe przyciski akcji.",
-      "Nagłówek „Zapisane piloty” dostał ikonę i mocniejszą hierarchię wizualną.",
-      "Przycisk „Usuń wszystkie” jest większy i bardziej czytelny."
-    ]
-  },
-  {
-    "version": "1.0.0.631",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.631",
-    "date": "2026-06-20T09:25:04+01:00",
-    "title": "Lepsze dodawanie pilota MiLight",
-    "changes": [
-      "Komunikat „Pilot dodany” znika automatycznie po około 5 sekundach.",
-      "Kafelek dodawania pilota dostał nowy układ z ikoną, ilustracją pilota i mocniejszym przyciskiem.",
-      "Przycisk w pustym stanie pokazuje teraz „Dodaj pierwszego pilota”, a po zapisaniu pilotów wraca do „Dodaj pilota”."
-    ]
-  },
-  {
-    "version": "1.0.0.630",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.630",
-    "date": "2026-06-20T09:11:03+01:00",
-    "title": "Aktywność pilota w modalu",
-    "changes": [
-      "Każdy zapisany pilot ma nowy przycisk aktywności z ikoną E946 obok ustawień i usuwania.",
-      "Główny kafelek „Aktywność pilota” został usunięty z sekcji MiLight.",
-      "Ostatnia ramka i ostatnia akcja pilota są teraz pokazane w kompaktowym modalu dla wybranego pilota."
-    ]
-  },
-  {
-    "version": "1.0.0.629",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.629",
-    "date": "2026-06-20T08:52:45+01:00",
-    "title": "Poprawiony widok zapisanych pilotów",
-    "changes": [
-      "Karta zapisanego pilota zachowuje naturalną wysokość i nie rozciąga się na cały kafelek.",
-      "Podsumowanie „Pilot dodany” pokazuje tylko protokół, ID pilota oraz RAW.",
-      "Widok MiLight jest czytelniejszy po dodaniu pilota i lepiej wykorzystuje miejsce w panelu."
-    ]
-  },
-  {
-    "version": "1.0.0.628",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.628",
-    "date": "2026-06-20T08:41:13+01:00",
-    "title": "Wyrównane karty MiLight",
-    "changes": [
-      "Karty dodawania pilota, zapisanych pilotów i radia mają teraz spójniejsze wyrównanie.",
-      "Sekcja radia lepiej trzyma wysokość rzędu i nie odstaje od karty dodawania.",
-      "Widok po dodaniu pilota ma czytelniejszą kartę ostatnio wykrytej ramki oraz równiejszy panel zapisanych pilotów."
-    ]
-  },
-  {
-    "version": "1.0.0.627",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.627",
-    "date": "2026-06-20T09:24:48+01:00",
-    "title": "Porządki w panelu MiLight",
-    "changes": [
-      "Usunięto panel logu MiLight razem z jego obsługą w skrypcie, stylami i tekstami tłumaczeń.",
-      "Sekcja dodawania pilota dostała bardziej wyraźny, spójny wizualnie wygląd.",
-      "Sekcja Radio nRF24L01+ jest teraz bardziej zwarta i pokazuje status oraz przycisk Odśwież bezpośrednio w swoim nagłówku."
-    ]
-  },
-  {
-    "version": "1.0.0.626",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.626",
-    "date": "2026-06-20T09:12:59+01:00",
-    "title": "Przywrócona paczka portalu",
-    "changes": [
-      "Zbudowano paczkę portalu z aktualnie przywróconego stanu plików.",
-      "Odświeżono pliki CSS, skrypt portalu oraz skompresowane zasoby .gz.",
-      "Podbito wersję portalu do 1.0.0.626, aby aktualizacja online była wykrywalna."
-    ]
-  },
-  {
-    "version": "1.0.0.625",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.625",
-    "date": "2026-06-20T09:03:47+01:00",
-    "title": "Usunięty nagłówek i log MiLight",
-    "changes": [
-      "Widok Integracja MiLight nie pokazuje już dodatkowego górnego paska z nazwą, statusem i przyciskami.",
-      "Usunięto panel logu MiLight wraz z obsługą w skrypcie portalu.",
-      "Wyczyszczono nieużywane style i teksty tłumaczeń powiązane z nagłówkiem oraz logiem MiLight."
-    ]
-  },
-  {
-    "version": "1.0.0.624",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.624",
-    "date": "2026-06-20T08:50:31+01:00",
-    "title": "Spójniejszy panel MiLight",
-    "changes": [
-      "Panel MiLight zachowuje pełny nowoczesny wygląd, ale ma spokojniejsze kolory i obramowania.",
-      "Promienie, cienie i akcenty zostały delikatnie zbliżone do reszty portalu.",
-      "Nie zmieniono działania uczenia pilotów, mapowania akcji ani diagnostyki."
-    ]
-  },
-  {
-    "version": "1.0.0.623",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.623",
-    "date": "2026-06-20T08:41:27+01:00",
-    "title": "PrzywrĂłcony wyglÄ…d MiLight",
-    "changes": [
-      "PrzywrĂłcono poprzedni peĹ‚ny wyglÄ…d zakĹ‚adki Integracja MiLight.",
-      "UsuniÄ™to spĹ‚aszczonÄ… warstwÄ™ stylistycznÄ…, ktĂłra zbyt mocno uproĹ›ciĹ‚a zakĹ‚adkÄ™.",
-      "Pozostawiono bez zmian dziaĹ‚anie uczenia pilotĂłw, mapowania akcji i diagnostyki."
-    ]
-  },
-  {
-    "version": "1.0.0.622",
-    "firmware_version": "1.0.0.807",
-    "filesystem_version": "1.0.0.622",
-    "date": "2026-06-20T08:19:00+01:00",
-    "title": "SpÄ‚Ĺ‚jny wyglĂ„â€¦d panelu MiLight",
-    "changes": [
-      "Panel Integracja MiLight korzysta teraz z kolorÄ‚Ĺ‚w, obramowaÄąâ€ž i promieni spÄ‚Ĺ‚jnych z pozostaÄąâ€šymi kartami portalu.",
-      "Tryb jasny panelu MiLight nie wymusza juÄąÄ˝ ciĂ„â„˘ÄąÄ˝kiej ciemnej stylistyki.",
-      "UsuniĂ„â„˘to stary nadmiarowy blok CSS MiLight, zmniejszajĂ„â€¦c paczkĂ„â„˘ portalu."
-    ]
-  },
-  {
-    "product": "digiled-xiao-esp32s3",
-    "channel": "stable",
-    "releases": [
+    "value": [
       {
-        "version": "Firmware 1.0.0.807 / Portal 1.0.0.619",
-        "date": "2026-06-20T03:09:05+01:00",
+        "version": "1.0.0.655",
+        "firmware_version": "1.0.0.814",
+        "filesystem_version": "1.0.0.655",
+        "date": "2026-06-21T09:29:55+01:00",
+        "title": "Prototyp zunifikowanej aktualizacji",
         "changes": [
-          "Przebudowano widok Integracja MiLight na nowy ciemny ukĂ„Ä…Ă˘â‚¬Ĺˇad Fluent/glass z hero, kartami i statystykami radia.",
-          "Dodano osobne stany widoku dla braku pilotĂ„â€šÄąâ€šw, trybu uczenia oraz zapisanych pilotĂ„â€šÄąâ€šw.",
-          "Zachowano obsĂ„Ä…Ă˘â‚¬ĹˇugÄ‚â€žĂ˘â€žË dodawania, anulowania uczenia, odĂ„Ä…Ă˘â‚¬ĹźwieĂ„Ä…Ă„Ëťania, usuwania pilotĂ„â€šÄąâ€šw, diagnostyki i mapowania akcji.",
-          "Poprawiono responsywnoĂ„Ä…Ă˘â‚¬ĹźÄ‚â€žĂ˘â‚¬Ë‡ panelu MiLight dla tabletĂ„â€šÄąâ€šw i telefonĂ„â€šÄąâ€šw."
+          "Dodano trzecią zakładkę Test updt z prototypem zunifikowanego widoku aktualizacji.",
+          "Nowy widok pokazuje karty Firmware i Filesystem, mini-podgląd zajętości LittleFS w stylu fileman oraz pasek mapy flash w stylu diagnostyki.",
+          "Testowy pasek wyboru pliku jest przygotowany jako wizualizacja; realny upload zostaje do podpięcia po akceptacji widoku."
         ]
       },
       {
-        "version": "Firmware 1.0.0.807 / Portal 1.0.0.618",
-        "date": "2026-06-20T02:17:36+01:00",
+        "version": "1.0.0.654",
+        "firmware_version": "1.0.0.814",
+        "filesystem_version": "1.0.0.654",
+        "date": "2026-06-21T08:30:59+01:00",
+        "title": "Zakładki aktualizacji online i lokalnej",
         "changes": [
-          "Poprawiono kolor przycisku zamkniÄ‚â€žĂ˘â€žËcia i komunikatu kopii ustawieĂ„Ä…Ă˘â‚¬Ĺľ w jasnym motywie.",
-          "PodglÄ‚â€žĂ˘â‚¬Â¦d wczytywania ustawieĂ„Ä…Ă˘â‚¬Ĺľ pokazuje teraz bardziej zrozumiaĂ„Ä…Ă˘â‚¬Ĺˇe nazwy sekcji i wartoĂ„Ä…Ă˘â‚¬Ĺźci.",
-          "Przebudowano paczkÄ‚â€žĂ˘â€žË portalu WWW z nowÄ‚â€žĂ˘â‚¬Â¦ wersjÄ‚â€žĂ˘â‚¬Â¦ zasobĂ„â€šÄąâ€šw."
+          "Sekcja Oprogramowanie ma teraz dwie zakładki jak w przeglądarce: Aktualizacja online i Aktualizacja lokalna.",
+          "Domyślnie widoczna jest tylko aktywna zakładka, a przełączenie ukrywa drugi panel bez rozciągania widoku.",
+          "W trybie użytkownika aktualizacja lokalna pozostaje ukryta tak jak wcześniej narzędzia serwisowe."
         ]
       },
       {
-        "version": "Firmware 1.0.0.807 / Portal 1.0.0.617",
-        "date": "2026-06-20T02:03:37+01:00",
+        "version": "1.0.0.652",
+        "firmware_version": "1.0.0.814",
+        "filesystem_version": "1.0.0.652",
+        "date": "2026-06-20T21:23:25+01:00",
+        "title": "Poprawka pierścienia koloru MiLight",
         "changes": [
-          "Testowo podbito wersjÄ‚â€žĂ˘â€žË firmware i portalu WWW, aby sprawdziÄ‚â€žĂ˘â‚¬Ë‡ wykrywanie aktualizacji online.",
-          "Paczki OTA zostaĂ„Ä…Ă˘â‚¬Ĺˇy ponownie zbudowane i opublikowane w repozytorium digiLedOta."
+          "Dodano domyślne mapowanie pierścienia koloru MiLight na akcję sterowania kolorem, także gdy nie ma osobnego wiersza w portalu.",
+          "Ruszenie pierścienia koloru wychodzi teraz z trybu bieli temperaturowej i przywraca kolor po sterowaniu temperaturą bieli.",
+          "Dodano awaryjny fallback dla zdarzenia CCT, żeby temperatura białego koloru działała nawet po niepełnym zapisie mapowań."
         ]
       },
       {
-        "version": "Firmware 1.0.0.806 / Portal 1.0.0.616",
-        "date": "2026-06-20T01:56:29+01:00",
+        "version": "1.0.0.651",
+        "firmware_version": "1.0.0.813",
+        "filesystem_version": "1.0.0.651",
+        "date": "2026-06-20T21:08:49+01:00",
+        "title": "Temperatura białego koloru z pilota MiLight",
         "changes": [
-          "Przed aktualizacjÄ‚â€žĂ˘â‚¬Â¦ filesystemu urzÄ‚â€žĂ˘â‚¬Â¦dzenie pokazuje listÄ‚â€žĂ˘â€žË plikĂ„â€šÄąâ€šw LittleFS, ktĂ„â€šÄąâ€šre zostanÄ‚â€žĂ˘â‚¬Â¦ nadpisane.",
-          "Dodano moĂ„Ä…Ă„ËťliwoĂ„Ä…Ă˘â‚¬ĹźÄ‚â€žĂ˘â‚¬Ë‡ pobrania kopii ustawieĂ„Ä…Ă˘â‚¬Ĺľ digiLed.json przed instalacjÄ‚â€žĂ˘â‚¬Â¦ portalu WWW.",
-          "Eksport i import ustawieĂ„Ä…Ă˘â‚¬Ĺľ obejmuje teraz piloty MiLight, mapowanie akcji, reguĂ„Ä…Ă˘â‚¬Ĺˇy live i tryby pĂ„Ä…Ă˘â‚¬Ĺˇytki dotykowej.",
-          "WyrĂ„â€šÄąâ€šwnano obramowania ikon aktualizacji online i lokalnej oraz poprawiono hover przyciskĂ„â€šÄąâ€šw w jasnym motywie.",
-          "Dodano wersjonowanie i no-cache dla gĂ„Ä…Ă˘â‚¬ĹˇĂ„â€šÄąâ€šwnych plikĂ„â€šÄąâ€šw portalu, aby po OTA nie Ă„Ä…Ă˘â‚¬ĹˇadowaĂ„Ä…Ă˘â‚¬Ĺˇ siÄ‚â€žĂ˘â€žË stary skrypt."
+          "Dodano w mapowaniu MiLight nowe combo Temperatura białego koloru z domyślną akcją regulacji temperatury bieli.",
+          "Sterowanie temperaturą bieli przełącza scenę w tryb białego koloru i miksuje ciepły żółty odcień z neutralną bielą.",
+          "Ruszenie pierścienia koloru wychodzi z trybu bieli i przywraca kolor z zapamiętaną saturacją."
         ]
       },
       {
-        "version": "Portal 1.0.0.613",
-        "date": "2026-06-20T01:17:50+01:00",
+        "version": "1.0.0.650",
+        "firmware_version": "1.0.0.812",
+        "filesystem_version": "1.0.0.650",
+        "date": "2026-06-20T20:48:19+01:00",
+        "title": "Poprawione pola dotykowe pilota MiLight",
         "changes": [
-          "Ujednolicono wyglÄ‚â€žĂ˘â‚¬Â¦d karty Aktualizacja online z kartÄ‚â€žĂ˘â‚¬Â¦ Aktualizacja lokalna.",
-          "Dodano datÄ‚â€žĂ˘â€žË i godzinÄ‚â€žĂ˘â€žË przygotowania pakietu w manifeĂ„Ä…Ă˘â‚¬Ĺźcie aktualizacji.",
-          "Dodano osobny plik historii zmian dla aktualizacji online."
+          "Naprawiono mapowanie pól dotykowych pilota FUT092: płytka nasycenia steruje nasyceniem, a płytka jasności steruje jasnością.",
+          "Płytka temperatury barwowej/CCT została chwilowo odłączona od akcji, żeby nie zmieniała już nasycenia.",
+          "Dodano migrację starych mapowań MiLight, która przestawia błędne wpisy jasności/nasycenia i usuwa dawne podpięcie CCT pod nasycenie."
         ]
       },
       {
-        "version": "Portal 1.0.0.610",
-        "date": "2026-06-20T01:01:34+01:00",
+        "version": "1.0.0.648",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.648",
+        "date": "2026-06-20T20:18:34+01:00",
+        "title": "Nowa miniaturka pilota MiLight",
         "changes": [
-          "Spinner aktualizacji online jest mniejszy i znajduje siÄ‚â€žĂ˘â€žË przy przycisku sprawdzania aktualizacji.",
-          "Stan pracy nie zwiÄ‚â€žĂ˘â€žËksza juĂ„Ä…Ă„Ëť wysokoĂ„Ä…Ă˘â‚¬Ĺźci karty Aktualizacja online."
+          "Miniaturka pilota MiLight ma teraz ciemny korpus, kolorowy pier?cie?, ?uk barwy, pionowe suwaki i przyciski stref.",
+          "Miniaturka jest rysowana w CSS, wi?c nie zwi?ksza portalu osobnym obrazkiem rastrowym.",
+          "Od?wie?ono CSS, skrypt portalu oraz cache-bustery zasob?w dla wersji 1.0.0.648."
         ]
       },
       {
-        "version": "Portal 1.0.0.609",
-        "date": "2026-06-20T00:51:20+01:00",
+        "version": "1.0.0.647",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.647",
+        "date": "2026-06-20T19:50:11+01:00",
+        "title": "Panel pilota jak kafelek sceny",
         "changes": [
-          "UsuniÄ‚â€žĂ˘â€žËto dublowanie komunikatĂ„â€šÄąâ€šw przy braku aktualizacji.",
-          "Kafelki Firmware i Portal WWW sÄ‚â€žĂ˘â‚¬Â¦ ukryte do czasu sprawdzenia aktualizacji.",
-          "Pill Online nie jest juĂ„Ä…Ă„Ëť pokazywany w normalnym stanie karty."
+          "Kafelek zapisanego pilota MiLight ma teraz szerok? struktur? z tre?ci? po lewej i pionow? szyn? akcji po prawej.",
+          "Pozostawiono dotychczasowe ikony akcji oraz mini-ikony metadanych: ID, Typ, Grupa, Funkcja, Warto?? i Pakiety.",
+          "Od?wie?ono CSS, skrypt portalu oraz cache-bustery zasob?w dla wersji 1.0.0.647."
         ]
       },
       {
-        "version": "Portal 1.0.0.608",
-        "date": "2026-06-20T00:39:28+01:00",
+        "version": "1.0.0.646",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.646",
+        "date": "2026-06-20T18:26:10+01:00",
+        "title": "Spójniejszy kafelek pilota MiLight",
         "changes": [
-          "Przeniesiono aktualizacjÄ‚â€žĂ˘â€žË online z modala do osobnej karty w zakĂ„Ä…Ă˘â‚¬Ĺˇadce Oprogramowanie.",
-          "Oddzielono aktualizacjÄ‚â€žĂ˘â€žË online od rÄ‚â€žĂ˘â€žËcznej aktualizacji lokalnej.",
-          "Zachowano wspĂ„â€šÄąâ€šlny ukĂ„Ä…Ă˘â‚¬Ĺˇad zakĂ„Ä…Ă˘â‚¬Ĺˇadki Oprogramowanie."
+          "Podgląd zapisanego pilota MiLight nie ma już osobnej ramki, gradientu ani cienia.",
+          "Ikona pilota jest teraz osadzona bezpośrednio w kafelku, zgodnie z resztą stylistyki portalu.",
+          "Odświeżono wygenerowany CSS i cache-bustery zasobów portalu."
         ]
       },
       {
-        "version": "Portal 1.0.0.607",
-        "date": "2026-06-20T00:15:46+01:00",
+        "version": "1.0.0.645",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.645",
+        "date": "2026-06-20T18:06:01+01:00",
+        "title": "Odchudzona paczka portalu",
         "changes": [
-          "Lista zmian jest otwierana przyciskiem zamiast zajmowaÄ‚â€žĂ˘â‚¬Ë‡ miejsce od razu po sprawdzeniu aktualizacji.",
-          "Zmieniono komunikaty sprawdzania aktualizacji na bardziej zrozumiaĂ„Ä…Ă˘â‚¬Ĺˇe dla uĂ„Ä…Ă„Ëťytkownika.",
-          "Ustalono, Ă„Ä…Ă„Ëťe publiczna lista zmian w OTA ma byÄ‚â€žĂ˘â‚¬Ë‡ po polsku."
+          "Usunięto górny pill Gotowa z karty aktualizacji online.",
+          "Źródłowe moduły CSS przeniesiono poza katalog data, dzięki czemu nie trafiają już do obrazu LittleFS.",
+          "Usunięto nieużywane pliki styles.min.css oraz styles.min.css.gz z paczki portalu."
         ]
       },
       {
-        "version": "Firmware 1.0.0.803 / Portal 1.0.0.606",
-        "date": "2026-06-19T23:53:20+01:00",
+        "version": "1.0.0.644",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.644",
+        "date": "2026-06-20T17:52:28+01:00",
+        "title": "Testowe podbicie wersji portalu",
         "changes": [
-          "Dopracowano modal aktualizacji GitHub OTA.",
-          "Dodano czytelniejsze informacje o wersjach firmware i portalu.",
-          "Poprawiono prezentacjÄ‚â€žĂ˘â€žË dostÄ‚â€žĂ˘â€žËpnych komponentĂ„â€šÄąâ€šw aktualizacji."
+          "Podbito wersję portalu do testów wykrywania i instalacji aktualizacji online.",
+          "Paczka filesystemu zawiera aktualne zasoby portalu oraz cache-bustery ustawione na wersję 1.0.0.644."
         ]
       },
       {
-        "version": "Firmware 1.0.0.802 / Portal 1.0.0.605",
-        "date": "2026-06-19T23:42:20+01:00",
+        "version": "1.0.0.643",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.643",
+        "date": "2026-06-20T17:43:19+01:00",
+        "title": "Zwarty układ kafelków aktualizacji online",
         "changes": [
-          "Przeniesiono paczki OTA do osobnego publicznego repozytorium digiLedOta.",
-          "Zaktualizowano adresy manifestu i plikĂ„â€šÄąâ€šw binarnych dla aktualizacji z GitHuba."
+          "Kafelki aktualizacji online układają treść od góry, bez rozciągania tekstu na całą wysokość kafelka.",
+          "Gdy aktualizacja dotyczy tylko portalu, kafelek Firmware pozostaje zwarty i pokazuje wersję oraz rozmiar jeden pod drugim.",
+          "Zmniejszono odstępy między opisem, wersją i rozmiarem w kafelkach Firmware oraz Filesystem."
         ]
       },
       {
-        "version": "Firmware 1.0.0.800 / Portal 1.0.0.600",
-        "date": "2026-06-19T23:01:46+01:00",
+        "version": "1.0.0.642",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.642",
+        "date": "2026-06-20T17:28:08+01:00",
+        "title": "Ładniejszy postęp aktualizacji online",
         "changes": [
-          "Przygotowano pierwszÄ‚â€žĂ˘â‚¬Â¦ testowÄ‚â€žĂ˘â‚¬Â¦ paczkÄ‚â€žĂ˘â€žË aktualizacji online przez GitHub.",
-          "Dodano manifest z wersjami, rozmiarami i sumami kontrolnymi plikĂ„â€šÄąâ€šw aktualizacji."
+          "Proces aktualizacji online pokazuje teraz fazę, procent i czytelny transfer w MB zamiast surowych bajtów.",
+          "Pasek postępu dostał osobny nagłówek, wartość procentową i linię szczegółów z nazwą pliku oraz rozmiarem.",
+          "Komunikat podczas pobierania i zapisywania pliku jest spokojniejszy wizualnie i spójny z kafelkami aktualizacji."
+        ]
+      },
+      {
+        "version": "1.0.0.641",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.641",
+        "date": "2026-06-20T17:17:04+01:00",
+        "title": "Czytelniejsze kafelki aktualizacji",
+        "changes": [
+          "Kafelki Firmware i Filesystem pokazują teraz opis stanu, aktualną wersję i rozmiar bez nieaktywnego przycisku, gdy nie ma aktualizacji.",
+          "Gdy aktualizacja jest dostępna, kafelek pokazuje aktualną oraz dostępną wersję i dopiero wtedy wyświetla przycisk Aktualizuj.",
+          "Odświeżono cache-bustery CSS i JS, aby po OTA portal pobierał najnowsze zasoby."
+        ]
+      },
+      {
+        "version": "1.0.0.640",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.640",
+        "date": "2026-06-20T17:15:11+01:00",
+        "title": "Czytelniejsze kafelki aktualizacji",
+        "changes": [
+          "Kafelki Firmware i Filesystem pokazują teraz opis stanu, aktualną wersję i rozmiar bez nieaktywnego przycisku, gdy nie ma aktualizacji.",
+          "Gdy aktualizacja jest dostępna, kafelek pokazuje aktualną oraz dostępną wersję i dopiero wtedy wyświetla przycisk Aktualizuj.",
+          "Usunięto techniczne chipy BIN i LittleFS z widocznego układu kafelków aktualizacji online."
+        ]
+      },
+      {
+        "version": "1.0.0.639",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.639",
+        "date": "2026-06-20T16:05:21+01:00",
+        "title": "Czytelniejsze grupy MiLight",
+        "changes": [
+          "Mapowanie akcji MiLight rozdziela teraz przyciski ogólne od grup pilota.",
+          "Sekcja grup ma osobny nagłówek i krótki opis informujący, że liczba grup zależy od użytego pilota.",
+          "Odświeżono style i tłumaczenia portalu dla nowego układu mapowania."
+        ]
+      },
+      {
+        "version": "1.0.0.811",
+        "firmware_version": "1.0.0.811",
+        "filesystem_version": "1.0.0.638",
+        "date": "2026-06-20T13:06:06+01:00",
+        "title": "Płynny Stop FX bez resetowania animacji",
+        "changes": [
+          "Faza Run FX jest dalej liczona podczas efektu startu i efektu wyłączania.",
+          "Stop FX wygasza aktualnie działającą animację, zamiast zaczynać Run FX od początku.",
+          "Komendy wyłączania scen nie kasują już tymczasowego Run FX przed rozpoczęciem wygaszania."
+        ]
+      },
+      {
+        "version": "1.0.0.638",
+        "firmware_version": "1.0.0.810",
+        "filesystem_version": "1.0.0.638",
+        "date": "2026-06-20T12:44:25+01:00",
+        "title": "Osobne ON i OFF dla grup MiLight",
+        "changes": [
+          "Każda grupa pilota MiLight ma teraz dwa osobne pola mapowania: Grupa N ON oraz Grupa N OFF.",
+          "Domyślne akcje grup ustawiają odpowiednio włączenie i wyłączenie odpowiadającej sceny.",
+          "Stary zapis ON/OFF zostaje obsłużony awaryjnie, ale nowy zapis używa już osobnych akcji."
+        ]
+      },
+      {
+        "version": "1.0.0.637",
+        "firmware_version": "1.0.0.809",
+        "filesystem_version": "1.0.0.637",
+        "date": "2026-06-20T12:28:33+01:00",
+        "title": "Nowe mapowanie akcji MiLight",
+        "changes": [
+          "Usunięto sekcję Sterowanie live z portalu i firmware.",
+          "Mapowanie akcji MiLight ma teraz pola: Power ON, Power OFF, Szybciej, Wolniej, Następny efekt, Nasycenie, Jasność oraz Grupa 1-8 ON/OFF.",
+          "Jasność i nasycenie działają teraz przez normalne mapowanie akcji, bez niezależnych reguł live.",
+          "Domyślne akcje ustawiają grupy pilota jako przełączanie odpowiadających scen."
+        ]
+      },
+      {
+        "version": "1.0.0.636",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.636",
+        "date": "2026-06-20T11:54:44+01:00",
+        "title": "Test ikony dostępnej aktualizacji",
+        "changes": [
+          "Portal ma nową wersję testową do sprawdzenia ikony aktualizacji U+EA8F.",
+          "Po połączeniu z Wi-Fi urządzenie powinno wykryć nowszy filesystem i pokazać ikonę w górnym pasku.",
+          "Kliknięcie ikony nadal przenosi do zakładki Oprogramowanie."
+        ]
+      },
+      {
+        "version": "1.0.0.635",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.635",
+        "date": "2026-06-20T11:45:34+01:00",
+        "title": "Ikona dostępnej aktualizacji w nagłówku",
+        "changes": [
+          "Po poprawnym połączeniu STA z Wi-Fi portal cicho sprawdza, czy jest dostępna aktualizacja online.",
+          "Gdy aktualizacja jest dostępna, po lewej stronie przycisku motywu pojawia się ikona aktualizacji U+EA8F.",
+          "Kliknięcie ikony przenosi do zakładki Oprogramowanie i uruchamia standardowe sprawdzenie aktualizacji."
+        ]
+      },
+      {
+        "version": "1.0.0.634",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.634",
+        "date": "2026-06-20T11:30:01+01:00",
+        "title": "Lżejszy kafelek pilota MiLight",
+        "changes": [
+          "Zmniejszono ikonę pilota, tytuł, metadane, opis trybu oraz przyciski akcji.",
+          "Hover nie przesuwa już kafelka do góry, tylko lekko go podświetla.",
+          "Kliknięcie w kafelek pilota otwiera teraz ten sam modal informacji co przycisk aktywności pilota."
+        ]
+      },
+      {
+        "version": "1.0.0.633",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.633",
+        "date": "2026-06-20T11:17:50+01:00",
+        "title": "Zwarta karta zapisanych pilotów",
+        "changes": [
+          "Karta zapisanego pilota ma teraz mniejszą miniaturę pilota i niższą wysokość.",
+          "Zmniejszono tytuł, opisy, metadane oraz przyciski akcji, aby całość mieściła się w panelu.",
+          "Długie informacje, takie jak typ pilota, nie powinny już wypychać układu poza kafelek."
+        ]
+      },
+      {
+        "version": "1.0.0.632",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.632",
+        "date": "2026-06-20T10:48:26+01:00",
+        "title": "Nowy wygląd zapisanych pilotów",
+        "changes": [
+          "Karta zapisanego pilota ma większą miniaturę pilota, metadane z ikonami i pionowe przyciski akcji.",
+          "Nagłówek „Zapisane piloty” dostał ikonę i mocniejszą hierarchię wizualną.",
+          "Przycisk „Usuń wszystkie” jest większy i bardziej czytelny."
+        ]
+      },
+      {
+        "version": "1.0.0.631",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.631",
+        "date": "2026-06-20T09:25:04+01:00",
+        "title": "Lepsze dodawanie pilota MiLight",
+        "changes": [
+          "Komunikat „Pilot dodany” znika automatycznie po około 5 sekundach.",
+          "Kafelek dodawania pilota dostał nowy układ z ikoną, ilustracją pilota i mocniejszym przyciskiem.",
+          "Przycisk w pustym stanie pokazuje teraz „Dodaj pierwszego pilota”, a po zapisaniu pilotów wraca do „Dodaj pilota”."
+        ]
+      },
+      {
+        "version": "1.0.0.630",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.630",
+        "date": "2026-06-20T09:11:03+01:00",
+        "title": "Aktywność pilota w modalu",
+        "changes": [
+          "Każdy zapisany pilot ma nowy przycisk aktywności z ikoną E946 obok ustawień i usuwania.",
+          "Główny kafelek „Aktywność pilota” został usunięty z sekcji MiLight.",
+          "Ostatnia ramka i ostatnia akcja pilota są teraz pokazane w kompaktowym modalu dla wybranego pilota."
+        ]
+      },
+      {
+        "version": "1.0.0.629",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.629",
+        "date": "2026-06-20T08:52:45+01:00",
+        "title": "Poprawiony widok zapisanych pilotów",
+        "changes": [
+          "Karta zapisanego pilota zachowuje naturalną wysokość i nie rozciąga się na cały kafelek.",
+          "Podsumowanie „Pilot dodany” pokazuje tylko protokół, ID pilota oraz RAW.",
+          "Widok MiLight jest czytelniejszy po dodaniu pilota i lepiej wykorzystuje miejsce w panelu."
+        ]
+      },
+      {
+        "version": "1.0.0.628",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.628",
+        "date": "2026-06-20T08:41:13+01:00",
+        "title": "Wyrównane karty MiLight",
+        "changes": [
+          "Karty dodawania pilota, zapisanych pilotów i radia mają teraz spójniejsze wyrównanie.",
+          "Sekcja radia lepiej trzyma wysokość rzędu i nie odstaje od karty dodawania.",
+          "Widok po dodaniu pilota ma czytelniejszą kartę ostatnio wykrytej ramki oraz równiejszy panel zapisanych pilotów."
+        ]
+      },
+      {
+        "version": "1.0.0.627",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.627",
+        "date": "2026-06-20T09:24:48+01:00",
+        "title": "Porządki w panelu MiLight",
+        "changes": [
+          "Usunięto panel logu MiLight razem z jego obsługą w skrypcie, stylami i tekstami tłumaczeń.",
+          "Sekcja dodawania pilota dostała bardziej wyraźny, spójny wizualnie wygląd.",
+          "Sekcja Radio nRF24L01+ jest teraz bardziej zwarta i pokazuje status oraz przycisk Odśwież bezpośrednio w swoim nagłówku."
+        ]
+      },
+      {
+        "version": "1.0.0.626",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.626",
+        "date": "2026-06-20T09:12:59+01:00",
+        "title": "Przywrócona paczka portalu",
+        "changes": [
+          "Zbudowano paczkę portalu z aktualnie przywróconego stanu plików.",
+          "Odświeżono pliki CSS, skrypt portalu oraz skompresowane zasoby .gz.",
+          "Podbito wersję portalu do 1.0.0.626, aby aktualizacja online była wykrywalna."
+        ]
+      },
+      {
+        "version": "1.0.0.625",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.625",
+        "date": "2026-06-20T09:03:47+01:00",
+        "title": "Usunięty nagłówek i log MiLight",
+        "changes": [
+          "Widok Integracja MiLight nie pokazuje już dodatkowego górnego paska z nazwą, statusem i przyciskami.",
+          "Usunięto panel logu MiLight wraz z obsługą w skrypcie portalu.",
+          "Wyczyszczono nieużywane style i teksty tłumaczeń powiązane z nagłówkiem oraz logiem MiLight."
+        ]
+      },
+      {
+        "version": "1.0.0.624",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.624",
+        "date": "2026-06-20T08:50:31+01:00",
+        "title": "Spójniejszy panel MiLight",
+        "changes": [
+          "Panel MiLight zachowuje pełny nowoczesny wygląd, ale ma spokojniejsze kolory i obramowania.",
+          "Promienie, cienie i akcenty zostały delikatnie zbliżone do reszty portalu.",
+          "Nie zmieniono działania uczenia pilotów, mapowania akcji ani diagnostyki."
+        ]
+      },
+      {
+        "version": "1.0.0.623",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.623",
+        "date": "2026-06-20T08:41:27+01:00",
+        "title": "PrzywrĂłcony wyglÄ…d MiLight",
+        "changes": [
+          "PrzywrĂłcono poprzedni peĹ‚ny wyglÄ…d zakĹ‚adki Integracja MiLight.",
+          "UsuniÄ™to spĹ‚aszczonÄ… warstwÄ™ stylistycznÄ…, ktĂłra zbyt mocno uproĹ›ciĹ‚a zakĹ‚adkÄ™.",
+          "Pozostawiono bez zmian dziaĹ‚anie uczenia pilotĂłw, mapowania akcji i diagnostyki."
+        ]
+      },
+      {
+        "version": "1.0.0.622",
+        "firmware_version": "1.0.0.807",
+        "filesystem_version": "1.0.0.622",
+        "date": "2026-06-20T08:19:00+01:00",
+        "title": "SpÄ‚Ĺ‚jny wyglĂ„â€¦d panelu MiLight",
+        "changes": [
+          "Panel Integracja MiLight korzysta teraz z kolorÄ‚Ĺ‚w, obramowaÄąâ€ž i promieni spÄ‚Ĺ‚jnych z pozostaÄąâ€šymi kartami portalu.",
+          "Tryb jasny panelu MiLight nie wymusza juÄąÄ˝ ciĂ„â„˘ÄąÄ˝kiej ciemnej stylistyki.",
+          "UsuniĂ„â„˘to stary nadmiarowy blok CSS MiLight, zmniejszajĂ„â€¦c paczkĂ„â„˘ portalu."
+        ]
+      },
+      {
+        "product": "digiled-xiao-esp32s3",
+        "channel": "stable",
+        "releases": [
+          {
+            "version": "Firmware 1.0.0.807 / Portal 1.0.0.619",
+            "date": "2026-06-20T03:09:05+01:00",
+            "changes": [
+              "Przebudowano widok Integracja MiLight na nowy ciemny ukĂ„Ä…Ă˘â‚¬Ĺˇad Fluent/glass z hero, kartami i statystykami radia.",
+              "Dodano osobne stany widoku dla braku pilotĂ„â€šÄąâ€šw, trybu uczenia oraz zapisanych pilotĂ„â€šÄąâ€šw.",
+              "Zachowano obsĂ„Ä…Ă˘â‚¬ĹˇugÄ‚â€žĂ˘â€žË dodawania, anulowania uczenia, odĂ„Ä…Ă˘â‚¬ĹźwieĂ„Ä…Ă„Ëťania, usuwania pilotĂ„â€šÄąâ€šw, diagnostyki i mapowania akcji.",
+              "Poprawiono responsywnoĂ„Ä…Ă˘â‚¬ĹźÄ‚â€žĂ˘â‚¬Ë‡ panelu MiLight dla tabletĂ„â€šÄąâ€šw i telefonĂ„â€šÄąâ€šw."
+            ]
+          },
+          {
+            "version": "Firmware 1.0.0.807 / Portal 1.0.0.618",
+            "date": "2026-06-20T02:17:36+01:00",
+            "changes": [
+              "Poprawiono kolor przycisku zamkniÄ‚â€žĂ˘â€žËcia i komunikatu kopii ustawieĂ„Ä…Ă˘â‚¬Ĺľ w jasnym motywie.",
+              "PodglÄ‚â€žĂ˘â‚¬Â¦d wczytywania ustawieĂ„Ä…Ă˘â‚¬Ĺľ pokazuje teraz bardziej zrozumiaĂ„Ä…Ă˘â‚¬Ĺˇe nazwy sekcji i wartoĂ„Ä…Ă˘â‚¬Ĺźci.",
+              "Przebudowano paczkÄ‚â€žĂ˘â€žË portalu WWW z nowÄ‚â€žĂ˘â‚¬Â¦ wersjÄ‚â€žĂ˘â‚¬Â¦ zasobĂ„â€šÄąâ€šw."
+            ]
+          },
+          {
+            "version": "Firmware 1.0.0.807 / Portal 1.0.0.617",
+            "date": "2026-06-20T02:03:37+01:00",
+            "changes": [
+              "Testowo podbito wersjÄ‚â€žĂ˘â€žË firmware i portalu WWW, aby sprawdziÄ‚â€žĂ˘â‚¬Ë‡ wykrywanie aktualizacji online.",
+              "Paczki OTA zostaĂ„Ä…Ă˘â‚¬Ĺˇy ponownie zbudowane i opublikowane w repozytorium digiLedOta."
+            ]
+          },
+          {
+            "version": "Firmware 1.0.0.806 / Portal 1.0.0.616",
+            "date": "2026-06-20T01:56:29+01:00",
+            "changes": [
+              "Przed aktualizacjÄ‚â€žĂ˘â‚¬Â¦ filesystemu urzÄ‚â€žĂ˘â‚¬Â¦dzenie pokazuje listÄ‚â€žĂ˘â€žË plikĂ„â€šÄąâ€šw LittleFS, ktĂ„â€šÄąâ€šre zostanÄ‚â€žĂ˘â‚¬Â¦ nadpisane.",
+              "Dodano moĂ„Ä…Ă„ËťliwoĂ„Ä…Ă˘â‚¬ĹźÄ‚â€žĂ˘â‚¬Ë‡ pobrania kopii ustawieĂ„Ä…Ă˘â‚¬Ĺľ digiLed.json przed instalacjÄ‚â€žĂ˘â‚¬Â¦ portalu WWW.",
+              "Eksport i import ustawieĂ„Ä…Ă˘â‚¬Ĺľ obejmuje teraz piloty MiLight, mapowanie akcji, reguĂ„Ä…Ă˘â‚¬Ĺˇy live i tryby pĂ„Ä…Ă˘â‚¬Ĺˇytki dotykowej.",
+              "WyrĂ„â€šÄąâ€šwnano obramowania ikon aktualizacji online i lokalnej oraz poprawiono hover przyciskĂ„â€šÄąâ€šw w jasnym motywie.",
+              "Dodano wersjonowanie i no-cache dla gĂ„Ä…Ă˘â‚¬ĹˇĂ„â€šÄąâ€šwnych plikĂ„â€šÄąâ€šw portalu, aby po OTA nie Ă„Ä…Ă˘â‚¬ĹˇadowaĂ„Ä…Ă˘â‚¬Ĺˇ siÄ‚â€žĂ˘â€žË stary skrypt."
+            ]
+          },
+          {
+            "version": "Portal 1.0.0.613",
+            "date": "2026-06-20T01:17:50+01:00",
+            "changes": [
+              "Ujednolicono wyglÄ‚â€žĂ˘â‚¬Â¦d karty Aktualizacja online z kartÄ‚â€žĂ˘â‚¬Â¦ Aktualizacja lokalna.",
+              "Dodano datÄ‚â€žĂ˘â€žË i godzinÄ‚â€žĂ˘â€žË przygotowania pakietu w manifeĂ„Ä…Ă˘â‚¬Ĺźcie aktualizacji.",
+              "Dodano osobny plik historii zmian dla aktualizacji online."
+            ]
+          },
+          {
+            "version": "Portal 1.0.0.610",
+            "date": "2026-06-20T01:01:34+01:00",
+            "changes": [
+              "Spinner aktualizacji online jest mniejszy i znajduje siÄ‚â€žĂ˘â€žË przy przycisku sprawdzania aktualizacji.",
+              "Stan pracy nie zwiÄ‚â€žĂ˘â€žËksza juĂ„Ä…Ă„Ëť wysokoĂ„Ä…Ă˘â‚¬Ĺźci karty Aktualizacja online."
+            ]
+          },
+          {
+            "version": "Portal 1.0.0.609",
+            "date": "2026-06-20T00:51:20+01:00",
+            "changes": [
+              "UsuniÄ‚â€žĂ˘â€žËto dublowanie komunikatĂ„â€šÄąâ€šw przy braku aktualizacji.",
+              "Kafelki Firmware i Portal WWW sÄ‚â€žĂ˘â‚¬Â¦ ukryte do czasu sprawdzenia aktualizacji.",
+              "Pill Online nie jest juĂ„Ä…Ă„Ëť pokazywany w normalnym stanie karty."
+            ]
+          },
+          {
+            "version": "Portal 1.0.0.608",
+            "date": "2026-06-20T00:39:28+01:00",
+            "changes": [
+              "Przeniesiono aktualizacjÄ‚â€žĂ˘â€žË online z modala do osobnej karty w zakĂ„Ä…Ă˘â‚¬Ĺˇadce Oprogramowanie.",
+              "Oddzielono aktualizacjÄ‚â€žĂ˘â€žË online od rÄ‚â€žĂ˘â€žËcznej aktualizacji lokalnej.",
+              "Zachowano wspĂ„â€šÄąâ€šlny ukĂ„Ä…Ă˘â‚¬Ĺˇad zakĂ„Ä…Ă˘â‚¬Ĺˇadki Oprogramowanie."
+            ]
+          },
+          {
+            "version": "Portal 1.0.0.607",
+            "date": "2026-06-20T00:15:46+01:00",
+            "changes": [
+              "Lista zmian jest otwierana przyciskiem zamiast zajmowaÄ‚â€žĂ˘â‚¬Ë‡ miejsce od razu po sprawdzeniu aktualizacji.",
+              "Zmieniono komunikaty sprawdzania aktualizacji na bardziej zrozumiaĂ„Ä…Ă˘â‚¬Ĺˇe dla uĂ„Ä…Ă„Ëťytkownika.",
+              "Ustalono, Ă„Ä…Ă„Ëťe publiczna lista zmian w OTA ma byÄ‚â€žĂ˘â‚¬Ë‡ po polsku."
+            ]
+          },
+          {
+            "version": "Firmware 1.0.0.803 / Portal 1.0.0.606",
+            "date": "2026-06-19T23:53:20+01:00",
+            "changes": [
+              "Dopracowano modal aktualizacji GitHub OTA.",
+              "Dodano czytelniejsze informacje o wersjach firmware i portalu.",
+              "Poprawiono prezentacjÄ‚â€žĂ˘â€žË dostÄ‚â€žĂ˘â€žËpnych komponentĂ„â€šÄąâ€šw aktualizacji."
+            ]
+          },
+          {
+            "version": "Firmware 1.0.0.802 / Portal 1.0.0.605",
+            "date": "2026-06-19T23:42:20+01:00",
+            "changes": [
+              "Przeniesiono paczki OTA do osobnego publicznego repozytorium digiLedOta.",
+              "Zaktualizowano adresy manifestu i plikĂ„â€šÄąâ€šw binarnych dla aktualizacji z GitHuba."
+            ]
+          },
+          {
+            "version": "Firmware 1.0.0.800 / Portal 1.0.0.600",
+            "date": "2026-06-19T23:01:46+01:00",
+            "changes": [
+              "Przygotowano pierwszÄ‚â€žĂ˘â‚¬Â¦ testowÄ‚â€žĂ˘â‚¬Â¦ paczkÄ‚â€žĂ˘â€žË aktualizacji online przez GitHub.",
+              "Dodano manifest z wersjami, rozmiarami i sumami kontrolnymi plikĂ„â€šÄąâ€šw aktualizacji."
+            ]
+          }
         ]
       }
-    ]
+    ],
+    "Count": 34
   }
 ]

@@ -2,12 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.655",
-  "notes": "Dodano prototyp zunifikowanego widoku aktualizacji w zakładce Test updt.",
+  "filesystem_version": "1.0.0.656",
+  "notes": "Zunifikowano zakładkę Test updt i podpięto realną aktualizację lokalną oraz online z poziomu kafelków.",
   "changes": [
-    "Dodano trzecią zakładkę Test updt z prototypem zunifikowanego widoku aktualizacji.",
-    "Nowy widok pokazuje karty Firmware i Filesystem, mini-podgląd zajętości LittleFS w stylu fileman oraz pasek mapy flash w stylu diagnostyki.",
-    "Testowy pasek wyboru pliku jest przygotowany jako wizualizacja; realny upload zostaje do podpięcia po akceptacji widoku."
+    "Przebudowano Test updt: usunięto dolny pasek uploadu, a wybór pliku i aktualizacja online są teraz dostępne bezpośrednio w kartach Firmware i Filesystem.",
+    "Wybór lokalnego pliku uruchamia aktualizację od razu; dla filesystemu wyświetlany jest znany modal pobrania ustawień albo kontynuacji bez kopii.",
+    "Paski w kartach pokazują zajętość pamięci w spoczynku oraz postęp pobierania i zapisu podczas aktualizacji lokalnej lub online.",
+    "Dodano ikony firmware i filesystem z zasobów portalu oraz zachowano listę zmian z manifestu OTA w widoku Test updt."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "7C2FAED6D8522AD6E7DF5ECF4CF8E6BE"
+    "md5": "61F9806F9E0B80E8AB715921A863550E"
   },
-  "build_time": "2026-06-21T09:29:55+01:00",
+  "build_time": "2026-06-21T10:46:57+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
