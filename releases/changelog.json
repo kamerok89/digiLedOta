@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.666",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.666",
+      "date": "2026-06-21T12:35:46+01:00",
+      "title": "Ikona w przycisku Aktualizuj",
+      "changes": [
+        "Przycisk Aktualizuj w widoku Test updt otrzymał ikonę U+F0C5.",
+        "Zmniejszono wysokość przycisku Aktualizuj do 22 px.",
+        "Dopasowano odstęp między ikoną i tekstem, żeby przycisk pozostał kompaktowy."
+      ]
+    },
+    {
       "version": "1.0.0.665",
       "firmware_version": "1.0.0.814",
       "filesystem_version": "1.0.0.665",

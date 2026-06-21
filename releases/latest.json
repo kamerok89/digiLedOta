@@ -3,11 +3,11 @@
   "channel": "stable",
   "firmware_version": "1.0.0.814",
   "filesystem_version": "1.0.0.666",
-  "notes": "Zmieniono wygląd przycisku Aktualizuj w widoku Test updt na mały kompaktowy pill.",
+  "notes": "Dodano ikonę do kompaktowego przycisku Aktualizuj i lekko zmniejszono jego wysokość.",
   "changes": [
-    "Przycisk Aktualizuj w mini-panelu pamięci ma teraz wysokość i styl małego statusowego pill.",
-    "Usunięto ikonę z przycisku Aktualizuj, żeby wyglądał lekko i nie rozpychał kafelka.",
-    "Na wąskich ekranach przycisk pozostaje kompaktowy zamiast rozciągać się na całą szerokość."
+    "Przycisk Aktualizuj w widoku Test updt otrzymał ikonę U+F0C5.",
+    "Zmniejszono wysokość przycisku Aktualizuj do 22 px.",
+    "Dopasowano odstęp między ikoną i tekstem, żeby przycisk pozostał kompaktowy."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "E59599BCA7C60BE4E37F0C1362558BC6"
+    "md5": "7986165C704AA1CB630FE118FDFE4964"
   },
-  "build_time": "2026-06-21T12:24:03+01:00",
+  "build_time": "2026-06-21T12:35:46+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
