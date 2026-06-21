@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.654",
-  "notes": "Podzielono aktualizacje portalu na osobne zakładki online i lokalną.",
+  "filesystem_version": "1.0.0.655",
+  "notes": "Dodano prototyp zunifikowanego widoku aktualizacji w zakładce Test updt.",
   "changes": [
-    "Sekcja Oprogramowanie ma teraz dwie zakładki jak w przeglądarce: Aktualizacja online i Aktualizacja lokalna.",
-    "Domyślnie widoczna jest tylko aktywna zakładka, a przełączenie ukrywa drugi panel bez rozciągania widoku.",
-    "W trybie użytkownika aktualizacja lokalna pozostaje ukryta tak jak wcześniej narzędzia serwisowe."
+    "Dodano trzecią zakładkę Test updt z prototypem zunifikowanego widoku aktualizacji.",
+    "Nowy widok pokazuje karty Firmware i Filesystem, mini-podgląd zajętości LittleFS w stylu fileman oraz pasek mapy flash w stylu diagnostyki.",
+    "Testowy pasek wyboru pliku jest przygotowany jako wizualizacja; realny upload zostaje do podpięcia po akceptacji widoku."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "936319E6FD7F5A1C9457E3F20AA52B72"
+    "md5": "7C2FAED6D8522AD6E7DF5ECF4CF8E6BE"
   },
-  "build_time": "2026-06-21T08:30:59+01:00",
+  "build_time": "2026-06-21T09:29:55+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

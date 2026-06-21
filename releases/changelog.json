@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.655",
+    "firmware_version": "1.0.0.814",
+    "filesystem_version": "1.0.0.655",
+    "date": "2026-06-21T09:29:55+01:00",
+    "title": "Prototyp zunifikowanej aktualizacji",
+    "changes": [
+      "Dodano trzecią zakładkę Test updt z prototypem zunifikowanego widoku aktualizacji.",
+      "Nowy widok pokazuje karty Firmware i Filesystem, mini-podgląd zajętości LittleFS w stylu fileman oraz pasek mapy flash w stylu diagnostyki.",
+      "Testowy pasek wyboru pliku jest przygotowany jako wizualizacja; realny upload zostaje do podpięcia po akceptacji widoku."
+    ]
+  },
+  {
     "version": "1.0.0.654",
     "firmware_version": "1.0.0.814",
     "filesystem_version": "1.0.0.654",
