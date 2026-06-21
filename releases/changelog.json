@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.665",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.665",
+      "date": "2026-06-21T12:24:03+01:00",
+      "title": "Kompaktowy przycisk Aktualizuj",
+      "changes": [
+        "Przycisk Aktualizuj w mini-panelu pamięci ma teraz wysokość i styl małego statusowego pill.",
+        "Usunięto ikonę z przycisku Aktualizuj, żeby wyglądał lekko i nie rozpychał kafelka.",
+        "Na wąskich ekranach przycisk pozostaje kompaktowy zamiast rozciągać się na całą szerokość."
+      ]
+    },
+    {
       "version": "1.0.0.664",
       "firmware_version": "1.0.0.814",
       "filesystem_version": "1.0.0.664",
