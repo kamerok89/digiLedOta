@@ -2,7 +2,7 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.666",
+  "filesystem_version": "1.0.0.667",
   "notes": "Dodano ikonę do kompaktowego przycisku Aktualizuj i lekko zmniejszono jego wysokość.",
   "changes": [
     "Przycisk Aktualizuj w widoku Test updt otrzymał ikonę U+F0C5.",
