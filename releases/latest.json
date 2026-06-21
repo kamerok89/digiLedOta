@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.659",
-  "notes": "Ikona firmware w widoku Test updt działa teraz jako przycisk wyboru pliku lokalnej aktualizacji.",
+  "filesystem_version": "1.0.0.660",
+  "notes": "Ikona Filesystem w widoku Test updt działa teraz jako przycisk wyboru pliku lokalnej aktualizacji.",
   "changes": [
-    "W karcie Firmware kliknięcie ikony fw.png otwiera wybór pliku firmware.bin i od razu uruchamia aktualizację lokalną.",
-    "Po wybraniu pliku nazwa w mini-panelu Firmware zmienia się na nazwę wybranego pliku podczas aktualizacji.",
-    "Usunięto dolny widoczny wiersz wyboru pliku z karty Firmware; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
+    "W karcie Filesystem kliknięcie ikony storage.png otwiera wybór pliku littlefs.bin i uruchamia lokalną aktualizację po modalu kopii ustawień.",
+    "Po wybraniu pliku nazwa w mini-panelu Filesystem zmienia się na nazwę wybranego pliku podczas aktualizacji.",
+    "Usunięto widoczny wiersz wyboru pliku z karty Filesystem; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "AD0CE1CACEA1E447B54E79484A34E02A"
+    "md5": "344F98D32C5E593772C0E7F09A74C0D5"
   },
-  "build_time": "2026-06-21T11:18:57+01:00",
+  "build_time": "2026-06-21T11:28:19+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
