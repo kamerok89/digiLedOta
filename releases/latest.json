@@ -2,12 +2,10 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.657",
-  "notes": "Uproszczono kafelki aktualizacji w widoku Test updt, ukrywając nieaktywne akcje.",
+  "filesystem_version": "1.0.0.658",
+  "notes": "Zmieniono ikonę karty Filesystem w widoku Test updt na storage.png.",
   "changes": [
-    "W widoku Test updt ukryto tekstowe pole wyboru pliku, gdy nie wybrano pliku ani nie trwa aktualizacja lokalna.",
-    "Przycisk Aktualizuj w kartach Firmware i Filesystem pojawia się tylko wtedy, gdy dla danego elementu jest dostępna aktualizacja online.",
-    "Wiersz akcji w stanie spoczynku pokazuje tylko małą ikonę wyboru pliku, żeby nie rozpraszać użytkownika nieaktywnymi kontrolkami."
+    "Karta Filesystem w zakładce Test updt używa teraz ikony storage.png zamiast home.png."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +15,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "A003B7BB5EECCC28EB48CEDBF655C01A"
+    "md5": "D78153633DD65EE0BD2EA25305C6180D"
   },
-  "build_time": "2026-06-21T11:00:07+01:00",
+  "build_time": "2026-06-21T11:07:33+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
