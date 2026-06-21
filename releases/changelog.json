@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.0.654",
+    "firmware_version": "1.0.0.814",
+    "filesystem_version": "1.0.0.654",
+    "date": "2026-06-21T08:30:59+01:00",
+    "title": "Zakładki aktualizacji online i lokalnej",
+    "changes": [
+      "Sekcja Oprogramowanie ma teraz dwie zakładki jak w przeglądarce: Aktualizacja online i Aktualizacja lokalna.",
+      "Domyślnie widoczna jest tylko aktywna zakładka, a przełączenie ukrywa drugi panel bez rozciągania widoku.",
+      "W trybie użytkownika aktualizacja lokalna pozostaje ukryta tak jak wcześniej narzędzia serwisowe."
+    ]
+  },
+  {
     "version": "1.0.0.652",
     "firmware_version": "1.0.0.814",
     "filesystem_version": "1.0.0.652",

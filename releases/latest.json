@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.652",
-  "notes": "Poprawiono wyjście z trybu bieli temperaturowej po ruszeniu pierścienia koloru pilota MiLight.",
+  "filesystem_version": "1.0.0.654",
+  "notes": "Podzielono aktualizacje portalu na osobne zakładki online i lokalną.",
   "changes": [
-    "Dodano domyślne mapowanie pierścienia koloru MiLight na akcję sterowania kolorem, także gdy nie ma osobnego wiersza w portalu.",
-    "Ruszenie pierścienia koloru wychodzi teraz z trybu bieli temperaturowej i przywraca kolor po sterowaniu temperaturą bieli.",
-    "Dodano awaryjny fallback dla zdarzenia CCT, żeby temperatura białego koloru działała nawet po niepełnym zapisie mapowań."
+    "Sekcja Oprogramowanie ma teraz dwie zakładki jak w przeglądarce: Aktualizacja online i Aktualizacja lokalna.",
+    "Domyślnie widoczna jest tylko aktywna zakładka, a przełączenie ukrywa drugi panel bez rozciągania widoku.",
+    "W trybie użytkownika aktualizacja lokalna pozostaje ukryta tak jak wcześniej narzędzia serwisowe."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "7CABD362B097494FE95A3E4DED6A5B5E"
+    "md5": "936319E6FD7F5A1C9457E3F20AA52B72"
   },
-  "build_time": "2026-06-20T21:23:25+01:00",
+  "build_time": "2026-06-21T08:30:59+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
