@@ -3,12 +3,12 @@
   "channel": "stable",
   "firmware_version": "1.0.0.815",
   "filesystem_version": "1.0.0.669",
-  "notes": "Zunifikowano system aktualizacji portalu w jednym widoku Aktualizacje.",
+  "notes": "Dodano menu akcji w widoku aktualizacji i poprawiono przycisk sprawdzania aktualizacji.",
   "changes": [
-    "Zastąpiono zakładki Aktualizacja online, Aktualizacja lokalna i Test updt jednym docelowym panelem Aktualizacje.",
-    "Przeniesiono logikę testowego widoku na produkcyjne nazwy updateHub i softwareUpdate bez publicznych identyfikatorów testowych.",
-    "Ikony Firmware i Filesystem uruchamiają lokalny wybór pliku, a przycisk Aktualizuj pojawia się tylko przy dostępnej aktualizacji online.",
-    "Zachowano modal kopii ustawień dla aktualizacji filesystemu i usunięto stare skrypty oraz style paneli online/lokalnych."
+    "Przycisk Sprawdź aktualizacje ma ikonę U+F0C5 i obraca ją podczas sprawdzania manifestu online.",
+    "Ikony Firmware i Filesystem pokazują podpowiedź Wybierz plik i nadal uruchamiają ręczną aktualizację lokalną.",
+    "Kliknięcie obszaru LittleFS (C:)/(D:) otwiera menu z ręczną aktualizacją firmware oraz przełączeniem aktywnego slotu.",
+    "Kliknięcie obszaru LittleFS (E:) otwiera menu z ręczną aktualizacją filesystemu oraz przejściem do menedżera plików."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "AD47DA783970F9E097B79C2997A6DF73"
+    "md5": "A2D14E9E46DB36A6BCD465D5D69BA0A2"
   },
-  "build_time": "2026-06-21T13:28:43+01:00",
+  "build_time": "2026-06-21T14:14:07+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

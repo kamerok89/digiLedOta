@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.669",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.669",
+      "date": "2026-06-21T14:14:07+01:00",
+      "title": "Menu akcji w widoku aktualizacji",
+      "changes": [
+        "Przycisk Sprawdź aktualizacje ma ikonę U+F0C5 i obraca ją podczas sprawdzania manifestu online.",
+        "Ikony Firmware i Filesystem pokazują podpowiedź Wybierz plik i nadal uruchamiają ręczną aktualizację lokalną.",
+        "Kliknięcie obszaru LittleFS (C:)/(D:) otwiera menu z ręczną aktualizacją firmware oraz przełączeniem aktywnego slotu.",
+        "Kliknięcie obszaru LittleFS (E:) otwiera menu z ręczną aktualizacją filesystemu oraz przejściem do menedżera plików."
+      ]
+    },
+    {
       "version": "1.0.0.668",
       "firmware_version": "1.0.0.814",
       "filesystem_version": "1.0.0.668",
