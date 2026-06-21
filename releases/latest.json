@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.663",
-  "notes": "Przeniesiono przycisk Aktualizuj do mini-panelu pamięci w widoku Test updt.",
+  "filesystem_version": "1.0.0.664",
+  "notes": "Usunięto dolny pasek mapy pamięci z widoku Test updt i posprzątano jego kod.",
   "changes": [
-    "Przycisk Aktualizuj pojawia się po prawej stronie paska tylko wtedy, gdy dla danego kafelka jest dostępna aktualizacja online.",
-    "Po rozpoczęciu aktualizacji przycisk znika, a pasek ponownie zajmuje pełną szerokość i pokazuje postęp pobierania oraz zapisu.",
-    "Usunięto pozostałości dolnego wiersza akcji z widoku Test updt."
+    "Usunięto dolny pasek mapy pamięci z zakładki Test updt.",
+    "Skasowano nieużywany element HTML, funkcję renderującą oraz dedykowane style tego paska.",
+    "Pozostawiono bez zmian mapę pamięci w diagnostyce urządzenia."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "F710E5A7B25B406E792FAEE4CD1BFA4A"
+    "md5": "38DE1A1FAEF6F517D924182F49AE8DA1"
   },
-  "build_time": "2026-06-21T12:04:56+01:00",
+  "build_time": "2026-06-21T12:15:43+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.664",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.664",
+      "date": "2026-06-21T12:15:43+01:00",
+      "title": "Usunięcie paska mapy pamięci z Test updt",
+      "changes": [
+        "Usunięto dolny pasek mapy pamięci z zakładki Test updt.",
+        "Skasowano nieużywany element HTML, funkcję renderującą oraz dedykowane style tego paska.",
+        "Pozostawiono bez zmian mapę pamięci w diagnostyce urządzenia."
+      ]
+    },
+    {
       "version": "1.0.0.663",
       "firmware_version": "1.0.0.814",
       "filesystem_version": "1.0.0.663",
