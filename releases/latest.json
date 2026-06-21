@@ -3,11 +3,11 @@
   "channel": "stable",
   "firmware_version": "1.0.0.815",
   "filesystem_version": "1.0.0.674",
-  "notes": "Poprawiono modal aktualizacji filesystemu oraz kontrast elementów w jasnym motywie.",
+  "notes": "Dodano akcję Aktualizuj do menu LittleFS, gdy dla danego kafelka jest dostępna aktualizacja online.",
   "changes": [
-    "Poprawiono modal aktualizacji filesystemu: akcja bez kopii jest po lewej i nazywa się Wyczyść ustawienia.",
-    "Wzmocniono kontrast statusowych pilli i przycisku Aktualizuj w jasnym motywie.",
-    "Dodano widoczny hover i focus dla obszarów LittleFS (C:), LittleFS (D:) i LittleFS (E:) w jasnym motywie."
+    "Dodano wpis Aktualizuj do menu LittleFS (C:), LittleFS (D:) i LittleFS (E:), widoczny tylko przy dostępnej aktualizacji online.",
+    "Kliknięcie wpisu Aktualizuj uruchamia ten sam proces aktualizacji online co przycisk w kafelku.",
+    "Gdy aktualizacja nie jest dostępna, menu pozostaje bez dodatkowego wpisu i pokazuje tylko dotychczasowe akcje."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "144451FD159FE8E967EAF2F034D0B8E0"
+    "md5": "26434E49FD16A2150A08B7B9E0F443E8"
   },
-  "build_time": "2026-06-21T15:07:07+01:00",
+  "build_time": "2026-06-21T15:54:40+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.674",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.674",
+      "date": "2026-06-21T15:54:40+01:00",
+      "title": "Aktualizacja z menu LittleFS",
+      "changes": [
+        "Dodano wpis Aktualizuj do menu LittleFS (C:), LittleFS (D:) i LittleFS (E:), widoczny tylko przy dostępnej aktualizacji online.",
+        "Kliknięcie wpisu Aktualizuj uruchamia ten sam proces aktualizacji online co przycisk w kafelku.",
+        "Gdy aktualizacja nie jest dostępna, menu pozostaje bez dodatkowego wpisu i pokazuje tylko dotychczasowe akcje."
+      ]
+    },
+    {
       "version": "1.0.0.673",
       "firmware_version": "1.0.0.815",
       "filesystem_version": "1.0.0.673",
