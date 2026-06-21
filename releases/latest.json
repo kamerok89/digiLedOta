@@ -1,8 +1,8 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.668",
+  "firmware_version": "1.0.0.815",
+  "filesystem_version": "1.0.0.669",
   "notes": "Zunifikowano system aktualizacji portalu w jednym widoku Aktualizacje.",
   "changes": [
     "Zastąpiono zakładki Aktualizacja online, Aktualizacja lokalna i Test updt jednym docelowym panelem Aktualizacje.",
