@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.667",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.667",
+      "date": "2026-06-21T12:54:19+01:00",
+      "title": "Mniejszy przycisk Aktualizuj bez dolnych pillów",
+      "changes": [
+        "Przycisk Aktualizuj ma teraz minimalną wysokość 17 px, z ikoną i tekstem dopasowanymi do małego pill-a.",
+        "Usunięto dolne pille informacyjne z kafelków Firmware i Filesystem w widoku Test updt.",
+        "Posprzątano nieużywane identyfikatory i logikę aktualizacji tekstu dla usuniętych pillów."
+      ]
+    },
+    {
       "version": "1.0.0.666",
       "firmware_version": "1.0.0.814",
       "filesystem_version": "1.0.0.666",
