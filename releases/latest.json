@@ -2,7 +2,7 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.665",
+  "filesystem_version": "1.0.0.666",
   "notes": "Zmieniono wygląd przycisku Aktualizuj w widoku Test updt na mały kompaktowy pill.",
   "changes": [
     "Przycisk Aktualizuj w mini-panelu pamięci ma teraz wysokość i styl małego statusowego pill.",
