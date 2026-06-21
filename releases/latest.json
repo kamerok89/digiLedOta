@@ -2,7 +2,7 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.815",
-  "filesystem_version": "1.0.0.673",
+  "filesystem_version": "1.0.0.674",
   "notes": "Poprawiono modal aktualizacji filesystemu oraz kontrast elementów w jasnym motywie.",
   "changes": [
     "Poprawiono modal aktualizacji filesystemu: akcja bez kopii jest po lewej i nazywa się Wyczyść ustawienia.",
