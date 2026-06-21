@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.672",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.672",
+      "date": "2026-06-21T14:52:52+01:00",
+      "title": "Minimalnie wi?kszy przycisk Aktualizuj",
+      "changes": [
+        "Minimalnie powiększono dedykowany przycisk Aktualizuj w kafelkach aktualizacji.",
+        "Wysokość przycisku ustawiono na 20 px, a tekst i ikonę na 10 px.",
+        "Przycisk nadal korzysta wyłącznie z klasy updateHubOnlineBtn, bez globalnych stylów btn."
+      ]
+    },
+    {
       "version": "1.0.0.671",
       "firmware_version": "1.0.0.815",
       "filesystem_version": "1.0.0.671",

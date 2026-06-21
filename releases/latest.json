@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.815",
-  "filesystem_version": "1.0.0.671",
-  "notes": "Odizolowano styl przycisku Aktualizuj w widoku aktualizacji.",
+  "filesystem_version": "1.0.0.672",
+  "notes": "Minimalnie powiększono przycisk Aktualizuj w widoku aktualizacji.",
   "changes": [
-    "Odpięto przycisk Aktualizuj w kafelkach aktualizacji od globalnych klas btn i primary.",
-    "Przycisk Aktualizuj ma teraz jeden dedykowany styl updateHubOnlineBtn z własnym resetem, rozmiarem i stanami hover/focus/disabled.",
-    "Usunięto konflikt z ogólnymi regułami #advCard.softwareCard .btn, które zawyżały wizualną wysokość przycisku."
+    "Minimalnie powiększono dedykowany przycisk Aktualizuj w kafelkach aktualizacji.",
+    "Wysokość przycisku ustawiono na 20 px, a tekst i ikonę na 10 px.",
+    "Przycisk nadal korzysta wyłącznie z klasy updateHubOnlineBtn, bez globalnych stylów btn."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "A75602E44971C1ABB432B22CB7452CCE"
+    "md5": "CF9E4937110EBA08CAB9C16C0B47B8AA"
   },
-  "build_time": "2026-06-21T14:41:55+01:00",
+  "build_time": "2026-06-21T14:52:52+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
