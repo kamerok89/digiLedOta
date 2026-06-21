@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.660",
-  "notes": "Ikona Filesystem w widoku Test updt działa teraz jako przycisk wyboru pliku lokalnej aktualizacji.",
+  "filesystem_version": "1.0.0.661",
+  "notes": "Zmieniono etykiety pamięci w widoku Test updt i dodano akcje kliknięcia dla obszarów LittleFS.",
   "changes": [
-    "W karcie Filesystem kliknięcie ikony storage.png otwiera wybór pliku littlefs.bin i uruchamia lokalną aktualizację po modalu kopii ustawień.",
-    "Po wybraniu pliku nazwa w mini-panelu Filesystem zmienia się na nazwę wybranego pliku podczas aktualizacji.",
-    "Usunięto widoczny wiersz wyboru pliku z karty Filesystem; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
+    "Karta Firmware pokazuje teraz LittleFS (C:) lub LittleFS (D:) zależnie od aktywnego slotu OTA.",
+    "Kliknięcie obszaru LittleFS (C:) albo LittleFS (D:) pokazuje komunikat: nie można otworzyć, zawartość zabezpieczona.",
+    "Karta Filesystem pokazuje LittleFS (E:), a kliknięcie tego obszaru przenosi do menedżera plików /fileman."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "344F98D32C5E593772C0E7F09A74C0D5"
+    "md5": "138FF78A391E2D924A8E363F0695775B"
   },
-  "build_time": "2026-06-21T11:28:19+01:00",
+  "build_time": "2026-06-21T11:43:37+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
