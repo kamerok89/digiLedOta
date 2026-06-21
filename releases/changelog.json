@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.678",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-21T18:44:22+01:00",
+      "title": "Responsywne kafelki stanu po restarcie",
+      "changes": [
+        "Kafelki Stan po restarcie korzystają teraz z responsywnej siatki auto-fit zamiast sztywnego układu zależnego tylko od szerokości okna.",
+        "Przy zbyt małej szerokości panelu kafelki przechodzą do kolejnego rzędu zamiast ściskać teksty w jednej linii.",
+        "Zachowano dotychczasowy wygląd kafelków i podgląd LED."
+      ]
+    },
+    {
       "version": "1.0.0.677",
       "firmware_version": "1.0.0.814",
       "filesystem_version": "1.0.0.677",

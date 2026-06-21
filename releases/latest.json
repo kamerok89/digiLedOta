@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.677",
-  "notes": "Poprawiono komunikaty sprawdzania aktualizacji, aby błąd internetu lub serwera nie był pokazywany jako aktualna wersja.",
+  "filesystem_version": "1.0.0.678",
+  "notes": "Poprawiono zawijanie kafelków wyboru w sekcji Stan po restarcie przy węższym panelu konfiguracji.",
   "changes": [
-    "Gdy nie uda się pobrać manifestu OTA, panel aktualizacji pokazuje komunikat o błędzie zamiast tekstu Urządzenie ma aktualną wersję.",
-    "Dodano osobny komunikat dla problemu z połączeniem internetowym oraz osobny dla błędu serwera aktualizacji.",
-    "Status błędu ma wyróżniony wygląd w jasnym i ciemnym motywie."
+    "Kafelki Stan po restarcie korzystają teraz z responsywnej siatki auto-fit zamiast sztywnego układu zależnego tylko od szerokości okna.",
+    "Przy zbyt małej szerokości panelu kafelki przechodzą do kolejnego rzędu zamiast ściskać teksty w jednej linii.",
+    "Zachowano dotychczasowy wygląd kafelków i podgląd LED."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "234354BE168638CBE5E63F29F82B10ED"
+    "md5": "725A728813B3A3D18FE9D2A84C834F5E"
   },
-  "build_time": "2026-06-21T17:54:50+01:00",
+  "build_time": "2026-06-21T18:44:22+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
