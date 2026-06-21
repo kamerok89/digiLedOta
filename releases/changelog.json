@@ -1,97 +1,84 @@
-[
-  {
-    "version": "1.0.0.661",
-    "firmware_version": "1.0.0.814",
-    "filesystem_version": "1.0.0.661",
-    "date": "2026-06-21T11:43:37+01:00",
-    "title": "Etykiety LittleFS w Test updt",
-    "changes": [
-      "Karta Firmware pokazuje teraz LittleFS (C:) lub LittleFS (D:) zależnie od aktywnego slotu OTA.",
-      "Kliknięcie obszaru LittleFS (C:) albo LittleFS (D:) pokazuje komunikat: nie można otworzyć, zawartość zabezpieczona.",
-      "Karta Filesystem pokazuje LittleFS (E:), a kliknięcie tego obszaru przenosi do menedżera plików /fileman."
-    ]
-  },
-  {
-    "value": [
-      {
-        "version": "1.0.0.660",
-        "firmware_version": "1.0.0.814",
-        "filesystem_version": "1.0.0.660",
-        "date": "2026-06-21T11:28:19+01:00",
-        "title": "Ikona Filesystem jako wybór pliku",
-        "changes": [
-          "W karcie Filesystem kliknięcie ikony storage.png otwiera wybór pliku littlefs.bin i uruchamia lokalną aktualizację po modalu kopii ustawień.",
-          "Po wybraniu pliku nazwa w mini-panelu Filesystem zmienia się na nazwę wybranego pliku podczas aktualizacji.",
-          "Usunięto widoczny wiersz wyboru pliku z karty Filesystem; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
-        ]
-      },
-      {
-        "value": [
-          {
-            "version": "1.0.0.659",
-            "firmware_version": "1.0.0.814",
-            "filesystem_version": "1.0.0.659",
-            "date": "2026-06-21T11:18:57+01:00",
-            "title": "Ikona Firmware jako wybór pliku",
-            "changes": [
-              "W karcie Firmware kliknięcie ikony fw.png otwiera wybór pliku firmware.bin i od razu uruchamia aktualizację lokalną.",
-              "Po wybraniu pliku nazwa w mini-panelu Firmware zmienia się na nazwę wybranego pliku podczas aktualizacji.",
-              "Usunięto dolny widoczny wiersz wyboru pliku z karty Firmware; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
-            ]
-          },
-          {
-            "value": [
-              {
-                "version": "1.0.0.658",
-                "firmware_version": "1.0.0.814",
-                "filesystem_version": "1.0.0.658",
-                "date": "2026-06-21T11:07:33+01:00",
-                "title": "Ikona storage dla Filesystem",
-                "changes": [
-                  "Karta Filesystem w zakładce Test updt używa teraz ikony storage.png zamiast home.png."
-                ]
-              },
-              {
-                "value": [
-                  {
-                    "version": "1.0.0.657",
-                    "firmware_version": "1.0.0.814",
-                    "filesystem_version": "1.0.0.657",
-                    "date": "2026-06-21T11:00:07+01:00",
-                    "title": "Czytelniejsze akcje aktualizacji Test updt",
-                    "changes": [
-                      "W widoku Test updt ukryto tekstowe pole wyboru pliku, gdy nie wybrano pliku ani nie trwa aktualizacja lokalna.",
-                      "Przycisk Aktualizuj w kartach Firmware i Filesystem pojawia się tylko wtedy, gdy dla danego elementu jest dostępna aktualizacja online.",
-                      "Wiersz akcji w stanie spoczynku pokazuje tylko małą ikonę wyboru pliku, żeby nie rozpraszać użytkownika nieaktywnymi kontrolkami."
-                    ]
-                  },
-                  {
-                    "value": [
-                      {
-                        "version": "1.0.0.656",
-                        "firmware_version": "1.0.0.814",
-                        "filesystem_version": "1.0.0.656",
-                        "date": "2026-06-21T10:46:57+01:00",
-                        "title": "Zunifikowany widok aktualizacji Test updt",
-                        "changes": "Przebudowano Test updt: usunięto dolny pasek uploadu, a wybór pliku i aktualizacja online są teraz dostępne bezpośrednio w kartach Firmware i Filesystem. Wybór lokalnego pliku uruchamia aktualizację od razu; dla filesystemu wyświetlany jest znany modal pobrania ustawień albo kontynuacji bez kopii. Paski w kartach pokazują zajętość pamięci w spoczynku oraz postęp pobierania i zapisu podczas aktualizacji lokalnej lub online. Dodano ikony firmware i filesystem z zasobów portalu oraz zachowano listę zmian z manifestu OTA w widoku Test updt."
-                      },
-                      {
-                        "value": "                                 ",
-                        "Count": 34
-                      }
-                    ],
-                    "Count": 2
-                  }
-                ],
-                "Count": 2
-              }
-            ],
-            "Count": 2
-          }
-        ],
-        "Count": 2
-      }
-    ],
-    "Count": 2
-  }
-]
+{
+  "releases": [
+    {
+      "version": "1.0.0.663",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.663",
+      "date": "2026-06-21T12:04:56+01:00",
+      "title": "Przycisk Aktualizuj przy pasku postępu",
+      "changes": [
+        "Przycisk Aktualizuj pojawia się po prawej stronie paska tylko wtedy, gdy dla danego kafelka jest dostępna aktualizacja online.",
+        "Po rozpoczęciu aktualizacji przycisk znika, a pasek ponownie zajmuje pełną szerokość i pokazuje postęp pobierania oraz zapisu.",
+        "Usunięto pozostałości dolnego wiersza akcji z widoku Test updt."
+      ]
+    },
+    {
+      "version": "1.0.0.661",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.661",
+      "date": "2026-06-21T11:43:37+01:00",
+      "title": "Etykiety LittleFS w Test updt",
+      "changes": [
+        "Karta Firmware pokazuje teraz LittleFS (C:) lub LittleFS (D:) zależnie od aktywnego slotu OTA.",
+        "Kliknięcie obszaru LittleFS (C:) albo LittleFS (D:) pokazuje komunikat: nie można otworzyć, zawartość zabezpieczona.",
+        "Karta Filesystem pokazuje LittleFS (E:), a kliknięcie tego obszaru przenosi do menedżera plików /fileman."
+      ]
+    },
+    {
+      "version": "1.0.0.660",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.660",
+      "date": "2026-06-21T11:28:19+01:00",
+      "title": "Ikona Filesystem jako wybór pliku",
+      "changes": [
+        "W karcie Filesystem kliknięcie ikony storage.png otwiera wybór pliku littlefs.bin i uruchamia lokalną aktualizację po modalu kopii ustawień.",
+        "Po wybraniu pliku nazwa w mini-panelu Filesystem zmienia się na nazwę wybranego pliku podczas aktualizacji.",
+        "Usunięto widoczny wiersz wyboru pliku z karty Filesystem; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
+      ]
+    },
+    {
+      "version": "1.0.0.659",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.659",
+      "date": "2026-06-21T11:18:57+01:00",
+      "title": "Ikona Firmware jako wybór pliku",
+      "changes": [
+        "W karcie Firmware kliknięcie ikony fw.png otwiera wybór pliku firmware.bin i od razu uruchamia aktualizację lokalną.",
+        "Po wybraniu pliku nazwa w mini-panelu Firmware zmienia się na nazwę wybranego pliku podczas aktualizacji.",
+        "Usunięto dolny widoczny wiersz wyboru pliku z karty Firmware; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
+      ]
+    },
+    {
+      "version": "1.0.0.658",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.658",
+      "date": "2026-06-21T11:07:33+01:00",
+      "title": "Ikona storage dla Filesystem",
+      "changes": [
+        "Karta Filesystem w zakładce Test updt używa teraz ikony storage.png zamiast home.png."
+      ]
+    },
+    {
+      "version": "1.0.0.657",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.657",
+      "date": "2026-06-21T11:00:07+01:00",
+      "title": "Czytelniejsze akcje aktualizacji Test updt",
+      "changes": [
+        "W widoku Test updt ukryto tekstowe pole wyboru pliku, gdy nie wybrano pliku ani nie trwa aktualizacja lokalna.",
+        "Przycisk Aktualizuj w kartach Firmware i Filesystem pojawia się tylko wtedy, gdy dla danego elementu jest dostępna aktualizacja online.",
+        "Wiersz akcji w stanie spoczynku pokazuje tylko małą ikonę wyboru pliku, żeby nie rozpraszać użytkownika nieaktywnymi kontrolkami."
+      ]
+    },
+    {
+      "version": "1.0.0.656",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.656",
+      "date": "2026-06-21T10:46:57+01:00",
+      "title": "Zunifikowany widok aktualizacji Test updt",
+      "changes": [
+        "Przebudowano Test updt: usunięto dolny pasek uploadu, a wybór pliku i aktualizacja online są teraz dostępne bezpośrednio w kartach Firmware i Filesystem. Wybór lokalnego pliku uruchamia aktualizację od razu; dla filesystemu wyświetlany jest znany modal pobrania ustawień albo kontynuacji bez kopii. Paski w kartach pokazują zajętość pamięci w spoczynku oraz postęp pobierania i zapisu podczas aktualizacji lokalnej lub online. Dodano ikony firmware i filesystem z zasobów portalu oraz zachowano listę zmian z manifestu OTA w widoku Test updt."
+      ]
+    }
+  ]
+}

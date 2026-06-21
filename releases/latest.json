@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.814",
-  "filesystem_version": "1.0.0.661",
-  "notes": "Zmieniono etykiety pamięci w widoku Test updt i dodano akcje kliknięcia dla obszarów LittleFS.",
+  "filesystem_version": "1.0.0.663",
+  "notes": "Przeniesiono przycisk Aktualizuj do mini-panelu pamięci w widoku Test updt.",
   "changes": [
-    "Karta Firmware pokazuje teraz LittleFS (C:) lub LittleFS (D:) zależnie od aktywnego slotu OTA.",
-    "Kliknięcie obszaru LittleFS (C:) albo LittleFS (D:) pokazuje komunikat: nie można otworzyć, zawartość zabezpieczona.",
-    "Karta Filesystem pokazuje LittleFS (E:), a kliknięcie tego obszaru przenosi do menedżera plików /fileman."
+    "Przycisk Aktualizuj pojawia się po prawej stronie paska tylko wtedy, gdy dla danego kafelka jest dostępna aktualizacja online.",
+    "Po rozpoczęciu aktualizacji przycisk znika, a pasek ponownie zajmuje pełną szerokość i pokazuje postęp pobierania oraz zapisu.",
+    "Usunięto pozostałości dolnego wiersza akcji z widoku Test updt."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "138FF78A391E2D924A8E363F0695775B"
+    "md5": "F710E5A7B25B406E792FAEE4CD1BFA4A"
   },
-  "build_time": "2026-06-21T11:43:37+01:00",
+  "build_time": "2026-06-21T12:04:56+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
