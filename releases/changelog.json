@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.670",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.670",
+      "date": "2026-06-21T14:24:59+01:00",
+      "title": "Naprawa kodowania tekstów aktualizacji",
+      "changes": [
+        "Naprawiono polskie znaki w tekstach menu aktualizacji: Sprawdź aktualizacje, Ręczna aktualizacja i Przełącz Firmware.",
+        "Odświeżono skompresowany plik tłumaczeń pl.json.gz, aby portal po aktualizacji nie pokazywał znaków zapytania.",
+        "Zbudowano nowy obraz LittleFS z poprawionymi tłumaczeniami updatera."
+      ]
+    },
+    {
       "version": "1.0.0.669",
       "firmware_version": "1.0.0.815",
       "filesystem_version": "1.0.0.669",
