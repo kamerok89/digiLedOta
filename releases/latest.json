@@ -3,11 +3,12 @@
   "channel": "stable",
   "firmware_version": "1.0.0.814",
   "filesystem_version": "1.0.0.668",
-  "notes": "Zmniejszono przycisk Aktualizuj i usunięto dolne pille informacyjne z kafelków Test updt.",
+  "notes": "Zunifikowano system aktualizacji portalu w jednym widoku Aktualizacje.",
   "changes": [
-    "Przycisk Aktualizuj ma teraz minimalną wysokość 17 px, z ikoną i tekstem dopasowanymi do małego pill-a.",
-    "Usunięto dolne pille informacyjne z kafelków Firmware i Filesystem w widoku Test updt.",
-    "Posprzątano nieużywane identyfikatory i logikę aktualizacji tekstu dla usuniętych pillów."
+    "Zastąpiono zakładki Aktualizacja online, Aktualizacja lokalna i Test updt jednym docelowym panelem Aktualizacje.",
+    "Przeniesiono logikę testowego widoku na produkcyjne nazwy updateHub i softwareUpdate bez publicznych identyfikatorów testowych.",
+    "Ikony Firmware i Filesystem uruchamiają lokalny wybór pliku, a przycisk Aktualizuj pojawia się tylko przy dostępnej aktualizacji online.",
+    "Zachowano modal kopii ustawień dla aktualizacji filesystemu i usunięto stare skrypty oraz style paneli online/lokalnych."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "23F36C374B53EFBEB680D9DFC092509A"
+    "md5": "AD47DA783970F9E097B79C2997A6DF73"
   },
-  "build_time": "2026-06-21T12:54:19+01:00",
+  "build_time": "2026-06-21T13:28:43+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.668",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.668",
+      "date": "2026-06-21T13:28:43+01:00",
+      "title": "Zunifikowany widok aktualizacji",
+      "changes": [
+        "Zastąpiono zakładki Aktualizacja online, Aktualizacja lokalna i Test updt jednym docelowym panelem Aktualizacje.",
+        "Przeniesiono logikę testowego widoku na produkcyjne nazwy updateHub i softwareUpdate bez publicznych identyfikatorów testowych.",
+        "Ikony Firmware i Filesystem uruchamiają lokalny wybór pliku, a przycisk Aktualizuj pojawia się tylko przy dostępnej aktualizacji online.",
+        "Zachowano modal kopii ustawień dla aktualizacji filesystemu i usunięto stare skrypty oraz style paneli online/lokalnych."
+      ]
+    },
+    {
       "version": "1.0.0.667",
       "firmware_version": "1.0.0.814",
       "filesystem_version": "1.0.0.667",
