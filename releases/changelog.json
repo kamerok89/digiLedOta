@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.827",
+      "firmware_version": "1.0.0.827",
+      "filesystem_version": "1.0.0.683",
+      "date": "2026-06-22T20:30:41+01:00",
+      "title": "Stabilizacja portalu po długiej sesji",
+      "changes": [
+        "Zmniejszono polling widoku scen z 250 ms do 1000 ms.",
+        "Ograniczono tempo live-zapisów globalnych parametrów scen podczas pracy suwakami.",
+        "Doprecyzowano konfigurację AsyncTCP oraz dodano logi diagnostyczne watchdog sieci.",
+        "Dodano próbę odzyskania połączenia STA, gdy firmware widzi połączenie bez poprawnego IP."
+      ]
+    },
+    {
       "version": "1.0.0.824",
       "firmware_version": "1.0.0.824",
       "filesystem_version": "1.0.0.682",

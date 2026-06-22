@@ -1,24 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.824",
-  "filesystem_version": "1.0.0.682",
-  "notes": "Wydanie testowe podbijające firmware i filesystem, aby sprawdzić modal restartu po zakończonej aktualizacji OTA.",
+  "firmware_version": "1.0.0.827",
+  "filesystem_version": "1.0.0.683",
+  "notes": "Zmniejszono obciążenie portalu i dodano diagnostykę sieci, aby ograniczyć przypadki znikania strony po dłuższej pracy i odświeżeniu.",
   "changes": [
-    "Podbito wersję firmware do 1.0.0.824 bez zmian funkcjonalnych.",
-    "Podbito wersję filesystemu do 1.0.0.682 bez zmian funkcjonalnych.",
-    "Pakiet służy do testu, czy po aktualizacji firmware albo filesystemu pojawia się modal restartowania urządzenia."
+    "Zmniejszono polling widoku scen z 250 ms do 1000 ms.",
+    "Ograniczono tempo live-zapisów globalnych parametrów scen podczas pracy suwakami.",
+    "Doprecyzowano konfigurację AsyncTCP oraz dodano logi diagnostyczne watchdog sieci.",
+    "Dodano próbę odzyskania połączenia STA, gdy firmware widzi połączenie bez poprawnego IP."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1664704,
-    "md5": "B32A0E07AB4373A1CBC4924677479340"
+    "size": 1666016,
+    "md5": "9F6E76C224FB9DBB194658708B78CDD3"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "ECB50535732C19D9E2BC84AEDDEB870F"
+    "md5": "49DC3F4E0B4DA51FF6152C1A744B741C"
   },
-  "build_time": "2026-06-22T19:33:19+01:00",
+  "build_time": "2026-06-22T20:30:41+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
