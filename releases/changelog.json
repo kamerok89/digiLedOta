@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.681",
+      "firmware_version": "1.0.0.823",
+      "filesystem_version": "1.0.0.681",
+      "date": "2026-06-22T19:28:43+01:00",
+      "title": "Modal restartu po aktualizacji",
+      "changes": [
+        "Po udanym wgraniu aktualizacji online lub lokalnej otwierany jest modal restartowania urządzenia.",
+        "Modal używa tego samego wyglądu i komunikatów co przycisk Uruchom ponownie.",
+        "Portal czeka na ponowne pojawienie się urządzenia i odświeża stronę po restarcie."
+      ]
+    },
+    {
       "version": "1.0.0.680",
       "firmware_version": "1.0.0.823",
       "filesystem_version": "1.0.0.680",

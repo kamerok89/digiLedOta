@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.823",
-  "filesystem_version": "1.0.0.680",
-  "notes": "Uporządkowano zasoby portalu i opublikowano spójny obraz filesystemu z aktualnymi plikami gzip oraz wersją portalu.",
+  "filesystem_version": "1.0.0.681",
+  "notes": "Po zakończeniu aktualizacji firmware albo filesystemu portal pokazuje znajomy modal restartu i czeka na powrót urządzenia.",
   "changes": [
-    "Zsynchronizowano skompresowane pliki script.js, version.json oraz tłumaczenia z aktualnymi źródłami portalu.",
-    "Utrzymano opis roli taska w nagłówku modala procesu.",
-    "Opublikowano nowy obraz LittleFS z wersją portalu 1.0.0.680."
+    "Po udanym wgraniu aktualizacji online lub lokalnej otwierany jest modal restartowania urządzenia.",
+    "Modal używa tego samego wyglądu i komunikatów co przycisk Uruchom ponownie.",
+    "Portal czeka na ponowne pojawienie się urządzenia i odświeża stronę po restarcie."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "D9762481E0F9367D7579EF0040179BC6"
+    "md5": "FBD033908ABC77CF26E413F6B3FCD0B5"
   },
-  "build_time": "2026-06-22T19:17:58+01:00",
+  "build_time": "2026-06-22T19:28:43+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
