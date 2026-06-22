@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.820",
+  "firmware_version": "1.0.0.821",
   "filesystem_version": "1.0.0.678",
-  "notes": "Poprawiono stabilność sieci w trybie captive portal, ograniczając ruch DNS/HTTP i zwiększając limit klientów AP.",
+  "notes": "Przeniesiono obsługę AsyncTCP poza rdzeń WiFi i ograniczono częstotliwość skanowania sieci, aby poprawić stabilność portalu AP/STA.",
   "changes": [
-    "Zmieniono TTL odpowiedzi DNS captive portal z 0 na 60 sekund, aby telefony i laptopy nie zalewały ESP ciągłymi zapytaniami DNS.",
-    "Lekki ekran captive portal jest teraz wysyłany ze stałego bufora w firmware zamiast składania dynamicznego HTML dla każdego żądania.",
-    "Odpowiedzi captive portal wymuszają zamknięcie połączenia, a limit klientów SoftAP zwiększono z 4 do 8."
+    "AsyncTCP pracuje teraz na rdzeniu 1 zamiast na rdzeniu 0, który obsługuje stos WiFi ESP32.",
+    "Skanowanie WiFi z portalu jest cache'owane przez 60 sekund i nie może startować częściej niż raz na minutę.",
+    "Zadanie skanowania WiFi przeniesiono na rdzeń 1 i dodano flagę scan_throttled w odpowiedzi /api/scan."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1663088,
-    "md5": "6B619F6BB3D80A34EA540F215F6ED449"
+    "size": 1663296,
+    "md5": "7EAC96A39F61D6CA2F51A7860606C865"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "725A728813B3A3D18FE9D2A84C834F5E"
   },
-  "build_time": "2026-06-22T18:18:07+01:00",
+  "build_time": "2026-06-22T18:24:13+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

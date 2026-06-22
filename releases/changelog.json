@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.821",
+      "firmware_version": "1.0.0.821",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-22T18:24:13+01:00",
+      "title": "Stabilizacja obsługi sieci AP/STA",
+      "changes": [
+        "AsyncTCP pracuje teraz na rdzeniu 1 zamiast na rdzeniu 0, który obsługuje stos WiFi ESP32.",
+        "Skanowanie WiFi z portalu jest cache'owane przez 60 sekund i nie może startować częściej niż raz na minutę.",
+        "Zadanie skanowania WiFi przeniesiono na rdzeń 1 i dodano flagę scan_throttled w odpowiedzi /api/scan."
+      ]
+    },
+    {
       "version": "1.0.0.820",
       "firmware_version": "1.0.0.820",
       "filesystem_version": "1.0.0.678",
