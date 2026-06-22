@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.823",
-  "filesystem_version": "1.0.0.678",
-  "notes": "Dodano watchdog sieciowy oraz stabilizacje AP/STA, aby urządzenie potrafiło odtworzyć SoftAP bez pełnego restartu ESP.",
+  "filesystem_version": "1.0.0.679",
+  "notes": "W modalu procesu pokazano teraz opis roli taska bezpośrednio pod jego nazwą, tak jak na liście procesów.",
   "changes": [
-    "Dodano lekki watchdog sieciowy sprawdzający tryb WiFi i adres SoftAP bez pingowania ani skanowania.",
-    "Watchdog wykonuje miękkie odtworzenie SoftAP/captive DNS po kilku kolejnych błędnych próbkach, a restart ESP traktuje jako ostatnią deskę ratunku.",
-    "AsyncTCP i zadanie skanowania przeniesiono poza rdzeń WiFi, a skanowanie portalu ograniczono do maksymalnie jednego realnego skanu na minutę."
+    "Opis taska z listy procesów jest teraz widoczny również w nagłówku modala procesu.",
+    "Dla tasków systemowych modal nie zastępuje już opisu ogólnym tekstem tylko do odczytu.",
+    "Zaktualizowano skompresowane zasoby portalu oraz manifest wersji filesystemu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "725A728813B3A3D18FE9D2A84C834F5E"
+    "md5": "6D9AD9C34EFF0CC9D37BFC8BE8800F79"
   },
-  "build_time": "2026-06-22T18:39:03+01:00",
+  "build_time": "2026-06-22T18:48:40+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
