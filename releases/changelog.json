@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.820",
+      "firmware_version": "1.0.0.820",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-22T18:18:07+01:00",
+      "title": "Stabilizacja captive portal",
+      "changes": [
+        "Zmieniono TTL odpowiedzi DNS captive portal z 0 na 60 sekund, aby telefony i laptopy nie zalewały ESP ciągłymi zapytaniami DNS.",
+        "Lekki ekran captive portal jest teraz wysyłany ze stałego bufora w firmware zamiast składania dynamicznego HTML dla każdego żądania.",
+        "Odpowiedzi captive portal wymuszają zamknięcie połączenia, a limit klientów SoftAP zwiększono z 4 do 8."
+      ]
+    },
+    {
       "version": "1.0.0.818",
       "firmware_version": "1.0.0.818",
       "filesystem_version": "1.0.0.678",
