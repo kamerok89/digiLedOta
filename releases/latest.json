@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.817",
+  "firmware_version": "1.0.0.818",
   "filesystem_version": "1.0.0.678",
-  "notes": "Dodano captive portal dla wbudowanego AP, aby telefony po połączeniu wyświetlały powiadomienie Połącz z siecią i otwierały portal pod adresem 192.168.4.1.",
+  "notes": "Dodano lekki ekran captive portal, który zamiast pełnego panelu pokazuje instrukcję przejścia na 192.168.4.1 i przycisk otwarcia portalu.",
   "changes": [
-    "SoftAP uruchamia teraz serwer DNS przechwytujący zapytania i kierujący je na adres portalu 192.168.4.1.",
-    "Dodano przekierowania dla testów captive portal używanych przez Androida, iOS, Windows i inne urządzenia.",
-    "Nieznane ścieżki HTTP spoza API przekierowują do portalu, a endpointy /api nadal zwracają JSON 404."
+    "Systemowe strony wykrywania captive portal pokazują teraz prosty ekran startowy zamiast od razu ładować pełny panel DigiLED.",
+    "Ekran startowy zawiera adres 192.168.4.1 oraz przycisk Otwórz portal prowadzący do właściwego panelu logowania.",
+    "Bezpośrednie wejście na 192.168.4.1 nadal otwiera pełny portal, a endpointy /api zachowują odpowiedzi JSON 404."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1661344,
-    "md5": "01B5DAAEF1B1532CA898B511B223750D"
+    "size": 1663456,
+    "md5": "DE95FA5861E1106145A6E4CE69ADE8E5"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "725A728813B3A3D18FE9D2A84C834F5E"
   },
-  "build_time": "2026-06-21T19:15:02+01:00",
+  "build_time": "2026-06-22T06:05:03+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
