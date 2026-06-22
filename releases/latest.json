@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.821",
+  "firmware_version": "1.0.0.823",
   "filesystem_version": "1.0.0.678",
-  "notes": "Przeniesiono obsługę AsyncTCP poza rdzeń WiFi i ograniczono częstotliwość skanowania sieci, aby poprawić stabilność portalu AP/STA.",
+  "notes": "Dodano watchdog sieciowy oraz stabilizacje AP/STA, aby urządzenie potrafiło odtworzyć SoftAP bez pełnego restartu ESP.",
   "changes": [
-    "AsyncTCP pracuje teraz na rdzeniu 1 zamiast na rdzeniu 0, który obsługuje stos WiFi ESP32.",
-    "Skanowanie WiFi z portalu jest cache'owane przez 60 sekund i nie może startować częściej niż raz na minutę.",
-    "Zadanie skanowania WiFi przeniesiono na rdzeń 1 i dodano flagę scan_throttled w odpowiedzi /api/scan."
+    "Dodano lekki watchdog sieciowy sprawdzający tryb WiFi i adres SoftAP bez pingowania ani skanowania.",
+    "Watchdog wykonuje miękkie odtworzenie SoftAP/captive DNS po kilku kolejnych błędnych próbkach, a restart ESP traktuje jako ostatnią deskę ratunku.",
+    "AsyncTCP i zadanie skanowania przeniesiono poza rdzeń WiFi, a skanowanie portalu ograniczono do maksymalnie jednego realnego skanu na minutę."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1663296,
-    "md5": "7EAC96A39F61D6CA2F51A7860606C865"
+    "size": 1664704,
+    "md5": "DE7B2DA4407523326B89BEB07C276693"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "725A728813B3A3D18FE9D2A84C834F5E"
   },
-  "build_time": "2026-06-22T18:24:13+01:00",
+  "build_time": "2026-06-22T18:39:03+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
