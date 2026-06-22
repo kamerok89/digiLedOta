@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.823",
-  "filesystem_version": "1.0.0.681",
-  "notes": "Po zakończeniu aktualizacji firmware albo filesystemu portal pokazuje znajomy modal restartu i czeka na powrót urządzenia.",
+  "firmware_version": "1.0.0.824",
+  "filesystem_version": "1.0.0.682",
+  "notes": "Wydanie testowe podbijające firmware i filesystem, aby sprawdzić modal restartu po zakończonej aktualizacji OTA.",
   "changes": [
-    "Po udanym wgraniu aktualizacji online lub lokalnej otwierany jest modal restartowania urządzenia.",
-    "Modal używa tego samego wyglądu i komunikatów co przycisk Uruchom ponownie.",
-    "Portal czeka na ponowne pojawienie się urządzenia i odświeża stronę po restarcie."
+    "Podbito wersję firmware do 1.0.0.824 bez zmian funkcjonalnych.",
+    "Podbito wersję filesystemu do 1.0.0.682 bez zmian funkcjonalnych.",
+    "Pakiet służy do testu, czy po aktualizacji firmware albo filesystemu pojawia się modal restartowania urządzenia."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
     "size": 1664704,
-    "md5": "DE7B2DA4407523326B89BEB07C276693"
+    "md5": "B32A0E07AB4373A1CBC4924677479340"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "FBD033908ABC77CF26E413F6B3FCD0B5"
+    "md5": "ECB50535732C19D9E2BC84AEDDEB870F"
   },
-  "build_time": "2026-06-22T19:28:43+01:00",
+  "build_time": "2026-06-22T19:33:19+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

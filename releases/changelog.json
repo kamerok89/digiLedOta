@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.824",
+      "firmware_version": "1.0.0.824",
+      "filesystem_version": "1.0.0.682",
+      "date": "2026-06-22T19:33:19+01:00",
+      "title": "Test modala restartu po OTA",
+      "changes": [
+        "Podbito wersję firmware do 1.0.0.824 bez zmian funkcjonalnych.",
+        "Podbito wersję filesystemu do 1.0.0.682 bez zmian funkcjonalnych.",
+        "Pakiet służy do testu, czy po aktualizacji firmware albo filesystemu pojawia się modal restartowania urządzenia."
+      ]
+    },
+    {
       "version": "1.0.0.681",
       "firmware_version": "1.0.0.823",
       "filesystem_version": "1.0.0.681",
