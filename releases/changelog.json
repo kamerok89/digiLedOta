@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.688",
+      "firmware_version": "1.0.0.835",
+      "filesystem_version": "1.0.0.688",
+      "date": "2026-06-23T17:05:34+01:00",
+      "title": "Nazwy procesów i RAM w jednej tabeli",
+      "changes": [
+        "Zbalansowano szerokości kolumn w tabeli Procesy, aby jednocześnie było widać nazwę procesu i RAM.",
+        "Nazwa procesu nie jest już ucinana ellipsis w pierwszej kolumnie.",
+        "Odchudzono kolumnę CPU i opis procesu, żeby RAM pozostał czytelny bez zabierania miejsca nazwom."
+      ]
+    },
+    {
       "version": "1.0.0.687",
       "firmware_version": "1.0.0.835",
       "filesystem_version": "1.0.0.687",

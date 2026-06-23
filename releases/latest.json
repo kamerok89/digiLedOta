@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.835",
-  "filesystem_version": "1.0.0.687",
-  "notes": "Poprawiono tabelę Procesy, aby wartości RAM były widoczne w całości także w widoku mobilnym.",
+  "filesystem_version": "1.0.0.688",
+  "notes": "Poprawiono układ tabeli Procesy tak, aby nazwy procesów i wartości RAM były widoczne jednocześnie.",
   "changes": [
-    "Poprawiono widok RAM w tabeli Procesy, aby wartości nie były ucinane na telefonie.",
-    "Kolumna RAM ma teraz własne klasy CSS bez ellipsis oraz większą minimalną szerokość.",
-    "Skrócono zapis pary użyte/całkowite do formatu 1.3 / 8.0 KB, gdy obie wartości są w KB."
+    "Zbalansowano szerokości kolumn w tabeli Procesy, aby jednocześnie było widać nazwę procesu i RAM.",
+    "Nazwa procesu nie jest już ucinana ellipsis w pierwszej kolumnie.",
+    "Odchudzono kolumnę CPU i opis procesu, żeby RAM pozostał czytelny bez zabierania miejsca nazwom."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "57F39156CE791CBAA63BCD052FD7AC15"
+    "md5": "FA9E1675F1B386B3A66B44B8628F7D24"
   },
-  "build_time": "2026-06-23T16:59:37+01:00",
+  "build_time": "2026-06-23T17:05:34+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
