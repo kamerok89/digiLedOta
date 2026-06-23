@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.831",
+      "firmware_version": "1.0.0.831",
+      "filesystem_version": "1.0.0.685",
+      "date": "2026-06-23T10:46:07+01:00",
+      "title": "Guard stabilności dla mDNS hostname",
+      "changes": [
+        "Dodano firmwareowy guard stabilności blokujący start ESPmDNS, który w testach zawieszał dostęp do portalu.",
+        "Przełącznik hostname/mDNS nie zapisuje już aktywnej usługi, jeśli mDNS jest wyłączony w firmware dla bezpieczeństwa.",
+        "Backend raportuje mdns_supported=false oraz mdns_enabled=false, a sama nazwa urządzenia nadal może być używana jako zwykły hostname STA."
+      ]
+    },
+    {
       "version": "1.0.0.830",
       "firmware_version": "1.0.0.830",
       "filesystem_version": "1.0.0.685",

@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.830",
+  "firmware_version": "1.0.0.831",
   "filesystem_version": "1.0.0.685",
-  "notes": "Poprawiono przypadek po blokadzie telefonu, w którym Chrome odświeżał portal pod adresem STA zamiast pod adresem AP 192.168.4.1.",
+  "notes": "Wyłączono aktywną usługę mDNS .local w firmware, ponieważ powodowała zawieszanie dostępu do portalu po pewnym czasie.",
   "changes": [
-    "Dodano kanoniczne przekierowanie klientów SoftAP na adres http://192.168.4.1/.",
-    "Jeżeli telefon połączony z AP próbuje wejść przez adres STA, na przykład 10.x.x.x albo 192.168.1.x, firmware od razu przenosi go na adres AP.",
-    "Endpointy /api nadal zwracają JSON i nie są używane do przekierowania, aby nie psuć integracji."
+    "Dodano firmwareowy guard stabilności blokujący start ESPmDNS, który w testach zawieszał dostęp do portalu.",
+    "Przełącznik hostname/mDNS nie zapisuje już aktywnej usługi, jeśli mDNS jest wyłączony w firmware dla bezpieczeństwa.",
+    "Backend raportuje mdns_supported=false oraz mdns_enabled=false, a sama nazwa urządzenia nadal może być używana jako zwykły hostname STA."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1668400,
-    "md5": "5006ACAADE2E2F6187A2F1B7A382F60D"
+    "size": 1645280,
+    "md5": "A8974FA06C8A27B975268E44BDB2F9B1"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "23A16D47C471A5F69C5CCBB1ED4D47A7"
   },
-  "build_time": "2026-06-23T05:09:51+01:00",
+  "build_time": "2026-06-23T10:46:07+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
