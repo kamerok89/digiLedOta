@@ -1,24 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.831",
+  "firmware_version": "1.0.0.833",
   "filesystem_version": "1.0.0.685",
-  "notes": "Wyłączono aktywną usługę mDNS .local w firmware, ponieważ powodowała zawieszanie dostępu do portalu po pewnym czasie.",
+  "notes": "SoftAP działa teraz jako tryb onboardingowy: po wejściu do portalu przez adres z routera ESP automatycznie wyłącza AP i wraca do niego awaryjnie po utracie STA/IP.",
   "changes": [
-    "Dodano firmwareowy guard stabilności blokujący start ESPmDNS, który w testach zawieszał dostęp do portalu.",
-    "Przełącznik hostname/mDNS nie zapisuje już aktywnej usługi, jeśli mDNS jest wyłączony w firmware dla bezpieczeństwa.",
-    "Backend raportuje mdns_supported=false oraz mdns_enabled=false, a sama nazwa urządzenia nadal może być używana jako zwykły hostname STA."
+    "Dodano automatyczne wyłączanie SoftAP po wykryciu wejścia do portalu przez adres przydzielony przez router.",
+    "SoftAP wyłącza się z opóźnieniem po realnym ruchu HTTP do stron portalu przez STA, dzięki czemu tryb AP+STA nie zostaje aktywny po onboardingu.",
+    "Jeśli po automatycznym wyłączeniu AP urządzenie straci STA/IP, firmware po krótkim czasie przywróci AP awaryjnie.",
+    "Endpointy /api nie wyzwalają auto-wyłączania AP, aby nie psuć integracji i diagnostyki."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1645280,
-    "md5": "A8974FA06C8A27B975268E44BDB2F9B1"
+    "size": 1646560,
+    "md5": "EF9706FBA7B9F34F1117F77C5116C380"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "23A16D47C471A5F69C5CCBB1ED4D47A7"
   },
-  "build_time": "2026-06-23T10:46:07+01:00",
+  "build_time": "2026-06-23T12:30:13+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

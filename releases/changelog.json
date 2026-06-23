@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.833",
+      "firmware_version": "1.0.0.833",
+      "filesystem_version": "1.0.0.685",
+      "date": "2026-06-23T12:30:13+01:00",
+      "title": "Automatyczne wyłączanie AP po onboardingu",
+      "changes": [
+        "Dodano automatyczne wyłączanie SoftAP po wykryciu wejścia do portalu przez adres przydzielony przez router.",
+        "SoftAP wyłącza się z opóźnieniem po realnym ruchu HTTP do stron portalu przez STA, dzięki czemu tryb AP+STA nie zostaje aktywny po onboardingu.",
+        "Jeśli po automatycznym wyłączeniu AP urządzenie straci STA/IP, firmware po krótkim czasie przywróci AP awaryjnie.",
+        "Endpointy /api nie wyzwalają auto-wyłączania AP, aby nie psuć integracji i diagnostyki."
+      ]
+    },
+    {
       "version": "1.0.0.831",
       "firmware_version": "1.0.0.831",
       "filesystem_version": "1.0.0.685",
