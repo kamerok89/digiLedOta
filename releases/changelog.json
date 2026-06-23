@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.687",
+      "firmware_version": "1.0.0.835",
+      "filesystem_version": "1.0.0.687",
+      "date": "2026-06-23T16:59:37+01:00",
+      "title": "Pełne wartości RAM w tabeli procesów",
+      "changes": [
+        "Poprawiono widok RAM w tabeli Procesy, aby wartości nie były ucinane na telefonie.",
+        "Kolumna RAM ma teraz własne klasy CSS bez ellipsis oraz większą minimalną szerokość.",
+        "Skrócono zapis pary użyte/całkowite do formatu 1.3 / 8.0 KB, gdy obie wartości są w KB."
+      ]
+    },
+    {
       "version": "1.0.0.835",
       "firmware_version": "1.0.0.835",
       "filesystem_version": "1.0.0.686",
