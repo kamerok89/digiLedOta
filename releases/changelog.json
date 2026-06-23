@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.828",
+      "firmware_version": "1.0.0.828",
+      "filesystem_version": "1.0.0.684",
+      "date": "2026-06-23T04:26:51+01:00",
+      "title": "Aktywny watchdog portalu HTTP",
+      "changes": [
+        "Watchdog co 15 sekund wykonuje lokalny test HTTP endpointu /api/version.",
+        "Po serii nieudanych testów firmware restartuje sam serwer AsyncWebServer.",
+        "Jeśli problem HTTP powtarza się po restarcie serwera, urządzenie wykonuje restart programowy.",
+        "Dodano tryb DIGILED_VERSION_NO_BUMP dla kontrolowanych rebuildów bez przypadkowego podbijania wersji."
+      ]
+    },
+    {
       "version": "1.0.0.827",
       "firmware_version": "1.0.0.827",
       "filesystem_version": "1.0.0.683",
