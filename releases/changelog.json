@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.830",
+      "firmware_version": "1.0.0.830",
+      "filesystem_version": "1.0.0.685",
+      "date": "2026-06-23T05:09:51+01:00",
+      "title": "Kanoniczny adres AP dla klientów SoftAP",
+      "changes": [
+        "Dodano kanoniczne przekierowanie klientów SoftAP na adres http://192.168.4.1/.",
+        "Jeżeli telefon połączony z AP próbuje wejść przez adres STA, na przykład 10.x.x.x albo 192.168.1.x, firmware od razu przenosi go na adres AP.",
+        "Endpointy /api nadal zwracają JSON i nie są używane do przekierowania, aby nie psuć integracji."
+      ]
+    },
+    {
       "version": "1.0.0.829",
       "firmware_version": "1.0.0.829",
       "filesystem_version": "1.0.0.685",
