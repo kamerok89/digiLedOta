@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.834",
+      "firmware_version": "1.0.0.834",
+      "filesystem_version": "1.0.0.685",
+      "date": "2026-06-23T15:29:54+01:00",
+      "title": "Przywrócenie włączania mDNS hostname",
+      "changes": [
+        "Cofnięto firmwareowy guard, który wymuszał wyłączenie usługi mDNS .local.",
+        "Backend ponownie raportuje mdns_supported=true i pozwala zapisać hostname/mDNS jako włączone.",
+        "Po włączeniu hostname service firmware ponownie uruchamia ESPmDNS przez MDNS.begin oraz ogłasza usługę HTTP."
+      ]
+    },
+    {
       "version": "1.0.0.833",
       "firmware_version": "1.0.0.833",
       "filesystem_version": "1.0.0.685",
