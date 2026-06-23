@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.835",
+      "firmware_version": "1.0.0.835",
+      "filesystem_version": "1.0.0.686",
+      "date": "2026-06-23T16:14:38+01:00",
+      "title": "RAM tasków w diagnostyce procesów",
+      "changes": [
+        "Dodano w diagnostyce procesów przybliżone użycie RAM oparte o stos taska FreeRTOS.",
+        "Endpoint /api/diag/processes raportuje teraz wolny, użyty i całkowity stos, gdy ESP-IDF udostępnia snapshot tasków.",
+        "Tabela Procesy pokazuje wartości użyte/całkowite oraz wolny zapas stosu zamiast samego surowego high-watermark.",
+        "Modal procesu pokazuje ten sam opis zadania i czytelny odczyt RAM dla wybranego taska."
+      ]
+    },
+    {
       "version": "1.0.0.834",
       "firmware_version": "1.0.0.834",
       "filesystem_version": "1.0.0.685",

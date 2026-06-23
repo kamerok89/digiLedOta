@@ -1,24 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.834",
-  "filesystem_version": "1.0.0.685",
-  "notes": "Przywrócono normalną obsługę mDNS/hostname .local, aby opcja w portalu znów mogła być włączana z frontendu.",
+  "firmware_version": "1.0.0.835",
+  "filesystem_version": "1.0.0.686",
+  "notes": "Dodano w diagnostyce procesów przybliżony podgląd użycia RAM per task na podstawie stosu FreeRTOS.",
   "changes": [
-    "Cofnięto firmwareowy guard, który wymuszał wyłączenie usługi mDNS .local.",
-    "Backend ponownie raportuje mdns_supported=true i pozwala zapisać hostname/mDNS jako włączone.",
-    "Po włączeniu hostname service firmware ponownie uruchamia ESPmDNS przez MDNS.begin oraz ogłasza usługę HTTP."
+    "Dodano w diagnostyce procesów przybliżone użycie RAM oparte o stos taska FreeRTOS.",
+    "Endpoint /api/diag/processes raportuje teraz wolny, użyty i całkowity stos, gdy ESP-IDF udostępnia snapshot tasków.",
+    "Tabela Procesy pokazuje wartości użyte/całkowite oraz wolny zapas stosu zamiast samego surowego high-watermark.",
+    "Modal procesu pokazuje ten sam opis zadania i czytelny odczyt RAM dla wybranego taska."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1669888,
-    "md5": "A00A8F18F3A53020C881553D7364A602"
+    "size": 1670416,
+    "md5": "B1EB48B48DAF1D29691C1BB2BDE1B8BD"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "23A16D47C471A5F69C5CCBB1ED4D47A7"
+    "md5": "8AD4DBCDAE5D9C90D188E8B03D85A8F7"
   },
-  "build_time": "2026-06-23T15:29:54+01:00",
+  "build_time": "2026-06-23T16:14:38+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
