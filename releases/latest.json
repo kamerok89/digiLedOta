@@ -1,25 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.828",
-  "filesystem_version": "1.0.0.684",
-  "notes": "Dodano aktywny watchdog HTTP portalu, który sam sprawdza port 80 i odzyskuje serwer bez odpinania zasilania.",
+  "firmware_version": "1.0.0.829",
+  "filesystem_version": "1.0.0.685",
+  "notes": "Poprawiono zachowanie portalu po zablokowaniu i odblokowaniu telefonu: strona aktywnie zamyka wiszące połączenia, a firmware nie utrzymuje zbędnego streamu terminala.",
   "changes": [
-    "Watchdog co 15 sekund wykonuje lokalny test HTTP endpointu /api/version.",
-    "Po serii nieudanych testów firmware restartuje sam serwer AsyncWebServer.",
-    "Jeśli problem HTTP powtarza się po restarcie serwera, urządzenie wykonuje restart programowy.",
-    "Dodano tryb DIGILED_VERSION_NO_BUMP dla kontrolowanych rebuildów bez przypadkowego podbijania wersji."
+    "Wyłączono domyślny live-stream terminala diagnostycznego, żeby portal nie trzymał długiego połączenia keep-alive po uśpieniu telefonu.",
+    "Portal abortuje aktywne żądania HTTP oraz zamyka kanały live przy blokadzie ekranu, pagehide i freeze.",
+    "Terminal diagnostyczny działa w trybie historii HTTP bez cyklicznego otwierania EventSource.",
+    "Zaktualizowano obraz LittleFS, aby przeglądarka dostała nowy skrypt sprzątający połączenia po wybudzeniu telefonu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1668128,
-    "md5": "43942B15F4FBA2EFD97FF796379E5457"
+    "size": 1667504,
+    "md5": "577FEE2D0ED94653D2F50FC21857FB2F"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "497BF5BDFE191485DDD1961622186BBA"
+    "md5": "23A16D47C471A5F69C5CCBB1ED4D47A7"
   },
-  "build_time": "2026-06-23T04:26:51+01:00",
+  "build_time": "2026-06-23T04:54:27+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
