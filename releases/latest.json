@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.846",
-  "filesystem_version": "1.0.0.701",
-  "notes": "Recovery ma zachowanie i styl zgodny z przyciskiem File Manager.",
+  "filesystem_version": "1.0.0.702",
+  "notes": "Ujednolicono wygl?d przycisk?w File Manager i Recovery.",
   "changes": [
-    "Przycisk Recovery otwiera teraz /recovery w nowej karcie, tak jak File Manager otwiera /fileman.",
-    "Dopi?to Recovery do wszystkich regu? stylu u?ywanych przez File Manager w sekcji Oprogramowanie, tak?e w jasnym motywie.",
-    "Przebudowano styles.css i skompresowane zasoby portalu z modu??w CSS."
+    "Przyciski File Manager i Recovery w sekcji Oprogramowanie korzystaj? teraz ze wsp?lnej klasy i identycznego uk?adu ikony.",
+    "Usuni?to pseudoikony ::before dla File Manager i Recovery, aby oba przyciski mia?y t? sam? metryk? i wyr?wnanie.",
+    "Recovery nadal u?ywa ikony U+E822 i otwiera /recovery w nowej karcie."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "F61387E8F65F7C9E7971AC70D455EDEC"
+    "md5": "639CDFE9C9CA2F38076873BBCBB691D8"
   },
-  "build_time": "2026-06-27T21:40:33+01:00",
+  "build_time": "2026-06-27T21:57:37+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
