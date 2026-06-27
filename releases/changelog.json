@@ -1,6 +1,18 @@
 {
     "releases":  [
                      {
+                         "version":  "1.0.0.690",
+                         "firmware_version":  "1.0.0.837",
+                         "filesystem_version":  "1.0.0.690",
+                         "date":  "2026-06-27T16:18:41+01:00",
+                         "title":  "Watchdog portalu bez fałszywego restartu STA",
+                         "changes":  [
+                                         "Watchdog HTTP testuje teraz adres AP przed adresem STA, gdy SoftAP jest aktywny.",
+                                         "Fałszywy błąd testu STA w sieci 192.168.4.x nie powoduje już restartu AsyncWebServer i ryzyka bind error -8.",
+                                         "Diagnostyka sieci dopisuje subnet_overlap=1, gdy adres STA i adres AP są w tej samej podsieci."
+                                     ]
+                     },
+                     {
                          "version":  "1.0.0.689",
                          "firmware_version":  "1.0.0.836",
                          "filesystem_version":  "1.0.0.689",

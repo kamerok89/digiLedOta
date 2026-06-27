@@ -1,24 +1,24 @@
 {
     "product":  "digiled-xiao-esp32s3",
     "channel":  "stable",
-    "firmware_version":  "1.0.0.836",
-    "filesystem_version":  "1.0.0.689",
-    "notes":  "Przywrócono awaryjne uruchamianie AP, gdy zapisane Wi-Fi STA nie może uzyskać połączenia.",
+    "firmware_version":  "1.0.0.837",
+    "filesystem_version":  "1.0.0.690",
+    "notes":  "Poprawiono watchdog portalu, aby przy aktywnym AP nie restartował HTTP z powodu nieudanego testu adresu STA.",
     "changes":  [
-                    "Firmware przywraca SoftAP, gdy zapisane ustawienia zostawiły AP wyłączony, a urządzenie nie ma połączenia STA/IP.",
-                    "Fallback uruchamia AP także po wyczerpaniu prób połączenia z zapisanym Wi-Fi, żeby panel pozostał dostępny przez 192.168.4.1.",
-                    "Zaktualizowano paczkę LittleFS, aby plik version.json raportował firmware 1.0.0.836 i portal 1.0.0.689."
+                    "Watchdog HTTP testuje teraz adres AP przed adresem STA, gdy SoftAP jest aktywny.",
+                    "Fałszywy błąd testu STA w sieci 192.168.4.x nie powoduje już restartu AsyncWebServer i ryzyka bind error -8.",
+                    "Diagnostyka sieci dopisuje subnet_overlap=1, gdy adres STA i adres AP są w tej samej podsieci."
                 ],
     "firmware":  {
                      "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1670816,
-                     "md5":  "BA5D12AB5E8308D25D50138A348D7DC0"
+                     "size":  1671008,
+                     "md5":  "0A6A4515DC2C65B5D521C7B2164CE9A4"
                  },
     "filesystem":  {
                        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
                        "size":  4194304,
-                       "md5":  "F3254C57E089111FEC858A2C2787F95C"
+                       "md5":  "03A64A8CB425C9B286B4AA05E69F3C80"
                    },
-    "build_time":  "2026-06-27T16:11:36+01:00",
+    "build_time":  "2026-06-27T16:18:41+01:00",
     "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
