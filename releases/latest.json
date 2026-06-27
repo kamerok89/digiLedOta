@@ -1,24 +1,24 @@
 {
     "product":  "digiled-xiao-esp32s3",
     "channel":  "stable",
-    "firmware_version":  "1.0.0.839",
-    "filesystem_version":  "1.0.0.694",
-    "notes":  "Zmieniono kafelek RADIO NRF24L01+ na kompaktowy układ diagnostyczny z dwiema tabelami metryk.",
+    "firmware_version":  "1.0.0.840",
+    "filesystem_version":  "1.0.0.695",
+    "notes":  "Sekcja Mapowanie akcji MiLight ma teraz tryb standardowy i tryb użytkownika z zachowaniem zapisanych mapowań.",
     "changes":  [
-                    "Kafelek RADIO NRF24L01+ ma teraz zwarty nagłówek ze statusem i przyciskiem odświeżania.",
-                    "Metryki pracy radia i liczniki pakietów są pokazane w dwóch wspólnych ramkach z separatorami kolumn zamiast osobnych dużych pilli.",
-                    "Na telefonach tabele przechodzą do dwóch kolumn, a przycisk odświeżania może zwęzić się do samej ikony."
+                    "Dodano przełącznik Mapowanie standardowe / Mapowanie użytkownika w sekcji Mapowanie akcji MiLight.",
+                    "Tryb standardowy ukrywa ręczne comboboksy i pokazuje kompaktowy blok z trzema polami statusu.",
+                    "Firmware zapisuje mapping_mode i w trybie standardowym używa domyślnych akcji bez kasowania mapowań użytkownika."
                 ],
     "firmware":  {
                      "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1671008,
-                     "md5":  "327DF6D1C998DB0DC86B595BEF15F8EE"
+                     "size":  1672720,
+                     "md5":  "A5B3B9FC2E0F06D7719C9DEE79B3DA96"
                  },
     "filesystem":  {
                        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
                        "size":  4194304,
-                       "md5":  "ED4BFB096CA074B1B7A2A793E7330F47"
+                       "md5":  "0BE8D42EC9B82454C5BC61BABF9D3C72"
                    },
-    "build_time":  "2026-06-27T18:42:34+01:00",
+    "build_time":  "2026-06-27T19:07:05+01:00",
     "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,18 @@
 {
     "releases":  [
                      {
+                         "version":  "1.0.0.695",
+                         "firmware_version":  "1.0.0.840",
+                         "filesystem_version":  "1.0.0.695",
+                         "date":  "2026-06-27T19:07:05+01:00",
+                         "title":  "Tryby mapowania akcji MiLight",
+                         "changes":  [
+                                         "Dodano przełącznik Mapowanie standardowe / Mapowanie użytkownika w sekcji Mapowanie akcji MiLight.",
+                                         "Tryb standardowy ukrywa ręczne comboboksy i pokazuje kompaktowy blok z trzema polami statusu.",
+                                         "Firmware zapisuje mapping_mode i w trybie standardowym używa domyślnych akcji bez kasowania mapowań użytkownika."
+                                     ]
+                     },
+                     {
                          "version":  "1.0.0.694",
                          "firmware_version":  "1.0.0.839",
                          "filesystem_version":  "1.0.0.694",
