@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.845",
+      "firmware_version": "1.0.0.845",
+      "filesystem_version": "1.0.0.697",
+      "date": "2026-06-27T20:39:02+01:00",
+      "title": "Recovery bez automatycznego powrotu do portalu",
+      "changes": [
+        "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi już automatycznie do głównego portalu.",
+        "Dodano przycisk Home obok File Manager, który przenosi ręcznie do /.",
+        "Usunięto nagłówek OTA Update oraz pomocnicze opisy z widoku recovery."
+      ]
+    },
+    {
       "version": "1.0.0.697",
       "firmware_version": "1.0.0.844",
       "filesystem_version": "1.0.0.697",

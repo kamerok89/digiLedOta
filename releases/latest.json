@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.844",
+  "firmware_version": "1.0.0.845",
   "filesystem_version": "1.0.0.697",
-  "notes": "W kafelku aktualizacji slot firmware/LittleFS C:D pokazuje teraz wolne miejsce z całości partycji, zamiast zajętego rozmiaru programu.",
+  "notes": "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi już automatycznie do głównego portalu.",
   "changes": [
-    "W kafelku aktualizacji slot firmware/LittleFS C:D pokazuje teraz wolne miejsce z całości partycji, zamiast zajętego rozmiaru programu.",
-    "Opis miejsca jest spójny z filesystemem: format „{free} wolnych z {total}”.",
-    "Odświeżono skompresowany script.js.gz w paczce portalu."
+    "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi już automatycznie do głównego portalu.",
+    "Dodano przycisk Home obok File Manager, który przenosi ręcznie do /.",
+    "Usunięto nagłówek OTA Update oraz pomocnicze opisy z widoku recovery."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1669216,
-    "md5": "E90869623E02F305E978183BA62B3907"
+    "size": 1668864,
+    "md5": "EDCD0D1BF380A94833DF53CAEF9A74C8"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "E591C5EC9370865B8B9F9A38D2BAF973"
   },
-  "build_time": "2026-06-27T20:26:12+01:00",
+  "build_time": "2026-06-27T20:39:02+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
