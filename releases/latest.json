@@ -1,24 +1,24 @@
 {
-  "product": "digiled-xiao-esp32s3",
-  "channel": "stable",
-  "firmware_version": "1.0.0.835",
-  "filesystem_version": "1.0.0.688",
-  "notes": "Poprawiono układ tabeli Procesy tak, aby nazwy procesów i wartości RAM były widoczne jednocześnie.",
-  "changes": [
-    "Zbalansowano szerokości kolumn w tabeli Procesy, aby jednocześnie było widać nazwę procesu i RAM.",
-    "Nazwa procesu nie jest już ucinana ellipsis w pierwszej kolumnie.",
-    "Odchudzono kolumnę CPU i opis procesu, żeby RAM pozostał czytelny bez zabierania miejsca nazwom."
-  ],
-  "firmware": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1670416,
-    "md5": "B1EB48B48DAF1D29691C1BB2BDE1B8BD"
-  },
-  "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
-    "size": 4194304,
-    "md5": "FA9E1675F1B386B3A66B44B8628F7D24"
-  },
-  "build_time": "2026-06-23T17:05:34+01:00",
-  "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
+    "product":  "digiled-xiao-esp32s3",
+    "channel":  "stable",
+    "firmware_version":  "1.0.0.836",
+    "filesystem_version":  "1.0.0.689",
+    "notes":  "Przywrócono awaryjne uruchamianie AP, gdy zapisane Wi-Fi STA nie może uzyskać połączenia.",
+    "changes":  [
+                    "Firmware przywraca SoftAP, gdy zapisane ustawienia zostawiły AP wyłączony, a urządzenie nie ma połączenia STA/IP.",
+                    "Fallback uruchamia AP także po wyczerpaniu prób połączenia z zapisanym Wi-Fi, żeby panel pozostał dostępny przez 192.168.4.1.",
+                    "Zaktualizowano paczkę LittleFS, aby plik version.json raportował firmware 1.0.0.836 i portal 1.0.0.689."
+                ],
+    "firmware":  {
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+                     "size":  1670816,
+                     "md5":  "BA5D12AB5E8308D25D50138A348D7DC0"
+                 },
+    "filesystem":  {
+                       "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+                       "size":  4194304,
+                       "md5":  "F3254C57E089111FEC858A2C2787F95C"
+                   },
+    "build_time":  "2026-06-27T16:11:36+01:00",
+    "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
