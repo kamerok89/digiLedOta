@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.698",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.698",
+      "date": "2026-06-27T21:01:41+01:00",
+      "title": "Przycisk Recovery w panelu oprogramowania",
+      "changes": [
+        "Dodano przycisk Recovery obok File Manager w sekcji Oprogramowanie.",
+        "Przycisk Recovery przenosi bezpośrednio do /recovery w tej samej karcie.",
+        "Odświeżono skompresowany script.js.gz w paczce portalu."
+      ]
+    },
+    {
       "version": "1.0.0.846",
       "firmware_version": "1.0.0.846",
       "filesystem_version": "1.0.0.697",

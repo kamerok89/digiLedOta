@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.846",
-  "filesystem_version": "1.0.0.697",
-  "notes": "Panel restartu w Recovery chowa się automatycznie sekundę po dojściu paska do 100%.",
+  "filesystem_version": "1.0.0.698",
+  "notes": "Dodano przycisk Recovery obok File Manager w sekcji Oprogramowanie.",
   "changes": [
-    "Panel restartu w Recovery chowa się automatycznie sekundę po dojściu paska do 100%.",
-    "Zamieniono kolejność przycisków: Home jest teraz przed File Manager.",
-    "Zachowano brak automatycznego przejścia do / po udanej aktualizacji firmware lub filesystemu."
+    "Dodano przycisk Recovery obok File Manager w sekcji Oprogramowanie.",
+    "Przycisk Recovery przenosi bezpośrednio do /recovery w tej samej karcie.",
+    "Odświeżono skompresowany script.js.gz w paczce portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "E591C5EC9370865B8B9F9A38D2BAF973"
+    "md5": "030E638B8CEB6957CD7BFB45EFC26AE2"
   },
-  "build_time": "2026-06-27T20:52:40+01:00",
+  "build_time": "2026-06-27T21:01:41+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
