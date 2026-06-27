@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.701",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.701",
+      "date": "2026-06-27T21:40:33+01:00",
+      "title": "Recovery jak File Manager",
+      "changes": [
+        "Przycisk Recovery otwiera teraz /recovery w nowej karcie, tak jak File Manager otwiera /fileman.",
+        "Dopi?to Recovery do wszystkich regu? stylu u?ywanych przez File Manager w sekcji Oprogramowanie, tak?e w jasnym motywie.",
+        "Przebudowano styles.css i skompresowane zasoby portalu z modu??w CSS."
+      ]
+    },
+    {
       "version": "1.0.0.700",
       "firmware_version": "1.0.0.846",
       "filesystem_version": "1.0.0.700",
