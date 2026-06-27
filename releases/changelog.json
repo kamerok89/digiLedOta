@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.700",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.700",
+      "date": "2026-06-27T21:25:39+01:00",
+      "title": "Styl i ikona przycisku Recovery",
+      "changes": [
+        "Przycisk Recovery w sekcji Oprogramowanie korzysta teraz z tych samych regu? stylu co File Manager.",
+        "Zmieniono ikon? przycisku Recovery na U+E822.",
+        "Od?wie?ono skompresowany styles.css.gz w paczce portalu."
+      ]
+    },
+    {
       "version": "1.0.0.698",
       "firmware_version": "1.0.0.846",
       "filesystem_version": "1.0.0.698",

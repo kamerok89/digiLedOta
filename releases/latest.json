@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.846",
-  "filesystem_version": "1.0.0.698",
-  "notes": "Dodano przycisk Recovery obok File Manager w sekcji Oprogramowanie.",
+  "filesystem_version": "1.0.0.700",
+  "notes": "Dopasowano styl i ikon? przycisku Recovery w panelu Oprogramowanie.",
   "changes": [
-    "Dodano przycisk Recovery obok File Manager w sekcji Oprogramowanie.",
-    "Przycisk Recovery przenosi bezpośrednio do /recovery w tej samej karcie.",
-    "Odświeżono skompresowany script.js.gz w paczce portalu."
+    "Przycisk Recovery w sekcji Oprogramowanie korzysta teraz z tych samych regu? stylu co File Manager.",
+    "Zmieniono ikon? przycisku Recovery na U+E822.",
+    "Od?wie?ono skompresowany styles.css.gz w paczce portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "030E638B8CEB6957CD7BFB45EFC26AE2"
+    "md5": "9798646AC064913EE2421990BBE30A20"
   },
-  "build_time": "2026-06-27T21:01:41+01:00",
+  "build_time": "2026-06-27T21:25:39+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
