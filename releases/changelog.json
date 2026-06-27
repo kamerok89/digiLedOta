@@ -1,6 +1,18 @@
 {
     "releases":  [
                      {
+                         "version":  "1.0.0.694",
+                         "firmware_version":  "1.0.0.839",
+                         "filesystem_version":  "1.0.0.694",
+                         "date":  "2026-06-27T18:42:34+01:00",
+                         "title":  "Kompaktowy kafelek radia nRF24L01+",
+                         "changes":  [
+                                         "Kafelek RADIO NRF24L01+ ma teraz zwarty nagłówek ze statusem i przyciskiem odświeżania.",
+                                         "Metryki pracy radia i liczniki pakietów są pokazane w dwóch wspólnych ramkach z separatorami kolumn zamiast osobnych dużych pilli.",
+                                         "Na telefonach tabele przechodzą do dwóch kolumn, a przycisk odświeżania może zwęzić się do samej ikony."
+                                     ]
+                     },
+                     {
                          "version":  "1.0.0.690",
                          "firmware_version":  "1.0.0.837",
                          "filesystem_version":  "1.0.0.690",

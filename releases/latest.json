@@ -1,24 +1,24 @@
 {
     "product":  "digiled-xiao-esp32s3",
     "channel":  "stable",
-    "firmware_version":  "1.0.0.837",
-    "filesystem_version":  "1.0.0.690",
-    "notes":  "Poprawiono watchdog portalu, aby przy aktywnym AP nie restartował HTTP z powodu nieudanego testu adresu STA.",
+    "firmware_version":  "1.0.0.839",
+    "filesystem_version":  "1.0.0.694",
+    "notes":  "Zmieniono kafelek RADIO NRF24L01+ na kompaktowy układ diagnostyczny z dwiema tabelami metryk.",
     "changes":  [
-                    "Watchdog HTTP testuje teraz adres AP przed adresem STA, gdy SoftAP jest aktywny.",
-                    "Fałszywy błąd testu STA w sieci 192.168.4.x nie powoduje już restartu AsyncWebServer i ryzyka bind error -8.",
-                    "Diagnostyka sieci dopisuje subnet_overlap=1, gdy adres STA i adres AP są w tej samej podsieci."
+                    "Kafelek RADIO NRF24L01+ ma teraz zwarty nagłówek ze statusem i przyciskiem odświeżania.",
+                    "Metryki pracy radia i liczniki pakietów są pokazane w dwóch wspólnych ramkach z separatorami kolumn zamiast osobnych dużych pilli.",
+                    "Na telefonach tabele przechodzą do dwóch kolumn, a przycisk odświeżania może zwęzić się do samej ikony."
                 ],
     "firmware":  {
                      "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
                      "size":  1671008,
-                     "md5":  "0A6A4515DC2C65B5D521C7B2164CE9A4"
+                     "md5":  "327DF6D1C998DB0DC86B595BEF15F8EE"
                  },
     "filesystem":  {
                        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
                        "size":  4194304,
-                       "md5":  "03A64A8CB425C9B286B4AA05E69F3C80"
+                       "md5":  "ED4BFB096CA074B1B7A2A793E7330F47"
                    },
-    "build_time":  "2026-06-27T16:18:41+01:00",
+    "build_time":  "2026-06-27T18:42:34+01:00",
     "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
