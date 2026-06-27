@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.845",
+  "firmware_version": "1.0.0.846",
   "filesystem_version": "1.0.0.697",
-  "notes": "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi już automatycznie do głównego portalu.",
+  "notes": "Panel restartu w Recovery chowa się automatycznie sekundę po dojściu paska do 100%.",
   "changes": [
-    "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi już automatycznie do głównego portalu.",
-    "Dodano przycisk Home obok File Manager, który przenosi ręcznie do /.",
-    "Usunięto nagłówek OTA Update oraz pomocnicze opisy z widoku recovery."
+    "Panel restartu w Recovery chowa się automatycznie sekundę po dojściu paska do 100%.",
+    "Zamieniono kolejność przycisków: Home jest teraz przed File Manager.",
+    "Zachowano brak automatycznego przejścia do / po udanej aktualizacji firmware lub filesystemu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1668864,
-    "md5": "EDCD0D1BF380A94833DF53CAEF9A74C8"
+    "size": 1669152,
+    "md5": "E8340587E790FDEC04EBCEF8BA467B86"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "E591C5EC9370865B8B9F9A38D2BAF973"
   },
-  "build_time": "2026-06-27T20:39:02+01:00",
+  "build_time": "2026-06-27T20:52:40+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

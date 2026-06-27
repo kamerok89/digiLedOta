@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.846",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.697",
+      "date": "2026-06-27T20:52:40+01:00",
+      "title": "Doprecyzowanie zachowania panelu Recovery",
+      "changes": [
+        "Panel restartu w Recovery chowa się automatycznie sekundę po dojściu paska do 100%.",
+        "Zamieniono kolejność przycisków: Home jest teraz przed File Manager.",
+        "Zachowano brak automatycznego przejścia do / po udanej aktualizacji firmware lub filesystemu."
+      ]
+    },
+    {
       "version": "1.0.0.845",
       "firmware_version": "1.0.0.845",
       "filesystem_version": "1.0.0.697",
