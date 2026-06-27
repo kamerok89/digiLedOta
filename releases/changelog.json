@@ -5,11 +5,11 @@
       "firmware_version": "1.0.0.844",
       "filesystem_version": "1.0.0.696",
       "date": "2026-06-27T20:11:37+01:00",
-      "title": "Stabilizacja przej?cia mi?dzy portalem i filemanem",
+      "title": "Stabilizacja przejścia między portalem i filemanem",
       "changes": [
-        "Dodano jawne zamykanie po??cze? dla pe?nych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie mi?dzy / i /fileman nie zostawia?o wisz?cych sesji HTTP.",
-        "Fileman serwuje teraz script.js i style.css z plik?w .gz oraz cache, dzi?ki czemu wej?cie do mened?era plik?w mniej obci??a ESP.",
-        "Przywr?cono prost? obs?ug? /api/fs/raw bez wymuszonego no-cache, zgodnie ze stabiln? starsz? wersj?."
+        "Dodano jawne zamykanie połączeń dla pełnych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie między / i /fileman nie zostawiało wiszących sesji HTTP.",
+        "Fileman serwuje teraz script.js i style.css z plików .gz oraz cache, dzięki czemu wejście do menedżera plików mniej obciąża ESP.",
+        "Przywrócono prostą obsługę /api/fs/raw bez wymuszonego no-cache, zgodnie ze stabilną starszą wersją."
       ]
     },
     {
