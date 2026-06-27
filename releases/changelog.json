@@ -1,6 +1,18 @@
 {
     "releases":  [
                      {
+                         "version":  "1.0.0.842",
+                         "firmware_version":  "1.0.0.842",
+                         "filesystem_version":  "1.0.0.695",
+                         "date":  "2026-06-27T19:52:47+01:00",
+                         "title":  "Stabilizacja AP i serwowania portalu",
+                         "changes":  [
+                                         "Usunięto NetworkWatchdog oraz lokalne próby HTTP, które mogły restartować AsyncWebServer podczas pracy portalu.",
+                                         "Wyłączono automatyczne wyłączanie SoftAP po wejściu do panelu przez STA; AP pozostaje pod kontrolą ustawienia użytkownika.",
+                                         "Duże zasoby portalu, w tym script.js, styles.css i tłumaczenia JSON, są serwowane z .gz oraz cache; no-cache pozostaje dla index.html i API."
+                                     ]
+                     },
+                     {
                          "version":  "1.0.0.695",
                          "firmware_version":  "1.0.0.840",
                          "filesystem_version":  "1.0.0.695",
