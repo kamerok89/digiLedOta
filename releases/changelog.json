@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.697",
+      "firmware_version": "1.0.0.844",
+      "filesystem_version": "1.0.0.697",
+      "date": "2026-06-27T20:26:12+01:00",
+      "title": "Czytelniejsze miejsce wolne w kafelkach LittleFS",
+      "changes": [
+        "W kafelku aktualizacji slot firmware/LittleFS C:D pokazuje teraz wolne miejsce z całości partycji, zamiast zajętego rozmiaru programu.",
+        "Opis miejsca jest spójny z filesystemem: format „{free} wolnych z {total}”.",
+        "Odświeżono skompresowany script.js.gz w paczce portalu."
+      ]
+    },
+    {
       "version": "1.0.0.844",
       "firmware_version": "1.0.0.844",
       "filesystem_version": "1.0.0.696",
