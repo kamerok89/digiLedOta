@@ -1,24 +1,24 @@
 {
-    "product":  "digiled-xiao-esp32s3",
-    "channel":  "stable",
-    "firmware_version":  "1.0.0.842",
-    "filesystem_version":  "1.0.0.695",
-    "notes":  "Usunięto NetworkWatchdog oraz lokalne próby HTTP, które mogły restartować AsyncWebServer podczas pracy portalu.",
-    "changes":  [
-        "Usunięto NetworkWatchdog oraz lokalne próby HTTP, które mogły restartować AsyncWebServer podczas pracy portalu.",
-        "Wyłączono automatyczne wyłączanie SoftAP po wejściu do panelu przez STA; AP pozostaje pod kontrolą ustawienia użytkownika.",
-        "Duże zasoby portalu, w tym script.js, styles.css i tłumaczenia JSON, są serwowane z .gz oraz cache; no-cache pozostaje dla index.html i API."
-    ],
-    "firmware":  {
-        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size":  1667312,
-        "md5":  "F2DBDEDADC701D2572BF9B2668E45C7E"
-    },
-    "filesystem":  {
-        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
-        "size":  4194304,
-        "md5":  "0BE8D42EC9B82454C5BC61BABF9D3C72"
-    },
-    "build_time":  "2026-06-27T19:52:47+01:00",
-    "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
+  "product": "digiled-xiao-esp32s3",
+  "channel": "stable",
+  "firmware_version": "1.0.0.844",
+  "filesystem_version": "1.0.0.696",
+  "notes": "Dodano jawne zamykanie po??cze? dla pe?nych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie mi?dzy / i /fileman nie zostawia?o wisz?cych sesji HTTP.",
+  "changes": [
+    "Dodano jawne zamykanie po??cze? dla pe?nych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie mi?dzy / i /fileman nie zostawia?o wisz?cych sesji HTTP.",
+    "Fileman serwuje teraz script.js i style.css z plik?w .gz oraz cache, dzi?ki czemu wej?cie do mened?era plik?w mniej obci??a ESP.",
+    "Przywr?cono prost? obs?ug? /api/fs/raw bez wymuszonego no-cache, zgodnie ze stabiln? starsz? wersj?."
+  ],
+  "firmware": {
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+    "size": 1669216,
+    "md5": "E90869623E02F305E978183BA62B3907"
+  },
+  "filesystem": {
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+    "size": 4194304,
+    "md5": "6166E75F2D61DCA335A75FD86AD89886"
+  },
+  "build_time": "2026-06-27T20:11:37+01:00",
+  "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
