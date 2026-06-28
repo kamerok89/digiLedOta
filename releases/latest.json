@@ -1,24 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.847",
-  "filesystem_version": "1.0.0.717",
-  "notes": "Ograniczono maksymalną szerokość kafelków scen do 485 px.",
+  "firmware_version": "1.0.0.848",
+  "filesystem_version": "1.0.0.718",
+  "notes": "Dodano lekki panel WWW dost?pny pod /panel z widokami Sterowanie i Oprogramowanie.",
   "changes": [
-    "Kafelki scen w panelu Sterowanie mają teraz maksymalną szerokość 485 px.",
-    "Zachowano responsywną szerokość 100% dla węższych ekranów.",
-    "Nie zmieniono mechaniki przycisków, podglądu LED ani konfiguracji scen."
+    "Dodano lekki panel WWW pod adresem /panel z osobnymi plikami /api/panel.htm, /api/style.css i /api/script.js.",
+    "Panel zawiera tylko Sterowanie oraz Oprogramowanie, z prze??cznikiem j?zyka i motywu bez wyboru trybu portalu.",
+    "Sterowanie scenami, parametry LED, r?czne OTA oraz centrum aktualizacji GitHub dzia?aj? niezale?nie od pe?nego portalu.",
+    "Firmware serwuje /panel jako alias do /api/panel.htm i obs?uguje skompresowane assety CSS/JS nowego panelu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1669152,
-    "md5": "5CADA961ECE242EB0C18FFCCDCED7DE3"
+    "size": 1670176,
+    "md5": "067CB0FE41D267F10C2A1D88B563E8CA"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "9E53D3D12A32FC656D06485EC77EB086"
+    "md5": "7B7E3296FC2116194368E1EB95FD9DF0"
   },
-  "build_time": "2026-06-28T15:03:58+01:00",
+  "build_time": "2026-06-28T15:41:39+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

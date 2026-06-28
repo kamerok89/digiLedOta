@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.718",
+      "firmware_version": "1.0.0.848",
+      "filesystem_version": "1.0.0.718",
+      "date": "2026-06-28T15:41:39+01:00",
+      "title": "Lekki panel WWW pod /panel",
+      "changes": [
+        "Dodano lekki panel WWW pod adresem /panel z osobnymi plikami /api/panel.htm, /api/style.css i /api/script.js.",
+        "Panel zawiera tylko Sterowanie oraz Oprogramowanie, z prze??cznikiem j?zyka i motywu bez wyboru trybu portalu.",
+        "Sterowanie scenami, parametry LED, r?czne OTA oraz centrum aktualizacji GitHub dzia?aj? niezale?nie od pe?nego portalu.",
+        "Firmware serwuje /panel jako alias do /api/panel.htm i obs?uguje skompresowane assety CSS/JS nowego panelu."
+      ]
+    },
+    {
       "version": "1.0.0.717",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.717",
