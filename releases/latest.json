@@ -1,25 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.849",
-  "filesystem_version": "1.0.0.719",
-  "notes": "Przebudowano /panel na bazie prawdziwego UI portalu 1:1 dla Sterowania i Oprogramowania.",
+  "firmware_version": "1.0.0.850",
+  "filesystem_version": "1.0.0.720",
+  "notes": "Panel /panel ma teraz własne odchudzone pliki CSS i JS bez ciągnięcia pełnego portalu.",
   "changes": [
-    "Przebudowano /panel jako prawdziwy wycinek obecnego portalu, zamiast uproszczonej wersji demo.",
-    "Sterowanie i Oprogramowanie korzystaj? teraz z realnego markup, styl?w i mechaniki g??wnego panelu.",
-    "W bocznej nawigacji /panel widoczne s? tylko Sterowanie oraz Oprogramowanie, bez wyboru trybu u?ytkownika/zaawansowanego.",
-    "Pliki /api/panel.htm, /api/style.css i /api/script.js zachowuj? osobne adresy, a /api/script.js serwuje ten sam sprawdzony bundle co g??wny portal."
+    "Panel /panel korzysta teraz z własnych, odchudzonych plików /api/style.css i /api/script.js, bez importowania głównego bundle portalu.",
+    "Zachowano wygląd TopHeadera, Sterowania i Oprogramowania, ale usunięto zależności od niepotrzebnych kart pełnego portalu.",
+    "Sterowanie scenami, parametry globalne LED, OTA firmware/filesystem, File Manager i Recovery działają w samodzielnym runtime panelu.",
+    "Firmware serwuje /panel jako alias do /api/panel.htm oraz osobno podaje /api/style.css i /api/script.js z gzipem."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
     "size": 1670176,
-    "md5": "540DD24A01C5406CC0A05325D7154E88"
+    "md5": "AFFE6797019B9988F266E9B8EE520B04"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "2DFD38F3299547743F29DCC8B48E9C42"
+    "md5": "0938D1447619339ECCD91E53E57B0C9C"
   },
-  "build_time": "2026-06-28T16:09:00+01:00",
+  "build_time": "2026-06-28T16:47:49+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

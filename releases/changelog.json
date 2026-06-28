@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.720",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.720",
+      "date": "2026-06-28T16:47:49+01:00",
+      "title": "Samodzielny odchudzony panel /panel",
+      "changes": [
+        "Panel /panel korzysta teraz z własnych, odchudzonych plików /api/style.css i /api/script.js, bez importowania głównego bundle portalu.",
+        "Zachowano wygląd TopHeadera, Sterowania i Oprogramowania, ale usunięto zależności od niepotrzebnych kart pełnego portalu.",
+        "Sterowanie scenami, parametry globalne LED, OTA firmware/filesystem, File Manager i Recovery działają w samodzielnym runtime panelu.",
+        "Firmware serwuje /panel jako alias do /api/panel.htm oraz osobno podaje /api/style.css i /api/script.js z gzipem."
+      ]
+    },
+    {
       "version": "1.0.0.719",
       "firmware_version": "1.0.0.849",
       "filesystem_version": "1.0.0.719",
