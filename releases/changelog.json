@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.721",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.721",
+      "date": "2026-06-28T17:01:16+01:00",
+      "title": "Naprawa startu panelu /panel",
+      "changes": [
+        "Naprawiono zawieszanie /panel na ekranie ładowania przez dodanie klasy app-ready oczekiwanej przez CSS.",
+        "Poprawiono ścieżkę fontu Fluent Icons z /api/fonts/SegoeIcons.woff2 na /fonts/SegoeIcons.woff2, co usuwa błąd 404.",
+        "Podbito cache-busting panelu do 1.0.0.721, aby przeglądarka pobrała nowe /api/style.css i /api/script.js.",
+        "Odświeżono gzipy panelu i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
       "version": "1.0.0.720",
       "firmware_version": "1.0.0.850",
       "filesystem_version": "1.0.0.720",

@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.850",
-  "filesystem_version": "1.0.0.720",
-  "notes": "Panel /panel ma teraz własne odchudzone pliki CSS i JS bez ciągnięcia pełnego portalu.",
+  "filesystem_version": "1.0.0.721",
+  "notes": "Poprawiono start /panel: ekran ładowania znika po inicjalizacji, a font ikon jest pobierany z poprawnej ścieżki.",
   "changes": [
-    "Panel /panel korzysta teraz z własnych, odchudzonych plików /api/style.css i /api/script.js, bez importowania głównego bundle portalu.",
-    "Zachowano wygląd TopHeadera, Sterowania i Oprogramowania, ale usunięto zależności od niepotrzebnych kart pełnego portalu.",
-    "Sterowanie scenami, parametry globalne LED, OTA firmware/filesystem, File Manager i Recovery działają w samodzielnym runtime panelu.",
-    "Firmware serwuje /panel jako alias do /api/panel.htm oraz osobno podaje /api/style.css i /api/script.js z gzipem."
+    "Naprawiono zawieszanie /panel na ekranie ładowania przez dodanie klasy app-ready oczekiwanej przez CSS.",
+    "Poprawiono ścieżkę fontu Fluent Icons z /api/fonts/SegoeIcons.woff2 na /fonts/SegoeIcons.woff2, co usuwa błąd 404.",
+    "Podbito cache-busting panelu do 1.0.0.721, aby przeglądarka pobrała nowe /api/style.css i /api/script.js.",
+    "Odświeżono gzipy panelu i zbudowano nowy obraz LittleFS."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "0938D1447619339ECCD91E53E57B0C9C"
+    "md5": "ABDB93CD7B16292968A0A7D28C37E611"
   },
-  "build_time": "2026-06-28T16:47:49+01:00",
+  "build_time": "2026-06-28T17:01:16+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
