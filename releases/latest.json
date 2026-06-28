@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.847",
-  "filesystem_version": "1.0.0.709",
-  "notes": "Dodano domyślny kierunek startu sceny w konfiguracji.",
+  "filesystem_version": "1.0.0.710",
+  "notes": "Poprawiono odstępy i czytelność pilli w kompaktowym nagłówku sceny.",
   "changes": [
-    "Usunięto duże przyciski uruchamiania z rozwiniętego kafelka sceny, bez zmian w kompaktowych przyciskach u góry.",
-    "Dodano wybór domyślnego kierunku startu sceny Lewo/Prawo zapisywany w konfiguracji startDirection.",
-    "Wybrany kierunek jest używany przy starcie sceny z pilota, API bez jawnego kierunku oraz sterowania zbiorczego."
+    "Zwiększono odstępy między pillami zakresu i statusu sceny w kompaktowym kafelku.",
+    "Pille mają teraz większy padding, spokojniejszą wysokość i więcej oddechu pod tytułem sceny.",
+    "Nie zmieniono logiki scen ani kompaktowych przycisków sterowania."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "18C01BF1A71F0B336782E81A00F6D669"
+    "md5": "7DAA11BB48049795997ED6D2C5E7FB90"
   },
-  "build_time": "2026-06-28T08:27:14+01:00",
+  "build_time": "2026-06-28T08:40:00+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.710",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.710",
+      "date": "2026-06-28T08:40:00+01:00",
+      "title": "Więcej oddechu w pillach sceny",
+      "changes": [
+        "Zwiększono odstępy między pillami zakresu i statusu sceny w kompaktowym kafelku.",
+        "Pille mają teraz większy padding, spokojniejszą wysokość i więcej oddechu pod tytułem sceny.",
+        "Nie zmieniono logiki scen ani kompaktowych przycisków sterowania."
+      ]
+    },
+    {
       "version": "1.0.0.709",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.709",
