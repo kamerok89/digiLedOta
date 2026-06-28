@@ -1,25 +1,24 @@
-{
-  "product": "digiled-xiao-esp32s3",
-  "channel": "stable",
-  "firmware_version": "1.0.0.850",
-  "filesystem_version": "1.0.0.726",
-  "notes": "Poprawiono brakujące style efektów i Run FX w lekkim panelu /panel.",
-  "changes": [
-    "Uzupełniono brakujące style kart efektów scen w lekkim panelu /panel.",
-    "Ukryto natywny select Run FX i przywrócono wygląd comboboxa zgodny z głównym portalem.",
-    "Przyciski podglądu, ustawień i start/stop efektów nie powinny już renderować się jako surowe elementy HTML.",
-    "Podbito cache-busting /panel do 1.0.0.726, odświeżono gzipy i zbudowano nowy obraz LittleFS."
-  ],
-  "firmware": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1670176,
-    "md5": "AFFE6797019B9988F266E9B8EE520B04"
-  },
-  "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
-    "size": 4194304,
-    "md5": "06EDF72A0110103969A57ADB5663DE9F"
-  },
-  "build_time": "2026-06-28T19:19:16+01:00",
-  "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
+﻿{
+    "product":  "digiled-xiao-esp32s3",
+    "channel":  "stable",
+    "firmware_version":  "1.0.0.851",
+    "filesystem_version":  "1.0.0.726",
+    "notes":  "Naprawiono konflikt captive portalu z siecia STA 192.168.4.x.",
+    "changes":  [
+                    "Wylaczono DNS captive portalu, gdy statyczna konfiguracja STA naklada sie na adres SoftAP 192.168.4.1.",
+                    "Zablokowano przekierowania HTTP dla klientow z podsieci 192.168.4.x, gdy ta sama podsiec nalezy do STA.",
+                    "Po uzyskaniu IP przez STA firmware ponownie sprawdza konflikt i zatrzymuje captive portal, zeby nie przejmowac ruchu bramy."
+                ],
+    "firmware":  {
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+                     "size":  1671056,
+                     "md5":  "B84E5D4FBB4ABBDF009B9D58779D3BB8"
+                 },
+    "filesystem":  {
+                       "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+                       "size":  4194304,
+                       "md5":  "06EDF72A0110103969A57ADB5663DE9F"
+                   },
+    "build_time":  "2026-06-28T19:54:43+01:00",
+    "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
