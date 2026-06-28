@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.711",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.711",
+      "date": "2026-06-28T09:39:07+01:00",
+      "title": "Mini podgląd kierunku scen",
+      "changes": [
+        "Dodano w kafelkach scen mini podgląd LED z kierunkiem startu i zakresem diod.",
+        "Podgląd odświeża się razem z runtime oraz od razu po kliknięciu startu w prawo lub w lewo.",
+        "Zachowano dotychczasowe przyciski scen, długie przytrzymanie kafelka i logikę backendu."
+      ]
+    },
+    {
       "version": "1.0.0.710",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.710",
