@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.847",
-  "filesystem_version": "1.0.0.716",
-  "notes": "Poprawiono kierunek i start stanu gaszenia w podglądzie scen.",
+  "filesystem_version": "1.0.0.717",
+  "notes": "Ograniczono maksymalną szerokość kafelków scen do 485 px.",
   "changes": [
-    "Podgląd gaszenia zaczyna teraz od zapalonego zakresu LED zamiast zapalać kropki od tyłu.",
-    "Odwrócono interpretację progress dla stanu Stopping zgodnie z danymi runtime urządzenia.",
-    "Kliknięcie stop pokazuje natychmiast pełny zapalony podgląd, który następnie wygasa sekwencyjnie."
+    "Kafelki scen w panelu Sterowanie mają teraz maksymalną szerokość 485 px.",
+    "Zachowano responsywną szerokość 100% dla węższych ekranów.",
+    "Nie zmieniono mechaniki przycisków, podglądu LED ani konfiguracji scen."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "7B50B3787A04760CBA6A82F2C8F07548"
+    "md5": "9E53D3D12A32FC656D06485EC77EB086"
   },
-  "build_time": "2026-06-28T14:45:55+01:00",
+  "build_time": "2026-06-28T15:03:58+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

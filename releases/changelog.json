@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.717",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.717",
+      "date": "2026-06-28T15:03:58+01:00",
+      "title": "Limit szerokości kafelków scen",
+      "changes": [
+        "Kafelki scen w panelu Sterowanie mają teraz maksymalną szerokość 485 px.",
+        "Zachowano responsywną szerokość 100% dla węższych ekranów.",
+        "Nie zmieniono mechaniki przycisków, podglądu LED ani konfiguracji scen."
+      ]
+    },
+    {
       "version": "1.0.0.716",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.716",
