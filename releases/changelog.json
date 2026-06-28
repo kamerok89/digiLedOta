@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.709",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.709",
+      "date": "2026-06-28T08:27:14+01:00",
+      "title": "Domyślny kierunek startu sceny",
+      "changes": [
+        "Usunięto duże przyciski uruchamiania z rozwiniętego kafelka sceny, bez zmian w kompaktowych przyciskach u góry.",
+        "Dodano wybór domyślnego kierunku startu sceny Lewo/Prawo zapisywany w konfiguracji startDirection.",
+        "Wybrany kierunek jest używany przy starcie sceny z pilota, API bez jawnego kierunku oraz sterowania zbiorczego."
+      ]
+    },
+    {
       "version": "1.0.0.708",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.708",
