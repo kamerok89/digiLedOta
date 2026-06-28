@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.719",
+      "firmware_version": "1.0.0.849",
+      "filesystem_version": "1.0.0.719",
+      "date": "2026-06-28T16:09:00+01:00",
+      "title": "Panel /panel oparty na prawdziwym portalu",
+      "changes": [
+        "Przebudowano /panel jako prawdziwy wycinek obecnego portalu, zamiast uproszczonej wersji demo.",
+        "Sterowanie i Oprogramowanie korzystaj? teraz z realnego markup, styl?w i mechaniki g??wnego panelu.",
+        "W bocznej nawigacji /panel widoczne s? tylko Sterowanie oraz Oprogramowanie, bez wyboru trybu u?ytkownika/zaawansowanego.",
+        "Pliki /api/panel.htm, /api/style.css i /api/script.js zachowuj? osobne adresy, a /api/script.js serwuje ten sam sprawdzony bundle co g??wny portal."
+      ]
+    },
+    {
       "version": "1.0.0.718",
       "firmware_version": "1.0.0.848",
       "filesystem_version": "1.0.0.718",
