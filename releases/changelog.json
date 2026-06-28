@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.703",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.703",
+      "date": "2026-06-28T06:12:13+01:00",
+      "title": "Nowa ikona Integracja MiLight",
+      "changes": [
+        "Zmieniono ikon? kafelka Integracja MiLight w sekcji Konfiguracja na glyph U+E7FC.",
+        "Zast?piono r?cznie rysowan? ikon? pilota pojedyncz? ikon? Fluent, sp?jn? z pozosta?ymi kafelkami.",
+        "Od?wie?ono obraz LittleFS portalu."
+      ]
+    },
+    {
       "version": "1.0.0.702",
       "firmware_version": "1.0.0.846",
       "filesystem_version": "1.0.0.702",
