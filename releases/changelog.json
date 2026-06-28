@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.716",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.716",
+      "date": "2026-06-28T14:45:55+01:00",
+      "title": "Poprawione gaszenie podglądu scen",
+      "changes": [
+        "Podgląd gaszenia zaczyna teraz od zapalonego zakresu LED zamiast zapalać kropki od tyłu.",
+        "Odwrócono interpretację progress dla stanu Stopping zgodnie z danymi runtime urządzenia.",
+        "Kliknięcie stop pokazuje natychmiast pełny zapalony podgląd, który następnie wygasa sekwencyjnie."
+      ]
+    },
+    {
       "version": "1.0.0.715",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.715",
