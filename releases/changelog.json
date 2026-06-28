@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.704",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.704",
+      "date": "2026-06-28T06:33:58+01:00",
+      "title": "Zwijany panel RADIO NRF24L01+",
+      "changes": [
+        "Panel RADIO NRF24L01+ w Integracji MiLight jest teraz domy?lnie zwini?ty.",
+        "Przycisk Od?wie? przeniesiono z nag??wka do tre?ci panelu, jedn? lini? ni?ej.",
+        "W nag??wku dodano standardowy przycisk zwi?/rozwi? obok statusu radia."
+      ]
+    },
+    {
       "version": "1.0.0.703",
       "firmware_version": "1.0.0.846",
       "filesystem_version": "1.0.0.703",

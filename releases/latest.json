@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.846",
-  "filesystem_version": "1.0.0.703",
-  "notes": "Zmieniono ikon? kafelka Integracja MiLight.",
+  "filesystem_version": "1.0.0.704",
+  "notes": "Usprawniono zwijany panel diagnostyki radia NRF24L01+ w Integracji MiLight.",
   "changes": [
-    "Zmieniono ikon? kafelka Integracja MiLight w sekcji Konfiguracja na glyph U+E7FC.",
-    "Zast?piono r?cznie rysowan? ikon? pilota pojedyncz? ikon? Fluent, sp?jn? z pozosta?ymi kafelkami.",
-    "Od?wie?ono obraz LittleFS portalu."
+    "Panel RADIO NRF24L01+ w Integracji MiLight jest teraz domy?lnie zwini?ty.",
+    "Przycisk Od?wie? przeniesiono z nag??wka do tre?ci panelu, jedn? lini? ni?ej.",
+    "W nag??wku dodano standardowy przycisk zwi?/rozwi? obok statusu radia."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "09766FCEAE00964904A59AEAD2671336"
+    "md5": "901B3DB6E9032BCF3811C5AA353537B8"
   },
-  "build_time": "2026-06-28T06:12:13+01:00",
+  "build_time": "2026-06-28T06:33:58+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
