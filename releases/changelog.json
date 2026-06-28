@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.712",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.712",
+      "date": "2026-06-28T10:02:56+01:00",
+      "title": "Nowy wygląd kafelków scen",
+      "changes": [
+        "Przeniesiono przyciski Lewo i Prawo na dół kafelka sceny, zgodnie z nowym układem.",
+        "Podgląd LED dostał większy, ciemny panel z zakresem, kropkami i strzałką kierunku.",
+        "Zębatka konfiguracji pozostaje w prawym górnym rogu kafelka, a mechanika kliknięć i long press pozostała bez zmian."
+      ]
+    },
+    {
       "version": "1.0.0.711",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.711",
