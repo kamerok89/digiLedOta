@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.847",
-  "filesystem_version": "1.0.0.712",
-  "notes": "Zmieniono kafelki scen w Sterowaniu na układ z podglądem LED i dolnymi przyciskami Lewo/Prawo.",
+  "filesystem_version": "1.0.0.713",
+  "notes": "Dopasowano animację podglądu scen do koloru sceny i rzeczywistego zapalania LED.",
   "changes": [
-    "Przeniesiono przyciski Lewo i Prawo na dół kafelka sceny, zgodnie z nowym układem.",
-    "Podgląd LED dostał większy, ciemny panel z zakresem, kropkami i strzałką kierunku.",
-    "Zębatka konfiguracji pozostaje w prawym górnym rogu kafelka, a mechanika kliknięć i long press pozostała bez zmian."
+    "Podgląd LED w kafelku sceny używa teraz koloru wynikającego z lokalnych albo globalnych ustawień sceny.",
+    "Podczas startu kropki zapalają się kolejno i pozostają zapalone, a podczas zatrzymywania wygaszają się sekwencyjnie.",
+    "Gdy scena jest wyłączona, oba przyciski Lewo/Prawo pozostają neutralne; lewa ikona używa U+E768 obróconego o 180 stopni."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "72FD1AB1D5D1F91EF130D12DF68C4D73"
+    "md5": "6DAD70931F45A820EC59D434E66A1FC8"
   },
-  "build_time": "2026-06-28T10:02:56+01:00",
+  "build_time": "2026-06-28T13:19:56+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

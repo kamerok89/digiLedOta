@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.713",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.713",
+      "date": "2026-06-28T13:19:56+01:00",
+      "title": "Kolorowa animacja podglądu scen",
+      "changes": [
+        "Podgląd LED w kafelku sceny używa teraz koloru wynikającego z lokalnych albo globalnych ustawień sceny.",
+        "Podczas startu kropki zapalają się kolejno i pozostają zapalone, a podczas zatrzymywania wygaszają się sekwencyjnie.",
+        "Gdy scena jest wyłączona, oba przyciski Lewo/Prawo pozostają neutralne; lewa ikona używa U+E768 obróconego o 180 stopni."
+      ]
+    },
+    {
       "version": "1.0.0.712",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.712",
