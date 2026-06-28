@@ -2,13 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.847",
-  "filesystem_version": "1.0.0.707",
-  "notes": "Uporz?dkowano wersjonowanie asset?w portalu i dodano zabezpieczenie przed mojibake.",
+  "filesystem_version": "1.0.0.708",
+  "notes": "Usuni?to powt?rzony kierunek z pilla runtime sceny.",
   "changes": [
-    "Uporz?dkowano skrypt wersjonowania: index.html automatycznie dostaje aktualne wersje styles.css i script.js.",
-    "Dodano kontrol? builda zatrzymuj?c? paczk? portalu, je?li w script.js pojawi? si? typowe sekwencje uszkodzonego kodowania.",
-    "Przywr?cono encj? ikony chevron w script.js, aby ograniczy? ryzyko problem?w z kodowaniem.",
-    "Przebudowano firmware i filesystem ze sp?jnymi wersjami oraz poprawionymi assetami portalu."
+    "Usuni?to powt?rzony kierunek z kompaktowego pilla runtime sceny.",
+    "Pill sceny pokazuje teraz stan i post?p, np. ?Wy??czona ? 0%? albo ?Uruchamianie w prawo ? 10%?.",
+    "Logika kierunku sceny i przyciski startu w lewo/prawo pozosta?y bez zmian."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "B570BF569AE186F23233813CBDEB3B65"
+    "md5": "C46247527BB8AA39E0A7AA56F50D1103"
   },
-  "build_time": "2026-06-28T07:27:50+01:00",
+  "build_time": "2026-06-28T07:57:15+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
