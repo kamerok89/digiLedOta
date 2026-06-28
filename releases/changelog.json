@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.724",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.724",
+      "date": "2026-06-28T18:05:24+01:00",
+      "title": "Naprawa overlay scen w /panel",
+      "changes": [
+        "Dodano brakujące bazowe style overlay dla menu Sceny dla Uruchom wszystko w /panel.",
+        "Dodano brakujące ukrywanie i pozycjonowanie panelu Ustawienia podglądu efektów scen.",
+        "Elementy pomocnicze scen nie rozlewają się już jako zwykły tekst i suwaki poza kartą Sterowanie.",
+        "Podbito cache-busting /panel do 1.0.0.724, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
       "version": "1.0.0.723",
       "firmware_version": "1.0.0.850",
       "filesystem_version": "1.0.0.723",
