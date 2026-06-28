@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.725",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.725",
+      "date": "2026-06-28T18:58:56+01:00",
+      "title": "Naprawa błędu chevron w /panel",
+      "changes": [
+        "Dodano brakującą stałą ikony chevron używaną przez prawdziwy runtime scen w /panel.",
+        "Panel /panel nie powinien już pokazywać błędu FLUENT_CHEVRON_DOWN is not defined.",
+        "Podbito cache-busting /panel do 1.0.0.725, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
       "version": "1.0.0.724",
       "firmware_version": "1.0.0.850",
       "filesystem_version": "1.0.0.724",
