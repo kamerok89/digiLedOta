@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.715",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.715",
+      "date": "2026-06-28T14:25:48+01:00",
+      "title": "Kolorowe przygasanie podglądu scen",
+      "changes": [
+        "Usunięto przechodzenie kropek podglądu w przezroczystość albo czerń przy niskiej jasności.",
+        "Przygaszone kropki pozostają teraz wariantem wybranego koloru sceny.",
+        "Efekt włączania i wyłączania zmienia głównie jasność oraz poświatę, a nie bazowy kolor LED."
+      ]
+    },
+    {
       "version": "1.0.0.714",
       "firmware_version": "1.0.0.847",
       "filesystem_version": "1.0.0.714",

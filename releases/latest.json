@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.847",
-  "filesystem_version": "1.0.0.714",
-  "notes": "Wygładzono animację podglądu scen i poprawiono efekt wyłączania.",
+  "filesystem_version": "1.0.0.715",
+  "notes": "Poprawiono przygasanie kropek podglądu scen, aby zostawały w kolorze sceny.",
   "changes": [
-    "Zmieniono podgląd LED z prostych stanów zapalony/zgaszony na płynną jasność każdej kropki.",
-    "Start sceny dalej narasta po kolei, ale przejście jest mniej skokowe.",
-    "Wyłączanie dostało osobną falę wygaszania od początku kierunku, dzięki czemu nie wygląda jak ponowiony start."
+    "Usunięto przechodzenie kropek podglądu w przezroczystość albo czerń przy niskiej jasności.",
+    "Przygaszone kropki pozostają teraz wariantem wybranego koloru sceny.",
+    "Efekt włączania i wyłączania zmienia głównie jasność oraz poświatę, a nie bazowy kolor LED."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "1986171E6C357E7137FD3C8C6A5CE863"
+    "md5": "C4CB83536D144A1C0B5740B2C4E0C713"
   },
-  "build_time": "2026-06-28T13:43:40+01:00",
+  "build_time": "2026-06-28T14:25:48+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
