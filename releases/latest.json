@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.850",
-  "filesystem_version": "1.0.0.722",
-  "notes": "Poprawiono wygląd kafli scen w /panel po nieudanej lekkiej wersji.",
+  "filesystem_version": "1.0.0.723",
+  "notes": "Panel /panel używa teraz prawdziwego renderera Sterowania z głównego portalu zamiast uproszczonej kopii.",
   "changes": [
-    "Przywrócono kaflom scen proporcje i układ bliższy głównemu portalowi: pełny kafel, podgląd LED i przyciski Lewo/Prawo na dole.",
-    "Usunięto tymczasowy układ z wąską kolumną przycisków po prawej stronie kafla sceny.",
-    "Dopasowano markup panelu do istniejących klas sceneMini z głównego portalu.",
-    "Podbito cache-busting /panel do 1.0.0.722 i odświeżono gzipy."
+    "Zakładka Sterowanie w /panel jest montowana tym samym rendererem scenePortal co pełny portal.",
+    "Usunięto panelowe override’y CSS i ręcznie składany kafel scen, które powodowały rozjazd wyglądu.",
+    "Zachowano osobne pliki /api/panel.htm, /api/style.css i /api/script.js, bez importowania pełnego /script.js.",
+    "Odświeżono gzipy panelu, podbito cache-busting do 1.0.0.723 i zbudowano nowy obraz LittleFS."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "29AD1C21B45D0C266E5738D11901ED5C"
+    "md5": "324E7972BFC75539F9C391B59A9527B5"
   },
-  "build_time": "2026-06-28T17:15:17+01:00",
+  "build_time": "2026-06-28T17:49:56+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

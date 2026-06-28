@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.723",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.723",
+      "date": "2026-06-28T17:49:56+01:00",
+      "title": "Prawdziwe Sterowanie w panelu /panel",
+      "changes": [
+        "Zakładka Sterowanie w /panel jest montowana tym samym rendererem scenePortal co pełny portal.",
+        "Usunięto panelowe override’y CSS i ręcznie składany kafel scen, które powodowały rozjazd wyglądu.",
+        "Zachowano osobne pliki /api/panel.htm, /api/style.css i /api/script.js, bez importowania pełnego /script.js.",
+        "Odświeżono gzipy panelu, podbito cache-busting do 1.0.0.723 i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
       "version": "1.0.0.722",
       "firmware_version": "1.0.0.850",
       "filesystem_version": "1.0.0.722",
