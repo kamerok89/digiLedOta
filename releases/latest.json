@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.851",
-    "filesystem_version": "1.0.0.728",
-    "notes": "Naprawiono akcje Wlacz w efektach oraz wyglad przelacznika Lewo/Prawo w modalach /panel.",
+    "filesystem_version": "1.0.0.729",
+    "notes": "Poprawiono wygląd i działanie zakładki Oprogramowanie w lekkim panelu /panel.",
     "changes": [
-        "Dodano brakujacy helper escapeHtml w lekkim /api/script.js, wymagany przez przeniesiony runtime scen.",
-        "Naprawiono blad escapeHtml is not defined przerywajacy render po kliknieciu Wlacz w kartach efektow.",
-        "Uzupelniono bazowy styl segmentu Lewo/Prawo w modalach efektow, razem z tlem i aktywnym suwakiem jak w oryginalnym portalu.",
-        "Odswiezono gzipy /api/panel.htm, /api/style.css, /api/script.js i zbudowano nowy obraz LittleFS."
+        "Naprawiono odczyt statystyk pamięci firmware i LittleFS z /api/diag/perf/storage, więc karty nie pokazują już 0 B z 0 B.",
+        "Zastąpiono natywne pola wyboru pliku własnym lekkim kontrolerem uploadu zgodnym ze stylem portalu.",
+        "Usunięto zdublowane ikony z przycisków serwisowych oraz ukryto bezczynny placeholder statusu.",
+        "Podbito cache-busting /panel do 1.0.0.729, odświeżono gzipy i zbudowano nowy obraz LittleFS."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "7047F227D50A3D46B021B1BBC1A76BE6"
+        "md5": "F111F14FB8605A332D4FC1CAFF08341F"
     },
-    "build_time": "2026-06-28T20:53:26+01:00",
+    "build_time": "2026-06-28T21:10:05+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

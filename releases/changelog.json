@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.729",
+            "firmware_version": "1.0.0.851",
+            "filesystem_version": "1.0.0.729",
+            "date": "2026-06-28T21:10:05+01:00",
+            "title": "Zakładka Oprogramowanie w /panel",
+            "changes": [
+                "Naprawiono odczyt statystyk pamięci firmware i LittleFS z /api/diag/perf/storage, więc karty nie pokazują już 0 B z 0 B.",
+                "Zastąpiono natywne pola wyboru pliku własnym lekkim kontrolerem uploadu zgodnym ze stylem portalu.",
+                "Usunięto zdublowane ikony z przycisków serwisowych oraz ukryto bezczynny placeholder statusu.",
+                "Podbito cache-busting /panel do 1.0.0.729, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
             "version": "1.0.0.728",
             "firmware_version": "1.0.0.851",
             "filesystem_version": "1.0.0.728",
