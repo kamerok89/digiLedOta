@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.705",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.705",
+      "date": "2026-06-28T06:46:41+01:00",
+      "title": "Poprawione od?wie?anie asset?w portalu",
+      "changes": [
+        "Poprawiono wersjonowanie link?w do styles.css i script.js w index.html, aby przegl?darka pobiera?a nowe assety po aktualizacji filesystemu.",
+        "Panel RADIO NRF24L01+ w Integracji MiLight pozostaje domy?lnie zwini?ty i u?ywa nowego przycisku zwi?/rozwi?.",
+        "Przycisk Od?wie? pozostaje przeniesiony do tre?ci panelu, poni?ej nag??wka."
+      ]
+    },
+    {
       "version": "1.0.0.704",
       "firmware_version": "1.0.0.846",
       "filesystem_version": "1.0.0.704",

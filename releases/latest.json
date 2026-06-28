@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.846",
-  "filesystem_version": "1.0.0.704",
-  "notes": "Usprawniono zwijany panel diagnostyki radia NRF24L01+ w Integracji MiLight.",
+  "filesystem_version": "1.0.0.705",
+  "notes": "Poprawiono ?adowanie nowych asset?w portalu po aktualizacji filesystemu.",
   "changes": [
-    "Panel RADIO NRF24L01+ w Integracji MiLight jest teraz domy?lnie zwini?ty.",
-    "Przycisk Od?wie? przeniesiono z nag??wka do tre?ci panelu, jedn? lini? ni?ej.",
-    "W nag??wku dodano standardowy przycisk zwi?/rozwi? obok statusu radia."
+    "Poprawiono wersjonowanie link?w do styles.css i script.js w index.html, aby przegl?darka pobiera?a nowe assety po aktualizacji filesystemu.",
+    "Panel RADIO NRF24L01+ w Integracji MiLight pozostaje domy?lnie zwini?ty i u?ywa nowego przycisku zwi?/rozwi?.",
+    "Przycisk Od?wie? pozostaje przeniesiony do tre?ci panelu, poni?ej nag??wka."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "901B3DB6E9032BCF3811C5AA353537B8"
+    "md5": "B88112B1A6DA9B42EB521B57E95860BC"
   },
-  "build_time": "2026-06-28T06:33:58+01:00",
+  "build_time": "2026-06-28T06:46:41+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
