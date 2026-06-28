@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.847",
-  "filesystem_version": "1.0.0.713",
-  "notes": "Dopasowano animację podglądu scen do koloru sceny i rzeczywistego zapalania LED.",
+  "filesystem_version": "1.0.0.714",
+  "notes": "Wygładzono animację podglądu scen i poprawiono efekt wyłączania.",
   "changes": [
-    "Podgląd LED w kafelku sceny używa teraz koloru wynikającego z lokalnych albo globalnych ustawień sceny.",
-    "Podczas startu kropki zapalają się kolejno i pozostają zapalone, a podczas zatrzymywania wygaszają się sekwencyjnie.",
-    "Gdy scena jest wyłączona, oba przyciski Lewo/Prawo pozostają neutralne; lewa ikona używa U+E768 obróconego o 180 stopni."
+    "Zmieniono podgląd LED z prostych stanów zapalony/zgaszony na płynną jasność każdej kropki.",
+    "Start sceny dalej narasta po kolei, ale przejście jest mniej skokowe.",
+    "Wyłączanie dostało osobną falę wygaszania od początku kierunku, dzięki czemu nie wygląda jak ponowiony start."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "6DAD70931F45A820EC59D434E66A1FC8"
+    "md5": "1986171E6C357E7137FD3C8C6A5CE863"
   },
-  "build_time": "2026-06-28T13:19:56+01:00",
+  "build_time": "2026-06-28T13:43:40+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
