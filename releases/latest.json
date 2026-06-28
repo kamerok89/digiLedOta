@@ -1,24 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.846",
-  "filesystem_version": "1.0.0.706",
-  "notes": "Naprawiono kodowanie polskich znak?w w portalu.",
+  "firmware_version": "1.0.0.847",
+  "filesystem_version": "1.0.0.707",
+  "notes": "Uporz?dkowano wersjonowanie asset?w portalu i dodano zabezpieczenie przed mojibake.",
   "changes": [
-    "Naprawiono uszkodzone kodowanie polskich znak?w w script.js po poprzedniej paczce portalu.",
-    "Podbito wersjonowanie script.js i styles.css do 1.0.0.706, aby przegl?darka pobra?a naprawione assety.",
-    "Zachowano zwijany panel RADIO NRF24L01+ i przeniesiony przycisk Od?wie?."
+    "Uporz?dkowano skrypt wersjonowania: index.html automatycznie dostaje aktualne wersje styles.css i script.js.",
+    "Dodano kontrol? builda zatrzymuj?c? paczk? portalu, je?li w script.js pojawi? si? typowe sekwencje uszkodzonego kodowania.",
+    "Przywr?cono encj? ikony chevron w script.js, aby ograniczy? ryzyko problem?w z kodowaniem.",
+    "Przebudowano firmware i filesystem ze sp?jnymi wersjami oraz poprawionymi assetami portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
     "size": 1669152,
-    "md5": "E8340587E790FDEC04EBCEF8BA467B86"
+    "md5": "5CADA961ECE242EB0C18FFCCDCED7DE3"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "ADF696893F84EB7D13001A7F61125772"
+    "md5": "B570BF569AE186F23233813CBDEB3B65"
   },
-  "build_time": "2026-06-28T07:02:04+01:00",
+  "build_time": "2026-06-28T07:27:50+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
