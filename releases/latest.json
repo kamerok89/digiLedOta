@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.846",
-  "filesystem_version": "1.0.0.705",
-  "notes": "Poprawiono ?adowanie nowych asset?w portalu po aktualizacji filesystemu.",
+  "filesystem_version": "1.0.0.706",
+  "notes": "Naprawiono kodowanie polskich znak?w w portalu.",
   "changes": [
-    "Poprawiono wersjonowanie link?w do styles.css i script.js w index.html, aby przegl?darka pobiera?a nowe assety po aktualizacji filesystemu.",
-    "Panel RADIO NRF24L01+ w Integracji MiLight pozostaje domy?lnie zwini?ty i u?ywa nowego przycisku zwi?/rozwi?.",
-    "Przycisk Od?wie? pozostaje przeniesiony do tre?ci panelu, poni?ej nag??wka."
+    "Naprawiono uszkodzone kodowanie polskich znak?w w script.js po poprzedniej paczce portalu.",
+    "Podbito wersjonowanie script.js i styles.css do 1.0.0.706, aby przegl?darka pobra?a naprawione assety.",
+    "Zachowano zwijany panel RADIO NRF24L01+ i przeniesiony przycisk Od?wie?."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "B88112B1A6DA9B42EB521B57E95860BC"
+    "md5": "ADF696893F84EB7D13001A7F61125772"
   },
-  "build_time": "2026-06-28T06:46:41+01:00",
+  "build_time": "2026-06-28T07:02:04+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.706",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.706",
+      "date": "2026-06-28T07:02:04+01:00",
+      "title": "Naprawa kodowania portalu",
+      "changes": [
+        "Naprawiono uszkodzone kodowanie polskich znak?w w script.js po poprzedniej paczce portalu.",
+        "Podbito wersjonowanie script.js i styles.css do 1.0.0.706, aby przegl?darka pobra?a naprawione assety.",
+        "Zachowano zwijany panel RADIO NRF24L01+ i przeniesiony przycisk Od?wie?."
+      ]
+    },
+    {
       "version": "1.0.0.705",
       "firmware_version": "1.0.0.846",
       "filesystem_version": "1.0.0.705",
