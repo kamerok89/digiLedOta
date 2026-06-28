@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.728",
+            "firmware_version": "1.0.0.851",
+            "filesystem_version": "1.0.0.728",
+            "date": "2026-06-28T20:53:26+01:00",
+            "title": "Akcje efektow i segment Lewo/Prawo w /panel",
+            "changes": [
+                "Dodano brakujacy helper escapeHtml w lekkim /api/script.js, wymagany przez przeniesiony runtime scen.",
+                "Naprawiono blad escapeHtml is not defined przerywajacy render po kliknieciu Wlacz w kartach efektow.",
+                "Uzupelniono bazowy styl segmentu Lewo/Prawo w modalach efektow, razem z tlem i aktywnym suwakiem jak w oryginalnym portalu.",
+                "Odswiezono gzipy /api/panel.htm, /api/style.css, /api/script.js i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
             "version": "1.0.0.727",
             "firmware_version": "1.0.0.851",
             "filesystem_version": "1.0.0.727",

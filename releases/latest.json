@@ -2,12 +2,12 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.851",
-    "filesystem_version": "1.0.0.727",
-    "notes": "Naprawiono modale podgladu i ustawien efektow scen w lekkim panelu /panel.",
+    "filesystem_version": "1.0.0.728",
+    "notes": "Naprawiono akcje Wlacz w efektach oraz wyglad przelacznika Lewo/Prawo w modalach /panel.",
     "changes": [
-        "Dodano brakujace style modala wyboru scen dla efektow wraz z kierunkiem Lewo/Prawo.",
-        "Przywrocono pelny wyglad modala podgladu FX: naglowek, scena canvas, chipy parametrow i przycisk ustawien.",
-        "Bindowanie przyciskow modali efektow nie zalezy juz od ukrytego bloku konfiguracji scen.",
+        "Dodano brakujacy helper escapeHtml w lekkim /api/script.js, wymagany przez przeniesiony runtime scen.",
+        "Naprawiono blad escapeHtml is not defined przerywajacy render po kliknieciu Wlacz w kartach efektow.",
+        "Uzupelniono bazowy styl segmentu Lewo/Prawo w modalach efektow, razem z tlem i aktywnym suwakiem jak w oryginalnym portalu.",
         "Odswiezono gzipy /api/panel.htm, /api/style.css, /api/script.js i zbudowano nowy obraz LittleFS."
     ],
     "firmware": {
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "421BEEAAF0E6ABC09534BB2E871946B7"
+        "md5": "7047F227D50A3D46B021B1BBC1A76BE6"
     },
-    "build_time": "2026-06-28T20:26:51+01:00",
+    "build_time": "2026-06-28T20:53:26+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
