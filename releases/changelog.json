@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.722",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.722",
+      "date": "2026-06-28T17:15:17+01:00",
+      "title": "Poprawa kafli scen w /panel",
+      "changes": [
+        "Przywrócono kaflom scen proporcje i układ bliższy głównemu portalowi: pełny kafel, podgląd LED i przyciski Lewo/Prawo na dole.",
+        "Usunięto tymczasowy układ z wąską kolumną przycisków po prawej stronie kafla sceny.",
+        "Dopasowano markup panelu do istniejących klas sceneMini z głównego portalu.",
+        "Podbito cache-busting /panel do 1.0.0.722 i odświeżono gzipy."
+      ]
+    },
+    {
       "version": "1.0.0.721",
       "firmware_version": "1.0.0.850",
       "filesystem_version": "1.0.0.721",
