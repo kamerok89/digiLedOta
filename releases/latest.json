@@ -2,12 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.850",
-  "filesystem_version": "1.0.0.725",
-  "notes": "Naprawiono błąd FLUENT_CHEVRON_DOWN w lekkim panelu /panel.",
+  "filesystem_version": "1.0.0.726",
+  "notes": "Poprawiono brakujące style efektów i Run FX w lekkim panelu /panel.",
   "changes": [
-    "Dodano brakującą stałą ikony chevron używaną przez prawdziwy runtime scen w /panel.",
-    "Panel /panel nie powinien już pokazywać błędu FLUENT_CHEVRON_DOWN is not defined.",
-    "Podbito cache-busting /panel do 1.0.0.725, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+    "Uzupełniono brakujące style kart efektów scen w lekkim panelu /panel.",
+    "Ukryto natywny select Run FX i przywrócono wygląd comboboxa zgodny z głównym portalem.",
+    "Przyciski podglądu, ustawień i start/stop efektów nie powinny już renderować się jako surowe elementy HTML.",
+    "Podbito cache-busting /panel do 1.0.0.726, odświeżono gzipy i zbudowano nowy obraz LittleFS."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "491EE117CAA9170EACB0B9C3234DE98B"
+    "md5": "06EDF72A0110103969A57ADB5663DE9F"
   },
-  "build_time": "2026-06-28T18:58:56+01:00",
+  "build_time": "2026-06-28T19:19:16+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

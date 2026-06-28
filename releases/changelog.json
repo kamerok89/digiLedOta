@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.726",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.726",
+      "date": "2026-06-28T19:19:16+01:00",
+      "title": "Style efektów scen w /panel",
+      "changes": [
+        "Uzupełniono brakujące style kart efektów scen w lekkim panelu /panel.",
+        "Ukryto natywny select Run FX i przywrócono wygląd comboboxa zgodny z głównym portalem.",
+        "Przyciski podglądu, ustawień i start/stop efektów nie powinny już renderować się jako surowe elementy HTML.",
+        "Podbito cache-busting /panel do 1.0.0.726, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
       "version": "1.0.0.725",
       "firmware_version": "1.0.0.850",
       "filesystem_version": "1.0.0.725",
