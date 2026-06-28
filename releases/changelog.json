@@ -1,964 +1,977 @@
-﻿{
-    "releases":  [
-                     {
-                         "version":  "1.0.0.851",
-                         "firmware_version":  "1.0.0.851",
-                         "filesystem_version":  "1.0.0.726",
-                         "date":  "2026-06-28T19:54:43+01:00",
-                         "title":  "Naprawa STA przy bramie 192.168.4.1",
-                         "changes":  [
-                                         "Wylaczono DNS captive portalu, gdy statyczna konfiguracja STA naklada sie na adres SoftAP 192.168.4.1.",
-                                         "Zablokowano przekierowania HTTP dla klientow z podsieci 192.168.4.x, gdy ta sama podsiec nalezy do STA.",
-                                         "Po uzyskaniu IP przez STA firmware ponownie sprawdza konflikt i zatrzymuje captive portal, zeby nie przejmowac ruchu bramy."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.726",
-                         "firmware_version":  "1.0.0.850",
-                         "filesystem_version":  "1.0.0.726",
-                         "date":  "2026-06-28T19:19:16+01:00",
-                         "title":  "Style efektĂłw scen w /panel",
-                         "changes":  [
-                                         "UzupeĹ‚niono brakujÄ…ce style kart efektĂłw scen w lekkim panelu /panel.",
-                                         "Ukryto natywny select Run FX i przywrĂłcono wyglÄ…d comboboxa zgodny z gĹ‚Ăłwnym portalem.",
-                                         "Przyciski podglÄ…du, ustawieĹ„ i start/stop efektĂłw nie powinny juĹĽ renderowaÄ‡ siÄ™ jako surowe elementy HTML.",
-                                         "Podbito cache-busting /panel do 1.0.0.726, odĹ›wieĹĽono gzipy i zbudowano nowy obraz LittleFS."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.725",
-                         "firmware_version":  "1.0.0.850",
-                         "filesystem_version":  "1.0.0.725",
-                         "date":  "2026-06-28T18:58:56+01:00",
-                         "title":  "Naprawa bĹ‚Ä™du chevron w /panel",
-                         "changes":  [
-                                         "Dodano brakujÄ…cÄ… staĹ‚Ä… ikony chevron uĹĽywanÄ… przez prawdziwy runtime scen w /panel.",
-                                         "Panel /panel nie powinien juĹĽ pokazywaÄ‡ bĹ‚Ä™du FLUENT_CHEVRON_DOWN is not defined.",
-                                         "Podbito cache-busting /panel do 1.0.0.725, odĹ›wieĹĽono gzipy i zbudowano nowy obraz LittleFS."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.724",
-                         "firmware_version":  "1.0.0.850",
-                         "filesystem_version":  "1.0.0.724",
-                         "date":  "2026-06-28T18:05:24+01:00",
-                         "title":  "Naprawa overlay scen w /panel",
-                         "changes":  [
-                                         "Dodano brakujÄ…ce bazowe style overlay dla menu Sceny dla Uruchom wszystko w /panel.",
-                                         "Dodano brakujÄ…ce ukrywanie i pozycjonowanie panelu Ustawienia podglÄ…du efektĂłw scen.",
-                                         "Elementy pomocnicze scen nie rozlewajÄ… siÄ™ juĹĽ jako zwykĹ‚y tekst i suwaki poza kartÄ… Sterowanie.",
-                                         "Podbito cache-busting /panel do 1.0.0.724, odĹ›wieĹĽono gzipy i zbudowano nowy obraz LittleFS."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.723",
-                         "firmware_version":  "1.0.0.850",
-                         "filesystem_version":  "1.0.0.723",
-                         "date":  "2026-06-28T17:49:56+01:00",
-                         "title":  "Prawdziwe Sterowanie w panelu /panel",
-                         "changes":  [
-                                         "ZakĹ‚adka Sterowanie w /panel jest montowana tym samym rendererem scenePortal co peĹ‚ny portal.",
-                                         "UsuniÄ™to panelowe overrideâ€™y CSS i rÄ™cznie skĹ‚adany kafel scen, ktĂłre powodowaĹ‚y rozjazd wyglÄ…du.",
-                                         "Zachowano osobne pliki /api/panel.htm, /api/style.css i /api/script.js, bez importowania peĹ‚nego /script.js.",
-                                         "OdĹ›wieĹĽono gzipy panelu, podbito cache-busting do 1.0.0.723 i zbudowano nowy obraz LittleFS."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.722",
-                         "firmware_version":  "1.0.0.850",
-                         "filesystem_version":  "1.0.0.722",
-                         "date":  "2026-06-28T17:15:17+01:00",
-                         "title":  "Poprawa kafli scen w /panel",
-                         "changes":  [
-                                         "PrzywrĂłcono kaflom scen proporcje i ukĹ‚ad bliĹĽszy gĹ‚Ăłwnemu portalowi: peĹ‚ny kafel, podglÄ…d LED i przyciski Lewo/Prawo na dole.",
-                                         "UsuniÄ™to tymczasowy ukĹ‚ad z wÄ…skÄ… kolumnÄ… przyciskĂłw po prawej stronie kafla sceny.",
-                                         "Dopasowano markup panelu do istniejÄ…cych klas sceneMini z gĹ‚Ăłwnego portalu.",
-                                         "Podbito cache-busting /panel do 1.0.0.722 i odĹ›wieĹĽono gzipy."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.721",
-                         "firmware_version":  "1.0.0.850",
-                         "filesystem_version":  "1.0.0.721",
-                         "date":  "2026-06-28T17:01:16+01:00",
-                         "title":  "Naprawa startu panelu /panel",
-                         "changes":  [
-                                         "Naprawiono zawieszanie /panel na ekranie Ĺ‚adowania przez dodanie klasy app-ready oczekiwanej przez CSS.",
-                                         "Poprawiono Ĺ›cieĹĽkÄ™ fontu Fluent Icons z /api/fonts/SegoeIcons.woff2 na /fonts/SegoeIcons.woff2, co usuwa bĹ‚Ä…d 404.",
-                                         "Podbito cache-busting panelu do 1.0.0.721, aby przeglÄ…darka pobraĹ‚a nowe /api/style.css i /api/script.js.",
-                                         "OdĹ›wieĹĽono gzipy panelu i zbudowano nowy obraz LittleFS."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.720",
-                         "firmware_version":  "1.0.0.850",
-                         "filesystem_version":  "1.0.0.720",
-                         "date":  "2026-06-28T16:47:49+01:00",
-                         "title":  "Samodzielny odchudzony panel /panel",
-                         "changes":  [
-                                         "Panel /panel korzysta teraz z wĹ‚asnych, odchudzonych plikĂłw /api/style.css i /api/script.js, bez importowania gĹ‚Ăłwnego bundle portalu.",
-                                         "Zachowano wyglÄ…d TopHeadera, Sterowania i Oprogramowania, ale usuniÄ™to zaleĹĽnoĹ›ci od niepotrzebnych kart peĹ‚nego portalu.",
-                                         "Sterowanie scenami, parametry globalne LED, OTA firmware/filesystem, File Manager i Recovery dziaĹ‚ajÄ… w samodzielnym runtime panelu.",
-                                         "Firmware serwuje /panel jako alias do /api/panel.htm oraz osobno podaje /api/style.css i /api/script.js z gzipem."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.719",
-                         "firmware_version":  "1.0.0.849",
-                         "filesystem_version":  "1.0.0.719",
-                         "date":  "2026-06-28T16:09:00+01:00",
-                         "title":  "Panel /panel oparty na prawdziwym portalu",
-                         "changes":  [
-                                         "Przebudowano /panel jako prawdziwy wycinek obecnego portalu, zamiast uproszczonej wersji demo.",
-                                         "Sterowanie i Oprogramowanie korzystaj? teraz z realnego markup, styl?w i mechaniki g??wnego panelu.",
-                                         "W bocznej nawigacji /panel widoczne s? tylko Sterowanie oraz Oprogramowanie, bez wyboru trybu u?ytkownika/zaawansowanego.",
-                                         "Pliki /api/panel.htm, /api/style.css i /api/script.js zachowuj? osobne adresy, a /api/script.js serwuje ten sam sprawdzony bundle co g??wny portal."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.718",
-                         "firmware_version":  "1.0.0.848",
-                         "filesystem_version":  "1.0.0.718",
-                         "date":  "2026-06-28T15:41:39+01:00",
-                         "title":  "Lekki panel WWW pod /panel",
-                         "changes":  [
-                                         "Dodano lekki panel WWW pod adresem /panel z osobnymi plikami /api/panel.htm, /api/style.css i /api/script.js.",
-                                         "Panel zawiera tylko Sterowanie oraz Oprogramowanie, z prze??cznikiem j?zyka i motywu bez wyboru trybu portalu.",
-                                         "Sterowanie scenami, parametry LED, r?czne OTA oraz centrum aktualizacji GitHub dzia?aj? niezale?nie od pe?nego portalu.",
-                                         "Firmware serwuje /panel jako alias do /api/panel.htm i obs?uguje skompresowane assety CSS/JS nowego panelu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.717",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.717",
-                         "date":  "2026-06-28T15:03:58+01:00",
-                         "title":  "Limit szerokoĹ›ci kafelkĂłw scen",
-                         "changes":  [
-                                         "Kafelki scen w panelu Sterowanie majÄ… teraz maksymalnÄ… szerokoĹ›Ä‡ 485 px.",
-                                         "Zachowano responsywnÄ… szerokoĹ›Ä‡ 100% dla wÄ™ĹĽszych ekranĂłw.",
-                                         "Nie zmieniono mechaniki przyciskĂłw, podglÄ…du LED ani konfiguracji scen."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.716",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.716",
-                         "date":  "2026-06-28T14:45:55+01:00",
-                         "title":  "Poprawione gaszenie podglÄ…du scen",
-                         "changes":  [
-                                         "PodglÄ…d gaszenia zaczyna teraz od zapalonego zakresu LED zamiast zapalaÄ‡ kropki od tyĹ‚u.",
-                                         "OdwrĂłcono interpretacjÄ™ progress dla stanu Stopping zgodnie z danymi runtime urzÄ…dzenia.",
-                                         "KlikniÄ™cie stop pokazuje natychmiast peĹ‚ny zapalony podglÄ…d, ktĂłry nastÄ™pnie wygasa sekwencyjnie."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.715",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.715",
-                         "date":  "2026-06-28T14:25:48+01:00",
-                         "title":  "Kolorowe przygasanie podglÄ…du scen",
-                         "changes":  [
-                                         "UsuniÄ™to przechodzenie kropek podglÄ…du w przezroczystoĹ›Ä‡ albo czerĹ„ przy niskiej jasnoĹ›ci.",
-                                         "Przygaszone kropki pozostajÄ… teraz wariantem wybranego koloru sceny.",
-                                         "Efekt wĹ‚Ä…czania i wyĹ‚Ä…czania zmienia gĹ‚Ăłwnie jasnoĹ›Ä‡ oraz poĹ›wiatÄ™, a nie bazowy kolor LED."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.714",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.714",
-                         "date":  "2026-06-28T13:43:40+01:00",
-                         "title":  "PĹ‚ynniejsze gaszenie podglÄ…du scen",
-                         "changes":  [
-                                         "Zmieniono podglÄ…d LED z prostych stanĂłw zapalony/zgaszony na pĹ‚ynnÄ… jasnoĹ›Ä‡ kaĹĽdej kropki.",
-                                         "Start sceny dalej narasta po kolei, ale przejĹ›cie jest mniej skokowe.",
-                                         "WyĹ‚Ä…czanie dostaĹ‚o osobnÄ… falÄ™ wygaszania od poczÄ…tku kierunku, dziÄ™ki czemu nie wyglÄ…da jak ponowiony start."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.713",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.713",
-                         "date":  "2026-06-28T13:19:56+01:00",
-                         "title":  "Kolorowa animacja podglÄ…du scen",
-                         "changes":  [
-                                         "PodglÄ…d LED w kafelku sceny uĹĽywa teraz koloru wynikajÄ…cego z lokalnych albo globalnych ustawieĹ„ sceny.",
-                                         "Podczas startu kropki zapalajÄ… siÄ™ kolejno i pozostajÄ… zapalone, a podczas zatrzymywania wygaszajÄ… siÄ™ sekwencyjnie.",
-                                         "Gdy scena jest wyĹ‚Ä…czona, oba przyciski Lewo/Prawo pozostajÄ… neutralne; lewa ikona uĹĽywa U+E768 obrĂłconego o 180 stopni."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.712",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.712",
-                         "date":  "2026-06-28T10:02:56+01:00",
-                         "title":  "Nowy wyglÄ…d kafelkĂłw scen",
-                         "changes":  [
-                                         "Przeniesiono przyciski Lewo i Prawo na dĂłĹ‚ kafelka sceny, zgodnie z nowym ukĹ‚adem.",
-                                         "PodglÄ…d LED dostaĹ‚ wiÄ™kszy, ciemny panel z zakresem, kropkami i strzaĹ‚kÄ… kierunku.",
-                                         "ZÄ™batka konfiguracji pozostaje w prawym gĂłrnym rogu kafelka, a mechanika klikniÄ™Ä‡ i long press pozostaĹ‚a bez zmian."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.711",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.711",
-                         "date":  "2026-06-28T09:39:07+01:00",
-                         "title":  "Mini podglÄ…d kierunku scen",
-                         "changes":  [
-                                         "Dodano w kafelkach scen mini podglÄ…d LED z kierunkiem startu i zakresem diod.",
-                                         "PodglÄ…d odĹ›wieĹĽa siÄ™ razem z runtime oraz od razu po klikniÄ™ciu startu w prawo lub w lewo.",
-                                         "Zachowano dotychczasowe przyciski scen, dĹ‚ugie przytrzymanie kafelka i logikÄ™ backendu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.710",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.710",
-                         "date":  "2026-06-28T08:40:00+01:00",
-                         "title":  "WiÄ™cej oddechu w pillach sceny",
-                         "changes":  [
-                                         "ZwiÄ™kszono odstÄ™py miÄ™dzy pillami zakresu i statusu sceny w kompaktowym kafelku.",
-                                         "Pille majÄ… teraz wiÄ™kszy padding, spokojniejszÄ… wysokoĹ›Ä‡ i wiÄ™cej oddechu pod tytuĹ‚em sceny.",
-                                         "Nie zmieniono logiki scen ani kompaktowych przyciskĂłw sterowania."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.709",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.709",
-                         "date":  "2026-06-28T08:27:14+01:00",
-                         "title":  "DomyĹ›lny kierunek startu sceny",
-                         "changes":  [
-                                         "UsuniÄ™to duĹĽe przyciski uruchamiania z rozwiniÄ™tego kafelka sceny, bez zmian w kompaktowych przyciskach u gĂłry.",
-                                         "Dodano wybĂłr domyĹ›lnego kierunku startu sceny Lewo/Prawo zapisywany w konfiguracji startDirection.",
-                                         "Wybrany kierunek jest uĹĽywany przy starcie sceny z pilota, API bez jawnego kierunku oraz sterowania zbiorczego."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.708",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.708",
-                         "date":  "2026-06-28T07:57:15+01:00",
-                         "title":  "Kr?tszy pill runtime sceny",
-                         "changes":  [
-                                         "Usuni?to powt?rzony kierunek z kompaktowego pilla runtime sceny.",
-                                         "Pill sceny pokazuje teraz stan i post?p, np. ?Wy??czona ? 0%? albo ?Uruchamianie w prawo ? 10%?.",
-                                         "Logika kierunku sceny i przyciski startu w lewo/prawo pozosta?y bez zmian."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.847",
-                         "firmware_version":  "1.0.0.847",
-                         "filesystem_version":  "1.0.0.707",
-                         "date":  "2026-06-28T07:27:50+01:00",
-                         "title":  "Porz?dki w wersjonowaniu portalu",
-                         "changes":  [
-                                         "Uporz?dkowano skrypt wersjonowania: index.html automatycznie dostaje aktualne wersje styles.css i script.js.",
-                                         "Dodano kontrol? builda zatrzymuj?c? paczk? portalu, je?li w script.js pojawi? si? typowe sekwencje uszkodzonego kodowania.",
-                                         "Przywr?cono encj? ikony chevron w script.js, aby ograniczy? ryzyko problem?w z kodowaniem.",
-                                         "Przebudowano firmware i filesystem ze sp?jnymi wersjami oraz poprawionymi assetami portalu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.706",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.706",
-                         "date":  "2026-06-28T07:02:04+01:00",
-                         "title":  "Naprawa kodowania portalu",
-                         "changes":  [
-                                         "Naprawiono uszkodzone kodowanie polskich znak?w w script.js po poprzedniej paczce portalu.",
-                                         "Podbito wersjonowanie script.js i styles.css do 1.0.0.706, aby przegl?darka pobra?a naprawione assety.",
-                                         "Zachowano zwijany panel RADIO NRF24L01+ i przeniesiony przycisk Od?wie?."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.705",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.705",
-                         "date":  "2026-06-28T06:46:41+01:00",
-                         "title":  "Poprawione od?wie?anie asset?w portalu",
-                         "changes":  [
-                                         "Poprawiono wersjonowanie link?w do styles.css i script.js w index.html, aby przegl?darka pobiera?a nowe assety po aktualizacji filesystemu.",
-                                         "Panel RADIO NRF24L01+ w Integracji MiLight pozostaje domy?lnie zwini?ty i u?ywa nowego przycisku zwi?/rozwi?.",
-                                         "Przycisk Od?wie? pozostaje przeniesiony do tre?ci panelu, poni?ej nag??wka."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.704",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.704",
-                         "date":  "2026-06-28T06:33:58+01:00",
-                         "title":  "Zwijany panel RADIO NRF24L01+",
-                         "changes":  [
-                                         "Panel RADIO NRF24L01+ w Integracji MiLight jest teraz domy?lnie zwini?ty.",
-                                         "Przycisk Od?wie? przeniesiono z nag??wka do tre?ci panelu, jedn? lini? ni?ej.",
-                                         "W nag??wku dodano standardowy przycisk zwi?/rozwi? obok statusu radia."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.703",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.703",
-                         "date":  "2026-06-28T06:12:13+01:00",
-                         "title":  "Nowa ikona Integracja MiLight",
-                         "changes":  [
-                                         "Zmieniono ikon? kafelka Integracja MiLight w sekcji Konfiguracja na glyph U+E7FC.",
-                                         "Zast?piono r?cznie rysowan? ikon? pilota pojedyncz? ikon? Fluent, sp?jn? z pozosta?ymi kafelkami.",
-                                         "Od?wie?ono obraz LittleFS portalu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.702",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.702",
-                         "date":  "2026-06-27T21:57:37+01:00",
-                         "title":  "Jednolity wygl?d File Manager i Recovery",
-                         "changes":  [
-                                         "Przyciski File Manager i Recovery w sekcji Oprogramowanie korzystaj? teraz ze wsp?lnej klasy i identycznego uk?adu ikony.",
-                                         "Usuni?to pseudoikony ::before dla File Manager i Recovery, aby oba przyciski mia?y t? sam? metryk? i wyr?wnanie.",
-                                         "Recovery nadal u?ywa ikony U+E822 i otwiera /recovery w nowej karcie."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.701",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.701",
-                         "date":  "2026-06-27T21:40:33+01:00",
-                         "title":  "Recovery jak File Manager",
-                         "changes":  [
-                                         "Przycisk Recovery otwiera teraz /recovery w nowej karcie, tak jak File Manager otwiera /fileman.",
-                                         "Dopi?to Recovery do wszystkich regu? stylu u?ywanych przez File Manager w sekcji Oprogramowanie, tak?e w jasnym motywie.",
-                                         "Przebudowano styles.css i skompresowane zasoby portalu z modu??w CSS."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.700",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.700",
-                         "date":  "2026-06-27T21:25:39+01:00",
-                         "title":  "Styl i ikona przycisku Recovery",
-                         "changes":  [
-                                         "Przycisk Recovery w sekcji Oprogramowanie korzysta teraz z tych samych regu? stylu co File Manager.",
-                                         "Zmieniono ikon? przycisku Recovery na U+E822.",
-                                         "Od?wie?ono skompresowany styles.css.gz w paczce portalu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.698",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.698",
-                         "date":  "2026-06-27T21:01:41+01:00",
-                         "title":  "Przycisk Recovery w panelu oprogramowania",
-                         "changes":  [
-                                         "Dodano przycisk Recovery obok File Manager w sekcji Oprogramowanie.",
-                                         "Przycisk Recovery przenosi bezpoĹ›rednio do /recovery w tej samej karcie.",
-                                         "OdĹ›wieĹĽono skompresowany script.js.gz w paczce portalu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.846",
-                         "firmware_version":  "1.0.0.846",
-                         "filesystem_version":  "1.0.0.697",
-                         "date":  "2026-06-27T20:52:40+01:00",
-                         "title":  "Doprecyzowanie zachowania panelu Recovery",
-                         "changes":  [
-                                         "Panel restartu w Recovery chowa siÄ™ automatycznie sekundÄ™ po dojĹ›ciu paska do 100%.",
-                                         "Zamieniono kolejnoĹ›Ä‡ przyciskĂłw: Home jest teraz przed File Manager.",
-                                         "Zachowano brak automatycznego przejĹ›cia do / po udanej aktualizacji firmware lub filesystemu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.845",
-                         "firmware_version":  "1.0.0.845",
-                         "filesystem_version":  "1.0.0.697",
-                         "date":  "2026-06-27T20:39:02+01:00",
-                         "title":  "Recovery bez automatycznego powrotu do portalu",
-                         "changes":  [
-                                         "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi juĹĽ automatycznie do gĹ‚Ăłwnego portalu.",
-                                         "Dodano przycisk Home obok File Manager, ktĂłry przenosi rÄ™cznie do /.",
-                                         "UsuniÄ™to nagĹ‚Ăłwek OTA Update oraz pomocnicze opisy z widoku recovery."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.697",
-                         "firmware_version":  "1.0.0.844",
-                         "filesystem_version":  "1.0.0.697",
-                         "date":  "2026-06-27T20:26:12+01:00",
-                         "title":  "Czytelniejsze miejsce wolne w kafelkach LittleFS",
-                         "changes":  [
-                                         "W kafelku aktualizacji slot firmware/LittleFS C:D pokazuje teraz wolne miejsce z caĹ‚oĹ›ci partycji, zamiast zajÄ™tego rozmiaru programu.",
-                                         "Opis miejsca jest spĂłjny z filesystemem: format â€ž{free} wolnych z {total}â€ť.",
-                                         "OdĹ›wieĹĽono skompresowany script.js.gz w paczce portalu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.844",
-                         "firmware_version":  "1.0.0.844",
-                         "filesystem_version":  "1.0.0.696",
-                         "date":  "2026-06-27T20:11:37+01:00",
-                         "title":  "Stabilizacja przejĹ›cia miÄ™dzy portalem i filemanem",
-                         "changes":  [
-                                         "Dodano jawne zamykanie poĹ‚Ä…czeĹ„ dla peĹ‚nych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie miÄ™dzy / i /fileman nie zostawiaĹ‚o wiszÄ…cych sesji HTTP.",
-                                         "Fileman serwuje teraz script.js i style.css z plikĂłw .gz oraz cache, dziÄ™ki czemu wejĹ›cie do menedĹĽera plikĂłw mniej obciÄ…ĹĽa ESP.",
-                                         "PrzywrĂłcono prostÄ… obsĹ‚ugÄ™ /api/fs/raw bez wymuszonego no-cache, zgodnie ze stabilnÄ… starszÄ… wersjÄ…."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.842",
-                         "firmware_version":  "1.0.0.842",
-                         "filesystem_version":  "1.0.0.695",
-                         "date":  "2026-06-27T19:52:47+01:00",
-                         "title":  "Stabilizacja AP i serwowania portalu",
-                         "changes":  [
-                                         "UsuniÄ™to NetworkWatchdog oraz lokalne prĂłby HTTP, ktĂłre mogĹ‚y restartowaÄ‡ AsyncWebServer podczas pracy portalu.",
-                                         "WyĹ‚Ä…czono automatyczne wyĹ‚Ä…czanie SoftAP po wejĹ›ciu do panelu przez STA; AP pozostaje pod kontrolÄ… ustawienia uĹĽytkownika.",
-                                         "DuĹĽe zasoby portalu, w tym script.js, styles.css i tĹ‚umaczenia JSON, sÄ… serwowane z .gz oraz cache; no-cache pozostaje dla index.html i API."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.695",
-                         "firmware_version":  "1.0.0.840",
-                         "filesystem_version":  "1.0.0.695",
-                         "date":  "2026-06-27T19:07:05+01:00",
-                         "title":  "Tryby mapowania akcji MiLight",
-                         "changes":  [
-                                         "Dodano przeĹ‚Ä…cznik Mapowanie standardowe / Mapowanie uĹĽytkownika w sekcji Mapowanie akcji MiLight.",
-                                         "Tryb standardowy ukrywa rÄ™czne comboboksy i pokazuje kompaktowy blok z trzema polami statusu.",
-                                         "Firmware zapisuje mapping_mode i w trybie standardowym uĹĽywa domyĹ›lnych akcji bez kasowania mapowaĹ„ uĹĽytkownika."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.694",
-                         "firmware_version":  "1.0.0.839",
-                         "filesystem_version":  "1.0.0.694",
-                         "date":  "2026-06-27T18:42:34+01:00",
-                         "title":  "Kompaktowy kafelek radia nRF24L01+",
-                         "changes":  [
-                                         "Kafelek RADIO NRF24L01+ ma teraz zwarty nagĹ‚Ăłwek ze statusem i przyciskiem odĹ›wieĹĽania.",
-                                         "Metryki pracy radia i liczniki pakietĂłw sÄ… pokazane w dwĂłch wspĂłlnych ramkach z separatorami kolumn zamiast osobnych duĹĽych pilli.",
-                                         "Na telefonach tabele przechodzÄ… do dwĂłch kolumn, a przycisk odĹ›wieĹĽania moĹĽe zwÄ™ziÄ‡ siÄ™ do samej ikony."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.690",
-                         "firmware_version":  "1.0.0.837",
-                         "filesystem_version":  "1.0.0.690",
-                         "date":  "2026-06-27T16:18:41+01:00",
-                         "title":  "Watchdog portalu bez faĹ‚szywego restartu STA",
-                         "changes":  [
-                                         "Watchdog HTTP testuje teraz adres AP przed adresem STA, gdy SoftAP jest aktywny.",
-                                         "FaĹ‚szywy bĹ‚Ä…d testu STA w sieci 192.168.4.x nie powoduje juĹĽ restartu AsyncWebServer i ryzyka bind error -8.",
-                                         "Diagnostyka sieci dopisuje subnet_overlap=1, gdy adres STA i adres AP sÄ… w tej samej podsieci."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.689",
-                         "firmware_version":  "1.0.0.836",
-                         "filesystem_version":  "1.0.0.689",
-                         "date":  "2026-06-27T16:11:36+01:00",
-                         "title":  "Awaryjne przywracanie AP przy braku STA",
-                         "changes":  [
-                                         "Firmware przywraca SoftAP, gdy zapisane ustawienia zostawiĹ‚y AP wyĹ‚Ä…czony, a urzÄ…dzenie nie ma poĹ‚Ä…czenia STA/IP.",
-                                         "Fallback uruchamia AP takĹĽe po wyczerpaniu prĂłb poĹ‚Ä…czenia z zapisanym Wi-Fi, ĹĽeby panel pozostaĹ‚ dostÄ™pny przez 192.168.4.1.",
-                                         "Zaktualizowano paczkÄ™ LittleFS, aby plik version.json raportowaĹ‚ firmware 1.0.0.836 i portal 1.0.0.689."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.688",
-                         "firmware_version":  "1.0.0.835",
-                         "filesystem_version":  "1.0.0.688",
-                         "date":  "2026-06-23T17:05:34+01:00",
-                         "title":  "Nazwy procesĂłw i RAM w jednej tabeli",
-                         "changes":  [
-                                         "Zbalansowano szerokoĹ›ci kolumn w tabeli Procesy, aby jednoczeĹ›nie byĹ‚o widaÄ‡ nazwÄ™ procesu i RAM.",
-                                         "Nazwa procesu nie jest juĹĽ ucinana ellipsis w pierwszej kolumnie.",
-                                         "Odchudzono kolumnÄ™ CPU i opis procesu, ĹĽeby RAM pozostaĹ‚ czytelny bez zabierania miejsca nazwom."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.687",
-                         "firmware_version":  "1.0.0.835",
-                         "filesystem_version":  "1.0.0.687",
-                         "date":  "2026-06-23T16:59:37+01:00",
-                         "title":  "PeĹ‚ne wartoĹ›ci RAM w tabeli procesĂłw",
-                         "changes":  [
-                                         "Poprawiono widok RAM w tabeli Procesy, aby wartoĹ›ci nie byĹ‚y ucinane na telefonie.",
-                                         "Kolumna RAM ma teraz wĹ‚asne klasy CSS bez ellipsis oraz wiÄ™kszÄ… minimalnÄ… szerokoĹ›Ä‡.",
-                                         "SkrĂłcono zapis pary uĹĽyte/caĹ‚kowite do formatu 1.3 / 8.0 KB, gdy obie wartoĹ›ci sÄ… w KB."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.835",
-                         "firmware_version":  "1.0.0.835",
-                         "filesystem_version":  "1.0.0.686",
-                         "date":  "2026-06-23T16:14:38+01:00",
-                         "title":  "RAM taskĂłw w diagnostyce procesĂłw",
-                         "changes":  [
-                                         "Dodano w diagnostyce procesĂłw przybliĹĽone uĹĽycie RAM oparte o stos taska FreeRTOS.",
-                                         "Endpoint /api/diag/processes raportuje teraz wolny, uĹĽyty i caĹ‚kowity stos, gdy ESP-IDF udostÄ™pnia snapshot taskĂłw.",
-                                         "Tabela Procesy pokazuje wartoĹ›ci uĹĽyte/caĹ‚kowite oraz wolny zapas stosu zamiast samego surowego high-watermark.",
-                                         "Modal procesu pokazuje ten sam opis zadania i czytelny odczyt RAM dla wybranego taska."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.834",
-                         "firmware_version":  "1.0.0.834",
-                         "filesystem_version":  "1.0.0.685",
-                         "date":  "2026-06-23T15:29:54+01:00",
-                         "title":  "PrzywrĂłcenie wĹ‚Ä…czania mDNS hostname",
-                         "changes":  [
-                                         "CofniÄ™to firmwareowy guard, ktĂłry wymuszaĹ‚ wyĹ‚Ä…czenie usĹ‚ugi mDNS .local.",
-                                         "Backend ponownie raportuje mdns_supported=true i pozwala zapisaÄ‡ hostname/mDNS jako wĹ‚Ä…czone.",
-                                         "Po wĹ‚Ä…czeniu hostname service firmware ponownie uruchamia ESPmDNS przez MDNS.begin oraz ogĹ‚asza usĹ‚ugÄ™ HTTP."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.833",
-                         "firmware_version":  "1.0.0.833",
-                         "filesystem_version":  "1.0.0.685",
-                         "date":  "2026-06-23T12:30:13+01:00",
-                         "title":  "Automatyczne wyĹ‚Ä…czanie AP po onboardingu",
-                         "changes":  [
-                                         "Dodano automatyczne wyĹ‚Ä…czanie SoftAP po wykryciu wejĹ›cia do portalu przez adres przydzielony przez router.",
-                                         "SoftAP wyĹ‚Ä…cza siÄ™ z opĂłĹşnieniem po realnym ruchu HTTP do stron portalu przez STA, dziÄ™ki czemu tryb AP+STA nie zostaje aktywny po onboardingu.",
-                                         "JeĹ›li po automatycznym wyĹ‚Ä…czeniu AP urzÄ…dzenie straci STA/IP, firmware po krĂłtkim czasie przywrĂłci AP awaryjnie.",
-                                         "Endpointy /api nie wyzwalajÄ… auto-wyĹ‚Ä…czania AP, aby nie psuÄ‡ integracji i diagnostyki."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.831",
-                         "firmware_version":  "1.0.0.831",
-                         "filesystem_version":  "1.0.0.685",
-                         "date":  "2026-06-23T10:46:07+01:00",
-                         "title":  "Guard stabilnoĹ›ci dla mDNS hostname",
-                         "changes":  [
-                                         "Dodano firmwareowy guard stabilnoĹ›ci blokujÄ…cy start ESPmDNS, ktĂłry w testach zawieszaĹ‚ dostÄ™p do portalu.",
-                                         "PrzeĹ‚Ä…cznik hostname/mDNS nie zapisuje juĹĽ aktywnej usĹ‚ugi, jeĹ›li mDNS jest wyĹ‚Ä…czony w firmware dla bezpieczeĹ„stwa.",
-                                         "Backend raportuje mdns_supported=false oraz mdns_enabled=false, a sama nazwa urzÄ…dzenia nadal moĹĽe byÄ‡ uĹĽywana jako zwykĹ‚y hostname STA."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.830",
-                         "firmware_version":  "1.0.0.830",
-                         "filesystem_version":  "1.0.0.685",
-                         "date":  "2026-06-23T05:09:51+01:00",
-                         "title":  "Kanoniczny adres AP dla klientĂłw SoftAP",
-                         "changes":  [
-                                         "Dodano kanoniczne przekierowanie klientĂłw SoftAP na adres http://192.168.4.1/.",
-                                         "JeĹĽeli telefon poĹ‚Ä…czony z AP prĂłbuje wejĹ›Ä‡ przez adres STA, na przykĹ‚ad 10.x.x.x albo 192.168.1.x, firmware od razu przenosi go na adres AP.",
-                                         "Endpointy /api nadal zwracajÄ… JSON i nie sÄ… uĹĽywane do przekierowania, aby nie psuÄ‡ integracji."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.829",
-                         "firmware_version":  "1.0.0.829",
-                         "filesystem_version":  "1.0.0.685",
-                         "date":  "2026-06-23T04:54:27+01:00",
-                         "title":  "SprzÄ…tanie poĹ‚Ä…czeĹ„ portalu po uĹ›pieniu telefonu",
-                         "changes":  [
-                                         "WyĹ‚Ä…czono domyĹ›lny live-stream terminala diagnostycznego, ĹĽeby portal nie trzymaĹ‚ dĹ‚ugiego poĹ‚Ä…czenia keep-alive po uĹ›pieniu telefonu.",
-                                         "Portal abortuje aktywne ĹĽÄ…dania HTTP oraz zamyka kanaĹ‚y live przy blokadzie ekranu, pagehide i freeze.",
-                                         "Terminal diagnostyczny dziaĹ‚a w trybie historii HTTP bez cyklicznego otwierania EventSource.",
-                                         "Zaktualizowano obraz LittleFS, aby przeglÄ…darka dostaĹ‚a nowy skrypt sprzÄ…tajÄ…cy poĹ‚Ä…czenia po wybudzeniu telefonu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.828",
-                         "firmware_version":  "1.0.0.828",
-                         "filesystem_version":  "1.0.0.684",
-                         "date":  "2026-06-23T04:26:51+01:00",
-                         "title":  "Aktywny watchdog portalu HTTP",
-                         "changes":  [
-                                         "Watchdog co 15 sekund wykonuje lokalny test HTTP endpointu /api/version.",
-                                         "Po serii nieudanych testĂłw firmware restartuje sam serwer AsyncWebServer.",
-                                         "JeĹ›li problem HTTP powtarza siÄ™ po restarcie serwera, urzÄ…dzenie wykonuje restart programowy.",
-                                         "Dodano tryb DIGILED_VERSION_NO_BUMP dla kontrolowanych rebuildĂłw bez przypadkowego podbijania wersji."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.827",
-                         "firmware_version":  "1.0.0.827",
-                         "filesystem_version":  "1.0.0.683",
-                         "date":  "2026-06-22T20:30:41+01:00",
-                         "title":  "Stabilizacja portalu po dĹ‚ugiej sesji",
-                         "changes":  [
-                                         "Zmniejszono polling widoku scen z 250 ms do 1000 ms.",
-                                         "Ograniczono tempo live-zapisĂłw globalnych parametrĂłw scen podczas pracy suwakami.",
-                                         "Doprecyzowano konfiguracjÄ™ AsyncTCP oraz dodano logi diagnostyczne watchdog sieci.",
-                                         "Dodano prĂłbÄ™ odzyskania poĹ‚Ä…czenia STA, gdy firmware widzi poĹ‚Ä…czenie bez poprawnego IP."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.824",
-                         "firmware_version":  "1.0.0.824",
-                         "filesystem_version":  "1.0.0.682",
-                         "date":  "2026-06-22T19:33:19+01:00",
-                         "title":  "Test modala restartu po OTA",
-                         "changes":  [
-                                         "Podbito wersjÄ™ firmware do 1.0.0.824 bez zmian funkcjonalnych.",
-                                         "Podbito wersjÄ™ filesystemu do 1.0.0.682 bez zmian funkcjonalnych.",
-                                         "Pakiet sĹ‚uĹĽy do testu, czy po aktualizacji firmware albo filesystemu pojawia siÄ™ modal restartowania urzÄ…dzenia."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.681",
-                         "firmware_version":  "1.0.0.823",
-                         "filesystem_version":  "1.0.0.681",
-                         "date":  "2026-06-22T19:28:43+01:00",
-                         "title":  "Modal restartu po aktualizacji",
-                         "changes":  [
-                                         "Po udanym wgraniu aktualizacji online lub lokalnej otwierany jest modal restartowania urzÄ…dzenia.",
-                                         "Modal uĹĽywa tego samego wyglÄ…du i komunikatĂłw co przycisk Uruchom ponownie.",
-                                         "Portal czeka na ponowne pojawienie siÄ™ urzÄ…dzenia i odĹ›wieĹĽa stronÄ™ po restarcie."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.680",
-                         "firmware_version":  "1.0.0.823",
-                         "filesystem_version":  "1.0.0.680",
-                         "date":  "2026-06-22T19:17:58+01:00",
-                         "title":  "Porz?dek w zasobach portalu",
-                         "changes":  [
-                                         "Zsynchronizowano skompresowane pliki script.js, version.json oraz tĹ‚umaczenia z aktualnymi ĹşrĂłdĹ‚ami portalu.",
-                                         "Utrzymano opis roli taska w nagĹ‚Ăłwku modala procesu.",
-                                         "Opublikowano nowy obraz LittleFS z wersjÄ… portalu 1.0.0.680."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.679",
-                         "firmware_version":  "1.0.0.823",
-                         "filesystem_version":  "1.0.0.679",
-                         "date":  "2026-06-22T18:48:40+01:00",
-                         "title":  "Opis procesu w modalu",
-                         "changes":  [
-                                         "Opis taska z listy procesĂłw jest teraz widoczny rĂłwnieĹĽ w nagĹ‚Ăłwku modala procesu.",
-                                         "Dla taskĂłw systemowych modal nie zastÄ™puje juĹĽ opisu ogĂłlnym tekstem tylko do odczytu.",
-                                         "Zaktualizowano skompresowane zasoby portalu oraz manifest wersji filesystemu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.823",
-                         "firmware_version":  "1.0.0.823",
-                         "filesystem_version":  "1.0.0.678",
-                         "date":  "2026-06-22T18:39:03+01:00",
-                         "title":  "Watchdog sieciowy AP",
-                         "changes":  [
-                                         "Dodano lekki watchdog sieciowy sprawdzajÄ…cy tryb WiFi i adres SoftAP bez pingowania ani skanowania.",
-                                         "Watchdog wykonuje miÄ™kkie odtworzenie SoftAP/captive DNS po kilku kolejnych bĹ‚Ä™dnych prĂłbkach, a restart ESP traktuje jako ostatniÄ… deskÄ™ ratunku.",
-                                         "AsyncTCP i zadanie skanowania przeniesiono poza rdzeĹ„ WiFi, a skanowanie portalu ograniczono do maksymalnie jednego realnego skanu na minutÄ™."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.821",
-                         "firmware_version":  "1.0.0.821",
-                         "filesystem_version":  "1.0.0.678",
-                         "date":  "2026-06-22T18:24:13+01:00",
-                         "title":  "Stabilizacja obsĹ‚ugi sieci AP/STA",
-                         "changes":  [
-                                         "AsyncTCP pracuje teraz na rdzeniu 1 zamiast na rdzeniu 0, ktĂłry obsĹ‚uguje stos WiFi ESP32.",
-                                         "Skanowanie WiFi z portalu jest cache\u0027owane przez 60 sekund i nie moĹĽe startowaÄ‡ czÄ™Ĺ›ciej niĹĽ raz na minutÄ™.",
-                                         "Zadanie skanowania WiFi przeniesiono na rdzeĹ„ 1 i dodano flagÄ™ scan_throttled w odpowiedzi /api/scan."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.820",
-                         "firmware_version":  "1.0.0.820",
-                         "filesystem_version":  "1.0.0.678",
-                         "date":  "2026-06-22T18:18:07+01:00",
-                         "title":  "Stabilizacja captive portal",
-                         "changes":  [
-                                         "Zmieniono TTL odpowiedzi DNS captive portal z 0 na 60 sekund, aby telefony i laptopy nie zalewaĹ‚y ESP ciÄ…gĹ‚ymi zapytaniami DNS.",
-                                         "Lekki ekran captive portal jest teraz wysyĹ‚any ze staĹ‚ego bufora w firmware zamiast skĹ‚adania dynamicznego HTML dla kaĹĽdego ĹĽÄ…dania.",
-                                         "Odpowiedzi captive portal wymuszajÄ… zamkniÄ™cie poĹ‚Ä…czenia, a limit klientĂłw SoftAP zwiÄ™kszono z 4 do 8."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.818",
-                         "firmware_version":  "1.0.0.818",
-                         "filesystem_version":  "1.0.0.678",
-                         "date":  "2026-06-22T06:05:03+01:00",
-                         "title":  "Lekki ekran captive portal",
-                         "changes":  [
-                                         "Systemowe strony wykrywania captive portal pokazujÄ… teraz prosty ekran startowy zamiast od razu Ĺ‚adowaÄ‡ peĹ‚ny panel DigiLED.",
-                                         "Ekran startowy zawiera adres 192.168.4.1 oraz przycisk OtwĂłrz portal prowadzÄ…cy do wĹ‚aĹ›ciwego panelu logowania.",
-                                         "BezpoĹ›rednie wejĹ›cie na 192.168.4.1 nadal otwiera peĹ‚ny portal, a endpointy /api zachowujÄ… odpowiedzi JSON 404."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.817",
-                         "firmware_version":  "1.0.0.817",
-                         "filesystem_version":  "1.0.0.678",
-                         "date":  "2026-06-21T19:15:02+01:00",
-                         "title":  "Captive portal dla wbudowanego AP",
-                         "changes":  [
-                                         "SoftAP uruchamia teraz serwer DNS przechwytujÄ…cy zapytania i kierujÄ…cy je na adres portalu 192.168.4.1.",
-                                         "Dodano przekierowania dla testĂłw captive portal uĹĽywanych przez Androida, iOS, Windows i inne urzÄ…dzenia.",
-                                         "Nieznane Ĺ›cieĹĽki HTTP spoza API przekierowujÄ… do portalu, a endpointy /api nadal zwracajÄ… JSON 404."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.678",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.678",
-                         "date":  "2026-06-21T18:44:22+01:00",
-                         "title":  "Responsywne kafelki stanu po restarcie",
-                         "changes":  [
-                                         "Kafelki Stan po restarcie korzystajÄ… teraz z responsywnej siatki auto-fit zamiast sztywnego ukĹ‚adu zaleĹĽnego tylko od szerokoĹ›ci okna.",
-                                         "Przy zbyt maĹ‚ej szerokoĹ›ci panelu kafelki przechodzÄ… do kolejnego rzÄ™du zamiast Ĺ›ciskaÄ‡ teksty w jednej linii.",
-                                         "Zachowano dotychczasowy wyglÄ…d kafelkĂłw i podglÄ…d LED."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.677",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.677",
-                         "date":  "2026-06-21T17:54:50+01:00",
-                         "title":  "Czytelne bĹ‚Ä™dy sprawdzania aktualizacji",
-                         "changes":  [
-                                         "Gdy nie uda siÄ™ pobraÄ‡ manifestu OTA, panel aktualizacji pokazuje komunikat o bĹ‚Ä™dzie zamiast tekstu UrzÄ…dzenie ma aktualnÄ… wersjÄ™.",
-                                         "Dodano osobny komunikat dla problemu z poĹ‚Ä…czeniem internetowym oraz osobny dla bĹ‚Ä™du serwera aktualizacji.",
-                                         "Status bĹ‚Ä™du ma wyrĂłĹĽniony wyglÄ…d w jasnym i ciemnym motywie."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.676",
-                         "firmware_version":  "1.0.0.815",
-                         "filesystem_version":  "1.0.0.676",
-                         "date":  "2026-06-21T16:42:21+01:00",
-                         "title":  "Poprawka menu LittleFS",
-                         "changes":  [
-                                         "Wpis Aktualizuj w popup menu LittleFS jest teraz rzeczywiĹ›cie ukrywany, gdy manifest nie pokazuje aktualizacji dla danego kafelka.",
-                                         "Pozostawiono istniejÄ…cy mechanizm sprawdzania aktualizacji: menu korzysta ze stanu manifestu online dla Firmware i Filesystem.",
-                                         "Dodano dedykowanÄ… reguĹ‚Ä™ CSS dla ukrytych pozycji menu, aby display:flex nie nadpisywaĹ‚ atrybutu hidden."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.675",
-                         "firmware_version":  "1.0.0.815",
-                         "filesystem_version":  "1.0.0.675",
-                         "date":  "2026-06-21T16:01:21+01:00",
-                         "title":  "PorzÄ…dek w modalu i menu LittleFS",
-                         "changes":  [
-                                         "Przycisk Anuluj w modalu aktualizacji filesystemu jest teraz caĹ‚kiem po lewej, a WyczyĹ›Ä‡ ustawienia znajduje siÄ™ obok niego.",
-                                         "Zmieniono wpisy rÄ™cznej aktualizacji w menu LittleFS na Wybierz plik aktualizacji.",
-                                         "Zmieniono opis przeĹ‚Ä…czania firmware na App0 C: albo App1 D: zaleĹĽnie od aktywnego slotu."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.674",
-                         "firmware_version":  "1.0.0.815",
-                         "filesystem_version":  "1.0.0.674",
-                         "date":  "2026-06-21T15:54:40+01:00",
-                         "title":  "Aktualizacja z menu LittleFS",
-                         "changes":  [
-                                         "Dodano wpis Aktualizuj do menu LittleFS (C:), LittleFS (D:) i LittleFS (E:), widoczny tylko przy dostÄ™pnej aktualizacji online.",
-                                         "KlikniÄ™cie wpisu Aktualizuj uruchamia ten sam proces aktualizacji online co przycisk w kafelku.",
-                                         "Gdy aktualizacja nie jest dostÄ™pna, menu pozostaje bez dodatkowego wpisu i pokazuje tylko dotychczasowe akcje."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.673",
-                         "firmware_version":  "1.0.0.815",
-                         "filesystem_version":  "1.0.0.673",
-                         "date":  "2026-06-21T15:07:07+01:00",
-                         "title":  "Poprawki jasnego motywu aktualizacji",
-                         "changes":  [
-                                         "Poprawiono modal aktualizacji filesystemu: akcja bez kopii jest po lewej i nazywa siÄ™ WyczyĹ›Ä‡ ustawienia.",
-                                         "Wzmocniono kontrast statusowych pilli i przycisku Aktualizuj w jasnym motywie.",
-                                         "Dodano widoczny hover i focus dla obszarĂłw LittleFS (C:), LittleFS (D:) i LittleFS (E:) w jasnym motywie."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.672",
-                         "firmware_version":  "1.0.0.815",
-                         "filesystem_version":  "1.0.0.672",
-                         "date":  "2026-06-21T14:52:52+01:00",
-                         "title":  "Minimalnie wi?kszy przycisk Aktualizuj",
-                         "changes":  [
-                                         "Minimalnie powiÄ™kszono dedykowany przycisk Aktualizuj w kafelkach aktualizacji.",
-                                         "WysokoĹ›Ä‡ przycisku ustawiono na 20 px, a tekst i ikonÄ™ na 10 px.",
-                                         "Przycisk nadal korzysta wyĹ‚Ä…cznie z klasy updateHubOnlineBtn, bez globalnych stylĂłw btn."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.671",
-                         "firmware_version":  "1.0.0.815",
-                         "filesystem_version":  "1.0.0.671",
-                         "date":  "2026-06-21T14:41:55+01:00",
-                         "title":  "Dedykowany styl przycisku Aktualizuj",
-                         "changes":  [
-                                         "OdpiÄ™to przycisk Aktualizuj w kafelkach aktualizacji od globalnych klas btn i primary.",
-                                         "Przycisk Aktualizuj ma teraz jeden dedykowany styl updateHubOnlineBtn z wĹ‚asnym resetem, rozmiarem i stanami hover/focus/disabled.",
-                                         "UsuniÄ™to konflikt z ogĂłlnymi reguĹ‚ami #advCard.softwareCard .btn, ktĂłre zawyĹĽaĹ‚y wizualnÄ… wysokoĹ›Ä‡ przycisku."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.670",
-                         "firmware_version":  "1.0.0.815",
-                         "filesystem_version":  "1.0.0.670",
-                         "date":  "2026-06-21T14:24:59+01:00",
-                         "title":  "Naprawa kodowania tekstĂłw aktualizacji",
-                         "changes":  [
-                                         "Naprawiono polskie znaki w tekstach menu aktualizacji: SprawdĹş aktualizacje, RÄ™czna aktualizacja i PrzeĹ‚Ä…cz Firmware.",
-                                         "OdĹ›wieĹĽono skompresowany plik tĹ‚umaczeĹ„ pl.json.gz, aby portal po aktualizacji nie pokazywaĹ‚ znakĂłw zapytania.",
-                                         "Zbudowano nowy obraz LittleFS z poprawionymi tĹ‚umaczeniami updatera."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.669",
-                         "firmware_version":  "1.0.0.815",
-                         "filesystem_version":  "1.0.0.669",
-                         "date":  "2026-06-21T14:14:07+01:00",
-                         "title":  "Menu akcji w widoku aktualizacji",
-                         "changes":  [
-                                         "Przycisk SprawdĹş aktualizacje ma ikonÄ™ U+F0C5 i obraca jÄ… podczas sprawdzania manifestu online.",
-                                         "Ikony Firmware i Filesystem pokazujÄ… podpowiedĹş Wybierz plik i nadal uruchamiajÄ… rÄ™cznÄ… aktualizacjÄ™ lokalnÄ….",
-                                         "KlikniÄ™cie obszaru LittleFS (C:)/(D:) otwiera menu z rÄ™cznÄ… aktualizacjÄ… firmware oraz przeĹ‚Ä…czeniem aktywnego slotu.",
-                                         "KlikniÄ™cie obszaru LittleFS (E:) otwiera menu z rÄ™cznÄ… aktualizacjÄ… filesystemu oraz przejĹ›ciem do menedĹĽera plikĂłw."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.668",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.668",
-                         "date":  "2026-06-21T13:28:43+01:00",
-                         "title":  "Zunifikowany widok aktualizacji",
-                         "changes":  [
-                                         "ZastÄ…piono zakĹ‚adki Aktualizacja online, Aktualizacja lokalna i Test updt jednym docelowym panelem Aktualizacje.",
-                                         "Przeniesiono logikÄ™ testowego widoku na produkcyjne nazwy updateHub i softwareUpdate bez publicznych identyfikatorĂłw testowych.",
-                                         "Ikony Firmware i Filesystem uruchamiajÄ… lokalny wybĂłr pliku, a przycisk Aktualizuj pojawia siÄ™ tylko przy dostÄ™pnej aktualizacji online.",
-                                         "Zachowano modal kopii ustawieĹ„ dla aktualizacji filesystemu i usuniÄ™to stare skrypty oraz style paneli online/lokalnych."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.667",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.667",
-                         "date":  "2026-06-21T12:54:19+01:00",
-                         "title":  "Mniejszy przycisk Aktualizuj bez dolnych pillĂłw",
-                         "changes":  [
-                                         "Przycisk Aktualizuj ma teraz minimalnÄ… wysokoĹ›Ä‡ 17 px, z ikonÄ… i tekstem dopasowanymi do maĹ‚ego pill-a.",
-                                         "UsuniÄ™to dolne pille informacyjne z kafelkĂłw Firmware i Filesystem w widoku Test updt.",
-                                         "PosprzÄ…tano nieuĹĽywane identyfikatory i logikÄ™ aktualizacji tekstu dla usuniÄ™tych pillĂłw."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.666",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.666",
-                         "date":  "2026-06-21T12:35:46+01:00",
-                         "title":  "Ikona w przycisku Aktualizuj",
-                         "changes":  [
-                                         "Przycisk Aktualizuj w widoku Test updt otrzymaĹ‚ ikonÄ™ U+F0C5.",
-                                         "Zmniejszono wysokoĹ›Ä‡ przycisku Aktualizuj do 22 px.",
-                                         "Dopasowano odstÄ™p miÄ™dzy ikonÄ… i tekstem, ĹĽeby przycisk pozostaĹ‚ kompaktowy."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.665",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.665",
-                         "date":  "2026-06-21T12:24:03+01:00",
-                         "title":  "Kompaktowy przycisk Aktualizuj",
-                         "changes":  [
-                                         "Przycisk Aktualizuj w mini-panelu pamiÄ™ci ma teraz wysokoĹ›Ä‡ i styl maĹ‚ego statusowego pill.",
-                                         "UsuniÄ™to ikonÄ™ z przycisku Aktualizuj, ĹĽeby wyglÄ…daĹ‚ lekko i nie rozpychaĹ‚ kafelka.",
-                                         "Na wÄ…skich ekranach przycisk pozostaje kompaktowy zamiast rozciÄ…gaÄ‡ siÄ™ na caĹ‚Ä… szerokoĹ›Ä‡."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.664",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.664",
-                         "date":  "2026-06-21T12:15:43+01:00",
-                         "title":  "UsuniÄ™cie paska mapy pamiÄ™ci z Test updt",
-                         "changes":  [
-                                         "UsuniÄ™to dolny pasek mapy pamiÄ™ci z zakĹ‚adki Test updt.",
-                                         "Skasowano nieuĹĽywany element HTML, funkcjÄ™ renderujÄ…cÄ… oraz dedykowane style tego paska.",
-                                         "Pozostawiono bez zmian mapÄ™ pamiÄ™ci w diagnostyce urzÄ…dzenia."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.663",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.663",
-                         "date":  "2026-06-21T12:04:56+01:00",
-                         "title":  "Przycisk Aktualizuj przy pasku postÄ™pu",
-                         "changes":  [
-                                         "Przycisk Aktualizuj pojawia siÄ™ po prawej stronie paska tylko wtedy, gdy dla danego kafelka jest dostÄ™pna aktualizacja online.",
-                                         "Po rozpoczÄ™ciu aktualizacji przycisk znika, a pasek ponownie zajmuje peĹ‚nÄ… szerokoĹ›Ä‡ i pokazuje postÄ™p pobierania oraz zapisu.",
-                                         "UsuniÄ™to pozostaĹ‚oĹ›ci dolnego wiersza akcji z widoku Test updt."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.661",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.661",
-                         "date":  "2026-06-21T11:43:37+01:00",
-                         "title":  "Etykiety LittleFS w Test updt",
-                         "changes":  [
-                                         "Karta Firmware pokazuje teraz LittleFS (C:) lub LittleFS (D:) zaleĹĽnie od aktywnego slotu OTA.",
-                                         "KlikniÄ™cie obszaru LittleFS (C:) albo LittleFS (D:) pokazuje komunikat: nie moĹĽna otworzyÄ‡, zawartoĹ›Ä‡ zabezpieczona.",
-                                         "Karta Filesystem pokazuje LittleFS (E:), a klikniÄ™cie tego obszaru przenosi do menedĹĽera plikĂłw /fileman."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.660",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.660",
-                         "date":  "2026-06-21T11:28:19+01:00",
-                         "title":  "Ikona Filesystem jako wybĂłr pliku",
-                         "changes":  [
-                                         "W karcie Filesystem klikniÄ™cie ikony storage.png otwiera wybĂłr pliku littlefs.bin i uruchamia lokalnÄ… aktualizacjÄ™ po modalu kopii ustawieĹ„.",
-                                         "Po wybraniu pliku nazwa w mini-panelu Filesystem zmienia siÄ™ na nazwÄ™ wybranego pliku podczas aktualizacji.",
-                                         "UsuniÄ™to widoczny wiersz wyboru pliku z karty Filesystem; przycisk aktualizacji online pozostaje ukryty do czasu dostÄ™pnej aktualizacji."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.659",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.659",
-                         "date":  "2026-06-21T11:18:57+01:00",
-                         "title":  "Ikona Firmware jako wybĂłr pliku",
-                         "changes":  [
-                                         "W karcie Firmware klikniÄ™cie ikony fw.png otwiera wybĂłr pliku firmware.bin i od razu uruchamia aktualizacjÄ™ lokalnÄ….",
-                                         "Po wybraniu pliku nazwa w mini-panelu Firmware zmienia siÄ™ na nazwÄ™ wybranego pliku podczas aktualizacji.",
-                                         "UsuniÄ™to dolny widoczny wiersz wyboru pliku z karty Firmware; przycisk aktualizacji online pozostaje ukryty do czasu dostÄ™pnej aktualizacji."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.658",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.658",
-                         "date":  "2026-06-21T11:07:33+01:00",
-                         "title":  "Ikona storage dla Filesystem",
-                         "changes":  [
-                                         "Karta Filesystem w zakĹ‚adce Test updt uĹĽywa teraz ikony storage.png zamiast home.png."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.657",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.657",
-                         "date":  "2026-06-21T11:00:07+01:00",
-                         "title":  "Czytelniejsze akcje aktualizacji Test updt",
-                         "changes":  [
-                                         "W widoku Test updt ukryto tekstowe pole wyboru pliku, gdy nie wybrano pliku ani nie trwa aktualizacja lokalna.",
-                                         "Przycisk Aktualizuj w kartach Firmware i Filesystem pojawia siÄ™ tylko wtedy, gdy dla danego elementu jest dostÄ™pna aktualizacja online.",
-                                         "Wiersz akcji w stanie spoczynku pokazuje tylko maĹ‚Ä… ikonÄ™ wyboru pliku, ĹĽeby nie rozpraszaÄ‡ uĹĽytkownika nieaktywnymi kontrolkami."
-                                     ]
-                     },
-                     {
-                         "version":  "1.0.0.656",
-                         "firmware_version":  "1.0.0.814",
-                         "filesystem_version":  "1.0.0.656",
-                         "date":  "2026-06-21T10:46:57+01:00",
-                         "title":  "Zunifikowany widok aktualizacji Test updt",
-                         "changes":  [
-                                         "Przebudowano Test updt: usuniÄ™to dolny pasek uploadu, a wybĂłr pliku i aktualizacja online sÄ… teraz dostÄ™pne bezpoĹ›rednio w kartach Firmware i Filesystem. WybĂłr lokalnego pliku uruchamia aktualizacjÄ™ od razu; dla filesystemu wyĹ›wietlany jest znany modal pobrania ustawieĹ„ albo kontynuacji bez kopii. Paski w kartach pokazujÄ… zajÄ™toĹ›Ä‡ pamiÄ™ci w spoczynku oraz postÄ™p pobierania i zapisu podczas aktualizacji lokalnej lub online. Dodano ikony firmware i filesystem z zasobĂłw portalu oraz zachowano listÄ™ zmian z manifestu OTA w widoku Test updt."
-                                     ]
-                     }
-                 ]
+{
+    "releases": [
+        {
+            "version": "1.0.0.727",
+            "firmware_version": "1.0.0.851",
+            "filesystem_version": "1.0.0.727",
+            "date": "2026-06-28T20:26:51+01:00",
+            "title": "Modale efektow scen w /panel",
+            "changes": [
+                "Dodano brakujace style modala wyboru scen dla efektow wraz z kierunkiem Lewo/Prawo.",
+                "Przywrocono pelny wyglad modala podgladu FX: naglowek, scena canvas, chipy parametrow i przycisk ustawien.",
+                "Bindowanie przyciskow modali efektow nie zalezy juz od ukrytego bloku konfiguracji scen.",
+                "Odswiezono gzipy /api/panel.htm, /api/style.css, /api/script.js i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
+            "version": "1.0.0.851",
+            "firmware_version": "1.0.0.851",
+            "filesystem_version": "1.0.0.726",
+            "date": "2026-06-28T19:54:43+01:00",
+            "title": "Naprawa STA przy bramie 192.168.4.1",
+            "changes": [
+                "Wylaczono DNS captive portalu, gdy statyczna konfiguracja STA naklada sie na adres SoftAP 192.168.4.1.",
+                "Zablokowano przekierowania HTTP dla klientow z podsieci 192.168.4.x, gdy ta sama podsiec nalezy do STA.",
+                "Po uzyskaniu IP przez STA firmware ponownie sprawdza konflikt i zatrzymuje captive portal, zeby nie przejmowac ruchu bramy."
+            ]
+        },
+        {
+            "version": "1.0.0.726",
+            "firmware_version": "1.0.0.850",
+            "filesystem_version": "1.0.0.726",
+            "date": "2026-06-28T19:19:16+01:00",
+            "title": "Style efektĂłw scen w /panel",
+            "changes": [
+                "UzupeĹ‚niono brakujÄ…ce style kart efektĂłw scen w lekkim panelu /panel.",
+                "Ukryto natywny select Run FX i przywrĂłcono wyglÄ…d comboboxa zgodny z gĹ‚Ăłwnym portalem.",
+                "Przyciski podglÄ…du, ustawieĹ„ i start/stop efektĂłw nie powinny juĹĽ renderowaÄ‡ siÄ™ jako surowe elementy HTML.",
+                "Podbito cache-busting /panel do 1.0.0.726, odĹ›wieĹĽono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
+            "version": "1.0.0.725",
+            "firmware_version": "1.0.0.850",
+            "filesystem_version": "1.0.0.725",
+            "date": "2026-06-28T18:58:56+01:00",
+            "title": "Naprawa bĹ‚Ä™du chevron w /panel",
+            "changes": [
+                "Dodano brakujÄ…cÄ… staĹ‚Ä… ikony chevron uĹĽywanÄ… przez prawdziwy runtime scen w /panel.",
+                "Panel /panel nie powinien juĹĽ pokazywaÄ‡ bĹ‚Ä™du FLUENT_CHEVRON_DOWN is not defined.",
+                "Podbito cache-busting /panel do 1.0.0.725, odĹ›wieĹĽono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
+            "version": "1.0.0.724",
+            "firmware_version": "1.0.0.850",
+            "filesystem_version": "1.0.0.724",
+            "date": "2026-06-28T18:05:24+01:00",
+            "title": "Naprawa overlay scen w /panel",
+            "changes": [
+                "Dodano brakujÄ…ce bazowe style overlay dla menu Sceny dla Uruchom wszystko w /panel.",
+                "Dodano brakujÄ…ce ukrywanie i pozycjonowanie panelu Ustawienia podglÄ…du efektĂłw scen.",
+                "Elementy pomocnicze scen nie rozlewajÄ… siÄ™ juĹĽ jako zwykĹ‚y tekst i suwaki poza kartÄ… Sterowanie.",
+                "Podbito cache-busting /panel do 1.0.0.724, odĹ›wieĹĽono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
+            "version": "1.0.0.723",
+            "firmware_version": "1.0.0.850",
+            "filesystem_version": "1.0.0.723",
+            "date": "2026-06-28T17:49:56+01:00",
+            "title": "Prawdziwe Sterowanie w panelu /panel",
+            "changes": [
+                "ZakĹ‚adka Sterowanie w /panel jest montowana tym samym rendererem scenePortal co peĹ‚ny portal.",
+                "UsuniÄ™to panelowe overrideâ€™y CSS i rÄ™cznie skĹ‚adany kafel scen, ktĂłre powodowaĹ‚y rozjazd wyglÄ…du.",
+                "Zachowano osobne pliki /api/panel.htm, /api/style.css i /api/script.js, bez importowania peĹ‚nego /script.js.",
+                "OdĹ›wieĹĽono gzipy panelu, podbito cache-busting do 1.0.0.723 i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
+            "version": "1.0.0.722",
+            "firmware_version": "1.0.0.850",
+            "filesystem_version": "1.0.0.722",
+            "date": "2026-06-28T17:15:17+01:00",
+            "title": "Poprawa kafli scen w /panel",
+            "changes": [
+                "PrzywrĂłcono kaflom scen proporcje i ukĹ‚ad bliĹĽszy gĹ‚Ăłwnemu portalowi: peĹ‚ny kafel, podglÄ…d LED i przyciski Lewo/Prawo na dole.",
+                "UsuniÄ™to tymczasowy ukĹ‚ad z wÄ…skÄ… kolumnÄ… przyciskĂłw po prawej stronie kafla sceny.",
+                "Dopasowano markup panelu do istniejÄ…cych klas sceneMini z gĹ‚Ăłwnego portalu.",
+                "Podbito cache-busting /panel do 1.0.0.722 i odĹ›wieĹĽono gzipy."
+            ]
+        },
+        {
+            "version": "1.0.0.721",
+            "firmware_version": "1.0.0.850",
+            "filesystem_version": "1.0.0.721",
+            "date": "2026-06-28T17:01:16+01:00",
+            "title": "Naprawa startu panelu /panel",
+            "changes": [
+                "Naprawiono zawieszanie /panel na ekranie Ĺ‚adowania przez dodanie klasy app-ready oczekiwanej przez CSS.",
+                "Poprawiono Ĺ›cieĹĽkÄ™ fontu Fluent Icons z /api/fonts/SegoeIcons.woff2 na /fonts/SegoeIcons.woff2, co usuwa bĹ‚Ä…d 404.",
+                "Podbito cache-busting panelu do 1.0.0.721, aby przeglÄ…darka pobraĹ‚a nowe /api/style.css i /api/script.js.",
+                "OdĹ›wieĹĽono gzipy panelu i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
+            "version": "1.0.0.720",
+            "firmware_version": "1.0.0.850",
+            "filesystem_version": "1.0.0.720",
+            "date": "2026-06-28T16:47:49+01:00",
+            "title": "Samodzielny odchudzony panel /panel",
+            "changes": [
+                "Panel /panel korzysta teraz z wĹ‚asnych, odchudzonych plikĂłw /api/style.css i /api/script.js, bez importowania gĹ‚Ăłwnego bundle portalu.",
+                "Zachowano wyglÄ…d TopHeadera, Sterowania i Oprogramowania, ale usuniÄ™to zaleĹĽnoĹ›ci od niepotrzebnych kart peĹ‚nego portalu.",
+                "Sterowanie scenami, parametry globalne LED, OTA firmware/filesystem, File Manager i Recovery dziaĹ‚ajÄ… w samodzielnym runtime panelu.",
+                "Firmware serwuje /panel jako alias do /api/panel.htm oraz osobno podaje /api/style.css i /api/script.js z gzipem."
+            ]
+        },
+        {
+            "version": "1.0.0.719",
+            "firmware_version": "1.0.0.849",
+            "filesystem_version": "1.0.0.719",
+            "date": "2026-06-28T16:09:00+01:00",
+            "title": "Panel /panel oparty na prawdziwym portalu",
+            "changes": [
+                "Przebudowano /panel jako prawdziwy wycinek obecnego portalu, zamiast uproszczonej wersji demo.",
+                "Sterowanie i Oprogramowanie korzystaj? teraz z realnego markup, styl?w i mechaniki g??wnego panelu.",
+                "W bocznej nawigacji /panel widoczne s? tylko Sterowanie oraz Oprogramowanie, bez wyboru trybu u?ytkownika/zaawansowanego.",
+                "Pliki /api/panel.htm, /api/style.css i /api/script.js zachowuj? osobne adresy, a /api/script.js serwuje ten sam sprawdzony bundle co g??wny portal."
+            ]
+        },
+        {
+            "version": "1.0.0.718",
+            "firmware_version": "1.0.0.848",
+            "filesystem_version": "1.0.0.718",
+            "date": "2026-06-28T15:41:39+01:00",
+            "title": "Lekki panel WWW pod /panel",
+            "changes": [
+                "Dodano lekki panel WWW pod adresem /panel z osobnymi plikami /api/panel.htm, /api/style.css i /api/script.js.",
+                "Panel zawiera tylko Sterowanie oraz Oprogramowanie, z prze??cznikiem j?zyka i motywu bez wyboru trybu portalu.",
+                "Sterowanie scenami, parametry LED, r?czne OTA oraz centrum aktualizacji GitHub dzia?aj? niezale?nie od pe?nego portalu.",
+                "Firmware serwuje /panel jako alias do /api/panel.htm i obs?uguje skompresowane assety CSS/JS nowego panelu."
+            ]
+        },
+        {
+            "version": "1.0.0.717",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.717",
+            "date": "2026-06-28T15:03:58+01:00",
+            "title": "Limit szerokoĹ›ci kafelkĂłw scen",
+            "changes": [
+                "Kafelki scen w panelu Sterowanie majÄ… teraz maksymalnÄ… szerokoĹ›Ä‡ 485 px.",
+                "Zachowano responsywnÄ… szerokoĹ›Ä‡ 100% dla wÄ™ĹĽszych ekranĂłw.",
+                "Nie zmieniono mechaniki przyciskĂłw, podglÄ…du LED ani konfiguracji scen."
+            ]
+        },
+        {
+            "version": "1.0.0.716",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.716",
+            "date": "2026-06-28T14:45:55+01:00",
+            "title": "Poprawione gaszenie podglÄ…du scen",
+            "changes": [
+                "PodglÄ…d gaszenia zaczyna teraz od zapalonego zakresu LED zamiast zapalaÄ‡ kropki od tyĹ‚u.",
+                "OdwrĂłcono interpretacjÄ™ progress dla stanu Stopping zgodnie z danymi runtime urzÄ…dzenia.",
+                "KlikniÄ™cie stop pokazuje natychmiast peĹ‚ny zapalony podglÄ…d, ktĂłry nastÄ™pnie wygasa sekwencyjnie."
+            ]
+        },
+        {
+            "version": "1.0.0.715",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.715",
+            "date": "2026-06-28T14:25:48+01:00",
+            "title": "Kolorowe przygasanie podglÄ…du scen",
+            "changes": [
+                "UsuniÄ™to przechodzenie kropek podglÄ…du w przezroczystoĹ›Ä‡ albo czerĹ„ przy niskiej jasnoĹ›ci.",
+                "Przygaszone kropki pozostajÄ… teraz wariantem wybranego koloru sceny.",
+                "Efekt wĹ‚Ä…czania i wyĹ‚Ä…czania zmienia gĹ‚Ăłwnie jasnoĹ›Ä‡ oraz poĹ›wiatÄ™, a nie bazowy kolor LED."
+            ]
+        },
+        {
+            "version": "1.0.0.714",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.714",
+            "date": "2026-06-28T13:43:40+01:00",
+            "title": "PĹ‚ynniejsze gaszenie podglÄ…du scen",
+            "changes": [
+                "Zmieniono podglÄ…d LED z prostych stanĂłw zapalony/zgaszony na pĹ‚ynnÄ… jasnoĹ›Ä‡ kaĹĽdej kropki.",
+                "Start sceny dalej narasta po kolei, ale przejĹ›cie jest mniej skokowe.",
+                "WyĹ‚Ä…czanie dostaĹ‚o osobnÄ… falÄ™ wygaszania od poczÄ…tku kierunku, dziÄ™ki czemu nie wyglÄ…da jak ponowiony start."
+            ]
+        },
+        {
+            "version": "1.0.0.713",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.713",
+            "date": "2026-06-28T13:19:56+01:00",
+            "title": "Kolorowa animacja podglÄ…du scen",
+            "changes": [
+                "PodglÄ…d LED w kafelku sceny uĹĽywa teraz koloru wynikajÄ…cego z lokalnych albo globalnych ustawieĹ„ sceny.",
+                "Podczas startu kropki zapalajÄ… siÄ™ kolejno i pozostajÄ… zapalone, a podczas zatrzymywania wygaszajÄ… siÄ™ sekwencyjnie.",
+                "Gdy scena jest wyĹ‚Ä…czona, oba przyciski Lewo/Prawo pozostajÄ… neutralne; lewa ikona uĹĽywa U+E768 obrĂłconego o 180 stopni."
+            ]
+        },
+        {
+            "version": "1.0.0.712",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.712",
+            "date": "2026-06-28T10:02:56+01:00",
+            "title": "Nowy wyglÄ…d kafelkĂłw scen",
+            "changes": [
+                "Przeniesiono przyciski Lewo i Prawo na dĂłĹ‚ kafelka sceny, zgodnie z nowym ukĹ‚adem.",
+                "PodglÄ…d LED dostaĹ‚ wiÄ™kszy, ciemny panel z zakresem, kropkami i strzaĹ‚kÄ… kierunku.",
+                "ZÄ™batka konfiguracji pozostaje w prawym gĂłrnym rogu kafelka, a mechanika klikniÄ™Ä‡ i long press pozostaĹ‚a bez zmian."
+            ]
+        },
+        {
+            "version": "1.0.0.711",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.711",
+            "date": "2026-06-28T09:39:07+01:00",
+            "title": "Mini podglÄ…d kierunku scen",
+            "changes": [
+                "Dodano w kafelkach scen mini podglÄ…d LED z kierunkiem startu i zakresem diod.",
+                "PodglÄ…d odĹ›wieĹĽa siÄ™ razem z runtime oraz od razu po klikniÄ™ciu startu w prawo lub w lewo.",
+                "Zachowano dotychczasowe przyciski scen, dĹ‚ugie przytrzymanie kafelka i logikÄ™ backendu."
+            ]
+        },
+        {
+            "version": "1.0.0.710",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.710",
+            "date": "2026-06-28T08:40:00+01:00",
+            "title": "WiÄ™cej oddechu w pillach sceny",
+            "changes": [
+                "ZwiÄ™kszono odstÄ™py miÄ™dzy pillami zakresu i statusu sceny w kompaktowym kafelku.",
+                "Pille majÄ… teraz wiÄ™kszy padding, spokojniejszÄ… wysokoĹ›Ä‡ i wiÄ™cej oddechu pod tytuĹ‚em sceny.",
+                "Nie zmieniono logiki scen ani kompaktowych przyciskĂłw sterowania."
+            ]
+        },
+        {
+            "version": "1.0.0.709",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.709",
+            "date": "2026-06-28T08:27:14+01:00",
+            "title": "DomyĹ›lny kierunek startu sceny",
+            "changes": [
+                "UsuniÄ™to duĹĽe przyciski uruchamiania z rozwiniÄ™tego kafelka sceny, bez zmian w kompaktowych przyciskach u gĂłry.",
+                "Dodano wybĂłr domyĹ›lnego kierunku startu sceny Lewo/Prawo zapisywany w konfiguracji startDirection.",
+                "Wybrany kierunek jest uĹĽywany przy starcie sceny z pilota, API bez jawnego kierunku oraz sterowania zbiorczego."
+            ]
+        },
+        {
+            "version": "1.0.0.708",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.708",
+            "date": "2026-06-28T07:57:15+01:00",
+            "title": "Kr?tszy pill runtime sceny",
+            "changes": [
+                "Usuni?to powt?rzony kierunek z kompaktowego pilla runtime sceny.",
+                "Pill sceny pokazuje teraz stan i post?p, np. ?Wy??czona ? 0%? albo ?Uruchamianie w prawo ? 10%?.",
+                "Logika kierunku sceny i przyciski startu w lewo/prawo pozosta?y bez zmian."
+            ]
+        },
+        {
+            "version": "1.0.0.847",
+            "firmware_version": "1.0.0.847",
+            "filesystem_version": "1.0.0.707",
+            "date": "2026-06-28T07:27:50+01:00",
+            "title": "Porz?dki w wersjonowaniu portalu",
+            "changes": [
+                "Uporz?dkowano skrypt wersjonowania: index.html automatycznie dostaje aktualne wersje styles.css i script.js.",
+                "Dodano kontrol? builda zatrzymuj?c? paczk? portalu, je?li w script.js pojawi? si? typowe sekwencje uszkodzonego kodowania.",
+                "Przywr?cono encj? ikony chevron w script.js, aby ograniczy? ryzyko problem?w z kodowaniem.",
+                "Przebudowano firmware i filesystem ze sp?jnymi wersjami oraz poprawionymi assetami portalu."
+            ]
+        },
+        {
+            "version": "1.0.0.706",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.706",
+            "date": "2026-06-28T07:02:04+01:00",
+            "title": "Naprawa kodowania portalu",
+            "changes": [
+                "Naprawiono uszkodzone kodowanie polskich znak?w w script.js po poprzedniej paczce portalu.",
+                "Podbito wersjonowanie script.js i styles.css do 1.0.0.706, aby przegl?darka pobra?a naprawione assety.",
+                "Zachowano zwijany panel RADIO NRF24L01+ i przeniesiony przycisk Od?wie?."
+            ]
+        },
+        {
+            "version": "1.0.0.705",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.705",
+            "date": "2026-06-28T06:46:41+01:00",
+            "title": "Poprawione od?wie?anie asset?w portalu",
+            "changes": [
+                "Poprawiono wersjonowanie link?w do styles.css i script.js w index.html, aby przegl?darka pobiera?a nowe assety po aktualizacji filesystemu.",
+                "Panel RADIO NRF24L01+ w Integracji MiLight pozostaje domy?lnie zwini?ty i u?ywa nowego przycisku zwi?/rozwi?.",
+                "Przycisk Od?wie? pozostaje przeniesiony do tre?ci panelu, poni?ej nag??wka."
+            ]
+        },
+        {
+            "version": "1.0.0.704",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.704",
+            "date": "2026-06-28T06:33:58+01:00",
+            "title": "Zwijany panel RADIO NRF24L01+",
+            "changes": [
+                "Panel RADIO NRF24L01+ w Integracji MiLight jest teraz domy?lnie zwini?ty.",
+                "Przycisk Od?wie? przeniesiono z nag??wka do tre?ci panelu, jedn? lini? ni?ej.",
+                "W nag??wku dodano standardowy przycisk zwi?/rozwi? obok statusu radia."
+            ]
+        },
+        {
+            "version": "1.0.0.703",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.703",
+            "date": "2026-06-28T06:12:13+01:00",
+            "title": "Nowa ikona Integracja MiLight",
+            "changes": [
+                "Zmieniono ikon? kafelka Integracja MiLight w sekcji Konfiguracja na glyph U+E7FC.",
+                "Zast?piono r?cznie rysowan? ikon? pilota pojedyncz? ikon? Fluent, sp?jn? z pozosta?ymi kafelkami.",
+                "Od?wie?ono obraz LittleFS portalu."
+            ]
+        },
+        {
+            "version": "1.0.0.702",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.702",
+            "date": "2026-06-27T21:57:37+01:00",
+            "title": "Jednolity wygl?d File Manager i Recovery",
+            "changes": [
+                "Przyciski File Manager i Recovery w sekcji Oprogramowanie korzystaj? teraz ze wsp?lnej klasy i identycznego uk?adu ikony.",
+                "Usuni?to pseudoikony ::before dla File Manager i Recovery, aby oba przyciski mia?y t? sam? metryk? i wyr?wnanie.",
+                "Recovery nadal u?ywa ikony U+E822 i otwiera /recovery w nowej karcie."
+            ]
+        },
+        {
+            "version": "1.0.0.701",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.701",
+            "date": "2026-06-27T21:40:33+01:00",
+            "title": "Recovery jak File Manager",
+            "changes": [
+                "Przycisk Recovery otwiera teraz /recovery w nowej karcie, tak jak File Manager otwiera /fileman.",
+                "Dopi?to Recovery do wszystkich regu? stylu u?ywanych przez File Manager w sekcji Oprogramowanie, tak?e w jasnym motywie.",
+                "Przebudowano styles.css i skompresowane zasoby portalu z modu??w CSS."
+            ]
+        },
+        {
+            "version": "1.0.0.700",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.700",
+            "date": "2026-06-27T21:25:39+01:00",
+            "title": "Styl i ikona przycisku Recovery",
+            "changes": [
+                "Przycisk Recovery w sekcji Oprogramowanie korzysta teraz z tych samych regu? stylu co File Manager.",
+                "Zmieniono ikon? przycisku Recovery na U+E822.",
+                "Od?wie?ono skompresowany styles.css.gz w paczce portalu."
+            ]
+        },
+        {
+            "version": "1.0.0.698",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.698",
+            "date": "2026-06-27T21:01:41+01:00",
+            "title": "Przycisk Recovery w panelu oprogramowania",
+            "changes": [
+                "Dodano przycisk Recovery obok File Manager w sekcji Oprogramowanie.",
+                "Przycisk Recovery przenosi bezpoĹ›rednio do /recovery w tej samej karcie.",
+                "OdĹ›wieĹĽono skompresowany script.js.gz w paczce portalu."
+            ]
+        },
+        {
+            "version": "1.0.0.846",
+            "firmware_version": "1.0.0.846",
+            "filesystem_version": "1.0.0.697",
+            "date": "2026-06-27T20:52:40+01:00",
+            "title": "Doprecyzowanie zachowania panelu Recovery",
+            "changes": [
+                "Panel restartu w Recovery chowa siÄ™ automatycznie sekundÄ™ po dojĹ›ciu paska do 100%.",
+                "Zamieniono kolejnoĹ›Ä‡ przyciskĂłw: Home jest teraz przed File Manager.",
+                "Zachowano brak automatycznego przejĹ›cia do / po udanej aktualizacji firmware lub filesystemu."
+            ]
+        },
+        {
+            "version": "1.0.0.845",
+            "firmware_version": "1.0.0.845",
+            "filesystem_version": "1.0.0.697",
+            "date": "2026-06-27T20:39:02+01:00",
+            "title": "Recovery bez automatycznego powrotu do portalu",
+            "changes": [
+                "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi juĹĽ automatycznie do gĹ‚Ăłwnego portalu.",
+                "Dodano przycisk Home obok File Manager, ktĂłry przenosi rÄ™cznie do /.",
+                "UsuniÄ™to nagĹ‚Ăłwek OTA Update oraz pomocnicze opisy z widoku recovery."
+            ]
+        },
+        {
+            "version": "1.0.0.697",
+            "firmware_version": "1.0.0.844",
+            "filesystem_version": "1.0.0.697",
+            "date": "2026-06-27T20:26:12+01:00",
+            "title": "Czytelniejsze miejsce wolne w kafelkach LittleFS",
+            "changes": [
+                "W kafelku aktualizacji slot firmware/LittleFS C:D pokazuje teraz wolne miejsce z caĹ‚oĹ›ci partycji, zamiast zajÄ™tego rozmiaru programu.",
+                "Opis miejsca jest spĂłjny z filesystemem: format â€ž{free} wolnych z {total}â€ť.",
+                "OdĹ›wieĹĽono skompresowany script.js.gz w paczce portalu."
+            ]
+        },
+        {
+            "version": "1.0.0.844",
+            "firmware_version": "1.0.0.844",
+            "filesystem_version": "1.0.0.696",
+            "date": "2026-06-27T20:11:37+01:00",
+            "title": "Stabilizacja przejĹ›cia miÄ™dzy portalem i filemanem",
+            "changes": [
+                "Dodano jawne zamykanie poĹ‚Ä…czeĹ„ dla peĹ‚nych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie miÄ™dzy / i /fileman nie zostawiaĹ‚o wiszÄ…cych sesji HTTP.",
+                "Fileman serwuje teraz script.js i style.css z plikĂłw .gz oraz cache, dziÄ™ki czemu wejĹ›cie do menedĹĽera plikĂłw mniej obciÄ…ĹĽa ESP.",
+                "PrzywrĂłcono prostÄ… obsĹ‚ugÄ™ /api/fs/raw bez wymuszonego no-cache, zgodnie ze stabilnÄ… starszÄ… wersjÄ…."
+            ]
+        },
+        {
+            "version": "1.0.0.842",
+            "firmware_version": "1.0.0.842",
+            "filesystem_version": "1.0.0.695",
+            "date": "2026-06-27T19:52:47+01:00",
+            "title": "Stabilizacja AP i serwowania portalu",
+            "changes": [
+                "UsuniÄ™to NetworkWatchdog oraz lokalne prĂłby HTTP, ktĂłre mogĹ‚y restartowaÄ‡ AsyncWebServer podczas pracy portalu.",
+                "WyĹ‚Ä…czono automatyczne wyĹ‚Ä…czanie SoftAP po wejĹ›ciu do panelu przez STA; AP pozostaje pod kontrolÄ… ustawienia uĹĽytkownika.",
+                "DuĹĽe zasoby portalu, w tym script.js, styles.css i tĹ‚umaczenia JSON, sÄ… serwowane z .gz oraz cache; no-cache pozostaje dla index.html i API."
+            ]
+        },
+        {
+            "version": "1.0.0.695",
+            "firmware_version": "1.0.0.840",
+            "filesystem_version": "1.0.0.695",
+            "date": "2026-06-27T19:07:05+01:00",
+            "title": "Tryby mapowania akcji MiLight",
+            "changes": [
+                "Dodano przeĹ‚Ä…cznik Mapowanie standardowe / Mapowanie uĹĽytkownika w sekcji Mapowanie akcji MiLight.",
+                "Tryb standardowy ukrywa rÄ™czne comboboksy i pokazuje kompaktowy blok z trzema polami statusu.",
+                "Firmware zapisuje mapping_mode i w trybie standardowym uĹĽywa domyĹ›lnych akcji bez kasowania mapowaĹ„ uĹĽytkownika."
+            ]
+        },
+        {
+            "version": "1.0.0.694",
+            "firmware_version": "1.0.0.839",
+            "filesystem_version": "1.0.0.694",
+            "date": "2026-06-27T18:42:34+01:00",
+            "title": "Kompaktowy kafelek radia nRF24L01+",
+            "changes": [
+                "Kafelek RADIO NRF24L01+ ma teraz zwarty nagĹ‚Ăłwek ze statusem i przyciskiem odĹ›wieĹĽania.",
+                "Metryki pracy radia i liczniki pakietĂłw sÄ… pokazane w dwĂłch wspĂłlnych ramkach z separatorami kolumn zamiast osobnych duĹĽych pilli.",
+                "Na telefonach tabele przechodzÄ… do dwĂłch kolumn, a przycisk odĹ›wieĹĽania moĹĽe zwÄ™ziÄ‡ siÄ™ do samej ikony."
+            ]
+        },
+        {
+            "version": "1.0.0.690",
+            "firmware_version": "1.0.0.837",
+            "filesystem_version": "1.0.0.690",
+            "date": "2026-06-27T16:18:41+01:00",
+            "title": "Watchdog portalu bez faĹ‚szywego restartu STA",
+            "changes": [
+                "Watchdog HTTP testuje teraz adres AP przed adresem STA, gdy SoftAP jest aktywny.",
+                "FaĹ‚szywy bĹ‚Ä…d testu STA w sieci 192.168.4.x nie powoduje juĹĽ restartu AsyncWebServer i ryzyka bind error -8.",
+                "Diagnostyka sieci dopisuje subnet_overlap=1, gdy adres STA i adres AP sÄ… w tej samej podsieci."
+            ]
+        },
+        {
+            "version": "1.0.0.689",
+            "firmware_version": "1.0.0.836",
+            "filesystem_version": "1.0.0.689",
+            "date": "2026-06-27T16:11:36+01:00",
+            "title": "Awaryjne przywracanie AP przy braku STA",
+            "changes": [
+                "Firmware przywraca SoftAP, gdy zapisane ustawienia zostawiĹ‚y AP wyĹ‚Ä…czony, a urzÄ…dzenie nie ma poĹ‚Ä…czenia STA/IP.",
+                "Fallback uruchamia AP takĹĽe po wyczerpaniu prĂłb poĹ‚Ä…czenia z zapisanym Wi-Fi, ĹĽeby panel pozostaĹ‚ dostÄ™pny przez 192.168.4.1.",
+                "Zaktualizowano paczkÄ™ LittleFS, aby plik version.json raportowaĹ‚ firmware 1.0.0.836 i portal 1.0.0.689."
+            ]
+        },
+        {
+            "version": "1.0.0.688",
+            "firmware_version": "1.0.0.835",
+            "filesystem_version": "1.0.0.688",
+            "date": "2026-06-23T17:05:34+01:00",
+            "title": "Nazwy procesĂłw i RAM w jednej tabeli",
+            "changes": [
+                "Zbalansowano szerokoĹ›ci kolumn w tabeli Procesy, aby jednoczeĹ›nie byĹ‚o widaÄ‡ nazwÄ™ procesu i RAM.",
+                "Nazwa procesu nie jest juĹĽ ucinana ellipsis w pierwszej kolumnie.",
+                "Odchudzono kolumnÄ™ CPU i opis procesu, ĹĽeby RAM pozostaĹ‚ czytelny bez zabierania miejsca nazwom."
+            ]
+        },
+        {
+            "version": "1.0.0.687",
+            "firmware_version": "1.0.0.835",
+            "filesystem_version": "1.0.0.687",
+            "date": "2026-06-23T16:59:37+01:00",
+            "title": "PeĹ‚ne wartoĹ›ci RAM w tabeli procesĂłw",
+            "changes": [
+                "Poprawiono widok RAM w tabeli Procesy, aby wartoĹ›ci nie byĹ‚y ucinane na telefonie.",
+                "Kolumna RAM ma teraz wĹ‚asne klasy CSS bez ellipsis oraz wiÄ™kszÄ… minimalnÄ… szerokoĹ›Ä‡.",
+                "SkrĂłcono zapis pary uĹĽyte/caĹ‚kowite do formatu 1.3 / 8.0 KB, gdy obie wartoĹ›ci sÄ… w KB."
+            ]
+        },
+        {
+            "version": "1.0.0.835",
+            "firmware_version": "1.0.0.835",
+            "filesystem_version": "1.0.0.686",
+            "date": "2026-06-23T16:14:38+01:00",
+            "title": "RAM taskĂłw w diagnostyce procesĂłw",
+            "changes": [
+                "Dodano w diagnostyce procesĂłw przybliĹĽone uĹĽycie RAM oparte o stos taska FreeRTOS.",
+                "Endpoint /api/diag/processes raportuje teraz wolny, uĹĽyty i caĹ‚kowity stos, gdy ESP-IDF udostÄ™pnia snapshot taskĂłw.",
+                "Tabela Procesy pokazuje wartoĹ›ci uĹĽyte/caĹ‚kowite oraz wolny zapas stosu zamiast samego surowego high-watermark.",
+                "Modal procesu pokazuje ten sam opis zadania i czytelny odczyt RAM dla wybranego taska."
+            ]
+        },
+        {
+            "version": "1.0.0.834",
+            "firmware_version": "1.0.0.834",
+            "filesystem_version": "1.0.0.685",
+            "date": "2026-06-23T15:29:54+01:00",
+            "title": "PrzywrĂłcenie wĹ‚Ä…czania mDNS hostname",
+            "changes": [
+                "CofniÄ™to firmwareowy guard, ktĂłry wymuszaĹ‚ wyĹ‚Ä…czenie usĹ‚ugi mDNS .local.",
+                "Backend ponownie raportuje mdns_supported=true i pozwala zapisaÄ‡ hostname/mDNS jako wĹ‚Ä…czone.",
+                "Po wĹ‚Ä…czeniu hostname service firmware ponownie uruchamia ESPmDNS przez MDNS.begin oraz ogĹ‚asza usĹ‚ugÄ™ HTTP."
+            ]
+        },
+        {
+            "version": "1.0.0.833",
+            "firmware_version": "1.0.0.833",
+            "filesystem_version": "1.0.0.685",
+            "date": "2026-06-23T12:30:13+01:00",
+            "title": "Automatyczne wyĹ‚Ä…czanie AP po onboardingu",
+            "changes": [
+                "Dodano automatyczne wyĹ‚Ä…czanie SoftAP po wykryciu wejĹ›cia do portalu przez adres przydzielony przez router.",
+                "SoftAP wyĹ‚Ä…cza siÄ™ z opĂłĹşnieniem po realnym ruchu HTTP do stron portalu przez STA, dziÄ™ki czemu tryb AP+STA nie zostaje aktywny po onboardingu.",
+                "JeĹ›li po automatycznym wyĹ‚Ä…czeniu AP urzÄ…dzenie straci STA/IP, firmware po krĂłtkim czasie przywrĂłci AP awaryjnie.",
+                "Endpointy /api nie wyzwalajÄ… auto-wyĹ‚Ä…czania AP, aby nie psuÄ‡ integracji i diagnostyki."
+            ]
+        },
+        {
+            "version": "1.0.0.831",
+            "firmware_version": "1.0.0.831",
+            "filesystem_version": "1.0.0.685",
+            "date": "2026-06-23T10:46:07+01:00",
+            "title": "Guard stabilnoĹ›ci dla mDNS hostname",
+            "changes": [
+                "Dodano firmwareowy guard stabilnoĹ›ci blokujÄ…cy start ESPmDNS, ktĂłry w testach zawieszaĹ‚ dostÄ™p do portalu.",
+                "PrzeĹ‚Ä…cznik hostname/mDNS nie zapisuje juĹĽ aktywnej usĹ‚ugi, jeĹ›li mDNS jest wyĹ‚Ä…czony w firmware dla bezpieczeĹ„stwa.",
+                "Backend raportuje mdns_supported=false oraz mdns_enabled=false, a sama nazwa urzÄ…dzenia nadal moĹĽe byÄ‡ uĹĽywana jako zwykĹ‚y hostname STA."
+            ]
+        },
+        {
+            "version": "1.0.0.830",
+            "firmware_version": "1.0.0.830",
+            "filesystem_version": "1.0.0.685",
+            "date": "2026-06-23T05:09:51+01:00",
+            "title": "Kanoniczny adres AP dla klientĂłw SoftAP",
+            "changes": [
+                "Dodano kanoniczne przekierowanie klientĂłw SoftAP na adres http://192.168.4.1/.",
+                "JeĹĽeli telefon poĹ‚Ä…czony z AP prĂłbuje wejĹ›Ä‡ przez adres STA, na przykĹ‚ad 10.x.x.x albo 192.168.1.x, firmware od razu przenosi go na adres AP.",
+                "Endpointy /api nadal zwracajÄ… JSON i nie sÄ… uĹĽywane do przekierowania, aby nie psuÄ‡ integracji."
+            ]
+        },
+        {
+            "version": "1.0.0.829",
+            "firmware_version": "1.0.0.829",
+            "filesystem_version": "1.0.0.685",
+            "date": "2026-06-23T04:54:27+01:00",
+            "title": "SprzÄ…tanie poĹ‚Ä…czeĹ„ portalu po uĹ›pieniu telefonu",
+            "changes": [
+                "WyĹ‚Ä…czono domyĹ›lny live-stream terminala diagnostycznego, ĹĽeby portal nie trzymaĹ‚ dĹ‚ugiego poĹ‚Ä…czenia keep-alive po uĹ›pieniu telefonu.",
+                "Portal abortuje aktywne ĹĽÄ…dania HTTP oraz zamyka kanaĹ‚y live przy blokadzie ekranu, pagehide i freeze.",
+                "Terminal diagnostyczny dziaĹ‚a w trybie historii HTTP bez cyklicznego otwierania EventSource.",
+                "Zaktualizowano obraz LittleFS, aby przeglÄ…darka dostaĹ‚a nowy skrypt sprzÄ…tajÄ…cy poĹ‚Ä…czenia po wybudzeniu telefonu."
+            ]
+        },
+        {
+            "version": "1.0.0.828",
+            "firmware_version": "1.0.0.828",
+            "filesystem_version": "1.0.0.684",
+            "date": "2026-06-23T04:26:51+01:00",
+            "title": "Aktywny watchdog portalu HTTP",
+            "changes": [
+                "Watchdog co 15 sekund wykonuje lokalny test HTTP endpointu /api/version.",
+                "Po serii nieudanych testĂłw firmware restartuje sam serwer AsyncWebServer.",
+                "JeĹ›li problem HTTP powtarza siÄ™ po restarcie serwera, urzÄ…dzenie wykonuje restart programowy.",
+                "Dodano tryb DIGILED_VERSION_NO_BUMP dla kontrolowanych rebuildĂłw bez przypadkowego podbijania wersji."
+            ]
+        },
+        {
+            "version": "1.0.0.827",
+            "firmware_version": "1.0.0.827",
+            "filesystem_version": "1.0.0.683",
+            "date": "2026-06-22T20:30:41+01:00",
+            "title": "Stabilizacja portalu po dĹ‚ugiej sesji",
+            "changes": [
+                "Zmniejszono polling widoku scen z 250 ms do 1000 ms.",
+                "Ograniczono tempo live-zapisĂłw globalnych parametrĂłw scen podczas pracy suwakami.",
+                "Doprecyzowano konfiguracjÄ™ AsyncTCP oraz dodano logi diagnostyczne watchdog sieci.",
+                "Dodano prĂłbÄ™ odzyskania poĹ‚Ä…czenia STA, gdy firmware widzi poĹ‚Ä…czenie bez poprawnego IP."
+            ]
+        },
+        {
+            "version": "1.0.0.824",
+            "firmware_version": "1.0.0.824",
+            "filesystem_version": "1.0.0.682",
+            "date": "2026-06-22T19:33:19+01:00",
+            "title": "Test modala restartu po OTA",
+            "changes": [
+                "Podbito wersjÄ™ firmware do 1.0.0.824 bez zmian funkcjonalnych.",
+                "Podbito wersjÄ™ filesystemu do 1.0.0.682 bez zmian funkcjonalnych.",
+                "Pakiet sĹ‚uĹĽy do testu, czy po aktualizacji firmware albo filesystemu pojawia siÄ™ modal restartowania urzÄ…dzenia."
+            ]
+        },
+        {
+            "version": "1.0.0.681",
+            "firmware_version": "1.0.0.823",
+            "filesystem_version": "1.0.0.681",
+            "date": "2026-06-22T19:28:43+01:00",
+            "title": "Modal restartu po aktualizacji",
+            "changes": [
+                "Po udanym wgraniu aktualizacji online lub lokalnej otwierany jest modal restartowania urzÄ…dzenia.",
+                "Modal uĹĽywa tego samego wyglÄ…du i komunikatĂłw co przycisk Uruchom ponownie.",
+                "Portal czeka na ponowne pojawienie siÄ™ urzÄ…dzenia i odĹ›wieĹĽa stronÄ™ po restarcie."
+            ]
+        },
+        {
+            "version": "1.0.0.680",
+            "firmware_version": "1.0.0.823",
+            "filesystem_version": "1.0.0.680",
+            "date": "2026-06-22T19:17:58+01:00",
+            "title": "Porz?dek w zasobach portalu",
+            "changes": [
+                "Zsynchronizowano skompresowane pliki script.js, version.json oraz tĹ‚umaczenia z aktualnymi ĹşrĂłdĹ‚ami portalu.",
+                "Utrzymano opis roli taska w nagĹ‚Ăłwku modala procesu.",
+                "Opublikowano nowy obraz LittleFS z wersjÄ… portalu 1.0.0.680."
+            ]
+        },
+        {
+            "version": "1.0.0.679",
+            "firmware_version": "1.0.0.823",
+            "filesystem_version": "1.0.0.679",
+            "date": "2026-06-22T18:48:40+01:00",
+            "title": "Opis procesu w modalu",
+            "changes": [
+                "Opis taska z listy procesĂłw jest teraz widoczny rĂłwnieĹĽ w nagĹ‚Ăłwku modala procesu.",
+                "Dla taskĂłw systemowych modal nie zastÄ™puje juĹĽ opisu ogĂłlnym tekstem tylko do odczytu.",
+                "Zaktualizowano skompresowane zasoby portalu oraz manifest wersji filesystemu."
+            ]
+        },
+        {
+            "version": "1.0.0.823",
+            "firmware_version": "1.0.0.823",
+            "filesystem_version": "1.0.0.678",
+            "date": "2026-06-22T18:39:03+01:00",
+            "title": "Watchdog sieciowy AP",
+            "changes": [
+                "Dodano lekki watchdog sieciowy sprawdzajÄ…cy tryb WiFi i adres SoftAP bez pingowania ani skanowania.",
+                "Watchdog wykonuje miÄ™kkie odtworzenie SoftAP/captive DNS po kilku kolejnych bĹ‚Ä™dnych prĂłbkach, a restart ESP traktuje jako ostatniÄ… deskÄ™ ratunku.",
+                "AsyncTCP i zadanie skanowania przeniesiono poza rdzeĹ„ WiFi, a skanowanie portalu ograniczono do maksymalnie jednego realnego skanu na minutÄ™."
+            ]
+        },
+        {
+            "version": "1.0.0.821",
+            "firmware_version": "1.0.0.821",
+            "filesystem_version": "1.0.0.678",
+            "date": "2026-06-22T18:24:13+01:00",
+            "title": "Stabilizacja obsĹ‚ugi sieci AP/STA",
+            "changes": [
+                "AsyncTCP pracuje teraz na rdzeniu 1 zamiast na rdzeniu 0, ktĂłry obsĹ‚uguje stos WiFi ESP32.",
+                "Skanowanie WiFi z portalu jest cache'owane przez 60 sekund i nie moĹĽe startowaÄ‡ czÄ™Ĺ›ciej niĹĽ raz na minutÄ™.",
+                "Zadanie skanowania WiFi przeniesiono na rdzeĹ„ 1 i dodano flagÄ™ scan_throttled w odpowiedzi /api/scan."
+            ]
+        },
+        {
+            "version": "1.0.0.820",
+            "firmware_version": "1.0.0.820",
+            "filesystem_version": "1.0.0.678",
+            "date": "2026-06-22T18:18:07+01:00",
+            "title": "Stabilizacja captive portal",
+            "changes": [
+                "Zmieniono TTL odpowiedzi DNS captive portal z 0 na 60 sekund, aby telefony i laptopy nie zalewaĹ‚y ESP ciÄ…gĹ‚ymi zapytaniami DNS.",
+                "Lekki ekran captive portal jest teraz wysyĹ‚any ze staĹ‚ego bufora w firmware zamiast skĹ‚adania dynamicznego HTML dla kaĹĽdego ĹĽÄ…dania.",
+                "Odpowiedzi captive portal wymuszajÄ… zamkniÄ™cie poĹ‚Ä…czenia, a limit klientĂłw SoftAP zwiÄ™kszono z 4 do 8."
+            ]
+        },
+        {
+            "version": "1.0.0.818",
+            "firmware_version": "1.0.0.818",
+            "filesystem_version": "1.0.0.678",
+            "date": "2026-06-22T06:05:03+01:00",
+            "title": "Lekki ekran captive portal",
+            "changes": [
+                "Systemowe strony wykrywania captive portal pokazujÄ… teraz prosty ekran startowy zamiast od razu Ĺ‚adowaÄ‡ peĹ‚ny panel DigiLED.",
+                "Ekran startowy zawiera adres 192.168.4.1 oraz przycisk OtwĂłrz portal prowadzÄ…cy do wĹ‚aĹ›ciwego panelu logowania.",
+                "BezpoĹ›rednie wejĹ›cie na 192.168.4.1 nadal otwiera peĹ‚ny portal, a endpointy /api zachowujÄ… odpowiedzi JSON 404."
+            ]
+        },
+        {
+            "version": "1.0.0.817",
+            "firmware_version": "1.0.0.817",
+            "filesystem_version": "1.0.0.678",
+            "date": "2026-06-21T19:15:02+01:00",
+            "title": "Captive portal dla wbudowanego AP",
+            "changes": [
+                "SoftAP uruchamia teraz serwer DNS przechwytujÄ…cy zapytania i kierujÄ…cy je na adres portalu 192.168.4.1.",
+                "Dodano przekierowania dla testĂłw captive portal uĹĽywanych przez Androida, iOS, Windows i inne urzÄ…dzenia.",
+                "Nieznane Ĺ›cieĹĽki HTTP spoza API przekierowujÄ… do portalu, a endpointy /api nadal zwracajÄ… JSON 404."
+            ]
+        },
+        {
+            "version": "1.0.0.678",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.678",
+            "date": "2026-06-21T18:44:22+01:00",
+            "title": "Responsywne kafelki stanu po restarcie",
+            "changes": [
+                "Kafelki Stan po restarcie korzystajÄ… teraz z responsywnej siatki auto-fit zamiast sztywnego ukĹ‚adu zaleĹĽnego tylko od szerokoĹ›ci okna.",
+                "Przy zbyt maĹ‚ej szerokoĹ›ci panelu kafelki przechodzÄ… do kolejnego rzÄ™du zamiast Ĺ›ciskaÄ‡ teksty w jednej linii.",
+                "Zachowano dotychczasowy wyglÄ…d kafelkĂłw i podglÄ…d LED."
+            ]
+        },
+        {
+            "version": "1.0.0.677",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.677",
+            "date": "2026-06-21T17:54:50+01:00",
+            "title": "Czytelne bĹ‚Ä™dy sprawdzania aktualizacji",
+            "changes": [
+                "Gdy nie uda siÄ™ pobraÄ‡ manifestu OTA, panel aktualizacji pokazuje komunikat o bĹ‚Ä™dzie zamiast tekstu UrzÄ…dzenie ma aktualnÄ… wersjÄ™.",
+                "Dodano osobny komunikat dla problemu z poĹ‚Ä…czeniem internetowym oraz osobny dla bĹ‚Ä™du serwera aktualizacji.",
+                "Status bĹ‚Ä™du ma wyrĂłĹĽniony wyglÄ…d w jasnym i ciemnym motywie."
+            ]
+        },
+        {
+            "version": "1.0.0.676",
+            "firmware_version": "1.0.0.815",
+            "filesystem_version": "1.0.0.676",
+            "date": "2026-06-21T16:42:21+01:00",
+            "title": "Poprawka menu LittleFS",
+            "changes": [
+                "Wpis Aktualizuj w popup menu LittleFS jest teraz rzeczywiĹ›cie ukrywany, gdy manifest nie pokazuje aktualizacji dla danego kafelka.",
+                "Pozostawiono istniejÄ…cy mechanizm sprawdzania aktualizacji: menu korzysta ze stanu manifestu online dla Firmware i Filesystem.",
+                "Dodano dedykowanÄ… reguĹ‚Ä™ CSS dla ukrytych pozycji menu, aby display:flex nie nadpisywaĹ‚ atrybutu hidden."
+            ]
+        },
+        {
+            "version": "1.0.0.675",
+            "firmware_version": "1.0.0.815",
+            "filesystem_version": "1.0.0.675",
+            "date": "2026-06-21T16:01:21+01:00",
+            "title": "PorzÄ…dek w modalu i menu LittleFS",
+            "changes": [
+                "Przycisk Anuluj w modalu aktualizacji filesystemu jest teraz caĹ‚kiem po lewej, a WyczyĹ›Ä‡ ustawienia znajduje siÄ™ obok niego.",
+                "Zmieniono wpisy rÄ™cznej aktualizacji w menu LittleFS na Wybierz plik aktualizacji.",
+                "Zmieniono opis przeĹ‚Ä…czania firmware na App0 C: albo App1 D: zaleĹĽnie od aktywnego slotu."
+            ]
+        },
+        {
+            "version": "1.0.0.674",
+            "firmware_version": "1.0.0.815",
+            "filesystem_version": "1.0.0.674",
+            "date": "2026-06-21T15:54:40+01:00",
+            "title": "Aktualizacja z menu LittleFS",
+            "changes": [
+                "Dodano wpis Aktualizuj do menu LittleFS (C:), LittleFS (D:) i LittleFS (E:), widoczny tylko przy dostÄ™pnej aktualizacji online.",
+                "KlikniÄ™cie wpisu Aktualizuj uruchamia ten sam proces aktualizacji online co przycisk w kafelku.",
+                "Gdy aktualizacja nie jest dostÄ™pna, menu pozostaje bez dodatkowego wpisu i pokazuje tylko dotychczasowe akcje."
+            ]
+        },
+        {
+            "version": "1.0.0.673",
+            "firmware_version": "1.0.0.815",
+            "filesystem_version": "1.0.0.673",
+            "date": "2026-06-21T15:07:07+01:00",
+            "title": "Poprawki jasnego motywu aktualizacji",
+            "changes": [
+                "Poprawiono modal aktualizacji filesystemu: akcja bez kopii jest po lewej i nazywa siÄ™ WyczyĹ›Ä‡ ustawienia.",
+                "Wzmocniono kontrast statusowych pilli i przycisku Aktualizuj w jasnym motywie.",
+                "Dodano widoczny hover i focus dla obszarĂłw LittleFS (C:), LittleFS (D:) i LittleFS (E:) w jasnym motywie."
+            ]
+        },
+        {
+            "version": "1.0.0.672",
+            "firmware_version": "1.0.0.815",
+            "filesystem_version": "1.0.0.672",
+            "date": "2026-06-21T14:52:52+01:00",
+            "title": "Minimalnie wi?kszy przycisk Aktualizuj",
+            "changes": [
+                "Minimalnie powiÄ™kszono dedykowany przycisk Aktualizuj w kafelkach aktualizacji.",
+                "WysokoĹ›Ä‡ przycisku ustawiono na 20 px, a tekst i ikonÄ™ na 10 px.",
+                "Przycisk nadal korzysta wyĹ‚Ä…cznie z klasy updateHubOnlineBtn, bez globalnych stylĂłw btn."
+            ]
+        },
+        {
+            "version": "1.0.0.671",
+            "firmware_version": "1.0.0.815",
+            "filesystem_version": "1.0.0.671",
+            "date": "2026-06-21T14:41:55+01:00",
+            "title": "Dedykowany styl przycisku Aktualizuj",
+            "changes": [
+                "OdpiÄ™to przycisk Aktualizuj w kafelkach aktualizacji od globalnych klas btn i primary.",
+                "Przycisk Aktualizuj ma teraz jeden dedykowany styl updateHubOnlineBtn z wĹ‚asnym resetem, rozmiarem i stanami hover/focus/disabled.",
+                "UsuniÄ™to konflikt z ogĂłlnymi reguĹ‚ami #advCard.softwareCard .btn, ktĂłre zawyĹĽaĹ‚y wizualnÄ… wysokoĹ›Ä‡ przycisku."
+            ]
+        },
+        {
+            "version": "1.0.0.670",
+            "firmware_version": "1.0.0.815",
+            "filesystem_version": "1.0.0.670",
+            "date": "2026-06-21T14:24:59+01:00",
+            "title": "Naprawa kodowania tekstĂłw aktualizacji",
+            "changes": [
+                "Naprawiono polskie znaki w tekstach menu aktualizacji: SprawdĹş aktualizacje, RÄ™czna aktualizacja i PrzeĹ‚Ä…cz Firmware.",
+                "OdĹ›wieĹĽono skompresowany plik tĹ‚umaczeĹ„ pl.json.gz, aby portal po aktualizacji nie pokazywaĹ‚ znakĂłw zapytania.",
+                "Zbudowano nowy obraz LittleFS z poprawionymi tĹ‚umaczeniami updatera."
+            ]
+        },
+        {
+            "version": "1.0.0.669",
+            "firmware_version": "1.0.0.815",
+            "filesystem_version": "1.0.0.669",
+            "date": "2026-06-21T14:14:07+01:00",
+            "title": "Menu akcji w widoku aktualizacji",
+            "changes": [
+                "Przycisk SprawdĹş aktualizacje ma ikonÄ™ U+F0C5 i obraca jÄ… podczas sprawdzania manifestu online.",
+                "Ikony Firmware i Filesystem pokazujÄ… podpowiedĹş Wybierz plik i nadal uruchamiajÄ… rÄ™cznÄ… aktualizacjÄ™ lokalnÄ….",
+                "KlikniÄ™cie obszaru LittleFS (C:)/(D:) otwiera menu z rÄ™cznÄ… aktualizacjÄ… firmware oraz przeĹ‚Ä…czeniem aktywnego slotu.",
+                "KlikniÄ™cie obszaru LittleFS (E:) otwiera menu z rÄ™cznÄ… aktualizacjÄ… filesystemu oraz przejĹ›ciem do menedĹĽera plikĂłw."
+            ]
+        },
+        {
+            "version": "1.0.0.668",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.668",
+            "date": "2026-06-21T13:28:43+01:00",
+            "title": "Zunifikowany widok aktualizacji",
+            "changes": [
+                "ZastÄ…piono zakĹ‚adki Aktualizacja online, Aktualizacja lokalna i Test updt jednym docelowym panelem Aktualizacje.",
+                "Przeniesiono logikÄ™ testowego widoku na produkcyjne nazwy updateHub i softwareUpdate bez publicznych identyfikatorĂłw testowych.",
+                "Ikony Firmware i Filesystem uruchamiajÄ… lokalny wybĂłr pliku, a przycisk Aktualizuj pojawia siÄ™ tylko przy dostÄ™pnej aktualizacji online.",
+                "Zachowano modal kopii ustawieĹ„ dla aktualizacji filesystemu i usuniÄ™to stare skrypty oraz style paneli online/lokalnych."
+            ]
+        },
+        {
+            "version": "1.0.0.667",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.667",
+            "date": "2026-06-21T12:54:19+01:00",
+            "title": "Mniejszy przycisk Aktualizuj bez dolnych pillĂłw",
+            "changes": [
+                "Przycisk Aktualizuj ma teraz minimalnÄ… wysokoĹ›Ä‡ 17 px, z ikonÄ… i tekstem dopasowanymi do maĹ‚ego pill-a.",
+                "UsuniÄ™to dolne pille informacyjne z kafelkĂłw Firmware i Filesystem w widoku Test updt.",
+                "PosprzÄ…tano nieuĹĽywane identyfikatory i logikÄ™ aktualizacji tekstu dla usuniÄ™tych pillĂłw."
+            ]
+        },
+        {
+            "version": "1.0.0.666",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.666",
+            "date": "2026-06-21T12:35:46+01:00",
+            "title": "Ikona w przycisku Aktualizuj",
+            "changes": [
+                "Przycisk Aktualizuj w widoku Test updt otrzymaĹ‚ ikonÄ™ U+F0C5.",
+                "Zmniejszono wysokoĹ›Ä‡ przycisku Aktualizuj do 22 px.",
+                "Dopasowano odstÄ™p miÄ™dzy ikonÄ… i tekstem, ĹĽeby przycisk pozostaĹ‚ kompaktowy."
+            ]
+        },
+        {
+            "version": "1.0.0.665",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.665",
+            "date": "2026-06-21T12:24:03+01:00",
+            "title": "Kompaktowy przycisk Aktualizuj",
+            "changes": [
+                "Przycisk Aktualizuj w mini-panelu pamiÄ™ci ma teraz wysokoĹ›Ä‡ i styl maĹ‚ego statusowego pill.",
+                "UsuniÄ™to ikonÄ™ z przycisku Aktualizuj, ĹĽeby wyglÄ…daĹ‚ lekko i nie rozpychaĹ‚ kafelka.",
+                "Na wÄ…skich ekranach przycisk pozostaje kompaktowy zamiast rozciÄ…gaÄ‡ siÄ™ na caĹ‚Ä… szerokoĹ›Ä‡."
+            ]
+        },
+        {
+            "version": "1.0.0.664",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.664",
+            "date": "2026-06-21T12:15:43+01:00",
+            "title": "UsuniÄ™cie paska mapy pamiÄ™ci z Test updt",
+            "changes": [
+                "UsuniÄ™to dolny pasek mapy pamiÄ™ci z zakĹ‚adki Test updt.",
+                "Skasowano nieuĹĽywany element HTML, funkcjÄ™ renderujÄ…cÄ… oraz dedykowane style tego paska.",
+                "Pozostawiono bez zmian mapÄ™ pamiÄ™ci w diagnostyce urzÄ…dzenia."
+            ]
+        },
+        {
+            "version": "1.0.0.663",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.663",
+            "date": "2026-06-21T12:04:56+01:00",
+            "title": "Przycisk Aktualizuj przy pasku postÄ™pu",
+            "changes": [
+                "Przycisk Aktualizuj pojawia siÄ™ po prawej stronie paska tylko wtedy, gdy dla danego kafelka jest dostÄ™pna aktualizacja online.",
+                "Po rozpoczÄ™ciu aktualizacji przycisk znika, a pasek ponownie zajmuje peĹ‚nÄ… szerokoĹ›Ä‡ i pokazuje postÄ™p pobierania oraz zapisu.",
+                "UsuniÄ™to pozostaĹ‚oĹ›ci dolnego wiersza akcji z widoku Test updt."
+            ]
+        },
+        {
+            "version": "1.0.0.661",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.661",
+            "date": "2026-06-21T11:43:37+01:00",
+            "title": "Etykiety LittleFS w Test updt",
+            "changes": [
+                "Karta Firmware pokazuje teraz LittleFS (C:) lub LittleFS (D:) zaleĹĽnie od aktywnego slotu OTA.",
+                "KlikniÄ™cie obszaru LittleFS (C:) albo LittleFS (D:) pokazuje komunikat: nie moĹĽna otworzyÄ‡, zawartoĹ›Ä‡ zabezpieczona.",
+                "Karta Filesystem pokazuje LittleFS (E:), a klikniÄ™cie tego obszaru przenosi do menedĹĽera plikĂłw /fileman."
+            ]
+        },
+        {
+            "version": "1.0.0.660",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.660",
+            "date": "2026-06-21T11:28:19+01:00",
+            "title": "Ikona Filesystem jako wybĂłr pliku",
+            "changes": [
+                "W karcie Filesystem klikniÄ™cie ikony storage.png otwiera wybĂłr pliku littlefs.bin i uruchamia lokalnÄ… aktualizacjÄ™ po modalu kopii ustawieĹ„.",
+                "Po wybraniu pliku nazwa w mini-panelu Filesystem zmienia siÄ™ na nazwÄ™ wybranego pliku podczas aktualizacji.",
+                "UsuniÄ™to widoczny wiersz wyboru pliku z karty Filesystem; przycisk aktualizacji online pozostaje ukryty do czasu dostÄ™pnej aktualizacji."
+            ]
+        },
+        {
+            "version": "1.0.0.659",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.659",
+            "date": "2026-06-21T11:18:57+01:00",
+            "title": "Ikona Firmware jako wybĂłr pliku",
+            "changes": [
+                "W karcie Firmware klikniÄ™cie ikony fw.png otwiera wybĂłr pliku firmware.bin i od razu uruchamia aktualizacjÄ™ lokalnÄ….",
+                "Po wybraniu pliku nazwa w mini-panelu Firmware zmienia siÄ™ na nazwÄ™ wybranego pliku podczas aktualizacji.",
+                "UsuniÄ™to dolny widoczny wiersz wyboru pliku z karty Firmware; przycisk aktualizacji online pozostaje ukryty do czasu dostÄ™pnej aktualizacji."
+            ]
+        },
+        {
+            "version": "1.0.0.658",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.658",
+            "date": "2026-06-21T11:07:33+01:00",
+            "title": "Ikona storage dla Filesystem",
+            "changes": [
+                "Karta Filesystem w zakĹ‚adce Test updt uĹĽywa teraz ikony storage.png zamiast home.png."
+            ]
+        },
+        {
+            "version": "1.0.0.657",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.657",
+            "date": "2026-06-21T11:00:07+01:00",
+            "title": "Czytelniejsze akcje aktualizacji Test updt",
+            "changes": [
+                "W widoku Test updt ukryto tekstowe pole wyboru pliku, gdy nie wybrano pliku ani nie trwa aktualizacja lokalna.",
+                "Przycisk Aktualizuj w kartach Firmware i Filesystem pojawia siÄ™ tylko wtedy, gdy dla danego elementu jest dostÄ™pna aktualizacja online.",
+                "Wiersz akcji w stanie spoczynku pokazuje tylko maĹ‚Ä… ikonÄ™ wyboru pliku, ĹĽeby nie rozpraszaÄ‡ uĹĽytkownika nieaktywnymi kontrolkami."
+            ]
+        },
+        {
+            "version": "1.0.0.656",
+            "firmware_version": "1.0.0.814",
+            "filesystem_version": "1.0.0.656",
+            "date": "2026-06-21T10:46:57+01:00",
+            "title": "Zunifikowany widok aktualizacji Test updt",
+            "changes": [
+                "Przebudowano Test updt: usuniÄ™to dolny pasek uploadu, a wybĂłr pliku i aktualizacja online sÄ… teraz dostÄ™pne bezpoĹ›rednio w kartach Firmware i Filesystem. WybĂłr lokalnego pliku uruchamia aktualizacjÄ™ od razu; dla filesystemu wyĹ›wietlany jest znany modal pobrania ustawieĹ„ albo kontynuacji bez kopii. Paski w kartach pokazujÄ… zajÄ™toĹ›Ä‡ pamiÄ™ci w spoczynku oraz postÄ™p pobierania i zapisu podczas aktualizacji lokalnej lub online. Dodano ikony firmware i filesystem z zasobĂłw portalu oraz zachowano listÄ™ zmian z manifestu OTA w widoku Test updt."
+            ]
+        }
+    ]
 }
