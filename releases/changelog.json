@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.734",
+            "firmware_version": "1.0.0.854",
+            "filesystem_version": "1.0.0.734",
+            "date": "2026-06-29T14:08:23+01:00",
+            "title": "Postęp aktualizacji w /panel",
+            "changes": [
+                "Postęp pobierania i wgrywania w /panel jest teraz wyświetlany w głównym pasku kafelka firmware/filesystem, zamiast w osobnym pasku pod uploadem.",
+                "Tekst pod paskiem pamięci pokazuje status aktualizacji zamiast informacji o zajętości/wolnym miejscu podczas aktywnej aktualizacji.",
+                "Usunięto martwy osobny pasek panelUploadProgress z lekkiego panelu.",
+                "Podbito cache-busting /panel do 1.0.0.734, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
             "version": "1.0.0.733",
             "firmware_version": "1.0.0.851",
             "filesystem_version": "1.0.0.733",

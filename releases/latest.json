@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.854",
-    "filesystem_version": "1.0.0.733",
-    "notes": "Naprawiono instalację aktualizacji online w lekkim panelu /panel.",
+    "filesystem_version": "1.0.0.734",
+    "notes": "Przywrócono oryginalny sposób pokazywania postępu aktualizacji w /panel.",
     "changes": [
-        "Przycisk Aktualizuj w /panel pobiera teraz plik aktualizacji w przeglądarce, a dopiero potem wgrywa go do urządzenia przez OTA.",
-        "Usunięto fałszywy komunikat sukcesu po samym wysłaniu żądania /api/update/install.",
-        "Dodano postęp pobierania i wgrywania dla aktualizacji firmware oraz filesystem.",
-        "Podbito cache-busting /panel do 1.0.0.733, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+        "Postęp pobierania i wgrywania w /panel jest teraz wyświetlany w głównym pasku kafelka firmware/filesystem, zamiast w osobnym pasku pod uploadem.",
+        "Tekst pod paskiem pamięci pokazuje status aktualizacji zamiast informacji o zajętości/wolnym miejscu podczas aktywnej aktualizacji.",
+        "Usunięto martwy osobny pasek panelUploadProgress z lekkiego panelu.",
+        "Podbito cache-busting /panel do 1.0.0.734, odświeżono gzipy i zbudowano nowy obraz LittleFS."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "A6284031D15C749E362C816760AE6CB8"
+        "md5": "2E40029153F776E6AB4C42C6A898F549"
     },
-    "build_time": "2026-06-29T13:51:48+01:00",
+    "build_time": "2026-06-29T14:08:23+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
