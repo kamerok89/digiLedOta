@@ -2,24 +2,25 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.854",
-    "filesystem_version": "1.0.0.734",
-    "notes": "Przywrócono oryginalny sposób pokazywania postępu aktualizacji w /panel.",
+    "filesystem_version": "1.0.0.735",
+    "notes": "Dodano przełączniki usług pozwalające wyciszyć diagnostykę, PWM i integracje działające w tle.",
     "changes": [
-        "Postęp pobierania i wgrywania w /panel jest teraz wyświetlany w głównym pasku kafelka firmware/filesystem, zamiast w osobnym pasku pod uploadem.",
-        "Tekst pod paskiem pamięci pokazuje status aktualizacji zamiast informacji o zajętości/wolnym miejscu podczas aktywnej aktualizacji.",
-        "Usunięto martwy osobny pasek panelUploadProgress z lekkiego panelu.",
-        "Podbito cache-busting /panel do 1.0.0.734, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+        "Dodano w Konfiguracji kafelek Usługi i odświeżanie z przełącznikami Diagnostyka, PWM, Wbudowana LED, Powiadomienia, Modbus TCP/RTU, MiLight i Sound Reactive.",
+        "Wyłączenie diagnostyki zatrzymuje odświeżanie CPU, RAM, temperatury, procesów, live scen i terminala, ale zostawia lekki odczyt pamięci dla OTA i recovery.",
+        "Wyłączenie PWM zatrzymuje capture PWM, diagnostykę poziomów i sterowanie z wejść PWM bez kasowania kalibracji.",
+        "Wyłączenie Modbus, MiLight lub Sound Reactive zatrzymuje pracę modułu i odświeżanie statusu, zachowując zapisane ustawienia szczegółowe.",
+        "Podbito firmware do 1.0.0.854 i filesystem do 1.0.0.735 oraz odświeżono gzipy portalu."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1671056,
-        "md5": "B84E5D4FBB4ABBDF009B9D58779D3BB8"
+        "size": 1674240,
+        "md5": "59317724BC162747F668F488BB38137F"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "2E40029153F776E6AB4C42C6A898F549"
+        "md5": "E7095564920648BB59830E7113E0E194"
     },
-    "build_time": "2026-06-29T14:08:23+01:00",
+    "build_time": "2026-06-29T13:57:45+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

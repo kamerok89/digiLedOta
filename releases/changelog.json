@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.735",
+            "firmware_version": "1.0.0.854",
+            "filesystem_version": "1.0.0.735",
+            "date": "2026-06-29T13:57:45+01:00",
+            "title": "Przełączniki usług w konfiguracji",
+            "changes": [
+                "Dodano w Konfiguracji kafelek Usługi i odświeżanie z przełącznikami Diagnostyka, PWM, Wbudowana LED, Powiadomienia, Modbus TCP/RTU, MiLight i Sound Reactive.",
+                "Wyłączenie diagnostyki zatrzymuje odświeżanie CPU, RAM, temperatury, procesów, live scen i terminala, ale zostawia lekki odczyt pamięci dla OTA i recovery.",
+                "Wyłączenie PWM zatrzymuje capture PWM, diagnostykę poziomów i sterowanie z wejść PWM bez kasowania kalibracji.",
+                "Wyłączenie Modbus, MiLight lub Sound Reactive zatrzymuje pracę modułu i odświeżanie statusu, zachowując zapisane ustawienia szczegółowe.",
+                "Podbito firmware do 1.0.0.854 i filesystem do 1.0.0.735 oraz odświeżono gzipy portalu."
+            ]
+        },
+        {
             "version": "1.0.0.734",
             "firmware_version": "1.0.0.854",
             "filesystem_version": "1.0.0.734",
