@@ -1,7 +1,7 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.852",
+    "firmware_version": "1.0.0.853",
     "filesystem_version": "1.0.0.733",
     "notes": "Naprawiono wykrywanie aktualizacji OTA w lekkim panelu /panel.",
     "changes": [
