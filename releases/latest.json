@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.851",
-    "filesystem_version": "1.0.0.729",
-    "notes": "Poprawiono wygląd i działanie zakładki Oprogramowanie w lekkim panelu /panel.",
+    "filesystem_version": "1.0.0.730",
+    "notes": "Naprawiono rozwijanie i zwijanie bocznego menu w lekkim panelu /panel.",
     "changes": [
-        "Naprawiono odczyt statystyk pamięci firmware i LittleFS z /api/diag/perf/storage, więc karty nie pokazują już 0 B z 0 B.",
-        "Zastąpiono natywne pola wyboru pliku własnym lekkim kontrolerem uploadu zgodnym ze stylem portalu.",
-        "Usunięto zdublowane ikony z przycisków serwisowych oraz ukryto bezczynny placeholder statusu.",
-        "Podbito cache-busting /panel do 1.0.0.729, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+        "Przycisk hamburgera w topbarze ponownie otwiera boczne menu na telefonie.",
+        "Przycisk Menu w sidebarze zwija i rozwija pasek boczny na desktopie, z zapisem stanu w localStorage.",
+        "Kliknięcie nawigacji, przycisku zamknięcia albo overlay poprawnie zamyka menu mobilne.",
+        "Podbito cache-busting /panel do 1.0.0.730, odświeżono gzipy i zbudowano nowy obraz LittleFS."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "F111F14FB8605A332D4FC1CAFF08341F"
+        "md5": "498EB95CD5C80EBA2E3698C116C3C097"
     },
-    "build_time": "2026-06-28T21:10:05+01:00",
+    "build_time": "2026-06-29T08:04:28+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

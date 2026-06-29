@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.730",
+            "firmware_version": "1.0.0.851",
+            "filesystem_version": "1.0.0.730",
+            "date": "2026-06-29T08:04:28+01:00",
+            "title": "Boczne menu w /panel",
+            "changes": [
+                "Przycisk hamburgera w topbarze ponownie otwiera boczne menu na telefonie.",
+                "Przycisk Menu w sidebarze zwija i rozwija pasek boczny na desktopie, z zapisem stanu w localStorage.",
+                "Kliknięcie nawigacji, przycisku zamknięcia albo overlay poprawnie zamyka menu mobilne.",
+                "Podbito cache-busting /panel do 1.0.0.730, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
             "version": "1.0.0.729",
             "firmware_version": "1.0.0.851",
             "filesystem_version": "1.0.0.729",
