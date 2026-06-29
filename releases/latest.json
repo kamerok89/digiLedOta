@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.851",
-    "filesystem_version": "1.0.0.730",
-    "notes": "Naprawiono rozwijanie i zwijanie bocznego menu w lekkim panelu /panel.",
+    "filesystem_version": "1.0.0.731",
+    "notes": "Poprawiono mobilny wygląd modala miksowania koloru i menu zmiany języka w lekkim panelu /panel.",
     "changes": [
-        "Przycisk hamburgera w topbarze ponownie otwiera boczne menu na telefonie.",
-        "Przycisk Menu w sidebarze zwija i rozwija pasek boczny na desktopie, z zapisem stanu w localStorage.",
-        "Kliknięcie nawigacji, przycisku zamknięcia albo overlay poprawnie zamyka menu mobilne.",
-        "Podbito cache-busting /panel do 1.0.0.730, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+        "Dodano responsywny układ modala Miksowanie koloru w /panel, z czytelnymi przełącznikami i poprawnym centrowaniem na telefonie.",
+        "Naprawiono menu wyboru języka w topheaderze: stała szerokość, poprawne tło opcji i brak białego natywnego przycisku.",
+        "Po wyborze języka dropdown zamyka się i aktualizuje aria-expanded.",
+        "Podbito cache-busting /panel do 1.0.0.731, odświeżono gzipy i zbudowano nowy obraz LittleFS."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "498EB95CD5C80EBA2E3698C116C3C097"
+        "md5": "6E736B5ED33A2E6A8C447D88B64C47EE"
     },
-    "build_time": "2026-06-29T08:04:28+01:00",
+    "build_time": "2026-06-29T08:45:16+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

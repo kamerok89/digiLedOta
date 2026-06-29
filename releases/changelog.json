@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.731",
+            "firmware_version": "1.0.0.851",
+            "filesystem_version": "1.0.0.731",
+            "date": "2026-06-29T08:45:16+01:00",
+            "title": "Modal koloru i menu języka w /panel",
+            "changes": [
+                "Dodano responsywny układ modala Miksowanie koloru w /panel, z czytelnymi przełącznikami i poprawnym centrowaniem na telefonie.",
+                "Naprawiono menu wyboru języka w topheaderze: stała szerokość, poprawne tło opcji i brak białego natywnego przycisku.",
+                "Po wyborze języka dropdown zamyka się i aktualizuje aria-expanded.",
+                "Podbito cache-busting /panel do 1.0.0.731, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
             "version": "1.0.0.730",
             "firmware_version": "1.0.0.851",
             "filesystem_version": "1.0.0.730",
