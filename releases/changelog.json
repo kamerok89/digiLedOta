@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.733",
+            "firmware_version": "1.0.0.851",
+            "filesystem_version": "1.0.0.733",
+            "date": "2026-06-29T13:51:48+01:00",
+            "title": "Instalacja aktualizacji online w /panel",
+            "changes": [
+                "Przycisk Aktualizuj w /panel pobiera teraz plik aktualizacji w przeglądarce, a dopiero potem wgrywa go do urządzenia przez OTA.",
+                "Usunięto fałszywy komunikat sukcesu po samym wysłaniu żądania /api/update/install.",
+                "Dodano postęp pobierania i wgrywania dla aktualizacji firmware oraz filesystem.",
+                "Podbito cache-busting /panel do 1.0.0.733, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
             "version": "1.0.0.732",
             "firmware_version": "1.0.0.851",
             "filesystem_version": "1.0.0.732",
