@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.732",
+            "firmware_version": "1.0.0.851",
+            "filesystem_version": "1.0.0.732",
+            "date": "2026-06-29T09:02:56+01:00",
+            "title": "Wykrywanie aktualizacji OTA w /panel",
+            "changes": [
+                "Lekki panel /panel czyta teraz wersje firmware_version i filesystem_version z manifestu OTA tak jak pełny portal.",
+                "Poprawiono porównywanie wersji z prefiksem v, żeby nie ukrywać dostępnych aktualizacji.",
+                "Podbito cache-busting /panel do 1.0.0.732, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+            ]
+        },
+        {
             "version": "1.0.0.731",
             "firmware_version": "1.0.0.851",
             "filesystem_version": "1.0.0.731",
