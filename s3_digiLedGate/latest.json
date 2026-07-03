@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Portal pilota: aktywne sterowanie ALL po glownym On/Off, wybor grupy przez przycisk 1 przy grupie.",
+  "notes": "Dodana zakladka TF-Bus z terminalem RGBW i mapperem RGB do ramek MiLight hue/sat/bri.",
   "firmware": {
-    "version": "0.1.5",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.5.bin",
-    "md5": "e320995b31d93fdb3c8dfc68436e98dd",
-    "size": 964032
+    "version": "0.1.6",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.6.bin",
+    "md5": "dfb97ecaf7fec96679a9f4a2d1ce8c9d",
+    "size": 971936
   }
 }
