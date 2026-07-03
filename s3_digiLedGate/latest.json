@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Testowe podbicie wersji OTA do 0.1.4.",
+  "notes": "Portal pilota: aktywne sterowanie ALL po glownym On/Off, wybor grupy przez przycisk 1 przy grupie.",
   "firmware": {
-    "version": "0.1.4",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.4.bin",
-    "md5": "89ce0d35df765760964877c2b8845f7a",
-    "size": 963360
+    "version": "0.1.5",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.5.bin",
+    "md5": "e320995b31d93fdb3c8dfc68436e98dd",
+    "size": 964032
   }
 }
