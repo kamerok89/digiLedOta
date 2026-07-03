@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodana reczna aktualizacja firmware przez upload lokalnego pliku .bin.",
+  "notes": "Po udanej aktualizacji portal pokazuje modal restartu i sam odswieza strone.",
   "firmware": {
-    "version": "0.1.10",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.10.bin",
-    "md5": "e40be10918c0328c7cc08e6e61a26933",
-    "size": 978672
+    "version": "0.1.11",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.11.bin",
+    "md5": "73bb5dd584344128061b7c0610a5371d",
+    "size": 980512
   }
 }
