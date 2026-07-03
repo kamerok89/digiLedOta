@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Po udanej aktualizacji portal pokazuje modal restartu i sam odswieza strone.",
+  "notes": "Modal po aktualizacji bez odliczania, automatyczne odswiezenie po 4 sekundach.",
   "firmware": {
-    "version": "0.1.11",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.11.bin",
-    "md5": "73bb5dd584344128061b7c0610a5371d",
-    "size": 980512
+    "version": "0.1.12",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.12.bin",
+    "md5": "b2cf0ba467c6a5a410a6dc33b35d76ce",
+    "size": 980112
   }
 }
