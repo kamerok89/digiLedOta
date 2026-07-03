@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Poprawka widoku aktualizacji: wynik sprawdzania nie znika po statusie idle.",
+  "notes": "Testowe podbicie wersji OTA do 0.1.4.",
   "firmware": {
-    "version": "0.1.3",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.3.bin",
-    "md5": "74efe947df387d0fd4debfcd4cb22bd1",
+    "version": "0.1.4",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.4.bin",
+    "md5": "89ce0d35df765760964877c2b8845f7a",
     "size": 963360
   }
 }
