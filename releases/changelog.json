@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.749",
+            "firmware_version": "1.0.0.870",
+            "filesystem_version": "1.0.0.749",
+            "date": "2026-07-03T17:52:05+01:00",
+            "title": "Zapas miejsca LittleFS po dodaniu pilota",
+            "changes": [
+                "Opóźniony zapis ostatnich sieci Wi-Fi zapisuje teraz tylko stan runtime do NVS, bez niepotrzebnego zapisu settings.json w LittleFS.",
+                "Dodano kontrolę wolnego miejsca przed atomicznym zapisem settings.json i milight.json; przy zbyt małym zapasie firmware loguje błąd zamiast ryzykować panic w lfs_alloc.",
+                "Tymczasowo odchudzono obraz LittleFS przez usunięcie folderu /api, aby odzyskać zapas miejsca dla konfiguracji i plików JSON.",
+                "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.870 oraz filesystem 1.0.0.749."
+            ]
+        },
+        {
             "version": "1.0.0.745",
             "firmware_version": "1.0.0.868",
             "filesystem_version": "1.0.0.745",

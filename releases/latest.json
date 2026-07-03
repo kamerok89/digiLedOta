@@ -1,24 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.868",
-    "filesystem_version": "1.0.0.745",
-    "notes": "Naprawiono import kopii ustawień MiLight tak, aby zapisane piloty były odtwarzane razem z akcjami, oraz zabezpieczono równoległe zapisy JSON do LittleFS przed resetem firmware.",
+    "firmware_version": "1.0.0.870",
+    "filesystem_version": "1.0.0.749",
+    "notes": "Naprawiono reset przy pełnym LittleFS po dodaniu pilota MiLight: zapis stanu Wi-Fi omija teraz settings.json, a zapisy JSON sprawdzają zapas miejsca przed wejściem w LittleFS.",
     "changes": [
-        "Import ustawień MiLight zapisuje teraz pełny plik milight.json po odtworzeniu pilotów i mapowań akcji, więc ostatnio zapisane piloty nie giną po wczytaniu kopii.",
-        "Dodano wspólną blokadę zapisu LittleFS dla settings.json i milight.json, aby równoległy zapis z portalu oraz ticka Wi-Fi nie powodował crasha podczas fclose().",
-        "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.868 oraz filesystem 1.0.0.745."
+        "Opóźniony zapis ostatnich sieci Wi-Fi zapisuje teraz tylko stan runtime do NVS, bez niepotrzebnego zapisu settings.json w LittleFS.",
+        "Dodano kontrolę wolnego miejsca przed atomicznym zapisem settings.json i milight.json; przy zbyt małym zapasie firmware loguje błąd zamiast ryzykować panic w lfs_alloc.",
+        "Tymczasowo odchudzono obraz LittleFS przez usunięcie folderu /api, aby odzyskać zapas miejsca dla konfiguracji i plików JSON.",
+        "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.870 oraz filesystem 1.0.0.749."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1683008,
-        "md5": "D4ACC3A7A93219784C95A9B301EAA62C"
+        "size": 1683616,
+        "md5": "541209EE02171628F7EDB8CB684723D2"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "1ABE8F568853AD2A92839AF6054D10BF"
+        "md5": "07255EE166B0CFDECD65364B16711B1E"
     },
-    "build_time": "2026-07-03T17:36:17+01:00",
+    "build_time": "2026-07-03T17:52:05+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
