@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Testowe podbicie wersji OTA do 0.1.8.",
+  "notes": "TF-Bus nadaje teraz kompatybilny payload RGBW w jednej ramce MiLight V2.",
   "firmware": {
-    "version": "0.1.8",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.8.bin",
-    "md5": "cac1233809a87fc8b27332283af4ca9b",
-    "size": 975744
+    "version": "0.1.9",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.9.bin",
+    "md5": "c3d8e8286af446df00b3d1f75cea49a7",
+    "size": 975536
   }
 }
