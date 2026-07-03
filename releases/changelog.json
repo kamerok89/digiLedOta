@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.736",
+            "firmware_version": "1.0.0.855",
+            "filesystem_version": "1.0.0.736",
+            "date": "2026-07-03T13:28:42+01:00",
+            "title": "Limit połączeń AP w portalu",
+            "changes": [
+                "Dodano w zakładce Wi-Fi kafelek Połączenia AP między Hostname i Ostatnie połączenia z edytorem liczby klientów 1-8.",
+                "Domyślny limit nowych konfiguracji AP wynosi 1 klient, a zapis przeładowuje hotspot z nową wartością.",
+                "Firmware używa zapisanego limitu przy starcie SoftAP i zwraca w API aktualną liczbę klientów AP.",
+                "Podbito firmware do 1.0.0.855 i filesystem do 1.0.0.736 oraz odświeżono gzipy portalu."
+            ]
+        },
+        {
             "version": "1.0.0.735",
             "firmware_version": "1.0.0.854",
             "filesystem_version": "1.0.0.735",

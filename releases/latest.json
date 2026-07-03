@@ -1,26 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.854",
-    "filesystem_version": "1.0.0.735",
-    "notes": "Dodano przełączniki usług pozwalające wyciszyć diagnostykę, PWM i integracje działające w tle.",
+    "firmware_version": "1.0.0.855",
+    "filesystem_version": "1.0.0.736",
+    "notes": "Dodano w portalu ustawienie maksymalnej liczby klientów hotspotu AP z domyślną wartością 1.",
     "changes": [
-        "Dodano w Konfiguracji kafelek Usługi i odświeżanie z przełącznikami Diagnostyka, PWM, Wbudowana LED, Powiadomienia, Modbus TCP/RTU, MiLight i Sound Reactive.",
-        "Wyłączenie diagnostyki zatrzymuje odświeżanie CPU, RAM, temperatury, procesów, live scen i terminala, ale zostawia lekki odczyt pamięci dla OTA i recovery.",
-        "Wyłączenie PWM zatrzymuje capture PWM, diagnostykę poziomów i sterowanie z wejść PWM bez kasowania kalibracji.",
-        "Wyłączenie Modbus, MiLight lub Sound Reactive zatrzymuje pracę modułu i odświeżanie statusu, zachowując zapisane ustawienia szczegółowe.",
-        "Podbito firmware do 1.0.0.854 i filesystem do 1.0.0.735 oraz odświeżono gzipy portalu."
+        "Dodano w zakładce Wi-Fi kafelek Połączenia AP między Hostname i Ostatnie połączenia z edytorem liczby klientów 1-8.",
+        "Domyślny limit nowych konfiguracji AP wynosi 1 klient, a zapis przeładowuje hotspot z nową wartością.",
+        "Firmware używa zapisanego limitu przy starcie SoftAP i zwraca w API aktualną liczbę klientów AP.",
+        "Podbito firmware do 1.0.0.855 i filesystem do 1.0.0.736 oraz odświeżono gzipy portalu."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1674240,
-        "md5": "59317724BC162747F668F488BB38137F"
+        "size": 1675072,
+        "md5": "40AB16E970FA00F1FFD56F94B5AFF68B"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "E7095564920648BB59830E7113E0E194"
+        "md5": "E97268BF8F39B0C8B3A65055E34D9051"
     },
-    "build_time": "2026-06-29T13:57:45+01:00",
+    "build_time": "2026-07-03T13:28:42+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
