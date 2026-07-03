@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.738",
+            "firmware_version": "1.0.0.860",
+            "filesystem_version": "1.0.0.738",
+            "date": "2026-07-03T14:00:08+01:00",
+            "title": "Limit kart portalu",
+            "changes": [
+                "Zmieniono kafelek w Wi-Fi na Połączenia portalu z ustawieniem maksymalnej liczby aktywnych kart (domyślnie 1, zakres 1-8).",
+                "Dodano heartbeat sesji portalu; po otwarciu IP w kolejnej karcie urządzenie usuwa najstarszą sesję i blokuje jej dalsze odświeżanie.",
+                "Przywrócono limit SoftAP do 8 klientów sieciowych, żeby ustawienie nie ograniczało fizycznych połączeń Wi-Fi.",
+                "Podbito firmware do 1.0.0.860 i filesystem do 1.0.0.738 oraz odświeżono gzipy portalu."
+            ]
+        },
+        {
             "version": "1.0.0.736",
             "firmware_version": "1.0.0.855",
             "filesystem_version": "1.0.0.736",

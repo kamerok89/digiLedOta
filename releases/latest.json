@@ -1,25 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.855",
-    "filesystem_version": "1.0.0.736",
-    "notes": "Dodano w portalu ustawienie maksymalnej liczby klientów hotspotu AP z domyślną wartością 1.",
+    "firmware_version": "1.0.0.860",
+    "filesystem_version": "1.0.0.738",
+    "notes": "Poprawiono limit połączeń tak, aby dotyczył kart przeglądarki portalu. Nowa karta przejmuje miejsce, a najstarsza sesja zostaje odłączona po wyczerpaniu limitu.",
     "changes": [
-        "Dodano w zakładce Wi-Fi kafelek Połączenia AP między Hostname i Ostatnie połączenia z edytorem liczby klientów 1-8.",
-        "Domyślny limit nowych konfiguracji AP wynosi 1 klient, a zapis przeładowuje hotspot z nową wartością.",
-        "Firmware używa zapisanego limitu przy starcie SoftAP i zwraca w API aktualną liczbę klientów AP.",
-        "Podbito firmware do 1.0.0.855 i filesystem do 1.0.0.736 oraz odświeżono gzipy portalu."
+        "Zmieniono kafelek w Wi-Fi na Połączenia portalu z ustawieniem maksymalnej liczby aktywnych kart (domyślnie 1, zakres 1-8).",
+        "Dodano heartbeat sesji portalu; po otwarciu IP w kolejnej karcie urządzenie usuwa najstarszą sesję i blokuje jej dalsze odświeżanie.",
+        "Przywrócono limit SoftAP do 8 klientów sieciowych, żeby ustawienie nie ograniczało fizycznych połączeń Wi-Fi.",
+        "Podbito firmware do 1.0.0.860 i filesystem do 1.0.0.738 oraz odświeżono gzipy portalu."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1675072,
-        "md5": "40AB16E970FA00F1FFD56F94B5AFF68B"
+        "size": 1678032,
+        "md5": "2941D75E40F1C9D4E15DE0436A43437A"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "E97268BF8F39B0C8B3A65055E34D9051"
+        "md5": "B81008D7B0771D3F934BF936A5C1E4B1"
     },
-    "build_time": "2026-07-03T13:28:42+01:00",
+    "build_time": "2026-07-03T14:00:08+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
