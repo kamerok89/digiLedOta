@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.739",
+            "firmware_version": "1.0.0.861",
+            "filesystem_version": "1.0.0.739",
+            "date": "2026-07-03T17:01:49+01:00",
+            "title": "TF-Remote w ustawieniach MiLight",
+            "changes": [
+                "Dodano w ustawieniach pilota MiLight wybór typu: Oryginalny MiLight albo TF-Remote.",
+                "Oryginalny MiLight zachowuje dotychczasowe mapowanie komend i trybów dotyku.",
+                "TF-Remote interpretuje bajty R/G/B jako wartości koloru, a bajt W jako tryb komendy: kolor RGB, sceny ON/OFF w prawo/lewo, efekty/presety oraz komendę specjalną stop all.",
+                "Podbito firmware do 1.0.0.861 i filesystem do 1.0.0.739 oraz odświeżono gzipy portalu."
+            ]
+        },
+        {
             "version": "1.0.0.738",
             "firmware_version": "1.0.0.860",
             "filesystem_version": "1.0.0.738",
