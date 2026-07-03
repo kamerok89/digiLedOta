@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodana zakladka TF-Bus z terminalem RGBW i mapperem RGB do ramek MiLight hue/sat/bri.",
+  "notes": "Osobne ID nadajnika dla zakladek Pilot i TF-Bus oraz automatyczne odswiezenie strony po OTA.",
   "firmware": {
-    "version": "0.1.6",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.6.bin",
-    "md5": "dfb97ecaf7fec96679a9f4a2d1ce8c9d",
-    "size": 971936
+    "version": "0.1.7",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.7.bin",
+    "md5": "50996b8aa746626e556f3ba0cce46eb0",
+    "size": 975744
   }
 }
