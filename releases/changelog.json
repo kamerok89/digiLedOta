@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.745",
+            "firmware_version": "1.0.0.868",
+            "filesystem_version": "1.0.0.745",
+            "date": "2026-07-03T17:36:17+01:00",
+            "title": "Import pilotów MiLight i stabilny zapis LittleFS",
+            "changes": [
+                "Import ustawień MiLight zapisuje teraz pełny plik milight.json po odtworzeniu pilotów i mapowań akcji, więc ostatnio zapisane piloty nie giną po wczytaniu kopii.",
+                "Dodano wspólną blokadę zapisu LittleFS dla settings.json i milight.json, aby równoległy zapis z portalu oraz ticka Wi-Fi nie powodował crasha podczas fclose().",
+                "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.868 oraz filesystem 1.0.0.745."
+            ]
+        },
+        {
             "version": "1.0.0.739",
             "firmware_version": "1.0.0.861",
             "filesystem_version": "1.0.0.739",
