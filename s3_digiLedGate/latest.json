@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Pierwsza wersja z zakladka aktualizacji OTA przez GitHub.",
+  "notes": "Test aktualizacji OTA do wersji 0.1.2.",
   "firmware": {
-    "version": "0.1.1",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/s3_digiLedGate/firmware-0.1.1.bin",
-    "md5": "5f4d32465789c071ff61a1afb92cbb56",
+    "version": "0.1.2",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/s3_digiLedGate/firmware-0.1.2.bin",
+    "md5": "502f12983a9338acbda1871e7670f5ea",
     "size": 962032
   }
 }
