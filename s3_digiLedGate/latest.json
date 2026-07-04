@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Poprawiony wyglad listy wyszukanych sieci WiFi.",
+  "notes": "Dodana konsola odczytu ramek MODBUS w integracji TF-BUS.",
   "firmware": {
-    "version": "0.1.38",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.38.bin",
-    "md5": "1c1b11040b28957a6ef999eda8c05418",
-    "size": 1026512
+    "version": "0.1.39",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.39.bin",
+    "md5": "f22ae759800317cdca440cba43d2612e",
+    "size": 1052512
   }
 }
