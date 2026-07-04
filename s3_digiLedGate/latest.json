@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodany tryb AP oraz zakladka WiFi z wyszukiwaniem i zapisem sieci.",
+  "notes": "Uproszczony naglowek portalu i przeniesiony znacznik aktywnej grupy do zakladki Pilot.",
   "firmware": {
-    "version": "0.1.35",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.35.bin",
-    "md5": "e612de2eddaf159efbb2558f9542956c",
-    "size": 1022496
+    "version": "0.1.36",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.36.bin",
+    "md5": "28cc5e5d92b325d83b1ac7d0d48b4246",
+    "size": 1022528
   }
 }
