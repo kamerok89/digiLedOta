@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Poprawione pokazywanie modala restartu po OTA: instalacja online startuje w tle, a status restartu jest widoczny dluzej.",
+  "notes": "Dopracowane teksty panelu aktualizacji, spinner podczas sprawdzania i procent postepu przy pasku.",
   "firmware": {
-    "version": "0.1.16",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.16.bin",
-    "md5": "15fc981c4b5ed15dc57921312f7da6ff",
-    "size": 985088
+    "version": "0.1.17",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.17.bin",
+    "md5": "53ac5bf542165716123adc776ad81769",
+    "size": 986320
   }
 }
