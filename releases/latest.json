@@ -2,12 +2,12 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.872",
-    "filesystem_version": "1.0.0.750",
-    "notes": "Dopasowano kafelek Usługi i odświeżanie do stylu pozostałych kafelków konfiguracji i skrócono jego zwinięty stan.",
+    "filesystem_version": "1.0.0.751",
+    "notes": "Dodano osobną ikonę modułu LED RGBW dla pilotów ustawionych jako TF-Remote.",
     "changes": [
-        "Kafelek Usługi i odświeżanie korzysta teraz z tego samego tła, obramowania i promienia co pozostałe kafelki w Konfiguracji.",
-        "Stan zwinięty jest niższy o 15 px, a ukryta lista przełączników nie wystaje spod nagłówka.",
-        "Odświeżono style portalu, version.json.gz i opublikowano obraz LittleFS 1.0.0.750."
+        "Karty pilotów TF-Remote pokazują teraz czarny moduł LED RGBW zamiast standardowej ikony pilota MiLight.",
+        "Ta sama ikona pojawia się w szczegółach pilota, aktywności i modalu ustawień typu pilota.",
+        "Odświeżono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.751."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "BE87D11CE28170662E5C5F3D631468D5"
+        "md5": "3D32FCCD388B85763468B7449998E7E8"
     },
-    "build_time": "2026-07-04T16:26:36+01:00",
+    "build_time": "2026-07-04T20:04:49+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
