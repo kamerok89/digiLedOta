@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Poprawione ustawienie przycisku zapisu typu modulu w Integracji.",
+  "notes": "Dodany tryb AP oraz zakladka WiFi z wyszukiwaniem i zapisem sieci.",
   "firmware": {
-    "version": "0.1.34",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.34.bin",
-    "md5": "f19178916b028c8e243b47f4747ef24f",
-    "size": 1011120
+    "version": "0.1.35",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.35.bin",
+    "md5": "e612de2eddaf159efbb2558f9542956c",
+    "size": 1022496
   }
 }
