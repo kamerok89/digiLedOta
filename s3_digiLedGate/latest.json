@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodana karta statusu WiFi w topce portalu.",
+  "notes": "Poprawiony wyglad listy wyszukanych sieci WiFi.",
   "firmware": {
-    "version": "0.1.37",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.37.bin",
-    "md5": "d5f288dd2e88507cee067cc3d349d5e3",
-    "size": 1024624
+    "version": "0.1.38",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.38.bin",
+    "md5": "1c1b11040b28957a6ef999eda8c05418",
+    "size": 1026512
   }
 }
