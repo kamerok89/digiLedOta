@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "W normalnym stanie karta firmware pokazuje zajete miejsce i wolna przestrzen, procent tylko podczas aktualizacji.",
+  "notes": "Drobne korekty UI aktualizacji: mniejszy przycisk sprawdzania i odsunieta karta firmware od separatora.",
   "firmware": {
-    "version": "0.1.20",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.20.bin",
-    "md5": "2cf94657c8666e2976b072883c3050e9",
-    "size": 987744
+    "version": "0.1.21",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.21.bin",
+    "md5": "dab76c08050093444dd7c379d04e11e3",
+    "size": 987968
   }
 }
