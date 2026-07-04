@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dopracowany panel aktualizacji: status w linii wersji, komunikaty pod paskiem i maly przycisk Aktualizuj przy progressbarze.",
+  "notes": "Modal restartu jest aktywnie wywolywany po sukcesie aktualizacji online i recznej.",
   "firmware": {
-    "version": "0.1.14",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.14.bin",
-    "md5": "0d487baf2ed653ca810cc08d6ecc0681",
-    "size": 984448
+    "version": "0.1.15",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.15.bin",
+    "md5": "8c01ed672d9234400e6ae0549e6b2e44",
+    "size": 985088
   }
 }
