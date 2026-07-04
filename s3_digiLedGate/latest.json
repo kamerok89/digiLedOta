@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Uproszczony kafelek ID nadajnika i dodane przerwanie parowania TF-BUS.",
+  "notes": "Dodana instrukcja w aktywnym trybie parowania TF-BUS.",
   "firmware": {
-    "version": "0.1.29",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.29.bin",
-    "md5": "2f40378ec933ab0c70b8147518933f99",
-    "size": 1009120
+    "version": "0.1.30",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.30.bin",
+    "md5": "d752c50a20e7609fda7adaf437d43773",
+    "size": 1009344
   }
 }
