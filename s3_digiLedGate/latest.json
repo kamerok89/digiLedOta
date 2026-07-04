@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodany kafelek ID i 20-sekundowy tryb parowania TF-BUS.",
+  "notes": "Dodany pelny widok konsoli podczas aktywnego parowania TF-BUS.",
   "firmware": {
-    "version": "0.1.27",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.27.bin",
-    "md5": "fd8436f902f15d2d695f235139776b98",
-    "size": 1004192
+    "version": "0.1.28",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.28.bin",
+    "md5": "25c9289546da25cfe7fe93ab6d2bf7b8",
+    "size": 1008352
   }
 }
