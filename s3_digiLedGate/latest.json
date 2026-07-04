@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Modal po aktualizacji bez odliczania, automatyczne odswiezenie po 4 sekundach.",
+  "notes": "Nowy wyglad zakladki Aktualizacje z karta firmware i wyborem pliku przez ikone folderu.",
   "firmware": {
-    "version": "0.1.12",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.12.bin",
-    "md5": "b2cf0ba467c6a5a410a6dc33b35d76ce",
-    "size": 980112
+    "version": "0.1.13",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.13.bin",
+    "md5": "0e34cad67abf2575f31a7e2b71e587e2",
+    "size": 983776
   }
 }
