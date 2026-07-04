@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodana zakladka Nadajnik i przeniesione parowanie TF-BUS poza konsole.",
+  "notes": "Przeredagowana sciaga API TF-BUS z przykladami uzycia.",
   "firmware": {
-    "version": "0.1.31",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.31.bin",
-    "md5": "ad63b9f3a264fcfbaa0382ad10ee3c79",
-    "size": 1010000
+    "version": "0.1.32",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.32.bin",
+    "md5": "97ec2227ece3f5b48d1e62101e52a7b3",
+    "size": 1010896
   }
 }
