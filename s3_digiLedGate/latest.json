@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Modal restartu jest aktywnie wywolywany po sukcesie aktualizacji online i recznej.",
+  "notes": "Poprawione pokazywanie modala restartu po OTA: instalacja online startuje w tle, a status restartu jest widoczny dluzej.",
   "firmware": {
-    "version": "0.1.15",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.15.bin",
-    "md5": "8c01ed672d9234400e6ae0549e6b2e44",
+    "version": "0.1.16",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.16.bin",
+    "md5": "15fc981c4b5ed15dc57921312f7da6ff",
     "size": 985088
   }
 }
