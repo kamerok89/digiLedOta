@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Poprawiony wyglad pola firmware podczas trwania aktualizacji.",
+  "notes": "Dodane pole typu modulu TF-BUS w zakladce Integracja.",
   "firmware": {
-    "version": "0.1.23",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.23.bin",
-    "md5": "bca0655f60443ea4c46f097d27a8d759",
-    "size": 991776
+    "version": "0.1.24",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.24.bin",
+    "md5": "7938111aaa9f4b9f0492615d37038e23",
+    "size": 994320
   }
 }
