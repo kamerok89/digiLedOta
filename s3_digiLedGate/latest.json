@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Nowy wyglad zakladki Aktualizacje z karta firmware i wyborem pliku przez ikone folderu.",
+  "notes": "Dopracowany panel aktualizacji: status w linii wersji, komunikaty pod paskiem i maly przycisk Aktualizuj przy progressbarze.",
   "firmware": {
-    "version": "0.1.13",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.13.bin",
-    "md5": "0e34cad67abf2575f31a7e2b71e587e2",
-    "size": 983776
+    "version": "0.1.14",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.14.bin",
+    "md5": "0d487baf2ed653ca810cc08d6ecc0681",
+    "size": 984448
   }
 }
