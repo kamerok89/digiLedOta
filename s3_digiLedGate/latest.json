@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodana instrukcja w aktywnym trybie parowania TF-BUS.",
+  "notes": "Dodana zakladka Nadajnik i przeniesione parowanie TF-BUS poza konsole.",
   "firmware": {
-    "version": "0.1.30",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.30.bin",
-    "md5": "d752c50a20e7609fda7adaf437d43773",
-    "size": 1009344
+    "version": "0.1.31",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.31.bin",
+    "md5": "ad63b9f3a264fcfbaa0382ad10ee3c79",
+    "size": 1010000
   }
 }
