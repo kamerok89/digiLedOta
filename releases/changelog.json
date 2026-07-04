@@ -2,6 +2,19 @@
     "releases": [
         {
             "version": "1.0.0.749",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.749",
+            "date": "2026-07-04T14:56:32+01:00",
+            "title": "Uczenie TF-Remote z dowolnej ramki RGBW",
+            "changes": [
+                "TF-Remote interpretuje teraz W=0 jako RGB, W=1 jako HUE, W=2 jako Saturation/Brightness, W=3 jako prędkości FX, W=4/5 jako start/stop wszystkich scen.",
+                "Dodano obsługę W=6/7 dla start/stop wskazanej sceny, W=8 dla ręcznego kierunku sceny oraz W=9 dla tymczasowego RUN FX na wszystkich scenach albo wskazanej scenie.",
+                "Uczenie TF-Remote akceptuje teraz ramki MiLight V2 z poprawnym checksumem także wtedy, gdy R nie mieści się w starym zakresie komend MiLight.",
+                "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.872 oraz filesystem 1.0.0.749."
+            ]
+        },
+        {
+            "version": "1.0.0.749",
             "firmware_version": "1.0.0.871",
             "filesystem_version": "1.0.0.749",
             "date": "2026-07-04T14:53:15+01:00",
