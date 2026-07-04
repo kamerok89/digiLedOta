@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.750",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.750",
+            "date": "2026-07-04T16:26:36+01:00",
+            "title": "Kompaktowy kafelek usług w konfiguracji",
+            "changes": [
+                "Kafelek Usługi i odświeżanie korzysta teraz z tego samego tła, obramowania i promienia co pozostałe kafelki w Konfiguracji.",
+                "Stan zwinięty jest niższy o 15 px, a ukryta lista przełączników nie wystaje spod nagłówka.",
+                "Odświeżono style portalu, version.json.gz i opublikowano obraz LittleFS 1.0.0.750."
+            ]
+        },
+        {
             "version": "1.0.0.749",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.749",

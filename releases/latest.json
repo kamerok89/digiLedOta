@@ -2,14 +2,12 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.872",
-    "filesystem_version": "1.0.0.749",
-    "notes": "Zmieniono mapowanie TF-Remote RGBW dla silnika Scen/FX oraz poluzowano uczenie pilota, aby pierwsza ramka mogła mieć dowolne wartości R/G/B/W z poprawnym checksumem.",
+    "filesystem_version": "1.0.0.750",
+    "notes": "Dopasowano kafelek Usługi i odświeżanie do stylu pozostałych kafelków konfiguracji i skrócono jego zwinięty stan.",
     "changes": [
-        "TF-Remote interpretuje teraz W=0 jako RGB, W=1 jako HUE, W=2 jako Saturation/Brightness, W=3 jako prędkości FX, W=4/5 jako start/stop wszystkich scen.",
-        "Dodano obsługę W=6/7 dla start/stop wskazanej sceny, W=8 dla ręcznego kierunku sceny oraz W=9 dla tymczasowego RUN FX na wszystkich scenach albo wskazanej scenie.",
-        "Status MiLight pokazuje nowe zdarzenia TF-Remote: RGB, HUE, SAT+BRI, FX SPEEDS, START/STOP, DIRECTION i RUN FX.",
-        "Uczenie TF-Remote akceptuje teraz ramki MiLight V2 z poprawnym checksumem także wtedy, gdy R nie mieści się w starym zakresie komend MiLight.",
-        "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.872 oraz filesystem 1.0.0.749."
+        "Kafelek Usługi i odświeżanie korzysta teraz z tego samego tła, obramowania i promienia co pozostałe kafelki w Konfiguracji.",
+        "Stan zwinięty jest niższy o 15 px, a ukryta lista przełączników nie wystaje spod nagłówka.",
+        "Odświeżono style portalu, version.json.gz i opublikowano obraz LittleFS 1.0.0.750."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +17,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "DC3B24921CDB57917AE5A41E0BA0C840"
+        "md5": "BE87D11CE28170662E5C5F3D631468D5"
     },
-    "build_time": "2026-07-04T14:56:32+01:00",
+    "build_time": "2026-07-04T16:26:36+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
