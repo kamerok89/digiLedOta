@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Testowe podbicie wersji OTA do 0.1.18.",
+  "notes": "Testowe podbicie wersji OTA do 0.1.19.",
   "firmware": {
-    "version": "0.1.18",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.18.bin",
-    "md5": "5c4b133c16c2097502ae57c347ec7ec7",
+    "version": "0.1.19",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.19.bin",
+    "md5": "b1084a5d80e3cf150396cb59c4ecdd98",
     "size": 986320
   }
 }
