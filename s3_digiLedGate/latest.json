@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Przeniesione piny MAX485 na D4/D5/D0.",
+  "notes": "TF-BUS jako pierwsza zakladka, nowe domyslne ID i kompaktowy zapis ID pilota.",
   "firmware": {
-    "version": "0.1.40",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.40.bin",
-    "md5": "6f4a77888df2642993f6d92f0b7acfb7",
-    "size": 1052544
+    "version": "0.1.41",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.41.bin",
+    "md5": "f96697e1301444b7db2fc5815e4feca3",
+    "size": 1053168
   }
 }
