@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodana konsola odczytu ramek MODBUS w integracji TF-BUS.",
+  "notes": "Przeniesione piny MAX485 na D4/D5/D0.",
   "firmware": {
-    "version": "0.1.39",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.39.bin",
-    "md5": "f22ae759800317cdca440cba43d2612e",
-    "size": 1052512
+    "version": "0.1.40",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.40.bin",
+    "md5": "6f4a77888df2642993f6d92f0b7acfb7",
+    "size": 1052544
   }
 }
