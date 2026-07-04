@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodane wewnetrzne zakladki TF-BUS: Integracja i Konsola.",
+  "notes": "Poprawiony wyglad pola firmware podczas trwania aktualizacji.",
   "firmware": {
-    "version": "0.1.22",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.22.bin",
-    "md5": "c43b3666e984999277a07fb187faac7d",
-    "size": 989392
+    "version": "0.1.23",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.23.bin",
+    "md5": "bca0655f60443ea4c46f097d27a8d759",
+    "size": 991776
   }
 }
