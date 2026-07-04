@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodana czytelna sciaga API RGBW w konsoli TF-BUS.",
+  "notes": "Dodany kafelek ID i 20-sekundowy tryb parowania TF-BUS.",
   "firmware": {
-    "version": "0.1.26",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.26.bin",
-    "md5": "615058ac5ccdcfe53fd81e437571632b",
-    "size": 999232
+    "version": "0.1.27",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.27.bin",
+    "md5": "fd8436f902f15d2d695f235139776b98",
+    "size": 1004192
   }
 }
