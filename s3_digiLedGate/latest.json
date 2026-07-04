@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Przeredagowana sciaga API TF-BUS z przykladami uzycia.",
+  "notes": "Ujednolicony przycisk zapisu w zakladce Integracja.",
   "firmware": {
-    "version": "0.1.32",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.32.bin",
-    "md5": "97ec2227ece3f5b48d1e62101e52a7b3",
-    "size": 1010896
+    "version": "0.1.33",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.33.bin",
+    "md5": "54c8bf9aa58800cfe01feda73f9b1081",
+    "size": 1010928
   }
 }
