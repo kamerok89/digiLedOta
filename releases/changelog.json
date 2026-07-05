@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.790",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.790",
+            "date": "2026-07-05T14:34:54+01:00",
+            "title": "Wydzielenie ikon MiLight",
+            "changes": [
+                "Dodano moduł 04-milight-glyphs-cascade.css dla ikon pilota i modułu TF.",
+                "Przeniesiono blok glyphów MiLight bez zmiany końcowego styles.css.",
+                "Zmniejszono źródłowy 04-milight-inline-cascade.css do około 40 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.790; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.789",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.789",
