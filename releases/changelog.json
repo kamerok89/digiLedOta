@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.882",
+            "firmware_version": "1.0.0.882",
+            "filesystem_version": "1.0.0.796",
+            "date": "2026-07-05T18:12:12+01:00",
+            "title": "Poprawka W=2 dla wszystkich scen",
+            "changes": [
+                "Poprawiono komendę TF-Remote W=2: B=0 ustawia teraz nasycenie i jasność wszystkich scen zamiast zmieniać tylko kolor globalny.",
+                "Dla każdej sceny zachowywany jest jej aktualny hue, a zmieniane są tylko wartości Saturation i Brightness z R/G.",
+                "B=1-24 nadal ustawia wskazaną scenę bez zmiany dotychczasowej semantyki.",
+                "Zbudowano firmware 1.0.0.882; obraz LittleFS pozostaje w wersji 1.0.0.796."
+            ]
+        },
+        {
             "version": "1.0.0.881",
             "firmware_version": "1.0.0.881",
             "filesystem_version": "1.0.0.796",
