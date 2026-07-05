@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Domyslny adres TF-Remote FF00 i dodana wartosc Value w integracji TF-BUS.",
+  "notes": "Dodany opcjonalny parametr V do konsoli TF-BUS jako koncowka adresu odbiornika.",
   "firmware": {
-    "version": "0.1.44",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.44.bin",
-    "md5": "85c4fba48deea78474d4efe987fcadbd",
-    "size": 1054480
+    "version": "0.1.45",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.45.bin",
+    "md5": "a39bd436acff94be598c1db480a58425",
+    "size": 1055696
   }
 }
