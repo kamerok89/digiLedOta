@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.756",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.756",
+            "date": "2026-07-05T05:38:31+01:00",
+            "title": "Widoczna linia kierunku sceny",
+            "changes": [
+                "Naprawiono sk?adni? koloru linii kierunku w mini-podgl?dzie LED, dzi?ki czemu kreska i grot strza?ki s? widoczne na kafelku sceny.",
+                "Linia dzia?a z obecnym formatem zmiennej RGB oraz zachowuje kierunek w prawo i w lewo.",
+                "Nie zmieniono zachowania przycisk?w Lewo/Prawo ani g?rnej metryki kafelka.",
+                "Od?wie?ono style portalu oraz opublikowano obraz LittleFS 1.0.0.756."
+            ]
+        },
+        {
             "version": "1.0.0.755",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.755",
