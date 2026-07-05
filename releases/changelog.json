@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.776",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.776",
+            "date": "2026-07-05T12:28:40+01:00",
+            "title": "Wydzielenie auth/session",
+            "changes": [
+                "Przeniesiono bazowe regu?y auth/session z 04-config-access-external-cascade.css do 04-access-main-cascade.css.",
+                "Pozostawiono 04-access-login-cascade.css jako p??n? warstw? dla karty #accessCard.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 57 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.776; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.775",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.775",
