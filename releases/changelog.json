@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.762",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.762",
+            "date": "2026-07-05T08:38:39+01:00",
+            "title": "Przywrócenie stylów kontrolek scen",
+            "changes": [
+                "Naprawiono brakujące zamknięcia @media po przeniesieniu reguł konfiguracji scen, przez co późniejsze style nie były stosowane na desktopie.",
+                "Przywrócono wygląd przycisku X w menu Uruchom wszystko oraz przycisków Lewo/Prawo.",
+                "Przywrócono styl przycisku miksowania koloru i modala miksowania, w tym ukrycie natywnych checkboxów.",
+                "Dodano końcową warstwę CSS dla kontrolek scen bez używania !important.",
+                "Opublikowano obraz LittleFS 1.0.0.762; firmware pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.761",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.761",
