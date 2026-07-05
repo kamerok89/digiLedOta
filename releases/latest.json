@@ -2,14 +2,14 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.764",
-    "notes": "Kontynuowano ostrożne odchudzanie CSS powłoki przez grupowanie wspólnych reguł light theme.",
+    "filesystem_version": "1.0.0.765",
+    "notes": "Kontynuowano ostrożne odchudzanie CSS powłoki przez grupowanie przełączników light theme.",
     "changes": [
-        "Zgrupowano wspólne reguły light theme dla kafelków boot, PWM i ulubionych efektów.",
-        "Zgrupowano wspólne reguły light theme dla sekcji wydajności, PWM diagnostics i terminala.",
-        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 80,6 KB, bez zmiany deklaracji wizualnych.",
-        "Wygenerowany styles.css zmniejszono do około 849,4 KB; liczba !important pozostała bez zmian.",
-        "Opublikowano obraz LittleFS 1.0.0.764; firmware pozostaje w wersji 1.0.0.875."
+        "Zgrupowano wspólne reguły light theme dla przełączników zwijania sekcji boot, PWM, ulubionych efektów, wydajności, diagnostyki PWM i terminala.",
+        "Zachowano te same deklaracje wizualne, ale usunięto powtórzone kopie selektorów i 25 nadmiarowych !important.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 78,2 KB oraz wygenerowany styles.css do około 847,1 KB.",
+        "Zweryfikowano spójność plików .gz i lokalne ładowanie portalu.",
+        "Opublikowano obraz LittleFS 1.0.0.765; firmware pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +19,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "8E8E641A364E247BE2F6D8B5A29EC25A"
+        "md5": "FF75C5EE5418DF4EB571F27E479AD857"
     },
-    "build_time": "2026-07-05T09:42:47+01:00",
+    "build_time": "2026-07-05T09:50:54+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
