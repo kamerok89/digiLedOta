@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.778",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.778",
+            "date": "2026-07-05T12:43:22+01:00",
+            "title": "Wydzielenie styli WiFi/NTP",
+            "changes": [
+                "Dodano modu? 04-wifi-ntp-cascade.css dla kontrolek presetu NTP WiFi.",
+                "Przeniesiono globalne jasne style ikon WiFi do 04-wifi-light-cascade.css.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 38 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.778; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.777",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.777",
