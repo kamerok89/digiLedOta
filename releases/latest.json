@@ -2,14 +2,14 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.765",
-    "notes": "Kontynuowano ostrożne odchudzanie CSS powłoki przez grupowanie przełączników light theme.",
+    "filesystem_version": "1.0.0.766",
+    "notes": "Kontynuowano porządkowanie CSS powłoki przez grupowanie wspólnych teł i ikon kafelków light theme.",
     "changes": [
-        "Zgrupowano wspólne reguły light theme dla przełączników zwijania sekcji boot, PWM, ulubionych efektów, wydajności, diagnostyki PWM i terminala.",
-        "Zachowano te same deklaracje wizualne, ale usunięto powtórzone kopie selektorów i 25 nadmiarowych !important.",
-        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 78,2 KB oraz wygenerowany styles.css do około 847,1 KB.",
-        "Zweryfikowano spójność plików .gz i lokalne ładowanie portalu.",
-        "Opublikowano obraz LittleFS 1.0.0.765; firmware pozostaje w wersji 1.0.0.875."
+        "Zgrupowano wspólne tła kafelków konfiguracji i diagnostyki w light theme.",
+        "Zgrupowano wspólny styl ikon kafelków boot, PWM, LED, powiadomień i Modbus.",
+        "Pozostawiono osobne reguły stanów aktywnych, więc warianty on/integration/notifications nadal nadpisują bazowy wygląd.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 76,3 KB oraz wygenerowany styles.css do około 845,2 KB.",
+        "Opublikowano obraz LittleFS 1.0.0.766; firmware pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +19,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "FF75C5EE5418DF4EB571F27E479AD857"
+        "md5": "ED57C8FD058DC9F36FE245AE035FA91F"
     },
-    "build_time": "2026-07-05T09:50:54+01:00",
+    "build_time": "2026-07-05T10:02:56+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
