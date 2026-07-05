@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.773",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.773",
+            "date": "2026-07-05T12:02:54+01:00",
+            "title": "Porz?dkowanie top-headera",
+            "changes": [
+                "Przeniesiono regu?y .topIconBtn i .topLogoutBtn z 04-config-access-external-cascade.css do 04-header-main-cascade.css.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 79 KB.",
+                "Nie zmieniano funkcji portalu; to kolejny ma?y krok porz?dkowania kaskady CSS.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.773; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.772",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.772",
