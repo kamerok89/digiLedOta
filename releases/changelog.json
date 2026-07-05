@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.761",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.761",
+            "date": "2026-07-05T08:05:53+01:00",
+            "title": "Porządkowanie CSS scen",
+            "changes": [
+                "Plik 04-scenes-main-cascade.css zmniejszono ze 106 KB do około 42 KB.",
+                "Usunięto wszystkie !important z głównego modułu scen.",
+                "Reguły light theme przeniesiono do osobnego modułu ładowanego po modułach scen, aby kaskada działała kolejnością zamiast wymuszeniami.",
+                "Reguły konfiguracji scen i Wi-Fi, które były zaparkowane w module scen, przeniesiono do właściwszych modułów.",
+                "Opublikowano obraz LittleFS 1.0.0.761; firmware pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.875",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.760",
