@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodana komenda W10 do cyklicznego przelaczania HUE scen.",
+  "notes": "Dodane edytowalne pola testowe i przyciski wysylki w kafelkach API TF-BUS.",
   "firmware": {
-    "version": "0.1.47",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.47.bin",
-    "md5": "1b9f6212d79b74fb97b37846d0749285",
-    "size": 1058352
+    "version": "0.1.48",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.48.bin",
+    "md5": "4c3bcf4eb81588ce43c634b5943e45ab",
+    "size": 1059936
   }
 }
