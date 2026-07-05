@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.881",
+            "firmware_version": "1.0.0.881",
+            "filesystem_version": "1.0.0.796",
+            "date": "2026-07-05T17:32:37+01:00",
+            "title": "Poprawka W=10 dla wszystkich scen",
+            "changes": [
+                "Poprawiono komendę TF-Remote W=10: R=0 przechodzi teraz po wszystkich scenach zamiast zmieniać tylko globalny kolor.",
+                "Sceny z lokalnym kolorem również dostają kolejny krok hue, więc przy trzymaniu przycisku zmieniają kolor razem z pozostałymi scenami.",
+                "Zbudowano firmware 1.0.0.881; obraz LittleFS pozostaje w wersji 1.0.0.796."
+            ]
+        },
+        {
             "version": "1.0.0.796",
             "firmware_version": "1.0.0.880",
             "filesystem_version": "1.0.0.796",

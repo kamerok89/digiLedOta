@@ -1,26 +1,24 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.880",
+    "firmware_version": "1.0.0.881",
     "filesystem_version": "1.0.0.796",
-    "notes": "Dodano komendę TF-Remote W=10 do cyklicznej zmiany hue.",
+    "notes": "Poprawiono komendę TF-Remote W=10 dla R=0, aby zmieniała hue wszystkich scen.",
     "changes": [
-        "Dodano komendę TF-Remote W=10: R=0 zmienia hue globalnie, a R=1-24 zmienia hue wskazanej sceny.",
-        "Kolejne odebrane ramki, na przykład przy trzymaniu przycisku, przesuwają hue cyklicznie o 10 stopni.",
-        "Sterowanie hue używa istniejącego throttlingu live-control, aby nie przeciążać aktualizacji LED.",
-        "Dodano etykietę aktywności MiLight dla cyklicznej zmiany hue TF-Remote.",
-        "Zbudowano firmware 1.0.0.880 oraz obraz LittleFS 1.0.0.796."
+        "Poprawiono komendę TF-Remote W=10: R=0 przechodzi teraz po wszystkich scenach zamiast zmieniać tylko globalny kolor.",
+        "Sceny z lokalnym kolorem również dostają kolejny krok hue, więc przy trzymaniu przycisku zmieniają kolor razem z pozostałymi scenami.",
+        "Zbudowano firmware 1.0.0.881; obraz LittleFS pozostaje w wersji 1.0.0.796."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1688160,
-        "md5": "63814C06D66D603DC91B6BE54BDB21C9"
+        "size": 1688320,
+        "md5": "838080B6FEA682ACD717513C68FB1933"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
         "md5": "CFFD5A59FBA283A7A630C5825A65E9F3"
     },
-    "build_time": "2026-07-05T17:12:57+01:00",
+    "build_time": "2026-07-05T17:32:37+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
