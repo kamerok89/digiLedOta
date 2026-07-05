@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.791",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.791",
+            "date": "2026-07-05T14:41:21+01:00",
+            "title": "Wydzielenie kart pilotów MiLight",
+            "changes": [
+                "Dodano moduł 04-milight-remotes-cascade.css ładowany przed pozostałym modułem MiLight.",
+                "Przeniesiono style pustych stanów, wykrytej karty oraz zapisanych pilotów bez zmiany końcowego styles.css.",
+                "Zmniejszono źródłowy 04-milight-inline-cascade.css do około 32 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.791; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.790",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.790",
