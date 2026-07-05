@@ -20,10 +20,10 @@
             "date": "2026-07-05T05:56:41+01:00",
             "title": "Przywracanie kierunku startu scen",
             "changes": [
-                "Poprawiono zapis domy?lnego kierunku startu sceny w konfiguracji, aby lewo/prawo by?o brane z aktywnego przycisku w karcie sceny.",
-                "Pe?ny zapis konfiguracji nie nadpisuje ju? kierunku warto?ci? z lokalnego cache po eksporcie i przywr?ceniu ustawie?.",
-                "Backup nadal zapisuje pole startDirection dla ka?dej sceny, a import odtwarza je w konfiguracji scen.",
-                "Od?wie?ono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.758."
+                "Poprawiono zapis domyślnego kierunku startu sceny w konfiguracji, aby lewo/prawo było brane z aktywnego przycisku w karcie sceny.",
+                "Pełny zapis konfiguracji nie nadpisuje już kierunku wartością z lokalnego cache po eksporcie i przywróceniu ustawień.",
+                "Backup nadal zapisuje pole startDirection dla każdej sceny, a import odtwarza je w konfiguracji scen.",
+                "Odświeżono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.758."
             ]
         },
         {
@@ -31,12 +31,12 @@
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.757",
             "date": "2026-07-05T05:45:24+01:00",
-            "title": "Wyra?na strza?ka kierunku sceny",
+            "title": "Wyraźna strzałka kierunku sceny",
             "changes": [
-                "Dodano wyra?niejszy grot strza?ki na dolnej linii mini-podgl?du sceny.",
-                "Strza?ka nie jest ju? przycinana przez regu?? ukrywaj?c? nadmiar tekstu w wierszu etykiet LED.",
-                "Wzmocniono czytelno?? grotu lekk? po?wiat? w kolorze aktualnego podgl?du.",
-                "Od?wie?ono style portalu oraz opublikowano obraz LittleFS 1.0.0.757."
+                "Dodano wyraźniejszy grot strzałki na dolnej linii mini-podglądu sceny.",
+                "Strzałka nie jest już przycinana przez regułę ukrywającą nadmiar tekstu w wierszu etykiet LED.",
+                "Wzmocniono czytelność grotu lekką poświatą w kolorze aktualnego podglądu.",
+                "Odświeżono style portalu oraz opublikowano obraz LittleFS 1.0.0.757."
             ]
         },
         {
@@ -46,10 +46,10 @@
             "date": "2026-07-05T05:38:31+01:00",
             "title": "Widoczna linia kierunku sceny",
             "changes": [
-                "Naprawiono sk?adni? koloru linii kierunku w mini-podgl?dzie LED, dzi?ki czemu kreska i grot strza?ki s? widoczne na kafelku sceny.",
-                "Linia dzia?a z obecnym formatem zmiennej RGB oraz zachowuje kierunek w prawo i w lewo.",
-                "Nie zmieniono zachowania przycisk?w Lewo/Prawo ani g?rnej metryki kafelka.",
-                "Od?wie?ono style portalu oraz opublikowano obraz LittleFS 1.0.0.756."
+                "Naprawiono składnię koloru linii kierunku w mini-podglądzie LED, dzięki czemu kreska i grot strzałki są widoczne na kafelku sceny.",
+                "Linia działa z obecnym formatem zmiennej RGB oraz zachowuje kierunek w prawo i w lewo.",
+                "Nie zmieniono zachowania przycisków Lewo/Prawo ani górnej metryki kafelka.",
+                "Odświeżono style portalu oraz opublikowano obraz LittleFS 1.0.0.756."
             ]
         },
         {
@@ -57,12 +57,12 @@
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.755",
             "date": "2026-07-05T05:31:05+01:00",
-            "title": "Linia kierunku w mini-podgl?dzie scen",
+            "title": "Linia kierunku w mini-podglądzie scen",
             "changes": [
-                "Dolna linia z kierunkow? strza?k? w mini-podgl?dzie LED jest teraz widoczna tak?e na w??szych kafelkach scen.",
-                "Etykiety LED po bokach linii pozostaj? zsynchronizowane z kierunkiem startu sceny.",
-                "Nie zmieniono zachowania zielonego pod?wietlenia przycisk?w Lewo/Prawo.",
-                "Od?wie?ono style portalu oraz opublikowano obraz LittleFS 1.0.0.755."
+                "Dolna linia z kierunkową strzałką w mini-podglądzie LED jest teraz widoczna także na węższych kafelkach scen.",
+                "Etykiety LED po bokach linii pozostają zsynchronizowane z kierunkiem startu sceny.",
+                "Nie zmieniono zachowania zielonego podświetlenia przycisków Lewo/Prawo.",
+                "Odświeżono style portalu oraz opublikowano obraz LittleFS 1.0.0.755."
             ]
         },
         {
@@ -70,12 +70,12 @@
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.754",
             "date": "2026-07-05T05:24:25+01:00",
-            "title": "Cofni?cie aktywnego przycisku kierunku",
+            "title": "Cofnięcie aktywnego przycisku kierunku",
             "changes": [
-                "Cofni?to zachowanie, w kt?rym zielony przycisk kierunku by? pod?wietlany tak?e przy wy??czonej scenie.",
-                "Przyciski Lewo/Prawo zn?w pokazuj? aktywny stan tylko wtedy, gdy scena jest uruchomiona lub startuje w danym kierunku.",
-                "Pozostawiono mini-podgl?d zakresu LED bez duplikowania g?rnej metryki kafelka.",
-                "Od?wie?ono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.754."
+                "Cofnięto zachowanie, w którym zielony przycisk kierunku był podświetlany także przy wyłączonej scenie.",
+                "Przyciski Lewo/Prawo znów pokazują aktywny stan tylko wtedy, gdy scena jest uruchomiona lub startuje w danym kierunku.",
+                "Pozostawiono mini-podgląd zakresu LED bez duplikowania górnej metryki kafelka.",
+                "Odświeżono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.754."
             ]
         },
         {
@@ -85,10 +85,10 @@
             "date": "2026-07-05T05:11:35+01:00",
             "title": "Aktywny przycisk kierunku sceny",
             "changes": [
-                "Zielony przycisk w kafelku sceny wskazuje teraz kierunek widoczny w mini-podgl?dzie tak?e wtedy, gdy scena jest wy??czona.",
-                "Dla scen startuj?cych w prawo pod?wietla si? Prawo, a dla scen startuj?cych w lewo pod?wietla si? Lewo.",
-                "Podczas r?cznego startu lub zatrzymania kafelek od razu pokazuje wybrany kierunek bez czekania na nast?pne od?wie?enie live.",
-                "Od?wie?ono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.753."
+                "Zielony przycisk w kafelku sceny wskazuje teraz kierunek widoczny w mini-podglądzie także wtedy, gdy scena jest wyłączona.",
+                "Dla scen startujących w prawo podświetla się Prawo, a dla scen startujących w lewo podświetla się Lewo.",
+                "Podczas ręcznego startu lub zatrzymania kafelek od razu pokazuje wybrany kierunek bez czekania na następne odświeżenie live.",
+                "Odświeżono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.753."
             ]
         },
         {
@@ -96,12 +96,12 @@
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.752",
             "date": "2026-07-05T04:53:11+01:00",
-            "title": "Kierunkowy podgl?d zakresu scen",
+            "title": "Kierunkowy podgląd zakresu scen",
             "changes": [
-                "Usuni?to z kafelka sceny g?rn? lini? z zakresem i post?pem, aby nie dublowa?a informacji z podgl?du.",
-                "Podgl?d kierunku pokazuje teraz zakres zgodnie ze startem: w prawo jako 0 ? 16, a w lewo jako 16 ? 0.",
-                "Dolne etykiety LED w podgl?dzie zmieniaj? kolejno?? razem z kierunkiem startu.",
-                "Od?wie?ono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.752."
+                "Usunięto z kafelka sceny górną linię z zakresem i postępem, aby nie dublowała informacji z podglądu.",
+                "Podgląd kierunku pokazuje teraz zakres zgodnie ze startem: w prawo jako 0 → 16, a w lewo jako 16 → 0.",
+                "Dolne etykiety LED w podglądzie zmieniają kolejność razem z kierunkiem startu.",
+                "Odświeżono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.752."
             ]
         },
         {
