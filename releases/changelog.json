@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.769",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.769",
+            "date": "2026-07-05T10:36:29+01:00",
+            "title": "Grupowanie pól formularzy CSS",
+            "changes": [
+                "Zgrupowano wspólny wygląd pól External API, JSON ulubionych efektów i wejścia terminala w light theme.",
+                "Zgrupowano wspólne kolory placeholderów oraz stany focus tych pól.",
+                "Pozostawiono bez zmian reguły przycisków z !important; ta runda dotyczy tylko pól tekstowych.",
+                "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 73,2 KB oraz wygenerowany styles.css do około 842,2 KB.",
+                "Opublikowano obraz LittleFS 1.0.0.769; firmware pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.768",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.768",

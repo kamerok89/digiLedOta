@@ -2,14 +2,14 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.768",
-    "notes": "Kontynuowano ostrożne porządkowanie CSS powłoki przez grupowanie powtarzalnych kolorów tekstu.",
+    "filesystem_version": "1.0.0.769",
+    "notes": "Kontynuowano odchudzanie CSS powłoki przez grupowanie pól formularzy w jasnym motywie.",
     "changes": [
-        "Zgrupowano powtarzalne kolory tytułów i etykiet w sekcjach PWM oraz External API.",
-        "Zgrupowano kolory podpowiedzi w opcjach PWM/API bez zmiany kolejności reguł aktywnych.",
-        "Zgrupowano kolory nazw w ulubionych efektach, wydajności i diagnostyce PWM.",
-        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 74,1 KB oraz wygenerowany styles.css do około 843,1 KB.",
-        "Opublikowano obraz LittleFS 1.0.0.768; firmware pozostaje w wersji 1.0.0.875."
+        "Zgrupowano wspólny wygląd pól External API, JSON ulubionych efektów i wejścia terminala w light theme.",
+        "Zgrupowano wspólne kolory placeholderów oraz stany focus tych pól.",
+        "Pozostawiono bez zmian reguły przycisków z !important; ta runda dotyczy tylko pól tekstowych.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 73,2 KB oraz wygenerowany styles.css do około 842,2 KB.",
+        "Opublikowano obraz LittleFS 1.0.0.769; firmware pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +19,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "BC9703B539EB1FA66A9239B6E4FD335B"
+        "md5": "0465367EF917271E0D67D513A2AD8623"
     },
-    "build_time": "2026-07-05T10:25:08+01:00",
+    "build_time": "2026-07-05T10:36:29+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
