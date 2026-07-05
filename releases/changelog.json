@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.780",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.780",
+            "date": "2026-07-05T13:10:21+01:00",
+            "title": "Wydzielenie jasnych styli headera",
+            "changes": [
+                "Dodano modu? 04-header-light-cascade.css dla theme/lang/portalMode, miejsca urz?dzenia i menu w headerze.",
+                "Przeniesiono 24 regu?y header/top-combo bez zmiany warto?ci CSS.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 23 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.780; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.779",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.779",
