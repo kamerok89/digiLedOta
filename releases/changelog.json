@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.884",
+            "firmware_version": "1.0.0.884",
+            "filesystem_version": "1.0.0.796",
+            "date": "2026-07-05T18:42:49+01:00",
+            "title": "Poprawka W=9 dla wszystkich scen",
+            "changes": [
+                "Poprawiono komendę TF-Remote W=9: B=0 buduje teraz jawną listę wszystkich scen zamiast korzystać z wyboru zapisanych aktywnych scen.",
+                "Przykład r:5g:1b:0w:9 uruchamia teraz RUN FX 5 w prawo na wszystkich skonfigurowanych scenach.",
+                "B=1-24 nadal działa tylko na wskazaną scenę.",
+                "Zbudowano firmware 1.0.0.884; obraz LittleFS pozostaje w wersji 1.0.0.796."
+            ]
+        },
+        {
             "version": "1.0.0.883",
             "firmware_version": "1.0.0.883",
             "filesystem_version": "1.0.0.796",

@@ -1,24 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.883",
+    "firmware_version": "1.0.0.884",
     "filesystem_version": "1.0.0.796",
-    "notes": "Poprawiono komendę TF-Remote W=1 dla B=0, aby ustawiała hue wszystkich scen.",
+    "notes": "Poprawiono komendę TF-Remote W=9 dla B=0, aby RUN FX trafiał do wszystkich scen.",
     "changes": [
-        "Poprawiono komendę TF-Remote W=1: B=0 ustawia teraz hue wszystkich scen zamiast zmieniać tylko kolor globalny.",
-        "B=1-24 nadal ustawia hue wskazanej sceny bez zmiany dotychczasowej semantyki.",
-        "Zbudowano firmware 1.0.0.883; obraz LittleFS pozostaje w wersji 1.0.0.796."
+        "Poprawiono komendę TF-Remote W=9: B=0 buduje teraz jawną listę wszystkich scen zamiast korzystać z wyboru zapisanych aktywnych scen.",
+        "Przykład r:5g:1b:0w:9 uruchamia teraz RUN FX 5 w prawo na wszystkich skonfigurowanych scenach.",
+        "B=1-24 nadal działa tylko na wskazaną scenę.",
+        "Zbudowano firmware 1.0.0.884; obraz LittleFS pozostaje w wersji 1.0.0.796."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1688720,
-        "md5": "299B35BD9C767694760F7C7BAE01A080"
+        "size": 1688688,
+        "md5": "F5E3B71101BF7FD054011F36F0510280"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
         "md5": "CFFD5A59FBA283A7A630C5825A65E9F3"
     },
-    "build_time": "2026-07-05T18:19:04+01:00",
+    "build_time": "2026-07-05T18:42:49+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
