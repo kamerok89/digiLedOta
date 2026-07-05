@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.770",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.770",
+            "date": "2026-07-05T11:37:37+01:00",
+            "title": "Porz?dkowanie modu??w headera",
+            "changes": [
+                "Wydzielono bazowe style headera do 04-header-main-base-cascade.css.",
+                "Przeniesiono p??ne regu?y top-header z 04-shell-sidebar-polish-cascade.css do 04-header-main-cascade.css.",
+                "Modu? shell/sidebar zawiera teraz wy??cznie regu?y pow?oki i bocznego menu.",
+                "Zsynchronizowano version.json.gz z version.json przed budow? obrazu LittleFS.",
+                "Opublikowano obraz LittleFS 1.0.0.770; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.769",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.769",

@@ -2,14 +2,14 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.769",
-    "notes": "Kontynuowano odchudzanie CSS powłoki przez grupowanie pól formularzy w jasnym motywie.",
+    "filesystem_version": "1.0.0.770",
+    "notes": "Przeniesiono p??ne regu?y top-header z modu?u shell/sidebar do modu?u header.",
     "changes": [
-        "Zgrupowano wspólny wygląd pól External API, JSON ulubionych efektów i wejścia terminala w light theme.",
-        "Zgrupowano wspólne kolory placeholderów oraz stany focus tych pól.",
-        "Pozostawiono bez zmian reguły przycisków z !important; ta runda dotyczy tylko pól tekstowych.",
-        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 73,2 KB oraz wygenerowany styles.css do około 842,2 KB.",
-        "Opublikowano obraz LittleFS 1.0.0.769; firmware pozostaje w wersji 1.0.0.875."
+        "Wydzielono bazowe style headera do 04-header-main-base-cascade.css.",
+        "Przeniesiono p??ne regu?y top-header z 04-shell-sidebar-polish-cascade.css do 04-header-main-cascade.css.",
+        "Modu? shell/sidebar zawiera teraz wy??cznie regu?y pow?oki i bocznego menu.",
+        "Zsynchronizowano version.json.gz z version.json przed budow? obrazu LittleFS.",
+        "Opublikowano obraz LittleFS 1.0.0.770; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +19,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "0465367EF917271E0D67D513A2AD8623"
+        "md5": "EF94A3ABB746ED6A2BE9090817D8A08C"
     },
-    "build_time": "2026-07-05T10:36:29+01:00",
+    "build_time": "2026-07-05T11:37:37+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
