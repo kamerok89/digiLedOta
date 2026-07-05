@@ -1,25 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.872",
-    "filesystem_version": "1.0.0.759",
-    "notes": "Status aktualizacji pokazuje teraz inną ikonę dla sprawdzania, instalowania i błędu.",
+    "firmware_version": "1.0.0.873",
+    "filesystem_version": "1.0.0.760",
+    "notes": "Stabilizacja dostępności portalu po restarcie i serii odświeżeń strony.",
     "changes": [
-        "Pill statusu aktualizacji zmienia ikonę na obracającą się klepsydrę podczas sprawdzania wersji.",
-        "Podczas instalowania aktualizacji ikona przełącza się na obracający spinner.",
-        "Przy błędzie status pokazuje ikonę X oraz czerwony stan pilla.",
-        "Odświeżono skrypt i style portalu oraz opublikowano obraz LittleFS 1.0.0.759."
+        "Sesja portalu jest teraz utrzymywana w tej samej karcie przeglądarki, więc zwykłe odświeżenie nie tworzy nowej sesji i nie wypycha poprzedniej.",
+        "Główne zasoby portalu i File Managera wysyłają Connection: close, aby po wielu odświeżeniach nie zostawiać zalegających połączeń HTTP.",
+        "Zmniejszono ryzyko niepełnego startu portalu, w którym sceny oraz lista efektów nie zdążyły pobrać danych po restarcie urządzenia.",
+        "Opublikowano firmware 1.0.0.873 oraz obraz LittleFS 1.0.0.760."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1686112,
-        "md5": "6AF94B65B6344C0E811D5B7E1CA15C90"
+        "size": 1686208,
+        "md5": "7E1C66B257D058DAD59D8AC4AD82201A"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "B98D40A24DAB5BA79C1674CAF9A8E848"
+        "md5": "862629540A28EB46DBAB53102A6CCC4E"
     },
-    "build_time": "2026-07-05T06:13:37+01:00",
+    "build_time": "2026-07-05T07:09:31+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
