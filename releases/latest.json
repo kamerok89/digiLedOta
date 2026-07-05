@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.783",
-    "notes": "Wydzielono globaln? baz? jasnego motywu do osobnego modu?u CSS.",
+    "filesystem_version": "1.0.0.784",
+    "notes": "Wydzielono g??wny blok jasnych styli strony ustawie? do osobnego modu?u CSS.",
     "changes": [
-        "Dodano modu? 04-light-theme-base-cascade.css ?adowany przed pozosta?ym bridge?em config/access.",
-        "Przeniesiono 42 globalne regu?y html[data-theme=\"light\"] bez zmiany ko?cowego CSS.",
-        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 14 KB.",
-        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.783; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+        "Dodano modu? 04-page-settings-light-cascade.css dla pierwszego bloku jasnych styli #pageSettings.",
+        "Przeniesiono ci?g?y blok #pageSettings przed regu?ami #advCard bez zmiany ko?cowego CSS.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 8 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.784; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "8964DC7DDB4C2C0AD0DEFECF18F19265"
+        "md5": "84FADA0E850C195F79083308D83175B3"
     },
-    "build_time": "2026-07-05T13:34:44+01:00",
+    "build_time": "2026-07-05T13:40:14+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
