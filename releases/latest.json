@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.776",
-    "notes": "Wydzielono bazowe style logowania i sesji do osobnego modu?u CSS.",
+    "filesystem_version": "1.0.0.777",
+    "notes": "Wydzielono jasne style WiFi do osobnego modu?u CSS.",
     "changes": [
-        "Przeniesiono bazowe regu?y auth/session z 04-config-access-external-cascade.css do 04-access-main-cascade.css.",
-        "Pozostawiono 04-access-login-cascade.css jako p??n? warstw? dla karty #accessCard.",
-        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 57 KB.",
-        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.776; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+        "Przeniesiono 76 regu? html[data-theme=\"light\"] #wifiCard do 04-wifi-light-cascade.css.",
+        "Dodano modu? 04-wifi-light-cascade.css zaraz po 04-config-access-external-cascade.css, aby zachowa? dotychczasow? kolejno?? nadpisywania.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 40 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.777; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "E85A987C1CDE3AD0CACF10D45196C21F"
+        "md5": "16554E17A45F08FD2697231D0A0AAA89"
     },
-    "build_time": "2026-07-05T12:28:40+01:00",
+    "build_time": "2026-07-05T12:34:56+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

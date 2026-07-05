@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.777",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.777",
+            "date": "2026-07-05T12:34:56+01:00",
+            "title": "Wydzielenie jasnych styli WiFi",
+            "changes": [
+                "Przeniesiono 76 regu? html[data-theme=\"light\"] #wifiCard do 04-wifi-light-cascade.css.",
+                "Dodano modu? 04-wifi-light-cascade.css zaraz po 04-config-access-external-cascade.css, aby zachowa? dotychczasow? kolejno?? nadpisywania.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 40 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.777; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.776",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.776",
