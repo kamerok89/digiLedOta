@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.794",
+            "firmware_version": "1.0.0.878",
+            "filesystem_version": "1.0.0.794",
+            "date": "2026-07-05T15:54:55+01:00",
+            "title": "Focus w modalu Dodaj adres",
+            "changes": [
+                "Wstrzymano automatyczny render statusu MiLight, gdy otwarty jest modal Dodaj adres.",
+                "Pole wpisywania adresu nie jest już niszczone przez cykliczne odświeżanie statusu, więc nie traci focusu podczas pisania.",
+                "Opublikowano obraz LittleFS 1.0.0.794; firmware pozostaje w wersji 1.0.0.878."
+            ]
+        },
+        {
             "version": "1.0.0.793",
             "firmware_version": "1.0.0.878",
             "filesystem_version": "1.0.0.793",

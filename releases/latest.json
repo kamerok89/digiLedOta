@@ -2,14 +2,12 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.878",
-    "filesystem_version": "1.0.0.793",
-    "notes": "Dodano ręczne dodawanie adresu pilota lub bramki MiLight z automatycznym rozpoznawaniem Grenton po FF.",
+    "filesystem_version": "1.0.0.794",
+    "notes": "Poprawiono focus pola adresu w modalu Dodaj adres MiLight.",
     "changes": [
-        "Zmieniono opis dodawania MiLight na Dodawanie pilota lub bramki i doprecyzowano komunikat automatycznego wykrywania ramki.",
-        "Dodano przycisk Dodaj adres oraz modal do ręcznego wpisania adresu pilota albo bramki.",
-        "Adresy zaczynające się od FF są dodawane jako bramka Grenton / TF-Remote, a pozostałe jako zwykły pilot.",
-        "Firmware udostępnia endpoint /api/milight/remote/add i zapisuje domyślne mapowania dla ręcznie dodanego adresu.",
-        "Zbudowano firmware 1.0.0.878 oraz obraz LittleFS 1.0.0.793."
+        "Wstrzymano automatyczny render statusu MiLight, gdy otwarty jest modal Dodaj adres.",
+        "Pole wpisywania adresu nie jest już niszczone przez cykliczne odświeżanie statusu, więc nie traci focusu podczas pisania.",
+        "Opublikowano obraz LittleFS 1.0.0.794; firmware pozostaje w wersji 1.0.0.878."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +17,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "76CA0B11FD7559B470CCFC7F44DDD017"
+        "md5": "F89D36463957B6B03F818C618E4BCA56"
     },
-    "build_time": "2026-07-05T15:34:49+01:00",
+    "build_time": "2026-07-05T15:54:55+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
