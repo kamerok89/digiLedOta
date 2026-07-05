@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.764",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.764",
+            "date": "2026-07-05T09:42:47+01:00",
+            "title": "Kolejne odchudzenie CSS powłoki",
+            "changes": [
+                "Zgrupowano wspólne reguły light theme dla kafelków boot, PWM i ulubionych efektów.",
+                "Zgrupowano wspólne reguły light theme dla sekcji wydajności, PWM diagnostics i terminala.",
+                "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 80,6 KB, bez zmiany deklaracji wizualnych.",
+                "Wygenerowany styles.css zmniejszono do około 849,4 KB; liczba !important pozostała bez zmian.",
+                "Opublikowano obraz LittleFS 1.0.0.764; firmware pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.763",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.763",

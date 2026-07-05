@@ -2,14 +2,14 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.763",
-    "notes": "Delikatnie odchudzono CSS powłoki i modali bez zmiany wyglądu portalu.",
+    "filesystem_version": "1.0.0.764",
+    "notes": "Kontynuowano ostrożne odchudzanie CSS powłoki przez grupowanie wspólnych reguł light theme.",
     "changes": [
-        "Skrócono powtarzające się selektory light theme dla modali przez :is(...).",
-        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css z około 85,8 KB do około 82,6 KB.",
-        "Zmniejszono wygenerowany styles.css o około 3,2 KB; gzip styles.css spadł o około 300 B.",
-        "Nie zmieniono deklaracji wizualnych modali ani liczby !important; to pierwszy bezpieczny krok porządkowania.",
-        "Opublikowano obraz LittleFS 1.0.0.763; firmware pozostaje w wersji 1.0.0.875."
+        "Zgrupowano wspólne reguły light theme dla kafelków boot, PWM i ulubionych efektów.",
+        "Zgrupowano wspólne reguły light theme dla sekcji wydajności, PWM diagnostics i terminala.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 80,6 KB, bez zmiany deklaracji wizualnych.",
+        "Wygenerowany styles.css zmniejszono do około 849,4 KB; liczba !important pozostała bez zmian.",
+        "Opublikowano obraz LittleFS 1.0.0.764; firmware pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +19,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "E66282D1CFBAA08A04477735308B883F"
+        "md5": "8E8E641A364E247BE2F6D8B5A29EC25A"
     },
-    "build_time": "2026-07-05T09:33:45+01:00",
+    "build_time": "2026-07-05T09:42:47+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
