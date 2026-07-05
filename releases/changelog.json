@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.796",
+            "firmware_version": "1.0.0.880",
+            "filesystem_version": "1.0.0.796",
+            "date": "2026-07-05T17:12:57+01:00",
+            "title": "Cykliczna zmiana hue TF-Remote W=10",
+            "changes": [
+                "Dodano komendę TF-Remote W=10: R=0 zmienia hue globalnie, a R=1-24 zmienia hue wskazanej sceny.",
+                "Kolejne odebrane ramki, na przykład przy trzymaniu przycisku, przesuwają hue cyklicznie o 10 stopni.",
+                "Sterowanie hue używa istniejącego throttlingu live-control, aby nie przeciążać aktualizacji LED.",
+                "Dodano etykietę aktywności MiLight dla cyklicznej zmiany hue TF-Remote.",
+                "Zbudowano firmware 1.0.0.880 oraz obraz LittleFS 1.0.0.796."
+            ]
+        },
+        {
             "version": "1.0.0.795",
             "firmware_version": "1.0.0.879",
             "filesystem_version": "1.0.0.795",

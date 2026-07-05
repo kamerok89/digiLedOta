@@ -1,25 +1,26 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.879",
-    "filesystem_version": "1.0.0.795",
-    "notes": "Zmieniono działanie komend TF-Remote W=6 i W=7 dla sterowania scenami.",
+    "firmware_version": "1.0.0.880",
+    "filesystem_version": "1.0.0.796",
+    "notes": "Dodano komendę TF-Remote W=10 do cyklicznej zmiany hue.",
     "changes": [
-        "Zmieniono komendę TF-Remote W=6 na Start/Stop scene: R wybiera scenę 1-24, a G=1 uruchamia i G=0 zatrzymuje scenę.",
-        "Zmieniono komendę TF-Remote W=7 na Toggle scene: R wybiera scenę 1-24, a stan sceny jest przełączany bez wymagania G.",
-        "Zaktualizowano etykiety aktywności MiLight dla startu, stopu i przełączania scen TF-Remote.",
-        "Zbudowano firmware 1.0.0.879 oraz obraz LittleFS 1.0.0.795."
+        "Dodano komendę TF-Remote W=10: R=0 zmienia hue globalnie, a R=1-24 zmienia hue wskazanej sceny.",
+        "Kolejne odebrane ramki, na przykład przy trzymaniu przycisku, przesuwają hue cyklicznie o 10 stopni.",
+        "Sterowanie hue używa istniejącego throttlingu live-control, aby nie przeciążać aktualizacji LED.",
+        "Dodano etykietę aktywności MiLight dla cyklicznej zmiany hue TF-Remote.",
+        "Zbudowano firmware 1.0.0.880 oraz obraz LittleFS 1.0.0.796."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1687808,
-        "md5": "41BE97DACF68C078F1F86819D0AC5373"
+        "size": 1688160,
+        "md5": "63814C06D66D603DC91B6BE54BDB21C9"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "BD1D4642BC3D943537710B07CA3A58F9"
+        "md5": "CFFD5A59FBA283A7A630C5825A65E9F3"
     },
-    "build_time": "2026-07-05T16:39:52+01:00",
+    "build_time": "2026-07-05T17:12:57+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
