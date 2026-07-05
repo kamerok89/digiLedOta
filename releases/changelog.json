@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.785",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.785",
+            "date": "2026-07-05T13:54:45+01:00",
+            "title": "Wydzielenie jasnych styli zaawansowanych",
+            "changes": [
+                "Dodano modu? 04-advanced-light-cascade.css dla jasnych styli #advCard oraz powi?zanych przycisk?w access/advanced.",
+                "Przeniesiono ci?g?y blok #advCard bez zmiany ko?cowego CSS.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 4 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.785; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.784",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.784",
