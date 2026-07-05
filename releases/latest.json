@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.872",
-    "filesystem_version": "1.0.0.752",
-    "notes": "Uproszczono kafelki scen: zakres LED jest widoczny tylko w podgl?dzie kierunku.",
+    "filesystem_version": "1.0.0.753",
+    "notes": "Dopasowano przyciski kierunku scen do mini-podgl?du LED.",
     "changes": [
-        "Usuni?to z kafelka sceny g?rn? lini? z zakresem i post?pem, aby nie dublowa?a informacji z podgl?du.",
-        "Podgl?d kierunku pokazuje teraz zakres zgodnie ze startem: w prawo jako 0 ? 16, a w lewo jako 16 ? 0.",
-        "Dolne etykiety LED w podgl?dzie zmieniaj? kolejno?? razem z kierunkiem startu.",
-        "Od?wie?ono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.752."
+        "Zielony przycisk w kafelku sceny wskazuje teraz kierunek widoczny w mini-podgl?dzie tak?e wtedy, gdy scena jest wy??czona.",
+        "Dla scen startuj?cych w prawo pod?wietla si? Prawo, a dla scen startuj?cych w lewo pod?wietla si? Lewo.",
+        "Podczas r?cznego startu lub zatrzymania kafelek od razu pokazuje wybrany kierunek bez czekania na nast?pne od?wie?enie live.",
+        "Od?wie?ono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.753."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "9753A74B90C649CB16CB738B81F8A614"
+        "md5": "C1FB56F8D340A19654060FFF1DB7E966"
     },
-    "build_time": "2026-07-05T04:53:11+01:00",
+    "build_time": "2026-07-05T05:11:35+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

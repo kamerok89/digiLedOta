@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.753",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.753",
+            "date": "2026-07-05T05:11:35+01:00",
+            "title": "Aktywny przycisk kierunku sceny",
+            "changes": [
+                "Zielony przycisk w kafelku sceny wskazuje teraz kierunek widoczny w mini-podgl?dzie tak?e wtedy, gdy scena jest wy??czona.",
+                "Dla scen startuj?cych w prawo pod?wietla si? Prawo, a dla scen startuj?cych w lewo pod?wietla si? Lewo.",
+                "Podczas r?cznego startu lub zatrzymania kafelek od razu pokazuje wybrany kierunek bez czekania na nast?pne od?wie?enie live.",
+                "Od?wie?ono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.753."
+            ]
+        },
+        {
             "version": "1.0.0.752",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.752",
