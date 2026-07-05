@@ -1,25 +1,24 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.882",
+    "firmware_version": "1.0.0.883",
     "filesystem_version": "1.0.0.796",
-    "notes": "Poprawiono komendę TF-Remote W=2 dla B=0, aby ustawiała nasycenie i jasność wszystkich scen.",
+    "notes": "Poprawiono komendę TF-Remote W=1 dla B=0, aby ustawiała hue wszystkich scen.",
     "changes": [
-        "Poprawiono komendę TF-Remote W=2: B=0 ustawia teraz nasycenie i jasność wszystkich scen zamiast zmieniać tylko kolor globalny.",
-        "Dla każdej sceny zachowywany jest jej aktualny hue, a zmieniane są tylko wartości Saturation i Brightness z R/G.",
-        "B=1-24 nadal ustawia wskazaną scenę bez zmiany dotychczasowej semantyki.",
-        "Zbudowano firmware 1.0.0.882; obraz LittleFS pozostaje w wersji 1.0.0.796."
+        "Poprawiono komendę TF-Remote W=1: B=0 ustawia teraz hue wszystkich scen zamiast zmieniać tylko kolor globalny.",
+        "B=1-24 nadal ustawia hue wskazanej sceny bez zmiany dotychczasowej semantyki.",
+        "Zbudowano firmware 1.0.0.883; obraz LittleFS pozostaje w wersji 1.0.0.796."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1688432,
-        "md5": "E1A8C6BAD58B3A92127B6F85D34B06F8"
+        "size": 1688720,
+        "md5": "299B35BD9C767694760F7C7BAE01A080"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
         "md5": "CFFD5A59FBA283A7A630C5825A65E9F3"
     },
-    "build_time": "2026-07-05T18:12:12+01:00",
+    "build_time": "2026-07-05T18:19:04+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

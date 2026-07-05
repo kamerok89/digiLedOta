@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.883",
+            "firmware_version": "1.0.0.883",
+            "filesystem_version": "1.0.0.796",
+            "date": "2026-07-05T18:19:04+01:00",
+            "title": "Poprawka W=1 dla wszystkich scen",
+            "changes": [
+                "Poprawiono komendę TF-Remote W=1: B=0 ustawia teraz hue wszystkich scen zamiast zmieniać tylko kolor globalny.",
+                "B=1-24 nadal ustawia hue wskazanej sceny bez zmiany dotychczasowej semantyki.",
+                "Zbudowano firmware 1.0.0.883; obraz LittleFS pozostaje w wersji 1.0.0.796."
+            ]
+        },
+        {
             "version": "1.0.0.882",
             "firmware_version": "1.0.0.882",
             "filesystem_version": "1.0.0.796",
