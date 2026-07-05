@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodany opcjonalny parametr V do konsoli TF-BUS jako koncowka adresu odbiornika.",
+  "notes": "Zmieniona semantyka W6 na start/stop sceny i W7 na toggle sceny.",
   "firmware": {
-    "version": "0.1.45",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.45.bin",
-    "md5": "a39bd436acff94be598c1db480a58425",
-    "size": 1055696
+    "version": "0.1.46",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.46.bin",
+    "md5": "58c5b69f207edbe41d2c608c5ba1dee1",
+    "size": 1057888
   }
 }
