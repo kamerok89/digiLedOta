@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS jako pierwsza zakladka, nowe domyslne ID i kompaktowy zapis ID pilota.",
+  "notes": "Zmieniona nazwa karty przegladarki i dodany czerwony favicon.",
   "firmware": {
-    "version": "0.1.41",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.41.bin",
-    "md5": "f96697e1301444b7db2fc5815e4feca3",
-    "size": 1053168
+    "version": "0.1.42",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.42.bin",
+    "md5": "8b28bb0e3e9e1d9a68882d04d7365daf",
+    "size": 1054352
   }
 }
