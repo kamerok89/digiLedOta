@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.789",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.789",
+            "date": "2026-07-05T14:24:30+01:00",
+            "title": "Wydzielenie paneli MiLight",
+            "changes": [
+                "Dodano moduł 04-milight-panels-cascade.css ładowany po bazie MiLight.",
+                "Przeniesiono style managera, nauki, radia i stanu MiLight bez zmiany końcowego styles.css.",
+                "Zmniejszono źródłowy 04-milight-inline-cascade.css o kolejne około 8 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.789; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.788",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.788",

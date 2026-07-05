@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.788",
-    "notes": "Wydzielono bazowe style MiLight do osobnego modułu CSS.",
+    "filesystem_version": "1.0.0.789",
+    "notes": "Wydzielono panelowe style MiLight do osobnego modułu CSS.",
     "changes": [
-        "Dodano moduł 04-milight-base-cascade.css ładowany bezpośrednio przed głównym modułem MiLight.",
-        "Przeniesiono bazę kafelka, pille i przyciski MiLight bez zmiany końcowego styles.css.",
-        "Zmniejszono źródłowy 04-milight-inline-cascade.css o około 5 KB.",
-        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.788; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+        "Dodano moduł 04-milight-panels-cascade.css ładowany po bazie MiLight.",
+        "Przeniesiono style managera, nauki, radia i stanu MiLight bez zmiany końcowego styles.css.",
+        "Zmniejszono źródłowy 04-milight-inline-cascade.css o kolejne około 8 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.789; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "6D24734F13EB2808F5CF9BBA133B7C5F"
+        "md5": "5F6186BE9F5D9E5601294982B82C823D"
     },
-    "build_time": "2026-07-05T14:14:42+01:00",
+    "build_time": "2026-07-05T14:24:30+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
