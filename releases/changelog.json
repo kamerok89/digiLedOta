@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.788",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.788",
+            "date": "2026-07-05T14:14:42+01:00",
+            "title": "Wydzielenie bazy MiLight",
+            "changes": [
+                "Dodano moduł 04-milight-base-cascade.css ładowany bezpośrednio przed głównym modułem MiLight.",
+                "Przeniesiono bazę kafelka, pille i przyciski MiLight bez zmiany końcowego styles.css.",
+                "Zmniejszono źródłowy 04-milight-inline-cascade.css o około 5 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.788; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.786",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.786",
