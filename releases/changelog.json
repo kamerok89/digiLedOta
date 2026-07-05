@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.754",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.754",
+            "date": "2026-07-05T05:24:25+01:00",
+            "title": "Cofni?cie aktywnego przycisku kierunku",
+            "changes": [
+                "Cofni?to zachowanie, w kt?rym zielony przycisk kierunku by? pod?wietlany tak?e przy wy??czonej scenie.",
+                "Przyciski Lewo/Prawo zn?w pokazuj? aktywny stan tylko wtedy, gdy scena jest uruchomiona lub startuje w danym kierunku.",
+                "Pozostawiono mini-podgl?d zakresu LED bez duplikowania g?rnej metryki kafelka.",
+                "Od?wie?ono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.754."
+            ]
+        },
+        {
             "version": "1.0.0.753",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.753",
