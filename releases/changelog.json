@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.786",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.786",
+            "date": "2026-07-05T14:00:03+01:00",
+            "title": "Usuni?cie bridge?a config/access",
+            "changes": [
+                "Dodano modu? 04-page-settings-late-light-cascade.css dla p??nych jasnych nadpisa? #pageSettings.",
+                "Dodano modu? 04-wifi-scan-state-cascade.css dla ko?cowej regu?y scanProgWrap.",
+                "Usuni?to 04-config-access-external-cascade.css z build-css.mjs; ko?cowy styles.css pozostaje identyczny.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.786; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.785",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.785",
