@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.875",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.760",
+            "date": "2026-07-05T07:50:02+01:00",
+            "title": "Czystszy log po starcie",
+            "changes": [
+                "MiLight sprawdza teraz istnienie kluczy NVS przed odczytem mapowań, więc brak pola mode nie generuje komunikatu NOT_FOUND.",
+                "Cykliczny log LedWorker stack watermark nie jest już wypisywany co kilka sekund przy zdrowych zasobach.",
+                "LedWorker zgłosi teraz tylko ostrzeżenie, gdy stack albo heap spadnie poniżej bezpiecznego progu.",
+                "Opublikowano firmware 1.0.0.875; obraz LittleFS pozostaje w wersji 1.0.0.760."
+            ]
+        },
+        {
             "version": "1.0.0.874",
             "firmware_version": "1.0.0.874",
             "filesystem_version": "1.0.0.760",

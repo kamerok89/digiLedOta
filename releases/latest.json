@@ -1,25 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.874",
+    "firmware_version": "1.0.0.875",
     "filesystem_version": "1.0.0.760",
-    "notes": "Wyciszono fałszywe błędy NVS przy starcie i przygotowano partycję coredump w pełnym obrazie flash.",
+    "notes": "Dokończono porządkowanie logów startowych po aktualizacji firmware.",
     "changes": [
-        "Odczyt ustawień z NVS sprawdza teraz istnienie klucza przed pobraniem wartości, więc brak opcjonalnych pól nie generuje serii komunikatów NOT_FOUND.",
-        "Dodano partycję coredump 64 KB między app1 i LittleFS w tabeli partycji pełnego obrazu flash.",
-        "Skrypt scalający firmware odczytuje offset LittleFS z tabeli partycji, zamiast używać starego adresu 0x290000.",
-        "Opublikowano firmware 1.0.0.874; obraz LittleFS pozostaje w wersji 1.0.0.760."
+        "MiLight sprawdza teraz istnienie kluczy NVS przed odczytem mapowań, więc brak pola mode nie generuje komunikatu NOT_FOUND.",
+        "Cykliczny log LedWorker stack watermark nie jest już wypisywany co kilka sekund przy zdrowych zasobach.",
+        "LedWorker zgłosi teraz tylko ostrzeżenie, gdy stack albo heap spadnie poniżej bezpiecznego progu.",
+        "Opublikowano firmware 1.0.0.875; obraz LittleFS pozostaje w wersji 1.0.0.760."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1685328,
-        "md5": "0FCC497262ED5D65111C9F97AE97349F"
+        "size": 1685376,
+        "md5": "935FCA84960DEB8DB97F1F96CB255014"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
         "md5": "862629540A28EB46DBAB53102A6CCC4E"
     },
-    "build_time": "2026-07-05T07:39:26+01:00",
+    "build_time": "2026-07-05T07:50:02+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
