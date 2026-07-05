@@ -2,12 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.872",
-    "filesystem_version": "1.0.0.751",
-    "notes": "Dodano osobną ikonę modułu LED RGBW dla pilotów ustawionych jako TF-Remote.",
+    "filesystem_version": "1.0.0.752",
+    "notes": "Uproszczono kafelki scen: zakres LED jest widoczny tylko w podgl?dzie kierunku.",
     "changes": [
-        "Karty pilotów TF-Remote pokazują teraz czarny moduł LED RGBW zamiast standardowej ikony pilota MiLight.",
-        "Ta sama ikona pojawia się w szczegółach pilota, aktywności i modalu ustawień typu pilota.",
-        "Odświeżono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.751."
+        "Usuni?to z kafelka sceny g?rn? lini? z zakresem i post?pem, aby nie dublowa?a informacji z podgl?du.",
+        "Podgl?d kierunku pokazuje teraz zakres zgodnie ze startem: w prawo jako 0 ? 16, a w lewo jako 16 ? 0.",
+        "Dolne etykiety LED w podgl?dzie zmieniaj? kolejno?? razem z kierunkiem startu.",
+        "Od?wie?ono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.752."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "3D32FCCD388B85763468B7449998E7E8"
+        "md5": "9753A74B90C649CB16CB738B81F8A614"
     },
-    "build_time": "2026-07-04T20:04:49+01:00",
+    "build_time": "2026-07-05T04:53:11+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

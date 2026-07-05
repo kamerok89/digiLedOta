@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.752",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.752",
+            "date": "2026-07-05T04:53:11+01:00",
+            "title": "Kierunkowy podgl?d zakresu scen",
+            "changes": [
+                "Usuni?to z kafelka sceny g?rn? lini? z zakresem i post?pem, aby nie dublowa?a informacji z podgl?du.",
+                "Podgl?d kierunku pokazuje teraz zakres zgodnie ze startem: w prawo jako 0 ? 16, a w lewo jako 16 ? 0.",
+                "Dolne etykiety LED w podgl?dzie zmieniaj? kolejno?? razem z kierunkiem startu.",
+                "Od?wie?ono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.752."
+            ]
+        },
+        {
             "version": "1.0.0.751",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.751",
