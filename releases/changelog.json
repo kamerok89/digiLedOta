@@ -342,9 +342,9 @@
             "date": "2026-06-28T19:54:43+01:00",
             "title": "Naprawa STA przy bramie 192.168.4.1",
             "changes": [
-                "Wylaczono DNS captive portalu, gdy statyczna konfiguracja STA naklada sie na adres SoftAP 192.168.4.1.",
-                "Zablokowano przekierowania HTTP dla klientow z podsieci 192.168.4.x, gdy ta sama podsiec nalezy do STA.",
-                "Po uzyskaniu IP przez STA firmware ponownie sprawdza konflikt i zatrzymuje captive portal, zeby nie przejmowac ruchu bramy."
+                "Wyłączono DNS captive portalu, gdy statyczna konfiguracja STA nakłada się na adres SoftAP 192.168.4.1.",
+                "Zablokowano przekierowania HTTP dla klientów z podsieci 192.168.4.x, gdy ta sama podsieć należy do STA.",
+                "Po uzyskaniu IP przez STA firmware ponownie sprawdza konflikt i zatrzymuje captive portal, żeby nie przejmować ruchu bramy."
             ]
         },
         {
@@ -588,12 +588,12 @@
             "firmware_version": "1.0.0.847",
             "filesystem_version": "1.0.0.707",
             "date": "2026-06-28T07:27:50+01:00",
-            "title": "Porz?dki w wersjonowaniu portalu",
+            "title": "Porządki w wersjonowaniu portalu",
             "changes": [
-                "Uporz?dkowano skrypt wersjonowania: index.html automatycznie dostaje aktualne wersje styles.css i script.js.",
-                "Dodano kontrol? builda zatrzymuj?c? paczk? portalu, je?li w script.js pojawi? si? typowe sekwencje uszkodzonego kodowania.",
-                "Przywr?cono encj? ikony chevron w script.js, aby ograniczy? ryzyko problem?w z kodowaniem.",
-                "Przebudowano firmware i filesystem ze sp?jnymi wersjami oraz poprawionymi assetami portalu."
+                "Uporządkowano skrypt wersjonowania: index.html automatycznie dostaje aktualne wersje styles.css i script.js.",
+                "Dodano kontrolę builda zatrzymującą paczkę portalu, jeśli w script.js pojawią się typowe sekwencje uszkodzonego kodowania.",
+                "Przywrócono encję ikony chevron w script.js, aby ograniczyć ryzyko problemów z kodowaniem.",
+                "Przebudowano firmware i filesystem ze spójnymi wersjami oraz poprawionymi assetami portalu."
             ]
         },
         {
@@ -699,9 +699,9 @@
             "date": "2026-06-27T20:52:40+01:00",
             "title": "Doprecyzowanie zachowania panelu Recovery",
             "changes": [
-                "Panel restartu w Recovery chowa siÄ™ automatycznie sekundÄ™ po dojĹ›ciu paska do 100%.",
-                "Zamieniono kolejnoĹ›Ä‡ przyciskĂłw: Home jest teraz przed File Manager.",
-                "Zachowano brak automatycznego przejĹ›cia do / po udanej aktualizacji firmware lub filesystemu."
+                "Panel restartu w Recovery chowa się automatycznie sekundę po dojściu paska do 100%.",
+                "Zamieniono kolejność przycisków: Home jest teraz przed File Manager.",
+                "Zachowano brak automatycznego przejścia do / po udanej aktualizacji firmware lub filesystemu."
             ]
         },
         {
@@ -711,9 +711,9 @@
             "date": "2026-06-27T20:39:02+01:00",
             "title": "Recovery bez automatycznego powrotu do portalu",
             "changes": [
-                "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi juĹĽ automatycznie do gĹ‚Ăłwnego portalu.",
-                "Dodano przycisk Home obok File Manager, ktĂłry przenosi rÄ™cznie do /.",
-                "UsuniÄ™to nagĹ‚Ăłwek OTA Update oraz pomocnicze opisy z widoku recovery."
+                "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi już automatycznie do głównego portalu.",
+                "Dodano przycisk Home obok File Manager, który przenosi ręcznie do /.",
+                "Usunięto nagłówek OTA Update oraz pomocnicze opisy z widoku recovery."
             ]
         },
         {
@@ -733,11 +733,11 @@
             "firmware_version": "1.0.0.844",
             "filesystem_version": "1.0.0.696",
             "date": "2026-06-27T20:11:37+01:00",
-            "title": "Stabilizacja przejĹ›cia miÄ™dzy portalem i filemanem",
+            "title": "Stabilizacja przejścia między portalem i filemanem",
             "changes": [
-                "Dodano jawne zamykanie poĹ‚Ä…czeĹ„ dla peĹ‚nych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie miÄ™dzy / i /fileman nie zostawiaĹ‚o wiszÄ…cych sesji HTTP.",
-                "Fileman serwuje teraz script.js i style.css z plikĂłw .gz oraz cache, dziÄ™ki czemu wejĹ›cie do menedĹĽera plikĂłw mniej obciÄ…ĹĽa ESP.",
-                "PrzywrĂłcono prostÄ… obsĹ‚ugÄ™ /api/fs/raw bez wymuszonego no-cache, zgodnie ze stabilnÄ… starszÄ… wersjÄ…."
+                "Dodano jawne zamykanie połączeń dla pełnych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie między / i /fileman nie zostawiało wiszących sesji HTTP.",
+                "Fileman serwuje teraz script.js i style.css z plików .gz oraz cache, dzięki czemu wejście do menedżera plików mniej obciąża ESP.",
+                "Przywrócono prostą obsługę /api/fs/raw bez wymuszonego no-cache, zgodnie ze stabilną starszą wersją."
             ]
         },
         {
@@ -747,9 +747,9 @@
             "date": "2026-06-27T19:52:47+01:00",
             "title": "Stabilizacja AP i serwowania portalu",
             "changes": [
-                "UsuniÄ™to NetworkWatchdog oraz lokalne prĂłby HTTP, ktĂłre mogĹ‚y restartowaÄ‡ AsyncWebServer podczas pracy portalu.",
-                "WyĹ‚Ä…czono automatyczne wyĹ‚Ä…czanie SoftAP po wejĹ›ciu do panelu przez STA; AP pozostaje pod kontrolÄ… ustawienia uĹĽytkownika.",
-                "DuĹĽe zasoby portalu, w tym script.js, styles.css i tĹ‚umaczenia JSON, sÄ… serwowane z .gz oraz cache; no-cache pozostaje dla index.html i API."
+                "Usunięto NetworkWatchdog oraz lokalne próby HTTP, które mogły restartować AsyncWebServer podczas pracy portalu.",
+                "Wyłączono automatyczne wyłączanie SoftAP po wejściu do panelu przez STA; AP pozostaje pod kontrolą ustawienia użytkownika.",
+                "Duże zasoby portalu, w tym script.js, styles.css i tłumaczenia JSON, są serwowane z .gz oraz cache; no-cache pozostaje dla index.html i API."
             ]
         },
         {
@@ -829,11 +829,11 @@
             "firmware_version": "1.0.0.835",
             "filesystem_version": "1.0.0.686",
             "date": "2026-06-23T16:14:38+01:00",
-            "title": "RAM taskĂłw w diagnostyce procesĂłw",
+            "title": "RAM tasków w diagnostyce procesów",
             "changes": [
-                "Dodano w diagnostyce procesĂłw przybliĹĽone uĹĽycie RAM oparte o stos taska FreeRTOS.",
-                "Endpoint /api/diag/processes raportuje teraz wolny, uĹĽyty i caĹ‚kowity stos, gdy ESP-IDF udostÄ™pnia snapshot taskĂłw.",
-                "Tabela Procesy pokazuje wartoĹ›ci uĹĽyte/caĹ‚kowite oraz wolny zapas stosu zamiast samego surowego high-watermark.",
+                "Dodano w diagnostyce procesów przybliżone użycie RAM oparte o stos taska FreeRTOS.",
+                "Endpoint /api/diag/processes raportuje teraz wolny, użyty i całkowity stos, gdy ESP-IDF udostępnia snapshot tasków.",
+                "Tabela Procesy pokazuje wartości użyte/całkowite oraz wolny zapas stosu zamiast samego surowego high-watermark.",
                 "Modal procesu pokazuje ten sam opis zadania i czytelny odczyt RAM dla wybranego taska."
             ]
         },
@@ -842,11 +842,11 @@
             "firmware_version": "1.0.0.834",
             "filesystem_version": "1.0.0.685",
             "date": "2026-06-23T15:29:54+01:00",
-            "title": "PrzywrĂłcenie wĹ‚Ä…czania mDNS hostname",
+            "title": "Przywrócenie włączania mDNS hostname",
             "changes": [
-                "CofniÄ™to firmwareowy guard, ktĂłry wymuszaĹ‚ wyĹ‚Ä…czenie usĹ‚ugi mDNS .local.",
-                "Backend ponownie raportuje mdns_supported=true i pozwala zapisaÄ‡ hostname/mDNS jako wĹ‚Ä…czone.",
-                "Po wĹ‚Ä…czeniu hostname service firmware ponownie uruchamia ESPmDNS przez MDNS.begin oraz ogĹ‚asza usĹ‚ugÄ™ HTTP."
+                "Cofnięto firmwareowy guard, który wymuszał wyłączenie usługi mDNS .local.",
+                "Backend ponownie raportuje mdns_supported=true i pozwala zapisać hostname/mDNS jako włączone.",
+                "Po włączeniu hostname service firmware ponownie uruchamia ESPmDNS przez MDNS.begin oraz ogłasza usługę HTTP."
             ]
         },
         {
@@ -854,12 +854,12 @@
             "firmware_version": "1.0.0.833",
             "filesystem_version": "1.0.0.685",
             "date": "2026-06-23T12:30:13+01:00",
-            "title": "Automatyczne wyĹ‚Ä…czanie AP po onboardingu",
+            "title": "Automatyczne wyłączanie AP po onboardingu",
             "changes": [
-                "Dodano automatyczne wyĹ‚Ä…czanie SoftAP po wykryciu wejĹ›cia do portalu przez adres przydzielony przez router.",
-                "SoftAP wyĹ‚Ä…cza siÄ™ z opĂłĹşnieniem po realnym ruchu HTTP do stron portalu przez STA, dziÄ™ki czemu tryb AP+STA nie zostaje aktywny po onboardingu.",
-                "JeĹ›li po automatycznym wyĹ‚Ä…czeniu AP urzÄ…dzenie straci STA/IP, firmware po krĂłtkim czasie przywrĂłci AP awaryjnie.",
-                "Endpointy /api nie wyzwalajÄ… auto-wyĹ‚Ä…czania AP, aby nie psuÄ‡ integracji i diagnostyki."
+                "Dodano automatyczne wyłączanie SoftAP po wykryciu wejścia do portalu przez adres przydzielony przez router.",
+                "SoftAP wyłącza się z opóźnieniem po realnym ruchu HTTP do stron portalu przez STA, dzięki czemu tryb AP+STA nie zostaje aktywny po onboardingu.",
+                "Jeśli po automatycznym wyłączeniu AP urządzenie straci STA/IP, firmware po krótkim czasie przywróci AP awaryjnie.",
+                "Endpointy /api nie wyzwalają auto-wyłączania AP, aby nie psuć integracji i diagnostyki."
             ]
         },
         {
@@ -867,11 +867,11 @@
             "firmware_version": "1.0.0.831",
             "filesystem_version": "1.0.0.685",
             "date": "2026-06-23T10:46:07+01:00",
-            "title": "Guard stabilnoĹ›ci dla mDNS hostname",
+            "title": "Guard stabilności dla mDNS hostname",
             "changes": [
-                "Dodano firmwareowy guard stabilnoĹ›ci blokujÄ…cy start ESPmDNS, ktĂłry w testach zawieszaĹ‚ dostÄ™p do portalu.",
-                "PrzeĹ‚Ä…cznik hostname/mDNS nie zapisuje juĹĽ aktywnej usĹ‚ugi, jeĹ›li mDNS jest wyĹ‚Ä…czony w firmware dla bezpieczeĹ„stwa.",
-                "Backend raportuje mdns_supported=false oraz mdns_enabled=false, a sama nazwa urzÄ…dzenia nadal moĹĽe byÄ‡ uĹĽywana jako zwykĹ‚y hostname STA."
+                "Dodano firmwareowy guard stabilności blokujący start ESPmDNS, który w testach zawieszał dostęp do portalu.",
+                "Przełącznik hostname/mDNS nie zapisuje już aktywnej usługi, jeśli mDNS jest wyłączony w firmware dla bezpieczeństwa.",
+                "Backend raportuje mdns_supported=false oraz mdns_enabled=false, a sama nazwa urządzenia nadal może być używana jako zwykły hostname STA."
             ]
         },
         {
@@ -879,11 +879,11 @@
             "firmware_version": "1.0.0.830",
             "filesystem_version": "1.0.0.685",
             "date": "2026-06-23T05:09:51+01:00",
-            "title": "Kanoniczny adres AP dla klientĂłw SoftAP",
+            "title": "Kanoniczny adres AP dla klientów SoftAP",
             "changes": [
-                "Dodano kanoniczne przekierowanie klientĂłw SoftAP na adres http://192.168.4.1/.",
-                "JeĹĽeli telefon poĹ‚Ä…czony z AP prĂłbuje wejĹ›Ä‡ przez adres STA, na przykĹ‚ad 10.x.x.x albo 192.168.1.x, firmware od razu przenosi go na adres AP.",
-                "Endpointy /api nadal zwracajÄ… JSON i nie sÄ… uĹĽywane do przekierowania, aby nie psuÄ‡ integracji."
+                "Dodano kanoniczne przekierowanie klientów SoftAP na adres http://192.168.4.1/.",
+                "Jeżeli telefon połączony z AP próbuje wejść przez adres STA, na przykład 10.x.x.x albo 192.168.1.x, firmware od razu przenosi go na adres AP.",
+                "Endpointy /api nadal zwracają JSON i nie są używane do przekierowania, aby nie psuć integracji."
             ]
         },
         {
@@ -891,12 +891,12 @@
             "firmware_version": "1.0.0.829",
             "filesystem_version": "1.0.0.685",
             "date": "2026-06-23T04:54:27+01:00",
-            "title": "SprzÄ…tanie poĹ‚Ä…czeĹ„ portalu po uĹ›pieniu telefonu",
+            "title": "Sprzątanie połączeń portalu po uśpieniu telefonu",
             "changes": [
-                "WyĹ‚Ä…czono domyĹ›lny live-stream terminala diagnostycznego, ĹĽeby portal nie trzymaĹ‚ dĹ‚ugiego poĹ‚Ä…czenia keep-alive po uĹ›pieniu telefonu.",
-                "Portal abortuje aktywne ĹĽÄ…dania HTTP oraz zamyka kanaĹ‚y live przy blokadzie ekranu, pagehide i freeze.",
-                "Terminal diagnostyczny dziaĹ‚a w trybie historii HTTP bez cyklicznego otwierania EventSource.",
-                "Zaktualizowano obraz LittleFS, aby przeglÄ…darka dostaĹ‚a nowy skrypt sprzÄ…tajÄ…cy poĹ‚Ä…czenia po wybudzeniu telefonu."
+                "Wyłączono domyślny live-stream terminala diagnostycznego, żeby portal nie trzymał długiego połączenia keep-alive po uśpieniu telefonu.",
+                "Portal abortuje aktywne żądania HTTP oraz zamyka kanały live przy blokadzie ekranu, pagehide i freeze.",
+                "Terminal diagnostyczny działa w trybie historii HTTP bez cyklicznego otwierania EventSource.",
+                "Zaktualizowano obraz LittleFS, aby przeglądarka dostała nowy skrypt sprzątający połączenia po wybudzeniu telefonu."
             ]
         },
         {
@@ -907,9 +907,9 @@
             "title": "Aktywny watchdog portalu HTTP",
             "changes": [
                 "Watchdog co 15 sekund wykonuje lokalny test HTTP endpointu /api/version.",
-                "Po serii nieudanych testĂłw firmware restartuje sam serwer AsyncWebServer.",
-                "JeĹ›li problem HTTP powtarza siÄ™ po restarcie serwera, urzÄ…dzenie wykonuje restart programowy.",
-                "Dodano tryb DIGILED_VERSION_NO_BUMP dla kontrolowanych rebuildĂłw bez przypadkowego podbijania wersji."
+                "Po serii nieudanych testów firmware restartuje sam serwer AsyncWebServer.",
+                "Jeśli problem HTTP powtarza się po restarcie serwera, urządzenie wykonuje restart programowy.",
+                "Dodano tryb DIGILED_VERSION_NO_BUMP dla kontrolowanych rebuildów bez przypadkowego podbijania wersji."
             ]
         },
         {
@@ -917,12 +917,12 @@
             "firmware_version": "1.0.0.827",
             "filesystem_version": "1.0.0.683",
             "date": "2026-06-22T20:30:41+01:00",
-            "title": "Stabilizacja portalu po dĹ‚ugiej sesji",
+            "title": "Stabilizacja portalu po długiej sesji",
             "changes": [
                 "Zmniejszono polling widoku scen z 250 ms do 1000 ms.",
-                "Ograniczono tempo live-zapisĂłw globalnych parametrĂłw scen podczas pracy suwakami.",
-                "Doprecyzowano konfiguracjÄ™ AsyncTCP oraz dodano logi diagnostyczne watchdog sieci.",
-                "Dodano prĂłbÄ™ odzyskania poĹ‚Ä…czenia STA, gdy firmware widzi poĹ‚Ä…czenie bez poprawnego IP."
+                "Ograniczono tempo live-zapisów globalnych parametrów scen podczas pracy suwakami.",
+                "Doprecyzowano konfigurację AsyncTCP oraz dodano logi diagnostyczne watchdog sieci.",
+                "Dodano próbę odzyskania połączenia STA, gdy firmware widzi połączenie bez poprawnego IP."
             ]
         },
         {
@@ -932,9 +932,9 @@
             "date": "2026-06-22T19:33:19+01:00",
             "title": "Test modala restartu po OTA",
             "changes": [
-                "Podbito wersjÄ™ firmware do 1.0.0.824 bez zmian funkcjonalnych.",
-                "Podbito wersjÄ™ filesystemu do 1.0.0.682 bez zmian funkcjonalnych.",
-                "Pakiet sĹ‚uĹĽy do testu, czy po aktualizacji firmware albo filesystemu pojawia siÄ™ modal restartowania urzÄ…dzenia."
+                "Podbito wersję firmware do 1.0.0.824 bez zmian funkcjonalnych.",
+                "Podbito wersję filesystemu do 1.0.0.682 bez zmian funkcjonalnych.",
+                "Pakiet służy do testu, czy po aktualizacji firmware albo filesystemu pojawia się modal restartowania urządzenia."
             ]
         },
         {
@@ -980,9 +980,9 @@
             "date": "2026-06-22T18:39:03+01:00",
             "title": "Watchdog sieciowy AP",
             "changes": [
-                "Dodano lekki watchdog sieciowy sprawdzajÄ…cy tryb WiFi i adres SoftAP bez pingowania ani skanowania.",
-                "Watchdog wykonuje miÄ™kkie odtworzenie SoftAP/captive DNS po kilku kolejnych bĹ‚Ä™dnych prĂłbkach, a restart ESP traktuje jako ostatniÄ… deskÄ™ ratunku.",
-                "AsyncTCP i zadanie skanowania przeniesiono poza rdzeĹ„ WiFi, a skanowanie portalu ograniczono do maksymalnie jednego realnego skanu na minutÄ™."
+                "Dodano lekki watchdog sieciowy sprawdzający tryb WiFi i adres SoftAP bez pingowania ani skanowania.",
+                "Watchdog wykonuje miękkie odtworzenie SoftAP/captive DNS po kilku kolejnych błędnych próbkach, a restart ESP traktuje jako ostatnią deskę ratunku.",
+                "AsyncTCP i zadanie skanowania przeniesiono poza rdzeń WiFi, a skanowanie portalu ograniczono do maksymalnie jednego realnego skanu na minutę."
             ]
         },
         {
@@ -990,11 +990,11 @@
             "firmware_version": "1.0.0.821",
             "filesystem_version": "1.0.0.678",
             "date": "2026-06-22T18:24:13+01:00",
-            "title": "Stabilizacja obsĹ‚ugi sieci AP/STA",
+            "title": "Stabilizacja obsługi sieci AP/STA",
             "changes": [
-                "AsyncTCP pracuje teraz na rdzeniu 1 zamiast na rdzeniu 0, ktĂłry obsĹ‚uguje stos WiFi ESP32.",
-                "Skanowanie WiFi z portalu jest cache'owane przez 60 sekund i nie moĹĽe startowaÄ‡ czÄ™Ĺ›ciej niĹĽ raz na minutÄ™.",
-                "Zadanie skanowania WiFi przeniesiono na rdzeĹ„ 1 i dodano flagÄ™ scan_throttled w odpowiedzi /api/scan."
+                "AsyncTCP pracuje teraz na rdzeniu 1 zamiast na rdzeniu 0, który obsługuje stos WiFi ESP32.",
+                "Skanowanie WiFi z portalu jest cache'owane przez 60 sekund i nie może startować częściej niż raz na minutę.",
+                "Zadanie skanowania WiFi przeniesiono na rdzeń 1 i dodano flagę scan_throttled w odpowiedzi /api/scan."
             ]
         },
         {
@@ -1004,9 +1004,9 @@
             "date": "2026-06-22T18:18:07+01:00",
             "title": "Stabilizacja captive portal",
             "changes": [
-                "Zmieniono TTL odpowiedzi DNS captive portal z 0 na 60 sekund, aby telefony i laptopy nie zalewaĹ‚y ESP ciÄ…gĹ‚ymi zapytaniami DNS.",
-                "Lekki ekran captive portal jest teraz wysyĹ‚any ze staĹ‚ego bufora w firmware zamiast skĹ‚adania dynamicznego HTML dla kaĹĽdego ĹĽÄ…dania.",
-                "Odpowiedzi captive portal wymuszajÄ… zamkniÄ™cie poĹ‚Ä…czenia, a limit klientĂłw SoftAP zwiÄ™kszono z 4 do 8."
+                "Zmieniono TTL odpowiedzi DNS captive portal z 0 na 60 sekund, aby telefony i laptopy nie zalewały ESP ciągłymi zapytaniami DNS.",
+                "Lekki ekran captive portal jest teraz wysyłany ze stałego bufora w firmware zamiast składania dynamicznego HTML dla każdego żądania.",
+                "Odpowiedzi captive portal wymuszają zamknięcie połączenia, a limit klientów SoftAP zwiększono z 4 do 8."
             ]
         },
         {
@@ -1016,9 +1016,9 @@
             "date": "2026-06-22T06:05:03+01:00",
             "title": "Lekki ekran captive portal",
             "changes": [
-                "Systemowe strony wykrywania captive portal pokazujÄ… teraz prosty ekran startowy zamiast od razu Ĺ‚adowaÄ‡ peĹ‚ny panel DigiLED.",
-                "Ekran startowy zawiera adres 192.168.4.1 oraz przycisk OtwĂłrz portal prowadzÄ…cy do wĹ‚aĹ›ciwego panelu logowania.",
-                "BezpoĹ›rednie wejĹ›cie na 192.168.4.1 nadal otwiera peĹ‚ny portal, a endpointy /api zachowujÄ… odpowiedzi JSON 404."
+                "Systemowe strony wykrywania captive portal pokazują teraz prosty ekran startowy zamiast od razu ładować pełny panel DigiLED.",
+                "Ekran startowy zawiera adres 192.168.4.1 oraz przycisk Otwórz portal prowadzący do właściwego panelu logowania.",
+                "Bezpośrednie wejście na 192.168.4.1 nadal otwiera pełny portal, a endpointy /api zachowują odpowiedzi JSON 404."
             ]
         },
         {
@@ -1028,9 +1028,9 @@
             "date": "2026-06-21T19:15:02+01:00",
             "title": "Captive portal dla wbudowanego AP",
             "changes": [
-                "SoftAP uruchamia teraz serwer DNS przechwytujÄ…cy zapytania i kierujÄ…cy je na adres portalu 192.168.4.1.",
-                "Dodano przekierowania dla testĂłw captive portal uĹĽywanych przez Androida, iOS, Windows i inne urzÄ…dzenia.",
-                "Nieznane Ĺ›cieĹĽki HTTP spoza API przekierowujÄ… do portalu, a endpointy /api nadal zwracajÄ… JSON 404."
+                "SoftAP uruchamia teraz serwer DNS przechwytujący zapytania i kierujący je na adres portalu 192.168.4.1.",
+                "Dodano przekierowania dla testów captive portal używanych przez Androida, iOS, Windows i inne urządzenia.",
+                "Nieznane ścieżki HTTP spoza API przekierowują do portalu, a endpointy /api nadal zwracają JSON 404."
             ]
         },
         {
