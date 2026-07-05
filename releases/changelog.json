@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.781",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.781",
+            "date": "2026-07-05T13:19:05+01:00",
+            "title": "Wydzielenie zwijania ulubionych efekt?w",
+            "changes": [
+                "Dodano modu? 04-favfx-collapse-cascade.css dla rozwijania i zwijania sekcji ulubionych efekt?w.",
+                "Przeniesiono regu?y favFxBox/favFxBody/favFxToggleBtn bez zmiany warto?ci CSS.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 22 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.781; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.780",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.780",
