@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.782",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.782",
+            "date": "2026-07-05T13:27:46+01:00",
+            "title": "Wydzielenie ikon utility",
+            "changes": [
+                "Dodano modu? 04-icon-utilities-cascade.css dla fluentChevron i scanIconGlyph.",
+                "Przeniesiono trzy og?lne regu?y ikon bez zmiany warto?ci CSS i z zachowaniem p??nej kolejno?ci kaskady.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 22 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.782; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.781",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.781",

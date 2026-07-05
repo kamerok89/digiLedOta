@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.781",
-    "notes": "Wydzielono zachowanie zwijania ulubionych efekt?w do osobnego modu?u CSS.",
+    "filesystem_version": "1.0.0.782",
+    "notes": "Wydzielono p??ne style ikon i chevron?w do osobnego modu?u CSS.",
     "changes": [
-        "Dodano modu? 04-favfx-collapse-cascade.css dla rozwijania i zwijania sekcji ulubionych efekt?w.",
-        "Przeniesiono regu?y favFxBox/favFxBody/favFxToggleBtn bez zmiany warto?ci CSS.",
+        "Dodano modu? 04-icon-utilities-cascade.css dla fluentChevron i scanIconGlyph.",
+        "Przeniesiono trzy og?lne regu?y ikon bez zmiany warto?ci CSS i z zachowaniem p??nej kolejno?ci kaskady.",
         "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 22 KB.",
-        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.781; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.782; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "E3D1E27857ECE1E62D5968D18C6DF73D"
+        "md5": "D2C5F4D26394CF9928A1B7B6EA655370"
     },
-    "build_time": "2026-07-05T13:19:05+01:00",
+    "build_time": "2026-07-05T13:27:46+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
