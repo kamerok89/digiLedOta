@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.874",
+            "firmware_version": "1.0.0.874",
+            "filesystem_version": "1.0.0.760",
+            "date": "2026-07-05T07:39:26+01:00",
+            "title": "Porządkowanie logów startowych",
+            "changes": [
+                "Odczyt ustawień z NVS sprawdza teraz istnienie klucza przed pobraniem wartości, więc brak opcjonalnych pól nie generuje serii komunikatów NOT_FOUND.",
+                "Dodano partycję coredump 64 KB między app1 i LittleFS w tabeli partycji pełnego obrazu flash.",
+                "Skrypt scalający firmware odczytuje offset LittleFS z tabeli partycji, zamiast używać starego adresu 0x290000.",
+                "Opublikowano firmware 1.0.0.874; obraz LittleFS pozostaje w wersji 1.0.0.760."
+            ]
+        },
+        {
             "version": "1.0.0.760",
             "firmware_version": "1.0.0.873",
             "filesystem_version": "1.0.0.760",
