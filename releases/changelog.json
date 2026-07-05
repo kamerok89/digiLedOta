@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.792",
+            "firmware_version": "1.0.0.877",
+            "filesystem_version": "1.0.0.792",
+            "date": "2026-07-05T15:16:19+01:00",
+            "title": "Automatyczne rozpoznawanie Grenton TF-Remote",
+            "changes": [
+                "Adresy MiLight zaczynające się od FF są automatycznie ustawiane jako TF-Remote.",
+                "Piloty z takim adresem są pokazywane jako Grenton 0x.... zamiast Pilot 0x....",
+                "Portal dobiera dla nich ikonę modułu TF oraz blokuje typ pilota na TF-Remote w ustawieniach.",
+                "Reguła działa przy uczeniu, odczycie z pamięci, imporcie backupu i zapisie ustawień pilota.",
+                "Zbudowano firmware 1.0.0.877 oraz obraz LittleFS 1.0.0.792."
+            ]
+        },
+        {
             "version": "1.0.0.791",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.791",
