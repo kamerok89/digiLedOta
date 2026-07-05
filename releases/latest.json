@@ -1,26 +1,26 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.877",
-    "filesystem_version": "1.0.0.792",
-    "notes": "Dodano automatyczne rozpoznawanie pilotów Grenton po adresie zaczynającym się od FF.",
+    "firmware_version": "1.0.0.878",
+    "filesystem_version": "1.0.0.793",
+    "notes": "Dodano ręczne dodawanie adresu pilota lub bramki MiLight z automatycznym rozpoznawaniem Grenton po FF.",
     "changes": [
-        "Adresy MiLight zaczynające się od FF są automatycznie ustawiane jako TF-Remote.",
-        "Piloty z takim adresem są pokazywane jako Grenton 0x.... zamiast Pilot 0x....",
-        "Portal dobiera dla nich ikonę modułu TF oraz blokuje typ pilota na TF-Remote w ustawieniach.",
-        "Reguła działa przy uczeniu, odczycie z pamięci, imporcie backupu i zapisie ustawień pilota.",
-        "Zbudowano firmware 1.0.0.877 oraz obraz LittleFS 1.0.0.792."
+        "Zmieniono opis dodawania MiLight na Dodawanie pilota lub bramki i doprecyzowano komunikat automatycznego wykrywania ramki.",
+        "Dodano przycisk Dodaj adres oraz modal do ręcznego wpisania adresu pilota albo bramki.",
+        "Adresy zaczynające się od FF są dodawane jako bramka Grenton / TF-Remote, a pozostałe jako zwykły pilot.",
+        "Firmware udostępnia endpoint /api/milight/remote/add i zapisuje domyślne mapowania dla ręcznie dodanego adresu.",
+        "Zbudowano firmware 1.0.0.878 oraz obraz LittleFS 1.0.0.793."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1685600,
-        "md5": "88DD55BBFA65CA55C495D695F84B8C90"
+        "size": 1687744,
+        "md5": "059D21B6A5F31DE10DEA48DA0C247C15"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "A23CC6C3604D4842A9BED2549720FC48"
+        "md5": "76CA0B11FD7559B470CCFC7F44DDD017"
     },
-    "build_time": "2026-07-05T15:16:19+01:00",
+    "build_time": "2026-07-05T15:34:49+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

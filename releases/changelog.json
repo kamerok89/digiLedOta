@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.793",
+            "firmware_version": "1.0.0.878",
+            "filesystem_version": "1.0.0.793",
+            "date": "2026-07-05T15:34:49+01:00",
+            "title": "Ręczne dodawanie adresu MiLight",
+            "changes": [
+                "Zmieniono opis dodawania MiLight na Dodawanie pilota lub bramki i doprecyzowano komunikat automatycznego wykrywania ramki.",
+                "Dodano przycisk Dodaj adres oraz modal do ręcznego wpisania adresu pilota albo bramki.",
+                "Adresy zaczynające się od FF są dodawane jako bramka Grenton / TF-Remote, a pozostałe jako zwykły pilot.",
+                "Firmware udostępnia endpoint /api/milight/remote/add i zapisuje domyślne mapowania dla ręcznie dodanego adresu.",
+                "Zbudowano firmware 1.0.0.878 oraz obraz LittleFS 1.0.0.793."
+            ]
+        },
+        {
             "version": "1.0.0.792",
             "firmware_version": "1.0.0.877",
             "filesystem_version": "1.0.0.792",
