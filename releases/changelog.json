@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.755",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.755",
+            "date": "2026-07-05T05:31:05+01:00",
+            "title": "Linia kierunku w mini-podgl?dzie scen",
+            "changes": [
+                "Dolna linia z kierunkow? strza?k? w mini-podgl?dzie LED jest teraz widoczna tak?e na w??szych kafelkach scen.",
+                "Etykiety LED po bokach linii pozostaj? zsynchronizowane z kierunkiem startu sceny.",
+                "Nie zmieniono zachowania zielonego pod?wietlenia przycisk?w Lewo/Prawo.",
+                "Od?wie?ono style portalu oraz opublikowano obraz LittleFS 1.0.0.755."
+            ]
+        },
+        {
             "version": "1.0.0.754",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.754",
