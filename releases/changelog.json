@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.768",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.768",
+            "date": "2026-07-05T10:25:08+01:00",
+            "title": "Grupowanie kolorów tekstu CSS",
+            "changes": [
+                "Zgrupowano powtarzalne kolory tytułów i etykiet w sekcjach PWM oraz External API.",
+                "Zgrupowano kolory podpowiedzi w opcjach PWM/API bez zmiany kolejności reguł aktywnych.",
+                "Zgrupowano kolory nazw w ulubionych efektach, wydajności i diagnostyce PWM.",
+                "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 74,1 KB oraz wygenerowany styles.css do około 843,1 KB.",
+                "Opublikowano obraz LittleFS 1.0.0.768; firmware pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.767",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.767",
