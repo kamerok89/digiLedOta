@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.872",
-    "filesystem_version": "1.0.0.758",
-    "notes": "Domy?lny kierunek startu sceny jest zachowywany po eksporcie i przywr?ceniu ustawie?.",
+    "filesystem_version": "1.0.0.759",
+    "notes": "Status aktualizacji pokazuje teraz inną ikonę dla sprawdzania, instalowania i błędu.",
     "changes": [
-        "Poprawiono zapis domy?lnego kierunku startu sceny w konfiguracji, aby lewo/prawo by?o brane z aktywnego przycisku w karcie sceny.",
-        "Pe?ny zapis konfiguracji nie nadpisuje ju? kierunku warto?ci? z lokalnego cache po eksporcie i przywr?ceniu ustawie?.",
-        "Backup nadal zapisuje pole startDirection dla ka?dej sceny, a import odtwarza je w konfiguracji scen.",
-        "Od?wie?ono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.758."
+        "Pill statusu aktualizacji zmienia ikonę na obracającą się klepsydrę podczas sprawdzania wersji.",
+        "Podczas instalowania aktualizacji ikona przełącza się na obracający spinner.",
+        "Przy błędzie status pokazuje ikonę X oraz czerwony stan pilla.",
+        "Odświeżono skrypt i style portalu oraz opublikowano obraz LittleFS 1.0.0.759."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "1578E75C8002A03FFE7300598A568035"
+        "md5": "B98D40A24DAB5BA79C1674CAF9A8E848"
     },
-    "build_time": "2026-07-05T05:56:41+01:00",
+    "build_time": "2026-07-05T06:13:37+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.759",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.759",
+            "date": "2026-07-05T06:13:37+01:00",
+            "title": "Ikony stanu aktualizacji",
+            "changes": [
+                "Pill statusu aktualizacji zmienia ikonę na obracającą się klepsydrę podczas sprawdzania wersji.",
+                "Podczas instalowania aktualizacji ikona przełącza się na obracający spinner.",
+                "Przy błędzie status pokazuje ikonę X oraz czerwony stan pilla.",
+                "Odświeżono skrypt i style portalu oraz opublikowano obraz LittleFS 1.0.0.759."
+            ]
+        },
+        {
             "version": "1.0.0.758",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.758",
