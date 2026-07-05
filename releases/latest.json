@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.778",
-    "notes": "Wydzielono pozosta?e style WiFi/NTP z mostka config/access.",
+    "filesystem_version": "1.0.0.779",
+    "notes": "Wydzielono style kafli konfiguracji i kontrolek PWM do osobnego modu?u CSS.",
     "changes": [
-        "Dodano modu? 04-wifi-ntp-cascade.css dla kontrolek presetu NTP WiFi.",
-        "Przeniesiono globalne jasne style ikon WiFi do 04-wifi-light-cascade.css.",
-        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 38 KB.",
-        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.778; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+        "Dodano modu? 04-config-tiles-cascade.css dla kafli boot/onboard/notifications/modbus/miLight/PWM.",
+        "Przeniesiono bazowe regu?y rozwijania kafli, prze??cznik?w PWM oraz chevron?w bez zmiany warto?ci CSS.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 27 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.779; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "BA4BF539748DF4BDBA2F0B0CEF1B6E37"
+        "md5": "0995FFAF0D760B2557A94C4F4F70EB61"
     },
-    "build_time": "2026-07-05T12:43:22+01:00",
+    "build_time": "2026-07-05T12:56:24+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

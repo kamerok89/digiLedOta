@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.779",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.779",
+            "date": "2026-07-05T12:56:24+01:00",
+            "title": "Wydzielenie kafli konfiguracji",
+            "changes": [
+                "Dodano modu? 04-config-tiles-cascade.css dla kafli boot/onboard/notifications/modbus/miLight/PWM.",
+                "Przeniesiono bazowe regu?y rozwijania kafli, prze??cznik?w PWM oraz chevron?w bez zmiany warto?ci CSS.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 27 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.779; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.778",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.778",
