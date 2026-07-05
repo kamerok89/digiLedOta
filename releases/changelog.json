@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.767",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.767",
+            "date": "2026-07-05T10:10:03+01:00",
+            "title": "Grupowanie opcji PWM i API",
+            "changes": [
+                "Zgrupowano wspólne reguły light theme dla opcji PWM i External API.",
+                "Zgrupowano wspólne style przełączników oraz stanów zaznaczenia w tych opcjach.",
+                "Zgrupowano małe pille statusowe PWM, ulubionych efektów i wydajności.",
+                "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 74,5 KB oraz wygenerowany styles.css do około 843,5 KB.",
+                "Opublikowano obraz LittleFS 1.0.0.767; firmware pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.766",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.766",
