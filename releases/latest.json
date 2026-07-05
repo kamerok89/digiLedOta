@@ -1,24 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.878",
-    "filesystem_version": "1.0.0.794",
-    "notes": "Poprawiono focus pola adresu w modalu Dodaj adres MiLight.",
+    "firmware_version": "1.0.0.879",
+    "filesystem_version": "1.0.0.795",
+    "notes": "Zmieniono działanie komend TF-Remote W=6 i W=7 dla sterowania scenami.",
     "changes": [
-        "Wstrzymano automatyczny render statusu MiLight, gdy otwarty jest modal Dodaj adres.",
-        "Pole wpisywania adresu nie jest już niszczone przez cykliczne odświeżanie statusu, więc nie traci focusu podczas pisania.",
-        "Opublikowano obraz LittleFS 1.0.0.794; firmware pozostaje w wersji 1.0.0.878."
+        "Zmieniono komendę TF-Remote W=6 na Start/Stop scene: R wybiera scenę 1-24, a G=1 uruchamia i G=0 zatrzymuje scenę.",
+        "Zmieniono komendę TF-Remote W=7 na Toggle scene: R wybiera scenę 1-24, a stan sceny jest przełączany bez wymagania G.",
+        "Zaktualizowano etykiety aktywności MiLight dla startu, stopu i przełączania scen TF-Remote.",
+        "Zbudowano firmware 1.0.0.879 oraz obraz LittleFS 1.0.0.795."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1687744,
-        "md5": "059D21B6A5F31DE10DEA48DA0C247C15"
+        "size": 1687808,
+        "md5": "41BE97DACF68C078F1F86819D0AC5373"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "F89D36463957B6B03F818C618E4BCA56"
+        "md5": "BD1D4642BC3D943537710B07CA3A58F9"
     },
-    "build_time": "2026-07-05T15:54:55+01:00",
+    "build_time": "2026-07-05T16:39:52+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

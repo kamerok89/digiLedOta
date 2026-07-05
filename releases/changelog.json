@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.795",
+            "firmware_version": "1.0.0.879",
+            "filesystem_version": "1.0.0.795",
+            "date": "2026-07-05T16:39:52+01:00",
+            "title": "Sterowanie scenami TF-Remote W=6/W=7",
+            "changes": [
+                "Zmieniono komendę TF-Remote W=6 na Start/Stop scene: R wybiera scenę 1-24, a G=1 uruchamia i G=0 zatrzymuje scenę.",
+                "Zmieniono komendę TF-Remote W=7 na Toggle scene: R wybiera scenę 1-24, a stan sceny jest przełączany bez wymagania G.",
+                "Zaktualizowano etykiety aktywności MiLight dla startu, stopu i przełączania scen TF-Remote.",
+                "Zbudowano firmware 1.0.0.879 oraz obraz LittleFS 1.0.0.795."
+            ]
+        },
+        {
             "version": "1.0.0.794",
             "firmware_version": "1.0.0.878",
             "filesystem_version": "1.0.0.794",
