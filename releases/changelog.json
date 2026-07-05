@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.783",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.783",
+            "date": "2026-07-05T13:34:44+01:00",
+            "title": "Wydzielenie bazy jasnego motywu",
+            "changes": [
+                "Dodano modu? 04-light-theme-base-cascade.css ?adowany przed pozosta?ym bridge?em config/access.",
+                "Przeniesiono 42 globalne regu?y html[data-theme=\"light\"] bez zmiany ko?cowego CSS.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 14 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.783; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.782",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.782",
