@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.758",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.758",
+            "date": "2026-07-05T05:56:41+01:00",
+            "title": "Przywracanie kierunku startu scen",
+            "changes": [
+                "Poprawiono zapis domy?lnego kierunku startu sceny w konfiguracji, aby lewo/prawo by?o brane z aktywnego przycisku w karcie sceny.",
+                "Pe?ny zapis konfiguracji nie nadpisuje ju? kierunku warto?ci? z lokalnego cache po eksporcie i przywr?ceniu ustawie?.",
+                "Backup nadal zapisuje pole startDirection dla ka?dej sceny, a import odtwarza je w konfiguracji scen.",
+                "Od?wie?ono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.758."
+            ]
+        },
+        {
             "version": "1.0.0.757",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.757",
