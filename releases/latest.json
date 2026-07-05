@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.872",
-    "filesystem_version": "1.0.0.756",
-    "notes": "Naprawiono renderowanie dolnej linii i strza?ki w mini-podgl?dzie scen.",
+    "filesystem_version": "1.0.0.757",
+    "notes": "Dolna linia mini-podgl?du scen ma teraz wyra?n? strza?k? kierunku.",
     "changes": [
-        "Naprawiono sk?adni? koloru linii kierunku w mini-podgl?dzie LED, dzi?ki czemu kreska i grot strza?ki s? widoczne na kafelku sceny.",
-        "Linia dzia?a z obecnym formatem zmiennej RGB oraz zachowuje kierunek w prawo i w lewo.",
-        "Nie zmieniono zachowania przycisk?w Lewo/Prawo ani g?rnej metryki kafelka.",
-        "Od?wie?ono style portalu oraz opublikowano obraz LittleFS 1.0.0.756."
+        "Dodano wyra?niejszy grot strza?ki na dolnej linii mini-podgl?du sceny.",
+        "Strza?ka nie jest ju? przycinana przez regu?? ukrywaj?c? nadmiar tekstu w wierszu etykiet LED.",
+        "Wzmocniono czytelno?? grotu lekk? po?wiat? w kolorze aktualnego podgl?du.",
+        "Od?wie?ono style portalu oraz opublikowano obraz LittleFS 1.0.0.757."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "B9C169A37B5566842CBB96B1F2763F28"
+        "md5": "E5D2F558D55F88D72B2D552A31708FF5"
     },
-    "build_time": "2026-07-05T05:38:31+01:00",
+    "build_time": "2026-07-05T05:45:24+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.757",
+            "firmware_version": "1.0.0.872",
+            "filesystem_version": "1.0.0.757",
+            "date": "2026-07-05T05:45:24+01:00",
+            "title": "Wyra?na strza?ka kierunku sceny",
+            "changes": [
+                "Dodano wyra?niejszy grot strza?ki na dolnej linii mini-podgl?du sceny.",
+                "Strza?ka nie jest ju? przycinana przez regu?? ukrywaj?c? nadmiar tekstu w wierszu etykiet LED.",
+                "Wzmocniono czytelno?? grotu lekk? po?wiat? w kolorze aktualnego podgl?du.",
+                "Od?wie?ono style portalu oraz opublikowano obraz LittleFS 1.0.0.757."
+            ]
+        },
+        {
             "version": "1.0.0.756",
             "firmware_version": "1.0.0.872",
             "filesystem_version": "1.0.0.756",
