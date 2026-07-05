@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.774",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.774",
+            "date": "2026-07-05T12:08:25+01:00",
+            "title": "Wydzielenie komunikat?w toast",
+            "changes": [
+                "Przeniesiono regu?y .toastViewport, .toast oraz warianty ok/b??d/oczekiwanie do 04-toast-cascade.css.",
+                "Przeniesiono razem jasny motyw toast?w, aby zachowa? kolejno?? nadpisywania wewn?trz komponentu.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 76 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.774; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.773",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.773",
