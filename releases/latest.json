@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.875",
-    "filesystem_version": "1.0.0.774",
-    "notes": "Wydzielono style globalnych komunikat?w toast do osobnego modu?u CSS.",
+    "filesystem_version": "1.0.0.775",
+    "notes": "Wydzielono g??wne style External API do osobnego modu?u CSS.",
     "changes": [
-        "Przeniesiono regu?y .toastViewport, .toast oraz warianty ok/b??d/oczekiwanie do 04-toast-cascade.css.",
-        "Przeniesiono razem jasny motyw toast?w, aby zachowa? kolejno?? nadpisywania wewn?trz komponentu.",
-        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 76 KB.",
-        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.774; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+        "Przeniesiono g??wny blok .extApi z 04-config-access-external-cascade.css do 04-external-api-main-cascade.css.",
+        "Pozostawiono p??ny modu? 04-external-api-inline-cascade.css jako osobn? warstw? doprecyzowa?.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 67 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.775; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "24E87ADD2F88F798E700EF1A0E677CB5"
+        "md5": "9835D93C9ED7C85986D33486C1A5E4D5"
     },
-    "build_time": "2026-07-05T12:08:25+01:00",
+    "build_time": "2026-07-05T12:15:08+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

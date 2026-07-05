@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.775",
+            "firmware_version": "1.0.0.875",
+            "filesystem_version": "1.0.0.775",
+            "date": "2026-07-05T12:15:08+01:00",
+            "title": "Wydzielenie External API",
+            "changes": [
+                "Przeniesiono g??wny blok .extApi z 04-config-access-external-cascade.css do 04-external-api-main-cascade.css.",
+                "Pozostawiono p??ny modu? 04-external-api-inline-cascade.css jako osobn? warstw? doprecyzowa?.",
+                "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 67 KB.",
+                "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.775; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+            ]
+        },
+        {
             "version": "1.0.0.774",
             "firmware_version": "1.0.0.875",
             "filesystem_version": "1.0.0.774",
