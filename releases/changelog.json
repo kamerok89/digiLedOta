@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.807",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.807",
+            "date": "2026-07-06T08:15:26+01:00",
+            "title": "Stabilny feedback po wyborze pliku",
+            "changes": [
+                "Wydłużono zabezpieczenie anulowania wyboru pliku, aby portal nie czyścił spinnera zanim przeglądarka przekaże wybrany plik do zdarzenia change.",
+                "Po wyborze firmware, filesystemu lub ustawień komunikat oczekiwania nie wraca już przedwcześnie do stanu Urządzenie ma aktualną wersję.",
+                "Opublikowano obraz LittleFS 1.0.0.807; firmware pozostaje w wersji 1.0.0.891."
+            ]
+        },
+        {
             "version": "1.0.0.806",
             "firmware_version": "1.0.0.891",
             "filesystem_version": "1.0.0.806",
