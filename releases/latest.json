@@ -2,14 +2,12 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.810",
-    "notes": "Pinout z pinami systemowymi",
+    "filesystem_version": "1.0.0.811",
+    "notes": "Widoczna sekcja System w Pinout",
     "changes": [
-        "W zakładce Pinout dodano sekcję System z wyborem GPIO dla danych WS2812 oraz przycisku Factory Reset.",
-        "Firmware zapisuje nowe pola pinout.ws2812 i pinout.factoryReset w settings.json oraz uwzględnia je w imporcie kopii ustawień.",
-        "Factory Reset przełącza się od razu po zapisie, a pin WS2812 jest używany przy inicjalizacji LED po restarcie urządzenia.",
-        "Walidacja konfliktów Modbus i Sound Reactive korzysta teraz z wybranych pinów systemowych.",
-        "Zbudowano firmware 1.0.0.892 oraz obraz LittleFS 1.0.0.810."
+        "Odświeżono skompresowany script.js.gz, aby portal serwowany z gzip pokazywał nową sekcję System w zakładce Pinout.",
+        "Poprawiono fallback notatki Pinout informującej, że zmiana WS2812 działa po restarcie, a Factory Reset odświeża się od razu.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.811."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +17,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "5E99E95B412F6E1ECA7E713053D65853"
+        "md5": "64D5E4FEF3B540BE38125EFC67663146"
     },
-    "build_time": "2026-07-06T09:16:00+01:00",
+    "build_time": "2026-07-06T09:27:36+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

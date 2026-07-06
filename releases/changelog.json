@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.811",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.811",
+            "date": "2026-07-06T09:27:36+01:00",
+            "title": "Widoczna sekcja System w Pinout",
+            "changes": [
+                "Odświeżono skompresowany script.js.gz, aby portal serwowany z gzip pokazywał nową sekcję System w zakładce Pinout.",
+                "Poprawiono fallback notatki Pinout informującej, że zmiana WS2812 działa po restarcie, a Factory Reset odświeża się od razu.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.811."
+            ]
+        },
+        {
             "version": "1.0.0.892",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.810",
