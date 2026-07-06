@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.885",
+            "firmware_version": "1.0.0.885",
+            "filesystem_version": "1.0.0.796",
+            "date": "2026-07-06T04:41:50+01:00",
+            "title": "R=0 dla W=6/W=7/W=8 TF-Remote",
+            "changes": [
+                "W=6 obsługuje teraz R=0: G=1 uruchamia wszystkie sceny, a G=0 zatrzymuje wszystkie sceny.",
+                "W=7 obsługuje teraz R=0 jako toggle all: gdy dowolna scena jest aktywna, zatrzymuje wszystkie; gdy żadna nie jest aktywna, uruchamia wszystkie.",
+                "W=8 obsługuje teraz R=0 dla startu/stopu wszystkich scen z kierunkiem prawo/lewo.",
+                "Semantyka zdarzeń TF-Remote oznacza teraz target 0 jako poprawny target grupowy dla W=6, W=7 i W=8.",
+                "Zbudowano firmware 1.0.0.885; obraz LittleFS pozostaje w wersji 1.0.0.796."
+            ]
+        },
+        {
             "version": "1.0.0.884",
             "firmware_version": "1.0.0.884",
             "filesystem_version": "1.0.0.796",

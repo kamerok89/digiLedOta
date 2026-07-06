@@ -1,25 +1,26 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.884",
+    "firmware_version": "1.0.0.885",
     "filesystem_version": "1.0.0.796",
-    "notes": "Poprawiono komendę TF-Remote W=9 dla B=0, aby RUN FX trafiał do wszystkich scen.",
+    "notes": "Dodano obsługę R=0 jako wszystkich scen dla komend TF-Remote W=6, W=7 i W=8.",
     "changes": [
-        "Poprawiono komendę TF-Remote W=9: B=0 buduje teraz jawną listę wszystkich scen zamiast korzystać z wyboru zapisanych aktywnych scen.",
-        "Przykład r:5g:1b:0w:9 uruchamia teraz RUN FX 5 w prawo na wszystkich skonfigurowanych scenach.",
-        "B=1-24 nadal działa tylko na wskazaną scenę.",
-        "Zbudowano firmware 1.0.0.884; obraz LittleFS pozostaje w wersji 1.0.0.796."
+        "W=6 obsługuje teraz R=0: G=1 uruchamia wszystkie sceny, a G=0 zatrzymuje wszystkie sceny.",
+        "W=7 obsługuje teraz R=0 jako toggle all: gdy dowolna scena jest aktywna, zatrzymuje wszystkie; gdy żadna nie jest aktywna, uruchamia wszystkie.",
+        "W=8 obsługuje teraz R=0 dla startu/stopu wszystkich scen z kierunkiem prawo/lewo.",
+        "Semantyka zdarzeń TF-Remote oznacza teraz target 0 jako poprawny target grupowy dla W=6, W=7 i W=8.",
+        "Zbudowano firmware 1.0.0.885; obraz LittleFS pozostaje w wersji 1.0.0.796."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1688688,
-        "md5": "F5E3B71101BF7FD054011F36F0510280"
+        "size": 1688848,
+        "md5": "372AC37E0A847B1DD759DE993E33BD6B"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
         "md5": "CFFD5A59FBA283A7A630C5825A65E9F3"
     },
-    "build_time": "2026-07-05T18:42:49+01:00",
+    "build_time": "2026-07-06T04:41:50+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
