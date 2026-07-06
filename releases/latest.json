@@ -1,27 +1,26 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.899",
-    "filesystem_version": "1.0.0.823",
-    "notes": "Odci??ono callbacki AsyncWebServer: ci??kie operacje plik?w, kalibracja PWM, zapis konfiguracji oraz restart/reset trafiaj? do kolejki workera.",
+    "firmware_version": "1.0.0.901",
+    "filesystem_version": "1.0.0.824",
+    "notes": "Poprawiono zapisywanie Pinout: zmiany s? teraz draftem, u?ytkownik widzi stan niezapisany i zapisuje ca?o?? jednym przyciskiem.",
     "changes": [
-        "Dodano wsp?ln? kolejk? AsyncWork z workerem FreeRTOS i endpointem /api/work/status do ?ledzenia zada?.",
-        "Przeniesiono rekurencyjne kopiowanie i usuwanie plik?w z callback?w HTTP do workera oraz dodano porcjowane listowanie katalog?w w FileManager.",
-        "Kalibracja PWM capture wykonuje pr?bki w workerze, a czyszczenie kalibracji kolejkuje zapis ustawie? zamiast blokowa? async_tcp.",
-        "POST /api/config zapisuje zmiany w RAM i szybko zwraca odpowied?, a zapis konfiguracji, WiFi/AP/hostname/NTP i reconnect wykonuj? si? poza callbackiem.",
-        "Restart i reset fabryczny s? kolejkowane po odpowiedzi HTTP, a portal/FileManager potrafi? pollowa? status job?w.",
-        "Wzmocniono koalescowanie zapis?w ustawie?, aby worker cierpliwie czeka? na mutex zamiast zostawia? aktywne zadanie w stanie po?rednim."
+        "Pinout nie zapisuje si? ju? automatycznie po ka?dej zmianie pojedynczego pola.",
+        "Dodano przycisk Zapisz obok przycisku Domy?lne oraz status Niezapisane zmiany po edycji pin?w.",
+        "Przycisk Domy?lne ustawia domy?lny pinout jako draft, ale nie zapisuje go bez potwierdzenia przyciskiem Zapisz.",
+        "Zapis /api/config zwraca teraz job_id dla kolejki zapisu, dzi?ki czemu portal czeka na faktyczne utrwalenie ustawie? przed komunikatem sukcesu.",
+        "Od?wie?ono obraz LittleFS z nowym UI Pinout i aktualnym version.json."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1716880,
-        "md5": "A0D7E8C1E4CA111B75B6B0896DB5EF10"
+        "size": 1717456,
+        "md5": "4F0BB1422F71B05456F257C22660AF19"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "AD01E2089812676B1DC32E06318FCC9C"
+        "md5": "4E54A780F8A5FA1AD42F17BB79E3D362"
     },
-    "build_time": "2026-07-06T12:25:21+01:00",
+    "build_time": "2026-07-06T12:49:57+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
