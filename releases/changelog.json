@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.798",
+            "firmware_version": "1.0.0.889",
+            "filesystem_version": "1.0.0.798",
+            "date": "2026-07-06T06:10:46+01:00",
+            "title": "Spinner przy wczytywaniu ustawień",
+            "changes": [
+                "Dodano stan ładowania przycisku Wczytaj ustawienia po wyborze pliku kopii konfiguracji.",
+                "Ikona przycisku jest tymczasowo zastępowana spinnerem, a ponowne kliknięcie jest blokowane do zakończenia odczytu pliku.",
+                "Opublikowano obraz LittleFS 1.0.0.798; firmware pozostaje w wersji 1.0.0.889."
+            ]
+        },
+        {
             "version": "1.0.0.889",
             "firmware_version": "1.0.0.889",
             "filesystem_version": "1.0.0.797",
