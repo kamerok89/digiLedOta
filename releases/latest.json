@@ -2,14 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.816",
-    "notes": "Przyciski ustawień przy liście zmian",
+    "filesystem_version": "1.0.0.817",
+    "notes": "Poprawka parametrów globalnych scen",
     "changes": [
-        "Przeniesiono przyciski Wczytaj ustawienia i Pobierz ustawienia do wiersza Lista zmian po prawej stronie panelu aktualizacji.",
-        "Status importu/eksportu ustawień został przeniesiony razem z przyciskami, więc komunikaty pojawiają się przy właściwej akcji.",
-        "Dolny pasek narzędzi Oprogramowanie pokazuje teraz tylko File Manager i Recovery.",
-        "Dostosowano układ mobilny, aby przyciski ustawień zawijały się pod Listą zmian na węższych ekranach.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.816."
+        "Naprawiono rozjeżdżanie się widoku Parametry globalne w konfiguracji scen.",
+        "Kafel Ustawienia przy średnich szerokościach układa teraz limit mocy pod licznikami, zamiast nachodzić na kafel Kolor.",
+        "Zachowano dwukolumnowy układ Ustawienia/Kolor tam, gdzie mieści się bez kolizji.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.817."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "F2B8D66A7CCA65F2C576C061600D1CBF"
+        "md5": "5D2D4E543208DEA332B3B23877D2B1B0"
     },
-    "build_time": "2026-07-06T10:12:15+01:00",
+    "build_time": "2026-07-06T10:24:50+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

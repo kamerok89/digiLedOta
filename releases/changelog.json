@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.817",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.817",
+            "date": "2026-07-06T10:24:50+01:00",
+            "title": "Poprawka parametrów globalnych scen",
+            "changes": [
+                "Naprawiono rozjeżdżanie się widoku Parametry globalne w konfiguracji scen.",
+                "Kafel Ustawienia przy średnich szerokościach układa teraz limit mocy pod licznikami, zamiast nachodzić na kafel Kolor.",
+                "Zachowano dwukolumnowy układ Ustawienia/Kolor tam, gdzie mieści się bez kolizji.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.817."
+            ]
+        },
+        {
             "version": "1.0.0.816",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.816",
