@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "11EDDE7E2CC2C58596165F637C8B44DA"
+        "md5": "409AD37253399C974F02B53544C6EB42"
     },
-    "build_time": "2026-07-06T06:07:34+01:00",
+    "build_time": "2026-07-06T06:09:09+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

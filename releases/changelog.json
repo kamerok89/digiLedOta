@@ -4,7 +4,7 @@
             "version": "1.0.0.889",
             "firmware_version": "1.0.0.889",
             "filesystem_version": "1.0.0.797",
-            "date": "2026-07-06T06:07:34+01:00",
+            "date": "2026-07-06T06:09:09+01:00",
             "title": "Domyślny pinout prototypu PCB",
             "changes": [
                 "Ustawiono domyślny pinout pierwszego prototypu PCB: PWM GPIO15-18, RS485 GPIO4/6/5, WS2812 GPIO7, Factory Reset GPIO8, I2S GPIO1/2/42 i nRF24 GPIO3/9/11/12/10.",
