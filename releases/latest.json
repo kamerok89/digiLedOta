@@ -1,24 +1,24 @@
 {
     "product":  "digiled-xiao-esp32s3",
     "channel":  "stable",
-    "firmware_version":  "1.0.0.910",
+    "firmware_version":  "1.0.0.911",
     "filesystem_version":  "1.0.0.827",
-    "notes":  "Naprawiono globalną normalizację pinoutu po starcie i zapisie, aby MiLight/nRF nie tracił pinów przez stare lub częściowe konfiguracje innych modułów.",
+    "notes":  "Uczytelniono log pinoutu, aby każdy sygnał MiLight/nRF, PWM, Modbus i Audio był wypisany z nazwą, bez dwuznacznych list liczbowych.",
     "changes":  [
-                    "Po każdym wczytaniu ustawień firmware rozwiązuje konflikty pinów globalnie, nawet gdy konfiguracja pochodzi ze starych kluczy NVS albo częściowego settings.json.",
-                    "Priorytet pinów jest teraz jawny: system, MiLight/nRF, PWM, Modbus, Sound Reactive. Dzięki temu nRF ustawiony na GPIO1-5 nie jest nadpisywany przez stare piny audio lub RS485.",
-                    "Ten sam resolver działa przed zapisem ustawień, więc naprawiona konfiguracja trafia z powrotem do settings.json i nie wraca po kolejnym restarcie."
+                    "Log [PINOUT] pokazuje teraz nazwane pola, między innymi milight_ce, milight_csn, milight_sck, milight_miso i milight_mosi.",
+                    "Usunięto dwuznaczność listy milight=..., która mogła sugerować zamianę MISO/MOSI bez opisania kolejności.",
+                    "Ta wersja nie zmienia mapowania GPIO, tylko ułatwia jednoznaczną diagnostykę fizycznego podłączenia nRF24."
                 ],
     "firmware":  {
                      "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1722656,
-                     "md5":  "396C899EF700BF311A3449A12431C47F"
+                     "size":  1722800,
+                     "md5":  "46F13834D93660FFCD50D1FE0E8E86FA"
                  },
     "filesystem":  {
                        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
                        "size":  4194304,
                        "md5":  "AA7C3E6FDE4397F5DF1C407573EE29BF"
                    },
-    "build_time":  "2026-07-06T20:06:15+01:00",
+    "build_time":  "2026-07-06T20:12:22+01:00",
     "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
