@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.903",
+            "firmware_version": "1.0.0.903",
+            "filesystem_version": "1.0.0.824",
+            "date": "2026-07-06T13:15:49+01:00",
+            "title": "Naprawa importu ustawień",
+            "changes": [
+                "Naprawiono import ustawień z pliku: restart po imporcie nie jest już uruchamiany przez zamknięcie połączenia HTTP.",
+                "Po wczytaniu konfiguracji urządzenie najpierw zwraca poprawną odpowiedź do portalu, a dopiero potem worker wykonuje opóźniony restart.",
+                "Usunięto fałszywy komunikat o błędzie wczytywania, który pojawiał się mimo poprawnego zapisania ustawień.",
+                "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.903."
+            ]
+        },
+        {
             "version": "1.0.0.902",
             "firmware_version": "1.0.0.902",
             "filesystem_version": "1.0.0.824",

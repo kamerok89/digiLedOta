@@ -1,24 +1,25 @@
 {
-    "product":  "digiled-xiao-esp32s3",
-    "channel":  "stable",
-    "firmware_version":  "1.0.0.902",
-    "filesystem_version":  "1.0.0.824",
-    "notes":  "Naprawiono błąd zapisu Pinout po kliknięciu Zapisz, spowodowany podwójną blokadą LittleFS w workerze ustawień.",
-    "changes":  [
-                    "Naprawiono zapis Pinout po kliknięciu Zapisz: worker ustawień nie blokuje już ponownie mutexa LittleFS podczas atomowego zapisu settings.json.",
-                    "Usunięto sytuację, w której zapis konfiguracji kończył się błędem save_failed, mimo że formularz Pinout był poprawny.",
-                    "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.902."
-                ],
-    "firmware":  {
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1717360,
-                     "md5":  "D85F7CCBCF8B1786847B6F90816F1016"
-                 },
-    "filesystem":  {
-                       "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
-                       "size":  4194304,
-                       "md5":  "DB46E0FA724F5B94FE805EFF1B58149C"
-                   },
-    "build_time":  "2026-07-06T12:59:18+01:00",
-    "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
+    "product": "digiled-xiao-esp32s3",
+    "channel": "stable",
+    "firmware_version": "1.0.0.903",
+    "filesystem_version": "1.0.0.824",
+    "notes": "Naprawiono fałszywy błąd importu ustawień oraz nieprzewidywalny restart portalu po wczytaniu pliku konfiguracji.",
+    "changes": [
+        "Naprawiono import ustawień z pliku: restart po imporcie nie jest już uruchamiany przez zamknięcie połączenia HTTP.",
+        "Po wczytaniu konfiguracji urządzenie najpierw zwraca poprawną odpowiedź do portalu, a dopiero potem worker wykonuje opóźniony restart.",
+        "Usunięto fałszywy komunikat o błędzie wczytywania, który pojawiał się mimo poprawnego zapisania ustawień.",
+        "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.903."
+    ],
+    "firmware": {
+        "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+        "size": 1717904,
+        "md5": "6CCBFBD89890C463FAD287F227104780"
+    },
+    "filesystem": {
+        "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+        "size": 4194304,
+        "md5": "9484AC8C5E855C985E2D924B16491BBC"
+    },
+    "build_time": "2026-07-06T13:15:49+01:00",
+    "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
