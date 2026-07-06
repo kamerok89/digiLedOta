@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.805",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.805",
+            "date": "2026-07-06T07:38:26+01:00",
+            "title": "Natychmiastowy feedback po wyborze pliku",
+            "changes": [
+                "Po wybraniu lokalnego pliku firmware lub filesystemu panel od razu pokazuje aktywny kafelek, spinner i komunikat przygotowania pliku.",
+                "Przed otwarciem modala kopii ustawień oraz przed wysłaniem pliku portal czeka na odmalowanie UI, aby użytkownik nie widział chwilowego zamrożenia.",
+                "Dodano brakujące tłumaczenia komunikatów czytania pliku konfiguracji oraz przygotowania lokalnej aktualizacji.",
+                "Opublikowano obraz LittleFS 1.0.0.805; firmware pozostaje w wersji 1.0.0.891."
+            ]
+        },
+        {
             "version": "1.0.0.804",
             "firmware_version": "1.0.0.891",
             "filesystem_version": "1.0.0.804",
