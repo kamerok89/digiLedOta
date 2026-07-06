@@ -1,25 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.887",
-    "filesystem_version": "1.0.0.796",
-    "notes": "Usunięto współdzielone statyczne bufory body w handlerach HTTP POST, aby równoległe żądania nie mieszały danych.",
+    "firmware_version": "1.0.0.889",
+    "filesystem_version": "1.0.0.797",
+    "notes": "Dodano domyślny pinout prototypu PCB oraz przycisk przywracania tego profilu w zakładce Pinout.",
     "changes": [
-        "Dodano wspólny bufor body przypisany do konkretnego żądania HTTP oraz limity rozmiaru payloadów.",
-        "Zastąpiono statyczne String body w endpointach konfiguracji, audio, WiFi, PWM, Modbus, MiLight, terminala, diagnostyki i scen.",
-        "Ograniczono dodatkowe tymczasowe alokacje String podczas składania JSON z fragmentów requestu.",
-        "Zbudowano firmware 1.0.0.887; obraz LittleFS pozostaje w wersji 1.0.0.796."
+        "Ustawiono domyślny pinout pierwszego prototypu PCB: PWM GPIO15-18, RS485 GPIO4/6/5, WS2812 GPIO7, Factory Reset GPIO8, I2S GPIO1/2/42 i nRF24 GPIO3/9/11/12/10.",
+        "Zaktualizowano listę GPIO w zakładce Pinout, aby comboboxy pokazywały nazwy sygnałów ze schematu prototypu.",
+        "Dodano przycisk Domyślne w zakładce Pinout, który zapisuje pełny profil prototypu bez kasowania pozostałej konfiguracji urządzenia.",
+        "Zbudowano firmware 1.0.0.889 oraz obraz LittleFS 1.0.0.797."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
         "size": 1687200,
-        "md5": "F30B3B6A93D5CF35D94926BE5537EE68"
+        "md5": "628CC76D893EBC09D17D1E25BDEEA185"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "CFFD5A59FBA283A7A630C5825A65E9F3"
+        "md5": "11EDDE7E2CC2C58596165F637C8B44DA"
     },
-    "build_time": "2026-07-06T05:39:24+01:00",
+    "build_time": "2026-07-06T06:07:34+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
