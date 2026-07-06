@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.891",
-    "filesystem_version": "1.0.0.805",
-    "notes": "Natychmiastowy feedback po wyborze pliku",
+    "filesystem_version": "1.0.0.806",
+    "notes": "Spinner przed otwarciem wyboru pliku",
     "changes": [
-        "Po wybraniu lokalnego pliku firmware lub filesystemu panel od razu pokazuje aktywny kafelek, spinner i komunikat przygotowania pliku.",
-        "Przed otwarciem modala kopii ustawień oraz przed wysłaniem pliku portal czeka na odmalowanie UI, aby użytkownik nie widział chwilowego zamrożenia.",
-        "Dodano brakujące tłumaczenia komunikatów czytania pliku konfiguracji oraz przygotowania lokalnej aktualizacji.",
-        "Opublikowano obraz LittleFS 1.0.0.805; firmware pozostaje w wersji 1.0.0.891."
+        "Spinner i komunikat oczekiwania pojawiają się teraz jeszcze przed otwarciem systemowego okna wyboru pliku ustawień, firmware lub filesystemu.",
+        "Wybór lokalnego pliku firmware/filesystem przechodzi przez wspólny stan oczekiwania, a anulowanie wyboru przywraca kafelki do normalnego stanu.",
+        "Przywrócono odmalowanie UI przed kliknięciem ukrytego inputa pliku, aby feedback był widoczny także wtedy, gdy przeglądarka blokuje się po wyborze dużego pliku.",
+        "Opublikowano obraz LittleFS 1.0.0.806; firmware pozostaje w wersji 1.0.0.891."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "96123167052D3024A9BFD07A9E26C0C8"
+        "md5": "3A76548D5C16325A2F0F00CD6458F81C"
     },
-    "build_time": "2026-07-06T07:38:26+01:00",
+    "build_time": "2026-07-06T08:04:28+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
