@@ -1,24 +1,24 @@
 {
     "product":  "digiled-xiao-esp32s3",
     "channel":  "stable",
-    "firmware_version":  "1.0.0.908",
+    "firmware_version":  "1.0.0.909",
     "filesystem_version":  "1.0.0.827",
-    "notes":  "Dodano wygaszanie aktywnego wyjścia WS2812 przed restartem, aby po zmianie pinu stara taśma nie zostawała z zapamiętanym kolorem.",
+    "notes":  "Dodano diagnostykę pełnego pinoutu oraz zabezpieczenie PWM przed przejęciem GPIO używanego przez WS2812 i piny systemowe.",
     "changes":  [
-                    "Przed restartem z /api/reboot, /api/restart, importu konfiguracji i resetu fabrycznego firmware wysyła czarną ramkę na aktualnie aktywny kontroler WS2812.",
-                    "Zapis trybu odtwarzania scen nadal wykonywany jest przed wygaszeniem, więc stan świateł nie jest przypadkowo zapisywany jako wyłączony.",
-                    "Objaw świecenia taśmy na poprzednim pinie po zmianie DATA WS2812 powinien zniknąć, bo stare diody nie zostają już z ostatnią zapamiętaną ramką."
+                    "Firmware loguje teraz po starcie i zapisie pełny pinout: WS2812, PWM, Modbus, Sound Reactive, MiLight, Factory Reset i LED statusową.",
+                    "Zapis konfiguracji dodaje do pinoutu także sekcję system, więc plik ustawień zawiera jednoznaczne wartości WS2812, Factory Reset i wbudowanej LED.",
+                    "PWM Capture nie przejmuje już GPIO, które w aktualnej konfiguracji należy do WS2812, Factory Reset albo wbudowanej LED; konflikt jest widoczny w logu startowym."
                 ],
     "firmware":  {
                      "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1721440,
-                     "md5":  "FB44640DB2429275016783FC3B676333"
+                     "size":  1722240,
+                     "md5":  "2686E32C217AE9793697F64A4B73E9FE"
                  },
     "filesystem":  {
                        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
                        "size":  4194304,
                        "md5":  "AA7C3E6FDE4397F5DF1C407573EE29BF"
                    },
-    "build_time":  "2026-07-06T19:40:50+01:00",
+    "build_time":  "2026-07-06T19:50:46+01:00",
     "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
