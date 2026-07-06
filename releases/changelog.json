@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.804",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.804",
+            "date": "2026-07-06T07:21:39+01:00",
+            "title": "Czytelniejszy przełącznik kopii ustawień",
+            "changes": [
+                "Wzmocniono kontrast przełącznika Pobierz ustawienia w ciemnym motywie modala aktualizacji interfejsu.",
+                "Nagłówek listy utraconych ustawień reaguje teraz na stan przełącznika i informuje, gdy konfiguracja zostanie pobrana przed aktualizacją.",
+                "Opublikowano obraz LittleFS 1.0.0.804; firmware pozostaje w wersji 1.0.0.891."
+            ]
+        },
+        {
             "version": "1.0.0.803",
             "firmware_version": "1.0.0.891",
             "filesystem_version": "1.0.0.803",

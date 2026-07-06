@@ -2,14 +2,12 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.891",
-    "filesystem_version": "1.0.0.803",
-    "notes": "Nowy modal aktualizacji interfejsu",
+    "filesystem_version": "1.0.0.804",
+    "notes": "Czytelniejszy przełącznik kopii ustawień",
     "changes": [
-        "Zmieniono modal przed aktualizacją filesystemu na Aktualizacja interfejsu i doprecyzowano, że nadpisywana jest baza ustawień sąsiadująca z UI.",
-        "Odświeżono listę utraconych ustawień, w tym opis /milight.json z pilotami MiLight oraz bramkami Grenton / TF-Remote.",
-        "Zastąpiono osobny przycisk Pobierz ustawienia przełącznikiem, który steruje pobraniem kopii i kolorem przycisku Rozpocznij.",
-        "Przycisk Rozpocznij jest niebieski z backupem i czerwony przy starcie bez kopii.",
-        "Opublikowano obraz LittleFS 1.0.0.803; firmware pozostaje w wersji 1.0.0.891."
+        "Wzmocniono kontrast przełącznika Pobierz ustawienia w ciemnym motywie modala aktualizacji interfejsu.",
+        "Nagłówek listy utraconych ustawień reaguje teraz na stan przełącznika i informuje, gdy konfiguracja zostanie pobrana przed aktualizacją.",
+        "Opublikowano obraz LittleFS 1.0.0.804; firmware pozostaje w wersji 1.0.0.891."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +17,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "1C1348E4122A2F9EA77359F062B8A1C8"
+        "md5": "EE6C9D634C14749AC56706D35046339D"
     },
-    "build_time": "2026-07-06T07:08:55+01:00",
+    "build_time": "2026-07-06T07:21:39+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
