@@ -1,26 +1,25 @@
-{
-    "product": "digiled-xiao-esp32s3",
-    "channel": "stable",
-    "firmware_version": "1.0.0.904",
-    "filesystem_version": "1.0.0.824",
-    "notes": "Naprawiono zapisy akcji MiLight oraz wzmocniono raportowanie błędów trwałego zapisu MiLight.",
-    "changes": [
-        "Zwiększono limit body dla /api/milight/actions z 4 KB do 16 KB, aby pełne mapowania akcji pilota nie były odrzucane jako zbyt duże.",
-        "Zapis akcji MiLight zwraca teraz błąd, jeśli nie uda się zapisać /milight.json ani fallbacku NVS.",
-        "Dodawanie, usuwanie i zmiana ustawień pilota MiLight przywracają poprzedni stan RAM, jeśli trwały zapis się nie powiedzie.",
-        "Przejrzano pozostałe endpointy zapisu pod kątem limitów request body i statusu utrwalenia.",
-        "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.904."
-    ],
-    "firmware": {
-        "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1719840,
-        "md5": "D5F6ACE984904732378C94D0224B244D"
-    },
-    "filesystem": {
-        "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
-        "size": 4194304,
-        "md5": "0E06D41D01CD94A34344D3D5D392FAF4"
-    },
-    "build_time": "2026-07-06T13:25:35+01:00",
-    "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
+﻿{
+    "product":  "digiled-xiao-esp32s3",
+    "channel":  "stable",
+    "firmware_version":  "1.0.0.905",
+    "filesystem_version":  "1.0.0.825",
+    "notes":  "Naprawiono zapis stanu Sound Reactive oraz czytelniejsze raportowanie błędów pinów i zapisu ustawień audio.",
+    "changes":  [
+                    "Naprawiono zapis stanu Sound Reactive: endpointy audio sprawdzają wynik trwałego zapisu i cofają zmianę w RAM, jeśli zapis się nie powiedzie.",
+                    "Wyłączenie Sound Reactive nie jest już blokowane przez walidację pinów I2S, więc można wyłączyć funkcję nawet przy konflikcie GPIO.",
+                    "Portal pokazuje teraz dokładniejszy komunikat błędu dla Sound Reactive, w tym konflikt pinów albo problem zapisu ustawień.",
+                    "Odświeżono obraz LittleFS, aby przeglądarka otrzymywała aktualny script.js.gz z poprawioną obsługą błędów audio."
+                ],
+    "firmware":  {
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+                     "size":  1720832,
+                     "md5":  "FD1E33CD47247FA01BD919A69B654F3D"
+                 },
+    "filesystem":  {
+                       "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+                       "size":  4194304,
+                       "md5":  "D9CF15A903733446404E573E49966F59"
+                   },
+    "build_time":  "2026-07-06T13:36:15+01:00",
+    "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
