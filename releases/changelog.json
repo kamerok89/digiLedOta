@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.814",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.814",
+            "date": "2026-07-06T09:56:28+01:00",
+            "title": "Zamykanie wyboru pliku bez zawieszonego spinnera",
+            "changes": [
+                "Poprawiono wykrywanie anulowania wyboru pliku w zakładce Oprogramowanie, aby spinner gasł po zamknięciu okna bez wybrania pliku.",
+                "Obserwator anulowania startuje teraz przed otwarciem systemowego okna pliku i reaguje na powrót focusu, widoczności strony oraz pierwszy klik lub klawisz po powrocie.",
+                "Ten sam bezpieczniejszy mechanizm zastosowano przy wczytywaniu pliku ustawień.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.814."
+            ]
+        },
+        {
             "version": "1.0.0.813",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.813",

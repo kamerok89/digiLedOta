@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.813",
-    "notes": "Przyjaźniejsze opisy Pinout",
+    "filesystem_version": "1.0.0.814",
+    "notes": "Zamykanie wyboru pliku bez zawieszonego spinnera",
     "changes": [
-        "Zmieniono opisy sekcji PWM, Modbus/TF-Bus, Sound Reactive, MiLight i System na bardziej zrozumiałe dla użytkownika.",
-        "Dolna notatka Pinout wyjaśnia teraz prostszym językiem, które zmiany wymagają restartu urządzenia.",
-        "Dropdowny nie dublują już nazwy aktualnie wybranej roli, np. GPIO15 / PWM R nie pokazuje drugi raz PWM R po myślniku.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.813."
+        "Poprawiono wykrywanie anulowania wyboru pliku w zakładce Oprogramowanie, aby spinner gasł po zamknięciu okna bez wybrania pliku.",
+        "Obserwator anulowania startuje teraz przed otwarciem systemowego okna pliku i reaguje na powrót focusu, widoczności strony oraz pierwszy klik lub klawisz po powrocie.",
+        "Ten sam bezpieczniejszy mechanizm zastosowano przy wczytywaniu pliku ustawień.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.814."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "4029BFF79EEEB7FA6D134B99076E985D"
+        "md5": "58935264C38142B2F029E538BB474FB5"
     },
-    "build_time": "2026-07-06T09:49:13+01:00",
+    "build_time": "2026-07-06T09:56:28+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
