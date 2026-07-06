@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.819",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.819",
+            "date": "2026-07-06T10:35:04+01:00",
+            "title": "Desktopowy układ parametrów globalnych scen",
+            "changes": [
+                "Poprawiono desktopowy układ Parametry globalne w konfiguracji scen.",
+                "Kafel Ustawienia dostał więcej miejsca, a kafel Kolor został zwężony tak, aby suwaki nie zachodziły na zakres scen.",
+                "Sekcja Prędkość przechodzi pod Ustawienia i Kolor na pełną szerokość panelu.",
+                "Zachowano układ jednokolumnowy na małych szerokościach.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.819."
+            ]
+        },
+        {
             "version": "1.0.0.817",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.817",

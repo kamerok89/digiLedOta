@@ -2,13 +2,14 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.817",
-    "notes": "Poprawka parametrów globalnych scen",
+    "filesystem_version": "1.0.0.819",
+    "notes": "Desktopowy układ parametrów globalnych scen",
     "changes": [
-        "Naprawiono rozjeżdżanie się widoku Parametry globalne w konfiguracji scen.",
-        "Kafel Ustawienia przy średnich szerokościach układa teraz limit mocy pod licznikami, zamiast nachodzić na kafel Kolor.",
-        "Zachowano dwukolumnowy układ Ustawienia/Kolor tam, gdzie mieści się bez kolizji.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.817."
+        "Poprawiono desktopowy układ Parametry globalne w konfiguracji scen.",
+        "Kafel Ustawienia dostał więcej miejsca, a kafel Kolor został zwężony tak, aby suwaki nie zachodziły na zakres scen.",
+        "Sekcja Prędkość przechodzi pod Ustawienia i Kolor na pełną szerokość panelu.",
+        "Zachowano układ jednokolumnowy na małych szerokościach.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.819."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +19,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "5D2D4E543208DEA332B3B23877D2B1B0"
+        "md5": "CB72490865CD212A5BA15BC22988684A"
     },
-    "build_time": "2026-07-06T10:24:50+01:00",
+    "build_time": "2026-07-06T10:35:04+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
