@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.891",
-    "filesystem_version": "1.0.0.801",
-    "notes": "Natychmiastowy spinner importu ustawień",
+    "filesystem_version": "1.0.0.802",
+    "notes": "Czysty ekran importu ustawień",
     "changes": [
-        "Spinner przycisku Wczytaj ustawienia uruchamia się od razu po wybraniu pliku, jeszcze przed odczytem backupu.",
-        "Czytanie i parsowanie JSON-a przeniesiono do workera, aby główny wątek mógł odmalować i animować stan ładowania.",
-        "Przycisk pokazuje stan Czytam plik... i pozostaje czytelny mimo blokady ponownego kliknięcia.",
-        "Opublikowano obraz LittleFS 1.0.0.801; firmware pozostaje w wersji 1.0.0.891."
+        "Po kliknięciu Wczytaj teraz w modalu kopii ukrywane są kafelki kategorii, tagi, opis i meta pod nazwą pliku.",
+        "W stanie importu widoczny zostaje tylko nagłówek, spinner oraz nazwa wybranego pliku.",
+        "Wyłączono przewijanie treści modala podczas importu, aby nie zostawały widoczne stare elementy podglądu.",
+        "Opublikowano obraz LittleFS 1.0.0.802; firmware pozostaje w wersji 1.0.0.891."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "68C7EC0E5D461437AB066B98B3B42990"
+        "md5": "EE147477AE5FA98F862970D2AB5C3C47"
     },
-    "build_time": "2026-07-06T06:42:59+01:00",
+    "build_time": "2026-07-06T06:49:41+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

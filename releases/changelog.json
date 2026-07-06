@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.802",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.802",
+            "date": "2026-07-06T06:49:41+01:00",
+            "title": "Czysty ekran importu ustawień",
+            "changes": [
+                "Po kliknięciu Wczytaj teraz w modalu kopii ukrywane są kafelki kategorii, tagi, opis i meta pod nazwą pliku.",
+                "W stanie importu widoczny zostaje tylko nagłówek, spinner oraz nazwa wybranego pliku.",
+                "Wyłączono przewijanie treści modala podczas importu, aby nie zostawały widoczne stare elementy podglądu.",
+                "Opublikowano obraz LittleFS 1.0.0.802; firmware pozostaje w wersji 1.0.0.891."
+            ]
+        },
+        {
             "version": "1.0.0.801",
             "firmware_version": "1.0.0.891",
             "filesystem_version": "1.0.0.801",
