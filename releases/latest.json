@@ -1,25 +1,25 @@
 ﻿{
     "product":  "digiled-xiao-esp32s3",
     "channel":  "stable",
-    "firmware_version":  "1.0.0.905",
-    "filesystem_version":  "1.0.0.825",
-    "notes":  "Naprawiono zapis stanu Sound Reactive oraz czytelniejsze raportowanie błędów pinów i zapisu ustawień audio.",
+    "firmware_version":  "1.0.0.906",
+    "filesystem_version":  "1.0.0.826",
+    "notes":  "Naprawiono stosowanie pinów z zakładki Pinout, szczególnie DATA WS2812, oraz dodano automatyczny restart po zmianach wymagających restartu.",
     "changes":  [
-                    "Naprawiono zapis stanu Sound Reactive: endpointy audio sprawdzają wynik trwałego zapisu i cofają zmianę w RAM, jeśli zapis się nie powiedzie.",
-                    "Wyłączenie Sound Reactive nie jest już blokowane przez walidację pinów I2S, więc można wyłączyć funkcję nawet przy konflikcie GPIO.",
-                    "Portal pokazuje teraz dokładniejszy komunikat błędu dla Sound Reactive, w tym konflikt pinów albo problem zapisu ustawień.",
-                    "Odświeżono obraz LittleFS, aby przeglądarka otrzymywała aktualny script.js.gz z poprawioną obsługą błędów audio."
+                    "Naprawiono zapis systemowych pinów Pinout: firmware czyta teraz także strukturę pinout.system dla WS2812, Factory Reset i wbudowanej LED.",
+                    "Po zapisie pinów wymagających restartu, czyli WS2812, PWM lub MiLight, portal automatycznie uruchamia kontrolowany restart urządzenia po zakończeniu zapisu ustawień.",
+                    "Dzięki temu zmiana DATA WS2812 z zakładki Pinout działa tak samo jak po imporcie pliku ustawień z pinoutem.",
+                    "Priorytet ma teraz pinout.system, więc starsze pola top-level nie nadpiszą przypadkowo wartości wybranych w nowym UI."
                 ],
     "firmware":  {
                      "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1720832,
-                     "md5":  "FD1E33CD47247FA01BD919A69B654F3D"
+                     "size":  1721008,
+                     "md5":  "9E97FBEEE1E6C512C55053138F1CAA26"
                  },
     "filesystem":  {
                        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
                        "size":  4194304,
-                       "md5":  "D9CF15A903733446404E573E49966F59"
+                       "md5":  "46903BDEC5B3F454EB3483CDD450591E"
                    },
-    "build_time":  "2026-07-06T13:36:15+01:00",
+    "build_time":  "2026-07-06T19:09:44+01:00",
     "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

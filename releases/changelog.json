@@ -1,6 +1,19 @@
 ﻿{
     "releases":  [
                      {
+                         "version":  "1.0.0.906",
+                         "firmware_version":  "1.0.0.906",
+                         "filesystem_version":  "1.0.0.826",
+                         "date":  "2026-07-06T19:09:44+01:00",
+                         "title":  "Naprawa stosowania Pinout",
+                         "changes":  [
+                                         "Naprawiono zapis systemowych pinów Pinout: firmware czyta teraz także strukturę pinout.system dla WS2812, Factory Reset i wbudowanej LED.",
+                                         "Po zapisie pinów wymagających restartu, czyli WS2812, PWM lub MiLight, portal automatycznie uruchamia kontrolowany restart urządzenia po zakończeniu zapisu ustawień.",
+                                         "Dzięki temu zmiana DATA WS2812 z zakładki Pinout działa tak samo jak po imporcie pliku ustawień z pinoutem.",
+                                         "Priorytet ma teraz pinout.system, więc starsze pola top-level nie nadpiszą przypadkowo wartości wybranych w nowym UI."
+                                     ]
+                     },
+                     {
                          "version":  "1.0.0.905",
                          "firmware_version":  "1.0.0.905",
                          "filesystem_version":  "1.0.0.825",
