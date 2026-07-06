@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.808",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.808",
+            "date": "2026-07-06T08:44:41+01:00",
+            "title": "Spinner dopiero po wyborze pliku",
+            "changes": [
+                "Kliknięcie przycisku wyboru pliku nie uruchamia już spinnera przed otwarciem systemowego okna pliku.",
+                "Animacja i komunikat startują dopiero po faktycznym wybraniu pliku ustawień, firmware lub filesystemu.",
+                "Zachowano zabezpieczenie przed zbyt szybkim czyszczeniem statusu po powrocie z okna wyboru pliku.",
+                "Opublikowano obraz LittleFS 1.0.0.808; firmware pozostaje w wersji 1.0.0.891."
+            ]
+        },
+        {
             "version": "1.0.0.807",
             "firmware_version": "1.0.0.891",
             "filesystem_version": "1.0.0.807",
