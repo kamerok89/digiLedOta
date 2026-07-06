@@ -2,14 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.812",
-    "notes": "Porządek w kafelku Pinout",
+    "filesystem_version": "1.0.0.813",
+    "notes": "Przyjaźniejsze opisy Pinout",
     "changes": [
-        "Przeniesiono przycisk Domyślne na dół kafelka Pinout.",
-        "Zmieniono kolejność pól MiLight na CE/CSN, SCK/MOSI oraz MISO/IRQ.",
-        "Skrócono etykiety i opisy pinów MiLight do samych nazw CE, CSN, SCK, MOSI, MISO i IRQ.",
-        "Zmieniono opis sekcji MiLight na łagodniejszy tekst o połączeniu odbiornika dla pilotów MiLight oraz Grenton TF-Bus.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.812."
+        "Zmieniono opisy sekcji PWM, Modbus/TF-Bus, Sound Reactive, MiLight i System na bardziej zrozumiałe dla użytkownika.",
+        "Dolna notatka Pinout wyjaśnia teraz prostszym językiem, które zmiany wymagają restartu urządzenia.",
+        "Dropdowny nie dublują już nazwy aktualnie wybranej roli, np. GPIO15 / PWM R nie pokazuje drugi raz PWM R po myślniku.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.813."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "82FB40747B844F25987C32672A61EE1E"
+        "md5": "4029BFF79EEEB7FA6D134B99076E985D"
     },
-    "build_time": "2026-07-06T09:40:28+01:00",
+    "build_time": "2026-07-06T09:49:13+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

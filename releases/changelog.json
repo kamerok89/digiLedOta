@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.813",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.813",
+            "date": "2026-07-06T09:49:13+01:00",
+            "title": "Przyjaźniejsze opisy Pinout",
+            "changes": [
+                "Zmieniono opisy sekcji PWM, Modbus/TF-Bus, Sound Reactive, MiLight i System na bardziej zrozumiałe dla użytkownika.",
+                "Dolna notatka Pinout wyjaśnia teraz prostszym językiem, które zmiany wymagają restartu urządzenia.",
+                "Dropdowny nie dublują już nazwy aktualnie wybranej roli, np. GPIO15 / PWM R nie pokazuje drugi raz PWM R po myślniku.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.813."
+            ]
+        },
+        {
             "version": "1.0.0.812",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.812",
