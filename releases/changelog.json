@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.809",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.809",
+            "date": "2026-07-06T08:53:46+01:00",
+            "title": "Cofnięcie ostatniej zmiany wyboru pliku",
+            "changes": [
+                "Przywrócono zachowanie, w którym spinner pojawia się od razu po kliknięciu przycisku wyboru pliku.",
+                "Cofnięto zmianę z wersji 1.0.0.808 uruchamiającą animację dopiero po faktycznym wybraniu pliku.",
+                "Zachowano wcześniejsze zabezpieczenie przed zbyt szybkim czyszczeniem statusu po powrocie z okna wyboru pliku.",
+                "Opublikowano obraz LittleFS 1.0.0.809; firmware pozostaje w wersji 1.0.0.891."
+            ]
+        },
+        {
             "version": "1.0.0.808",
             "firmware_version": "1.0.0.891",
             "filesystem_version": "1.0.0.808",

@@ -2,13 +2,13 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.891",
-    "filesystem_version": "1.0.0.808",
-    "notes": "Spinner dopiero po wyborze pliku",
+    "filesystem_version": "1.0.0.809",
+    "notes": "Cofnięcie ostatniej zmiany wyboru pliku",
     "changes": [
-        "Kliknięcie przycisku wyboru pliku nie uruchamia już spinnera przed otwarciem systemowego okna pliku.",
-        "Animacja i komunikat startują dopiero po faktycznym wybraniu pliku ustawień, firmware lub filesystemu.",
-        "Zachowano zabezpieczenie przed zbyt szybkim czyszczeniem statusu po powrocie z okna wyboru pliku.",
-        "Opublikowano obraz LittleFS 1.0.0.808; firmware pozostaje w wersji 1.0.0.891."
+        "Przywrócono zachowanie, w którym spinner pojawia się od razu po kliknięciu przycisku wyboru pliku.",
+        "Cofnięto zmianę z wersji 1.0.0.808 uruchamiającą animację dopiero po faktycznym wybraniu pliku.",
+        "Zachowano wcześniejsze zabezpieczenie przed zbyt szybkim czyszczeniem statusu po powrocie z okna wyboru pliku.",
+        "Opublikowano obraz LittleFS 1.0.0.809; firmware pozostaje w wersji 1.0.0.891."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "6E2B9CAC43994F54506B69B02E245A4B"
+        "md5": "C920AAA39BE18DF5504EA8AC7D45B7EC"
     },
-    "build_time": "2026-07-06T08:44:41+01:00",
+    "build_time": "2026-07-06T08:53:46+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
