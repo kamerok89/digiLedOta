@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.803",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.803",
+            "date": "2026-07-06T07:08:55+01:00",
+            "title": "Nowy modal aktualizacji interfejsu",
+            "changes": [
+                "Zmieniono modal przed aktualizacją filesystemu na Aktualizacja interfejsu i doprecyzowano, że nadpisywana jest baza ustawień sąsiadująca z UI.",
+                "Odświeżono listę utraconych ustawień, w tym opis /milight.json z pilotami MiLight oraz bramkami Grenton / TF-Remote.",
+                "Zastąpiono osobny przycisk Pobierz ustawienia przełącznikiem, który steruje pobraniem kopii i kolorem przycisku Rozpocznij.",
+                "Przycisk Rozpocznij jest niebieski z backupem i czerwony przy starcie bez kopii.",
+                "Opublikowano obraz LittleFS 1.0.0.803; firmware pozostaje w wersji 1.0.0.891."
+            ]
+        },
+        {
             "version": "1.0.0.802",
             "firmware_version": "1.0.0.891",
             "filesystem_version": "1.0.0.802",
