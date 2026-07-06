@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.800",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.800",
+            "date": "2026-07-06T06:38:16+01:00",
+            "title": "Czytelniejsza nazwa pliku kopii",
+            "changes": [
+                "Zwiększono wysokość pilla z nazwą pliku w modalu Wczytaj ustawienia.",
+                "Dopasowano line-height i zawijanie długich nazw, aby tekst pliku JSON nie był obcinany przy górnej krawędzi.",
+                "Opublikowano obraz LittleFS 1.0.0.800; firmware pozostaje w wersji 1.0.0.891."
+            ]
+        },
+        {
             "version": "1.0.0.891",
             "firmware_version": "1.0.0.891",
             "filesystem_version": "1.0.0.799",
