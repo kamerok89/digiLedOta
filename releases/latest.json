@@ -1,26 +1,24 @@
 {
-    "product": "digiled-xiao-esp32s3",
-    "channel": "stable",
-    "firmware_version": "1.0.0.901",
-    "filesystem_version": "1.0.0.824",
-    "notes": "Poprawiono zapisywanie Pinout: zmiany s? teraz draftem, u?ytkownik widzi stan niezapisany i zapisuje ca?o?? jednym przyciskiem.",
-    "changes": [
-        "Pinout nie zapisuje si? ju? automatycznie po ka?dej zmianie pojedynczego pola.",
-        "Dodano przycisk Zapisz obok przycisku Domy?lne oraz status Niezapisane zmiany po edycji pin?w.",
-        "Przycisk Domy?lne ustawia domy?lny pinout jako draft, ale nie zapisuje go bez potwierdzenia przyciskiem Zapisz.",
-        "Zapis /api/config zwraca teraz job_id dla kolejki zapisu, dzi?ki czemu portal czeka na faktyczne utrwalenie ustawie? przed komunikatem sukcesu.",
-        "Od?wie?ono obraz LittleFS z nowym UI Pinout i aktualnym version.json."
-    ],
-    "firmware": {
-        "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1717456,
-        "md5": "4F0BB1422F71B05456F257C22660AF19"
-    },
-    "filesystem": {
-        "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
-        "size": 4194304,
-        "md5": "4E54A780F8A5FA1AD42F17BB79E3D362"
-    },
-    "build_time": "2026-07-06T12:49:57+01:00",
-    "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
+    "product":  "digiled-xiao-esp32s3",
+    "channel":  "stable",
+    "firmware_version":  "1.0.0.902",
+    "filesystem_version":  "1.0.0.824",
+    "notes":  "Naprawiono błąd zapisu Pinout po kliknięciu Zapisz, spowodowany podwójną blokadą LittleFS w workerze ustawień.",
+    "changes":  [
+                    "Naprawiono zapis Pinout po kliknięciu Zapisz: worker ustawień nie blokuje już ponownie mutexa LittleFS podczas atomowego zapisu settings.json.",
+                    "Usunięto sytuację, w której zapis konfiguracji kończył się błędem save_failed, mimo że formularz Pinout był poprawny.",
+                    "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.902."
+                ],
+    "firmware":  {
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+                     "size":  1717360,
+                     "md5":  "D85F7CCBCF8B1786847B6F90816F1016"
+                 },
+    "filesystem":  {
+                       "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+                       "size":  4194304,
+                       "md5":  "DB46E0FA724F5B94FE805EFF1B58149C"
+                   },
+    "build_time":  "2026-07-06T12:59:18+01:00",
+    "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

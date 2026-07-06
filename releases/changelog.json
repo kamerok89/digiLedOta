@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.902",
+            "firmware_version": "1.0.0.902",
+            "filesystem_version": "1.0.0.824",
+            "date": "2026-07-06T12:59:18+01:00",
+            "title": "Naprawa zapisu Pinout",
+            "changes": [
+                "Naprawiono zapis Pinout po klikni?ciu Zapisz: worker ustawie? nie blokuje ju? ponownie mutexa LittleFS podczas atomowego zapisu settings.json.",
+                "Usuni?to sytuacj?, w kt?rej zapis konfiguracji ko?czy? si? b??dem save_failed, mimo ?e formularz Pinout by? poprawny.",
+                "Od?wie?ono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.902."
+            ]
+        },
+        {
             "version": "1.0.0.901",
             "firmware_version": "1.0.0.901",
             "filesystem_version": "1.0.0.824",
