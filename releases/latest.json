@@ -1,26 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.885",
+    "firmware_version": "1.0.0.887",
     "filesystem_version": "1.0.0.796",
-    "notes": "Dodano obsługę R=0 jako wszystkich scen dla komend TF-Remote W=6, W=7 i W=8.",
+    "notes": "Usunięto współdzielone statyczne bufory body w handlerach HTTP POST, aby równoległe żądania nie mieszały danych.",
     "changes": [
-        "W=6 obsługuje teraz R=0: G=1 uruchamia wszystkie sceny, a G=0 zatrzymuje wszystkie sceny.",
-        "W=7 obsługuje teraz R=0 jako toggle all: gdy dowolna scena jest aktywna, zatrzymuje wszystkie; gdy żadna nie jest aktywna, uruchamia wszystkie.",
-        "W=8 obsługuje teraz R=0 dla startu/stopu wszystkich scen z kierunkiem prawo/lewo.",
-        "Semantyka zdarzeń TF-Remote oznacza teraz target 0 jako poprawny target grupowy dla W=6, W=7 i W=8.",
-        "Zbudowano firmware 1.0.0.885; obraz LittleFS pozostaje w wersji 1.0.0.796."
+        "Dodano wspólny bufor body przypisany do konkretnego żądania HTTP oraz limity rozmiaru payloadów.",
+        "Zastąpiono statyczne String body w endpointach konfiguracji, audio, WiFi, PWM, Modbus, MiLight, terminala, diagnostyki i scen.",
+        "Ograniczono dodatkowe tymczasowe alokacje String podczas składania JSON z fragmentów requestu.",
+        "Zbudowano firmware 1.0.0.887; obraz LittleFS pozostaje w wersji 1.0.0.796."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1688848,
-        "md5": "372AC37E0A847B1DD759DE993E33BD6B"
+        "size": 1687200,
+        "md5": "F30B3B6A93D5CF35D94926BE5537EE68"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
         "md5": "CFFD5A59FBA283A7A630C5825A65E9F3"
     },
-    "build_time": "2026-07-06T04:41:50+01:00",
+    "build_time": "2026-07-06T05:39:24+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

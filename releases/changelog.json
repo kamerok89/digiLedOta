@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.887",
+            "firmware_version": "1.0.0.887",
+            "filesystem_version": "1.0.0.796",
+            "date": "2026-07-06T05:39:24+01:00",
+            "title": "Bezpieczne body żądań HTTP",
+            "changes": [
+                "Dodano wspólny bufor body przypisany do konkretnego żądania HTTP oraz limity rozmiaru payloadów.",
+                "Zastąpiono statyczne String body w endpointach konfiguracji, audio, WiFi, PWM, Modbus, MiLight, terminala, diagnostyki i scen.",
+                "Ograniczono dodatkowe tymczasowe alokacje String podczas składania JSON z fragmentów requestu.",
+                "Zbudowano firmware 1.0.0.887; obraz LittleFS pozostaje w wersji 1.0.0.796."
+            ]
+        },
+        {
             "version": "1.0.0.885",
             "firmware_version": "1.0.0.885",
             "filesystem_version": "1.0.0.796",
