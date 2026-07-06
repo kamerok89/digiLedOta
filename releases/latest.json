@@ -1,25 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.893",
+    "firmware_version": "1.0.0.894",
     "filesystem_version": "1.0.0.822",
-    "notes": "Konfigurowalna wbudowana LED w Pinout",
+    "notes": "Zmniejszono zużycie RAM przez FxEngine, usuwając stałe bufory scen LED i renderując aktywne sceny bezpośrednio do bufora finalnego.",
     "changes": [
-        "Skrócono etykiety ról w Pinout: PWM pokazuje R/G/B/W, RS485 pokazuje RX/TX/DE/RE, a Sound Reactive pokazuje BCLK/WS/SD.",
-        "Do kafelka System dodano wybór pinu dla wbudowanej diody LED z domyślnym GPIO21 dla XIAO ESP32S3.",
-        "Firmware zapisuje pin w pinout.onboardLed, pilnuje konfliktów z WS2812 i Factory Reset oraz przełącza wskaźnik LED na nowy GPIO po zapisie.",
-        "Opublikowano firmware 1.0.0.893 oraz obraz LittleFS 1.0.0.822."
+        "Usunięto trwałe bufory scen LED z RAM i renderowanie odbywa się teraz bezpośrednio do bufora finalnego.",
+        "Zachowano dotychczasową kolejność nakładania scen: nowsza aktywacja nadpisuje swój pełny zakres, także dla efektów z czarnymi pikselami.",
+        "Obniżono statyczne użycie RAM z około 178 KB do około 108 KB przy zachowaniu limitu 24 scen i 1000 LED.",
+        "Zbudowano firmware 1.0.0.894 oraz odświeżono obraz LittleFS 1.0.0.822 z aktualnym version.json."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1706528,
-        "md5": "876C9D9100C95A0C2A89801645D609B6"
+        "size": 1706400,
+        "md5": "036BAF63B06F4361A1CD7996CA498703"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "14EC216771FB246982C1AF7897C24D52"
+        "md5": "5611D4CD31206E5D426411DF2F9109E1"
     },
-    "build_time": "2026-07-06T11:22:43+01:00",
+    "build_time": "2026-07-06T11:47:18+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

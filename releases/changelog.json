@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.894",
+            "firmware_version": "1.0.0.894",
+            "filesystem_version": "1.0.0.822",
+            "date": "2026-07-06T11:47:18+01:00",
+            "title": "Mniejsze zużycie RAM przez FxEngine",
+            "changes": [
+                "Usunięto trwałe bufory scen LED z RAM i renderowanie odbywa się teraz bezpośrednio do bufora finalnego.",
+                "Zachowano dotychczasową kolejność nakładania scen: nowsza aktywacja nadpisuje swój pełny zakres, także dla efektów z czarnymi pikselami.",
+                "Obniżono statyczne użycie RAM z około 178 KB do około 108 KB przy zachowaniu limitu 24 scen i 1000 LED.",
+                "Zbudowano firmware 1.0.0.894 oraz odświeżono obraz LittleFS 1.0.0.822 z aktualnym version.json."
+            ]
+        },
+        {
             "version": "1.0.0.822",
             "firmware_version": "1.0.0.893",
             "filesystem_version": "1.0.0.822",
