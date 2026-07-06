@@ -1,24 +1,24 @@
 ﻿{
     "product":  "digiled-xiao-esp32s3",
     "channel":  "stable",
-    "firmware_version":  "1.0.0.906",
+    "firmware_version":  "1.0.0.907",
     "filesystem_version":  "1.0.0.827",
-    "notes":  "Naprawiono formularz Pinout: zmiana DATA WS2812 w combo nie cofa się już od razu do poprzedniego pinu.",
+    "notes":  "Wzmocniono stosowanie pinu WS2812 w FxEngine i dodano diagnostykę aktywnego GPIO przy starcie LED.",
     "changes":  [
-                    "Naprawiono cofanie wyboru w combo Pinout dla pól systemowych, takich jak DATA WS2812, Factory Reset i wbudowana LED.",
-                    "Frontend nadaje teraz pierwszeństwo wartościom pinout.system, więc zmiana wybrana w formularzu zostaje w draftcie i nie wraca od razu do starego pinu.",
-                    "Odświeżono script.js.gz, aby przeglądarka dostawała poprawioną logikę bez ręcznego podmieniania plików."
+                    "Wzmocniono start WS2812: FxEngine przed dodaniem aktywnego kontrolera wyłącza wszystkie istniejące kontrolery FastLED, aby stary pin nie mógł dalej nadawać po zmianie pinoutu.",
+                    "Dodano log diagnostyczny startu LED z żądanym i faktycznie użytym GPIO oraz liczbą kontrolerów FastLED przed i po inicjalizacji.",
+                    "Odświeżono obraz LittleFS bez zmiany wersji portalu, aby version.json pokazywał firmware 1.0.0.907."
                 ],
     "firmware":  {
                      "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1721008,
-                     "md5":  "9E97FBEEE1E6C512C55053138F1CAA26"
+                     "size":  1721200,
+                     "md5":  "7EFB5E349CE1EEBEE6E0ED4EC3E224A3"
                  },
     "filesystem":  {
                        "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
                        "size":  4194304,
-                       "md5":  "1C9BA4298E933ED449B0252BC9DFA930"
+                       "md5":  "AA7C3E6FDE4397F5DF1C407573EE29BF"
                    },
-    "build_time":  "2026-07-06T19:16:48+01:00",
+    "build_time":  "2026-07-06T19:29:08+01:00",
     "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

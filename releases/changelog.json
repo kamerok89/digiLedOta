@@ -1,6 +1,18 @@
 ﻿{
     "releases":  [
                      {
+                         "version":  "1.0.0.907",
+                         "firmware_version":  "1.0.0.907",
+                         "filesystem_version":  "1.0.0.827",
+                         "date":  "2026-07-06T19:29:08+01:00",
+                         "title":  "Wzmocnienie pinu WS2812",
+                         "changes":  [
+                                         "Wzmocniono start WS2812: FxEngine przed dodaniem aktywnego kontrolera wyłącza wszystkie istniejące kontrolery FastLED, aby stary pin nie mógł dalej nadawać po zmianie pinoutu.",
+                                         "Dodano log diagnostyczny startu LED z żądanym i faktycznie użytym GPIO oraz liczbą kontrolerów FastLED przed i po inicjalizacji.",
+                                         "Odświeżono obraz LittleFS bez zmiany wersji portalu, aby version.json pokazywał firmware 1.0.0.907."
+                                     ]
+                     },
+                     {
                          "version":  "1.0.0.827",
                          "firmware_version":  "1.0.0.906",
                          "filesystem_version":  "1.0.0.827",
