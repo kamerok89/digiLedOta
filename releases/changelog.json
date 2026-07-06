@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.820",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.820",
+            "date": "2026-07-06T10:53:19+01:00",
+            "title": "Krótsze etykiety pinów w Pinout",
+            "changes": [
+                "Uproszczono listy wyboru w Pinout: zwykłe piny pokazują teraz tylko nazwę bazową bez dopisków typu PWM R, CE czy Wolny.",
+                "Zostawiono ostrzeżenia przy pinach zarezerwowanych, np. BOOT lub USB, oraz pozycję Brak przypisania.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.820."
+            ]
+        },
+        {
             "version": "1.0.0.819",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.819",

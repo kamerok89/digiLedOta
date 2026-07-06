@@ -2,14 +2,12 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.819",
-    "notes": "Desktopowy układ parametrów globalnych scen",
+    "filesystem_version": "1.0.0.820",
+    "notes": "Krótsze etykiety pinów w Pinout",
     "changes": [
-        "Poprawiono desktopowy układ Parametry globalne w konfiguracji scen.",
-        "Kafel Ustawienia dostał więcej miejsca, a kafel Kolor został zwężony tak, aby suwaki nie zachodziły na zakres scen.",
-        "Sekcja Prędkość przechodzi pod Ustawienia i Kolor na pełną szerokość panelu.",
-        "Zachowano układ jednokolumnowy na małych szerokościach.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.819."
+        "Uproszczono listy wyboru w Pinout: zwykłe piny pokazują teraz tylko nazwę bazową bez dopisków typu PWM R, CE czy Wolny.",
+        "Zostawiono ostrzeżenia przy pinach zarezerwowanych, np. BOOT lub USB, oraz pozycję Brak przypisania.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.820."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -19,8 +17,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "CB72490865CD212A5BA15BC22988684A"
+        "md5": "09EBB8A19EF8CCCBC917EF8735AE7814"
     },
-    "build_time": "2026-07-06T10:35:04+01:00",
+    "build_time": "2026-07-06T10:53:19+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
