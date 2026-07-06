@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.898",
+            "firmware_version": "1.0.0.898",
+            "filesystem_version": "1.0.0.823",
+            "date": "2026-07-06T12:22:24+01:00",
+            "title": "Odci??enie callback?w AsyncWebServer",
+            "changes": [
+                "Dodano wsp?ln? kolejk? AsyncWork z workerem FreeRTOS i endpointem /api/work/status do ?ledzenia zada?.",
+                "Przeniesiono rekurencyjne kopiowanie i usuwanie plik?w z callback?w HTTP do workera oraz dodano porcjowane listowanie katalog?w w FileManager.",
+                "Kalibracja PWM capture wykonuje pr?bki w workerze, a czyszczenie kalibracji kolejkuje zapis ustawie? zamiast blokowa? async_tcp.",
+                "POST /api/config zapisuje zmiany w RAM i szybko zwraca odpowied?, a zapis konfiguracji, WiFi/AP/hostname/NTP i reconnect wykonuj? si? poza callbackiem.",
+                "Restart i reset fabryczny s? kolejkowane po odpowiedzi HTTP, a portal/FileManager potrafi? pollowa? status job?w."
+            ]
+        },
+        {
             "version": "1.0.0.894",
             "firmware_version": "1.0.0.894",
             "filesystem_version": "1.0.0.822",

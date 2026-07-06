@@ -1,25 +1,26 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.894",
-    "filesystem_version": "1.0.0.822",
-    "notes": "Zmniejszono zużycie RAM przez FxEngine, usuwając stałe bufory scen LED i renderując aktywne sceny bezpośrednio do bufora finalnego.",
+    "firmware_version": "1.0.0.898",
+    "filesystem_version": "1.0.0.823",
+    "notes": "Odci??ono callbacki AsyncWebServer: ci??kie operacje plik?w, kalibracja PWM, zapis konfiguracji oraz restart/reset trafiaj? do kolejki workera.",
     "changes": [
-        "Usunięto trwałe bufory scen LED z RAM i renderowanie odbywa się teraz bezpośrednio do bufora finalnego.",
-        "Zachowano dotychczasową kolejność nakładania scen: nowsza aktywacja nadpisuje swój pełny zakres, także dla efektów z czarnymi pikselami.",
-        "Obniżono statyczne użycie RAM z około 178 KB do około 108 KB przy zachowaniu limitu 24 scen i 1000 LED.",
-        "Zbudowano firmware 1.0.0.894 oraz odświeżono obraz LittleFS 1.0.0.822 z aktualnym version.json."
+        "Dodano wsp?ln? kolejk? AsyncWork z workerem FreeRTOS i endpointem /api/work/status do ?ledzenia zada?.",
+        "Przeniesiono rekurencyjne kopiowanie i usuwanie plik?w z callback?w HTTP do workera oraz dodano porcjowane listowanie katalog?w w FileManager.",
+        "Kalibracja PWM capture wykonuje pr?bki w workerze, a czyszczenie kalibracji kolejkuje zapis ustawie? zamiast blokowa? async_tcp.",
+        "POST /api/config zapisuje zmiany w RAM i szybko zwraca odpowied?, a zapis konfiguracji, WiFi/AP/hostname/NTP i reconnect wykonuj? si? poza callbackiem.",
+        "Restart i reset fabryczny s? kolejkowane po odpowiedzi HTTP, a portal/FileManager potrafi? pollowa? status job?w."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1706400,
-        "md5": "036BAF63B06F4361A1CD7996CA498703"
+        "size": 1716880,
+        "md5": "7935242615E46DF82990FFCD2C387E0F"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "5611D4CD31206E5D426411DF2F9109E1"
+        "md5": "66BF30D1B5EF10CE16C9BE3F138CDDE1"
     },
-    "build_time": "2026-07-06T11:47:18+01:00",
+    "build_time": "2026-07-06T12:22:24+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
