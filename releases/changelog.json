@@ -1,6 +1,18 @@
 ﻿{
     "releases":  [
                      {
+                         "version":  "1.0.0.827",
+                         "firmware_version":  "1.0.0.906",
+                         "filesystem_version":  "1.0.0.827",
+                         "date":  "2026-07-06T19:16:48+01:00",
+                         "title":  "Naprawa combo Pinout",
+                         "changes":  [
+                                         "Naprawiono cofanie wyboru w combo Pinout dla pól systemowych, takich jak DATA WS2812, Factory Reset i wbudowana LED.",
+                                         "Frontend nadaje teraz pierwszeństwo wartościom pinout.system, więc zmiana wybrana w formularzu zostaje w draftcie i nie wraca od razu do starego pinu.",
+                                         "Odświeżono script.js.gz, aby przeglądarka dostawała poprawioną logikę bez ręcznego podmieniania plików."
+                                     ]
+                     },
+                     {
                          "version":  "1.0.0.906",
                          "firmware_version":  "1.0.0.906",
                          "filesystem_version":  "1.0.0.826",
