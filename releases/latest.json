@@ -1,24 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.821",
-    "notes": "Neutralna lista GPIO w Pinout",
+    "firmware_version": "1.0.0.893",
+    "filesystem_version": "1.0.0.822",
+    "notes": "Konfigurowalna wbudowana LED w Pinout",
     "changes": [
-        "Ujednolicono listy wyboru Pinout: piny pokazują teraz tylko nazwy GPIO01, GPIO02 itd., bez dopisków od poprzednich funkcji.",
-        "Usunięto z listy piny zarezerwowane, których nie można użyć, np. BOOT, USB, TX, RX i STRAP.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.821."
+        "Skrócono etykiety ról w Pinout: PWM pokazuje R/G/B/W, RS485 pokazuje RX/TX/DE/RE, a Sound Reactive pokazuje BCLK/WS/SD.",
+        "Do kafelka System dodano wybór pinu dla wbudowanej diody LED z domyślnym GPIO21 dla XIAO ESP32S3.",
+        "Firmware zapisuje pin w pinout.onboardLed, pilnuje konfliktów z WS2812 i Factory Reset oraz przełącza wskaźnik LED na nowy GPIO po zapisie.",
+        "Opublikowano firmware 1.0.0.893 oraz obraz LittleFS 1.0.0.822."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1705776,
-        "md5": "C8297BC5D6D8EB9C674963B2DE7CC0C0"
+        "size": 1706528,
+        "md5": "876C9D9100C95A0C2A89801645D609B6"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "50F6B133EDBEBF6BDFE193D6B433E012"
+        "md5": "14EC216771FB246982C1AF7897C24D52"
     },
-    "build_time": "2026-07-06T11:02:30+01:00",
+    "build_time": "2026-07-06T11:22:43+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

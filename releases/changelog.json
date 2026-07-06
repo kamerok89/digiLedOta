@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.822",
+            "firmware_version": "1.0.0.893",
+            "filesystem_version": "1.0.0.822",
+            "date": "2026-07-06T11:22:43+01:00",
+            "title": "Konfigurowalna wbudowana LED w Pinout",
+            "changes": [
+                "Skrócono etykiety ról w Pinout: PWM pokazuje R/G/B/W, RS485 pokazuje RX/TX/DE/RE, a Sound Reactive pokazuje BCLK/WS/SD.",
+                "Do kafelka System dodano wybór pinu dla wbudowanej diody LED z domyślnym GPIO21 dla XIAO ESP32S3.",
+                "Firmware zapisuje pin w pinout.onboardLed, pilnuje konfliktów z WS2812 i Factory Reset oraz przełącza wskaźnik LED na nowy GPIO po zapisie.",
+                "Opublikowano firmware 1.0.0.893 oraz obraz LittleFS 1.0.0.822."
+            ]
+        },
+        {
             "version": "1.0.0.821",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.821",
