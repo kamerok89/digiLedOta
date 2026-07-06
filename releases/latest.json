@@ -1,25 +1,26 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.903",
+    "firmware_version": "1.0.0.904",
     "filesystem_version": "1.0.0.824",
-    "notes": "Naprawiono fałszywy błąd importu ustawień oraz nieprzewidywalny restart portalu po wczytaniu pliku konfiguracji.",
+    "notes": "Naprawiono zapisy akcji MiLight oraz wzmocniono raportowanie błędów trwałego zapisu MiLight.",
     "changes": [
-        "Naprawiono import ustawień z pliku: restart po imporcie nie jest już uruchamiany przez zamknięcie połączenia HTTP.",
-        "Po wczytaniu konfiguracji urządzenie najpierw zwraca poprawną odpowiedź do portalu, a dopiero potem worker wykonuje opóźniony restart.",
-        "Usunięto fałszywy komunikat o błędzie wczytywania, który pojawiał się mimo poprawnego zapisania ustawień.",
-        "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.903."
+        "Zwiększono limit body dla /api/milight/actions z 4 KB do 16 KB, aby pełne mapowania akcji pilota nie były odrzucane jako zbyt duże.",
+        "Zapis akcji MiLight zwraca teraz błąd, jeśli nie uda się zapisać /milight.json ani fallbacku NVS.",
+        "Dodawanie, usuwanie i zmiana ustawień pilota MiLight przywracają poprzedni stan RAM, jeśli trwały zapis się nie powiedzie.",
+        "Przejrzano pozostałe endpointy zapisu pod kątem limitów request body i statusu utrwalenia.",
+        "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.904."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1717904,
-        "md5": "6CCBFBD89890C463FAD287F227104780"
+        "size": 1719840,
+        "md5": "D5F6ACE984904732378C94D0224B244D"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "9484AC8C5E855C985E2D924B16491BBC"
+        "md5": "0E06D41D01CD94A34344D3D5D392FAF4"
     },
-    "build_time": "2026-07-06T13:15:49+01:00",
+    "build_time": "2026-07-06T13:25:35+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

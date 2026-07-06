@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.904",
+            "firmware_version": "1.0.0.904",
+            "filesystem_version": "1.0.0.824",
+            "date": "2026-07-06T13:25:35+01:00",
+            "title": "Naprawa zapisów MiLight",
+            "changes": [
+                "Zwiększono limit body dla /api/milight/actions z 4 KB do 16 KB, aby pełne mapowania akcji pilota nie były odrzucane jako zbyt duże.",
+                "Zapis akcji MiLight zwraca teraz błąd, jeśli nie uda się zapisać /milight.json ani fallbacku NVS.",
+                "Dodawanie, usuwanie i zmiana ustawień pilota MiLight przywracają poprzedni stan RAM, jeśli trwały zapis się nie powiedzie.",
+                "Przejrzano pozostałe endpointy zapisu pod kątem limitów request body i statusu utrwalenia.",
+                "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.904."
+            ]
+        },
+        {
             "version": "1.0.0.903",
             "firmware_version": "1.0.0.903",
             "filesystem_version": "1.0.0.824",
