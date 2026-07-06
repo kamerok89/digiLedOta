@@ -2,12 +2,14 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.811",
-    "notes": "Widoczna sekcja System w Pinout",
+    "filesystem_version": "1.0.0.812",
+    "notes": "Porządek w kafelku Pinout",
     "changes": [
-        "Odświeżono skompresowany script.js.gz, aby portal serwowany z gzip pokazywał nową sekcję System w zakładce Pinout.",
-        "Poprawiono fallback notatki Pinout informującej, że zmiana WS2812 działa po restarcie, a Factory Reset odświeża się od razu.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.811."
+        "Przeniesiono przycisk Domyślne na dół kafelka Pinout.",
+        "Zmieniono kolejność pól MiLight na CE/CSN, SCK/MOSI oraz MISO/IRQ.",
+        "Skrócono etykiety i opisy pinów MiLight do samych nazw CE, CSN, SCK, MOSI, MISO i IRQ.",
+        "Zmieniono opis sekcji MiLight na łagodniejszy tekst o połączeniu odbiornika dla pilotów MiLight oraz Grenton TF-Bus.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.812."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +19,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "64D5E4FEF3B540BE38125EFC67663146"
+        "md5": "82FB40747B844F25987C32672A61EE1E"
     },
-    "build_time": "2026-07-06T09:27:36+01:00",
+    "build_time": "2026-07-06T09:40:28+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

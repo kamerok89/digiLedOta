@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.812",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.812",
+            "date": "2026-07-06T09:40:28+01:00",
+            "title": "Porządek w kafelku Pinout",
+            "changes": [
+                "Przeniesiono przycisk Domyślne na dół kafelka Pinout.",
+                "Zmieniono kolejność pól MiLight na CE/CSN, SCK/MOSI oraz MISO/IRQ.",
+                "Skrócono etykiety i opisy pinów MiLight do samych nazw CE, CSN, SCK, MOSI, MISO i IRQ.",
+                "Zmieniono opis sekcji MiLight na łagodniejszy tekst o połączeniu odbiornika dla pilotów MiLight oraz Grenton TF-Bus.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.812."
+            ]
+        },
+        {
             "version": "1.0.0.811",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.811",
