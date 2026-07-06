@@ -2,12 +2,12 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.820",
-    "notes": "Krótsze etykiety pinów w Pinout",
+    "filesystem_version": "1.0.0.821",
+    "notes": "Neutralna lista GPIO w Pinout",
     "changes": [
-        "Uproszczono listy wyboru w Pinout: zwykłe piny pokazują teraz tylko nazwę bazową bez dopisków typu PWM R, CE czy Wolny.",
-        "Zostawiono ostrzeżenia przy pinach zarezerwowanych, np. BOOT lub USB, oraz pozycję Brak przypisania.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.820."
+        "Ujednolicono listy wyboru Pinout: piny pokazują teraz tylko nazwy GPIO01, GPIO02 itd., bez dopisków od poprzednich funkcji.",
+        "Usunięto z listy piny zarezerwowane, których nie można użyć, np. BOOT, USB, TX, RX i STRAP.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.821."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "09EBB8A19EF8CCCBC917EF8735AE7814"
+        "md5": "50F6B133EDBEBF6BDFE193D6B433E012"
     },
-    "build_time": "2026-07-06T10:53:19+01:00",
+    "build_time": "2026-07-06T11:02:30+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

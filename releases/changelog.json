@@ -1,6 +1,18 @@
 {
     "releases": [
         {
+            "version": "1.0.0.821",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.821",
+            "date": "2026-07-06T11:02:30+01:00",
+            "title": "Neutralna lista GPIO w Pinout",
+            "changes": [
+                "Ujednolicono listy wyboru Pinout: piny pokazują teraz tylko nazwy GPIO01, GPIO02 itd., bez dopisków od poprzednich funkcji.",
+                "Usunięto z listy piny zarezerwowane, których nie można użyć, np. BOOT, USB, TX, RX i STRAP.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.821."
+            ]
+        },
+        {
             "version": "1.0.0.820",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.820",
