@@ -1,24 +1,25 @@
 {
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
-    "firmware_version": "1.0.0.889",
-    "filesystem_version": "1.0.0.798",
-    "notes": "Spinner przy wczytywaniu ustawień",
+    "firmware_version": "1.0.0.891",
+    "filesystem_version": "1.0.0.799",
+    "notes": "Selektywny import ustawień",
     "changes": [
-        "Dodano stan ładowania przycisku Wczytaj ustawienia po wyborze pliku kopii konfiguracji.",
-        "Ikona przycisku jest tymczasowo zastępowana spinnerem, a ponowne kliknięcie jest blokowane do zakończenia odczytu pliku.",
-        "Opublikowano obraz LittleFS 1.0.0.798; firmware pozostaje w wersji 1.0.0.889."
+        "Rozbudowano modal Wczytaj ustawienia o kafelki kategorii z przełącznikami, aby można było pominąć wybrane bloki backupu.",
+        "Import konfiguracji respektuje teraz mapę kategorii po stronie firmware, więc odznaczone ustawienia nie nadpisują aktualnej konfiguracji urządzenia.",
+        "Rozszerzono backup o przełącznik Sound Reactive w bloku usług oraz objęto importem Wi-Fi, sieć/AP/czas, portal, dostęp, światło, PWM, usługi, LED diagnostyczną, pinout i integracje.",
+        "Zbudowano firmware 1.0.0.891 oraz obraz LittleFS 1.0.0.799."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-        "size": 1687200,
-        "md5": "628CC76D893EBC09D17D1E25BDEEA185"
+        "size": 1687776,
+        "md5": "4278EAE32015585CE718DB0982CF8B0B"
     },
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "28C59EC9EEBD0E417E6F109E07B841EC"
+        "md5": "B32687654E84E8CB2F2318A78395EF54"
     },
-    "build_time": "2026-07-06T06:10:46+01:00",
+    "build_time": "2026-07-06T06:28:10+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,19 @@
 {
     "releases": [
         {
+            "version": "1.0.0.891",
+            "firmware_version": "1.0.0.891",
+            "filesystem_version": "1.0.0.799",
+            "date": "2026-07-06T06:28:10+01:00",
+            "title": "Selektywny import ustawień",
+            "changes": [
+                "Rozbudowano modal Wczytaj ustawienia o kafelki kategorii z przełącznikami, aby można było pominąć wybrane bloki backupu.",
+                "Import konfiguracji respektuje teraz mapę kategorii po stronie firmware, więc odznaczone ustawienia nie nadpisują aktualnej konfiguracji urządzenia.",
+                "Rozszerzono backup o przełącznik Sound Reactive w bloku usług oraz objęto importem Wi-Fi, sieć/AP/czas, portal, dostęp, światło, PWM, usługi, LED diagnostyczną, pinout i integracje.",
+                "Zbudowano firmware 1.0.0.891 oraz obraz LittleFS 1.0.0.799."
+            ]
+        },
+        {
             "version": "1.0.0.798",
             "firmware_version": "1.0.0.889",
             "filesystem_version": "1.0.0.798",
