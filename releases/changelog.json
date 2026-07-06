@@ -1,5 +1,17 @@
-﻿{
+{
     "releases":  [
+                     {
+                         "version":  "1.0.0.908",
+                         "firmware_version":  "1.0.0.908",
+                         "filesystem_version":  "1.0.0.827",
+                         "date":  "2026-07-06T19:40:50+01:00",
+                         "title":  "Wygaszanie WS2812 przed restartem",
+                         "changes":  [
+                                         "Przed restartem firmware wysyła czarną ramkę na aktualnie aktywny pin WS2812, żeby stara taśma nie świeciła ostatnim zapamiętanym kolorem po zmianie pinoutu.",
+                                         "Restart przez /api/restart korzysta teraz z tego samego workera co /api/reboot, zamiast restartować urządzenie bezpośrednio po zamknięciu połączenia HTTP.",
+                                         "Stan scen w trybie boot restore jest zapisywany przed wygaszeniem, więc poprawka nie zmienia zapamiętanego trybu pracy świateł."
+                                     ]
+                     },
                      {
                          "version":  "1.0.0.907",
                          "firmware_version":  "1.0.0.907",
