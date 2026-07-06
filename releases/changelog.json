@@ -1,6 +1,20 @@
 {
     "releases": [
         {
+            "version": "1.0.0.816",
+            "firmware_version": "1.0.0.892",
+            "filesystem_version": "1.0.0.816",
+            "date": "2026-07-06T10:12:15+01:00",
+            "title": "Przyciski ustawień przy liście zmian",
+            "changes": [
+                "Przeniesiono przyciski Wczytaj ustawienia i Pobierz ustawienia do wiersza Lista zmian po prawej stronie panelu aktualizacji.",
+                "Status importu/eksportu ustawień został przeniesiony razem z przyciskami, więc komunikaty pojawiają się przy właściwej akcji.",
+                "Dolny pasek narzędzi Oprogramowanie pokazuje teraz tylko File Manager i Recovery.",
+                "Dostosowano układ mobilny, aby przyciski ustawień zawijały się pod Listą zmian na węższych ekranach.",
+                "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.816."
+            ]
+        },
+        {
             "version": "1.0.0.814",
             "firmware_version": "1.0.0.892",
             "filesystem_version": "1.0.0.814",

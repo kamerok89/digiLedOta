@@ -2,13 +2,14 @@
     "product": "digiled-xiao-esp32s3",
     "channel": "stable",
     "firmware_version": "1.0.0.892",
-    "filesystem_version": "1.0.0.814",
-    "notes": "Zamykanie wyboru pliku bez zawieszonego spinnera",
+    "filesystem_version": "1.0.0.816",
+    "notes": "Przyciski ustawień przy liście zmian",
     "changes": [
-        "Poprawiono wykrywanie anulowania wyboru pliku w zakładce Oprogramowanie, aby spinner gasł po zamknięciu okna bez wybrania pliku.",
-        "Obserwator anulowania startuje teraz przed otwarciem systemowego okna pliku i reaguje na powrót focusu, widoczności strony oraz pierwszy klik lub klawisz po powrocie.",
-        "Ten sam bezpieczniejszy mechanizm zastosowano przy wczytywaniu pliku ustawień.",
-        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.814."
+        "Przeniesiono przyciski Wczytaj ustawienia i Pobierz ustawienia do wiersza Lista zmian po prawej stronie panelu aktualizacji.",
+        "Status importu/eksportu ustawień został przeniesiony razem z przyciskami, więc komunikaty pojawiają się przy właściwej akcji.",
+        "Dolny pasek narzędzi Oprogramowanie pokazuje teraz tylko File Manager i Recovery.",
+        "Dostosowano układ mobilny, aby przyciski ustawień zawijały się pod Listą zmian na węższych ekranach.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.816."
     ],
     "firmware": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +19,8 @@
     "filesystem": {
         "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
         "size": 4194304,
-        "md5": "58935264C38142B2F029E538BB474FB5"
+        "md5": "F2B8D66A7CCA65F2C576C061600D1CBF"
     },
-    "build_time": "2026-07-06T09:56:28+01:00",
+    "build_time": "2026-07-06T10:12:15+01:00",
     "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
