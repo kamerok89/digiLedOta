@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.834",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.834",
+      "date": "2026-07-09T19:47:24+01:00",
+      "title": "Status obok nazwy sceny",
+      "changes": [
+        "Zmniejszono szerokość pola nazwy sceny z 180 px do 162 px.",
+        "Przeniesiono status sceny, np. Włączona lub Wyłączona, bezpośrednio obok nazwy sceny.",
+        "Odświeżono CSS, script.js.gz i obraz LittleFS portalu."
+      ]
+    },
+    {
       "version": "1.0.0.833",
       "firmware_version": "1.0.0.911",
       "filesystem_version": "1.0.0.833",
