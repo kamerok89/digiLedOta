@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.832",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.832",
+      "date": "2026-07-09T18:31:52+01:00",
+      "title": "Czytelniejszy nagłówek sceny",
+      "changes": [
+        "Ukryto linię czasu LED dla zwiniętych kart konfiguracji scen.",
+        "Przeniesiono pill Zakres do nagłówka sceny, pomiędzy nazwę sceny i przyciski akcji.",
+        "Dopasowano CSS nagłówka sceny i odświeżono skompresowane zasoby portalu."
+      ]
+    },
+    {
       "version": "1.0.0.830",
       "firmware_version": "1.0.0.911",
       "filesystem_version": "1.0.0.830",

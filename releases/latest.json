@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.911",
-  "filesystem_version": "1.0.0.830",
-  "notes": "Usunięto kafelek Wybrana scena z Parametrów globalnych konfiguracji scen i posprzątano niewykorzystywane style oraz obsługę JS.",
+  "filesystem_version": "1.0.0.832",
+  "notes": "Linia czasu LED w konfiguracji scen jest teraz widoczna dopiero po rozwinięciu sceny, a pill Zakres przeniesiono do nagłówka obok nazwy.",
   "changes": [
-    "Usunięto panel Wybrana scena z sekcji Setup/Parametry globalne w konfiguracji scen.",
-    "Usunięto generator HTML, localStorage i handlery kliknięć oraz drag dla edytora inline zakresu LED.",
-    "Usunięto nieużywane style ciemnego i jasnego motywu dla sceneCfgInlineRangeEditor oraz odświeżono skompresowane zasoby portalu."
+    "Ukryto linię czasu LED dla zwiniętych kart konfiguracji scen.",
+    "Przeniesiono pill Zakres do nagłówka sceny, pomiędzy nazwę sceny i przyciski akcji.",
+    "Dopasowano CSS nagłówka sceny i odświeżono skompresowane zasoby portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "5C93D8ABD18311A00B7BE062C51D889F"
+    "md5": "066FBC79282F100AB82ACA14218F28EB"
   },
-  "build_time": "2026-07-09T18:17:05+01:00",
+  "build_time": "2026-07-09T18:31:52+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
