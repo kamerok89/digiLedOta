@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.911",
-  "filesystem_version": "1.0.0.835",
-  "notes": "Przeniesiono przyciski ustawień za przycisk Lista zmian i poszerzono pill statusu, aby długi tekst nie przesuwał układu.",
+  "filesystem_version": "1.0.0.836",
+  "notes": "Usunięto panel Live scen z diagnostyki i dodano cykliczne odświeżanie terminala HTTP, gdy diagnostyka i terminal są otwarte.",
   "changes": [
-    "Przyciski Wczytaj ustawienia i Pobierz ustawienia są wyrównane po lewej, zaraz za przyciskiem Lista zmian.",
-    "Pill statusu ustawień ma stałą szerokość 184 px i obcina długi tekst elipsą zamiast przepychać przyciski.",
-    "Odświeżono CSS oraz obraz LittleFS portalu."
+    "Usunięto kafelek Live scen oraz jego nieużywane style, logikę JS i klucze tłumaczeń.",
+    "Terminal w diagnostyce odświeża historię cyklicznie, gdy zakładka Diagnostyka jest aktywna i kafelek Terminal jest rozwinięty.",
+    "Odświeżono CSS, script.js.gz, słowniki i obraz LittleFS portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "59F5FA0E1C5DED6DF52B18E3053DC8CC"
+    "md5": "FEAB2768848F45931FB0DAAF6AF4B060"
   },
-  "build_time": "2026-07-09T19:56:50+01:00",
+  "build_time": "2026-07-09T20:35:37+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
