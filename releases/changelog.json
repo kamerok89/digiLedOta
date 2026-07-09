@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.833",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.833",
+      "date": "2026-07-09T18:40:33+01:00",
+      "title": "Węższa nazwa sceny",
+      "changes": [
+        "Szerokość boxa nazwy sceny w kompaktowym nagłówku zmniejszono z 360 px do 180 px.",
+        "Pill Zakres ma dzięki temu więcej miejsca w tej samej linii obok nazwy sceny.",
+        "Odświeżono CSS i obraz LittleFS portalu."
+      ]
+    },
+    {
       "version": "1.0.0.832",
       "firmware_version": "1.0.0.911",
       "filesystem_version": "1.0.0.832",
