@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.911",
-  "filesystem_version": "1.0.0.837",
-  "notes": "Usunięto panel Live scen z diagnostyki i dodano cykliczne odświeżanie terminala HTTP, gdy diagnostyka i terminal są otwarte.",
+  "filesystem_version": "1.0.0.838",
+  "notes": "Zastąpiono osobne przyciski wczytywania i pobierania ustawień jednym menu Ustawienia w panelu aktualizacji.",
   "changes": [
-    "Usunięto kafelek Live scen oraz jego nieużywane style, logikę JS i klucze tłumaczeń.",
-    "Terminal w diagnostyce odświeża historię cyklicznie, gdy zakładka Diagnostyka jest aktywna i kafelek Terminal jest rozwinięty.",
-    "Dodano start odświeżania po wejściu do widoku Diagnostyka i zatrzymanie po wyjściu z widoku.",
-    "Odświeżono CSS, script.js.gz, słowniki i obraz LittleFS portalu."
+    "Dodano przycisk Ustawienia z ikoną EDE3 i chevronem, spójny wizualnie z przyciskiem Lista zmian.",
+    "Po kliknięciu przycisku Ustawienia dostępne są opcje Wczytaj ustawienia i Pobierz ustawienia.",
+    "Usunięto osobne przyciski wczytywania i pobierania ustawień z paska aktualizacji.",
+    "Odświeżono CSS, script.js.gz i obraz LittleFS portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "A155BE968A99F8C2A49431C5D1A71FB0"
+    "md5": "14FA27D9FF18BE31A1EEC442515C579D"
   },
-  "build_time": "2026-07-09T20:37:59+01:00",
+  "build_time": "2026-07-09T21:53:58+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.838",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.838",
+      "date": "2026-07-09T21:53:58+01:00",
+      "title": "Menu ustawień w aktualizacjach",
+      "changes": [
+        "Dodano przycisk Ustawienia z ikoną EDE3 i chevronem, spójny wizualnie z przyciskiem Lista zmian.",
+        "Po kliknięciu przycisku Ustawienia dostępne są opcje Wczytaj ustawienia i Pobierz ustawienia.",
+        "Usunięto osobne przyciski wczytywania i pobierania ustawień z paska aktualizacji.",
+        "Odświeżono CSS, script.js.gz i obraz LittleFS portalu."
+      ]
+    },
+    {
       "version": "1.0.0.837",
       "firmware_version": "1.0.0.911",
       "filesystem_version": "1.0.0.837",
