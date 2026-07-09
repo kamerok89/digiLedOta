@@ -1,24 +1,24 @@
 {
-    "product":  "digiled-xiao-esp32s3",
-    "channel":  "stable",
-    "firmware_version":  "1.0.0.911",
-    "filesystem_version":  "1.0.0.827",
-    "notes":  "Uczytelniono log pinoutu, aby każdy sygnał MiLight/nRF, PWM, Modbus i Audio był wypisany z nazwą, bez dwuznacznych list liczbowych.",
-    "changes":  [
-                    "Log [PINOUT] pokazuje teraz nazwane pola, między innymi milight_ce, milight_csn, milight_sck, milight_miso i milight_mosi.",
-                    "Usunięto dwuznaczność listy milight=..., która mogła sugerować zamianę MISO/MOSI bez opisania kolejności.",
-                    "Ta wersja nie zmienia mapowania GPIO, tylko ułatwia jednoznaczną diagnostykę fizycznego podłączenia nRF24."
-                ],
-    "firmware":  {
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-                     "size":  1722800,
-                     "md5":  "46F13834D93660FFCD50D1FE0E8E86FA"
-                 },
-    "filesystem":  {
-                       "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
-                       "size":  4194304,
-                       "md5":  "AA7C3E6FDE4397F5DF1C407573EE29BF"
-                   },
-    "build_time":  "2026-07-06T20:12:22+01:00",
-    "changelog_url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
+  "product": "digiled-xiao-esp32s3",
+  "channel": "stable",
+  "firmware_version": "1.0.0.911",
+  "filesystem_version": "1.0.0.830",
+  "notes": "Usunięto kafelek Wybrana scena z Parametrów globalnych konfiguracji scen i posprzątano niewykorzystywane style oraz obsługę JS.",
+  "changes": [
+    "Usunięto panel Wybrana scena z sekcji Setup/Parametry globalne w konfiguracji scen.",
+    "Usunięto generator HTML, localStorage i handlery kliknięć oraz drag dla edytora inline zakresu LED.",
+    "Usunięto nieużywane style ciemnego i jasnego motywu dla sceneCfgInlineRangeEditor oraz odświeżono skompresowane zasoby portalu."
+  ],
+  "firmware": {
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
+    "size": 1722800,
+    "md5": "46F13834D93660FFCD50D1FE0E8E86FA"
+  },
+  "filesystem": {
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
+    "size": 4194304,
+    "md5": "5C93D8ABD18311A00B7BE062C51D889F"
+  },
+  "build_time": "2026-07-09T18:17:05+01:00",
+  "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
