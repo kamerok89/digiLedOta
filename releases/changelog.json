@@ -1,14 +1,15 @@
 {
   "releases": [
     {
-      "version": "1.0.0.836",
+      "version": "1.0.0.837",
       "firmware_version": "1.0.0.911",
-      "filesystem_version": "1.0.0.836",
-      "date": "2026-07-09T20:35:37+01:00",
+      "filesystem_version": "1.0.0.837",
+      "date": "2026-07-09T20:37:59+01:00",
       "title": "Terminal live w diagnostyce",
       "changes": [
         "Usunięto kafelek Live scen oraz jego nieużywane style, logikę JS i klucze tłumaczeń.",
         "Terminal w diagnostyce odświeża historię cyklicznie, gdy zakładka Diagnostyka jest aktywna i kafelek Terminal jest rozwinięty.",
+        "Dodano start odświeżania po wejściu do widoku Diagnostyka i zatrzymanie po wyjściu z widoku.",
         "Odświeżono CSS, script.js.gz, słowniki i obraz LittleFS portalu."
       ]
     },
