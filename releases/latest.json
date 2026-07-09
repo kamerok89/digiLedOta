@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.911",
-  "filesystem_version": "1.0.0.834",
-  "notes": "Zwężono nazwę sceny do 162 px i przeniesiono status pracy sceny obok nazwy w nagłówku.",
+  "filesystem_version": "1.0.0.835",
+  "notes": "Przeniesiono przyciski ustawień za przycisk Lista zmian i poszerzono pill statusu, aby długi tekst nie przesuwał układu.",
   "changes": [
-    "Zmniejszono szerokość pola nazwy sceny z 180 px do 162 px.",
-    "Przeniesiono status sceny, np. Włączona lub Wyłączona, bezpośrednio obok nazwy sceny.",
-    "Odświeżono CSS, script.js.gz i obraz LittleFS portalu."
+    "Przyciski Wczytaj ustawienia i Pobierz ustawienia są wyrównane po lewej, zaraz za przyciskiem Lista zmian.",
+    "Pill statusu ustawień ma stałą szerokość 184 px i obcina długi tekst elipsą zamiast przepychać przyciski.",
+    "Odświeżono CSS oraz obraz LittleFS portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "3E0684BDDE2E9E12CBDD0A8040728D2D"
+    "md5": "59F5FA0E1C5DED6DF52B18E3053DC8CC"
   },
-  "build_time": "2026-07-09T19:47:24+01:00",
+  "build_time": "2026-07-09T19:56:50+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

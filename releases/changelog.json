@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.835",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.835",
+      "date": "2026-07-09T19:56:50+01:00",
+      "title": "Stabilniejszy pasek ustawień",
+      "changes": [
+        "Przyciski Wczytaj ustawienia i Pobierz ustawienia są wyrównane po lewej, zaraz za przyciskiem Lista zmian.",
+        "Pill statusu ustawień ma stałą szerokość 184 px i obcina długi tekst elipsą zamiast przepychać przyciski.",
+        "Odświeżono CSS oraz obraz LittleFS portalu."
+      ]
+    },
+    {
       "version": "1.0.0.834",
       "firmware_version": "1.0.0.911",
       "filesystem_version": "1.0.0.834",
