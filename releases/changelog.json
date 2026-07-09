@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.839",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.839",
+      "date": "2026-07-09T22:19:11+01:00",
+      "title": "Kompaktowy modal wczytywania ustawień",
+      "changes": [
+        "Modal postępu wczytywania ustawień jest węższy i nie rozciąga się od pola nazwy pliku.",
+        "Backdrop tego modala nie rozmywa już całego UI podczas restartu.",
+        "Nazwa pliku w stanie postępu jest skracana elipsą, zamiast poszerzać okno.",
+        "Odświeżono CSS i obraz LittleFS portalu."
+      ]
+    },
+    {
       "version": "1.0.0.838",
       "firmware_version": "1.0.0.911",
       "filesystem_version": "1.0.0.838",

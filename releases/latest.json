@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.911",
-  "filesystem_version": "1.0.0.838",
-  "notes": "Zastąpiono osobne przyciski wczytywania i pobierania ustawień jednym menu Ustawienia w panelu aktualizacji.",
+  "filesystem_version": "1.0.0.839",
+  "notes": "Zmniejszono modal wczytywania ustawień podczas restartu i wyłączono rozmycie całego interfejsu w tym stanie.",
   "changes": [
-    "Dodano przycisk Ustawienia z ikoną EDE3 i chevronem, spójny wizualnie z przyciskiem Lista zmian.",
-    "Po kliknięciu przycisku Ustawienia dostępne są opcje Wczytaj ustawienia i Pobierz ustawienia.",
-    "Usunięto osobne przyciski wczytywania i pobierania ustawień z paska aktualizacji.",
-    "Odświeżono CSS, script.js.gz i obraz LittleFS portalu."
+    "Modal postępu wczytywania ustawień jest węższy i nie rozciąga się od pola nazwy pliku.",
+    "Backdrop tego modala nie rozmywa już całego UI podczas restartu.",
+    "Nazwa pliku w stanie postępu jest skracana elipsą, zamiast poszerzać okno.",
+    "Odświeżono CSS i obraz LittleFS portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "14FA27D9FF18BE31A1EEC442515C579D"
+    "md5": "256653F6F807646825C18304C9999F6F"
   },
-  "build_time": "2026-07-09T21:53:58+01:00",
+  "build_time": "2026-07-09T22:19:11+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
