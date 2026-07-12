@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.840",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.840",
+      "date": "2026-07-12T15:44:39+01:00",
+      "title": "Hover menu języka i trybu użytkownika",
+      "changes": [
+        "Dodano wyraźny hover, focus i stan otwartego menu dla wyboru języka w nagłówku portalu.",
+        "Dodano ten sam efekt podświetlenia dla menu wyboru trybu użytkownika.",
+        "Dopasowano wygląd do jasnego i ciemnego motywu oraz odświeżono obraz LittleFS portalu."
+      ]
+    },
+    {
       "version": "1.0.0.839",
       "firmware_version": "1.0.0.911",
       "filesystem_version": "1.0.0.839",

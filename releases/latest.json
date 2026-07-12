@@ -2,13 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.911",
-  "filesystem_version": "1.0.0.839",
-  "notes": "Zmniejszono modal wczytywania ustawień podczas restartu i wyłączono rozmycie całego interfejsu w tym stanie.",
+  "filesystem_version": "1.0.0.840",
+  "notes": "Dodano hover dla menu wyboru języka i trybu użytkownika w nagłówku portalu.",
   "changes": [
-    "Modal postępu wczytywania ustawień jest węższy i nie rozciąga się od pola nazwy pliku.",
-    "Backdrop tego modala nie rozmywa już całego UI podczas restartu.",
-    "Nazwa pliku w stanie postępu jest skracana elipsą, zamiast poszerzać okno.",
-    "Odświeżono CSS i obraz LittleFS portalu."
+    "Dodano wyraźny hover, focus i stan otwartego menu dla wyboru języka w nagłówku portalu.",
+    "Dodano ten sam efekt podświetlenia dla menu wyboru trybu użytkownika.",
+    "Dopasowano wygląd do jasnego i ciemnego motywu oraz odświeżono obraz LittleFS portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "256653F6F807646825C18304C9999F6F"
+    "md5": "0C355B13E2E8C546986B1B3BEF6AC676"
   },
-  "build_time": "2026-07-09T22:19:11+01:00",
+  "build_time": "2026-07-12T15:44:39+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
