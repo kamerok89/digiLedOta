@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodano dekoder payloadu TLV w odpowiedziach TF-BUS.",
+  "notes": "Zwiekszono bufor konsoli TF-BUS do 160 ramek i dodano licznik zapisu.",
   "firmware": {
-    "version": "0.1.56",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.56.bin",
-    "md5": "39305676297f1976be81743a69df9e02",
-    "size": 1071120
+    "version": "0.1.57",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.57.bin",
+    "md5": "224b347960f9ce5f7326086c13799c30",
+    "size": 1071680
   }
 }
