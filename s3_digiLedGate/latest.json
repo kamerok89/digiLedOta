@@ -1,11 +1,11 @@
-{
+﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Zastapiono sniffer MODBUS surowym odczytem ramek TF-BUS.",
+  "notes": "Dodano pauze automatycznego odswiezania konsoli TF-BUS.",
   "firmware": {
-    "version": "0.1.50",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.50.bin",
-    "md5": "e91e89737daf9adce3655bd47907ebfb",
-    "size": 1060528
+    "version": "0.1.51",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.51.bin",
+    "md5": "9ad9c2c99eb24b8f1e06b79ee1087d82",
+    "size": 1061024
   }
 }
