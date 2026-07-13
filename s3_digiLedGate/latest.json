@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodano pauze automatycznego odswiezania konsoli TF-BUS.",
+  "notes": "Dodano parser ramek TF-BUS AA/ADDR/LEN/PAYLOAD/XOR w konsoli diagnostycznej.",
   "firmware": {
-    "version": "0.1.51",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.51.bin",
-    "md5": "9ad9c2c99eb24b8f1e06b79ee1087d82",
-    "size": 1061024
+    "version": "0.1.52",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.52.bin",
+    "md5": "1a23ab0d6974c68bd77e6bc0841463e6",
+    "size": 1062704
   }
 }
