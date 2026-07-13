@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Poprawiono parser TF-BUS: rozpoznawanie request AA/ADDR/CMD/XOR i response AA/ADDR/LEN/PAYLOAD/XOR.",
+  "notes": "Dodano dekoder payloadu TLV w odpowiedziach TF-BUS.",
   "firmware": {
-    "version": "0.1.55",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.55.bin",
-    "md5": "711d22e08dd3704d49a47b62ac506e5c",
-    "size": 1069040
+    "version": "0.1.56",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.56.bin",
+    "md5": "39305676297f1976be81743a69df9e02",
+    "size": 1071120
   }
 }
