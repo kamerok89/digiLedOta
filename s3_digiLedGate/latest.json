@@ -1,11 +1,11 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Poprawione opisy pol integracji Grenton/TF-BUS na mapowanie ramek MiLight.",
+  "notes": "Zastapiono sniffer MODBUS surowym odczytem ramek TF-BUS.",
   "firmware": {
-    "version": "0.1.49",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.49.bin",
-    "md5": "e3ad96d7b88f4617aabaa2714f240c75",
-    "size": 1060832
+    "version": "0.1.50",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.50.bin",
+    "md5": "e91e89737daf9adce3655bd47907ebfb",
+    "size": 1060528
   }
 }
