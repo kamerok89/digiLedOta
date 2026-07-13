@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Zwiekszono bufor konsoli TF-BUS do 160 ramek i dodano licznik zapisu.",
+  "notes": "Dodano emulator dimmera TF-BUS z opcja Widoczny, konfigurowalnym adresem i odpowiedziami discovery/poll.",
   "firmware": {
-    "version": "0.1.57",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.57.bin",
-    "md5": "224b347960f9ce5f7326086c13799c30",
-    "size": 1071680
+    "version": "0.1.58",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.58.bin",
+    "md5": "646b1f44ec1e374985378e1b682fe0e0",
+    "size": 1078208
   }
 }
