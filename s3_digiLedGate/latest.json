@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodano scroll i kopiowanie calej konsoli TF-BUS.",
+  "notes": "Dodano strojenie konsoli TF-BUS: baud, format UART, invert RX i gap ramki.",
   "firmware": {
-    "version": "0.1.53",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.53.bin",
-    "md5": "3f354b9e66093929debd54134765f69d",
-    "size": 1063776
+    "version": "0.1.54",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.54.bin",
+    "md5": "e6694d0380a9ff0521a3d66f6d7b9cf9",
+    "size": 1068688
   }
 }
