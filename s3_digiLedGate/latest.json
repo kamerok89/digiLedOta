@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Ograniczono odpowiedz API konsoli TF-BUS do ostatnich 48 ramek i dodano lepsza diagnostyke uszkodzonego JSON.",
+  "notes": "Konsola TF-BUS dziala jako terminal live: ESP wysyla pending ramki do strony i od razu kasuje je z pamieci.",
   "firmware": {
-    "version": "0.1.64",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.64.bin",
-    "md5": "2deb4cfad3e7eac16306b5e182de2ab4",
-    "size": 1084240
+    "version": "0.1.65",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.65.bin",
+    "md5": "7c423647eadde562365b1cf1e5b8f955",
+    "size": 1085232
   }
 }
