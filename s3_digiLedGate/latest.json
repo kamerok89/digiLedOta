@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Dodano filtrowanie konsoli TF-BUS po adresie urzadzenia, np. 03 dla pollingu emulatora.",
+  "notes": "Usunieto ASCII z konsoli TF-BUS i poprawiono start/odswiezanie logu przy ciaglym ruchu magistrali.",
   "firmware": {
-    "version": "0.1.61",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.61.bin",
-    "md5": "7bac6387e1b8b377977a531874d61622",
-    "size": 1083312
+    "version": "0.1.62",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.62.bin",
+    "md5": "f179bedeb875682339332a62b4add29c",
+    "size": 1083952
   }
 }
