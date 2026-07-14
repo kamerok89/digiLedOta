@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Discovery TF-BUS wysyla pelny opis modulu takze po AA FF 07, a krotki announce po AA FF 2A.",
+  "notes": "TF-BUS: krotki announce discovery jest wysylany tylko w oknie wykrywania, a parser czysci stan po obcych ramkach.",
   "firmware": {
-    "version": "0.1.69",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.69.bin",
-    "md5": "c632bbbdaebf36053716c23fffeca8b4",
+    "version": "0.1.70",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.70.bin",
+    "md5": "d96ad5bb6e0c35fde14a4d2581bc4733",
     "size": 1086896
   }
 }
