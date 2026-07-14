@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Poprawiono discovery emulatora dimmera: fwApiVer jest stale 2, a adres zostaje w ramce short discovery.",
+  "notes": "Dodano filtrowanie konsoli TF-BUS po adresie urzadzenia, np. 03 dla pollingu emulatora.",
   "firmware": {
-    "version": "0.1.60",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.60.bin",
-    "md5": "62f06b2e88e00a1377600f6fc22910ec",
-    "size": 1081216
+    "version": "0.1.61",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.61.bin",
+    "md5": "7bac6387e1b8b377977a531874d61622",
+    "size": 1083312
   }
 }
