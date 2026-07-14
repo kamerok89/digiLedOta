@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: krotki announce discovery jest wysylany tylko w oknie wykrywania, a parser czysci stan po obcych ramkach.",
+  "notes": "TF-BUS: domyslny serial emulatora dimmera zmieniony na 320110923 / 0x1314814B; F9 pozostaje zgodne z dimmerem 2.2.1.",
   "firmware": {
-    "version": "0.1.70",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.70.bin",
-    "md5": "d96ad5bb6e0c35fde14a4d2581bc4733",
-    "size": 1086896
+    "version": "0.1.71",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.71.bin",
+    "md5": "5415cb481ab21396d7281f608326cf1b",
+    "size": 1086864
   }
 }
