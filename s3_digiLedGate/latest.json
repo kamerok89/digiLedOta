@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Emulator dimmera TF-BUS odpowiada na konfiguracje F0 i status F9, a konsola rozpoznaje dlugie ramki F0.",
+  "notes": "Konsola TF-BUS pokazuje czerwone ramki TX wysylane przez emulator ESP, aby latwiej diagnozowac discovery.",
   "firmware": {
-    "version": "0.1.66",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.66.bin",
-    "md5": "1441b1fc496336fa5312cd94da903b37",
-    "size": 1086400
+    "version": "0.1.67",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.67.bin",
+    "md5": "42a7246da4f98913d7dc0049cfc95a4a",
+    "size": 1086816
   }
 }
