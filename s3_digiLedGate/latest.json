@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: emulator dimmera odpowiada ACK na discovery AA FF 2A przed krotkim announce; wersja F9 opisana jako 2.2.1 / hw 3.",
+  "notes": "TF-BUS: emulator dimmera wysyla krotki announce tylko raz na cykl discovery i zamyka okno po AA FF 2A.",
   "firmware": {
-    "version": "0.1.72",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.72.bin",
-    "md5": "8e30de952722d41770afce2f29e3177e",
-    "size": 1086880
+    "version": "0.1.73",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.73.bin",
+    "md5": "688d467cff60086fbfda0785c511cf9f",
+    "size": 1086912
   }
 }
