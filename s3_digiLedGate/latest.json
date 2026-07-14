@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Konsola TF-BUS dziala jako terminal live: ESP wysyla pending ramki do strony i od razu kasuje je z pamieci.",
+  "notes": "Emulator dimmera TF-BUS odpowiada na konfiguracje F0 i status F9, a konsola rozpoznaje dlugie ramki F0.",
   "firmware": {
-    "version": "0.1.65",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.65.bin",
-    "md5": "7c423647eadde562365b1cf1e5b8f955",
-    "size": 1085232
+    "version": "0.1.66",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.66.bin",
+    "md5": "1441b1fc496336fa5312cd94da903b37",
+    "size": 1086400
   }
 }
