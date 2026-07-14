@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: emulator dimmera wysyla krotki announce tylko raz na cykl discovery i zamyka okno po AA FF 2A.",
+  "notes": "TF-BUS: emulator dimmera filtruje echo wlasnego TX i rozdziela ramki RX/TX, zeby discovery nie doklejaly sie do kolejnych polli.",
   "firmware": {
-    "version": "0.1.73",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.73.bin",
-    "md5": "688d467cff60086fbfda0785c511cf9f",
-    "size": 1086912
+    "version": "0.1.74",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.74.bin",
+    "md5": "4b6ba898c47998c429bf1e7da55509f5",
+    "size": 1087072
   }
 }
