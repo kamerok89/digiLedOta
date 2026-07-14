@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "Konsola TF-BUS pokazuje czerwone ramki TX wysylane przez emulator ESP, aby latwiej diagnozowac discovery.",
+  "notes": "Discovery TF-BUS odpowiada slotowo: pelny opis tylko na 0x08, a krotki announce tylko na 0x2A, aby ograniczyc kolizje.",
   "firmware": {
-    "version": "0.1.67",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.67.bin",
-    "md5": "42a7246da4f98913d7dc0049cfc95a4a",
-    "size": 1086816
+    "version": "0.1.68",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.68.bin",
+    "md5": "bc08e7a18f74c10d7c42000be4eb1718",
+    "size": 1086896
   }
 }
