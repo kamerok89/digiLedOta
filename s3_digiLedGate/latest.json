@@ -1,11 +1,11 @@
-﻿{
-  "product": "s3_digiLedGate",
-  "channel": "stable",
-  "notes": "TF-BUS: emulator zglasza sie jako LED_RGBW_DIN hwType 24. Serial jest generowany jako 281 + 6 cyfr z MAC, adres jest przyjmowany z CLU, a FwVersion mozna ustawic w portalu.",
-  "firmware": {
-    "version": "0.1.93",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.93.bin",
-    "md5": "f1aca9e3f139c4b0ca43abf251d917eb",
-    "size": 1090944
-  }
+{
+    "product":  "s3_digiLedGate",
+    "channel":  "stable",
+    "notes":  "TF-BUS: tymczasowy powrot emulatora do profilu DIMMER_MOSFET_DIN hwType 26/hwVersion 3/fwApi 2. Adres roboczy nadal jest przyjmowany z CLU, a FwVersion pozostaje edytowalny w portalu.",
+    "firmware":  {
+                     "version":  "0.1.94",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.94.bin",
+                     "md5":  "b41ecd167aef50f5535aaf93a6e11276",
+                     "size":  1090880
+                 }
 }
