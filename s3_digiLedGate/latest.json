@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "TF-BUS emulator serviced from a dedicated FreeRTOS task so web console refresh cannot delay CLU polling responses.",
+    "notes":  "Restore TF-BUS emulator identity as LED_RGBW_DIN with MAC-derived 281xxxxxx serial.",
     "firmware":  {
-                     "version":  "0.1.101",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.101.bin",
-                     "md5":  "073edabd2cc97202a46e744afe3395d7",
-                     "size":  1094240
+                     "version":  "0.1.102",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.102.bin",
+                     "md5":  "46c54299d2bed255ff3e2f012162f379",
+                     "size":  1094336
                  }
 }
