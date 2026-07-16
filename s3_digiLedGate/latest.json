@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Custom TF-BUS module profile: ESP announces as digiLed hwType 0x54 while keeping LED RGBW fv03 interface semantics.",
+    "notes":  "digiLed TF-BUS profile now uses five neutral fields a/b/c/d/v; firmware maps a-d to TF-Remote RGBW and v to FFxx target address.",
     "firmware":  {
-                     "version":  "0.1.105",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.105.bin",
-                     "md5":  "ecab3d75149297e15e11a5571152ee75",
-                     "size":  1096128
+                     "version":  "0.1.106",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.106.bin",
+                     "md5":  "a4c35de8a9e136beff369084c26d5957",
+                     "size":  1097920
                  }
 }
