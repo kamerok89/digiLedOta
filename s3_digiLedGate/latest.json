@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "TF-BUS: terminal ma filtr Tylko wazne z opisami discovery, przydzialu adresu, pollingu i komunikacji z emulatorem ESP.",
+    "notes":  "TF-BUS emulator serviced from a dedicated FreeRTOS task so web console refresh cannot delay CLU polling responses.",
     "firmware":  {
-                     "version":  "0.1.100",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.100.bin",
-                     "md5":  "bb36c30156e8e5cbdfb1b3a46347c311",
-                     "size":  1093776
+                     "version":  "0.1.101",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.101.bin",
+                     "md5":  "073edabd2cc97202a46e744afe3395d7",
+                     "size":  1094240
                  }
 }
