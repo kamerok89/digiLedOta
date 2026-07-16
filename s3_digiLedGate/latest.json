@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "TF-BUS: tymczasowy powrot emulatora do profilu DIMMER_MOSFET_DIN hwType 26/hwVersion 3/fwApi 2. Adres roboczy nadal jest przyjmowany z CLU, a FwVersion pozostaje edytowalny w portalu.",
+    "notes":  "TF-BUS: emulator DIMMER_MOSFET_DIN wybiera pierwszy wolny adres na podstawie polli CLU przed discovery, aby nie oglaszac starego adresu z pamieci. Profil dimmera i FwVersion 2.2.1 bez zmian.",
     "firmware":  {
-                     "version":  "0.1.94",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.94.bin",
-                     "md5":  "b41ecd167aef50f5535aaf93a6e11276",
-                     "size":  1090880
+                     "version":  "0.1.95",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.95.bin",
+                     "md5":  "c2855b9b9bf230d2a279e344bef20d7b",
+                     "size":  1091168
                  }
 }
