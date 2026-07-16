@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: emulator dimmera odpowiada ACK na discovery 0x2A, uzywa slotu adresu dla short announce i nie blokuje kolejnych skanow CLU.",
+  "notes": "TF-BUS: discovery dimmera emuluje sekwencje ACK, short announce, ACK oraz szybszy slot adresu dla CLU.",
   "firmware": {
-    "version": "0.1.86",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.86.bin",
-    "md5": "a66f1b1bc8a169e769f10be14f83b6c1",
-    "size": 1091264
+    "version": "0.1.87",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.87.bin",
+    "md5": "5032ff96f79a35343e6febc1a166a667",
+    "size": 1091296
   }
 }
