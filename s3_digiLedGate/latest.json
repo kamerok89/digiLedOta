@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Clean up TF-BUS console controls and make clear remove displayed history without restoring old frames.",
+    "notes":  "Fix TF-BUS console clear by draining UART, adding clear generation tracking, and ignoring stale console frames.",
     "firmware":  {
-                     "version":  "0.1.109",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.109.bin",
-                     "md5":  "500af48b74cdb85a0799962cc5c4715f",
-                     "size":  1099632
+                     "version":  "0.1.110",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.110.bin",
+                     "md5":  "a21814cb842b7d08f2097800a7095bec",
+                     "size":  1100768
                  }
 }
