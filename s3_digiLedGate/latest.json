@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "digiLed TF-BUS profile now uses five neutral fields a/b/c/d/v; firmware maps a-d to TF-Remote RGBW and v to FFxx target address.",
+    "notes":  "Increase TF-BUS emulator receive buffer for longer F0 method frames from digiLed field objects.",
     "firmware":  {
-                     "version":  "0.1.106",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.106.bin",
-                     "md5":  "a4c35de8a9e136beff369084c26d5957",
+                     "version":  "0.1.107",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.107.bin",
+                     "md5":  "196782a61328abf3bc2eea465387a389",
                      "size":  1097920
                  }
 }
