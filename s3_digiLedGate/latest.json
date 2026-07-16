@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: czystsze logowanie RX po odpowiedziach emulatora oraz mozliwosc testu adresow 0x01/0x02.",
+  "notes": "TF-BUS: emulator nie wycina juz slepo poczatku odpowiedzi CLU po wlasnym TX, co naprawia gubienie bajtu AA przy pollingu 0x03.",
   "firmware": {
-    "version": "0.1.88",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.88.bin",
-    "md5": "a3c72e49b75b27d8c48d260360664d59",
-    "size": 1091280
+    "version": "0.1.89",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.89.bin",
+    "md5": "83f50334d781285ed087226567200c4a",
+    "size": 1091312
   }
 }
