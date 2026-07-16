@@ -1,11 +1,11 @@
-{
+﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Switch digiLed TF-BUS command API to RS232-style buffer and parse buffered commands for MiLight transmission.",
+    "notes":  "Clean up TF-BUS console controls and make clear remove displayed history without restoring old frames.",
     "firmware":  {
-                     "version":  "0.1.108",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.108.bin",
-                     "md5":  "8fcfd0f81407c2c7f70a2dabe301b437",
-                     "size":  1101232
+                     "version":  "0.1.109",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.109.bin",
+                     "md5":  "500af48b74cdb85a0799962cc5c4715f",
+                     "size":  1099632
                  }
 }
