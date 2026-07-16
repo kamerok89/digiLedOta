@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Restore TF-BUS emulator identity as LED_RGBW_DIN with MAC-derived 281xxxxxx serial.",
+    "notes":  "Test LED_RGBW_DIN with FwAPIVersion 3 so Object Manager should use the fv03 LED RGBW interface profile.",
     "firmware":  {
-                     "version":  "0.1.102",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.102.bin",
-                     "md5":  "46c54299d2bed255ff3e2f012162f379",
+                     "version":  "0.1.103",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.103.bin",
+                     "md5":  "318c5345958f6dec2b928199c5e444ab",
                      "size":  1094336
                  }
 }
