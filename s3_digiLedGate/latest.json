@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: usunieto filtr echa TX z toru RX, zeby nie zjadac bajtu AA z ramek CLU. Odpowiedzi emulatora nadal sa logowane jako TX.",
+  "notes": "TF-BUS: adres emulatora 0x01..0xFE jest teraz poprawnie zachowywany po restarcie. Naprawia przypadek, gdy CLU wykrylo modul jako 0x02, a firmware po OTA wymuszal 0x03.",
   "firmware": {
-    "version": "0.1.90",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.90.bin",
-    "md5": "7aacd9f1209298c7e0b6fa2c8dbce81a",
+    "version": "0.1.91",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.91.bin",
+    "md5": "24754331267627a84d70de338bf94d8e",
     "size": 1091136
   }
 }
