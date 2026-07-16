@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "TF-BUS: emulator DIMMER_MOSFET_DIN wybiera pierwszy wolny adres na podstawie polli CLU przed discovery, aby nie oglaszac starego adresu z pamieci. Profil dimmera i FwVersion 2.2.1 bez zmian.",
+    "notes":  "TF-BUS: cofniecie heurystyki wyboru wolnego adresu z 0.1.95. Emulator DIMMER_MOSFET_DIN przejmuje i zapisuje adres tylko z ramki CLU zawierajacej jego serial.",
     "firmware":  {
-                     "version":  "0.1.95",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.95.bin",
-                     "md5":  "c2855b9b9bf230d2a279e344bef20d7b",
-                     "size":  1091168
+                     "version":  "0.1.96",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.96.bin",
+                     "md5":  "663e82dedffc70bed5b8b22eb0e6bc2b",
+                     "size":  1090880
                  }
 }
