@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: terminal ignoruje spoznione odpowiedzi po Wyczysc/Zastosuj i resetuje lokalny ekran po resecie licznika ramek.",
+  "notes": "TF-BUS: terminal pokazuje czas ramki od startu ESP oraz delte ms od poprzedniej ramki do analizy timingu komunikacji.",
   "firmware": {
-    "version": "0.1.77",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.77.bin",
-    "md5": "7a97efc9b5baed1615e53a556a277f5e",
-    "size": 1087712
+    "version": "0.1.78",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.78.bin",
+    "md5": "bbd932831bd5883ec1ad9c59d3908d6e",
+    "size": 1088048
   }
 }
