@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: adres emulatora 0x01..0xFE jest teraz poprawnie zachowywany po restarcie. Naprawia przypadek, gdy CLU wykrylo modul jako 0x02, a firmware po OTA wymuszal 0x03.",
+  "notes": "TF-BUS: emulator przyjmuje adres z wlasnej ramki DISC_SHORT widzianej na magistrali, zeby nie odpowiadac na polling innego modulu po niespojnym discovery.",
   "firmware": {
-    "version": "0.1.91",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.91.bin",
-    "md5": "24754331267627a84d70de338bf94d8e",
-    "size": 1091136
+    "version": "0.1.92",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.92.bin",
+    "md5": "9475b3ee937fe22298bf98ff9f95fa74",
+    "size": 1091408
   }
 }
