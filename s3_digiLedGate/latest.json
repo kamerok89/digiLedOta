@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Test LED_RGBW_DIN with FwAPIVersion 3 so Object Manager should use the fv03 LED RGBW interface profile.",
+    "notes":  "Demo: LED_RGBW_DIN F0 channel payload is decoded as RGBW and forwarded as TF-Remote MiLight frame.",
     "firmware":  {
-                     "version":  "0.1.103",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.103.bin",
-                     "md5":  "318c5345958f6dec2b928199c5e444ab",
-                     "size":  1094336
+                     "version":  "0.1.104",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.104.bin",
+                     "md5":  "4804580f8ab9399ba5cb1797f7ca5938",
+                     "size":  1096112
                  }
 }
