@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "TF-BUS: wydluzony czas trzymania DE po nadawaniu MAX485, aby CLU odbieralo pelne dluzsze odpowiedzi pollingu.",
+    "notes":  "TF-BUS: podczas nowego discovery ESP wstrzymuje odpowiedzi pod starym adresem i czeka na DISC_SHORT z adresem przydzielonym przez CLU.",
     "firmware":  {
-                     "version":  "0.1.98",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.98.bin",
-                     "md5":  "bcfc54313b8289fedd2d0ce925e5062f",
-                     "size":  1090848
+                     "version":  "0.1.99",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.99.bin",
+                     "md5":  "18f516e4c85361f0333d65c78fbcf4c5",
+                     "size":  1091056
                  }
 }
