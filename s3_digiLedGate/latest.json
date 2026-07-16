@@ -1,11 +1,11 @@
 {
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "TF-BUS: cofniecie heurystyki wyboru wolnego adresu z 0.1.95. Emulator DIMMER_MOSFET_DIN przejmuje i zapisuje adres tylko z ramki CLU zawierajacej jego serial.",
+    "notes":  "TF-BUS: po ramce DISC_SHORT z serialem emulatora ESP przejmuje adres z CLU i odsyla ACK. Po 0x2A ESP czeka na adres od CLU zamiast samodzielnie nadawac DISC_SHORT.",
     "firmware":  {
-                     "version":  "0.1.96",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.96.bin",
-                     "md5":  "663e82dedffc70bed5b8b22eb0e6bc2b",
-                     "size":  1090880
+                     "version":  "0.1.97",
+                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.97.bin",
+                     "md5":  "cec5d79f91ea44a60e8b2c716a04f2c3",
+                     "size":  1090816
                  }
 }
