@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: emulator nie wycina juz slepo poczatku odpowiedzi CLU po wlasnym TX, co naprawia gubienie bajtu AA przy pollingu 0x03.",
+  "notes": "TF-BUS: usunieto filtr echa TX z toru RX, zeby nie zjadac bajtu AA z ramek CLU. Odpowiedzi emulatora nadal sa logowane jako TX.",
   "firmware": {
-    "version": "0.1.89",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.89.bin",
-    "md5": "83f50334d781285ed087226567200c4a",
-    "size": 1091312
+    "version": "0.1.90",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.90.bin",
+    "md5": "7aacd9f1209298c7e0b6fa2c8dbce81a",
+    "size": 1091136
   }
 }
