@@ -1,11 +1,11 @@
 ﻿{
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "notes": "TF-BUS: migracja konfliktowego adresu emulatora 02 na 03 i blokada zapisu adresow 01/02 przy testach z oryginalnym dimmerem.",
+  "notes": "TF-BUS: terminal ignoruje spoznione odpowiedzi po Wyczysc/Zastosuj i resetuje lokalny ekran po resecie licznika ramek.",
   "firmware": {
-    "version": "0.1.76",
-    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.76.bin",
-    "md5": "78fe34435ecf88ba5d14f7feed2d9f69",
-    "size": 1087136
+    "version": "0.1.77",
+    "url": "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.77.bin",
+    "md5": "7a97efc9b5baed1615e53a556a277f5e",
+    "size": 1087712
   }
 }
