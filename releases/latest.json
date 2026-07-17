@@ -1,24 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.911",
+  "firmware_version": "1.0.0.913",
   "filesystem_version": "1.0.0.840",
-  "notes": "Dodano hover dla menu wyboru języka i trybu użytkownika w nagłówku portalu.",
+  "notes": "Rozdzielono radiowe sterowanie nasyceniem i jasnością oraz przeniesiono prędkości efektów pod W=12.",
   "changes": [
-    "Dodano wyraźny hover, focus i stan otwartego menu dla wyboru języka w nagłówku portalu.",
-    "Dodano ten sam efekt podświetlenia dla menu wyboru trybu użytkownika.",
-    "Dopasowano wygląd do jasnego i ciemnego motywu oraz odświeżono obraz LittleFS portalu."
+    "Komenda W=2 zmienia teraz wyłącznie nasycenie z pola R i zachowuje jasność.",
+    "Komenda W=3 zmienia teraz wyłącznie jasność z pola R, w tym poprawnie obsługuje wartość 0%, i zachowuje nasycenie.",
+    "Sterowanie prędkościami startu, pracy i zatrzymania efektów przeniesiono bez warstwy zgodności z W=3 pod W=12.",
+    "Dla W=2 i W=3 pole B wybiera wszystkie sceny wartością 0 albo pojedynczą scenę z zakresu 1–24."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1722800,
-    "md5": "46F13834D93660FFCD50D1FE0E8E86FA"
+    "size": 1724240,
+    "md5": "7C94BED9360941A065DE77F111993037"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "0C355B13E2E8C546986B1B3BEF6AC676"
   },
-  "build_time": "2026-07-12T15:44:39+01:00",
+  "build_time": "2026-07-17T14:24:06+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

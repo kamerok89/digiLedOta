@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.913",
+      "firmware_version": "1.0.0.913",
+      "filesystem_version": "1.0.0.840",
+      "date": "2026-07-17T14:24:06+01:00",
+      "title": "Nowy kontrakt komend radiowych RGBW",
+      "changes": [
+        "Komenda W=2 zmienia teraz wyłącznie nasycenie z pola R i zachowuje jasność.",
+        "Komenda W=3 zmienia teraz wyłącznie jasność z pola R, w tym poprawnie obsługuje wartość 0%, i zachowuje nasycenie.",
+        "Sterowanie prędkościami startu, pracy i zatrzymania efektów przeniesiono bez warstwy zgodności z W=3 pod W=12.",
+        "Dla W=2 i W=3 pole B wybiera wszystkie sceny wartością 0 albo pojedynczą scenę z zakresu 1–24."
+      ]
+    },
+    {
       "version": "1.0.0.840",
       "firmware_version": "1.0.0.911",
       "filesystem_version": "1.0.0.840",
