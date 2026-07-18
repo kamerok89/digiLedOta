@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Constrain the Wi-Fi results list to its own scroll area and reserve a fixed, comfortably padded footer for the rescan action.",
+    "notes":  "Fix the Wi-Fi rescan button height so it remains fully visible inside the reserved modal footer.",
     "firmware":  {
-                     "version":  "0.1.153",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.153.bin",
-                     "md5":  "f18b6c27bc2ad1b2c8a8fd8235d340b0",
-                     "size":  1234336
+                     "version":  "0.1.154",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.154.bin",
+                     "md5":  "043380e9f9fb59347706e041fb921707",
+                     "size":  1234384
                  }
 }
