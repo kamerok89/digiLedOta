@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Modernize the MiLight console with protocol guidance, separated command and response panes, corrected Polish text and collapsed RGBWV API documentation.",
+    "notes":  "Replace the TF-BUS module heading with a user-friendly profile selector, defaulting to the active LED RGBW DIN FV 03.02 profile and safely rejecting unsupported profiles.",
     "firmware":  {
-                     "version":  "0.1.133",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.133.bin",
-                     "md5":  "341416c1d214a18398fb20ec382b1298",
-                     "size":  1151168
+                     "version":  "0.1.134",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.134.bin",
+                     "md5":  "05ca6852ea27a00c0d5d7ba74f3ed0a7",
+                     "size":  1155280
                  }
 }
