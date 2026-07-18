@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Replace the native module selector with a compact custom combobox featuring a layered dark menu, active-item highlight, icon and animated chevron.",
+    "notes":  "Move the TF-BUS communication status pill into a separate row directly below the module profile combobox.",
     "firmware":  {
-                     "version":  "0.1.135",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.135.bin",
-                     "md5":  "70af70953c5e84d1bbbd85e0bcbe6714",
-                     "size":  1161392
+                     "version":  "0.1.136",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.136.bin",
+                     "md5":  "eeb86ed9a8ec446cc623e2b63cde5845",
+                     "size":  1161376
                  }
 }
