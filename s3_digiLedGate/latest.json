@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Shorten and reduce the already-added label and tighten spacing between the detected module IP and firmware columns.",
+    "notes":  "Hide HTTP Gate configuration while disabled, replace per-row saves with one main Save action, and collapse manual module entry behind a plus button.",
     "firmware":  {
-                     "version":  "0.1.145",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.145.bin",
-                     "md5":  "ede459bcb1054056619c81759cc47181",
-                     "size":  1208016
+                     "version":  "0.1.146",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.146.bin",
+                     "md5":  "84afa576323bff41e225966c76257578",
+                     "size":  1210736
                  }
 }
