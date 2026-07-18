@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Redesign Wi-Fi management with Polish status labels, confirmed disconnect and forget actions, network scan modal, password entry and DHCP or static IP configuration.",
+    "notes":  "Reorganize navigation by adding a Sterowanie tab with Pilot and Konsola views, and move transmitter pairing controls to the top of the console.",
     "firmware":  {
-                     "version":  "0.1.130",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.130.bin",
-                     "md5":  "e8b01b287f2dfea1189cc6615946f08d",
-                     "size":  1140464
+                     "version":  "0.1.131",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.131.bin",
+                     "md5":  "12e309c7d085ef87ecaa192a81c6b185",
+                     "size":  1140752
                  }
 }
