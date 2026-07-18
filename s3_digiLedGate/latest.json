@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Fix TF-BUS console clear by draining UART, adding clear generation tracking, and ignoring stale console frames.",
+    "notes":  "Fix OTA manifest parsing, update checks, browser cache and full UI reload after firmware restart.",
     "firmware":  {
-                     "version":  "0.1.110",
-                     "url":  "https://github.com/kamerok89/digiLedOta/raw/refs/heads/main/s3_digiLedGate/firmware-0.1.110.bin",
-                     "md5":  "a21814cb842b7d08f2097800a7095bec",
-                     "size":  1100768
+                     "version":  "0.1.125",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.125.bin",
+                     "md5":  "beb612444c1f38c3910cbdaeb7231d74",
+                     "size":  1121280
                  }
 }
