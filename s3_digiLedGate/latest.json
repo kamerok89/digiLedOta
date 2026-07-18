@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Pause the background update spinner while the firmware restart countdown modal is visible.",
+    "notes":  "Add an Update-page device menu with restart, factory reset, JSON settings import and complete settings export actions.",
     "firmware":  {
-                     "version":  "0.1.148",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.148.bin",
-                     "md5":  "daf98e9b665b89c42d51a2abbad266a2",
-                     "size":  1211056
+                     "version":  "0.1.149",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.149.bin",
+                     "md5":  "85885793b6a3e918a7a5f7f726bcacf2",
+                     "size":  1232592
                  }
 }
