@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Refine the HTTP Gate discovery modal with live scanned IP, compact module results, token lock state and a stable action footer.",
+    "notes":  "Widen the HTTP Gate discovery modal, reduce control and typography scale, and prevent viewport clipping and horizontal result scrolling.",
     "firmware":  {
-                     "version":  "0.1.141",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.141.bin",
-                     "md5":  "eb3b5e7f25eebcee6a4998711b7dc047",
-                     "size":  1206832
+                     "version":  "0.1.142",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.142.bin",
+                     "md5":  "c245ca901affd5a5b66d720cf9000d9a",
+                     "size":  1207056
                  }
 }
