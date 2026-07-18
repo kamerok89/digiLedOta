@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Toggle Start and Stop in the scan controls, add a Cancel action, and show detected modules whose HTTP API reports ok=false.",
+    "notes":  "Shorten and reduce the already-added label and tighten spacing between the detected module IP and firmware columns.",
     "firmware":  {
-                     "version":  "0.1.144",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.144.bin",
-                     "md5":  "33d237a36995ac654ce5869e24ef901b",
-                     "size":  1207920
+                     "version":  "0.1.145",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.145.bin",
+                     "md5":  "ede459bcb1054056619c81759cc47181",
+                     "size":  1208016
                  }
 }
