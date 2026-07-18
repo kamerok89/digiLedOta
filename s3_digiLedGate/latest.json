@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Polish OTA interface text and replace the placeholder R badge with a clear update icon.",
+    "notes":  "Reduce the post-update wait to 7 seconds and show a live countdown before the refreshed interface loads.",
     "firmware":  {
-                     "version":  "0.1.126",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.126.bin",
-                     "md5":  "9ef70bffca72413dcdbb50aa194f952e",
-                     "size":  1121728
+                     "version":  "0.1.127",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.127.bin",
+                     "md5":  "96c5c7013809a23b9af96fb6394afcb4",
+                     "size":  1122560
                  }
 }
