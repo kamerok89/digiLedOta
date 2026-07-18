@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Align the manual Add module action with its input fields and place the save confirmation beside the main Save button.",
+    "notes":  "Pause the background update spinner while the firmware restart countdown modal is visible.",
     "firmware":  {
-                     "version":  "0.1.147",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.147.bin",
-                     "md5":  "46abe928f01f7aff2e0f5c2447087462",
-                     "size":  1210912
+                     "version":  "0.1.148",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.148.bin",
+                     "md5":  "daf98e9b665b89c42d51a2abbad266a2",
+                     "size":  1211056
                  }
 }
