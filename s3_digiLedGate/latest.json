@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Reorganize navigation by adding a Sterowanie tab with Pilot and Konsola views, and move transmitter pairing controls to the top of the console.",
+    "notes":  "Rename Sterowanie to MiLight Gate and modernize the Pilot view with protocol guidance, clearer device context, refined color controls and receiver groups.",
     "firmware":  {
-                     "version":  "0.1.131",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.131.bin",
-                     "md5":  "12e309c7d085ef87ecaa192a81c6b185",
-                     "size":  1140752
+                     "version":  "0.1.132",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.132.bin",
+                     "md5":  "1e54cb6153186f74c4340a0020397601",
+                     "size":  1145856
                  }
 }
