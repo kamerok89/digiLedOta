@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.918",
+      "firmware_version": "1.0.0.918",
+      "filesystem_version": "1.0.0.846",
+      "date": "2026-07-18T19:17:04+01:00",
+      "title": "Stan wyłączonego API w wyszukiwaniu",
+      "changes": [
+        "GET /api/search/ zwraca ok: false, gdy External API jest wyłączone.",
+        "Przy wyłączonym API pole token ma wartość required, zgodnie z kontraktem integracji.",
+        "Dla włączonego API zachowano ok: true oraz rozróżnienie required/not zależne od trybu tokena.",
+        "Zaktualizowano przykłady w /api/help i odświeżono pakiety firmware oraz LittleFS."
+      ]
+    },
+    {
       "version": "1.0.0.845",
       "firmware_version": "1.0.0.917",
       "filesystem_version": "1.0.0.845",
