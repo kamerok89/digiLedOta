@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Replace the TF-BUS module heading with a user-friendly profile selector, defaulting to the active LED RGBW DIN FV 03.02 profile and safely rejecting unsupported profiles.",
+    "notes":  "Replace the native module selector with a compact custom combobox featuring a layered dark menu, active-item highlight, icon and animated chevron.",
     "firmware":  {
-                     "version":  "0.1.134",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.134.bin",
-                     "md5":  "05ca6852ea27a00c0d5d7ba74f3ed0a7",
-                     "size":  1155280
+                     "version":  "0.1.135",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.135.bin",
+                     "md5":  "70af70953c5e84d1bbbd85e0bcbe6714",
+                     "size":  1161392
                  }
 }
