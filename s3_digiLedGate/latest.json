@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Hide the raw diagnostic JSON output from the portal while retaining it as an internal status buffer.",
+    "notes":  "Apply the TF-BUS card color system across the entire portal, including navigation, controls, Wi-Fi, OTA and modal views.",
     "firmware":  {
-                     "version":  "0.1.128",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.128.bin",
-                     "md5":  "8f86ab5e0bba6002fecf7c33f894bfb7",
-                     "size":  1122656
+                     "version":  "0.1.129",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.129.bin",
+                     "md5":  "73a20c17c24c9198137a899a740c880f",
+                     "size":  1124560
                  }
 }
