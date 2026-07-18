@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Reflow HTTP Gate discovery controls into dedicated rows and compact the detected module metadata for narrow screens.",
+    "notes":  "Toggle Start and Stop in the scan controls, add a Cancel action, and show detected modules whose HTTP API reports ok=false.",
     "firmware":  {
-                     "version":  "0.1.143",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.143.bin",
-                     "md5":  "8aab56d3092754bd3526df60c0654caa",
-                     "size":  1206960
+                     "version":  "0.1.144",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.144.bin",
+                     "md5":  "33d237a36995ac654ce5869e24ef901b",
+                     "size":  1207920
                  }
 }
