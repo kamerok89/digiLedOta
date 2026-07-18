@@ -1,25 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.913",
-  "filesystem_version": "1.0.0.840",
-  "notes": "Rozdzielono radiowe sterowanie nasyceniem i jasnością oraz przeniesiono prędkości efektów pod W=12.",
+  "firmware_version": "1.0.0.915",
+  "filesystem_version": "1.0.0.841",
+  "notes": "Naprawiono trwały zapis konfiguracji scen oraz zabezpieczono pliki scen przed przerwaniem zapisu przez restart.",
   "changes": [
-    "Komenda W=2 zmienia teraz wyłącznie nasycenie z pola R i zachowuje jasność.",
-    "Komenda W=3 zmienia teraz wyłącznie jasność z pola R, w tym poprawnie obsługuje wartość 0%, i zachowuje nasycenie.",
-    "Sterowanie prędkościami startu, pracy i zatrzymania efektów przeniesiono bez warstwy zgodności z W=3 pod W=12.",
-    "Dla W=2 i W=3 pole B wybiera wszystkie sceny wartością 0 albo pojedynczą scenę z zakresu 1–24."
+    "Portal potwierdza zapis scen dopiero po trwałym zapisaniu i zweryfikowaniu pliku /scenes.json.",
+    "Usunięto okno czasowe, w którym szybki restart mógł przywrócić starszy tryb koloru lub inne ustawienia sceny.",
+    "Dodano weryfikację zawartości pliku po zapisie oraz kopię awaryjną przy atomowej podmianie konfiguracji.",
+    "Po przerwanym zapisie firmware automatycznie odzyskuje ostatnią poprawną konfigurację scen i stan runtime."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1724240,
-    "md5": "7C94BED9360941A065DE77F111993037"
+    "size": 1722192,
+    "md5": "F26036915B593CF294F4F795D7A93BB0"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "0C355B13E2E8C546986B1B3BEF6AC676"
+    "md5": "3173C2E2AB116AA773EEEF5EE3DFADB5"
   },
-  "build_time": "2026-07-17T14:24:06+01:00",
+  "build_time": "2026-07-18T15:53:45+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
