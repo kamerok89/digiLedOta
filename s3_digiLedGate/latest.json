@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Add comfortable bottom spacing below the Wi-Fi rescan action in the discovered networks modal.",
+    "notes":  "Constrain the Wi-Fi results list to its own scroll area and reserve a fixed, comfortably padded footer for the rescan action.",
     "firmware":  {
-                     "version":  "0.1.152",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.152.bin",
-                     "md5":  "aa5f1403f7faa4ef3effe7899139d333",
-                     "size":  1234176
+                     "version":  "0.1.153",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.153.bin",
+                     "md5":  "f18b6c27bc2ad1b2c8a8fd8235d340b0",
+                     "size":  1234336
                  }
 }
