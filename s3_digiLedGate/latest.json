@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Hide HTTP Gate configuration while disabled, replace per-row saves with one main Save action, and collapse manual module entry behind a plus button.",
+    "notes":  "Align the manual Add module action with its input fields and place the save confirmation beside the main Save button.",
     "firmware":  {
-                     "version":  "0.1.146",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.146.bin",
-                     "md5":  "84afa576323bff41e225966c76257578",
-                     "size":  1210736
+                     "version":  "0.1.147",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.147.bin",
+                     "md5":  "46abe928f01f7aff2e0f5c2447087462",
+                     "size":  1210912
                  }
 }
