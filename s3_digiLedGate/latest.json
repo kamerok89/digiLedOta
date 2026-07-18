@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Replace the device Menu text chevron with a crisp framed SVG icon and animated open-state rotation.",
+    "notes":  "Add comfortable bottom spacing below the Wi-Fi rescan action in the discovered networks modal.",
     "firmware":  {
-                     "version":  "0.1.151",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.151.bin",
-                     "md5":  "252ac9a6be399e023392dc5c376c9608",
+                     "version":  "0.1.152",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.152.bin",
+                     "md5":  "aa5f1403f7faa4ef3effe7899139d333",
                      "size":  1234176
                  }
 }
