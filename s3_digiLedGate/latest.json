@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Add a persistent HTTP Gate configuration tab with Wi-Fi readiness status, enable switch and editable module table for IP, optional token and logical address.",
+    "notes":  "Add digiLed module discovery to HTTP Gate with selectable IP range, live scan progress, detected firmware details and batch module import.",
     "firmware":  {
-                     "version":  "0.1.138",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.138.bin",
-                     "md5":  "cf1bff8cf4c5c75582f058483e7b73f2",
-                     "size":  1181632
+                     "version":  "0.1.139",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.139.bin",
+                     "md5":  "28718e1871d265e8cd6264812cf4bef8",
+                     "size":  1202816
                  }
 }
