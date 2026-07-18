@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Apply the TF-BUS card color system across the entire portal, including navigation, controls, Wi-Fi, OTA and modal views.",
+    "notes":  "Redesign Wi-Fi management with Polish status labels, confirmed disconnect and forget actions, network scan modal, password entry and DHCP or static IP configuration.",
     "firmware":  {
-                     "version":  "0.1.129",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.129.bin",
-                     "md5":  "73a20c17c24c9198137a899a740c880f",
-                     "size":  1124560
+                     "version":  "0.1.130",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.130.bin",
+                     "md5":  "e8b01b287f2dfea1189cc6615946f08d",
+                     "size":  1140464
                  }
 }
