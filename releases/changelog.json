@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.845",
+      "firmware_version": "1.0.0.917",
+      "filesystem_version": "1.0.0.845",
+      "date": "2026-07-18T18:28:30+01:00",
+      "title": "Dokumentacja wyszukiwania urządzenia",
+      "changes": [
+        "Dodano GET /api/search/ do sekcji Szybki start w /api/help.",
+        "Opis wyjaśnia publiczny charakter endpointu oraz brak wymogu podawania tokena.",
+        "Udokumentowano pola ok, token i version wraz z wartościami required/not.",
+        "Dodano przykładową odpowiedź JSON i odświeżono obraz LittleFS portalu."
+      ]
+    },
+    {
       "version": "1.0.0.917",
       "firmware_version": "1.0.0.917",
       "filesystem_version": "1.0.0.843",

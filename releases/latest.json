@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.917",
-  "filesystem_version": "1.0.0.843",
-  "notes": "Dodano publiczny endpoint wyszukiwania urządzenia dla integracji HTTP API.",
+  "filesystem_version": "1.0.0.845",
+  "notes": "Dodano opis endpointu wyszukiwania urządzenia do dokumentacji API.",
   "changes": [
-    "Dodano publiczne zapytanie GET /api/search/ oraz zgodny wariant bez końcowego ukośnika.",
-    "Odpowiedź zawiera status ok, informację required/not o wymaganiu tokenu oraz aktualną wersję firmware.",
-    "Endpoint wyszukiwania działa również wtedy, gdy portal jest chroniony logowaniem.",
-    "Informacja o wymaganiu tokenu jest zgodna z aktualnym trybem zewnętrznego API."
+    "Dodano GET /api/search/ do sekcji Szybki start w /api/help.",
+    "Opis wyjaśnia publiczny charakter endpointu oraz brak wymogu podawania tokena.",
+    "Udokumentowano pola ok, token i version wraz z wartościami required/not.",
+    "Dodano przykładową odpowiedź JSON i odświeżono obraz LittleFS portalu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -18,8 +18,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "BF256A7B587B0E796CB604B0F3581FF9"
+    "md5": "54AC91C435D1EAB00326471DEBABA29B"
   },
-  "build_time": "2026-07-18T18:23:07+01:00",
+  "build_time": "2026-07-18T18:28:30+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
