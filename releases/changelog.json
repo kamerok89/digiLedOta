@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.916",
+      "firmware_version": "1.0.0.916",
+      "filesystem_version": "1.0.0.842",
+      "date": "2026-07-18T16:07:10+01:00",
+      "title": "Automatyczne obcinanie zakresów scen",
+      "changes": [
+        "Po zmniejszeniu liczby LED każda scena zachowuje początek zakresu i ma skracany koniec do ostatniej dostępnej diody.",
+        "Scena znajdująca się w całości poza nowym paskiem jest przenoszona na ostatnią dostępną diodę i otrzymuje długość 1 LED.",
+        "Portal normalizuje zakresy przed wysłaniem konfiguracji, dzięki czemu zapis nie jest blokowany komunikatem o przekroczeniu zakresu.",
+        "Firmware ponownie zabezpiecza zakresy podczas zapisu, wczytywania pliku i zmiany liczby LED przez API."
+      ]
+    },
+    {
       "version": "1.0.0.915",
       "firmware_version": "1.0.0.915",
       "filesystem_version": "1.0.0.841",

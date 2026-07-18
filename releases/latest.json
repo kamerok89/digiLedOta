@@ -1,25 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.915",
-  "filesystem_version": "1.0.0.841",
-  "notes": "Naprawiono trwały zapis konfiguracji scen oraz zabezpieczono pliki scen przed przerwaniem zapisu przez restart.",
+  "firmware_version": "1.0.0.916",
+  "filesystem_version": "1.0.0.842",
+  "notes": "Zakresy scen są automatycznie obcinane po zmniejszeniu skonfigurowanej liczby diod LED.",
   "changes": [
-    "Portal potwierdza zapis scen dopiero po trwałym zapisaniu i zweryfikowaniu pliku /scenes.json.",
-    "Usunięto okno czasowe, w którym szybki restart mógł przywrócić starszy tryb koloru lub inne ustawienia sceny.",
-    "Dodano weryfikację zawartości pliku po zapisie oraz kopię awaryjną przy atomowej podmianie konfiguracji.",
-    "Po przerwanym zapisie firmware automatycznie odzyskuje ostatnią poprawną konfigurację scen i stan runtime."
+    "Po zmniejszeniu liczby LED każda scena zachowuje początek zakresu i ma skracany koniec do ostatniej dostępnej diody.",
+    "Scena znajdująca się w całości poza nowym paskiem jest przenoszona na ostatnią dostępną diodę i otrzymuje długość 1 LED.",
+    "Portal normalizuje zakresy przed wysłaniem konfiguracji, dzięki czemu zapis nie jest blokowany komunikatem o przekroczeniu zakresu.",
+    "Firmware ponownie zabezpiecza zakresy podczas zapisu, wczytywania pliku i zmiany liczby LED przez API."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1722192,
-    "md5": "F26036915B593CF294F4F795D7A93BB0"
+    "size": 1722336,
+    "md5": "454A0DF8D62570DAA761EE13BADA8344"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "3173C2E2AB116AA773EEEF5EE3DFADB5"
+    "md5": "4BA7D680D05BC28B777EE4CB18EB6B35"
   },
-  "build_time": "2026-07-18T15:53:45+01:00",
+  "build_time": "2026-07-18T16:07:10+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
