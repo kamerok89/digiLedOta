@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.917",
+      "firmware_version": "1.0.0.917",
+      "filesystem_version": "1.0.0.843",
+      "date": "2026-07-18T18:23:07+01:00",
+      "title": "Wyszukiwanie urządzenia przez HTTP API",
+      "changes": [
+        "Dodano publiczne zapytanie GET /api/search/ oraz zgodny wariant bez końcowego ukośnika.",
+        "Odpowiedź zawiera status ok, informację required/not o wymaganiu tokenu oraz aktualną wersję firmware.",
+        "Endpoint wyszukiwania działa również wtedy, gdy portal jest chroniony logowaniem.",
+        "Informacja o wymaganiu tokenu jest zgodna z aktualnym trybem zewnętrznego API."
+      ]
+    },
+    {
       "version": "1.0.0.916",
       "firmware_version": "1.0.0.916",
       "filesystem_version": "1.0.0.842",

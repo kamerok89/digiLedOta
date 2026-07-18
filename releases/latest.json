@@ -1,25 +1,25 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.916",
-  "filesystem_version": "1.0.0.842",
-  "notes": "Zakresy scen są automatycznie obcinane po zmniejszeniu skonfigurowanej liczby diod LED.",
+  "firmware_version": "1.0.0.917",
+  "filesystem_version": "1.0.0.843",
+  "notes": "Dodano publiczny endpoint wyszukiwania urządzenia dla integracji HTTP API.",
   "changes": [
-    "Po zmniejszeniu liczby LED każda scena zachowuje początek zakresu i ma skracany koniec do ostatniej dostępnej diody.",
-    "Scena znajdująca się w całości poza nowym paskiem jest przenoszona na ostatnią dostępną diodę i otrzymuje długość 1 LED.",
-    "Portal normalizuje zakresy przed wysłaniem konfiguracji, dzięki czemu zapis nie jest blokowany komunikatem o przekroczeniu zakresu.",
-    "Firmware ponownie zabezpiecza zakresy podczas zapisu, wczytywania pliku i zmiany liczby LED przez API."
+    "Dodano publiczne zapytanie GET /api/search/ oraz zgodny wariant bez końcowego ukośnika.",
+    "Odpowiedź zawiera status ok, informację required/not o wymaganiu tokenu oraz aktualną wersję firmware.",
+    "Endpoint wyszukiwania działa również wtedy, gdy portal jest chroniony logowaniem.",
+    "Informacja o wymaganiu tokenu jest zgodna z aktualnym trybem zewnętrznego API."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1722336,
-    "md5": "454A0DF8D62570DAA761EE13BADA8344"
+    "size": 1722832,
+    "md5": "381F145237B7C222847DAEF823978FBC"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "4BA7D680D05BC28B777EE4CB18EB6B35"
+    "md5": "BF256A7B587B0E796CB604B0F3581FF9"
   },
-  "build_time": "2026-07-18T16:07:10+01:00",
+  "build_time": "2026-07-18T18:23:07+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
