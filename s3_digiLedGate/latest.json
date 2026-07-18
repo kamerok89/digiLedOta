@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Replace the Updates header icon with a refined firmware download symbol, new-version accent and subtle hover treatment.",
+    "notes":  "Replace the device Menu text chevron with a crisp framed SVG icon and animated open-state rotation.",
     "firmware":  {
-                     "version":  "0.1.150",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.150.bin",
-                     "md5":  "0f23ed7fbbe1dc13e15aefe41ba4e5fd",
-                     "size":  1233600
+                     "version":  "0.1.151",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.151.bin",
+                     "md5":  "252ac9a6be399e023392dc5c376c9608",
+                     "size":  1234176
                  }
 }
