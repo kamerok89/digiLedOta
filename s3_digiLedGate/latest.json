@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Add an Update-page device menu with restart, factory reset, JSON settings import and complete settings export actions.",
+    "notes":  "Replace the Updates header icon with a refined firmware download symbol, new-version accent and subtle hover treatment.",
     "firmware":  {
-                     "version":  "0.1.149",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.149.bin",
-                     "md5":  "85885793b6a3e918a7a5f7f726bcacf2",
-                     "size":  1232592
+                     "version":  "0.1.150",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.150.bin",
+                     "md5":  "0f23ed7fbbe1dc13e15aefe41ba4e5fd",
+                     "size":  1233600
                  }
 }
