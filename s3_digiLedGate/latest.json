@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Stabilize the TF-BUS module card height with fixed content rows and move profile warnings to a floating notification to prevent layout jumps.",
+    "notes":  "Add a persistent HTTP Gate configuration tab with Wi-Fi readiness status, enable switch and editable module table for IP, optional token and logical address.",
     "firmware":  {
-                     "version":  "0.1.137",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.137.bin",
-                     "md5":  "237f45d62f68cbc1457dd32cb2c268a8",
-                     "size":  1161712
+                     "version":  "0.1.138",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.138.bin",
+                     "md5":  "cf1bff8cf4c5c75582f058483e7b73f2",
+                     "size":  1181632
                  }
 }
