@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Fix OTA manifest parsing, update checks, browser cache and full UI reload after firmware restart.",
+    "notes":  "Polish OTA interface text and replace the placeholder R badge with a clear update icon.",
     "firmware":  {
-                     "version":  "0.1.125",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.125.bin",
-                     "md5":  "beb612444c1f38c3910cbdaeb7231d74",
-                     "size":  1121280
+                     "version":  "0.1.126",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.126.bin",
+                     "md5":  "9ef70bffca72413dcdbb50aa194f952e",
+                     "size":  1121728
                  }
 }
