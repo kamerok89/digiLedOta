@@ -1,11 +1,11 @@
 ﻿{
     "product":  "s3_digiLedGate",
     "channel":  "stable",
-    "notes":  "Fix HTTP Gate discovery when the STA network overlaps the device SoftAP subnet, and add per-host scan diagnostics.",
+    "notes":  "Refine the HTTP Gate discovery modal with live scanned IP, compact module results, token lock state and a stable action footer.",
     "firmware":  {
-                     "version":  "0.1.140",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.140.bin",
-                     "md5":  "c99b781c0e9f90ae779cb4f5f8ca74da",
-                     "size":  1205280
+                     "version":  "0.1.141",
+                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.141.bin",
+                     "md5":  "eb3b5e7f25eebcee6a4998711b7dc047",
+                     "size":  1206832
                  }
 }
