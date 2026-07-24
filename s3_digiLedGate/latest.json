@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.169",
+  "version": "0.1.170",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Naprawiono reset watchdoga podczas finalizacji wielomegabajtowego pakietu DGU.",
+  "notes": "Wydanie testowe pełnej aktualizacji firmware i portalu z pakietu DGU.",
   "firmware": {
-    "version": "0.1.169",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.169.bin",
-    "md5": "64ec476d754e0e69d48b5e0db8877d35",
-    "sha256": "2af9e32d96f37962f5910f55893a2c941341b83677774afcf38c1596e34c383c",
+    "version": "0.1.170",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.170.bin",
+    "md5": "eb33a5e1045201877625a09af7e5afea",
+    "sha256": "360e7102531c92d4bd73661988d01e4e20fb60a972dfa33aa8abdc0e7c086369",
     "size": 1110896
   },
   "littlefs": {
-    "version": "0.1.169",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.169.bin",
-    "md5": "9f38a2a959efd0e681b02e93e2b65d25",
-    "sha256": "07aa190d72cd9ac157c040ef0faf3406e2f5bf6805663d50e3bf0bf02ccc0839",
+    "version": "0.1.170",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.170.bin",
+    "md5": "46a15c767966b7fed1b88cb2b4b9ec3b",
+    "sha256": "efaa9d7074554721303cf9290e9e70d4a34a11542c275f7be1586357ae68e710",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.169",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.169.dgu",
-    "md5": "f37d5ad326941081737a3de5208a46ab",
-    "sha256": "00103cf9a7bd6a46d30835df12bac68db9329052d75a00c1bf45d8098ba10d5e",
+    "version": "0.1.170",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.170.dgu",
+    "md5": "f4fbd08da81b9d5510fb7cff513f021d",
+    "sha256": "d40677245f82277af8a1d81a634cbe000a6c4be2c783a21375a7ac67184f9153",
     "size": 5305642
   }
 }
