@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.163",
+  "version": "0.1.164",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Aktualizacja online pobiera teraz pakiet DGU i aktualizuje jednocześnie firmware oraz portal LittleFS. Dodano pełną weryfikację SHA-256 i wersjonowanie portalu.",
+  "notes": "Wydanie testowe mechanizmu aktualizacji online pełnym pakietem DGU.",
   "firmware": {
-    "version": "0.1.163",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.163.bin",
-    "md5": "9cf32e88106a4bd68d219abbac680856",
-    "sha256": "b7362ae9b1e2211d73f3cf18c4a3b4315059dc6266d9427bcf9ce54ca5b71f6b",
+    "version": "0.1.164",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.164.bin",
+    "md5": "cdc951e7c0e1042c9b6324c072b28fac",
+    "sha256": "013ecaa11d28ad3b799ca7f3b92295844c0b7902ee445d5093e7cb0372a13220",
     "size": 1115072
   },
   "littlefs": {
-    "version": "0.1.163",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.163.bin",
-    "md5": "10eb53464ab9b384d81750da98d9f114",
-    "sha256": "27986b00a1ceb635447f8a08d68a30ad2e6b55e0687c1f5a97e83e202b1f4d2a",
+    "version": "0.1.164",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.164.bin",
+    "md5": "46c86c3e32e9d3c32a830d8deb342c9f",
+    "sha256": "aaed8f3f058e731eca3cacf1706ac7bc9f290b3de37fe06c9dbbaf760b63cc62",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.163",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.163.dgu",
-    "md5": "c0fc6546c753ce8bd32e198dd39bc366",
-    "sha256": "1ac663b3e4641d9d2998d8e47db04566313752f0c8f67fc00665594ebd6f15be",
+    "version": "0.1.164",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.164.dgu",
+    "md5": "4c471ff2c2f0fdbf826776c0b528cdb3",
+    "sha256": "412ab4ac7ee7b0fbfd9498882af72ce1606cb0e2203dc67fa63de88921088eaf",
     "size": 5309818
   }
 }
