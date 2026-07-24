@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.176",
+  "version": "0.1.177",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Dodano statyczną mapę zajętości firmware i LittleFS oraz wyłączono animację ikony.",
+  "notes": "Wydanie testowe mapy zajętości pamięci i aktualizacji online.",
   "firmware": {
-    "version": "0.1.176",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.176.bin",
-    "md5": "fea6cfce689656f931c23d91569419f0",
-    "sha256": "e9e86f47ff7429056257d3b059ec6fb156d5a466e20db5b2b10106e538c8c654",
+    "version": "0.1.177",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.177.bin",
+    "md5": "f467b61210b2b31702bc1c0b25e168b5",
+    "sha256": "a9fee1d7f77c06567e4dceadfca2ff1e99628ddea2cccf0c168416dd42e1a064",
     "size": 1111568
   },
   "littlefs": {
-    "version": "0.1.176",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.176.bin",
-    "md5": "cf7178ae3da009eb765b8653c8d59a17",
-    "sha256": "c80dd6efa261acf819f4d3005f725d76e0b983ff02668611604f09e6b8e8430f",
+    "version": "0.1.177",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.177.bin",
+    "md5": "c58fc52c04f745212e4e91577e235a2a",
+    "sha256": "9168cd5d5fce26ff8f1fc46c0a5b1d5e0ada55b3b73167d0cb20b7652b0e853c",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.176",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.176.dgu",
-    "md5": "784269a145924d001288ab5bab348ec7",
-    "sha256": "2a6c5abb6cc536191029e613f5c621d3bbe964be4899fe4620c88c0898e09ebf",
+    "version": "0.1.177",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.177.dgu",
+    "md5": "59333c7df6f262352e58757ce6822e94",
+    "sha256": "3e8c37291c101ec4c4bd9cb35e8c1e291b6f72b70bac97fd77d0f9c3ceaa9ad2",
     "size": 5306314
   }
 }
