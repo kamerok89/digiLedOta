@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.180",
+  "version": "0.1.181",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Dodano stylowany modal potwierdzenia restartu oraz osobny stan oczekiwania na ponowne połączenie.",
+  "notes": "Ustabilizowano wysokość kafelka pamięci we wszystkich trybach aktualizacji.",
   "firmware": {
-    "version": "0.1.180",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.180.bin",
-    "md5": "677ba5e69773396acc15848272b3bace",
-    "sha256": "8fbac86419a9cae480dc63e76ec3f7cb5eec9aa44fd78acb932c5d21ac3530b6",
+    "version": "0.1.181",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.181.bin",
+    "md5": "88a5abd0b33526282356bfcb290816b1",
+    "sha256": "4d14c15faf3f72e9fe683a0a182f6fd8bbd90ba893b63c03c6e00a7895210313",
     "size": 1111568
   },
   "littlefs": {
-    "version": "0.1.180",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.180.bin",
-    "md5": "0b38c7429cade5ceaa268fc1da17892a",
-    "sha256": "8b41e8e8f96e0f3a048404b662315945c0ef0b404e847cb2db1be7f1a06c1ee7",
+    "version": "0.1.181",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.181.bin",
+    "md5": "2d43beeda2c63e007d3b48003a2d0c7d",
+    "sha256": "d9f6f29586e1b8f551e5ccd220b4d119e14f946883767cde7f65a2d5e5e19c6a",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.180",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.180.dgu",
-    "md5": "4b927ee90f4ff914c04924489c31e3be",
-    "sha256": "73c0a4b3ef81216c8b592474e99efd899e3b63af81a671be3be5f97fcc6cb8a6",
+    "version": "0.1.181",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.181.dgu",
+    "md5": "20913a860d3ff4b19f0ecf907ddd4eb6",
+    "sha256": "c4850d98739baa4baafd3709a1743f48f5a7266c5fbce8e223ffcac32b8886bf",
     "size": 5306314
   }
 }
