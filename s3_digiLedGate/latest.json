@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.170",
+  "version": "0.1.171",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Wydanie testowe pełnej aktualizacji firmware i portalu z pakietu DGU.",
+  "notes": "Stabilna aktualizacja DGU rozdziela zapis portalu i firmware na dwa zweryfikowane etapy.",
   "firmware": {
-    "version": "0.1.170",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.170.bin",
-    "md5": "eb33a5e1045201877625a09af7e5afea",
-    "sha256": "360e7102531c92d4bd73661988d01e4e20fb60a972dfa33aa8abdc0e7c086369",
-    "size": 1110896
+    "version": "0.1.171",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.171.bin",
+    "md5": "1e2ab2b61c2ef9c310ec88f99a7ee459",
+    "sha256": "a146a2442c2b8f293957d39d9112489cb0b0bf56b7f9f9663db06dd80b2d8b85",
+    "size": 1111120
   },
   "littlefs": {
-    "version": "0.1.170",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.170.bin",
-    "md5": "46a15c767966b7fed1b88cb2b4b9ec3b",
-    "sha256": "efaa9d7074554721303cf9290e9e70d4a34a11542c275f7be1586357ae68e710",
+    "version": "0.1.171",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.171.bin",
+    "md5": "80b792adad207e34d2d2402b8e56bf64",
+    "sha256": "03f0ee01646a830db2a8e10a97ed1a5d99a1610e9316d8ab6d9ff159c9959f1f",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.170",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.170.dgu",
-    "md5": "f4fbd08da81b9d5510fb7cff513f021d",
-    "sha256": "d40677245f82277af8a1d81a634cbe000a6c4be2c783a21375a7ac67184f9153",
-    "size": 5305642
+    "version": "0.1.171",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.171.dgu",
+    "md5": "8f903d2c980869dba27dba238cb8fedf",
+    "sha256": "07b113d5141b54df19bd432f39acf26b6569161cad15d3a9bd161b3af9a21ee1",
+    "size": 5305866
   }
 }
