@@ -1,11 +1,29 @@
-﻿{
-    "product":  "s3_digiLedGate",
-    "channel":  "stable",
-    "notes":  "Fix the Wi-Fi rescan button height so it remains fully visible inside the reserved modal footer.",
-    "firmware":  {
-                     "version":  "0.1.154",
-                     "url":  "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.154.bin",
-                     "md5":  "043380e9f9fb59347706e041fb921707",
-                     "size":  1234384
-                 }
+{
+  "product": "s3_digiLedGate",
+  "channel": "stable",
+  "version": "0.1.155",
+  "hardware": "SEEED_XIAO_ESP32S3_8MB",
+  "partition_scheme": "ota_littlefs_8mb",
+  "notes": "Portal przeniesiony do LittleFS. Dodano wspólną aktualizację firmware, portalu LittleFS i pakietów DGU oraz tryb awaryjny /emergency.",
+  "firmware": {
+    "version": "0.1.155",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.155.bin",
+    "md5": "61f633e3d6d4815896d12b67a6812d2e",
+    "sha256": "8dc5a8b15301b6322241f11a495010ae2f4cbdb384f3f1aa97c4dc9e759510b5",
+    "size": 1105792
+  },
+  "littlefs": {
+    "version": "0.1.155",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.155.bin",
+    "md5": "0890d0749079c7a4201f4f955ea28ecb",
+    "sha256": "3441a58b88b3949ee6f092c5dceb224032217128aebfd2dd9d1227aef4961e6a",
+    "size": 4194304
+  },
+  "dgu": {
+    "version": "0.1.155",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.155.dgu",
+    "md5": "45c72d085dc0ba43d313b5533c08a04f",
+    "sha256": "de3a3afed598eabc2dd3b4b54caa6e153378c6069ae32288f1ec579b8ae81129",
+    "size": 5300538
+  }
 }
