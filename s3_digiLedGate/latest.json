@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.159",
+  "version": "0.1.160",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Przycisk aktualizacji online pojawia się wyłącznie jako „Aktualizuj urządzenie” po wykryciu nowej wersji. Wyłączono cache zasobów portalu.",
+  "notes": "Usunięto statyczny przycisk aktualizacji online. Przycisk „Aktualizuj urządzenie” jest tworzony dopiero po wykryciu nowszej wersji.",
   "firmware": {
-    "version": "0.1.159",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.159.bin",
-    "md5": "32b7bbd157caf8ed534aa2156ca942f5",
-    "sha256": "c4734fb723bb29cddaf2b25952eabae0bd77333af25a77de6cfc621482c495ea",
+    "version": "0.1.160",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.160.bin",
+    "md5": "f898facf96414673260f1937e37862fd",
+    "sha256": "9b4795f049ffa5218d02639ef8137706391f4ef17c39fc238d833b8b0cfaced3",
     "size": 1106224
   },
   "littlefs": {
-    "version": "0.1.159",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.159.bin",
-    "md5": "cd2e84e3d14bb67dc7caf9b195ec9414",
-    "sha256": "7e230a8fe14a4996954190e40b85c4d77f765771a5565fce55deeae493a25d73",
+    "version": "0.1.160",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.160.bin",
+    "md5": "6cfc981020d743e40972ff2d5fc2f1f6",
+    "sha256": "f4cc585f09a24f75bd5a33c0e359cf30e1fbdfc5d88d01c3eae1494c6f1254c9",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.159",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.159.dgu",
-    "md5": "c1745cd958df560918d1e81c17f676fc",
-    "sha256": "e3beae605fb07cf7ff4da68d2350f7ed9828eee4d6ffb423ad178ecbdc69a654",
+    "version": "0.1.160",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.160.dgu",
+    "md5": "d5868b07219bea2fdce86194dc9c888f",
+    "sha256": "174fffcc18a4ee3b83c185871a572b48baca71a41eb9ec0b08a177e628586654",
     "size": 5300970
   }
 }
