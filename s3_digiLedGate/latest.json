@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.171",
+  "version": "0.1.172",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Stabilna aktualizacja DGU rozdziela zapis portalu i firmware na dwa zweryfikowane etapy.",
+  "notes": "Wydanie końcowego testu aktualizacji online z rozdzielonym zapisem LittleFS i firmware.",
   "firmware": {
-    "version": "0.1.171",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.171.bin",
-    "md5": "1e2ab2b61c2ef9c310ec88f99a7ee459",
-    "sha256": "a146a2442c2b8f293957d39d9112489cb0b0bf56b7f9f9663db06dd80b2d8b85",
+    "version": "0.1.172",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.172.bin",
+    "md5": "0780da909d8305c1ce6dc0413f7ea2f6",
+    "sha256": "230754bad294b189c98916795545242659639bc85594641dfee2613ae006b0cd",
     "size": 1111120
   },
   "littlefs": {
-    "version": "0.1.171",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.171.bin",
-    "md5": "80b792adad207e34d2d2402b8e56bf64",
-    "sha256": "03f0ee01646a830db2a8e10a97ed1a5d99a1610e9316d8ab6d9ff159c9959f1f",
+    "version": "0.1.172",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.172.bin",
+    "md5": "6dfb0539605ad3a11a45748e5eb7b504",
+    "sha256": "12d3b84222203131f5ecd4e5c23adf743acaa9c044bc6a851be9a0f976b4ca18",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.171",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.171.dgu",
-    "md5": "8f903d2c980869dba27dba238cb8fedf",
-    "sha256": "07b113d5141b54df19bd432f39acf26b6569161cad15d3a9bd161b3af9a21ee1",
+    "version": "0.1.172",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.172.dgu",
+    "md5": "1ec0427100e252dfc04bee552427d958",
+    "sha256": "e426c5bae4cd70d81839c1baca739ba448a380b145e81c0724df24951c6577b0",
     "size": 5305866
   }
 }
