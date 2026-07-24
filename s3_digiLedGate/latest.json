@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.157",
+  "version": "0.1.158",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Wersja testowa 0.1.157 do weryfikacji poprawionej aktualizacji pakietem DGU.",
+  "notes": "Uproszczono kafelek aktualizacji online, usunięto zbędne komunikaty i ostrzeżenie przeglądarki podczas restartu.",
   "firmware": {
-    "version": "0.1.157",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.157.bin",
-    "md5": "bc1b13c6168cd9f825a5d2a7abb93036",
-    "sha256": "dc940020206ceb8c8432ddbf1ac43d2e135f60b0868cff3780e93d04ba4ae3d5",
+    "version": "0.1.158",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.158.bin",
+    "md5": "9b012769682233049e48b77d3a6c9184",
+    "sha256": "b8d91bada0dc8c9d2c9b0ad573c65c579162de2e95fc31b50c9c5879248a88f7",
     "size": 1106320
   },
   "littlefs": {
-    "version": "0.1.157",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.157.bin",
-    "md5": "5518177ffb6687c5a77e962b8aff4e3b",
-    "sha256": "4ce901fc8e44a009f308d2f905a8360f447049339ca605bc255c62113ba1ad32",
+    "version": "0.1.158",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.158.bin",
+    "md5": "5fbf238fdaa28470d387d93b011bb3d4",
+    "sha256": "5ebab58d3ea93b09180153d35cd7bd936686f348da000b17a3188d583c58440e",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.157",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.157.dgu",
-    "md5": "b51979eb34563f560d82d0519ee99853",
-    "sha256": "662d3d235974c963c74b62e6dce31a794e225bb82bc922e7bdede3693ae6ec7b",
+    "version": "0.1.158",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.158.dgu",
+    "md5": "e6f199dfad9a07142545b59c2e8f4b7c",
+    "sha256": "2e6e27ba7fd3ac5522442f43f10edc450578d9b3057cb57efc209e5850dce9c6",
     "size": 5301066
   }
 }
