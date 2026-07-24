@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.166",
+  "version": "0.1.167",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Wydanie diagnostyczne do testów aktualizacji online DGU.",
+  "notes": "Naprawiono reset urządzenia podczas pobierania pakietu DGU z GitHuba.",
   "firmware": {
-    "version": "0.1.166",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.166.bin",
-    "md5": "debf802a8c276832d15b943ab6d9ff64",
-    "sha256": "d6edd2edab270974b3c6242e84df2efd87ae2e44af791a436e70ca3eb4a07554",
-    "size": 1115072
+    "version": "0.1.167",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.167.bin",
+    "md5": "8fd61692e0cde9a32940bdb55ceb2c53",
+    "sha256": "9b2df96e894bf94af0a412d471c7336d237965342cddbf24b27dbcf5952740a8",
+    "size": 1115232
   },
   "littlefs": {
-    "version": "0.1.166",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.166.bin",
-    "md5": "a2bf30ad49d6397ba0c73d0472cc5d99",
-    "sha256": "7e52bd0fc33038d4e3a70ff5d09a13979a5e22acc370c13b665effa6bd8c4016",
+    "version": "0.1.167",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.167.bin",
+    "md5": "e8d1f3178dcdae99dc61991df73f1a37",
+    "sha256": "23e9019009b66009ffe9822e1902dce2660bae0fdc9d92ae537e37b7e2e93b0f",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.166",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.166.dgu",
-    "md5": "c5e01789afaae6af51f754a6dbd8338e",
-    "sha256": "11a439c7bb559dd19bb5aabe5aed758b7585b83ebce6d365be2e443661febe10",
-    "size": 5309818
+    "version": "0.1.167",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.167.dgu",
+    "md5": "6b7bc2b976b10fbda15f629ffddfaaf0",
+    "sha256": "ec322f732459254483abc73a8f5add317b3190f6e5f35f9b623aec05637e7693",
+    "size": 5309978
   }
 }
