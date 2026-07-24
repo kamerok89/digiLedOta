@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.174",
+  "version": "0.1.175",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Dodano modal potwierdzenia oraz płynne przejścia etapów aktualizacji.",
+  "notes": "Modal potwierdzenia i ciągły pasek postępu odporny na cykliczne odświeżanie statusu.",
   "firmware": {
-    "version": "0.1.174",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.174.bin",
-    "md5": "c469d54bf0283453b3f1273b952c9eb4",
-    "sha256": "7d711546269eb952aa2b83cae8828078cfa19c7ec8a0f23fcf344de81ad52d4b",
+    "version": "0.1.175",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.175.bin",
+    "md5": "73b1309717840439a9223ba4c6b26e5e",
+    "sha256": "1a214cf2cafcd1138b44b9a540c71ddfcae57d16192af36bb2ebb1bda46c6ea4",
     "size": 1111120
   },
   "littlefs": {
-    "version": "0.1.174",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.174.bin",
-    "md5": "012b865f7f73e3f27f44e47a9c225494",
-    "sha256": "542f7c756655efd0a6b6cebe435dbbf24ec67791545567c52511248662cb7cf5",
+    "version": "0.1.175",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.175.bin",
+    "md5": "60acaf79aeb0e8afad826f0e33af8d77",
+    "sha256": "838d77e02f477305bcc1ba29c71b8bf2dc5c197d6a92027d60b1a7ef0031870a",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.174",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.174.dgu",
-    "md5": "59f6103579f00b8d93257934226e7945",
-    "sha256": "65dc7f369b01cca475b5f987a8a0b3c2a8528e17382a7ec92e76c21b5106a0f2",
+    "version": "0.1.175",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.175.dgu",
+    "md5": "d36e313f827c66474c89cf30ca67e842",
+    "sha256": "8d0e03fc29fcbe4212693c18de6ff76372ca222d88d46a023e0d85e5687d449c",
     "size": 5305866
   }
 }
