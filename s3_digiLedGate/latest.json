@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.187",
+  "version": "0.1.188",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Usunięto zbędny nagłówek z kafla aktualizacji, przywrócono ikonę fw.png, poprawiono czyszczenie nieaktualnej paczki i dodano lokalny modal listy zmian.",
+  "notes": "Przeniesiono przycisk Skanuj ponownie nad listę dostępnych sieci Wi-Fi.",
   "firmware": {
-    "version": "0.1.187",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.187.bin",
-    "md5": "bb8dcfbdd975ef609b61fc2715a388b4",
-    "sha256": "c9152dbe147479e8fa2b8f8bf8cd9f247fe74fdd9ede6a13b13599538f96794a",
+    "version": "0.1.188",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.188.bin",
+    "md5": "b19013c21ac87cbd3f62bb6181e76cad",
+    "sha256": "41ae670da51b19084819ca3be49522531be9bf891a9e860ea1d5fe46ea0eaafd",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.187",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.187.bin",
-    "md5": "a2eaa590fd1bfa4ab2b68a01032648af",
-    "sha256": "2aefd33d9753a8ebc427f4de0e0c66b2752f11a178d3fa3e99ad605c78f4d9d7",
+    "version": "0.1.188",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.188.bin",
+    "md5": "a19d3e98d34735652ece53f9de7be8cf",
+    "sha256": "b12572f0739ea525ee21bee55f081189bd33412909f2781fd58f938586f28604",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.187",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.187.dgu",
-    "md5": "9718e62dcd12b5615bb1507a470dcb17",
-    "sha256": "315ee2647043977ab2e97096696f4639f1b7e1ff3d94d5b4818b271f33920638",
+    "version": "0.1.188",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.188.dgu",
+    "md5": "991c12128d3fed03abe3a3fe98dfb1e5",
+    "sha256": "f380d0887f52dee69c4adb9b8358c49fe39299d0e406a10c535f448c5adce31c",
     "size": 5332458
   }
 }
