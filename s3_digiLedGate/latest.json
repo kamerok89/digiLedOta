@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.184",
+  "version": "0.1.185",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Ujednolicono ikony zapisu i punkty suwaków H/S/B oraz poprawiono początkową pozycję punktu koła hue.",
+  "notes": "Zastąpiono rysowane ikony zabezpieczeń Wi-Fi glifami lock i unlock z lokalnego fontu Segoe Icons.",
   "firmware": {
-    "version": "0.1.184",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.184.bin",
-    "md5": "cbcb6f3ec67d61739216e32819ef5b61",
-    "sha256": "684cf5d97887aa9cc1dbec49dfac9d1473104f63ab5ad6d4d6319b5805f2d4f5",
+    "version": "0.1.185",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.185.bin",
+    "md5": "7620bc732ed2450889df5eb46ca55ff7",
+    "sha256": "ed5cec30cad669935a8531fd4ac939739f5c0a40aacb70b516b26442493e81f1",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.184",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.184.bin",
-    "md5": "e80ed32473bcf126cfa7f016e0b9097d",
-    "sha256": "99ef0b702b2cddc7af389f5a5edeb1ff304803158125d05dc0d4ea9740caa07e",
+    "version": "0.1.185",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.185.bin",
+    "md5": "92c0932b20648e8c58a2501e6b614809",
+    "sha256": "1eadd1e4f46a6bd09828594c1a4f6e60f556f5ba858aa8ba105f8a6452d7c0c0",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.184",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.184.dgu",
-    "md5": "5533b3b83b504570aca3037264bdeaa6",
-    "sha256": "231ce33083cfeff1bebe4004d9f77c2c6df8c5e0579d5e7d45b58cfb3ef241c2",
+    "version": "0.1.185",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.185.dgu",
+    "md5": "989f605421d00b6b4e7de7876386e5f6",
+    "sha256": "aebb108c20bfc8e5a66b9c852d552598d504d1fb1703722721b74cbacee643be",
     "size": 5332458
   }
 }
