@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.186",
+  "version": "0.1.187",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Zmniejszono typografię całego portalu i modali, przebudowano lewostronne menu ustawień oraz ujednolicono ikony Segoe.",
+  "notes": "Usunięto zbędny nagłówek z kafla aktualizacji, przywrócono ikonę fw.png, poprawiono czyszczenie nieaktualnej paczki i dodano lokalny modal listy zmian.",
   "firmware": {
-    "version": "0.1.186",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.186.bin",
-    "md5": "3b131bdc3b0008870bd0c5d03872d885",
-    "sha256": "78b401fb5bab2b850b3f3566968817cb5102f1f7549ce7bb58073eb71740219c",
+    "version": "0.1.187",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.187.bin",
+    "md5": "bb8dcfbdd975ef609b61fc2715a388b4",
+    "sha256": "c9152dbe147479e8fa2b8f8bf8cd9f247fe74fdd9ede6a13b13599538f96794a",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.186",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.186.bin",
-    "md5": "f6ae989898c385b4f58869d7a24a5141",
-    "sha256": "1722b3af88497825e89e019b51417829fd0625c99499f3c12e59290872c5fd50",
+    "version": "0.1.187",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.187.bin",
+    "md5": "a2eaa590fd1bfa4ab2b68a01032648af",
+    "sha256": "2aefd33d9753a8ebc427f4de0e0c66b2752f11a178d3fa3e99ad605c78f4d9d7",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.186",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.186.dgu",
-    "md5": "3d57d8b044f2cd679b951b9a291ee9dc",
-    "sha256": "05fcc9c9f44c2ad89c8a4cc498040a041d5a182584d29954b566aa9dd8a394c3",
+    "version": "0.1.187",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.187.dgu",
+    "md5": "9718e62dcd12b5615bb1507a470dcb17",
+    "sha256": "315ee2647043977ab2e97096696f4639f1b7e1ff3d94d5b4818b271f33920638",
     "size": 5332458
   }
 }
