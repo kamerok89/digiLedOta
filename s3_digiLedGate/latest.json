@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.190",
+  "version": "0.1.191",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Dodano wybieralne profile emulatora LED RGBW DIN: FW 3.0.7 stabilna i FW 4.0.0 beta.",
+  "notes": "Komunikat wyboru profilu jest wyświetlany tymczasowo wewnątrz karty, w miejscu opisu stanu CLU.",
   "firmware": {
-    "version": "0.1.190",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.190.bin",
-    "md5": "ae6708724d2ddd91833a1f9db95f6436",
-    "sha256": "9a12ccdfdca8372375c03c55bb345b8c0b2d615693e0f94339c1d7f2d430ad01",
+    "version": "0.1.191",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.191.bin",
+    "md5": "14c5e1feb8c99128841ca050785e6082",
+    "sha256": "bd4ccdf57a86189ba8865815d44fd927e93ab8e12a493b1bff4e175dcc112554",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.190",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.190.bin",
-    "md5": "90c83f0215578b01744b59edaa84bb25",
-    "sha256": "b34f5e30bc9e0cc636a9dfc21f3783657812186a2ce1104587e5f58c682e8956",
+    "version": "0.1.191",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.191.bin",
+    "md5": "575c70c9f68fd265279e5616280de2b3",
+    "sha256": "a19acc467e5ff035a165abaede6270978a5903107192acda39a34a9c3309f5e8",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.190",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.190.dgu",
-    "md5": "be49d6f19c58c76bc64bb875d07097dd",
-    "sha256": "1310a2b82732a01af9a4fcafd803196119150deea6c739ed0ca7cccfeac9738b",
+    "version": "0.1.191",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.191.dgu",
+    "md5": "cfbb1caace6f27e86497a78447f2724a",
+    "sha256": "de63810cc86134fdd800f042661d161023cd6622f493c7fb37ab12b46d73100b",
     "size": 5332458
   }
 }
