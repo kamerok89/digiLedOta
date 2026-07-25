@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.195",
+  "version": "0.1.196",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Kłódka tokena pozostaje widoczna podczas edycji, ponowne kliknięcie zamyka pole, a całą sekcję bezpieczeństwa przesunięto bliżej adresu modułu.",
+  "notes": "Status „już dodano” jest wyświetlany w osobnej linii bezpośrednio pod wersją firmware modułu.",
   "firmware": {
-    "version": "0.1.195",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.195.bin",
-    "md5": "7613aee540f966d8322a0b446efb8e11",
-    "sha256": "4f8f550724c8547beb733e44b42e871d56d0ea9b3e0c8c0b8e6425284b88f653",
+    "version": "0.1.196",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.196.bin",
+    "md5": "71ef57578067f0d807b2510ea27083a6",
+    "sha256": "d9a6c74ff51fc0a1f19b45425a25a7041e40af83dfce4cb66c655c558d1c02e8",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.195",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.195.bin",
-    "md5": "3249c9db3ed8db92547f3ee32f527a30",
-    "sha256": "317180b3f8c23e2df788b2be89b1e965595d9eafc8047dab29fc92dbcbcaf2d2",
+    "version": "0.1.196",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.196.bin",
+    "md5": "42748d53e73d83a77079dc122ee68926",
+    "sha256": "4c2048e39d4c18e16186daf41b6a0ab294f9e4420d2ef6faf2e2524ca7f363e4",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.195",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.195.dgu",
-    "md5": "0d5d51f32577d82921fe44a0df3db32c",
-    "sha256": "5a3f444840d4249638eb901f7c9e68d6a0c740e4131af8d42a8385d07e3d413b",
+    "version": "0.1.196",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.196.dgu",
+    "md5": "fd1a96194a8475477ac2fb814d3c762e",
+    "sha256": "d2f6d56022adbe42ece5aa79e50ceebe4b41c9137f57ddfba1901aa85bfc8c38",
     "size": 5332458
   }
 }
