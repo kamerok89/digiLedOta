@@ -1,25 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.918",
+  "firmware_version": "1.0.0.922",
   "filesystem_version": "1.0.0.846",
-  "notes": "Poprawiono status endpointu wyszukiwania przy wyłączonym External API.",
+  "notes": "Dodano jednowierszową komendę terminala do konfiguracji Wi-Fi.",
   "changes": [
-    "GET /api/search/ zwraca ok: false, gdy External API jest wyłączone.",
-    "Przy wyłączonym API pole token ma wartość required, zgodnie z kontraktem integracji.",
-    "Dla włączonego API zachowano ok: true oraz rozróżnienie required/not zależne od trybu tokena.",
-    "Zaktualizowano przykłady w /api/help i odświeżono pakiety firmware oraz LittleFS."
+    "Dodano komendę wifi:ssid:password:0123, która łączy urządzenie z siecią i zapisuje poprawne dane jako domyślne.",
+    "Hasło Wi-Fi jest maskowane w historii i na wyjściu terminala.",
+    "Przy błędnych danych urządzenie przywraca poprzednią konfigurację i ponawia połączenie z dotychczasową siecią."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1722848,
-    "md5": "845A41EA758D3638D3496D3C75196D9A"
+    "size": 1723808,
+    "md5": "D78531610C125E77EAA103222CB16854"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "A81D89BD448820773172DFCE477F3316"
   },
-  "build_time": "2026-07-18T19:17:04+01:00",
+  "build_time": "2026-07-25T17:16:17+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

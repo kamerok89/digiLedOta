@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.922",
+      "firmware_version": "1.0.0.922",
+      "filesystem_version": "1.0.0.846",
+      "date": "2026-07-25T17:16:17+01:00",
+      "title": "Jednowierszowa konfiguracja Wi-Fi w terminalu",
+      "changes": [
+        "Dodano komendę wifi:ssid:password:0123, która łączy urządzenie z siecią i zapisuje poprawne dane jako domyślne.",
+        "Hasło Wi-Fi jest maskowane w historii i na wyjściu terminala.",
+        "Przy błędnych danych urządzenie przywraca poprzednią konfigurację i ponawia połączenie z dotychczasową siecią."
+      ]
+    },
+    {
       "version": "1.0.0.918",
       "firmware_version": "1.0.0.918",
       "filesystem_version": "1.0.0.846",
