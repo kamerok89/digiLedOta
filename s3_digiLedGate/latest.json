@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.191",
+  "version": "0.1.192",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Komunikat wyboru profilu jest wyświetlany tymczasowo wewnątrz karty, w miejscu opisu stanu CLU.",
+  "notes": "Ulepszono modal wyszukiwania modułów: własny checkbox, wspólna kolumna IP i firmware oraz edycja tokena z ikonami Segoe.",
   "firmware": {
-    "version": "0.1.191",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.191.bin",
-    "md5": "14c5e1feb8c99128841ca050785e6082",
-    "sha256": "bd4ccdf57a86189ba8865815d44fd927e93ab8e12a493b1bff4e175dcc112554",
+    "version": "0.1.192",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.192.bin",
+    "md5": "0958227b26ff32d859311d942cd25dc5",
+    "sha256": "b4ee977a5d61a6a9c972ed9589966e049a403b7620a1f048a20544da6e158b82",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.191",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.191.bin",
-    "md5": "575c70c9f68fd265279e5616280de2b3",
-    "sha256": "a19acc467e5ff035a165abaede6270978a5903107192acda39a34a9c3309f5e8",
+    "version": "0.1.192",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.192.bin",
+    "md5": "4d5e20b8ac966870eb7c266210e2c310",
+    "sha256": "9af9adbf8f2241155966008d3ee72e5f505feb38a8adc6559280d6352fa12b79",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.191",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.191.dgu",
-    "md5": "cfbb1caace6f27e86497a78447f2724a",
-    "sha256": "de63810cc86134fdd800f042661d161023cd6622f493c7fb37ab12b46d73100b",
+    "version": "0.1.192",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.192.dgu",
+    "md5": "57aa4632bf2c2185f9e0f0b2cc0c6497",
+    "sha256": "440222fe1e47cc4978da262abbb8846564004164fc5bf04e7dc517a40a4d05c3",
     "size": 5332458
   }
 }
