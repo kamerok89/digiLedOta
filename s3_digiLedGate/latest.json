@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.193",
+  "version": "0.1.194",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Wyrównano ikony stanów bezpieczeństwa w wynikach wyszukiwania modułów, niezależnie od trybu API i tokena.",
+  "notes": "Przesunięto i poszerzono statusy API w wynikach wyszukiwania oraz dodano zamianę statusu tokena na pole edycji po kliknięciu kłódki.",
   "firmware": {
-    "version": "0.1.193",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.193.bin",
-    "md5": "eb76414b2d8f1cd0857d89cb84712974",
-    "sha256": "700601fe41b8ac71f42260895b5667d626cf9f864e4235c283e1ce75df14e638",
+    "version": "0.1.194",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.194.bin",
+    "md5": "cbc0e7d178c19220c925bee5dae29932",
+    "sha256": "1d14ef64bd004b1c7715673195451d2ab4b38c46fe0792d805853f12ac0870b4",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.193",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.193.bin",
-    "md5": "db3b9d6cd5b722d63be32e372c213dcd",
-    "sha256": "e77e8b0c7554ae30fdf44da364c6c8b4a5e59c388b20535425647f75ad2022f5",
+    "version": "0.1.194",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.194.bin",
+    "md5": "4dd7edb504dc86e97e43e9c61bd4a60f",
+    "sha256": "40e7a8badf22f622bc5702ab77490c089bddbd8c4272b2616fccf77ddeb3c6b0",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.193",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.193.dgu",
-    "md5": "439c1c388c3dc9fd9c9635371e39fb4e",
-    "sha256": "d70d3225ad38242f1dfcfa283d9edbe88c94a36543829ab178fd603579fc5eea",
+    "version": "0.1.194",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.194.dgu",
+    "md5": "7fe25768777318ed9353d5ef9067f995",
+    "sha256": "0390cd61c1883102cc936fbf46182dd8aff7d0c57d8d778f7f8e92b4d7c1f4b5",
     "size": 5332458
   }
 }
