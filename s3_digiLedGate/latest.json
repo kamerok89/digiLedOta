@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.183",
+  "version": "0.1.184",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Naprawiono walidację ścieżek i listowanie plików w menedżerze LittleFS.",
+  "notes": "Ujednolicono ikony zapisu i punkty suwaków H/S/B oraz poprawiono początkową pozycję punktu koła hue.",
   "firmware": {
-    "version": "0.1.183",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.183.bin",
-    "md5": "d6aadf87d516e7a2a395af3898de46e4",
-    "sha256": "5bf6a104c816a50ebb22b8f0cc7b9732eb13364ff3a96e7b8b0812f13071d120",
+    "version": "0.1.184",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.184.bin",
+    "md5": "cbcb6f3ec67d61739216e32819ef5b61",
+    "sha256": "684cf5d97887aa9cc1dbec49dfac9d1473104f63ab5ad6d4d6319b5805f2d4f5",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.183",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.183.bin",
-    "md5": "e00cc1ff9229d13567d771baa8e85268",
-    "sha256": "edc11ed3ddf702b2d40d666be9e7b726ac87e245c84a21b7d25d7cb8c6cc8cb4",
+    "version": "0.1.184",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.184.bin",
+    "md5": "e80ed32473bcf126cfa7f016e0b9097d",
+    "sha256": "99ef0b702b2cddc7af389f5a5edeb1ff304803158125d05dc0d4ea9740caa07e",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.183",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.183.dgu",
-    "md5": "227855badc06503a076f1a5a678f6298",
-    "sha256": "1e4054174f9968d28e4de2dfaf764f787ab46926b5fa9c1a547cfaa2cb7ccf76",
+    "version": "0.1.184",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.184.dgu",
+    "md5": "5533b3b83b504570aca3037264bdeaa6",
+    "sha256": "231ce33083cfeff1bebe4004d9f77c2c6df8c5e0579d5e7d45b58cfb3ef241c2",
     "size": 5332458
   }
 }
