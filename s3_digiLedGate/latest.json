@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.185",
+  "version": "0.1.186",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Zastąpiono rysowane ikony zabezpieczeń Wi-Fi glifami lock i unlock z lokalnego fontu Segoe Icons.",
+  "notes": "Zmniejszono typografię całego portalu i modali, przebudowano lewostronne menu ustawień oraz ujednolicono ikony Segoe.",
   "firmware": {
-    "version": "0.1.185",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.185.bin",
-    "md5": "7620bc732ed2450889df5eb46ca55ff7",
-    "sha256": "ed5cec30cad669935a8531fd4ac939739f5c0a40aacb70b516b26442493e81f1",
+    "version": "0.1.186",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.186.bin",
+    "md5": "3b131bdc3b0008870bd0c5d03872d885",
+    "sha256": "78b401fb5bab2b850b3f3566968817cb5102f1f7549ce7bb58073eb71740219c",
     "size": 1137712
   },
   "littlefs": {
-    "version": "0.1.185",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.185.bin",
-    "md5": "92c0932b20648e8c58a2501e6b614809",
-    "sha256": "1eadd1e4f46a6bd09828594c1a4f6e60f556f5ba858aa8ba105f8a6452d7c0c0",
+    "version": "0.1.186",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.186.bin",
+    "md5": "f6ae989898c385b4f58869d7a24a5141",
+    "sha256": "1722b3af88497825e89e019b51417829fd0625c99499f3c12e59290872c5fd50",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.185",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.185.dgu",
-    "md5": "989f605421d00b6b4e7de7876386e5f6",
-    "sha256": "aebb108c20bfc8e5a66b9c852d552598d504d1fb1703722721b74cbacee643be",
+    "version": "0.1.186",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.186.dgu",
+    "md5": "3d57d8b044f2cd679b951b9a291ee9dc",
+    "sha256": "05fcc9c9f44c2ad89c8a4cc498040a041d5a182584d29954b566aa9dd8a394c3",
     "size": 5332458
   }
 }
