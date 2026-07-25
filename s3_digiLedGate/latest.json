@@ -1,29 +1,29 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.181",
+  "version": "0.1.182",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Ustabilizowano wysokość kafelka pamięci we wszystkich trybach aktualizacji.",
+  "notes": "Dodano przeglądarkę i menedżer plików LittleFS pod adresem /fileman.",
   "firmware": {
-    "version": "0.1.181",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.181.bin",
-    "md5": "88a5abd0b33526282356bfcb290816b1",
-    "sha256": "4d14c15faf3f72e9fe683a0a182f6fd8bbd90ba893b63c03c6e00a7895210313",
-    "size": 1111568
+    "version": "0.1.182",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.182.bin",
+    "md5": "73fce04ecdab3e0fbb96bc9f2ea7cb2d",
+    "sha256": "0405cca4ef9c8e455227ca01ff87084fc48d0db4dd438740688a0c7f4ffe0598",
+    "size": 1137744
   },
   "littlefs": {
-    "version": "0.1.181",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.181.bin",
-    "md5": "2d43beeda2c63e007d3b48003a2d0c7d",
-    "sha256": "d9f6f29586e1b8f551e5ccd220b4d119e14f946883767cde7f65a2d5e5e19c6a",
+    "version": "0.1.182",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.182.bin",
+    "md5": "4ef4d7883b5c7010766662b9529734d7",
+    "sha256": "acd23cb2c560fb8155e700dec09dc8662fb2bfcad851629ebbb22fc1f7833dcb",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.181",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.181.dgu",
-    "md5": "20913a860d3ff4b19f0ecf907ddd4eb6",
-    "sha256": "c4850d98739baa4baafd3709a1743f48f5a7266c5fbce8e223ffcac32b8886bf",
-    "size": 5306314
+    "version": "0.1.182",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.182.dgu",
+    "md5": "adf520ea68370325fb6e221943074a18",
+    "sha256": "5bfdc11f1b2e9349660fdc43990d99a93fed4ffe5d2244e9aa4530482f19aa16",
+    "size": 5332490
   }
 }
