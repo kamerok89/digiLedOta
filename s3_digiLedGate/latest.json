@@ -1,35 +1,34 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.197",
+  "version": "0.1.198",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Odświeżono listę modułów HTTP Gate i dodano indywidualne przełączniki aktywności.",
+  "notes": "Uproszczono prezentację autoryzacji modułów w zakładce HTTP Gate.",
   "changes": [
-    "Tokeny są domyślnie maskowane i można je odsłonić przyciskiem w wierszu modułu.",
-    "Każdy moduł ma trwały przełącznik aktywności, a wyłączona pozycja jest wyszarzona.",
-    "Lista pokazuje wersję firmware oraz stan tokenu i API zapisany podczas wyszukiwania modułu.",
-    "Przycisk usuwania korzysta z ikony Segoe U+E74D, a pole adresu IP zostało zwężone."
+    "Pole tokenu jest ukrywane dla modułów, które nie wymagają autoryzacji.",
+    "Stan bez autoryzacji jest opisany jako „Token nie wymagany” i oznaczony ikoną U+E785.",
+    "Moduły wymagające tokenu zachowują pole wpisywania oraz ikonę U+E72E."
   ],
   "firmware": {
-    "version": "0.1.197",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.197.bin",
-    "md5": "4d959d18f58154e9e829692f4a566452",
-    "sha256": "4ffa67d5c298eaec61f719ff5469088b8ea8293b99b6d9a86140ea4a7ddfddd2",
+    "version": "0.1.198",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.198.bin",
+    "md5": "2e322b551e56f2ec2ed934a8ac0e8fb1",
+    "sha256": "3437709b7e93a791b7c52cd4c08e2440ff56d3ae289e809c602a41cba64770e4",
     "size": 1140688
   },
   "littlefs": {
-    "version": "0.1.197",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.197.bin",
-    "md5": "ab93ac8f6eeac25a59e4ee47c2136e4e",
-    "sha256": "2845a00d0c5b63ac011837ec30037af171f42a2f95d4d7cb583a1876bcdd74ca",
+    "version": "0.1.198",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.198.bin",
+    "md5": "0c12e0a5c7e926e1da25258629cf427c",
+    "sha256": "1ae36ce07c41d21851fcd844703a3a17b7579d0f1dcc03900d681a597c7993a2",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.197",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.197.dgu",
-    "md5": "53ae57309b68423b2e823626bcb9b662",
-    "sha256": "f9522650d0a37554580ad49b96c0efd5d38d12eccae059bb331948529c9df79f",
+    "version": "0.1.198",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.198.dgu",
+    "md5": "498b083848adb217ef29f7e0c4eb75f8",
+    "sha256": "3f82c8db14c64641e962accf4d8a0ea1d85dde4bf0fe2d6cdc8980642c8d6f7a",
     "size": 5335434
   }
 }
