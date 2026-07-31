@@ -1,34 +1,33 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.199",
+  "version": "0.1.200",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Zaktualizowano pliki portalu WWW urządzenia.",
+  "notes": "Uproszczono komunikat stanu Wi-Fi w zakładce HTTP Gate.",
   "changes": [
-    "Opublikowano najnowsze wersje plików index.html, script.js i style.css z folderu data.",
-    "Odświeżono skompresowane zasoby script.js.gz i style.css.gz.",
-    "Zsynchronizowano wersję firmware i portalu do 0.1.199."
+    "Usunięto pill „Wi-Fi” z komunikatu połączenia w zakładce HTTP Gate.",
+    "Zachowano dynamiczny tekst oraz kolory informujące o stanie połączenia."
   ],
   "firmware": {
-    "version": "0.1.199",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.199.bin",
-    "md5": "650a9932b3e557b282781c44d57942f7",
-    "sha256": "5a88be494dcc45c2959c639bc07d96106932981a408a6d8b375ea26a6c30bd78",
+    "version": "0.1.200",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.200.bin",
+    "md5": "a623dde23a401392c4bf06a09e412176",
+    "sha256": "464471192171c326890a2f686a3bb0d058aebc4cf718a77c0ea855c55ec209c7",
     "size": 1140688
   },
   "littlefs": {
-    "version": "0.1.199",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.199.bin",
-    "md5": "408529b08f20444f53e999232577ca7f",
-    "sha256": "417b127599cd90b274e895a45573364f407f103ad32d5acdae9d9c8b420740dc",
+    "version": "0.1.200",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.200.bin",
+    "md5": "c4060eae99d03c7e5d5da23dd966cbce",
+    "sha256": "ba26e6f9b5f05fbe71ce91020c3283626630e14a4080e3362d60eb7a0c91037a",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.199",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.199.dgu",
-    "md5": "e84ba376b7097ada8b9dcf6ae38d5c3d",
-    "sha256": "9bb9149d50b8c1b448661af17bf6505894a80de6c2396dcaacddf85620c9f8ad",
+    "version": "0.1.200",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.200.dgu",
+    "md5": "c4b77eacc058aa2be42c1f2ef9331fe1",
+    "sha256": "408df06ab37131aa519f56434a2c126d4d5fa5b0ee04403581309d993aca4db1",
     "size": 5335434
   }
 }
