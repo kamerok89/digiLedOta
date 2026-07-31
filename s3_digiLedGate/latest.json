@@ -1,35 +1,35 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.215",
+  "version": "0.1.216",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Dodano walidację adresów IPv4 i końcowy status po zapisie modułów HTTP.",
+  "notes": "Portal automatycznie rozpoznaje ponowne uruchomienie ESP i odświeża stronę po powrocie urządzenia.",
   "changes": [
-    "Niepoprawne adresy IPv4 są blokowane przed wysłaniem konfiguracji.",
-    "Błędne pole IP jest wyróżniane wraz z czytelnym komunikatem i przykładem poprawnego adresu.",
-    "Firmware odrzuca niepoprawny adres także przy bezpośrednim wywołaniu API.",
-    "Po poprawnym zapisie automatycznie sprawdzana jest dostępność modułów i wyświetlany jest wynik końcowy."
+    "Każdy start ESP otrzymuje unikalny identyfikator boot_id dostępny w /api/status.",
+    "Portal wykrywa zmianę sesji urządzenia także wtedy, gdy restart był krótszy niż odstęp między zapytaniami.",
+    "Po wykryciu nowego uruchomienia wykonywane jest pojedyncze przeładowanie strony bez użycia pamięci podręcznej.",
+    "Mechanizm współpracuje z aktualizacją OTA, restartem ręcznym oraz nieoczekiwanym resetem urządzenia."
   ],
   "firmware": {
-    "version": "0.1.215",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.215.bin",
-    "md5": "376ffc1767896219126f7e78ed628334",
-    "sha256": "3b5a28ccd73ad859a9a3e054cfdb202a763d7f6594004ff833350f399533f226",
-    "size": 1147328
+    "version": "0.1.216",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.216.bin",
+    "md5": "2a7d8a6fdd39ed9abc64bda28d5b780a",
+    "sha256": "81b130ada86f11affa034360617abe474eb1e06e480fa9c2f0badd8932a1ed07",
+    "size": 1147520
   },
   "littlefs": {
-    "version": "0.1.215",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.215.bin",
-    "md5": "b8f5529ed772aefe2ee5f0df502b30e6",
-    "sha256": "205d5d8cb026234f3bca47cbd4c29f5dd259726eb6020d3b128cb1ed18ffef0d",
+    "version": "0.1.216",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.216.bin",
+    "md5": "8ddda5301c17f8788c0d93b237a1c0ea",
+    "sha256": "1b31e5bc9226c497695458ed4ab84d1f901e637ab7f2d7aeea404fbad351d833",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.215",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.215.dgu",
-    "md5": "673fc15b23fc204559051fc020a0c295",
-    "sha256": "c4f2ad3d28d0c385208c4fc1ad6e2d80f90f27fdba2ded6a4f56f3973dee9788",
-    "size": 5342074
+    "version": "0.1.216",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.216.dgu",
+    "md5": "0377745a4e7677a8f2a8279d7642ec78",
+    "sha256": "16a88cfb98c079d66fe0c1ca372366d7e97d483f4b27140dc94d6892069aec2d",
+    "size": 5342266
   }
 }
