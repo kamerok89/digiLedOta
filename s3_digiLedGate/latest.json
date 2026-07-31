@@ -1,35 +1,35 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.203",
+  "version": "0.1.204",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Rozbudowano tryb parowania MiLight o adres nadajnika i pracę bez limitu czasu.",
+  "notes": "Dodano objaśnienia identyfikatorów w zakładkach Pilot i Konsola MiLight.",
   "changes": [
-    "Status parowania pokazuje adres używanego nadajnika.",
-    "Dodano przełącznik Parowanie stałe, który wyłącza limit 20 sekund bez zatrzymywania wysyłania ramek.",
-    "Po wyłączeniu trybu stałego rozpoczyna się nowe odliczanie 20 sekund, a liczniki pozostają zachowane.",
-    "Liczniki ramek i błędów rozszerzono do 32 bitów dla długiej pracy."
+    "Opis ID pilota informuje, że zakładka służy wyłącznie do testowania połączenia i nie steruje odbiornikami.",
+    "Opis ID nadajnika wyjaśnia konieczność ustawienia tego samego adresu w odbiorniku.",
+    "Dodano informację o rozpoznawaniu adresów FF jako TF-Remote oraz zakresie FF00–FFFF.",
+    "Opisy dopasowano do układu desktopowego i mobilnego."
   ],
   "firmware": {
-    "version": "0.1.203",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.203.bin",
-    "md5": "39b2c0db890c7189b2a3ff5ce89cfe6f",
-    "sha256": "4f6dec627b9c5cbcba9d8d4c7f9ab834248566ed6a3f8b377f71589d3632d5c8",
+    "version": "0.1.204",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.204.bin",
+    "md5": "23f07346d599c11b4e670266705ed4bd",
+    "sha256": "5612e1df9d512ee218dd5cb8efffe83e7d8f6225cee1ad4415268722fb85f69c",
     "size": 1141424
   },
   "littlefs": {
-    "version": "0.1.203",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.203.bin",
-    "md5": "3adf01e8d6346233283688620e5e00b6",
-    "sha256": "16704a97c0cc6bdad2c083016de165ecba714d3c74c055d2d48fd77a24430684",
+    "version": "0.1.204",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.204.bin",
+    "md5": "6a139960314fb74b8143820890f286c4",
+    "sha256": "2472b8103b778a3a2133c68bd6ea5d329e13d06e94bf1d2cdd7af5eeb5a2f48a",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.203",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.203.dgu",
-    "md5": "c801df37331e94a099ba45fbdca6d207",
-    "sha256": "5a5b6c4fd5c125b4c541d2f78ce7a480f18f921a3f74e3c4d8ef7f9f10ad1b7f",
+    "version": "0.1.204",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.204.dgu",
+    "md5": "77c806c9b4835d7962827fd434be15bc",
+    "sha256": "0475490914890c036aa9f51a10822a304de42338c79bdfe916b12d68a8557307",
     "size": 5336170
   }
 }
