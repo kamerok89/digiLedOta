@@ -1,35 +1,34 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.209",
+  "version": "0.1.210",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Dodano podgląd adresu wysłanej komendy HTTP.",
+  "notes": "Powiększono podgląd komend HTTP i dodano token do wyświetlanego adresu.",
   "changes": [
-    "Pod statusem sterowania wyświetlany jest adres modułu oraz ścieżka wysłanej komendy.",
-    "Operacje wieloetapowe pokazują wszystkie wywołania w osobnych wierszach.",
-    "Token dostępu nie jest ujawniany w podglądzie komendy.",
-    "Długie adresy są zawijane w stopce modala bez poziomego przewijania."
+    "Zwiększono rozmiar tekstu statusu i wysłanego adresu w stopce modala sterowania.",
+    "Podgląd pokazuje pełny adres żądania razem z parametrem token.",
+    "Poprawiono odstępy i kontrast długich adresów komend HTTP."
   ],
   "firmware": {
-    "version": "0.1.209",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.209.bin",
-    "md5": "90244c5609197cd94f64cc30f21602b4",
-    "sha256": "ef7cd7e1f3a75f648d8e6746505f56b39c75547d700d7156edee61dc8dbde81c",
+    "version": "0.1.210",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.210.bin",
+    "md5": "b6dc6e41466c8857b5cb52b2d558bbf4",
+    "sha256": "eb742cacf135a74feda05c221fac4ea35fb1cbdad79bdf7472eeb5d583e01093",
     "size": 1144976
   },
   "littlefs": {
-    "version": "0.1.209",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.209.bin",
-    "md5": "48d530939afdca1aad296806402b1c00",
-    "sha256": "967724d88d917d2d034da021d6705b418ce16ea52178b09679c92163c72c5850",
+    "version": "0.1.210",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.210.bin",
+    "md5": "becd3a34298eb5945098b75813e454ad",
+    "sha256": "d27dc0be9aff5a05ea49de1e96f43eb4932649d3cbaa46604d6751901d5b7ce0",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.209",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.209.dgu",
-    "md5": "12ca35aca546dd83ab41c57297950595",
-    "sha256": "4a543e479503553939510969efc52ec5e66f34b74d2c4e6ebdf952dfe7ae4ee2",
+    "version": "0.1.210",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.210.dgu",
+    "md5": "92e623e5f75f8977f758470498e5f20a",
+    "sha256": "7c38130799481e3f3aa061ba9eefff5432f9a1d22f26f41d5135b9c091ab036b",
     "size": 5339722
   }
 }
