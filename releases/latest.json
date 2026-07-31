@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.923",
+  "firmware_version": "1.0.0.924",
   "filesystem_version": "1.0.0.847",
-  "notes": "Usunięto blokowanie animacji podczas zmiany koloru przez External API.",
+  "notes": "Usunięto blokowanie animacji podczas trwałej zmiany efektu przez External API.",
   "changes": [
-    "Zmiana koloru globalnego przez HTTP aktualizuje silnik LED natychmiast, bez synchronicznego zapisu flash w sekcji krytycznej.",
-    "Zmiana lokalnego koloru sceny oraz przełączenie jej na kolor globalny korzystają z tej samej kolejki zapisu w tle.",
-    "Trwały zapis NVS i LittleFS odbywa się asynchronicznie, dzięki czemu przejście koloru nie powinno zatrzymywać efektu."
+    "Endpoint /api/ext/scene/fx nie wykonuje już synchronicznego zapisu NVS i LittleFS pod blokadą silnika LED.",
+    "Nowa konfiguracja efektów start, run i stop jest stosowana natychmiast, a trwały zapis trafia do kolejki w tle.",
+    "Publikacja zaktualizowanego stanu sceny odbywa się po zwolnieniu blokady silnika."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1726960,
-    "md5": "2EA80B13DB3C73399B2A298FF5F10DEB"
+    "size": 1726976,
+    "md5": "AB4AED1F27E704F89ED3A72C7A3F248E"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "00AC21EDD68778D35025BADC1B286702"
   },
-  "build_time": "2026-07-31T16:54:27+01:00",
+  "build_time": "2026-07-31T17:04:48+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

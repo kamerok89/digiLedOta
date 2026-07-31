@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.924",
+      "firmware_version": "1.0.0.924",
+      "filesystem_version": "1.0.0.847",
+      "date": "2026-07-31T17:04:48+01:00",
+      "title": "Płynna zmiana efektu przez External API",
+      "changes": [
+        "Endpoint /api/ext/scene/fx nie wykonuje już synchronicznego zapisu NVS i LittleFS pod blokadą silnika LED.",
+        "Nowa konfiguracja efektów start, run i stop jest stosowana natychmiast, a trwały zapis trafia do kolejki w tle.",
+        "Publikacja zaktualizowanego stanu sceny odbywa się po zwolnieniu blokady silnika."
+      ]
+    },
+    {
       "version": "1.0.0.923",
       "firmware_version": "1.0.0.923",
       "filesystem_version": "1.0.0.847",
