@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.923",
+      "firmware_version": "1.0.0.923",
+      "filesystem_version": "1.0.0.847",
+      "date": "2026-07-31T16:54:27+01:00",
+      "title": "Płynna zmiana koloru przez External API",
+      "changes": [
+        "Zmiana koloru globalnego przez HTTP aktualizuje silnik LED natychmiast, bez synchronicznego zapisu flash w sekcji krytycznej.",
+        "Zmiana lokalnego koloru sceny oraz przełączenie jej na kolor globalny korzystają z tej samej kolejki zapisu w tle.",
+        "Trwały zapis NVS i LittleFS odbywa się asynchronicznie, dzięki czemu przejście koloru nie powinno zatrzymywać efektu."
+      ]
+    },
+    {
       "version": "1.0.0.847",
       "firmware_version": "1.0.0.922",
       "filesystem_version": "1.0.0.847",

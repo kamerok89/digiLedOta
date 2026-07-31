@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.922",
+  "firmware_version": "1.0.0.923",
   "filesystem_version": "1.0.0.847",
-  "notes": "Poprawiono zapis zerowych opóźnień startu i stopu w konfiguracji scen.",
+  "notes": "Usunięto blokowanie animacji podczas zmiany koloru przez External API.",
   "changes": [
-    "Globalne opóźnienie startu ustawione na 0 jest teraz kopiowane do wszystkich scen i poprawnie zapisywane.",
-    "Analogicznie poprawiono zapis globalnego opóźnienia stopu ustawionego na 0.",
-    "Zachowano możliwość ustawiania różnych opóźnień bezpośrednio w poszczególnych scenach."
+    "Zmiana koloru globalnego przez HTTP aktualizuje silnik LED natychmiast, bez synchronicznego zapisu flash w sekcji krytycznej.",
+    "Zmiana lokalnego koloru sceny oraz przełączenie jej na kolor globalny korzystają z tej samej kolejki zapisu w tle.",
+    "Trwały zapis NVS i LittleFS odbywa się asynchronicznie, dzięki czemu przejście koloru nie powinno zatrzymywać efektu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
-    "size": 1723808,
-    "md5": "D78531610C125E77EAA103222CB16854"
+    "size": 1726960,
+    "md5": "2EA80B13DB3C73399B2A298FF5F10DEB"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
     "md5": "00AC21EDD68778D35025BADC1B286702"
   },
-  "build_time": "2026-07-31T16:43:29+01:00",
+  "build_time": "2026-07-31T16:54:27+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }
