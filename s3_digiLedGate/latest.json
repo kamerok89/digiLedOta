@@ -1,35 +1,35 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.204",
+  "version": "0.1.205",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Dodano objaśnienia identyfikatorów w zakładkach Pilot i Konsola MiLight.",
+  "notes": "Poprawiono wyrównanie przycisków w sekcji ID nadajnika.",
   "changes": [
-    "Opis ID pilota informuje, że zakładka służy wyłącznie do testowania połączenia i nie steruje odbiornikami.",
-    "Opis ID nadajnika wyjaśnia konieczność ustawienia tego samego adresu w odbiorniku.",
-    "Dodano informację o rozpoznawaniu adresów FF jako TF-Remote oraz zakresie FF00–FFFF.",
-    "Opisy dopasowano do układu desktopowego i mobilnego."
+    "Przycisk Włącz tryb parowania znajduje się w tej samej linii co pole ID i przycisk zapisu.",
+    "Przycisk zapisu oraz przycisk parowania mają wspólną wysokość i linię dolną.",
+    "Usunięto nadpisany padding, który przesuwał ikonę zapisu poza środek przycisku.",
+    "Na urządzeniach mobilnych akcje nadal układają się pionowo."
   ],
   "firmware": {
-    "version": "0.1.204",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.204.bin",
-    "md5": "23f07346d599c11b4e670266705ed4bd",
-    "sha256": "5612e1df9d512ee218dd5cb8efffe83e7d8f6225cee1ad4415268722fb85f69c",
+    "version": "0.1.205",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.205.bin",
+    "md5": "25f24ba5a88c59f8904d51c23a4d3ff6",
+    "sha256": "c6bf7e2296b2efd0e6b1783d16e730182be2bc1267bf8c974ca8e2eaec9bf5b4",
     "size": 1141424
   },
   "littlefs": {
-    "version": "0.1.204",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.204.bin",
-    "md5": "6a139960314fb74b8143820890f286c4",
-    "sha256": "2472b8103b778a3a2133c68bd6ea5d329e13d06e94bf1d2cdd7af5eeb5a2f48a",
+    "version": "0.1.205",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.205.bin",
+    "md5": "665c8092e921a364885f44213089c727",
+    "sha256": "f96e123b0ccd836493ae325831e0e6e102882c99e306049ca44e3a4bbecee407",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.204",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.204.dgu",
-    "md5": "77c806c9b4835d7962827fd434be15bc",
-    "sha256": "0475490914890c036aa9f51a10822a304de42338c79bdfe916b12d68a8557307",
+    "version": "0.1.205",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.205.dgu",
+    "md5": "68dce3764215b0b9c86a98406955dae4",
+    "sha256": "007d83e0b6a95b8f5958dc617a886d732a5bb81504c26ff6b4ceb7ee47c90f7a",
     "size": 5336170
   }
 }
