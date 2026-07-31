@@ -2,12 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.922",
-  "filesystem_version": "1.0.0.846",
-  "notes": "Dodano jednowierszową komendę terminala do konfiguracji Wi-Fi.",
+  "filesystem_version": "1.0.0.847",
+  "notes": "Poprawiono zapis zerowych opóźnień startu i stopu w konfiguracji scen.",
   "changes": [
-    "Dodano komendę wifi:ssid:password:0123, która łączy urządzenie z siecią i zapisuje poprawne dane jako domyślne.",
-    "Hasło Wi-Fi jest maskowane w historii i na wyjściu terminala.",
-    "Przy błędnych danych urządzenie przywraca poprzednią konfigurację i ponawia połączenie z dotychczasową siecią."
+    "Globalne opóźnienie startu ustawione na 0 jest teraz kopiowane do wszystkich scen i poprawnie zapisywane.",
+    "Analogicznie poprawiono zapis globalnego opóźnienia stopu ustawionego na 0.",
+    "Zachowano możliwość ustawiania różnych opóźnień bezpośrednio w poszczególnych scenach."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/firmware.bin",
@@ -17,8 +17,8 @@
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/littlefs.bin",
     "size": 4194304,
-    "md5": "A81D89BD448820773172DFCE477F3316"
+    "md5": "00AC21EDD68778D35025BADC1B286702"
   },
-  "build_time": "2026-07-25T17:16:17+01:00",
+  "build_time": "2026-07-31T16:43:29+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/releases/changelog.json"
 }

@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.847",
+      "firmware_version": "1.0.0.922",
+      "filesystem_version": "1.0.0.847",
+      "date": "2026-07-31T16:43:29+01:00",
+      "title": "Zapis zerowych opóźnień scen",
+      "changes": [
+        "Globalne opóźnienie startu ustawione na 0 jest teraz kopiowane do wszystkich scen i poprawnie zapisywane.",
+        "Analogicznie poprawiono zapis globalnego opóźnienia stopu ustawionego na 0.",
+        "Zachowano możliwość ustawiania różnych opóźnień bezpośrednio w poszczególnych scenach."
+      ]
+    },
+    {
       "version": "1.0.0.922",
       "firmware_version": "1.0.0.922",
       "filesystem_version": "1.0.0.846",
