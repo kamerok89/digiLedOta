@@ -1,34 +1,35 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.202",
+  "version": "0.1.203",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Naprawiono dynamiczne informacje w trybie parowania MiLight.",
+  "notes": "Rozbudowano tryb parowania MiLight o adres nadajnika i pracę bez limitu czasu.",
   "changes": [
-    "Pozostały czas parowania jest teraz odliczany na bieżąco na głównym ekranie.",
-    "Licznik wysłanych ramek i ostatnia komenda są odświeżane z odpowiedzi API.",
-    "Zapytania o stan parowania pomijają pamięć podręczną przeglądarki."
+    "Status parowania pokazuje adres używanego nadajnika.",
+    "Dodano przełącznik Parowanie stałe, który wyłącza limit 20 sekund bez zatrzymywania wysyłania ramek.",
+    "Po wyłączeniu trybu stałego rozpoczyna się nowe odliczanie 20 sekund, a liczniki pozostają zachowane.",
+    "Liczniki ramek i błędów rozszerzono do 32 bitów dla długiej pracy."
   ],
   "firmware": {
-    "version": "0.1.202",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.202.bin",
-    "md5": "742ec6998c4af562b99074d3a6db899a",
-    "sha256": "372a1f70b26fdf28a85cd32abbf77cc98ec2bdf307a92ebb8097af4ea6f89ae0",
-    "size": 1140688
+    "version": "0.1.203",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.203.bin",
+    "md5": "39b2c0db890c7189b2a3ff5ce89cfe6f",
+    "sha256": "4f6dec627b9c5cbcba9d8d4c7f9ab834248566ed6a3f8b377f71589d3632d5c8",
+    "size": 1141424
   },
   "littlefs": {
-    "version": "0.1.202",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.202.bin",
-    "md5": "771f205a18d60cf95a511c8b083b5a76",
-    "sha256": "a098666829bc6d77f0b80ccc1733dfb4d5ac7362d65e493947b931901811a676",
+    "version": "0.1.203",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.203.bin",
+    "md5": "3adf01e8d6346233283688620e5e00b6",
+    "sha256": "16704a97c0cc6bdad2c083016de165ecba714d3c74c055d2d48fd77a24430684",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.202",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.202.dgu",
-    "md5": "628ee9d61c5c042e89c900235a6fb2ad",
-    "sha256": "b774d817b3389755b89d0ec0bd7a451b7963799c9628515178ffd68972c260ea",
-    "size": 5335434
+    "version": "0.1.203",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.203.dgu",
+    "md5": "c801df37331e94a099ba45fbdca6d207",
+    "sha256": "5a5b6c4fd5c125b4c541d2f78ce7a480f18f921a3f74e3c4d8ef7f9f10ad1b7f",
+    "size": 5336170
   }
 }
