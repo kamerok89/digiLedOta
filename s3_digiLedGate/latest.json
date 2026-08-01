@@ -4,12 +4,12 @@
   "version": "0.1.229",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Zaktualizowano listę zmian i wprowadzono trwałą retencję dziesięciu najnowszych pakietów DGU.",
+  "notes": "Zaktualizowano listę zmian i wprowadzono trwałą retencję dziesięciu najnowszych kompletnych zestawów aktualizacji.",
   "changes": [
     "Lista zmian w portalu pokazuje wersje od 0.1.229 do 0.1.220 wraz z rzeczywistymi adnotacjami wydań.",
     "Reguły wydawania wymagają dopisania changelogu przy każdej nowej wersji.",
-    "Repozytorium OTA przechowuje tylko dziesięć najnowszych DGU; usunięto pakiety od 0.1.155 do 0.1.219.",
-    "Starsze pliki firmware i LittleFS pozostają dostępne."
+    "Repozytorium OTA przechowuje tylko dziesięć najnowszych kompletnych zestawów DGU, firmware i LittleFS.",
+    "Usunięto starsze pakiety DGU i obrazy LittleFS od 0.1.155 do 0.1.219 oraz obrazy firmware od 0.1.1 do 0.1.219."
   ],
   "firmware": {
     "version": "0.1.229",
