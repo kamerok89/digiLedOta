@@ -1,34 +1,34 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.225",
+  "version": "0.1.226",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Uproszczono nagłówek zakładki aktualizacji, zapewniając więcej przestrzeni dla właściwych narzędzi.",
+  "notes": "Uproszczono główne komunikaty aktualizacji na wzór Windows Update.",
   "changes": [
-    "Usunięto górną sekcję Oprogramowanie wraz z ikoną, opisem i separatorem.",
-    "Zakładka rozpoczyna się teraz bezpośrednio od sekcji Aktualizacje.",
-    "Wyczyszczono nieużywane style oraz logikę JavaScript powiązaną z usuniętym nagłówkiem."
+    "Komunikat sprawdzania brzmi teraz: Trwa wyszukiwanie aktualizacji.",
+    "Komunikat aktualnego systemu brzmi teraz: Wszystko jest aktualne.",
+    "Zmieniono także stan początkowy portalu, aby stary tekst nie pojawiał się podczas ładowania zakładki."
   ],
   "firmware": {
-    "version": "0.1.225",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.225.bin",
-    "md5": "0d3f8c01d24c0f1c80f91f0f8be3b967",
-    "sha256": "546380fe1475950f158bdbd54158bd47141c3caea8feb21ad47f818b5364b43d",
+    "version": "0.1.226",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.226.bin",
+    "md5": "cf8e48c6a3e9615c585ad419556b37d6",
+    "sha256": "ec50002346b746ce43beb448befa1123d9092f1f7fa216d19ff4780ae46e9813",
     "size": 1147536
   },
   "littlefs": {
-    "version": "0.1.225",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.225.bin",
-    "md5": "153aa2c9e5be0e138b034915003f3ca2",
-    "sha256": "5ffa0dd518ee16724ca3c2a2a1d3022ad0bba9ca46abd83d044b5ad534e7e7ac",
+    "version": "0.1.226",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.226.bin",
+    "md5": "3beefdb083a6f0be516566aabc14e755",
+    "sha256": "1ab21435036156c695174bee4c435c9a26e4d85d338c2adb26df6b7a4f413e10",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.225",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.225.dgu",
-    "md5": "c22fb0bd9d860cc9c99f120ad857663a",
-    "sha256": "4f52d3f917d1affcb19af654275b76f3f6176ddab8782567e85ab652e14a6503",
+    "version": "0.1.226",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.226.dgu",
+    "md5": "2ac3d54c73bd4743d844a11acb3e3bf1",
+    "sha256": "99a4e4fc8cbce52f51426801a6c47ef2dea1dc3d78503c952fca131f18c5458f",
     "size": 5342281
   }
 }
