@@ -1,35 +1,34 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.238",
+  "version": "0.1.239",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Przeprojektowano obsługę AP i STA oraz dodano trwałą konfigurację punktu dostępowego.",
+  "notes": "Naprawiono fizyczne wyłączanie interfejsu radiowego punktu dostępowego.",
   "changes": [
-    "Przeprojektowano panele AP i STA, wyraźniej pokazując stan, adresy oraz parametry połączeń.",
-    "Akcje wyszukiwania, rozłączania i zapominania sieci przeniesiono bezpośrednio do panelu STA.",
-    "Dodano ustawienia AP z możliwością zmiany hasła, adresu IP oraz włączenia lub wyłączenia punktu dostępowego.",
-    "Konfiguracja AP jest zapisywana w pamięci urządzenia oraz uwzględniana w eksporcie i imporcie ustawień."
+    "Wyłączenie punktu dostępowego zatrzymuje teraz rzeczywisty interfejs radiowy AP, a nie tylko zapisuje stan konfiguracji.",
+    "Po restarcie wyłączony AP jest jawnie odłączany, a Wi-Fi uruchamia się wyłącznie w trybie STA.",
+    "Status urządzenia rozróżnia zapisane ustawienie AP od faktycznego stanu interfejsu radiowego."
   ],
   "firmware": {
-    "version": "0.1.238",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.238.bin",
-    "md5": "718cd26640d5222b4edb1e1316aa2e6a",
-    "sha256": "3b81c4da66ef1cef0bd8b2ae5f05e80a54805b2cd0c8ba3a2798ece53ce0299a",
-    "size": 1163664
+    "version": "0.1.239",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.239.bin",
+    "md5": "cff34eddc4efc0ee2206a95aa8715c14",
+    "sha256": "bc91ee5d7edb3fa8580b2e9414785d131db8d3eeb07b3fde9e2b8ab24270c6a2",
+    "size": 1164224
   },
   "littlefs": {
-    "version": "0.1.238",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.238.bin",
-    "md5": "0d27235495697e55d8d69df16eb2f005",
-    "sha256": "6082c574038a896387d84281062b7c680beddbede61dbb92203de67a95781fb2",
+    "version": "0.1.239",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.239.bin",
+    "md5": "c615ff7a5ab34d3493cde1ff9c96cea7",
+    "sha256": "9e905ced0ac0ced13e88079865a6654177fef822fd353cf04df7aabc033f7b26",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.238",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.238.dgu",
-    "md5": "5906c10d1bade0e776df731882e96169",
-    "sha256": "0c9fc01bf2c2526ca9d754e233d48f98120a907901b948065b982277c1425b46",
-    "size": 5358410
+    "version": "0.1.239",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.239.dgu",
+    "md5": "0b7879218ec0ce31917d3c0b5b485460",
+    "sha256": "737f89cc3412d0be73f226a7ce20d2ba2596f2f378f6b14629a1825b9d798954",
+    "size": 5358970
   }
 }
