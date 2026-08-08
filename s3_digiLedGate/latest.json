@@ -1,34 +1,32 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.236",
+  "version": "0.1.237",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Uproszczono wybieranie znalezionych sieci Wi-Fi.",
+  "notes": "Zmieniono ikonę zamykania okna dostępnych sieci Wi-Fi.",
   "changes": [
-    "Kliknięcie w wiersz znalezionej sieci Wi-Fi otwiera jej konfigurację.",
-    "Przycisk wyboru jest ukryty do czasu rozwinięcia sieci, a następnie pojawia się jako Anuluj.",
-    "Dodano obsługę wyboru sieci klawiszami Enter i Spacja."
+    "Przycisk zamykający okno dostępnych sieci Wi-Fi używa teraz ikony U+E653."
   ],
   "firmware": {
-    "version": "0.1.236",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.236.bin",
-    "md5": "fc77c4570a6781d19ddceabe4e27b3c8",
-    "sha256": "78d73cd8cf55f2b585db8e868a01c06f8c68010f5b1e1fe1f4145c3f8bbf702a",
+    "version": "0.1.237",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.237.bin",
+    "md5": "20c4b857eebe8093a35cbe0f44795ac3",
+    "sha256": "4eff7433c3439dd263a1193bb5db2e3d83ed63f29264bd565d0954f9c9a2caaf",
     "size": 1160208
   },
   "littlefs": {
-    "version": "0.1.236",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.236.bin",
-    "md5": "ef116832be7be34559868f0b186e14b3",
-    "sha256": "3cf803d754d01400b6512c71a924722e8f67376b0631bef43296fa26b69e6fce",
+    "version": "0.1.237",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.237.bin",
+    "md5": "8937393dc134a4a1e9b7049228edaaba",
+    "sha256": "5111397f839ca815e054f154bf8c9bd1071ebccee679a299e179bb3e18d329c3",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.236",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.236.dgu",
-    "md5": "479c6e26eb7f005c3e44143a5f4733af",
-    "sha256": "40c9d09041645c0b5f4552faff470fc18ac596f83d2ec8faf68a885b9fd39ed2",
+    "version": "0.1.237",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.237.dgu",
+    "md5": "b6145cacbeafb89ace74b4f8179c9f6f",
+    "sha256": "b5ab805dcaefafa4d297d4dcff3a93bd3c2428b0475e85132f3973a189cd6b0c",
     "size": 5354954
   }
 }
