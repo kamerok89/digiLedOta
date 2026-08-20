@@ -1,33 +1,35 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.240",
+  "version": "0.1.241",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Usunięto ponowne uruchamianie AP podczas konfiguracji sieci STA.",
+  "notes": "Dodano pełny capture TF-BUS oraz nowy pinout MAX3485.",
   "changes": [
-    "Wyłączony punkt dostępowy nie jest już ponownie uruchamiany podczas sprawdzania konfliktu adresów AP i STA.",
-    "Dodano kontrolę rzeczywistego trybu radia, która przy wyłączonym AP automatycznie przywraca tryb wyłącznie STA."
+    "Zmieniono pinout MAX3485: DI na D0, wspólne DE+/RE na D1 oraz RO na D2.",
+    "Konsola TF-BUS zachowuje wszystkie odebrane ramki bez obcinania historii i pozwala skopiować albo wyeksportować całą sesję do pliku LOG.",
+    "Analyzer zapisuje start, koniec, odstęp i czas bezczynności przed ramką z dokładnością mikrosekundową.",
+    "Pauza i wznowienie capture nie czyszczą historii, a bufor transferowy zwiększono do 128 ramek."
   ],
   "firmware": {
-    "version": "0.1.240",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.240.bin",
-    "md5": "8466365fb3abb08085ffaf6e978f5dbd",
-    "sha256": "00c88da373d9d2e9bfc7abd287d1dee89a2a38578519f3d5360952c4f9aacca5",
-    "size": 1164480
+    "version": "0.1.241",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.241.bin",
+    "md5": "30554edc7f64eddf0e9a26c24db3ff39",
+    "sha256": "502bb979aa4f57a49a08574fca2e0500023bcb387946aa61a047f51420b5d0ec",
+    "size": 1165600
   },
   "littlefs": {
-    "version": "0.1.240",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.240.bin",
-    "md5": "263ee26c2210562a2979da2f3c5efae2",
-    "sha256": "449214218b7c6dc78d3786f4d85516ce418f438b7294b402476abb357a381d2c",
+    "version": "0.1.241",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.241.bin",
+    "md5": "b27741b49f8dcbe186d73843c6681f06",
+    "sha256": "5184bd1cc859161e7ed2514101102d603472c37b603c94f1db78d0d05da28e13",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.240",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.240.dgu",
-    "md5": "7695dee11b0a621ccb7fbd10fca68053",
-    "sha256": "5f04a760689d24b1623c9a5014459a0ed93b2ed518ca24d33b795da65d2faa7f",
-    "size": 5359226
+    "version": "0.1.241",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.241.dgu",
+    "md5": "72af2a04afa0ce0c7d2ddeca631c59a6",
+    "sha256": "ad1ab2b1c0d7e8fbb07b6270db5b6c5a2f4a905a8e745b03c91ef53369ab5334",
+    "size": 5360346
   }
 }
