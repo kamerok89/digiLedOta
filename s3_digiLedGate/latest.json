@@ -1,34 +1,34 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.251",
+  "version": "0.1.252",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Zabezpieczono tryb parowania przed blokowaniem portalu przy niedostępnym nRF24.",
+  "notes": "Dodano odczyt adresu 1–100 zakodowanego w czasie rampy TF-BUS.",
   "changes": [
-    "Parowanie nie uruchamia się, jeśli nRF24 nie odpowiada na magistrali SPI.",
-    "Seria transmisji kończy się po pierwszym błędzie radia zamiast wykonywać kolejne blokujące timeouty.",
-    "Portal pokazuje czytelny błąd połączenia nRF24 i wraca do normalnego widoku."
+    "Dekoder TF-BUS odczytuje 32-bitową wartość Ramp Time z rekordów F0 tagu 0x06.",
+    "Adres 1–100 jest wyliczany według formuły adres = Ramp Time / 10 ms.",
+    "Podgląd na żywo pokazuje rozpoznany adres i czas rampy bez zmiany bieżącego ID radia."
   ],
   "firmware": {
-    "version": "0.1.251",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.251.bin",
-    "md5": "fd42c928c691dbc076e09a2bfa7893b1",
-    "sha256": "682cfb37b6b71f7ec9d80fc7399deebb5f27ff12dae03b01e1bb7e9bced7a641",
-    "size": 1169520
+    "version": "0.1.252",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.252.bin",
+    "md5": "95e93302d48f92b2d9f8a6c689d70ac9",
+    "sha256": "11e7149b5b935bf0d41a92b9c15c52b5749707d73d2f5816508548bed5bda0f2",
+    "size": 1169936
   },
   "littlefs": {
-    "version": "0.1.251",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.251.bin",
-    "md5": "9ba2b152e91e58f3c06d6549e3ff9a88",
-    "sha256": "370ecaca64185d2260ba0b404f855ab57e84e95f8494cf263cb32892481bc367",
+    "version": "0.1.252",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.252.bin",
+    "md5": "339e20c2ef8d1a7f4cd599aa1ac36b70",
+    "sha256": "9eb9947cf1449e2dad18fb102f39ec6f1576a4a5cec674eb91d4b66342c13a97",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.251",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.251.dgu",
-    "md5": "d243f0f1ce5f295c814ebcf0219b47a8",
-    "sha256": "3fff4f5f9f220afda40d6e072d47b616508b66b89419692b7525815ee83bf74d",
-    "size": 5364266
+    "version": "0.1.252",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.252.dgu",
+    "md5": "8ea2d6c0f260581f99ae27ead6441a03",
+    "sha256": "ef327a38ea9492cd3be858e7b055a381d0291849687633184f97d9fc06af1d35",
+    "size": 5364682
   }
 }
