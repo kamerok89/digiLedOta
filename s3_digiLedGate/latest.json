@@ -1,34 +1,34 @@
 {
   "product": "s3_digiLedGate",
   "channel": "stable",
-  "version": "0.1.245",
+  "version": "0.1.246",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Usunięto konflikt pinów pomiędzy nRF24 i MAX3485.",
+  "notes": "Naprawiono ucinanie odpowiedzi JSON konsoli TF-BUS przy intensywnym ruchu.",
   "changes": [
-    "Przeniesiono nRF24 CE na D4/GPIO5 i CSN na D5/GPIO6.",
-    "Usunięto współdzielenie GPIO2 i GPIO3 przez nRF24 oraz interfejs MAX3485.",
-    "Pinout MAX3485 pozostaje DI=D0/GPIO1, DE/RE=D1/GPIO2 i RO=D2/GPIO3."
+    "Odczyt konsoli TF-BUS jest zwracany w małych porcjach, aby odpowiedź JSON nie była ucinana.",
+    "Ramki są usuwane z kolejki dopiero po potwierdzeniu ich odbioru przez przeglądarkę.",
+    "Po błędzie HTTP ta sama porcja ramek może zostać pobrana ponownie; historia w przeglądarce pozostaje bez limitu."
   ],
   "firmware": {
-    "version": "0.1.245",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.245.bin",
-    "md5": "1e258ccf0d75c11c959b59ccd70e3364",
-    "sha256": "87465cef43142dc8b1acf49602f6b27b22fcd2995d9e6e730d803d1d27e9ff3a",
-    "size": 1165600
+    "version": "0.1.246",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/firmware-0.1.246.bin",
+    "md5": "eed94f08c089a9f237816e0842c1886f",
+    "sha256": "5c48e7c237a325a7aab4c66a354ca1a3818aae35d8d3bb2da4dcac650e1b1a1c",
+    "size": 1166352
   },
   "littlefs": {
-    "version": "0.1.245",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.245.bin",
-    "md5": "382a7d0cc350e3f22838072188396086",
-    "sha256": "56a358cd5000b2a36f2d61e55f0ca0f27211766d125844e5893fd117c6f75c64",
+    "version": "0.1.246",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/littlefs-0.1.246.bin",
+    "md5": "f5b4de029cae9f8922deb78f28333914",
+    "sha256": "a85a7a1a5541cef32c1dd2a524f415ef0cbdb00f6e5adecefac4fbe2f190ace6",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.245",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.245.dgu",
-    "md5": "82186555d31ce3259a4094b222024a81",
-    "sha256": "a7b1f3867ba42d2c0ec6048fe4fa783ccdf16598d33ec2136d313776f4c4fa33",
-    "size": 5360346
+    "version": "0.1.246",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/s3_digiLedGate/DigiLedGate-0.1.246.dgu",
+    "md5": "d73286b3acc31eb44ec35286413e4d63",
+    "sha256": "8643b3537f9449d05da9674ebdde2b7a868d1d8ac4bf4bacf1b03f9a903e76d1",
+    "size": 5361098
   }
 }
