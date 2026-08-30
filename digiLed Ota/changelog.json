@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.867",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.867",
+      "date": "2026-08-30T18:22:59+01:00",
+      "title": "Zwijanie świetlnych okręgów",
+      "changes": [
+        "Rozszerzono końcową animację ekranu startowego o rozbłysk niebieskiego i czerwonego okręgu.",
+        "Po rozbłysku okręgi szybko kurczą się do sześciu procent rozmiaru, rozmywają i zanikają.",
+        "Nowy efekt kończy się przed obecnym momentem odsłonięcia UI, więc nie zwiększa czasu oczekiwania.",
+        "Zachowano dotychczasowe zbieganie flar i obsługę ograniczonego ruchu."
+      ]
+    },
+    {
       "version": "1.0.0.866",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.866",

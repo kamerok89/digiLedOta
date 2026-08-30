@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.944",
-  "filesystem_version": "1.0.0.866",
-  "notes": "Dwukierunkowa animacja flar podczas ładowania interfejsu.",
+  "filesystem_version": "1.0.0.867",
+  "notes": "Wygaszanie i zwijanie okręgów przed odsłonięciem interfejsu.",
   "changes": [
-    "Podczas ładowania świetlne impulsy flar biegną teraz od okręgów na zewnątrz.",
-    "Po zakończeniu inicjalizacji flary zmieniają kierunek, zbiegają do rdzenia i płynnie zanikają.",
-    "Interfejs jest odsłaniany dopiero po zakończeniu sekwencji wygaszania.",
-    "Ustawienie ograniczonego ruchu pomija dodatkowe opóźnienie i zachowuje natychmiastowe przejście."
+    "Po wciągnięciu flar niebieski i czerwony okrąg wykonują krótki końcowy rozbłysk.",
+    "Okręgi następnie zmniejszają się do środka, rozmywają i całkowicie zanikają.",
+    "Efekt mieści się w istniejącym czasie sekwencji końcowej i nie opóźnia dodatkowo interfejsu.",
+    "Napis digiLed pozostaje widoczny do momentu płynnego zamknięcia ekranu startowego."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.944.bin",
@@ -17,11 +17,11 @@
     "sha256": "EC1ED15CC12FC7B9D3977C149C189CF86D36A7D03C9EA4525DC534F4F41AD4AF"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.866.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.867.bin",
     "size": 4194304,
-    "md5": "C0940A26DB0BEC04B5921BFB2ADBF2A2",
-    "sha256": "34C889BDCD32C1021CE2EF5ABF8DD2A9365A913AC63CA216388451EBB0E3AE4F"
+    "md5": "A7BA37A3A149C5929CAA187AE5A73DFE",
+    "sha256": "45AA2E5B02D1DA952C91C08B4AAE198F1B1908C323C0C177D04F0AD43108FA94"
   },
-  "build_time": "2026-08-30T18:17:06+01:00",
+  "build_time": "2026-08-30T18:22:59+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
