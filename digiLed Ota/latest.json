@@ -1,26 +1,26 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.938",
-  "filesystem_version": "1.0.0.852",
-  "notes": "Pliki OTA przeniesiono do kanonicznego katalogu digiLed Ota w repozytorium digiLed.",
+  "firmware_version": "1.0.0.941",
+  "filesystem_version": "1.0.0.854",
+  "notes": "Testowe podbicie wersji firmware i portalu digiLed.",
   "changes": [
-    "Manifest, firmware, LittleFS i changelog są przechowywane wyłącznie w katalogu digiLed Ota/.",
-    "Usunięto kopie manifestów i artefaktów ze starych lokalizacji.",
-    "Parser OTA obsługuje wyłącznie aktualny format manifestu i kanoniczne nazwy parametrów."
+    "Podbito testową wersję firmware do 1.0.0.941.",
+    "Podbito testową wersję portalu LittleFS do 1.0.0.854.",
+    "Przebudowano firmware, LittleFS oraz scalony obraz pamięci flash."
   ],
   "firmware": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Ota/firmware-1.0.0.938.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Ota/firmware-1.0.0.941.bin",
     "size": 1726992,
-    "md5": "40F5B8F04B4827C6FB6509CD0BCAAAAE",
-    "sha256": "02cbfe4d94e35f7589d420088dca392665e3b238c1c72d142663f5328b05c650"
+    "md5": "329F8AA0D1E2D66B9AB81099CF8F4C9B",
+    "sha256": "15A9ACEFE7DDEC88E1E2EE18F700AECDD9BFFE9736A6ADF1DAB297A1B90A2EA4"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Ota/littlefs-1.0.0.852.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Ota/littlefs-1.0.0.854.bin",
     "size": 4194304,
-    "md5": "4A88C1DF139BBEDB1A1A4B4B04701ADB",
-    "sha256": "62607bfcae770e9679041f78ee1ffaf6a8ee0e72d39925cde07ff8c01fb450f1"
+    "md5": "5D00CA4D0798972EAA74D663087A888F",
+    "sha256": "EED85B64F3A2F33B102027D416B570F60ADDB4B4927FD1D3F667C45E3F243370"
   },
-  "build_time": "2026-08-30T15:25:43+01:00",
+  "build_time": "2026-08-30T15:48:10+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Ota/changelog.json"
 }
