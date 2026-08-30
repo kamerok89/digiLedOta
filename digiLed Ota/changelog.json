@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.860",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.860",
+      "date": "2026-08-30T17:36:10+01:00",
+      "title": "Poprawne włączanie ochrony portalu",
+      "changes": [
+        "Usunięto mylący komunikat o nieudanym zapisie, który pojawiał się tuż przed przekierowaniem do logowania.",
+        "Przy włączaniu ochrony portal nie odpytuje już statusu zadania po tym, gdy dostęp został już zabezpieczony i wymaga autoryzacji.",
+        "Po przyjęciu zapisu zatrzymywane są dalsze zapytania, wyświetlany jest komunikat powodzenia i następuje kontrolowane przejście do strony logowania.",
+        "Wyłączanie ochrony oraz inne zapisy konfiguracji zachowują dotychczasowe pełne oczekiwanie na wynik zadania."
+      ]
+    },
+    {
       "version": "1.0.0.859",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.859",
