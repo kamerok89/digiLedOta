@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.866",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.866",
+      "date": "2026-08-30T18:17:06+01:00",
+      "title": "Dwukierunkowa animacja ekranu startowego",
+      "changes": [
+        "Odwrócono kierunek impulsów podczas ładowania, aby energia rozchodziła się od okręgów na zewnątrz.",
+        "Dodano końcową sekwencję, w której flary zbiegają do środka, kurczą się i wygasają.",
+        "Okręgi oraz centralna poświata reagują na absorpcję energii przed zamknięciem ekranu.",
+        "Odsłonięcie interfejsu następuje po 760 ms sekwencji końcowej; tryb ograniczonego ruchu przechodzi bez zwłoki."
+      ]
+    },
+    {
       "version": "1.0.0.865",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.865",

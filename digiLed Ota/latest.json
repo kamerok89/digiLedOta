@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.944",
-  "filesystem_version": "1.0.0.865",
-  "notes": "Pełny znak digiLed w nagłówku formularza logowania.",
+  "filesystem_version": "1.0.0.866",
+  "notes": "Dwukierunkowa animacja flar podczas ładowania interfejsu.",
   "changes": [
-    "Dodano oryginalny napis digiLed bezpośrednio pod świetlnym symbolem w panelu logowania.",
-    "Dopasowano proporcje i odstępy pełnego znaku osobno dla komputerów i telefonów.",
-    "W jasnym motywie biały fragment napisu otrzymał równy ciemny kontur bez przesuniętego cienia.",
-    "Logo formularza pozostaje statyczne zgodnie z przyjętym projektem."
+    "Podczas ładowania świetlne impulsy flar biegną teraz od okręgów na zewnątrz.",
+    "Po zakończeniu inicjalizacji flary zmieniają kierunek, zbiegają do rdzenia i płynnie zanikają.",
+    "Interfejs jest odsłaniany dopiero po zakończeniu sekwencji wygaszania.",
+    "Ustawienie ograniczonego ruchu pomija dodatkowe opóźnienie i zachowuje natychmiastowe przejście."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.944.bin",
@@ -17,11 +17,11 @@
     "sha256": "EC1ED15CC12FC7B9D3977C149C189CF86D36A7D03C9EA4525DC534F4F41AD4AF"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.865.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.866.bin",
     "size": 4194304,
-    "md5": "1D9B88DFD099E4B2BEBABCA1F8A2D4ED",
-    "sha256": "228B1F392EACC74C4DDF7D64E884CF9DAE206984E4EEAB089DCA9EC0170F7A37"
+    "md5": "C0940A26DB0BEC04B5921BFB2ADBF2A2",
+    "sha256": "34C889BDCD32C1021CE2EF5ABF8DD2A9365A913AC63CA216388451EBB0E3AE4F"
   },
-  "build_time": "2026-08-30T18:11:29+01:00",
+  "build_time": "2026-08-30T18:17:06+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
