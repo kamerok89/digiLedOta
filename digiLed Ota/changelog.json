@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.942",
+      "firmware_version": "1.0.0.942",
+      "filesystem_version": "1.0.0.855",
+      "date": "2026-08-30T16:00:06+01:00",
+      "title": "Kolejne testowe podbicie wersji",
+      "changes": [
+        "Podbito testową wersję firmware do 1.0.0.942.",
+        "Podbito testową wersję portalu LittleFS do 1.0.0.855.",
+        "Przebudowano firmware, LittleFS oraz scalony obraz pamięci flash."
+      ]
+    },
+    {
       "version": "1.0.0.941",
       "firmware_version": "1.0.0.941",
       "filesystem_version": "1.0.0.854",

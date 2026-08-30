@@ -1,26 +1,26 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.941",
-  "filesystem_version": "1.0.0.854",
+  "firmware_version": "1.0.0.942",
+  "filesystem_version": "1.0.0.855",
   "notes": "Testowe podbicie wersji firmware i portalu digiLed.",
   "changes": [
-    "Podbito testową wersję firmware do 1.0.0.941.",
-    "Podbito testową wersję portalu LittleFS do 1.0.0.854.",
+    "Podbito testową wersję firmware do 1.0.0.942.",
+    "Podbito testową wersję portalu LittleFS do 1.0.0.855.",
     "Przebudowano firmware, LittleFS oraz scalony obraz pamięci flash."
   ],
   "firmware": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.941.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.942.bin",
     "size": 1726976,
-    "md5": "78B4C5AA149A5FB29C733A4A7143B037",
-    "sha256": "EACBFADD7A3AF0F527070D51E7841541A4CF3270F39CFD6D9A228CD2E1468358"
+    "md5": "7E9ED92623290C656A2B52DB7A22BB40",
+    "sha256": "B983830A892B29EB95EC154F133276E4D0D7BDE918F76E998140127EAF932318"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.854.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.855.bin",
     "size": 4194304,
-    "md5": "45CB0A8B626F03FB9ED3031EBA5725E6",
-    "sha256": "22C930BC5EE0DCB027986208C4541B3B4F16506DDCC64A4956A2B1D0FC644162"
+    "md5": "C380F1C9A2CA332DFC89D0F1C729D8EC",
+    "sha256": "D5D82D77DEBAD30EDF929207BDBD0542A5BB4F16D0BAA0AAE1627916CDA2E93D"
   },
-  "build_time": "2026-08-30T15:51:33+01:00",
+  "build_time": "2026-08-30T16:00:06+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
