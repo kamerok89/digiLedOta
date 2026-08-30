@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.937",
+      "firmware_version": "1.0.0.937",
+      "filesystem_version": "1.0.0.851",
+      "date": "2026-08-30T14:59:21+01:00",
+      "title": "Usunięcie jawnej wartości starego hasła",
+      "changes": [
+        "Usunięto z firmware osobną stałą zawierającą historyczne domyślne hasło admin.",
+        "Wartość admin pozostaje wyłącznie domyślnym loginem, a domyślne hasło portalu to password.",
+        "Zachowano automatyczną migrację historycznego zapisu, ale stare hasło nie jest dopuszczane przez procedurę logowania.",
+        "Zbudowano firmware 1.0.0.937 i zsynchronizowany obraz LittleFS 1.0.0.851."
+      ]
+    },
+    {
       "version": "1.0.0.936",
       "firmware_version": "1.0.0.936",
       "filesystem_version": "1.0.0.850",
@@ -8,7 +21,7 @@
       "title": "Domyślne hasło Dostępu: password",
       "changes": [
         "Domyślne dane logowania do portalu i zakładki Dostęp zmieniono na admin / password.",
-        "Urządzenia nadal używające historycznych danych admin / admin automatycznie przechodzą na admin / password; własne dane użytkownika pozostają bez zmian.",
+        "Urządzenia nadal używające historycznych domyślnych danych automatycznie przechodzą na admin / password; własne dane użytkownika pozostają bez zmian.",
         "Zaktualizowano komunikaty portalu, polskie i angielskie pliki językowe oraz opis endpointu statusu uwierzytelniania.",
         "Zbudowano firmware 1.0.0.936 i obraz LittleFS 1.0.0.850."
       ]
