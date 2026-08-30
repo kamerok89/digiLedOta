@@ -1,6 +1,22 @@
 {
   "releases": [
     {
+      "version": "1.0.0.945",
+      "firmware_version": "1.0.0.945",
+      "filesystem_version": "1.0.0.868",
+      "date": "2026-08-30T18:39:14+01:00",
+      "title": "Nowy ekran captive portal digiLed",
+      "changes": [
+        "Ekran otwierany automatycznie po połączeniu z punktem dostępowym otrzymał pełny znak marki i układ zgodny z formularzem logowania.",
+        "Usunięto nagłówek DigiLED jest gotowy oraz osobny przycisk Otwórz portal.",
+        "Adres 192.168.4.1 jest teraz wyraźnym, bezpośrednim i interaktywnym odnośnikiem.",
+        "Dodano wybór języka polskiego lub angielskiego oraz jasnego lub ciemnego motywu.",
+        "Preferencje są aktualizowane w pamięci i trwale zapisywane przez nowy endpoint ograniczony wyłącznie do języka i motywu.",
+        "Formularz logowania odczytuje zapisane preferencje z urządzenia, dlatego wybór wykonany w captive portalu nie wymaga ponownego ustawiania.",
+        "Publicznie udostępniono jedynie endpoint preferencji oraz zasoby obrazów wymagane przez stronę captive."
+      ]
+    },
+    {
       "version": "1.0.0.867",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.867",
