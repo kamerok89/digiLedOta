@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.953",
+      "firmware_version": "1.0.0.953",
+      "filesystem_version": "1.0.0.870",
+      "date": "2026-08-30T20:21:57+01:00",
+      "title": "Czytelniejszy captive portal",
+      "changes": [
+        "Menu języka otrzymało nieprzezroczyste tło w obu motywach oraz wyraźniejszą strzałkę rozwijania.",
+        "Flaga Polski jest lepiej widoczna na jasnym tle dzięki obramowaniu i cieniowi.",
+        "Opis zmieniono na: Aby zalogować się do panelu urządzenia, kliknij poniższy przycisk.",
+        "Adres 192.168.4.1 wyśrodkowano i wyróżniono jako duży przycisk z reakcją na fokus i najechanie."
+      ]
+    },
+    {
       "version": "1.0.0.945",
       "firmware_version": "1.0.0.945",
       "filesystem_version": "1.0.0.868",

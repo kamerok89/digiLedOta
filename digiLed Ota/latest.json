@@ -1,27 +1,28 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.945",
-  "filesystem_version": "1.0.0.868",
-  "notes": "Nowy ekran captive portal z pełnym logo oraz zapisem języka i motywu.",
+  "firmware_version": "1.0.0.953",
+  "filesystem_version": "1.0.0.870",
+  "notes": "Dopracowany captive portal z czytelnymi kontrolkami i centralnym przyciskiem adresu.",
   "changes": [
     "Zastąpiono prosty komunikat po połączeniu z AP pełną sekcją marki znaną z formularza logowania.",
     "Usunięto przycisk otwierania portalu, a adres 192.168.4.1 jest teraz bezpośrednim interaktywnym linkiem.",
     "Dodano wybór języka polskiego lub angielskiego oraz jasnego lub ciemnego motywu.",
-    "Wybrane preferencje są natychmiast zapisywane w urządzeniu przez ograniczony publiczny endpoint i ponownie używane na ekranie logowania."
+    "Wybrane preferencje są natychmiast zapisywane w urządzeniu przez ograniczony publiczny endpoint i ponownie używane na ekranie logowania.",
+    "Ujednolicono opis logowania i przeniesiono adres portalu do centralnego, wyraźnego przycisku."
   ],
   "firmware": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.945.bin",
-    "size": 1738320,
-    "md5": "C6B634E08032EC2C672850D00D4F0E75",
-    "sha256": "ED4A9EEE179043B23A930574A082B6C24014C4842F8895CA7C9E1E515001239D"
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.953.bin",
+    "size": 1738960,
+    "md5": "172018512DDC6B46B2F55A89EDD1080B",
+    "sha256": "6C9B1F6F3E6A6D574655B77373D56482B34C37979BC505910A74A8A555408BA6"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.868.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.870.bin",
     "size": 4194304,
-    "md5": "8BE2D16CA7771AB201FE965DDCCEED2F",
-    "sha256": "14F286A7779972EABC00CF357428868D33271EE2BE4928387304C9710AB1D935"
+    "md5": "D2AB13208792EB108A5C08109DEE4097",
+    "sha256": "C42B7EF8C3423C2CFD81E08828A7414B0B4C4991CAD8AFCE4306351A5E77E9EF"
   },
-  "build_time": "2026-08-30T18:39:14+01:00",
+  "build_time": "2026-08-30T20:21:57+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
