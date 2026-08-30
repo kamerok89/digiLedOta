@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.858",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.858",
+      "date": "2026-08-30T16:52:47+01:00",
+      "title": "Animowany ekran startowy digiLed",
+      "changes": [
+        "Zastąpiono dotychczasową kropkę i tekst ładowania animowanym symbolem dwóch świetlnych okręgów.",
+        "Usunięto pasek postępu, a pod animacją umieszczono oryginalny napis digiLed wycięty z grafiki marki.",
+        "Wszystkie boczne flary są tworzone przez CSS i mają niezależne, płynne impulsy świetlne.",
+        "Ekran startowy skaluje się na mniejszych wyświetlaczach i respektuje ustawienie ograniczonego ruchu."
+      ]
+    },
+    {
       "version": "1.0.0.944",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.857",
