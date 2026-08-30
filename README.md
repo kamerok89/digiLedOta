@@ -1,9 +1,6 @@
 ﻿# digiLedOta
 
-Publiczne pliki aktualizacji OTA dla projektów digiLed.
+Publiczne pliki aktualizacji OTA projektu digiLed Gate.
 
-Manifest digiLed:
-https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed/latest.json
-
-Plik `releases/latest.json` pozostaje manifestem zgodności dla urządzeń ze
-starszym firmware i wskazuje artefakty z katalogu `digiLed/`.
+Pliki OTA projektu digiLed zostały przeniesione do katalogu `digiLed Ota/`
+w repozytorium `kamerok89/digiLed`.
