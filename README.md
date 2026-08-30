@@ -1,6 +1,6 @@
 ﻿# digiLedOta
 
-Publiczne pliki aktualizacji OTA projektu digiLed Gate.
+Publiczne pliki aktualizacji OTA projektów digiLed i digiLed Gate.
 
-Pliki OTA projektu digiLed zostały przeniesione do katalogu `digiLed Ota/`
-w repozytorium `kamerok89/digiLed`.
+- `digiLed Ota/` — aktualizacje projektu digiLed,
+- `digiLed Gate/` — aktualizacje projektu digiLed Gate.

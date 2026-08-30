@@ -1,0 +1,2647 @@
+{
+  "releases": [
+    {
+      "version": "1.0.0.938",
+      "firmware_version": "1.0.0.938",
+      "filesystem_version": "1.0.0.852",
+      "date": "2026-08-30T15:25:43+01:00",
+      "title": "Kanoniczny katalog digiLed Ota",
+      "changes": [
+        "Pliki aktualizacji przeniesiono do katalogu digiLed Ota/ w publicznym repozytorium digiLedOta.",
+        "Firmware i portal korzystają wyłącznie z manifestu digiLed Ota/latest.json na gałęzi main.",
+        "Usunięto manifesty zgodności, duplikaty artefaktów oraz obsługę starych pól i aliasów OTA.",
+        "Artefakty są publikowane z numerami wersji jako firmware-1.0.0.938.bin i littlefs-1.0.0.852.bin."
+      ]
+    },
+    {
+      "version": "1.0.0.937",
+      "firmware_version": "1.0.0.937",
+      "filesystem_version": "1.0.0.851",
+      "date": "2026-08-30T14:59:21+01:00",
+      "title": "Usunięcie jawnej wartości starego hasła",
+      "changes": [
+        "Usunięto z firmware osobną stałą zawierającą historyczne domyślne hasło admin.",
+        "Wartość admin pozostaje wyłącznie domyślnym loginem, a domyślne hasło portalu to password.",
+        "Zachowano automatyczną migrację historycznego zapisu, ale stare hasło nie jest dopuszczane przez procedurę logowania.",
+        "Zbudowano firmware 1.0.0.937 i zsynchronizowany obraz LittleFS 1.0.0.851."
+      ]
+    },
+    {
+      "version": "1.0.0.936",
+      "firmware_version": "1.0.0.936",
+      "filesystem_version": "1.0.0.850",
+      "date": "2026-08-30T14:45:30+01:00",
+      "title": "Domyślne hasło Dostępu: password",
+      "changes": [
+        "Domyślne dane logowania do portalu i zakładki Dostęp zmieniono na admin / password.",
+        "Urządzenia nadal używające historycznych domyślnych danych automatycznie przechodzą na admin / password; własne dane użytkownika pozostają bez zmian.",
+        "Zaktualizowano komunikaty portalu, polskie i angielskie pliki językowe oraz opis endpointu statusu uwierzytelniania.",
+        "Zbudowano firmware 1.0.0.936 i obraz LittleFS 1.0.0.850."
+      ]
+    },
+    {
+      "version": "1.0.0.933",
+      "firmware_version": "1.0.0.933",
+      "filesystem_version": "1.0.0.849",
+      "date": "2026-08-30T14:19:30+01:00",
+      "title": "Nowe domyślne hasło punktu dostępowego",
+      "changes": [
+        "Domyślne hasło Wi-Fi punktu dostępowego digiLed zmieniono z admin123 na password.",
+        "Nowa wartość jest używana w świeżej konfiguracji, po resecie fabrycznym oraz jako bezpieczny fallback dla nieprawidłowego hasła AP.",
+        "Istniejące hasło zapisane przez użytkownika pozostaje bez zmian.",
+        "Zbudowano firmware 1.0.0.933 i odświeżono obraz LittleFS 1.0.0.849."
+      ]
+    },
+    {
+      "version": "1.0.0.930",
+      "firmware_version": "1.0.0.930",
+      "filesystem_version": "1.0.0.849",
+      "date": "2026-08-30T13:45:45+01:00",
+      "title": "Zmiana nazwy projektu na digiLed",
+      "changes": [
+        "Zmieniono nazwę repozytorium projektu z s3_seedStudio na digiLed i odświeżono lokalne odwołania konfiguracyjne.",
+        "Pliki OTA projektu korzystają z wydzielonego katalogu publikacyjnego oraz bezpośrednich adresów manifestu i changelogu.",
+        "Zbudowano firmware 1.0.0.930, portal LittleFS 1.0.0.849 i scalony obraz flash 8 MB."
+      ]
+    },
+    {
+      "version": "1.0.0.924",
+      "firmware_version": "1.0.0.924",
+      "filesystem_version": "1.0.0.847",
+      "date": "2026-07-31T17:04:48+01:00",
+      "title": "Płynna zmiana efektu przez External API",
+      "changes": [
+        "Endpoint /api/ext/scene/fx nie wykonuje już synchronicznego zapisu NVS i LittleFS pod blokadą silnika LED.",
+        "Nowa konfiguracja efektów start, run i stop jest stosowana natychmiast, a trwały zapis trafia do kolejki w tle.",
+        "Publikacja zaktualizowanego stanu sceny odbywa się po zwolnieniu blokady silnika."
+      ]
+    },
+    {
+      "version": "1.0.0.923",
+      "firmware_version": "1.0.0.923",
+      "filesystem_version": "1.0.0.847",
+      "date": "2026-07-31T16:54:27+01:00",
+      "title": "Płynna zmiana koloru przez External API",
+      "changes": [
+        "Zmiana koloru globalnego przez HTTP aktualizuje silnik LED natychmiast, bez synchronicznego zapisu flash w sekcji krytycznej.",
+        "Zmiana lokalnego koloru sceny oraz przełączenie jej na kolor globalny korzystają z tej samej kolejki zapisu w tle.",
+        "Trwały zapis NVS i LittleFS odbywa się asynchronicznie, dzięki czemu przejście koloru nie powinno zatrzymywać efektu."
+      ]
+    },
+    {
+      "version": "1.0.0.847",
+      "firmware_version": "1.0.0.922",
+      "filesystem_version": "1.0.0.847",
+      "date": "2026-07-31T16:43:29+01:00",
+      "title": "Zapis zerowych opóźnień scen",
+      "changes": [
+        "Globalne opóźnienie startu ustawione na 0 jest teraz kopiowane do wszystkich scen i poprawnie zapisywane.",
+        "Analogicznie poprawiono zapis globalnego opóźnienia stopu ustawionego na 0.",
+        "Zachowano możliwość ustawiania różnych opóźnień bezpośrednio w poszczególnych scenach."
+      ]
+    },
+    {
+      "version": "1.0.0.922",
+      "firmware_version": "1.0.0.922",
+      "filesystem_version": "1.0.0.846",
+      "date": "2026-07-25T17:16:17+01:00",
+      "title": "Jednowierszowa konfiguracja Wi-Fi w terminalu",
+      "changes": [
+        "Dodano komendę wifi:ssid:password:0123, która łączy urządzenie z siecią i zapisuje poprawne dane jako domyślne.",
+        "Hasło Wi-Fi jest maskowane w historii i na wyjściu terminala.",
+        "Przy błędnych danych urządzenie przywraca poprzednią konfigurację i ponawia połączenie z dotychczasową siecią."
+      ]
+    },
+    {
+      "version": "1.0.0.918",
+      "firmware_version": "1.0.0.918",
+      "filesystem_version": "1.0.0.846",
+      "date": "2026-07-18T19:17:04+01:00",
+      "title": "Stan wyłączonego API w wyszukiwaniu",
+      "changes": [
+        "GET /api/search/ zwraca ok: false, gdy External API jest wyłączone.",
+        "Przy wyłączonym API pole token ma wartość required, zgodnie z kontraktem integracji.",
+        "Dla włączonego API zachowano ok: true oraz rozróżnienie required/not zależne od trybu tokena.",
+        "Zaktualizowano przykłady w /api/help i odświeżono pakiety firmware oraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.845",
+      "firmware_version": "1.0.0.917",
+      "filesystem_version": "1.0.0.845",
+      "date": "2026-07-18T18:28:30+01:00",
+      "title": "Dokumentacja wyszukiwania urządzenia",
+      "changes": [
+        "Dodano GET /api/search/ do sekcji Szybki start w /api/help.",
+        "Opis wyjaśnia publiczny charakter endpointu oraz brak wymogu podawania tokena.",
+        "Udokumentowano pola ok, token i version wraz z wartościami required/not.",
+        "Dodano przykładową odpowiedź JSON i odświeżono obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.917",
+      "firmware_version": "1.0.0.917",
+      "filesystem_version": "1.0.0.843",
+      "date": "2026-07-18T18:23:07+01:00",
+      "title": "Wyszukiwanie urządzenia przez HTTP API",
+      "changes": [
+        "Dodano publiczne zapytanie GET /api/search/ oraz zgodny wariant bez końcowego ukośnika.",
+        "Odpowiedź zawiera status ok, informację required/not o wymaganiu tokenu oraz aktualną wersję firmware.",
+        "Endpoint wyszukiwania działa również wtedy, gdy portal jest chroniony logowaniem.",
+        "Informacja o wymaganiu tokenu jest zgodna z aktualnym trybem zewnętrznego API."
+      ]
+    },
+    {
+      "version": "1.0.0.916",
+      "firmware_version": "1.0.0.916",
+      "filesystem_version": "1.0.0.842",
+      "date": "2026-07-18T16:07:10+01:00",
+      "title": "Automatyczne obcinanie zakresów scen",
+      "changes": [
+        "Po zmniejszeniu liczby LED każda scena zachowuje początek zakresu i ma skracany koniec do ostatniej dostępnej diody.",
+        "Scena znajdująca się w całości poza nowym paskiem jest przenoszona na ostatnią dostępną diodę i otrzymuje długość 1 LED.",
+        "Portal normalizuje zakresy przed wysłaniem konfiguracji, dzięki czemu zapis nie jest blokowany komunikatem o przekroczeniu zakresu.",
+        "Firmware ponownie zabezpiecza zakresy podczas zapisu, wczytywania pliku i zmiany liczby LED przez API."
+      ]
+    },
+    {
+      "version": "1.0.0.915",
+      "firmware_version": "1.0.0.915",
+      "filesystem_version": "1.0.0.841",
+      "date": "2026-07-18T15:53:45+01:00",
+      "title": "Trwały zapis konfiguracji scen",
+      "changes": [
+        "Portal potwierdza zapis scen dopiero po trwałym zapisaniu i zweryfikowaniu pliku /scenes.json.",
+        "Usunięto okno czasowe, w którym szybki restart mógł przywrócić starszy tryb koloru lub inne ustawienia sceny.",
+        "Dodano weryfikację zawartości pliku po zapisie oraz kopię awaryjną przy atomowej podmianie konfiguracji.",
+        "Po przerwanym zapisie firmware automatycznie odzyskuje ostatnią poprawną konfigurację scen i stan runtime."
+      ]
+    },
+    {
+      "version": "1.0.0.913",
+      "firmware_version": "1.0.0.913",
+      "filesystem_version": "1.0.0.840",
+      "date": "2026-07-17T14:24:06+01:00",
+      "title": "Nowy kontrakt komend radiowych RGBW",
+      "changes": [
+        "Komenda W=2 zmienia teraz wyłącznie nasycenie z pola R i zachowuje jasność.",
+        "Komenda W=3 zmienia teraz wyłącznie jasność z pola R, w tym poprawnie obsługuje wartość 0%, i zachowuje nasycenie.",
+        "Sterowanie prędkościami startu, pracy i zatrzymania efektów przeniesiono bez warstwy zgodności z W=3 pod W=12.",
+        "Dla W=2 i W=3 pole B wybiera wszystkie sceny wartością 0 albo pojedynczą scenę z zakresu 1–24."
+      ]
+    },
+    {
+      "version": "1.0.0.840",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.840",
+      "date": "2026-07-12T15:44:39+01:00",
+      "title": "Hover menu języka i trybu użytkownika",
+      "changes": [
+        "Dodano wyraźny hover, focus i stan otwartego menu dla wyboru języka w nagłówku portalu.",
+        "Dodano ten sam efekt podświetlenia dla menu wyboru trybu użytkownika.",
+        "Dopasowano wygląd do jasnego i ciemnego motywu oraz odświeżono obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.839",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.839",
+      "date": "2026-07-09T22:19:11+01:00",
+      "title": "Kompaktowy modal wczytywania ustawień",
+      "changes": [
+        "Modal postępu wczytywania ustawień jest węższy i nie rozciąga się od pola nazwy pliku.",
+        "Backdrop tego modala nie rozmywa już całego UI podczas restartu.",
+        "Nazwa pliku w stanie postępu jest skracana elipsą, zamiast poszerzać okno.",
+        "Odświeżono CSS i obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.838",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.838",
+      "date": "2026-07-09T21:53:58+01:00",
+      "title": "Menu ustawień w aktualizacjach",
+      "changes": [
+        "Dodano przycisk Ustawienia z ikoną EDE3 i chevronem, spójny wizualnie z przyciskiem Lista zmian.",
+        "Po kliknięciu przycisku Ustawienia dostępne są opcje Wczytaj ustawienia i Pobierz ustawienia.",
+        "Usunięto osobne przyciski wczytywania i pobierania ustawień z paska aktualizacji.",
+        "Odświeżono CSS, script.js.gz i obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.837",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.837",
+      "date": "2026-07-09T20:37:59+01:00",
+      "title": "Terminal live w diagnostyce",
+      "changes": [
+        "Usunięto kafelek Live scen oraz jego nieużywane style, logikę JS i klucze tłumaczeń.",
+        "Terminal w diagnostyce odświeża historię cyklicznie, gdy zakładka Diagnostyka jest aktywna i kafelek Terminal jest rozwinięty.",
+        "Dodano start odświeżania po wejściu do widoku Diagnostyka i zatrzymanie po wyjściu z widoku.",
+        "Odświeżono CSS, script.js.gz, słowniki i obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.835",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.835",
+      "date": "2026-07-09T19:56:50+01:00",
+      "title": "Stabilniejszy pasek ustawień",
+      "changes": [
+        "Przyciski Wczytaj ustawienia i Pobierz ustawienia są wyrównane po lewej, zaraz za przyciskiem Lista zmian.",
+        "Pill statusu ustawień ma stałą szerokość 184 px i obcina długi tekst elipsą zamiast przepychać przyciski.",
+        "Odświeżono CSS oraz obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.834",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.834",
+      "date": "2026-07-09T19:47:24+01:00",
+      "title": "Status obok nazwy sceny",
+      "changes": [
+        "Zmniejszono szerokość pola nazwy sceny z 180 px do 162 px.",
+        "Przeniesiono status sceny, np. Włączona lub Wyłączona, bezpośrednio obok nazwy sceny.",
+        "Odświeżono CSS, script.js.gz i obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.833",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.833",
+      "date": "2026-07-09T18:40:33+01:00",
+      "title": "Węższa nazwa sceny",
+      "changes": [
+        "Szerokość boxa nazwy sceny w kompaktowym nagłówku zmniejszono z 360 px do 180 px.",
+        "Pill Zakres ma dzięki temu więcej miejsca w tej samej linii obok nazwy sceny.",
+        "Odświeżono CSS i obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.832",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.832",
+      "date": "2026-07-09T18:31:52+01:00",
+      "title": "Czytelniejszy nagłówek sceny",
+      "changes": [
+        "Ukryto linię czasu LED dla zwiniętych kart konfiguracji scen.",
+        "Przeniesiono pill Zakres do nagłówka sceny, pomiędzy nazwę sceny i przyciski akcji.",
+        "Dopasowano CSS nagłówka sceny i odświeżono skompresowane zasoby portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.830",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.830",
+      "date": "2026-07-09T18:17:05+01:00",
+      "title": "Porządek w konfiguracji scen",
+      "changes": [
+        "Usunięto panel Wybrana scena z sekcji Setup/Parametry globalne w konfiguracji scen.",
+        "Usunięto generator HTML, localStorage i handlery kliknięć oraz drag dla edytora inline zakresu LED.",
+        "Usunięto nieużywane style ciemnego i jasnego motywu dla sceneCfgInlineRangeEditor oraz odświeżono skompresowane zasoby portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.911",
+      "firmware_version": "1.0.0.911",
+      "filesystem_version": "1.0.0.827",
+      "date": "2026-07-06T20:12:22+01:00",
+      "title": "Czytelny log pinoutu",
+      "changes": [
+        "Zmieniono log [PINOUT] z list liczbowych na nazwane pola dla wszystkich sygnałów sprzętowych.",
+        "Szczególnie rozdzielono milight_miso i milight_mosi, żeby łatwo wykryć odwrotne podłączenie przewodów nRF24.",
+        "Zmiana jest diagnostyczna i nie modyfikuje zapisanych ustawień ani kolejności działania modułów."
+      ]
+    },
+    {
+      "version": "1.0.0.910",
+      "firmware_version": "1.0.0.910",
+      "filesystem_version": "1.0.0.827",
+      "date": "2026-07-06T20:06:15+01:00",
+      "title": "Stabilizacja pinoutu MiLight",
+      "changes": [
+        "Dodano globalny resolver konfliktów pinoutu po starcie i przed zapisem ustawień, niezależny od tego, czy request zawiera pełną sekcję pinout.",
+        "MiLight/nRF ma teraz wyższy priorytet niż PWM, Modbus i Sound Reactive, więc ustawienie CE/CSN/SCK/MISO/MOSI na GPIO1-5 nie jest kasowane przez starsze przypisania innych modułów.",
+        "Firmware loguje rozwiązanie konfliktów oraz zapisuje już oczyszczony pinout, żeby konfiguracja nie rozsypywała się po następnym restarcie."
+      ]
+    },
+    {
+      "version": "1.0.0.909",
+      "firmware_version": "1.0.0.909",
+      "filesystem_version": "1.0.0.827",
+      "date": "2026-07-06T19:50:46+01:00",
+      "title": "Diagnostyka i ochrona pinoutu",
+      "changes": [
+        "Dodano log pełnego pinoutu po wczytaniu i zapisie ustawień, aby łatwo sprawdzić, który GPIO faktycznie trafia do runtime po restarcie.",
+        "Plik settings.json zapisuje teraz także pinout.system z WS2812, Factory Reset i wbudowaną LED, co usuwa niejednoznaczność między starymi i nowymi polami pinoutu.",
+        "PWM Capture pomija piny skonfigurowane jako WS2812, Factory Reset lub wbudowana LED, więc nie przełącza ich przypadkowo w wejście przy konflikcie konfiguracji."
+      ]
+    },
+    {
+      "version": "1.0.0.908",
+      "firmware_version": "1.0.0.908",
+      "filesystem_version": "1.0.0.827",
+      "date": "2026-07-06T19:40:50+01:00",
+      "title": "Wygaszanie WS2812 przed restartem",
+      "changes": [
+        "Przed restartem firmware wysyła czarną ramkę na aktualnie aktywny pin WS2812, żeby stara taśma nie świeciła ostatnim zapamiętanym kolorem po zmianie pinoutu.",
+        "Restart przez /api/restart korzysta teraz z tego samego workera co /api/reboot, zamiast restartować urządzenie bezpośrednio po zamknięciu połączenia HTTP.",
+        "Stan scen w trybie boot restore jest zapisywany przed wygaszeniem, więc poprawka nie zmienia zapamiętanego trybu pracy świateł."
+      ]
+    },
+    {
+      "version": "1.0.0.907",
+      "firmware_version": "1.0.0.907",
+      "filesystem_version": "1.0.0.827",
+      "date": "2026-07-06T19:29:08+01:00",
+      "title": "Wzmocnienie pinu WS2812",
+      "changes": [
+        "Wzmocniono start WS2812: FxEngine przed dodaniem aktywnego kontrolera wyłącza wszystkie istniejące kontrolery FastLED, aby stary pin nie mógł dalej nadawać po zmianie pinoutu.",
+        "Dodano log diagnostyczny startu LED z żądanym i faktycznie użytym GPIO oraz liczbą kontrolerów FastLED przed i po inicjalizacji.",
+        "Odświeżono obraz LittleFS bez zmiany wersji portalu, aby version.json pokazywał firmware 1.0.0.907."
+      ]
+    },
+    {
+      "version": "1.0.0.827",
+      "firmware_version": "1.0.0.906",
+      "filesystem_version": "1.0.0.827",
+      "date": "2026-07-06T19:16:48+01:00",
+      "title": "Naprawa combo Pinout",
+      "changes": [
+        "Naprawiono cofanie wyboru w combo Pinout dla pól systemowych, takich jak DATA WS2812, Factory Reset i wbudowana LED.",
+        "Frontend nadaje teraz pierwszeństwo wartościom pinout.system, więc zmiana wybrana w formularzu zostaje w draftcie i nie wraca od razu do starego pinu.",
+        "Odświeżono script.js.gz, aby przeglądarka dostawała poprawioną logikę bez ręcznego podmieniania plików."
+      ]
+    },
+    {
+      "version": "1.0.0.906",
+      "firmware_version": "1.0.0.906",
+      "filesystem_version": "1.0.0.826",
+      "date": "2026-07-06T19:09:44+01:00",
+      "title": "Naprawa stosowania Pinout",
+      "changes": [
+        "Naprawiono zapis systemowych pinów Pinout: firmware czyta teraz także strukturę pinout.system dla WS2812, Factory Reset i wbudowanej LED.",
+        "Po zapisie pinów wymagających restartu, czyli WS2812, PWM lub MiLight, portal automatycznie uruchamia kontrolowany restart urządzenia po zakończeniu zapisu ustawień.",
+        "Dzięki temu zmiana DATA WS2812 z zakładki Pinout działa tak samo jak po imporcie pliku ustawień z pinoutem.",
+        "Priorytet ma teraz pinout.system, więc starsze pola top-level nie nadpiszą przypadkowo wartości wybranych w nowym UI."
+      ]
+    },
+    {
+      "version": "1.0.0.905",
+      "firmware_version": "1.0.0.905",
+      "filesystem_version": "1.0.0.825",
+      "date": "2026-07-06T13:36:15+01:00",
+      "title": "Naprawa zapisu Sound Reactive",
+      "changes": [
+        "Naprawiono zapis stanu Sound Reactive: endpointy audio sprawdzają wynik trwałego zapisu i cofają zmianę w RAM, jeśli zapis się nie powiedzie.",
+        "Wyłączenie Sound Reactive nie jest już blokowane przez walidację pinów I2S, więc można wyłączyć funkcję nawet przy konflikcie GPIO.",
+        "Portal pokazuje teraz dokładniejszy komunikat błędu dla Sound Reactive, w tym konflikt pinów albo problem zapisu ustawień.",
+        "Odświeżono obraz LittleFS, aby przeglądarka otrzymywała aktualny script.js.gz z poprawioną obsługą błędów audio."
+      ]
+    },
+    {
+      "version": "1.0.0.904",
+      "firmware_version": "1.0.0.904",
+      "filesystem_version": "1.0.0.824",
+      "date": "2026-07-06T13:25:35+01:00",
+      "title": "Naprawa zapisów MiLight",
+      "changes": [
+        "Zwiększono limit body dla /api/milight/actions z 4 KB do 16 KB, aby pełne mapowania akcji pilota nie były odrzucane jako zbyt duże.",
+        "Zapis akcji MiLight zwraca teraz błąd, jeśli nie uda się zapisać /milight.json ani fallbacku NVS.",
+        "Dodawanie, usuwanie i zmiana ustawień pilota MiLight przywracają poprzedni stan RAM, jeśli trwały zapis się nie powiedzie.",
+        "Przejrzano pozostałe endpointy zapisu pod kątem limitów request body i statusu utrwalenia.",
+        "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.904."
+      ]
+    },
+    {
+      "version": "1.0.0.903",
+      "firmware_version": "1.0.0.903",
+      "filesystem_version": "1.0.0.824",
+      "date": "2026-07-06T13:15:49+01:00",
+      "title": "Naprawa importu ustawień",
+      "changes": [
+        "Naprawiono import ustawień z pliku: restart po imporcie nie jest już uruchamiany przez zamknięcie połączenia HTTP.",
+        "Po wczytaniu konfiguracji urządzenie najpierw zwraca poprawną odpowiedź do portalu, a dopiero potem worker wykonuje opóźniony restart.",
+        "Usunięto fałszywy komunikat o błędzie wczytywania, który pojawiał się mimo poprawnego zapisania ustawień.",
+        "Odświeżono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.903."
+      ]
+    },
+    {
+      "version": "1.0.0.902",
+      "firmware_version": "1.0.0.902",
+      "filesystem_version": "1.0.0.824",
+      "date": "2026-07-06T12:59:18+01:00",
+      "title": "Naprawa zapisu Pinout",
+      "changes": [
+        "Naprawiono zapis Pinout po klikni?ciu Zapisz: worker ustawie? nie blokuje ju? ponownie mutexa LittleFS podczas atomowego zapisu settings.json.",
+        "Usuni?to sytuacj?, w kt?rej zapis konfiguracji ko?czy? si? b??dem save_failed, mimo ?e formularz Pinout by? poprawny.",
+        "Od?wie?ono obraz LittleFS tylko o aktualny version.json dla firmware 1.0.0.902."
+      ]
+    },
+    {
+      "version": "1.0.0.901",
+      "firmware_version": "1.0.0.901",
+      "filesystem_version": "1.0.0.824",
+      "date": "2026-07-06T12:49:57+01:00",
+      "title": "R?czny zapis Pinout",
+      "changes": [
+        "Pinout nie zapisuje si? ju? automatycznie po ka?dej zmianie pojedynczego pola.",
+        "Dodano przycisk Zapisz obok przycisku Domy?lne oraz status Niezapisane zmiany po edycji pin?w.",
+        "Przycisk Domy?lne ustawia domy?lny pinout jako draft, ale nie zapisuje go bez potwierdzenia przyciskiem Zapisz.",
+        "Zapis /api/config zwraca teraz job_id dla kolejki zapisu, dzi?ki czemu portal czeka na faktyczne utrwalenie ustawie? przed komunikatem sukcesu.",
+        "Od?wie?ono obraz LittleFS z nowym UI Pinout i aktualnym version.json."
+      ]
+    },
+    {
+      "version": "1.0.0.899",
+      "firmware_version": "1.0.0.899",
+      "filesystem_version": "1.0.0.823",
+      "date": "2026-07-06T12:25:21+01:00",
+      "title": "Odci??enie callback?w AsyncWebServer",
+      "changes": [
+        "Dodano wsp?ln? kolejk? AsyncWork z workerem FreeRTOS i endpointem /api/work/status do ?ledzenia zada?.",
+        "Przeniesiono rekurencyjne kopiowanie i usuwanie plik?w z callback?w HTTP do workera oraz dodano porcjowane listowanie katalog?w w FileManager.",
+        "Kalibracja PWM capture wykonuje pr?bki w workerze, a czyszczenie kalibracji kolejkuje zapis ustawie? zamiast blokowa? async_tcp.",
+        "POST /api/config zapisuje zmiany w RAM i szybko zwraca odpowied?, a zapis konfiguracji, WiFi/AP/hostname/NTP i reconnect wykonuj? si? poza callbackiem.",
+        "Restart i reset fabryczny s? kolejkowane po odpowiedzi HTTP, a portal/FileManager potrafi? pollowa? status job?w.",
+        "Wzmocniono koalescowanie zapis?w ustawie?, aby worker cierpliwie czeka? na mutex zamiast zostawia? aktywne zadanie w stanie po?rednim."
+      ]
+    },
+    {
+      "version": "1.0.0.894",
+      "firmware_version": "1.0.0.894",
+      "filesystem_version": "1.0.0.822",
+      "date": "2026-07-06T11:47:18+01:00",
+      "title": "Mniejsze zużycie RAM przez FxEngine",
+      "changes": [
+        "Usunięto trwałe bufory scen LED z RAM i renderowanie odbywa się teraz bezpośrednio do bufora finalnego.",
+        "Zachowano dotychczasową kolejność nakładania scen: nowsza aktywacja nadpisuje swój pełny zakres, także dla efektów z czarnymi pikselami.",
+        "Obniżono statyczne użycie RAM z około 178 KB do około 108 KB przy zachowaniu limitu 24 scen i 1000 LED.",
+        "Zbudowano firmware 1.0.0.894 oraz odświeżono obraz LittleFS 1.0.0.822 z aktualnym version.json."
+      ]
+    },
+    {
+      "version": "1.0.0.822",
+      "firmware_version": "1.0.0.893",
+      "filesystem_version": "1.0.0.822",
+      "date": "2026-07-06T11:22:43+01:00",
+      "title": "Konfigurowalna wbudowana LED w Pinout",
+      "changes": [
+        "Skrócono etykiety ról w Pinout: PWM pokazuje R/G/B/W, RS485 pokazuje RX/TX/DE/RE, a Sound Reactive pokazuje BCLK/WS/SD.",
+        "Do kafelka System dodano wybór pinu dla wbudowanej diody LED z domyślnym GPIO21 dla XIAO ESP32S3.",
+        "Firmware zapisuje pin w pinout.onboardLed, pilnuje konfliktów z WS2812 i Factory Reset oraz przełącza wskaźnik LED na nowy GPIO po zapisie.",
+        "Opublikowano firmware 1.0.0.893 oraz obraz LittleFS 1.0.0.822."
+      ]
+    },
+    {
+      "version": "1.0.0.821",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.821",
+      "date": "2026-07-06T11:02:30+01:00",
+      "title": "Neutralna lista GPIO w Pinout",
+      "changes": [
+        "Ujednolicono listy wyboru Pinout: piny pokazują teraz tylko nazwy GPIO01, GPIO02 itd., bez dopisków od poprzednich funkcji.",
+        "Usunięto z listy piny zarezerwowane, których nie można użyć, np. BOOT, USB, TX, RX i STRAP.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.821."
+      ]
+    },
+    {
+      "version": "1.0.0.820",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.820",
+      "date": "2026-07-06T10:53:19+01:00",
+      "title": "Krótsze etykiety pinów w Pinout",
+      "changes": [
+        "Uproszczono listy wyboru w Pinout: zwykłe piny pokazują teraz tylko nazwę bazową bez dopisków typu PWM R, CE czy Wolny.",
+        "Zostawiono ostrzeżenia przy pinach zarezerwowanych, np. BOOT lub USB, oraz pozycję Brak przypisania.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.820."
+      ]
+    },
+    {
+      "version": "1.0.0.819",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.819",
+      "date": "2026-07-06T10:35:04+01:00",
+      "title": "Desktopowy układ parametrów globalnych scen",
+      "changes": [
+        "Poprawiono desktopowy układ Parametry globalne w konfiguracji scen.",
+        "Kafel Ustawienia dostał więcej miejsca, a kafel Kolor został zwężony tak, aby suwaki nie zachodziły na zakres scen.",
+        "Sekcja Prędkość przechodzi pod Ustawienia i Kolor na pełną szerokość panelu.",
+        "Zachowano układ jednokolumnowy na małych szerokościach.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.819."
+      ]
+    },
+    {
+      "version": "1.0.0.817",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.817",
+      "date": "2026-07-06T10:24:50+01:00",
+      "title": "Poprawka parametrów globalnych scen",
+      "changes": [
+        "Naprawiono rozjeżdżanie się widoku Parametry globalne w konfiguracji scen.",
+        "Kafel Ustawienia przy średnich szerokościach układa teraz limit mocy pod licznikami, zamiast nachodzić na kafel Kolor.",
+        "Zachowano dwukolumnowy układ Ustawienia/Kolor tam, gdzie mieści się bez kolizji.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.817."
+      ]
+    },
+    {
+      "version": "1.0.0.816",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.816",
+      "date": "2026-07-06T10:12:15+01:00",
+      "title": "Przyciski ustawień przy liście zmian",
+      "changes": [
+        "Przeniesiono przyciski Wczytaj ustawienia i Pobierz ustawienia do wiersza Lista zmian po prawej stronie panelu aktualizacji.",
+        "Status importu/eksportu ustawień został przeniesiony razem z przyciskami, więc komunikaty pojawiają się przy właściwej akcji.",
+        "Dolny pasek narzędzi Oprogramowanie pokazuje teraz tylko File Manager i Recovery.",
+        "Dostosowano układ mobilny, aby przyciski ustawień zawijały się pod Listą zmian na węższych ekranach.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.816."
+      ]
+    },
+    {
+      "version": "1.0.0.814",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.814",
+      "date": "2026-07-06T09:56:28+01:00",
+      "title": "Zamykanie wyboru pliku bez zawieszonego spinnera",
+      "changes": [
+        "Poprawiono wykrywanie anulowania wyboru pliku w zakładce Oprogramowanie, aby spinner gasł po zamknięciu okna bez wybrania pliku.",
+        "Obserwator anulowania startuje teraz przed otwarciem systemowego okna pliku i reaguje na powrót focusu, widoczności strony oraz pierwszy klik lub klawisz po powrocie.",
+        "Ten sam bezpieczniejszy mechanizm zastosowano przy wczytywaniu pliku ustawień.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.814."
+      ]
+    },
+    {
+      "version": "1.0.0.813",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.813",
+      "date": "2026-07-06T09:49:13+01:00",
+      "title": "Przyjaźniejsze opisy Pinout",
+      "changes": [
+        "Zmieniono opisy sekcji PWM, Modbus/TF-Bus, Sound Reactive, MiLight i System na bardziej zrozumiałe dla użytkownika.",
+        "Dolna notatka Pinout wyjaśnia teraz prostszym językiem, które zmiany wymagają restartu urządzenia.",
+        "Dropdowny nie dublują już nazwy aktualnie wybranej roli, np. GPIO15 / PWM R nie pokazuje drugi raz PWM R po myślniku.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.813."
+      ]
+    },
+    {
+      "version": "1.0.0.812",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.812",
+      "date": "2026-07-06T09:40:28+01:00",
+      "title": "Porządek w kafelku Pinout",
+      "changes": [
+        "Przeniesiono przycisk Domyślne na dół kafelka Pinout.",
+        "Zmieniono kolejność pól MiLight na CE/CSN, SCK/MOSI oraz MISO/IRQ.",
+        "Skrócono etykiety i opisy pinów MiLight do samych nazw CE, CSN, SCK, MOSI, MISO i IRQ.",
+        "Zmieniono opis sekcji MiLight na łagodniejszy tekst o połączeniu odbiornika dla pilotów MiLight oraz Grenton TF-Bus.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.812."
+      ]
+    },
+    {
+      "version": "1.0.0.811",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.811",
+      "date": "2026-07-06T09:27:36+01:00",
+      "title": "Widoczna sekcja System w Pinout",
+      "changes": [
+        "Odświeżono skompresowany script.js.gz, aby portal serwowany z gzip pokazywał nową sekcję System w zakładce Pinout.",
+        "Poprawiono fallback notatki Pinout informującej, że zmiana WS2812 działa po restarcie, a Factory Reset odświeża się od razu.",
+        "Firmware pozostaje w wersji 1.0.0.892; opublikowano obraz LittleFS 1.0.0.811."
+      ]
+    },
+    {
+      "version": "1.0.0.892",
+      "firmware_version": "1.0.0.892",
+      "filesystem_version": "1.0.0.810",
+      "date": "2026-07-06T09:16:00+01:00",
+      "title": "Pinout z pinami systemowymi",
+      "changes": [
+        "W zakładce Pinout dodano sekcję System z wyborem GPIO dla danych WS2812 oraz przycisku Factory Reset.",
+        "Firmware zapisuje nowe pola pinout.ws2812 i pinout.factoryReset w settings.json oraz uwzględnia je w imporcie kopii ustawień.",
+        "Factory Reset przełącza się od razu po zapisie, a pin WS2812 jest używany przy inicjalizacji LED po restarcie urządzenia.",
+        "Walidacja konfliktów Modbus i Sound Reactive korzysta teraz z wybranych pinów systemowych.",
+        "Zbudowano firmware 1.0.0.892 oraz obraz LittleFS 1.0.0.810."
+      ]
+    },
+    {
+      "version": "1.0.0.809",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.809",
+      "date": "2026-07-06T08:53:46+01:00",
+      "title": "Cofnięcie ostatniej zmiany wyboru pliku",
+      "changes": [
+        "Przywrócono zachowanie, w którym spinner pojawia się od razu po kliknięciu przycisku wyboru pliku.",
+        "Cofnięto zmianę z wersji 1.0.0.808 uruchamiającą animację dopiero po faktycznym wybraniu pliku.",
+        "Zachowano wcześniejsze zabezpieczenie przed zbyt szybkim czyszczeniem statusu po powrocie z okna wyboru pliku.",
+        "Opublikowano obraz LittleFS 1.0.0.809; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.808",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.808",
+      "date": "2026-07-06T08:44:41+01:00",
+      "title": "Spinner dopiero po wyborze pliku",
+      "changes": [
+        "Kliknięcie przycisku wyboru pliku nie uruchamia już spinnera przed otwarciem systemowego okna pliku.",
+        "Animacja i komunikat startują dopiero po faktycznym wybraniu pliku ustawień, firmware lub filesystemu.",
+        "Zachowano zabezpieczenie przed zbyt szybkim czyszczeniem statusu po powrocie z okna wyboru pliku.",
+        "Opublikowano obraz LittleFS 1.0.0.808; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.807",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.807",
+      "date": "2026-07-06T08:15:26+01:00",
+      "title": "Stabilny feedback po wyborze pliku",
+      "changes": [
+        "Wydłużono zabezpieczenie anulowania wyboru pliku, aby portal nie czyścił spinnera zanim przeglądarka przekaże wybrany plik do zdarzenia change.",
+        "Po wyborze firmware, filesystemu lub ustawień komunikat oczekiwania nie wraca już przedwcześnie do stanu Urządzenie ma aktualną wersję.",
+        "Opublikowano obraz LittleFS 1.0.0.807; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.806",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.806",
+      "date": "2026-07-06T08:04:28+01:00",
+      "title": "Spinner przed otwarciem wyboru pliku",
+      "changes": [
+        "Spinner i komunikat oczekiwania pojawiają się teraz jeszcze przed otwarciem systemowego okna wyboru pliku ustawień, firmware lub filesystemu.",
+        "Wybór lokalnego pliku firmware/filesystem przechodzi przez wspólny stan oczekiwania, a anulowanie wyboru przywraca kafelki do normalnego stanu.",
+        "Przywrócono odmalowanie UI przed kliknięciem ukrytego inputa pliku, aby feedback był widoczny także wtedy, gdy przeglądarka blokuje się po wyborze dużego pliku.",
+        "Opublikowano obraz LittleFS 1.0.0.806; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.805",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.805",
+      "date": "2026-07-06T07:38:26+01:00",
+      "title": "Natychmiastowy feedback po wyborze pliku",
+      "changes": [
+        "Po wybraniu lokalnego pliku firmware lub filesystemu panel od razu pokazuje aktywny kafelek, spinner i komunikat przygotowania pliku.",
+        "Przed otwarciem modala kopii ustawień oraz przed wysłaniem pliku portal czeka na odmalowanie UI, aby użytkownik nie widział chwilowego zamrożenia.",
+        "Dodano brakujące tłumaczenia komunikatów czytania pliku konfiguracji oraz przygotowania lokalnej aktualizacji.",
+        "Opublikowano obraz LittleFS 1.0.0.805; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.804",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.804",
+      "date": "2026-07-06T07:21:39+01:00",
+      "title": "Czytelniejszy przełącznik kopii ustawień",
+      "changes": [
+        "Wzmocniono kontrast przełącznika Pobierz ustawienia w ciemnym motywie modala aktualizacji interfejsu.",
+        "Nagłówek listy utraconych ustawień reaguje teraz na stan przełącznika i informuje, gdy konfiguracja zostanie pobrana przed aktualizacją.",
+        "Opublikowano obraz LittleFS 1.0.0.804; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.803",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.803",
+      "date": "2026-07-06T07:08:55+01:00",
+      "title": "Nowy modal aktualizacji interfejsu",
+      "changes": [
+        "Zmieniono modal przed aktualizacją filesystemu na Aktualizacja interfejsu i doprecyzowano, że nadpisywana jest baza ustawień sąsiadująca z UI.",
+        "Odświeżono listę utraconych ustawień, w tym opis /milight.json z pilotami MiLight oraz bramkami Grenton / TF-Remote.",
+        "Zastąpiono osobny przycisk Pobierz ustawienia przełącznikiem, który steruje pobraniem kopii i kolorem przycisku Rozpocznij.",
+        "Przycisk Rozpocznij jest niebieski z backupem i czerwony przy starcie bez kopii.",
+        "Opublikowano obraz LittleFS 1.0.0.803; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.802",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.802",
+      "date": "2026-07-06T06:49:41+01:00",
+      "title": "Czysty ekran importu ustawień",
+      "changes": [
+        "Po kliknięciu Wczytaj teraz w modalu kopii ukrywane są kafelki kategorii, tagi, opis i meta pod nazwą pliku.",
+        "W stanie importu widoczny zostaje tylko nagłówek, spinner oraz nazwa wybranego pliku.",
+        "Wyłączono przewijanie treści modala podczas importu, aby nie zostawały widoczne stare elementy podglądu.",
+        "Opublikowano obraz LittleFS 1.0.0.802; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.801",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.801",
+      "date": "2026-07-06T06:42:59+01:00",
+      "title": "Natychmiastowy spinner importu ustawień",
+      "changes": [
+        "Spinner przycisku Wczytaj ustawienia uruchamia się od razu po wybraniu pliku, jeszcze przed odczytem backupu.",
+        "Czytanie i parsowanie JSON-a przeniesiono do workera, aby główny wątek mógł odmalować i animować stan ładowania.",
+        "Przycisk pokazuje stan Czytam plik... i pozostaje czytelny mimo blokady ponownego kliknięcia.",
+        "Opublikowano obraz LittleFS 1.0.0.801; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.800",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.800",
+      "date": "2026-07-06T06:38:16+01:00",
+      "title": "Czytelniejsza nazwa pliku kopii",
+      "changes": [
+        "Zwiększono wysokość pilla z nazwą pliku w modalu Wczytaj ustawienia.",
+        "Dopasowano line-height i zawijanie długich nazw, aby tekst pliku JSON nie był obcinany przy górnej krawędzi.",
+        "Opublikowano obraz LittleFS 1.0.0.800; firmware pozostaje w wersji 1.0.0.891."
+      ]
+    },
+    {
+      "version": "1.0.0.891",
+      "firmware_version": "1.0.0.891",
+      "filesystem_version": "1.0.0.799",
+      "date": "2026-07-06T06:28:10+01:00",
+      "title": "Selektywny import ustawień",
+      "changes": [
+        "Rozbudowano modal Wczytaj ustawienia o kafelki kategorii z przełącznikami, aby można było pominąć wybrane bloki backupu.",
+        "Import konfiguracji respektuje teraz mapę kategorii po stronie firmware, więc odznaczone ustawienia nie nadpisują aktualnej konfiguracji urządzenia.",
+        "Rozszerzono backup o przełącznik Sound Reactive w bloku usług oraz objęto importem Wi-Fi, sieć/AP/czas, portal, dostęp, światło, PWM, usługi, LED diagnostyczną, pinout i integracje.",
+        "Zbudowano firmware 1.0.0.891 oraz obraz LittleFS 1.0.0.799."
+      ]
+    },
+    {
+      "version": "1.0.0.798",
+      "firmware_version": "1.0.0.889",
+      "filesystem_version": "1.0.0.798",
+      "date": "2026-07-06T06:10:46+01:00",
+      "title": "Spinner przy wczytywaniu ustawień",
+      "changes": [
+        "Dodano stan ładowania przycisku Wczytaj ustawienia po wyborze pliku kopii konfiguracji.",
+        "Ikona przycisku jest tymczasowo zastępowana spinnerem, a ponowne kliknięcie jest blokowane do zakończenia odczytu pliku.",
+        "Opublikowano obraz LittleFS 1.0.0.798; firmware pozostaje w wersji 1.0.0.889."
+      ]
+    },
+    {
+      "version": "1.0.0.889",
+      "firmware_version": "1.0.0.889",
+      "filesystem_version": "1.0.0.797",
+      "date": "2026-07-06T06:09:09+01:00",
+      "title": "Domyślny pinout prototypu PCB",
+      "changes": [
+        "Ustawiono domyślny pinout pierwszego prototypu PCB: PWM GPIO15-18, RS485 GPIO4/6/5, WS2812 GPIO7, Factory Reset GPIO8, I2S GPIO1/2/42 i nRF24 GPIO3/9/11/12/10.",
+        "Zaktualizowano listę GPIO w zakładce Pinout, aby comboboxy pokazywały nazwy sygnałów ze schematu prototypu.",
+        "Dodano przycisk Domyślne w zakładce Pinout, który zapisuje pełny profil prototypu bez kasowania pozostałej konfiguracji urządzenia.",
+        "Zbudowano firmware 1.0.0.889 oraz obraz LittleFS 1.0.0.797."
+      ]
+    },
+    {
+      "version": "1.0.0.887",
+      "firmware_version": "1.0.0.887",
+      "filesystem_version": "1.0.0.796",
+      "date": "2026-07-06T05:39:24+01:00",
+      "title": "Bezpieczne body żądań HTTP",
+      "changes": [
+        "Dodano wspólny bufor body przypisany do konkretnego żądania HTTP oraz limity rozmiaru payloadów.",
+        "Zastąpiono statyczne String body w endpointach konfiguracji, audio, WiFi, PWM, Modbus, MiLight, terminala, diagnostyki i scen.",
+        "Ograniczono dodatkowe tymczasowe alokacje String podczas składania JSON z fragmentów requestu.",
+        "Zbudowano firmware 1.0.0.887; obraz LittleFS pozostaje w wersji 1.0.0.796."
+      ]
+    },
+    {
+      "version": "1.0.0.885",
+      "firmware_version": "1.0.0.885",
+      "filesystem_version": "1.0.0.796",
+      "date": "2026-07-06T04:41:50+01:00",
+      "title": "R=0 dla W=6/W=7/W=8 TF-Remote",
+      "changes": [
+        "W=6 obsługuje teraz R=0: G=1 uruchamia wszystkie sceny, a G=0 zatrzymuje wszystkie sceny.",
+        "W=7 obsługuje teraz R=0 jako toggle all: gdy dowolna scena jest aktywna, zatrzymuje wszystkie; gdy żadna nie jest aktywna, uruchamia wszystkie.",
+        "W=8 obsługuje teraz R=0 dla startu/stopu wszystkich scen z kierunkiem prawo/lewo.",
+        "Semantyka zdarzeń TF-Remote oznacza teraz target 0 jako poprawny target grupowy dla W=6, W=7 i W=8.",
+        "Zbudowano firmware 1.0.0.885; obraz LittleFS pozostaje w wersji 1.0.0.796."
+      ]
+    },
+    {
+      "version": "1.0.0.884",
+      "firmware_version": "1.0.0.884",
+      "filesystem_version": "1.0.0.796",
+      "date": "2026-07-05T18:42:49+01:00",
+      "title": "Poprawka W=9 dla wszystkich scen",
+      "changes": [
+        "Poprawiono komendę TF-Remote W=9: B=0 buduje teraz jawną listę wszystkich scen zamiast korzystać z wyboru zapisanych aktywnych scen.",
+        "Przykład r:5g:1b:0w:9 uruchamia teraz RUN FX 5 w prawo na wszystkich skonfigurowanych scenach.",
+        "B=1-24 nadal działa tylko na wskazaną scenę.",
+        "Zbudowano firmware 1.0.0.884; obraz LittleFS pozostaje w wersji 1.0.0.796."
+      ]
+    },
+    {
+      "version": "1.0.0.883",
+      "firmware_version": "1.0.0.883",
+      "filesystem_version": "1.0.0.796",
+      "date": "2026-07-05T18:19:04+01:00",
+      "title": "Poprawka W=1 dla wszystkich scen",
+      "changes": [
+        "Poprawiono komendę TF-Remote W=1: B=0 ustawia teraz hue wszystkich scen zamiast zmieniać tylko kolor globalny.",
+        "B=1-24 nadal ustawia hue wskazanej sceny bez zmiany dotychczasowej semantyki.",
+        "Zbudowano firmware 1.0.0.883; obraz LittleFS pozostaje w wersji 1.0.0.796."
+      ]
+    },
+    {
+      "version": "1.0.0.882",
+      "firmware_version": "1.0.0.882",
+      "filesystem_version": "1.0.0.796",
+      "date": "2026-07-05T18:12:12+01:00",
+      "title": "Poprawka W=2 dla wszystkich scen",
+      "changes": [
+        "Poprawiono komendę TF-Remote W=2: B=0 ustawia teraz nasycenie i jasność wszystkich scen zamiast zmieniać tylko kolor globalny.",
+        "Dla każdej sceny zachowywany jest jej aktualny hue, a zmieniane są tylko wartości Saturation i Brightness z R/G.",
+        "B=1-24 nadal ustawia wskazaną scenę bez zmiany dotychczasowej semantyki.",
+        "Zbudowano firmware 1.0.0.882; obraz LittleFS pozostaje w wersji 1.0.0.796."
+      ]
+    },
+    {
+      "version": "1.0.0.881",
+      "firmware_version": "1.0.0.881",
+      "filesystem_version": "1.0.0.796",
+      "date": "2026-07-05T17:32:37+01:00",
+      "title": "Poprawka W=10 dla wszystkich scen",
+      "changes": [
+        "Poprawiono komendę TF-Remote W=10: R=0 przechodzi teraz po wszystkich scenach zamiast zmieniać tylko globalny kolor.",
+        "Sceny z lokalnym kolorem również dostają kolejny krok hue, więc przy trzymaniu przycisku zmieniają kolor razem z pozostałymi scenami.",
+        "Zbudowano firmware 1.0.0.881; obraz LittleFS pozostaje w wersji 1.0.0.796."
+      ]
+    },
+    {
+      "version": "1.0.0.796",
+      "firmware_version": "1.0.0.880",
+      "filesystem_version": "1.0.0.796",
+      "date": "2026-07-05T17:12:57+01:00",
+      "title": "Cykliczna zmiana hue TF-Remote W=10",
+      "changes": [
+        "Dodano komendę TF-Remote W=10: R=0 zmienia hue globalnie, a R=1-24 zmienia hue wskazanej sceny.",
+        "Kolejne odebrane ramki, na przykład przy trzymaniu przycisku, przesuwają hue cyklicznie o 10 stopni.",
+        "Sterowanie hue używa istniejącego throttlingu live-control, aby nie przeciążać aktualizacji LED.",
+        "Dodano etykietę aktywności MiLight dla cyklicznej zmiany hue TF-Remote.",
+        "Zbudowano firmware 1.0.0.880 oraz obraz LittleFS 1.0.0.796."
+      ]
+    },
+    {
+      "version": "1.0.0.795",
+      "firmware_version": "1.0.0.879",
+      "filesystem_version": "1.0.0.795",
+      "date": "2026-07-05T16:39:52+01:00",
+      "title": "Sterowanie scenami TF-Remote W=6/W=7",
+      "changes": [
+        "Zmieniono komendę TF-Remote W=6 na Start/Stop scene: R wybiera scenę 1-24, a G=1 uruchamia i G=0 zatrzymuje scenę.",
+        "Zmieniono komendę TF-Remote W=7 na Toggle scene: R wybiera scenę 1-24, a stan sceny jest przełączany bez wymagania G.",
+        "Zaktualizowano etykiety aktywności MiLight dla startu, stopu i przełączania scen TF-Remote.",
+        "Zbudowano firmware 1.0.0.879 oraz obraz LittleFS 1.0.0.795."
+      ]
+    },
+    {
+      "version": "1.0.0.794",
+      "firmware_version": "1.0.0.878",
+      "filesystem_version": "1.0.0.794",
+      "date": "2026-07-05T15:54:55+01:00",
+      "title": "Focus w modalu Dodaj adres",
+      "changes": [
+        "Wstrzymano automatyczny render statusu MiLight, gdy otwarty jest modal Dodaj adres.",
+        "Pole wpisywania adresu nie jest już niszczone przez cykliczne odświeżanie statusu, więc nie traci focusu podczas pisania.",
+        "Opublikowano obraz LittleFS 1.0.0.794; firmware pozostaje w wersji 1.0.0.878."
+      ]
+    },
+    {
+      "version": "1.0.0.793",
+      "firmware_version": "1.0.0.878",
+      "filesystem_version": "1.0.0.793",
+      "date": "2026-07-05T15:34:49+01:00",
+      "title": "Ręczne dodawanie adresu MiLight",
+      "changes": [
+        "Zmieniono opis dodawania MiLight na Dodawanie pilota lub bramki i doprecyzowano komunikat automatycznego wykrywania ramki.",
+        "Dodano przycisk Dodaj adres oraz modal do ręcznego wpisania adresu pilota albo bramki.",
+        "Adresy zaczynające się od FF są dodawane jako bramka Grenton / TF-Remote, a pozostałe jako zwykły pilot.",
+        "Firmware udostępnia endpoint /api/milight/remote/add i zapisuje domyślne mapowania dla ręcznie dodanego adresu.",
+        "Zbudowano firmware 1.0.0.878 oraz obraz LittleFS 1.0.0.793."
+      ]
+    },
+    {
+      "version": "1.0.0.792",
+      "firmware_version": "1.0.0.877",
+      "filesystem_version": "1.0.0.792",
+      "date": "2026-07-05T15:16:19+01:00",
+      "title": "Automatyczne rozpoznawanie Grenton TF-Remote",
+      "changes": [
+        "Adresy MiLight zaczynające się od FF są automatycznie ustawiane jako TF-Remote.",
+        "Piloty z takim adresem są pokazywane jako Grenton 0x.... zamiast Pilot 0x....",
+        "Portal dobiera dla nich ikonę modułu TF oraz blokuje typ pilota na TF-Remote w ustawieniach.",
+        "Reguła działa przy uczeniu, odczycie z pamięci, imporcie backupu i zapisie ustawień pilota.",
+        "Zbudowano firmware 1.0.0.877 oraz obraz LittleFS 1.0.0.792."
+      ]
+    },
+    {
+      "version": "1.0.0.791",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.791",
+      "date": "2026-07-05T14:41:21+01:00",
+      "title": "Wydzielenie kart pilotów MiLight",
+      "changes": [
+        "Dodano moduł 04-milight-remotes-cascade.css ładowany przed pozostałym modułem MiLight.",
+        "Przeniesiono style pustych stanów, wykrytej karty oraz zapisanych pilotów bez zmiany końcowego styles.css.",
+        "Zmniejszono źródłowy 04-milight-inline-cascade.css do około 32 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.791; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.790",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.790",
+      "date": "2026-07-05T14:34:54+01:00",
+      "title": "Wydzielenie ikon MiLight",
+      "changes": [
+        "Dodano moduł 04-milight-glyphs-cascade.css dla ikon pilota i modułu TF.",
+        "Przeniesiono blok glyphów MiLight bez zmiany końcowego styles.css.",
+        "Zmniejszono źródłowy 04-milight-inline-cascade.css do około 40 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.790; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.789",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.789",
+      "date": "2026-07-05T14:24:30+01:00",
+      "title": "Wydzielenie paneli MiLight",
+      "changes": [
+        "Dodano moduł 04-milight-panels-cascade.css ładowany po bazie MiLight.",
+        "Przeniesiono style managera, nauki, radia i stanu MiLight bez zmiany końcowego styles.css.",
+        "Zmniejszono źródłowy 04-milight-inline-cascade.css o kolejne około 8 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.789; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.788",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.788",
+      "date": "2026-07-05T14:14:42+01:00",
+      "title": "Wydzielenie bazy MiLight",
+      "changes": [
+        "Dodano moduł 04-milight-base-cascade.css ładowany bezpośrednio przed głównym modułem MiLight.",
+        "Przeniesiono bazę kafelka, pille i przyciski MiLight bez zmiany końcowego styles.css.",
+        "Zmniejszono źródłowy 04-milight-inline-cascade.css o około 5 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.788; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.786",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.786",
+      "date": "2026-07-05T14:00:03+01:00",
+      "title": "Usuni?cie bridge?a config/access",
+      "changes": [
+        "Dodano modu? 04-page-settings-late-light-cascade.css dla p??nych jasnych nadpisa? #pageSettings.",
+        "Dodano modu? 04-wifi-scan-state-cascade.css dla ko?cowej regu?y scanProgWrap.",
+        "Usuni?to 04-config-access-external-cascade.css z build-css.mjs; ko?cowy styles.css pozostaje identyczny.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.786; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.785",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.785",
+      "date": "2026-07-05T13:54:45+01:00",
+      "title": "Wydzielenie jasnych styli zaawansowanych",
+      "changes": [
+        "Dodano modu? 04-advanced-light-cascade.css dla jasnych styli #advCard oraz powi?zanych przycisk?w access/advanced.",
+        "Przeniesiono ci?g?y blok #advCard bez zmiany ko?cowego CSS.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 4 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.785; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.784",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.784",
+      "date": "2026-07-05T13:40:14+01:00",
+      "title": "Wydzielenie jasnych styli ustawie?",
+      "changes": [
+        "Dodano modu? 04-page-settings-light-cascade.css dla pierwszego bloku jasnych styli #pageSettings.",
+        "Przeniesiono ci?g?y blok #pageSettings przed regu?ami #advCard bez zmiany ko?cowego CSS.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 8 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.784; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.783",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.783",
+      "date": "2026-07-05T13:34:44+01:00",
+      "title": "Wydzielenie bazy jasnego motywu",
+      "changes": [
+        "Dodano modu? 04-light-theme-base-cascade.css ?adowany przed pozosta?ym bridge?em config/access.",
+        "Przeniesiono 42 globalne regu?y html[data-theme=\"light\"] bez zmiany ko?cowego CSS.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 14 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.783; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.782",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.782",
+      "date": "2026-07-05T13:27:46+01:00",
+      "title": "Wydzielenie ikon utility",
+      "changes": [
+        "Dodano modu? 04-icon-utilities-cascade.css dla fluentChevron i scanIconGlyph.",
+        "Przeniesiono trzy og?lne regu?y ikon bez zmiany warto?ci CSS i z zachowaniem p??nej kolejno?ci kaskady.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 22 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.782; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.781",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.781",
+      "date": "2026-07-05T13:19:05+01:00",
+      "title": "Wydzielenie zwijania ulubionych efekt?w",
+      "changes": [
+        "Dodano modu? 04-favfx-collapse-cascade.css dla rozwijania i zwijania sekcji ulubionych efekt?w.",
+        "Przeniesiono regu?y favFxBox/favFxBody/favFxToggleBtn bez zmiany warto?ci CSS.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 22 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.781; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.780",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.780",
+      "date": "2026-07-05T13:10:21+01:00",
+      "title": "Wydzielenie jasnych styli headera",
+      "changes": [
+        "Dodano modu? 04-header-light-cascade.css dla theme/lang/portalMode, miejsca urz?dzenia i menu w headerze.",
+        "Przeniesiono 24 regu?y header/top-combo bez zmiany warto?ci CSS.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 23 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.780; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.779",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.779",
+      "date": "2026-07-05T12:56:24+01:00",
+      "title": "Wydzielenie kafli konfiguracji",
+      "changes": [
+        "Dodano modu? 04-config-tiles-cascade.css dla kafli boot/onboard/notifications/modbus/miLight/PWM.",
+        "Przeniesiono bazowe regu?y rozwijania kafli, prze??cznik?w PWM oraz chevron?w bez zmiany warto?ci CSS.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 27 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.779; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.778",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.778",
+      "date": "2026-07-05T12:43:22+01:00",
+      "title": "Wydzielenie styli WiFi/NTP",
+      "changes": [
+        "Dodano modu? 04-wifi-ntp-cascade.css dla kontrolek presetu NTP WiFi.",
+        "Przeniesiono globalne jasne style ikon WiFi do 04-wifi-light-cascade.css.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 38 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.778; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.777",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.777",
+      "date": "2026-07-05T12:34:56+01:00",
+      "title": "Wydzielenie jasnych styli WiFi",
+      "changes": [
+        "Przeniesiono 76 regu? html[data-theme=\"light\"] #wifiCard do 04-wifi-light-cascade.css.",
+        "Dodano modu? 04-wifi-light-cascade.css zaraz po 04-config-access-external-cascade.css, aby zachowa? dotychczasow? kolejno?? nadpisywania.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 40 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.777; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.776",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.776",
+      "date": "2026-07-05T12:28:40+01:00",
+      "title": "Wydzielenie auth/session",
+      "changes": [
+        "Przeniesiono bazowe regu?y auth/session z 04-config-access-external-cascade.css do 04-access-main-cascade.css.",
+        "Pozostawiono 04-access-login-cascade.css jako p??n? warstw? dla karty #accessCard.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 57 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.776; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.775",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.775",
+      "date": "2026-07-05T12:15:08+01:00",
+      "title": "Wydzielenie External API",
+      "changes": [
+        "Przeniesiono g??wny blok .extApi z 04-config-access-external-cascade.css do 04-external-api-main-cascade.css.",
+        "Pozostawiono p??ny modu? 04-external-api-inline-cascade.css jako osobn? warstw? doprecyzowa?.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 67 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.775; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.774",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.774",
+      "date": "2026-07-05T12:08:25+01:00",
+      "title": "Wydzielenie komunikat?w toast",
+      "changes": [
+        "Przeniesiono regu?y .toastViewport, .toast oraz warianty ok/b??d/oczekiwanie do 04-toast-cascade.css.",
+        "Przeniesiono razem jasny motyw toast?w, aby zachowa? kolejno?? nadpisywania wewn?trz komponentu.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 76 KB.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.774; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.773",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.773",
+      "date": "2026-07-05T12:02:54+01:00",
+      "title": "Porz?dkowanie top-headera",
+      "changes": [
+        "Przeniesiono regu?y .topIconBtn i .topLogoutBtn z 04-config-access-external-cascade.css do 04-header-main-cascade.css.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css do oko?o 79 KB.",
+        "Nie zmieniano funkcji portalu; to kolejny ma?y krok porz?dkowania kaskady CSS.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.773; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.772",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.772",
+      "date": "2026-07-05T11:53:02+01:00",
+      "title": "Wydzielenie ekranu startowego",
+      "changes": [
+        "Przeniesiono regu?y bootScreen oraz animacje bootPulse/bootSlide z 04-config-access-external-cascade.css do 04-boot-screen-cascade.css.",
+        "Pod??czono nowy modu? CSS bez zmiany funkcjonalnej ekranu startowego.",
+        "Zmniejszono ?r?d?owy 04-config-access-external-cascade.css o oko?o 2,8 KB w pierwszym, ostro?nym kroku porz?dkowania.",
+        "Zbudowano i zweryfikowano obraz LittleFS 1.0.0.772; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.770",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.770",
+      "date": "2026-07-05T11:37:37+01:00",
+      "title": "Porz?dkowanie modu??w headera",
+      "changes": [
+        "Wydzielono bazowe style headera do 04-header-main-base-cascade.css.",
+        "Przeniesiono p??ne regu?y top-header z 04-shell-sidebar-polish-cascade.css do 04-header-main-cascade.css.",
+        "Modu? shell/sidebar zawiera teraz wy??cznie regu?y pow?oki i bocznego menu.",
+        "Zsynchronizowano version.json.gz z version.json przed budow? obrazu LittleFS.",
+        "Opublikowano obraz LittleFS 1.0.0.770; publiczny firmware OTA pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.769",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.769",
+      "date": "2026-07-05T10:36:29+01:00",
+      "title": "Grupowanie pól formularzy CSS",
+      "changes": [
+        "Zgrupowano wspólny wygląd pól External API, JSON ulubionych efektów i wejścia terminala w light theme.",
+        "Zgrupowano wspólne kolory placeholderów oraz stany focus tych pól.",
+        "Pozostawiono bez zmian reguły przycisków z !important; ta runda dotyczy tylko pól tekstowych.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 73,2 KB oraz wygenerowany styles.css do około 842,2 KB.",
+        "Opublikowano obraz LittleFS 1.0.0.769; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.768",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.768",
+      "date": "2026-07-05T10:25:08+01:00",
+      "title": "Grupowanie kolorów tekstu CSS",
+      "changes": [
+        "Zgrupowano powtarzalne kolory tytułów i etykiet w sekcjach PWM oraz External API.",
+        "Zgrupowano kolory podpowiedzi w opcjach PWM/API bez zmiany kolejności reguł aktywnych.",
+        "Zgrupowano kolory nazw w ulubionych efektach, wydajności i diagnostyce PWM.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 74,1 KB oraz wygenerowany styles.css do około 843,1 KB.",
+        "Opublikowano obraz LittleFS 1.0.0.768; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.767",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.767",
+      "date": "2026-07-05T10:10:03+01:00",
+      "title": "Grupowanie opcji PWM i API",
+      "changes": [
+        "Zgrupowano wspólne reguły light theme dla opcji PWM i External API.",
+        "Zgrupowano wspólne style przełączników oraz stanów zaznaczenia w tych opcjach.",
+        "Zgrupowano małe pille statusowe PWM, ulubionych efektów i wydajności.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 74,5 KB oraz wygenerowany styles.css do około 843,5 KB.",
+        "Opublikowano obraz LittleFS 1.0.0.767; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.766",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.766",
+      "date": "2026-07-05T10:02:56+01:00",
+      "title": "Grupowanie teł i ikon kafelków",
+      "changes": [
+        "Zgrupowano wspólne tła kafelków konfiguracji i diagnostyki w light theme.",
+        "Zgrupowano wspólny styl ikon kafelków boot, PWM, LED, powiadomień i Modbus.",
+        "Pozostawiono osobne reguły stanów aktywnych, więc warianty on/integration/notifications nadal nadpisują bazowy wygląd.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 76,3 KB oraz wygenerowany styles.css do około 845,2 KB.",
+        "Opublikowano obraz LittleFS 1.0.0.766; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.765",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.765",
+      "date": "2026-07-05T09:50:54+01:00",
+      "title": "Dalsze odchudzanie CSS powłoki",
+      "changes": [
+        "Zgrupowano wspólne reguły light theme dla przełączników zwijania sekcji boot, PWM, ulubionych efektów, wydajności, diagnostyki PWM i terminala.",
+        "Zachowano te same deklaracje wizualne, ale usunięto powtórzone kopie selektorów i 25 nadmiarowych !important.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 78,2 KB oraz wygenerowany styles.css do około 847,1 KB.",
+        "Zweryfikowano spójność plików .gz i lokalne ładowanie portalu.",
+        "Opublikowano obraz LittleFS 1.0.0.765; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.764",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.764",
+      "date": "2026-07-05T09:42:47+01:00",
+      "title": "Kolejne odchudzenie CSS powłoki",
+      "changes": [
+        "Zgrupowano wspólne reguły light theme dla kafelków boot, PWM i ulubionych efektów.",
+        "Zgrupowano wspólne reguły light theme dla sekcji wydajności, PWM diagnostics i terminala.",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css do około 80,6 KB, bez zmiany deklaracji wizualnych.",
+        "Wygenerowany styles.css zmniejszono do około 849,4 KB; liczba !important pozostała bez zmian.",
+        "Opublikowano obraz LittleFS 1.0.0.764; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.763",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.763",
+      "date": "2026-07-05T09:33:45+01:00",
+      "title": "Pierwsze odchudzenie CSS powłoki",
+      "changes": [
+        "Skrócono powtarzające się selektory light theme dla modali przez :is(...).",
+        "Zmniejszono plik 04-shell-sidebar-polish-cascade.css z około 85,8 KB do około 82,6 KB.",
+        "Zmniejszono wygenerowany styles.css o około 3,2 KB; gzip styles.css spadł o około 300 B.",
+        "Nie zmieniono deklaracji wizualnych modali ani liczby !important; to pierwszy bezpieczny krok porządkowania.",
+        "Opublikowano obraz LittleFS 1.0.0.763; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.762",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.762",
+      "date": "2026-07-05T08:38:39+01:00",
+      "title": "Przywrócenie stylów kontrolek scen",
+      "changes": [
+        "Naprawiono brakujące zamknięcia @media po przeniesieniu reguł konfiguracji scen, przez co późniejsze style nie były stosowane na desktopie.",
+        "Przywrócono wygląd przycisku X w menu Uruchom wszystko oraz przycisków Lewo/Prawo.",
+        "Przywrócono styl przycisku miksowania koloru i modala miksowania, w tym ukrycie natywnych checkboxów.",
+        "Dodano końcową warstwę CSS dla kontrolek scen bez używania !important.",
+        "Opublikowano obraz LittleFS 1.0.0.762; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.761",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.761",
+      "date": "2026-07-05T08:05:53+01:00",
+      "title": "Porządkowanie CSS scen",
+      "changes": [
+        "Plik 04-scenes-main-cascade.css zmniejszono ze 106 KB do około 42 KB.",
+        "Usunięto wszystkie !important z głównego modułu scen.",
+        "Reguły light theme przeniesiono do osobnego modułu ładowanego po modułach scen, aby kaskada działała kolejnością zamiast wymuszeniami.",
+        "Reguły konfiguracji scen i Wi-Fi, które były zaparkowane w module scen, przeniesiono do właściwszych modułów.",
+        "Opublikowano obraz LittleFS 1.0.0.761; firmware pozostaje w wersji 1.0.0.875."
+      ]
+    },
+    {
+      "version": "1.0.0.875",
+      "firmware_version": "1.0.0.875",
+      "filesystem_version": "1.0.0.760",
+      "date": "2026-07-05T07:50:02+01:00",
+      "title": "Czystszy log po starcie",
+      "changes": [
+        "MiLight sprawdza teraz istnienie kluczy NVS przed odczytem mapowań, więc brak pola mode nie generuje komunikatu NOT_FOUND.",
+        "Cykliczny log LedWorker stack watermark nie jest już wypisywany co kilka sekund przy zdrowych zasobach.",
+        "LedWorker zgłosi teraz tylko ostrzeżenie, gdy stack albo heap spadnie poniżej bezpiecznego progu.",
+        "Opublikowano firmware 1.0.0.875; obraz LittleFS pozostaje w wersji 1.0.0.760."
+      ]
+    },
+    {
+      "version": "1.0.0.874",
+      "firmware_version": "1.0.0.874",
+      "filesystem_version": "1.0.0.760",
+      "date": "2026-07-05T07:39:26+01:00",
+      "title": "Porządkowanie logów startowych",
+      "changes": [
+        "Odczyt ustawień z NVS sprawdza teraz istnienie klucza przed pobraniem wartości, więc brak opcjonalnych pól nie generuje serii komunikatów NOT_FOUND.",
+        "Dodano partycję coredump 64 KB między app1 i LittleFS w tabeli partycji pełnego obrazu flash.",
+        "Skrypt scalający firmware odczytuje offset LittleFS z tabeli partycji, zamiast używać starego adresu 0x290000.",
+        "Opublikowano firmware 1.0.0.874; obraz LittleFS pozostaje w wersji 1.0.0.760."
+      ]
+    },
+    {
+      "version": "1.0.0.760",
+      "firmware_version": "1.0.0.873",
+      "filesystem_version": "1.0.0.760",
+      "date": "2026-07-05T07:09:31+01:00",
+      "title": "Stabilizacja dostępności portalu",
+      "changes": [
+        "Sesja portalu jest teraz utrzymywana w tej samej karcie przeglądarki, więc zwykłe odświeżenie nie tworzy nowej sesji i nie wypycha poprzedniej.",
+        "Główne zasoby portalu i File Managera wysyłają Connection: close, aby po wielu odświeżeniach nie zostawiać zalegających połączeń HTTP.",
+        "Zmniejszono ryzyko niepełnego startu portalu, w którym sceny oraz lista efektów nie zdążyły pobrać danych po restarcie urządzenia.",
+        "Opublikowano firmware 1.0.0.873 oraz obraz LittleFS 1.0.0.760."
+      ]
+    },
+    {
+      "version": "1.0.0.759",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.759",
+      "date": "2026-07-05T06:13:37+01:00",
+      "title": "Ikony stanu aktualizacji",
+      "changes": [
+        "Pill statusu aktualizacji zmienia ikonę na obracającą się klepsydrę podczas sprawdzania wersji.",
+        "Podczas instalowania aktualizacji ikona przełącza się na obracający spinner.",
+        "Przy błędzie status pokazuje ikonę X oraz czerwony stan pilla.",
+        "Odświeżono skrypt i style portalu oraz opublikowano obraz LittleFS 1.0.0.759."
+      ]
+    },
+    {
+      "version": "1.0.0.758",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.758",
+      "date": "2026-07-05T05:56:41+01:00",
+      "title": "Przywracanie kierunku startu scen",
+      "changes": [
+        "Poprawiono zapis domyślnego kierunku startu sceny w konfiguracji, aby lewo/prawo było brane z aktywnego przycisku w karcie sceny.",
+        "Pełny zapis konfiguracji nie nadpisuje już kierunku wartością z lokalnego cache po eksporcie i przywróceniu ustawień.",
+        "Backup nadal zapisuje pole startDirection dla każdej sceny, a import odtwarza je w konfiguracji scen.",
+        "Odświeżono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.758."
+      ]
+    },
+    {
+      "version": "1.0.0.757",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.757",
+      "date": "2026-07-05T05:45:24+01:00",
+      "title": "Wyraźna strzałka kierunku sceny",
+      "changes": [
+        "Dodano wyraźniejszy grot strzałki na dolnej linii mini-podglądu sceny.",
+        "Strzałka nie jest już przycinana przez regułę ukrywającą nadmiar tekstu w wierszu etykiet LED.",
+        "Wzmocniono czytelność grotu lekką poświatą w kolorze aktualnego podglądu.",
+        "Odświeżono style portalu oraz opublikowano obraz LittleFS 1.0.0.757."
+      ]
+    },
+    {
+      "version": "1.0.0.756",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.756",
+      "date": "2026-07-05T05:38:31+01:00",
+      "title": "Widoczna linia kierunku sceny",
+      "changes": [
+        "Naprawiono składnię koloru linii kierunku w mini-podglądzie LED, dzięki czemu kreska i grot strzałki są widoczne na kafelku sceny.",
+        "Linia działa z obecnym formatem zmiennej RGB oraz zachowuje kierunek w prawo i w lewo.",
+        "Nie zmieniono zachowania przycisków Lewo/Prawo ani górnej metryki kafelka.",
+        "Odświeżono style portalu oraz opublikowano obraz LittleFS 1.0.0.756."
+      ]
+    },
+    {
+      "version": "1.0.0.755",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.755",
+      "date": "2026-07-05T05:31:05+01:00",
+      "title": "Linia kierunku w mini-podglądzie scen",
+      "changes": [
+        "Dolna linia z kierunkową strzałką w mini-podglądzie LED jest teraz widoczna także na węższych kafelkach scen.",
+        "Etykiety LED po bokach linii pozostają zsynchronizowane z kierunkiem startu sceny.",
+        "Nie zmieniono zachowania zielonego podświetlenia przycisków Lewo/Prawo.",
+        "Odświeżono style portalu oraz opublikowano obraz LittleFS 1.0.0.755."
+      ]
+    },
+    {
+      "version": "1.0.0.754",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.754",
+      "date": "2026-07-05T05:24:25+01:00",
+      "title": "Cofnięcie aktywnego przycisku kierunku",
+      "changes": [
+        "Cofnięto zachowanie, w którym zielony przycisk kierunku był podświetlany także przy wyłączonej scenie.",
+        "Przyciski Lewo/Prawo znów pokazują aktywny stan tylko wtedy, gdy scena jest uruchomiona lub startuje w danym kierunku.",
+        "Pozostawiono mini-podgląd zakresu LED bez duplikowania górnej metryki kafelka.",
+        "Odświeżono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.754."
+      ]
+    },
+    {
+      "version": "1.0.0.753",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.753",
+      "date": "2026-07-05T05:11:35+01:00",
+      "title": "Aktywny przycisk kierunku sceny",
+      "changes": [
+        "Zielony przycisk w kafelku sceny wskazuje teraz kierunek widoczny w mini-podglądzie także wtedy, gdy scena jest wyłączona.",
+        "Dla scen startujących w prawo podświetla się Prawo, a dla scen startujących w lewo podświetla się Lewo.",
+        "Podczas ręcznego startu lub zatrzymania kafelek od razu pokazuje wybrany kierunek bez czekania na następne odświeżenie live.",
+        "Odświeżono skrypt portalu oraz opublikowano obraz LittleFS 1.0.0.753."
+      ]
+    },
+    {
+      "version": "1.0.0.752",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.752",
+      "date": "2026-07-05T04:53:11+01:00",
+      "title": "Kierunkowy podgląd zakresu scen",
+      "changes": [
+        "Usunięto z kafelka sceny górną linię z zakresem i postępem, aby nie dublowała informacji z podglądu.",
+        "Podgląd kierunku pokazuje teraz zakres zgodnie ze startem: w prawo jako 0 → 16, a w lewo jako 16 → 0.",
+        "Dolne etykiety LED w podglądzie zmieniają kolejność razem z kierunkiem startu.",
+        "Odświeżono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.752."
+      ]
+    },
+    {
+      "version": "1.0.0.751",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.751",
+      "date": "2026-07-04T20:04:49+01:00",
+      "title": "Ikona modułu TF-Remote",
+      "changes": [
+        "Karty pilotów TF-Remote pokazują teraz czarny moduł LED RGBW zamiast standardowej ikony pilota MiLight.",
+        "Ta sama ikona pojawia się w szczegółach pilota, aktywności i modalu ustawień typu pilota.",
+        "Odświeżono skrypty i style portalu oraz opublikowano obraz LittleFS 1.0.0.751."
+      ]
+    },
+    {
+      "version": "1.0.0.750",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.750",
+      "date": "2026-07-04T16:26:36+01:00",
+      "title": "Kompaktowy kafelek usług w konfiguracji",
+      "changes": [
+        "Kafelek Usługi i odświeżanie korzysta teraz z tego samego tła, obramowania i promienia co pozostałe kafelki w Konfiguracji.",
+        "Stan zwinięty jest niższy o 15 px, a ukryta lista przełączników nie wystaje spod nagłówka.",
+        "Odświeżono style portalu, version.json.gz i opublikowano obraz LittleFS 1.0.0.750."
+      ]
+    },
+    {
+      "version": "1.0.0.749",
+      "firmware_version": "1.0.0.872",
+      "filesystem_version": "1.0.0.749",
+      "date": "2026-07-04T14:56:32+01:00",
+      "title": "Uczenie TF-Remote z dowolnej ramki RGBW",
+      "changes": [
+        "TF-Remote interpretuje teraz W=0 jako RGB, W=1 jako HUE, W=2 jako Saturation/Brightness, W=3 jako prędkości FX, W=4/5 jako start/stop wszystkich scen.",
+        "Dodano obsługę W=6/7 dla start/stop wskazanej sceny, W=8 dla ręcznego kierunku sceny oraz W=9 dla tymczasowego RUN FX na wszystkich scenach albo wskazanej scenie.",
+        "Uczenie TF-Remote akceptuje teraz ramki MiLight V2 z poprawnym checksumem także wtedy, gdy R nie mieści się w starym zakresie komend MiLight.",
+        "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.872 oraz filesystem 1.0.0.749."
+      ]
+    },
+    {
+      "version": "1.0.0.749",
+      "firmware_version": "1.0.0.871",
+      "filesystem_version": "1.0.0.749",
+      "date": "2026-07-04T14:53:15+01:00",
+      "title": "Mapowanie RGBW TF-Remote dla Scen/FX",
+      "changes": [
+        "TF-Remote interpretuje teraz W=0 jako RGB, W=1 jako HUE, W=2 jako Saturation/Brightness, W=3 jako prędkości FX, W=4/5 jako start/stop wszystkich scen.",
+        "Dodano obsługę W=6/7 dla start/stop wskazanej sceny, W=8 dla ręcznego kierunku sceny oraz W=9 dla tymczasowego RUN FX na wszystkich scenach albo wskazanej scenie.",
+        "Status MiLight pokazuje nowe zdarzenia TF-Remote: RGB, HUE, SAT+BRI, FX SPEEDS, START/STOP, DIRECTION i RUN FX.",
+        "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.871 oraz filesystem 1.0.0.749."
+      ]
+    },
+    {
+      "version": "1.0.0.749",
+      "firmware_version": "1.0.0.870",
+      "filesystem_version": "1.0.0.749",
+      "date": "2026-07-03T17:52:05+01:00",
+      "title": "Zapas miejsca LittleFS po dodaniu pilota",
+      "changes": [
+        "Opóźniony zapis ostatnich sieci Wi-Fi zapisuje teraz tylko stan runtime do NVS, bez niepotrzebnego zapisu settings.json w LittleFS.",
+        "Dodano kontrolę wolnego miejsca przed atomicznym zapisem settings.json i milight.json; przy zbyt małym zapasie firmware loguje błąd zamiast ryzykować panic w lfs_alloc.",
+        "Tymczasowo odchudzono obraz LittleFS przez usunięcie folderu /api, aby odzyskać zapas miejsca dla konfiguracji i plików JSON.",
+        "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.870 oraz filesystem 1.0.0.749."
+      ]
+    },
+    {
+      "version": "1.0.0.745",
+      "firmware_version": "1.0.0.868",
+      "filesystem_version": "1.0.0.745",
+      "date": "2026-07-03T17:36:17+01:00",
+      "title": "Import pilotów MiLight i stabilny zapis LittleFS",
+      "changes": [
+        "Import ustawień MiLight zapisuje teraz pełny plik milight.json po odtworzeniu pilotów i mapowań akcji, więc ostatnio zapisane piloty nie giną po wczytaniu kopii.",
+        "Dodano wspólną blokadę zapisu LittleFS dla settings.json i milight.json, aby równoległy zapis z portalu oraz ticka Wi-Fi nie powodował crasha podczas fclose().",
+        "Odświeżono version.json.gz i opublikowano spójne artefakty OTA: firmware 1.0.0.868 oraz filesystem 1.0.0.745."
+      ]
+    },
+    {
+      "version": "1.0.0.739",
+      "firmware_version": "1.0.0.861",
+      "filesystem_version": "1.0.0.739",
+      "date": "2026-07-03T17:01:49+01:00",
+      "title": "TF-Remote w ustawieniach MiLight",
+      "changes": [
+        "Dodano w ustawieniach pilota MiLight wybór typu: Oryginalny MiLight albo TF-Remote.",
+        "Oryginalny MiLight zachowuje dotychczasowe mapowanie komend i trybów dotyku.",
+        "TF-Remote interpretuje bajty R/G/B jako wartości koloru, a bajt W jako tryb komendy: kolor RGB, sceny ON/OFF w prawo/lewo, efekty/presety oraz komendę specjalną stop all.",
+        "Podbito firmware do 1.0.0.861 i filesystem do 1.0.0.739 oraz odświeżono gzipy portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.738",
+      "firmware_version": "1.0.0.860",
+      "filesystem_version": "1.0.0.738",
+      "date": "2026-07-03T14:00:08+01:00",
+      "title": "Limit kart portalu",
+      "changes": [
+        "Zmieniono kafelek w Wi-Fi na Połączenia portalu z ustawieniem maksymalnej liczby aktywnych kart (domyślnie 1, zakres 1-8).",
+        "Dodano heartbeat sesji portalu; po otwarciu IP w kolejnej karcie urządzenie usuwa najstarszą sesję i blokuje jej dalsze odświeżanie.",
+        "Przywrócono limit SoftAP do 8 klientów sieciowych, żeby ustawienie nie ograniczało fizycznych połączeń Wi-Fi.",
+        "Podbito firmware do 1.0.0.860 i filesystem do 1.0.0.738 oraz odświeżono gzipy portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.736",
+      "firmware_version": "1.0.0.855",
+      "filesystem_version": "1.0.0.736",
+      "date": "2026-07-03T13:28:42+01:00",
+      "title": "Limit połączeń AP w portalu",
+      "changes": [
+        "Dodano w zakładce Wi-Fi kafelek Połączenia AP między Hostname i Ostatnie połączenia z edytorem liczby klientów 1-8.",
+        "Domyślny limit nowych konfiguracji AP wynosi 1 klient, a zapis przeładowuje hotspot z nową wartością.",
+        "Firmware używa zapisanego limitu przy starcie SoftAP i zwraca w API aktualną liczbę klientów AP.",
+        "Podbito firmware do 1.0.0.855 i filesystem do 1.0.0.736 oraz odświeżono gzipy portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.735",
+      "firmware_version": "1.0.0.854",
+      "filesystem_version": "1.0.0.735",
+      "date": "2026-06-29T13:57:45+01:00",
+      "title": "Przełączniki usług w konfiguracji",
+      "changes": [
+        "Dodano w Konfiguracji kafelek Usługi i odświeżanie z przełącznikami Diagnostyka, PWM, Wbudowana LED, Powiadomienia, Modbus TCP/RTU, MiLight i Sound Reactive.",
+        "Wyłączenie diagnostyki zatrzymuje odświeżanie CPU, RAM, temperatury, procesów, live scen i terminala, ale zostawia lekki odczyt pamięci dla OTA i recovery.",
+        "Wyłączenie PWM zatrzymuje capture PWM, diagnostykę poziomów i sterowanie z wejść PWM bez kasowania kalibracji.",
+        "Wyłączenie Modbus, MiLight lub Sound Reactive zatrzymuje pracę modułu i odświeżanie statusu, zachowując zapisane ustawienia szczegółowe.",
+        "Podbito firmware do 1.0.0.854 i filesystem do 1.0.0.735 oraz odświeżono gzipy portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.734",
+      "firmware_version": "1.0.0.854",
+      "filesystem_version": "1.0.0.734",
+      "date": "2026-06-29T14:08:23+01:00",
+      "title": "Postęp aktualizacji w /panel",
+      "changes": [
+        "Postęp pobierania i wgrywania w /panel jest teraz wyświetlany w głównym pasku kafelka firmware/filesystem, zamiast w osobnym pasku pod uploadem.",
+        "Tekst pod paskiem pamięci pokazuje status aktualizacji zamiast informacji o zajętości/wolnym miejscu podczas aktywnej aktualizacji.",
+        "Usunięto martwy osobny pasek panelUploadProgress z lekkiego panelu.",
+        "Podbito cache-busting /panel do 1.0.0.734, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.733",
+      "firmware_version": "1.0.0.851",
+      "filesystem_version": "1.0.0.733",
+      "date": "2026-06-29T13:51:48+01:00",
+      "title": "Instalacja aktualizacji online w /panel",
+      "changes": [
+        "Przycisk Aktualizuj w /panel pobiera teraz plik aktualizacji w przeglądarce, a dopiero potem wgrywa go do urządzenia przez OTA.",
+        "Usunięto fałszywy komunikat sukcesu po samym wysłaniu żądania /api/update/install.",
+        "Dodano postęp pobierania i wgrywania dla aktualizacji firmware oraz filesystem.",
+        "Podbito cache-busting /panel do 1.0.0.733, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.732",
+      "firmware_version": "1.0.0.851",
+      "filesystem_version": "1.0.0.732",
+      "date": "2026-06-29T09:02:56+01:00",
+      "title": "Wykrywanie aktualizacji OTA w /panel",
+      "changes": [
+        "Lekki panel /panel czyta teraz wersje firmware_version i filesystem_version z manifestu OTA tak jak pełny portal.",
+        "Poprawiono porównywanie wersji z prefiksem v, żeby nie ukrywać dostępnych aktualizacji.",
+        "Podbito cache-busting /panel do 1.0.0.732, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.731",
+      "firmware_version": "1.0.0.851",
+      "filesystem_version": "1.0.0.731",
+      "date": "2026-06-29T08:45:16+01:00",
+      "title": "Modal koloru i menu języka w /panel",
+      "changes": [
+        "Dodano responsywny układ modala Miksowanie koloru w /panel, z czytelnymi przełącznikami i poprawnym centrowaniem na telefonie.",
+        "Naprawiono menu wyboru języka w topheaderze: stała szerokość, poprawne tło opcji i brak białego natywnego przycisku.",
+        "Po wyborze języka dropdown zamyka się i aktualizuje aria-expanded.",
+        "Podbito cache-busting /panel do 1.0.0.731, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.730",
+      "firmware_version": "1.0.0.851",
+      "filesystem_version": "1.0.0.730",
+      "date": "2026-06-29T08:04:28+01:00",
+      "title": "Boczne menu w /panel",
+      "changes": [
+        "Przycisk hamburgera w topbarze ponownie otwiera boczne menu na telefonie.",
+        "Przycisk Menu w sidebarze zwija i rozwija pasek boczny na desktopie, z zapisem stanu w localStorage.",
+        "Kliknięcie nawigacji, przycisku zamknięcia albo overlay poprawnie zamyka menu mobilne.",
+        "Podbito cache-busting /panel do 1.0.0.730, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.729",
+      "firmware_version": "1.0.0.851",
+      "filesystem_version": "1.0.0.729",
+      "date": "2026-06-28T21:10:05+01:00",
+      "title": "Zakładka Oprogramowanie w /panel",
+      "changes": [
+        "Naprawiono odczyt statystyk pamięci firmware i LittleFS z /api/diag/perf/storage, więc karty nie pokazują już 0 B z 0 B.",
+        "Zastąpiono natywne pola wyboru pliku własnym lekkim kontrolerem uploadu zgodnym ze stylem portalu.",
+        "Usunięto zdublowane ikony z przycisków serwisowych oraz ukryto bezczynny placeholder statusu.",
+        "Podbito cache-busting /panel do 1.0.0.729, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.728",
+      "firmware_version": "1.0.0.851",
+      "filesystem_version": "1.0.0.728",
+      "date": "2026-06-28T20:53:26+01:00",
+      "title": "Akcje efektow i segment Lewo/Prawo w /panel",
+      "changes": [
+        "Dodano brakujacy helper escapeHtml w lekkim /api/script.js, wymagany przez przeniesiony runtime scen.",
+        "Naprawiono blad escapeHtml is not defined przerywajacy render po kliknieciu Wlacz w kartach efektow.",
+        "Uzupelniono bazowy styl segmentu Lewo/Prawo w modalach efektow, razem z tlem i aktywnym suwakiem jak w oryginalnym portalu.",
+        "Odswiezono gzipy /api/panel.htm, /api/style.css, /api/script.js i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.727",
+      "firmware_version": "1.0.0.851",
+      "filesystem_version": "1.0.0.727",
+      "date": "2026-06-28T20:26:51+01:00",
+      "title": "Modale efektow scen w /panel",
+      "changes": [
+        "Dodano brakujace style modala wyboru scen dla efektow wraz z kierunkiem Lewo/Prawo.",
+        "Przywrocono pelny wyglad modala podgladu FX: naglowek, scena canvas, chipy parametrow i przycisk ustawien.",
+        "Bindowanie przyciskow modali efektow nie zalezy juz od ukrytego bloku konfiguracji scen.",
+        "Odswiezono gzipy /api/panel.htm, /api/style.css, /api/script.js i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.851",
+      "firmware_version": "1.0.0.851",
+      "filesystem_version": "1.0.0.726",
+      "date": "2026-06-28T19:54:43+01:00",
+      "title": "Naprawa STA przy bramie 192.168.4.1",
+      "changes": [
+        "Wyłączono DNS captive portalu, gdy statyczna konfiguracja STA nakłada się na adres SoftAP 192.168.4.1.",
+        "Zablokowano przekierowania HTTP dla klientów z podsieci 192.168.4.x, gdy ta sama podsieć należy do STA.",
+        "Po uzyskaniu IP przez STA firmware ponownie sprawdza konflikt i zatrzymuje captive portal, żeby nie przejmować ruchu bramy."
+      ]
+    },
+    {
+      "version": "1.0.0.726",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.726",
+      "date": "2026-06-28T19:19:16+01:00",
+      "title": "Style efektów scen w /panel",
+      "changes": [
+        "Uzupełniono brakujące style kart efektów scen w lekkim panelu /panel.",
+        "Ukryto natywny select Run FX i przywrócono wygląd comboboxa zgodny z głównym portalem.",
+        "Przyciski podglądu, ustawień i start/stop efektów nie powinny już renderować się jako surowe elementy HTML.",
+        "Podbito cache-busting /panel do 1.0.0.726, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.725",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.725",
+      "date": "2026-06-28T18:58:56+01:00",
+      "title": "Naprawa błędu chevron w /panel",
+      "changes": [
+        "Dodano brakującą stałą ikony chevron używaną przez prawdziwy runtime scen w /panel.",
+        "Panel /panel nie powinien już pokazywać błędu FLUENT_CHEVRON_DOWN is not defined.",
+        "Podbito cache-busting /panel do 1.0.0.725, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.724",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.724",
+      "date": "2026-06-28T18:05:24+01:00",
+      "title": "Naprawa overlay scen w /panel",
+      "changes": [
+        "Dodano brakujące bazowe style overlay dla menu Sceny dla Uruchom wszystko w /panel.",
+        "Dodano brakujące ukrywanie i pozycjonowanie panelu Ustawienia podglądu efektów scen.",
+        "Elementy pomocnicze scen nie rozlewają się już jako zwykły tekst i suwaki poza kartą Sterowanie.",
+        "Podbito cache-busting /panel do 1.0.0.724, odświeżono gzipy i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.723",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.723",
+      "date": "2026-06-28T17:49:56+01:00",
+      "title": "Prawdziwe Sterowanie w panelu /panel",
+      "changes": [
+        "Zakładka Sterowanie w /panel jest montowana tym samym rendererem scenePortal co pełny portal.",
+        "Usunięto panelowe override’y CSS i ręcznie składany kafel scen, które powodowały rozjazd wyglądu.",
+        "Zachowano osobne pliki /api/panel.htm, /api/style.css i /api/script.js, bez importowania pełnego /script.js.",
+        "Odświeżono gzipy panelu, podbito cache-busting do 1.0.0.723 i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.722",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.722",
+      "date": "2026-06-28T17:15:17+01:00",
+      "title": "Poprawa kafli scen w /panel",
+      "changes": [
+        "Przywrócono kaflom scen proporcje i układ bliższy głównemu portalowi: pełny kafel, podgląd LED i przyciski Lewo/Prawo na dole.",
+        "Usunięto tymczasowy układ z wąską kolumną przycisków po prawej stronie kafla sceny.",
+        "Dopasowano markup panelu do istniejących klas sceneMini z głównego portalu.",
+        "Podbito cache-busting /panel do 1.0.0.722 i odświeżono gzipy."
+      ]
+    },
+    {
+      "version": "1.0.0.721",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.721",
+      "date": "2026-06-28T17:01:16+01:00",
+      "title": "Naprawa startu panelu /panel",
+      "changes": [
+        "Naprawiono zawieszanie /panel na ekranie ładowania przez dodanie klasy app-ready oczekiwanej przez CSS.",
+        "Poprawiono ścieżkę fontu Fluent Icons z /api/fonts/SegoeIcons.woff2 na /fonts/SegoeIcons.woff2, co usuwa błąd 404.",
+        "Podbito cache-busting panelu do 1.0.0.721, aby przeglądarka pobrała nowe /api/style.css i /api/script.js.",
+        "Odświeżono gzipy panelu i zbudowano nowy obraz LittleFS."
+      ]
+    },
+    {
+      "version": "1.0.0.720",
+      "firmware_version": "1.0.0.850",
+      "filesystem_version": "1.0.0.720",
+      "date": "2026-06-28T16:47:49+01:00",
+      "title": "Samodzielny odchudzony panel /panel",
+      "changes": [
+        "Panel /panel korzysta teraz z własnych, odchudzonych plików /api/style.css i /api/script.js, bez importowania głównego bundle portalu.",
+        "Zachowano wygląd TopHeadera, Sterowania i Oprogramowania, ale usunięto zależności od niepotrzebnych kart pełnego portalu.",
+        "Sterowanie scenami, parametry globalne LED, OTA firmware/filesystem, File Manager i Recovery działają w samodzielnym runtime panelu.",
+        "Firmware serwuje /panel jako alias do /api/panel.htm oraz osobno podaje /api/style.css i /api/script.js z gzipem."
+      ]
+    },
+    {
+      "version": "1.0.0.719",
+      "firmware_version": "1.0.0.849",
+      "filesystem_version": "1.0.0.719",
+      "date": "2026-06-28T16:09:00+01:00",
+      "title": "Panel /panel oparty na prawdziwym portalu",
+      "changes": [
+        "Przebudowano /panel jako prawdziwy wycinek obecnego portalu, zamiast uproszczonej wersji demo.",
+        "Sterowanie i Oprogramowanie korzystają teraz z realnego markup, stylów i mechaniki głównego panelu.",
+        "W bocznej nawigacji /panel widoczne są tylko Sterowanie oraz Oprogramowanie, bez wyboru trybu użytkownika/zaawansowanego.",
+        "Pliki /api/panel.htm, /api/style.css i /api/script.js zachowują osobne adresy, a /api/script.js serwuje ten sam sprawdzony bundle co główny portal."
+      ]
+    },
+    {
+      "version": "1.0.0.718",
+      "firmware_version": "1.0.0.848",
+      "filesystem_version": "1.0.0.718",
+      "date": "2026-06-28T15:41:39+01:00",
+      "title": "Lekki panel WWW pod /panel",
+      "changes": [
+        "Dodano lekki panel WWW pod adresem /panel z osobnymi plikami /api/panel.htm, /api/style.css i /api/script.js.",
+        "Panel zawiera tylko Sterowanie oraz Oprogramowanie, z przełącznikiem języka i motywu bez wyboru trybu portalu.",
+        "Sterowanie scenami, parametry LED, ręczne OTA oraz centrum aktualizacji GitHub działają niezależnie od pełnego portalu.",
+        "Firmware serwuje /panel jako alias do /api/panel.htm i obsługuje skompresowane assety CSS/JS nowego panelu."
+      ]
+    },
+    {
+      "version": "1.0.0.717",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.717",
+      "date": "2026-06-28T15:03:58+01:00",
+      "title": "Limit szerokości kafelków scen",
+      "changes": [
+        "Kafelki scen w panelu Sterowanie mają teraz maksymalną szerokość 485 px.",
+        "Zachowano responsywną szerokość 100% dla węższych ekranów.",
+        "Nie zmieniono mechaniki przycisków, podglądu LED ani konfiguracji scen."
+      ]
+    },
+    {
+      "version": "1.0.0.716",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.716",
+      "date": "2026-06-28T14:45:55+01:00",
+      "title": "Poprawione gaszenie podglądu scen",
+      "changes": [
+        "Podgląd gaszenia zaczyna teraz od zapalonego zakresu LED zamiast zapalać kropki od tyłu.",
+        "Odwrócono interpretację progress dla stanu Stopping zgodnie z danymi runtime urządzenia.",
+        "Kliknięcie stop pokazuje natychmiast pełny zapalony podgląd, który następnie wygasa sekwencyjnie."
+      ]
+    },
+    {
+      "version": "1.0.0.715",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.715",
+      "date": "2026-06-28T14:25:48+01:00",
+      "title": "Kolorowe przygasanie podglądu scen",
+      "changes": [
+        "Usunięto przechodzenie kropek podglądu w przezroczystość albo czerń przy niskiej jasności.",
+        "Przygaszone kropki pozostają teraz wariantem wybranego koloru sceny.",
+        "Efekt włączania i wyłączania zmienia głównie jasność oraz poświatę, a nie bazowy kolor LED."
+      ]
+    },
+    {
+      "version": "1.0.0.714",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.714",
+      "date": "2026-06-28T13:43:40+01:00",
+      "title": "Płynniejsze gaszenie podglądu scen",
+      "changes": [
+        "Zmieniono podgląd LED z prostych stanów zapalony/zgaszony na płynną jasność każdej kropki.",
+        "Start sceny dalej narasta po kolei, ale przejście jest mniej skokowe.",
+        "Wyłączanie dostało osobną falę wygaszania od początku kierunku, dzięki czemu nie wygląda jak ponowiony start."
+      ]
+    },
+    {
+      "version": "1.0.0.713",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.713",
+      "date": "2026-06-28T13:19:56+01:00",
+      "title": "Kolorowa animacja podglądu scen",
+      "changes": [
+        "Podgląd LED w kafelku sceny używa teraz koloru wynikającego z lokalnych albo globalnych ustawień sceny.",
+        "Podczas startu kropki zapalają się kolejno i pozostają zapalone, a podczas zatrzymywania wygaszają się sekwencyjnie.",
+        "Gdy scena jest wyłączona, oba przyciski Lewo/Prawo pozostają neutralne; lewa ikona używa U+E768 obróconego o 180 stopni."
+      ]
+    },
+    {
+      "version": "1.0.0.712",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.712",
+      "date": "2026-06-28T10:02:56+01:00",
+      "title": "Nowy wygląd kafelków scen",
+      "changes": [
+        "Przeniesiono przyciski Lewo i Prawo na dół kafelka sceny, zgodnie z nowym układem.",
+        "Podgląd LED dostał większy, ciemny panel z zakresem, kropkami i strzałką kierunku.",
+        "Zębatka konfiguracji pozostaje w prawym górnym rogu kafelka, a mechanika kliknięć i long press pozostała bez zmian."
+      ]
+    },
+    {
+      "version": "1.0.0.711",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.711",
+      "date": "2026-06-28T09:39:07+01:00",
+      "title": "Mini podgląd kierunku scen",
+      "changes": [
+        "Dodano w kafelkach scen mini podgląd LED z kierunkiem startu i zakresem diod.",
+        "Podgląd odświeża się razem z runtime oraz od razu po kliknięciu startu w prawo lub w lewo.",
+        "Zachowano dotychczasowe przyciski scen, długie przytrzymanie kafelka i logikę backendu."
+      ]
+    },
+    {
+      "version": "1.0.0.710",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.710",
+      "date": "2026-06-28T08:40:00+01:00",
+      "title": "Więcej oddechu w pillach sceny",
+      "changes": [
+        "Zwiększono odstępy między pillami zakresu i statusu sceny w kompaktowym kafelku.",
+        "Pille mają teraz większy padding, spokojniejszą wysokość i więcej oddechu pod tytułem sceny.",
+        "Nie zmieniono logiki scen ani kompaktowych przycisków sterowania."
+      ]
+    },
+    {
+      "version": "1.0.0.709",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.709",
+      "date": "2026-06-28T08:27:14+01:00",
+      "title": "Domyślny kierunek startu sceny",
+      "changes": [
+        "Usunięto duże przyciski uruchamiania z rozwiniętego kafelka sceny, bez zmian w kompaktowych przyciskach u góry.",
+        "Dodano wybór domyślnego kierunku startu sceny Lewo/Prawo zapisywany w konfiguracji startDirection.",
+        "Wybrany kierunek jest używany przy starcie sceny z pilota, API bez jawnego kierunku oraz sterowania zbiorczego."
+      ]
+    },
+    {
+      "version": "1.0.0.708",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.708",
+      "date": "2026-06-28T07:57:15+01:00",
+      "title": "Krótszy pill runtime sceny",
+      "changes": [
+        "Usunięto powtórzony kierunek z kompaktowego pilla runtime sceny.",
+        "Pill sceny pokazuje teraz stan i postęp, np. „Wyłączona • 0%” albo „Uruchamianie w prawo • 10%”.",
+        "Logika kierunku sceny i przyciski startu w lewo/prawo pozostały bez zmian."
+      ]
+    },
+    {
+      "version": "1.0.0.847",
+      "firmware_version": "1.0.0.847",
+      "filesystem_version": "1.0.0.707",
+      "date": "2026-06-28T07:27:50+01:00",
+      "title": "Porządki w wersjonowaniu portalu",
+      "changes": [
+        "Uporządkowano skrypt wersjonowania: index.html automatycznie dostaje aktualne wersje styles.css i script.js.",
+        "Dodano kontrolę builda zatrzymującą paczkę portalu, jeśli w script.js pojawią się typowe sekwencje uszkodzonego kodowania.",
+        "Przywrócono encję ikony chevron w script.js, aby ograniczyć ryzyko problemów z kodowaniem.",
+        "Przebudowano firmware i filesystem ze spójnymi wersjami oraz poprawionymi assetami portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.706",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.706",
+      "date": "2026-06-28T07:02:04+01:00",
+      "title": "Naprawa kodowania portalu",
+      "changes": [
+        "Naprawiono uszkodzone kodowanie polskich znaków w script.js po poprzedniej paczce portalu.",
+        "Podbito wersjonowanie script.js i styles.css do 1.0.0.706, aby przeglądarka pobrała naprawione assety.",
+        "Zachowano zwijany panel RADIO NRF24L01+ i przeniesiony przycisk Odśwież."
+      ]
+    },
+    {
+      "version": "1.0.0.705",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.705",
+      "date": "2026-06-28T06:46:41+01:00",
+      "title": "Poprawione odświeżanie assetów portalu",
+      "changes": [
+        "Poprawiono wersjonowanie linków do styles.css i script.js w index.html, aby przeglądarka pobierała nowe assety po aktualizacji filesystemu.",
+        "Panel RADIO NRF24L01+ w Integracji MiLight pozostaje domyślnie zwinięty i używa nowego przycisku zwiń/rozwiń.",
+        "Przycisk Odśwież pozostaje przeniesiony do treści panelu, poniżej nagłówka."
+      ]
+    },
+    {
+      "version": "1.0.0.704",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.704",
+      "date": "2026-06-28T06:33:58+01:00",
+      "title": "Zwijany panel RADIO NRF24L01+",
+      "changes": [
+        "Panel RADIO NRF24L01+ w Integracji MiLight jest teraz domyślnie zwinięty.",
+        "Przycisk Odśwież przeniesiono z nagłówka do treści panelu, jedną linię niżej.",
+        "W nagłówku dodano standardowy przycisk zwiń/rozwiń obok statusu radia."
+      ]
+    },
+    {
+      "version": "1.0.0.703",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.703",
+      "date": "2026-06-28T06:12:13+01:00",
+      "title": "Nowa ikona Integracja MiLight",
+      "changes": [
+        "Zmieniono ikonę kafelka Integracja MiLight w sekcji Konfiguracja na glyph U+E7FC.",
+        "Zastąpiono ręcznie rysowaną ikonę pilota pojedynczą ikoną Fluent, spójną z pozostałymi kafelkami.",
+        "Odświeżono obraz LittleFS portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.702",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.702",
+      "date": "2026-06-27T21:57:37+01:00",
+      "title": "Jednolity wygląd File Manager i Recovery",
+      "changes": [
+        "Przyciski File Manager i Recovery w sekcji Oprogramowanie korzystają teraz ze wspólnej klasy i identycznego układu ikony.",
+        "Usunięto pseudoikony ::before dla File Manager i Recovery, aby oba przyciski miały tę samą metrykę i wyrównanie.",
+        "Recovery nadal używa ikony U+E822 i otwiera /recovery w nowej karcie."
+      ]
+    },
+    {
+      "version": "1.0.0.701",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.701",
+      "date": "2026-06-27T21:40:33+01:00",
+      "title": "Recovery jak File Manager",
+      "changes": [
+        "Przycisk Recovery otwiera teraz /recovery w nowej karcie, tak jak File Manager otwiera /fileman.",
+        "Dopięto Recovery do wszystkich reguł stylu używanych przez File Manager w sekcji Oprogramowanie, także w jasnym motywie.",
+        "Przebudowano styles.css i skompresowane zasoby portalu z modułów CSS."
+      ]
+    },
+    {
+      "version": "1.0.0.700",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.700",
+      "date": "2026-06-27T21:25:39+01:00",
+      "title": "Styl i ikona przycisku Recovery",
+      "changes": [
+        "Przycisk Recovery w sekcji Oprogramowanie korzysta teraz z tych samych reguł stylu co File Manager.",
+        "Zmieniono ikonę przycisku Recovery na U+E822.",
+        "Odświeżono skompresowany styles.css.gz w paczce portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.698",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.698",
+      "date": "2026-06-27T21:01:41+01:00",
+      "title": "Przycisk Recovery w panelu oprogramowania",
+      "changes": [
+        "Dodano przycisk Recovery obok File Manager w sekcji Oprogramowanie.",
+        "Przycisk Recovery przenosi bezpośrednio do /recovery w tej samej karcie.",
+        "Odświeżono skompresowany script.js.gz w paczce portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.846",
+      "firmware_version": "1.0.0.846",
+      "filesystem_version": "1.0.0.697",
+      "date": "2026-06-27T20:52:40+01:00",
+      "title": "Doprecyzowanie zachowania panelu Recovery",
+      "changes": [
+        "Panel restartu w Recovery chowa się automatycznie sekundę po dojściu paska do 100%.",
+        "Zamieniono kolejność przycisków: Home jest teraz przed File Manager.",
+        "Zachowano brak automatycznego przejścia do / po udanej aktualizacji firmware lub filesystemu."
+      ]
+    },
+    {
+      "version": "1.0.0.845",
+      "firmware_version": "1.0.0.845",
+      "filesystem_version": "1.0.0.697",
+      "date": "2026-06-27T20:39:02+01:00",
+      "title": "Recovery bez automatycznego powrotu do portalu",
+      "changes": [
+        "Recovery po udanej aktualizacji firmware lub filesystemu nie przechodzi już automatycznie do głównego portalu.",
+        "Dodano przycisk Home obok File Manager, który przenosi ręcznie do /.",
+        "Usunięto nagłówek OTA Update oraz pomocnicze opisy z widoku recovery."
+      ]
+    },
+    {
+      "version": "1.0.0.697",
+      "firmware_version": "1.0.0.844",
+      "filesystem_version": "1.0.0.697",
+      "date": "2026-06-27T20:26:12+01:00",
+      "title": "Czytelniejsze miejsce wolne w kafelkach LittleFS",
+      "changes": [
+        "W kafelku aktualizacji slot firmware/LittleFS C:D pokazuje teraz wolne miejsce z całości partycji, zamiast zajętego rozmiaru programu.",
+        "Opis miejsca jest spójny z filesystemem: format „{free} wolnych z {total}”.",
+        "Odświeżono skompresowany script.js.gz w paczce portalu."
+      ]
+    },
+    {
+      "version": "1.0.0.844",
+      "firmware_version": "1.0.0.844",
+      "filesystem_version": "1.0.0.696",
+      "date": "2026-06-27T20:11:37+01:00",
+      "title": "Stabilizacja przejścia między portalem i filemanem",
+      "changes": [
+        "Dodano jawne zamykanie połączeń dla pełnych stron portalu, filemana i odpowiedzi JSON, aby szybkie przechodzenie między / i /fileman nie zostawiało wiszących sesji HTTP.",
+        "Fileman serwuje teraz script.js i style.css z plików .gz oraz cache, dzięki czemu wejście do menedżera plików mniej obciąża ESP.",
+        "Przywrócono prostą obsługę /api/fs/raw bez wymuszonego no-cache, zgodnie ze stabilną starszą wersją."
+      ]
+    },
+    {
+      "version": "1.0.0.842",
+      "firmware_version": "1.0.0.842",
+      "filesystem_version": "1.0.0.695",
+      "date": "2026-06-27T19:52:47+01:00",
+      "title": "Stabilizacja AP i serwowania portalu",
+      "changes": [
+        "Usunięto NetworkWatchdog oraz lokalne próby HTTP, które mogły restartować AsyncWebServer podczas pracy portalu.",
+        "Wyłączono automatyczne wyłączanie SoftAP po wejściu do panelu przez STA; AP pozostaje pod kontrolą ustawienia użytkownika.",
+        "Duże zasoby portalu, w tym script.js, styles.css i tłumaczenia JSON, są serwowane z .gz oraz cache; no-cache pozostaje dla index.html i API."
+      ]
+    },
+    {
+      "version": "1.0.0.695",
+      "firmware_version": "1.0.0.840",
+      "filesystem_version": "1.0.0.695",
+      "date": "2026-06-27T19:07:05+01:00",
+      "title": "Tryby mapowania akcji MiLight",
+      "changes": [
+        "Dodano przełącznik Mapowanie standardowe / Mapowanie użytkownika w sekcji Mapowanie akcji MiLight.",
+        "Tryb standardowy ukrywa ręczne comboboksy i pokazuje kompaktowy blok z trzema polami statusu.",
+        "Firmware zapisuje mapping_mode i w trybie standardowym używa domyślnych akcji bez kasowania mapowań użytkownika."
+      ]
+    },
+    {
+      "version": "1.0.0.694",
+      "firmware_version": "1.0.0.839",
+      "filesystem_version": "1.0.0.694",
+      "date": "2026-06-27T18:42:34+01:00",
+      "title": "Kompaktowy kafelek radia nRF24L01+",
+      "changes": [
+        "Kafelek RADIO NRF24L01+ ma teraz zwarty nagłówek ze statusem i przyciskiem odświeżania.",
+        "Metryki pracy radia i liczniki pakietów są pokazane w dwóch wspólnych ramkach z separatorami kolumn zamiast osobnych dużych pilli.",
+        "Na telefonach tabele przechodzą do dwóch kolumn, a przycisk odświeżania może zwęzić się do samej ikony."
+      ]
+    },
+    {
+      "version": "1.0.0.690",
+      "firmware_version": "1.0.0.837",
+      "filesystem_version": "1.0.0.690",
+      "date": "2026-06-27T16:18:41+01:00",
+      "title": "Watchdog portalu bez fałszywego restartu STA",
+      "changes": [
+        "Watchdog HTTP testuje teraz adres AP przed adresem STA, gdy SoftAP jest aktywny.",
+        "Fałszywy błąd testu STA w sieci 192.168.4.x nie powoduje już restartu AsyncWebServer i ryzyka bind error -8.",
+        "Diagnostyka sieci dopisuje subnet_overlap=1, gdy adres STA i adres AP są w tej samej podsieci."
+      ]
+    },
+    {
+      "version": "1.0.0.689",
+      "firmware_version": "1.0.0.836",
+      "filesystem_version": "1.0.0.689",
+      "date": "2026-06-27T16:11:36+01:00",
+      "title": "Awaryjne przywracanie AP przy braku STA",
+      "changes": [
+        "Firmware przywraca SoftAP, gdy zapisane ustawienia zostawiły AP wyłączony, a urządzenie nie ma połączenia STA/IP.",
+        "Fallback uruchamia AP także po wyczerpaniu prób połączenia z zapisanym Wi-Fi, żeby panel pozostał dostępny przez 192.168.4.1.",
+        "Zaktualizowano paczkę LittleFS, aby plik version.json raportował firmware 1.0.0.836 i portal 1.0.0.689."
+      ]
+    },
+    {
+      "version": "1.0.0.688",
+      "firmware_version": "1.0.0.835",
+      "filesystem_version": "1.0.0.688",
+      "date": "2026-06-23T17:05:34+01:00",
+      "title": "Nazwy procesów i RAM w jednej tabeli",
+      "changes": [
+        "Zbalansowano szerokości kolumn w tabeli Procesy, aby jednocześnie było widać nazwę procesu i RAM.",
+        "Nazwa procesu nie jest już ucinana ellipsis w pierwszej kolumnie.",
+        "Odchudzono kolumnę CPU i opis procesu, żeby RAM pozostał czytelny bez zabierania miejsca nazwom."
+      ]
+    },
+    {
+      "version": "1.0.0.687",
+      "firmware_version": "1.0.0.835",
+      "filesystem_version": "1.0.0.687",
+      "date": "2026-06-23T16:59:37+01:00",
+      "title": "Pełne wartości RAM w tabeli procesów",
+      "changes": [
+        "Poprawiono widok RAM w tabeli Procesy, aby wartości nie były ucinane na telefonie.",
+        "Kolumna RAM ma teraz własne klasy CSS bez ellipsis oraz większą minimalną szerokość.",
+        "Skrócono zapis pary użyte/całkowite do formatu 1.3 / 8.0 KB, gdy obie wartości są w KB."
+      ]
+    },
+    {
+      "version": "1.0.0.835",
+      "firmware_version": "1.0.0.835",
+      "filesystem_version": "1.0.0.686",
+      "date": "2026-06-23T16:14:38+01:00",
+      "title": "RAM tasków w diagnostyce procesów",
+      "changes": [
+        "Dodano w diagnostyce procesów przybliżone użycie RAM oparte o stos taska FreeRTOS.",
+        "Endpoint /api/diag/processes raportuje teraz wolny, użyty i całkowity stos, gdy ESP-IDF udostępnia snapshot tasków.",
+        "Tabela Procesy pokazuje wartości użyte/całkowite oraz wolny zapas stosu zamiast samego surowego high-watermark.",
+        "Modal procesu pokazuje ten sam opis zadania i czytelny odczyt RAM dla wybranego taska."
+      ]
+    },
+    {
+      "version": "1.0.0.834",
+      "firmware_version": "1.0.0.834",
+      "filesystem_version": "1.0.0.685",
+      "date": "2026-06-23T15:29:54+01:00",
+      "title": "Przywrócenie włączania mDNS hostname",
+      "changes": [
+        "Cofnięto firmwareowy guard, który wymuszał wyłączenie usługi mDNS .local.",
+        "Backend ponownie raportuje mdns_supported=true i pozwala zapisać hostname/mDNS jako włączone.",
+        "Po włączeniu hostname service firmware ponownie uruchamia ESPmDNS przez MDNS.begin oraz ogłasza usługę HTTP."
+      ]
+    },
+    {
+      "version": "1.0.0.833",
+      "firmware_version": "1.0.0.833",
+      "filesystem_version": "1.0.0.685",
+      "date": "2026-06-23T12:30:13+01:00",
+      "title": "Automatyczne wyłączanie AP po onboardingu",
+      "changes": [
+        "Dodano automatyczne wyłączanie SoftAP po wykryciu wejścia do portalu przez adres przydzielony przez router.",
+        "SoftAP wyłącza się z opóźnieniem po realnym ruchu HTTP do stron portalu przez STA, dzięki czemu tryb AP+STA nie zostaje aktywny po onboardingu.",
+        "Jeśli po automatycznym wyłączeniu AP urządzenie straci STA/IP, firmware po krótkim czasie przywróci AP awaryjnie.",
+        "Endpointy /api nie wyzwalają auto-wyłączania AP, aby nie psuć integracji i diagnostyki."
+      ]
+    },
+    {
+      "version": "1.0.0.831",
+      "firmware_version": "1.0.0.831",
+      "filesystem_version": "1.0.0.685",
+      "date": "2026-06-23T10:46:07+01:00",
+      "title": "Guard stabilności dla mDNS hostname",
+      "changes": [
+        "Dodano firmwareowy guard stabilności blokujący start ESPmDNS, który w testach zawieszał dostęp do portalu.",
+        "Przełącznik hostname/mDNS nie zapisuje już aktywnej usługi, jeśli mDNS jest wyłączony w firmware dla bezpieczeństwa.",
+        "Backend raportuje mdns_supported=false oraz mdns_enabled=false, a sama nazwa urządzenia nadal może być używana jako zwykły hostname STA."
+      ]
+    },
+    {
+      "version": "1.0.0.829",
+      "firmware_version": "1.0.0.829",
+      "filesystem_version": "1.0.0.685",
+      "date": "2026-06-23T04:54:27+01:00",
+      "title": "Sprzątanie połączeń portalu po uśpieniu telefonu",
+      "changes": [
+        "Wyłączono domyślny live-stream terminala diagnostycznego, żeby portal nie trzymał długiego połączenia keep-alive po uśpieniu telefonu.",
+        "Portal abortuje aktywne żądania HTTP oraz zamyka kanały live przy blokadzie ekranu, pagehide i freeze.",
+        "Terminal diagnostyczny działa w trybie historii HTTP bez cyklicznego otwierania EventSource.",
+        "Zaktualizowano obraz LittleFS, aby przeglądarka dostała nowy skrypt sprzątający połączenia po wybudzeniu telefonu."
+      ]
+    },
+    {
+      "version": "1.0.0.828",
+      "firmware_version": "1.0.0.828",
+      "filesystem_version": "1.0.0.684",
+      "date": "2026-06-23T04:26:51+01:00",
+      "title": "Aktywny watchdog portalu HTTP",
+      "changes": [
+        "Watchdog co 15 sekund wykonuje lokalny test HTTP endpointu /api/version.",
+        "Po serii nieudanych testów firmware restartuje sam serwer AsyncWebServer.",
+        "Jeśli problem HTTP powtarza się po restarcie serwera, urządzenie wykonuje restart programowy.",
+        "Dodano tryb DIGILED_VERSION_NO_BUMP dla kontrolowanych rebuildów bez przypadkowego podbijania wersji."
+      ]
+    },
+    {
+      "version": "1.0.0.827",
+      "firmware_version": "1.0.0.827",
+      "filesystem_version": "1.0.0.683",
+      "date": "2026-06-22T20:30:41+01:00",
+      "title": "Stabilizacja portalu po długiej sesji",
+      "changes": [
+        "Zmniejszono polling widoku scen z 250 ms do 1000 ms.",
+        "Ograniczono tempo live-zapisów globalnych parametrów scen podczas pracy suwakami.",
+        "Doprecyzowano konfigurację AsyncTCP oraz dodano logi diagnostyczne watchdog sieci.",
+        "Dodano próbę odzyskania połączenia STA, gdy firmware widzi połączenie bez poprawnego IP."
+      ]
+    },
+    {
+      "version": "1.0.0.824",
+      "firmware_version": "1.0.0.824",
+      "filesystem_version": "1.0.0.682",
+      "date": "2026-06-22T19:33:19+01:00",
+      "title": "Test modala restartu po OTA",
+      "changes": [
+        "Podbito wersję firmware do 1.0.0.824 bez zmian funkcjonalnych.",
+        "Podbito wersję filesystemu do 1.0.0.682 bez zmian funkcjonalnych.",
+        "Pakiet służy do testu, czy po aktualizacji firmware albo filesystemu pojawia się modal restartowania urządzenia."
+      ]
+    },
+    {
+      "version": "1.0.0.681",
+      "firmware_version": "1.0.0.823",
+      "filesystem_version": "1.0.0.681",
+      "date": "2026-06-22T19:28:43+01:00",
+      "title": "Modal restartu po aktualizacji",
+      "changes": [
+        "Po udanym wgraniu aktualizacji online lub lokalnej otwierany jest modal restartowania urządzenia.",
+        "Modal używa tego samego wyglądu i komunikatów co przycisk Uruchom ponownie.",
+        "Portal czeka na ponowne pojawienie się urządzenia i odświeża stronę po restarcie."
+      ]
+    },
+    {
+      "version": "1.0.0.680",
+      "firmware_version": "1.0.0.823",
+      "filesystem_version": "1.0.0.680",
+      "date": "2026-06-22T19:17:58+01:00",
+      "title": "Porządek w zasobach portalu",
+      "changes": [
+        "Zsynchronizowano skompresowane pliki script.js, version.json oraz tłumaczenia z aktualnymi źródłami portalu.",
+        "Utrzymano opis roli taska w nagłówku modala procesu.",
+        "Opublikowano nowy obraz LittleFS z wersją portalu 1.0.0.680."
+      ]
+    },
+    {
+      "version": "1.0.0.679",
+      "firmware_version": "1.0.0.823",
+      "filesystem_version": "1.0.0.679",
+      "date": "2026-06-22T18:48:40+01:00",
+      "title": "Opis procesu w modalu",
+      "changes": [
+        "Opis taska z listy procesów jest teraz widoczny również w nagłówku modala procesu.",
+        "Dla tasków systemowych modal nie zastępuje już opisu ogólnym tekstem tylko do odczytu.",
+        "Zaktualizowano skompresowane zasoby portalu oraz manifest wersji filesystemu."
+      ]
+    },
+    {
+      "version": "1.0.0.823",
+      "firmware_version": "1.0.0.823",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-22T18:39:03+01:00",
+      "title": "Watchdog sieciowy AP",
+      "changes": [
+        "Dodano lekki watchdog sieciowy sprawdzający tryb WiFi i adres SoftAP bez pingowania ani skanowania.",
+        "Watchdog wykonuje miękkie odtworzenie SoftAP/captive DNS po kilku kolejnych błędnych próbkach, a restart ESP traktuje jako ostatnią deskę ratunku.",
+        "AsyncTCP i zadanie skanowania przeniesiono poza rdzeń WiFi, a skanowanie portalu ograniczono do maksymalnie jednego realnego skanu na minutę."
+      ]
+    },
+    {
+      "version": "1.0.0.821",
+      "firmware_version": "1.0.0.821",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-22T18:24:13+01:00",
+      "title": "Stabilizacja obsługi sieci AP/STA",
+      "changes": [
+        "AsyncTCP pracuje teraz na rdzeniu 1 zamiast na rdzeniu 0, który obsługuje stos WiFi ESP32.",
+        "Skanowanie WiFi z portalu jest cache'owane przez 60 sekund i nie może startować częściej niż raz na minutę.",
+        "Zadanie skanowania WiFi przeniesiono na rdzeń 1 i dodano flagę scan_throttled w odpowiedzi /api/scan."
+      ]
+    },
+    {
+      "version": "1.0.0.820",
+      "firmware_version": "1.0.0.820",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-22T18:18:07+01:00",
+      "title": "Stabilizacja captive portal",
+      "changes": [
+        "Zmieniono TTL odpowiedzi DNS captive portal z 0 na 60 sekund, aby telefony i laptopy nie zalewały ESP ciągłymi zapytaniami DNS.",
+        "Lekki ekran captive portal jest teraz wysyłany ze stałego bufora w firmware zamiast składania dynamicznego HTML dla każdego żądania.",
+        "Odpowiedzi captive portal wymuszają zamknięcie połączenia, a limit klientów SoftAP zwiększono z 4 do 8."
+      ]
+    },
+    {
+      "version": "1.0.0.818",
+      "firmware_version": "1.0.0.818",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-22T06:05:03+01:00",
+      "title": "Lekki ekran captive portal",
+      "changes": [
+        "Systemowe strony wykrywania captive portal pokazują teraz prosty ekran startowy zamiast od razu ładować pełny panel DigiLED.",
+        "Ekran startowy zawiera adres 192.168.4.1 oraz przycisk Otwórz portal prowadzący do właściwego panelu logowania.",
+        "Bezpośrednie wejście na 192.168.4.1 nadal otwiera pełny portal, a endpointy /api zachowują odpowiedzi JSON 404."
+      ]
+    },
+    {
+      "version": "1.0.0.817",
+      "firmware_version": "1.0.0.817",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-21T19:15:02+01:00",
+      "title": "Captive portal dla wbudowanego AP",
+      "changes": [
+        "SoftAP uruchamia teraz serwer DNS przechwytujący zapytania i kierujący je na adres portalu 192.168.4.1.",
+        "Dodano przekierowania dla testów captive portal używanych przez Androida, iOS, Windows i inne urządzenia.",
+        "Nieznane ścieżki HTTP spoza API przekierowują do portalu, a endpointy /api nadal zwracają JSON 404."
+      ]
+    },
+    {
+      "version": "1.0.0.678",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.678",
+      "date": "2026-06-21T18:44:22+01:00",
+      "title": "Responsywne kafelki stanu po restarcie",
+      "changes": [
+        "Kafelki Stan po restarcie korzystają teraz z responsywnej siatki auto-fit zamiast sztywnego układu zależnego tylko od szerokości okna.",
+        "Przy zbyt małej szerokości panelu kafelki przechodzą do kolejnego rzędu zamiast ściskać teksty w jednej linii.",
+        "Zachowano dotychczasowy wygląd kafelków i podgląd LED."
+      ]
+    },
+    {
+      "version": "1.0.0.677",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.677",
+      "date": "2026-06-21T17:54:50+01:00",
+      "title": "Czytelne błędy sprawdzania aktualizacji",
+      "changes": [
+        "Gdy nie uda się pobrać manifestu OTA, panel aktualizacji pokazuje komunikat o błędzie zamiast tekstu Urządzenie ma aktualną wersję.",
+        "Dodano osobny komunikat dla problemu z połączeniem internetowym oraz osobny dla błędu serwera aktualizacji.",
+        "Status błędu ma wyróżniony wygląd w jasnym i ciemnym motywie."
+      ]
+    },
+    {
+      "version": "1.0.0.676",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.676",
+      "date": "2026-06-21T16:42:21+01:00",
+      "title": "Poprawka menu LittleFS",
+      "changes": [
+        "Wpis Aktualizuj w popup menu LittleFS jest teraz rzeczywiście ukrywany, gdy manifest nie pokazuje aktualizacji dla danego kafelka.",
+        "Pozostawiono istniejący mechanizm sprawdzania aktualizacji: menu korzysta ze stanu manifestu online dla Firmware i Filesystem.",
+        "Dodano dedykowaną regułę CSS dla ukrytych pozycji menu, aby display:flex nie nadpisywał atrybutu hidden."
+      ]
+    },
+    {
+      "version": "1.0.0.675",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.675",
+      "date": "2026-06-21T16:01:21+01:00",
+      "title": "Porządek w modalu i menu LittleFS",
+      "changes": [
+        "Przycisk Anuluj w modalu aktualizacji filesystemu jest teraz całkiem po lewej, a Wyczyść ustawienia znajduje się obok niego.",
+        "Zmieniono wpisy ręcznej aktualizacji w menu LittleFS na Wybierz plik aktualizacji.",
+        "Zmieniono opis przełączania firmware na App0 C: albo App1 D: zależnie od aktywnego slotu."
+      ]
+    },
+    {
+      "version": "1.0.0.674",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.674",
+      "date": "2026-06-21T15:54:40+01:00",
+      "title": "Aktualizacja z menu LittleFS",
+      "changes": [
+        "Dodano wpis Aktualizuj do menu LittleFS (C:), LittleFS (D:) i LittleFS (E:), widoczny tylko przy dostępnej aktualizacji online.",
+        "Kliknięcie wpisu Aktualizuj uruchamia ten sam proces aktualizacji online co przycisk w kafelku.",
+        "Gdy aktualizacja nie jest dostępna, menu pozostaje bez dodatkowego wpisu i pokazuje tylko dotychczasowe akcje."
+      ]
+    },
+    {
+      "version": "1.0.0.673",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.673",
+      "date": "2026-06-21T15:07:07+01:00",
+      "title": "Poprawki jasnego motywu aktualizacji",
+      "changes": [
+        "Poprawiono modal aktualizacji filesystemu: akcja bez kopii jest po lewej i nazywa się Wyczyść ustawienia.",
+        "Wzmocniono kontrast statusowych pilli i przycisku Aktualizuj w jasnym motywie.",
+        "Dodano widoczny hover i focus dla obszarów LittleFS (C:), LittleFS (D:) i LittleFS (E:) w jasnym motywie."
+      ]
+    },
+    {
+      "version": "1.0.0.672",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.672",
+      "date": "2026-06-21T14:52:52+01:00",
+      "title": "Minimalnie większy przycisk Aktualizuj",
+      "changes": [
+        "Minimalnie powiększono dedykowany przycisk Aktualizuj w kafelkach aktualizacji.",
+        "Wysokość przycisku ustawiono na 20 px, a tekst i ikonę na 10 px.",
+        "Przycisk nadal korzysta wyłącznie z klasy updateHubOnlineBtn, bez globalnych stylów btn."
+      ]
+    },
+    {
+      "version": "1.0.0.671",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.671",
+      "date": "2026-06-21T14:41:55+01:00",
+      "title": "Dedykowany styl przycisku Aktualizuj",
+      "changes": [
+        "Odpięto przycisk Aktualizuj w kafelkach aktualizacji od globalnych klas btn i primary.",
+        "Przycisk Aktualizuj ma teraz jeden dedykowany styl updateHubOnlineBtn z własnym resetem, rozmiarem i stanami hover/focus/disabled.",
+        "Usunięto konflikt z ogólnymi regułami #advCard.softwareCard .btn, które zawyżały wizualną wysokość przycisku."
+      ]
+    },
+    {
+      "version": "1.0.0.670",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.670",
+      "date": "2026-06-21T14:24:59+01:00",
+      "title": "Naprawa kodowania tekstów aktualizacji",
+      "changes": [
+        "Naprawiono polskie znaki w tekstach menu aktualizacji: Sprawdź aktualizacje, Ręczna aktualizacja i Przełącz Firmware.",
+        "Odświeżono skompresowany plik tłumaczeń pl.json.gz, aby portal po aktualizacji nie pokazywał znaków zapytania.",
+        "Zbudowano nowy obraz LittleFS z poprawionymi tłumaczeniami updatera."
+      ]
+    },
+    {
+      "version": "1.0.0.669",
+      "firmware_version": "1.0.0.815",
+      "filesystem_version": "1.0.0.669",
+      "date": "2026-06-21T14:14:07+01:00",
+      "title": "Menu akcji w widoku aktualizacji",
+      "changes": [
+        "Przycisk Sprawdź aktualizacje ma ikonę U+F0C5 i obraca ją podczas sprawdzania manifestu online.",
+        "Ikony Firmware i Filesystem pokazują podpowiedź Wybierz plik i nadal uruchamiają ręczną aktualizację lokalną.",
+        "Kliknięcie obszaru LittleFS (C:)/(D:) otwiera menu z ręczną aktualizacją firmware oraz przełączeniem aktywnego slotu.",
+        "Kliknięcie obszaru LittleFS (E:) otwiera menu z ręczną aktualizacją filesystemu oraz przejściem do menedżera plików."
+      ]
+    },
+    {
+      "version": "1.0.0.668",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.668",
+      "date": "2026-06-21T13:28:43+01:00",
+      "title": "Zunifikowany widok aktualizacji",
+      "changes": [
+        "Zastąpiono zakładki Aktualizacja online, Aktualizacja lokalna i Test updt jednym docelowym panelem Aktualizacje.",
+        "Przeniesiono logikę testowego widoku na produkcyjne nazwy updateHub i softwareUpdate bez publicznych identyfikatorów testowych.",
+        "Ikony Firmware i Filesystem uruchamiają lokalny wybór pliku, a przycisk Aktualizuj pojawia się tylko przy dostępnej aktualizacji online.",
+        "Zachowano modal kopii ustawień dla aktualizacji filesystemu i usunięto stare skrypty oraz style paneli online/lokalnych."
+      ]
+    },
+    {
+      "version": "1.0.0.667",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.667",
+      "date": "2026-06-21T12:54:19+01:00",
+      "title": "Mniejszy przycisk Aktualizuj bez dolnych pillów",
+      "changes": [
+        "Przycisk Aktualizuj ma teraz minimalną wysokość 17 px, z ikoną i tekstem dopasowanymi do małego pill-a.",
+        "Usunięto dolne pille informacyjne z kafelków Firmware i Filesystem w widoku Test updt.",
+        "Posprzątano nieużywane identyfikatory i logikę aktualizacji tekstu dla usuniętych pillów."
+      ]
+    },
+    {
+      "version": "1.0.0.666",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.666",
+      "date": "2026-06-21T12:35:46+01:00",
+      "title": "Ikona w przycisku Aktualizuj",
+      "changes": [
+        "Przycisk Aktualizuj w widoku Test updt otrzymał ikonę U+F0C5.",
+        "Zmniejszono wysokość przycisku Aktualizuj do 22 px.",
+        "Dopasowano odstęp między ikoną i tekstem, żeby przycisk pozostał kompaktowy."
+      ]
+    },
+    {
+      "version": "1.0.0.665",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.665",
+      "date": "2026-06-21T12:24:03+01:00",
+      "title": "Kompaktowy przycisk Aktualizuj",
+      "changes": [
+        "Przycisk Aktualizuj w mini-panelu pamięci ma teraz wysokość i styl małego statusowego pill.",
+        "Usunięto ikonę z przycisku Aktualizuj, żeby wyglądał lekko i nie rozpychał kafelka.",
+        "Na wąskich ekranach przycisk pozostaje kompaktowy zamiast rozciągać się na całą szerokość."
+      ]
+    },
+    {
+      "version": "1.0.0.664",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.664",
+      "date": "2026-06-21T12:15:43+01:00",
+      "title": "Usunięcie paska mapy pamięci z Test updt",
+      "changes": [
+        "Usunięto dolny pasek mapy pamięci z zakładki Test updt.",
+        "Skasowano nieużywany element HTML, funkcję renderującą oraz dedykowane style tego paska.",
+        "Pozostawiono bez zmian mapę pamięci w diagnostyce urządzenia."
+      ]
+    },
+    {
+      "version": "1.0.0.663",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.663",
+      "date": "2026-06-21T12:04:56+01:00",
+      "title": "Przycisk Aktualizuj przy pasku postępu",
+      "changes": [
+        "Przycisk Aktualizuj pojawia się po prawej stronie paska tylko wtedy, gdy dla danego kafelka jest dostępna aktualizacja online.",
+        "Po rozpoczęciu aktualizacji przycisk znika, a pasek ponownie zajmuje pełną szerokość i pokazuje postęp pobierania oraz zapisu.",
+        "Usunięto pozostałości dolnego wiersza akcji z widoku Test updt."
+      ]
+    },
+    {
+      "version": "1.0.0.661",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.661",
+      "date": "2026-06-21T11:43:37+01:00",
+      "title": "Etykiety LittleFS w Test updt",
+      "changes": [
+        "Karta Firmware pokazuje teraz LittleFS (C:) lub LittleFS (D:) zależnie od aktywnego slotu OTA.",
+        "Kliknięcie obszaru LittleFS (C:) albo LittleFS (D:) pokazuje komunikat: nie można otworzyć, zawartość zabezpieczona.",
+        "Karta Filesystem pokazuje LittleFS (E:), a kliknięcie tego obszaru przenosi do menedżera plików /fileman."
+      ]
+    },
+    {
+      "version": "1.0.0.660",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.660",
+      "date": "2026-06-21T11:28:19+01:00",
+      "title": "Ikona Filesystem jako wybór pliku",
+      "changes": [
+        "W karcie Filesystem kliknięcie ikony storage.png otwiera wybór pliku littlefs.bin i uruchamia lokalną aktualizację po modalu kopii ustawień.",
+        "Po wybraniu pliku nazwa w mini-panelu Filesystem zmienia się na nazwę wybranego pliku podczas aktualizacji.",
+        "Usunięto widoczny wiersz wyboru pliku z karty Filesystem; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
+      ]
+    },
+    {
+      "version": "1.0.0.659",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.659",
+      "date": "2026-06-21T11:18:57+01:00",
+      "title": "Ikona Firmware jako wybór pliku",
+      "changes": [
+        "W karcie Firmware kliknięcie ikony fw.png otwiera wybór pliku firmware.bin i od razu uruchamia aktualizację lokalną.",
+        "Po wybraniu pliku nazwa w mini-panelu Firmware zmienia się na nazwę wybranego pliku podczas aktualizacji.",
+        "Usunięto dolny widoczny wiersz wyboru pliku z karty Firmware; przycisk aktualizacji online pozostaje ukryty do czasu dostępnej aktualizacji."
+      ]
+    },
+    {
+      "version": "1.0.0.658",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.658",
+      "date": "2026-06-21T11:07:33+01:00",
+      "title": "Ikona storage dla Filesystem",
+      "changes": [
+        "Karta Filesystem w zakładce Test updt używa teraz ikony storage.png zamiast home.png."
+      ]
+    },
+    {
+      "version": "1.0.0.657",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.657",
+      "date": "2026-06-21T11:00:07+01:00",
+      "title": "Czytelniejsze akcje aktualizacji Test updt",
+      "changes": [
+        "W widoku Test updt ukryto tekstowe pole wyboru pliku, gdy nie wybrano pliku ani nie trwa aktualizacja lokalna.",
+        "Przycisk Aktualizuj w kartach Firmware i Filesystem pojawia się tylko wtedy, gdy dla danego elementu jest dostępna aktualizacja online.",
+        "Wiersz akcji w stanie spoczynku pokazuje tylko małą ikonę wyboru pliku, żeby nie rozpraszać użytkownika nieaktywnymi kontrolkami."
+      ]
+    },
+    {
+      "version": "1.0.0.656",
+      "firmware_version": "1.0.0.814",
+      "filesystem_version": "1.0.0.656",
+      "date": "2026-06-21T10:46:57+01:00",
+      "title": "Zunifikowany widok aktualizacji Test updt",
+      "changes": [
+        "Przebudowano Test updt: usunięto dolny pasek uploadu, a wybór pliku i aktualizacja online są teraz dostępne bezpośrednio w kartach Firmware i Filesystem. Wybór lokalnego pliku uruchamia aktualizację od razu; dla filesystemu wyświetlany jest znany modal pobrania ustawień albo kontynuacji bez kopii. Paski w kartach pokazują zajętość pamięci w spoczynku oraz postęp pobierania i zapisu podczas aktualizacji lokalnej lub online. Dodano ikony firmware i filesystem z zasobów portalu oraz zachowano listę zmian z manifestu OTA w widoku Test updt."
+      ]
+    }
+  ]
+}
