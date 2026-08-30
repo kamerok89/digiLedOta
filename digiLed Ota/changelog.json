@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.944",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.857",
+      "date": "2026-08-30T16:29:07+01:00",
+      "title": "Poprawione skalowanie logo nagłówka",
+      "changes": [
+        "Naprawiono brak skalowania logo na rzeczywistym urządzeniu, gdy dodatkowy arkusz stylów nie był serwowany.",
+        "Krytyczne reguły układu i wymiarów logo przeniesiono bezpośrednio do index.html.",
+        "Logo i dynamiczna nazwa urządzenia są wymuszane w jednym wierszu.",
+        "Usunięto nieużywany osobny arkusz branding.css z obrazu LittleFS."
+      ]
+    },
+    {
       "version": "1.0.0.943",
       "firmware_version": "1.0.0.943",
       "filesystem_version": "1.0.0.856",

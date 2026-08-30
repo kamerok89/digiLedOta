@@ -1,26 +1,26 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.943",
-  "filesystem_version": "1.0.0.856",
-  "notes": "Oryginalny znak graficzny digiLed w nagłówku portalu.",
+  "firmware_version": "1.0.0.944",
+  "filesystem_version": "1.0.0.857",
+  "notes": "Poprawione skalowanie logo na rzeczywistym urządzeniu.",
   "changes": [
-    "Dodano zoptymalizowany, transparentny znak dwóch świetlnych okręgów przed nazwą urządzenia.",
-    "Dopasowano rozmiar logo do nagłówka na ekranach desktopowych i mobilnych.",
-    "Dodano subtelne wejście logo z obsługą preferencji ograniczonego ruchu."
+    "Przeniesiono krytyczne reguły rozmiaru logo bezpośrednio do dokumentu HTML.",
+    "Wymuszono układ logo i nazwy w jednym wierszu oraz rozmiar 74 px na desktopie.",
+    "Zachowano responsywny rozmiar 58 px na mniejszych ekranach."
   ],
   "firmware": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.943.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.944.bin",
     "size": 1726976,
-    "md5": "C859D1E24CA102ECB1CBA04B026E5359",
-    "sha256": "C31D9E21EEE699525DF3CE9AF78ADA43E6570B07004981282CE3D6FC40E207C2"
+    "md5": "38CBA067FA67840572B7AEDBCF571C17",
+    "sha256": "EC1ED15CC12FC7B9D3977C149C189CF86D36A7D03C9EA4525DC534F4F41AD4AF"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.856.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.857.bin",
     "size": 4194304,
-    "md5": "69A83F1D057EC591A7F957AB451935D6",
-    "sha256": "978D9F16F2E696706A87E1EB27F781774EFA9DEDEDF288E258B3E87D74A24015"
+    "md5": "96C685D6DC984A739E55D61FFF545512",
+    "sha256": "CF6777E282E0B822C8BC1446760CE9E129B31CCA48D33FB8892D35BB49D7A264"
   },
-  "build_time": "2026-08-30T16:17:03+01:00",
+  "build_time": "2026-08-30T16:29:07+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
