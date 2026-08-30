@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.861",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.861",
+      "date": "2026-08-30T17:43:12+01:00",
+      "title": "Czytelne logo w jasnym motywie",
+      "changes": [
+        "Dodano precyzyjny, ciemny obrys wokół białej części napisu digiLed na ekranie startowym.",
+        "Obrys i miękki cień są stosowane tylko w jasnym motywie, bez zmiany oryginalnej grafiki.",
+        "Dodano wariant animacji wejścia zachowujący kontrast logo po zakończeniu animacji."
+      ]
+    },
+    {
       "version": "1.0.0.860",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.860",

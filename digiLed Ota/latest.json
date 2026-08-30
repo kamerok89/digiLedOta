@@ -2,13 +2,12 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.944",
-  "filesystem_version": "1.0.0.860",
-  "notes": "Poprawne włączanie ochrony portalu bez fałszywego błędu zapisu.",
+  "filesystem_version": "1.0.0.861",
+  "notes": "Czytelny napis digiLed na jasnym ekranie startowym.",
   "changes": [
-    "Usunięto fałszywy komunikat o błędzie zapisu pojawiający się po włączeniu logowania hasłem.",
-    "Po zaakceptowaniu zapisu portal świadomie kończy dalsze zapytania i przechodzi do strony logowania.",
-    "Wyłączanie ochrony oraz pozostałe operacje nadal czekają na pełne potwierdzenie zadania zapisu.",
-    "Dodano polski i angielski komunikat informujący o przejściu do logowania."
+    "Dodano ciemny obrys białej części napisu digiLed, dzięki czemu pozostaje widoczna na jasnym tle.",
+    "Poprawka działa wyłącznie w jasnym motywie i zachowuje oryginalne kolory grafiki.",
+    "Osobna animacja wejścia dla jasnego motywu utrzymuje właściwy kontrast także po zakończeniu animacji."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.944.bin",
@@ -17,11 +16,11 @@
     "sha256": "EC1ED15CC12FC7B9D3977C149C189CF86D36A7D03C9EA4525DC534F4F41AD4AF"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.860.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.861.bin",
     "size": 4194304,
-    "md5": "065F253B6084121A610D23B7B0FAABA6",
-    "sha256": "D5468112572C08DA4DE3EE9706FD3607717B57CB2D5413B67C0A07CD83052DE0"
+    "md5": "6D1C65FF52022CBE0367EE9623E1B9DE",
+    "sha256": "426B6289DECDD7620F969EDE83CE0DAD1C660CFD6C821D48FE10DBA3F9FB66CD"
   },
-  "build_time": "2026-08-30T17:36:10+01:00",
+  "build_time": "2026-08-30T17:43:12+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
