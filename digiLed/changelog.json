@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.936",
+      "firmware_version": "1.0.0.936",
+      "filesystem_version": "1.0.0.850",
+      "date": "2026-08-30T14:45:30+01:00",
+      "title": "Domyślne hasło Dostępu: password",
+      "changes": [
+        "Domyślne dane logowania do portalu i zakładki Dostęp zmieniono na admin / password.",
+        "Urządzenia nadal używające historycznych danych admin / admin automatycznie przechodzą na admin / password; własne dane użytkownika pozostają bez zmian.",
+        "Zaktualizowano komunikaty portalu, polskie i angielskie pliki językowe oraz opis endpointu statusu uwierzytelniania.",
+        "Zbudowano firmware 1.0.0.936 i obraz LittleFS 1.0.0.850."
+      ]
+    },
+    {
       "version": "1.0.0.933",
       "firmware_version": "1.0.0.933",
       "filesystem_version": "1.0.0.849",

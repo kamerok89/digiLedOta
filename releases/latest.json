@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.933",
-  "filesystem_version": "1.0.0.849",
-  "notes": "Zmieniono domyślne hasło punktu dostępowego digiLed na password.",
+  "firmware_version": "1.0.0.936",
+  "filesystem_version": "1.0.0.850",
+  "notes": "Zmieniono domyślne hasło dostępu do portalu digiLed na password.",
   "changes": [
-    "Świeża konfiguracja i reset fabryczny ustawiają hasło AP na password.",
-    "Fallback dla nieprawidłowego hasła AP również używa wartości password.",
-    "Istniejące hasła zapisane przez użytkownika nie są nadpisywane."
+    "Domyślne dane logowania do zakładki Dostęp to teraz admin / password.",
+    "Urządzenia korzystające jeszcze z historycznych danych admin / admin są automatycznie migrowane do admin / password.",
+    "Zaktualizowano komunikaty portalu, polskie i angielskie tłumaczenia oraz dokumentację API."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed/firmware.bin",
-    "size": 1726960,
-    "md5": "57566942B384716516B053958C305BAB"
+    "size": 1727072,
+    "md5": "E1C787308D8D16C5161CA109655AFE3B"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed/littlefs.bin",
     "size": 4194304,
-    "md5": "E6EFF2D1D78C2CFEA862AD824FF92B90"
+    "md5": "B31534D1C71A759B5C6FFCAFBF89BDAB"
   },
-  "build_time": "2026-08-30T14:19:30+01:00",
+  "build_time": "2026-08-30T14:45:30+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed/changelog.json"
 }
