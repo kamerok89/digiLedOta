@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.859",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.859",
+      "date": "2026-08-30T17:23:22+01:00",
+      "title": "Animowane logo w modalu restartu",
+      "changes": [
+        "Spinner w trakcie ponownego uruchamiania urządzenia zastąpiono animacją dwóch świetlnych okręgów digiLed.",
+        "Usunięto ikonę restartu z lewego górnego rogu wraz z jej dodatkową animowaną poświatą.",
+        "Centralny znak otrzymał krótkie flary CSS, subtelne pulsowanie i miękką animację wejścia.",
+        "Zmiana jest ograniczona do modala restartu; pozostałe modale i mechanizm automatycznego ponownego połączenia pozostają bez zmian."
+      ]
+    },
+    {
       "version": "1.0.0.858",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.858",

@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.944",
-  "filesystem_version": "1.0.0.858",
-  "notes": "Animowany ekran startowy z oryginalnym logo digiLed.",
+  "filesystem_version": "1.0.0.859",
+  "notes": "Animowane logo digiLed w modalu ponownego uruchamiania.",
   "changes": [
-    "Zastąpiono kropkę i komunikaty ładowania animowanym znakiem dwóch świetlnych okręgów.",
-    "Boczne flary są generowane i płynnie animowane wyłącznie przez CSS.",
-    "Usunięto dolny pasek postępu i dodano pod symbolem oryginalny napis digiLed z grafiki.",
-    "Dodano responsywne skalowanie oraz obsługę preferencji ograniczonego ruchu."
+    "Spinner w stanie restartowania zastąpiono kompaktową animacją dwóch świetlnych okręgów.",
+    "Usunięto ikonę restartu z lewego górnego rogu modala oraz jej animowaną poświatę.",
+    "Dodano krótkie flary CSS i subtelne pulsowanie dopasowane do ekranu startowego.",
+    "Pozostałe modale oraz logika ponownego połączenia działają bez zmian."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.944.bin",
@@ -17,11 +17,11 @@
     "sha256": "EC1ED15CC12FC7B9D3977C149C189CF86D36A7D03C9EA4525DC534F4F41AD4AF"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.858.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.859.bin",
     "size": 4194304,
-    "md5": "AB47D3E87C4149E0D1FB98E9C77C42C3",
-    "sha256": "321348205AD941FA794069CDE70B5451E89004755A07E505BD88994CAF1FE65D"
+    "md5": "CB61E8101FB9273E04EDE7FA8466A93F",
+    "sha256": "85C33D6637ACD71961041C57E79CB5829C195956C4816B07842DFB1F9902EB82"
   },
-  "build_time": "2026-08-30T16:52:47+01:00",
+  "build_time": "2026-08-30T17:23:22+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
