@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.933",
+      "firmware_version": "1.0.0.933",
+      "filesystem_version": "1.0.0.849",
+      "date": "2026-08-30T14:19:30+01:00",
+      "title": "Nowe domyślne hasło punktu dostępowego",
+      "changes": [
+        "Domyślne hasło Wi-Fi punktu dostępowego digiLed zmieniono z admin123 na password.",
+        "Nowa wartość jest używana w świeżej konfiguracji, po resecie fabrycznym oraz jako bezpieczny fallback dla nieprawidłowego hasła AP.",
+        "Istniejące hasło zapisane przez użytkownika pozostaje bez zmian.",
+        "Zbudowano firmware 1.0.0.933 i odświeżono obraz LittleFS 1.0.0.849."
+      ]
+    },
+    {
       "version": "1.0.0.930",
       "firmware_version": "1.0.0.930",
       "filesystem_version": "1.0.0.849",

@@ -1,24 +1,24 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.930",
+  "firmware_version": "1.0.0.933",
   "filesystem_version": "1.0.0.849",
-  "notes": "Zmieniono nazwę projektu na digiLed i przeniesiono jego pliki OTA do katalogu digiLed.",
+  "notes": "Zmieniono domyślne hasło punktu dostępowego digiLed na password.",
   "changes": [
-    "Repozytorium projektu i odwołania konfiguracyjne używają nazwy digiLed.",
-    "Firmware i portal pobierają manifest oraz changelog z nowej ścieżki digiLed w repozytorium digiLedOta.",
-    "Opublikowano zgodne obrazy firmware 1.0.0.930 i LittleFS 1.0.0.849."
+    "Świeża konfiguracja i reset fabryczny ustawiają hasło AP na password.",
+    "Fallback dla nieprawidłowego hasła AP również używa wartości password.",
+    "Istniejące hasła zapisane przez użytkownika nie są nadpisywane."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed/firmware.bin",
-    "size": 1726976,
-    "md5": "9B0A95C7AA9DCB018F9AF57FD345BDBB"
+    "size": 1726960,
+    "md5": "57566942B384716516B053958C305BAB"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed/littlefs.bin",
     "size": 4194304,
-    "md5": "3311D547D5F8507F322193B5D62EAC6C"
+    "md5": "E6EFF2D1D78C2CFEA862AD824FF92B90"
   },
-  "build_time": "2026-08-30T13:45:45+01:00",
+  "build_time": "2026-08-30T14:19:30+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed/changelog.json"
 }
