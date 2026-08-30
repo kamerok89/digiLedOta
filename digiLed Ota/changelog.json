@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.862",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.862",
+      "date": "2026-08-30T17:47:20+01:00",
+      "title": "Czysty obrys logo w jasnym motywie",
+      "changes": [
+        "Usunięto szeroki miękki cień widoczny po lewej stronie litery d.",
+        "Kilka nakładających się filtrów zastąpiono pojedynczym symetrycznym konturem.",
+        "Animacja wejścia kończy się tym samym czystym obrysem, bez skoku wyglądu."
+      ]
+    },
+    {
       "version": "1.0.0.861",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.861",
