@@ -2,7 +2,7 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.953",
-  "filesystem_version": "1.0.0.870",
+  "filesystem_version": "1.0.0.871",
   "notes": "Dopracowany captive portal z czytelnymi kontrolkami i centralnym przyciskiem adresu.",
   "changes": [
     "Zastąpiono prosty komunikat po połączeniu z AP pełną sekcją marki znaną z formularza logowania.",
@@ -14,15 +14,15 @@
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.953.bin",
     "size": 1738960,
-    "md5": "172018512DDC6B46B2F55A89EDD1080B",
-    "sha256": "6C9B1F6F3E6A6D574655B77373D56482B34C37979BC505910A74A8A555408BA6"
+    "md5": "B0D85A6734B6E72FBE779E83C47B04ED",
+    "sha256": "03847F00B75076492E5926BE46D936F056B1BDB10F8E622EB5CA0AA38FD18470"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.870.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.871.bin",
     "size": 4194304,
-    "md5": "D2AB13208792EB108A5C08109DEE4097",
-    "sha256": "C42B7EF8C3423C2CFD81E08828A7414B0B4C4991CAD8AFCE4306351A5E77E9EF"
+    "md5": "54D42D38BB12FD22F03F86DD381C9696",
+    "sha256": "192B04F582852B9D68106B20B9EECB1C889FF872B5BD9A018A19846DD0A4D1B4"
   },
-  "build_time": "2026-08-30T20:21:57+01:00",
+  "build_time": "2026-08-30T20:41:22+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
