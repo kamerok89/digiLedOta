@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.863",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.863",
+      "date": "2026-08-30T17:55:59+01:00",
+      "title": "Nowy formularz logowania digiLed",
+      "changes": [
+        "Przeprojektowano ekran logowania wokół statycznego, świetlnego symbolu marki digiLed.",
+        "Uporządkowano hierarchię nagłówka, informacji o urządzeniu, pól formularza i głównego przycisku.",
+        "Dopracowano kolory, obramowania, cienie oraz kontrast osobno dla jasnego i ciemnego motywu.",
+        "Dodano responsywne wymiary dla małych ekranów bez ingerencji w logikę logowania i tłumaczeń."
+      ]
+    },
+    {
       "version": "1.0.0.862",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.862",

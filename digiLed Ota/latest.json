@@ -2,12 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.944",
-  "filesystem_version": "1.0.0.862",
-  "notes": "Czysty obrys napisu digiLed bez przesuniętego cienia.",
+  "filesystem_version": "1.0.0.863",
+  "notes": "Nowy, responsywny formularz logowania digiLed.",
   "changes": [
-    "Usunięto miękki cień tworzący szarą plamę po lewej stronie litery d.",
-    "Wielokrotne filtry zastąpiono jednym równym, wycentrowanym obrysem.",
-    "Napis pozostaje czytelny na jasnym tle, zachowując lekki i czysty wygląd."
+    "Przebudowano formularz logowania z wykorzystaniem istniejącego świetlnego symbolu digiLed.",
+    "Dodano spójne warianty jasny i ciemny oraz responsywny układ dla telefonów.",
+    "Zachowano wybór języka, przełącznik motywu, dane urządzenia i dotychczasowy mechanizm autoryzacji.",
+    "Logo i elementy formularza pozostają statyczne, bez dekoracyjnych animacji."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.944.bin",
@@ -16,11 +17,11 @@
     "sha256": "EC1ED15CC12FC7B9D3977C149C189CF86D36A7D03C9EA4525DC534F4F41AD4AF"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.862.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.863.bin",
     "size": 4194304,
-    "md5": "7F75A8B5D8FDC4EB4751ACF8BCDBDACD",
-    "sha256": "BE1326469E79485754D39FE2A7144B9EA92759CA8FB4BE63067F22CA6FF63CAE"
+    "md5": "994EC888BF36EA294BCC3FD01E0B06A8",
+    "sha256": "40CE1C69F78325E48583C950ABC061D86EA4955378A13735DEA631FBE0E3BEC5"
   },
-  "build_time": "2026-08-30T17:47:20+01:00",
+  "build_time": "2026-08-30T17:55:59+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
