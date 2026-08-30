@@ -2,27 +2,27 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.953",
-  "filesystem_version": "1.0.0.872",
-  "notes": "Dopracowany captive portal z czytelnymi kontrolkami i centralnym przyciskiem adresu.",
+  "filesystem_version": "1.0.0.873",
+  "notes": "Płynna sekwencja zamknięcia animacji oczekiwania przed pokazaniem formularza.",
   "changes": [
     "Zastąpiono prosty komunikat po połączeniu z AP pełną sekcją marki znaną z formularza logowania.",
     "Usunięto przycisk otwierania portalu, a adres 192.168.4.1 jest teraz bezpośrednim interaktywnym linkiem.",
     "Dodano wybór języka polskiego lub angielskiego oraz jasnego lub ciemnego motywu.",
     "Wybrane preferencje są natychmiast zapisywane w urządzeniu przez ograniczony publiczny endpoint i ponownie używane na ekranie logowania.",
-    "Ujednolicono opis logowania i przeniesiono adres portalu do centralnego, wyraźnego przycisku."
+    "Dodano końcową sekwencję animacji, w której flary zbiegają do środka, a kule zmniejszają się i wygaszają przed odsłonięciem UI."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.953.bin",
     "size": 1738960,
-    "md5": "2532601F7203B651EAFAFF356ADFAF20",
-    "sha256": "F6C30E2ADAB8CDEF561B9F088480EA79B25409A0D9615147F168B8D20F3A91C2"
+    "md5": "18B709676429AF91AA48808ED8144773",
+    "sha256": "351582EE9AD9A4C654DB5EA66A60D0384FF471E63A6B7C5572C1FFEFE4A0012C"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.872.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.873.bin",
     "size": 4194304,
-    "md5": "33DF045F829C2F68227490008B8EFF33",
-    "sha256": "CD020CBEBA3A0545729BE4567A4F95CFBF9F70B9EE29F25E6C8AB8387B75EC6C"
+    "md5": "97B33ECD2C3C427D8E1B38ED308EDE8B",
+    "sha256": "37C5F6ED767F30257C6338A3F7572CE83A730D693FD32255CE632C6440EBB576"
   },
-  "build_time": "2026-08-30T20:46:45+01:00",
+  "build_time": "2026-08-30T21:00:42+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

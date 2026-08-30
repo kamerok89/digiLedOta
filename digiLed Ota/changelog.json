@@ -3,8 +3,8 @@
     {
       "version": "1.0.0.953",
       "firmware_version": "1.0.0.953",
-      "filesystem_version": "1.0.0.872",
-      "date": "2026-08-30T20:46:45+01:00",
+      "filesystem_version": "1.0.0.873",
+      "date": "2026-08-30T21:00:42+01:00",
       "title": "Czytelniejszy captive portal",
       "changes": [
         "Menu języka otrzymało nieprzezroczyste tło w obu motywach oraz wyraźniejszą strzałkę rozwijania.",
@@ -12,7 +12,8 @@
         "Opis zmieniono na: Aby zalogować się do panelu urządzenia, kliknij poniższy przycisk.",
         "Adres 192.168.4.1 wyśrodkowano i wyróżniono jako duży przycisk z reakcją na fokus i najechanie.",
         "Te same poprawki czytelności zastosowano również w formularzu logowania.",
-        "Stan hover zachowuje teraz widoczne obramowanie przycisku wyboru języka, także w jasnym motywie."
+        "Stan hover zachowuje teraz widoczne obramowanie przycisku wyboru języka, także w jasnym motywie.",
+        "Ekran oczekiwania otrzymał płynne zakończenie: flary wracają do środka, a kule zmniejszają się i wygaszają przed pokazaniem formularza."
       ]
     },
     {
