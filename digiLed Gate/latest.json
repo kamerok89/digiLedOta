@@ -1,34 +1,34 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.255",
+  "version": "0.1.256",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Usunięto zakończoną warstwę zgodności ze starą nazwą produktu i ścieżką OTA.",
+  "notes": "Poprawiono stan przydzielenia adresu TF-BUS oraz czytelność zapisywania ustawień emulatora.",
   "changes": [
-    "Usunięto warstwę zgodności ze starą nazwą produktu i poprzednią ścieżką OTA.",
-    "Firmware, portal i pakiety aktualizacji akceptują teraz wyłącznie nazwę digiLed Gate.",
-    "Usunięto zbędne manifesty, odwołania i katalogi pozostałe po migracji nazwy."
+    "Adres TF-BUS jest pokazywany dopiero po faktycznym przydzieleniu go przez centralę CLU.",
+    "Przełącznik emulatora i przycisk zapisu mają teraz jednoznaczne etykiety oraz czytelne stany.",
+    "Niezapisane zmiany są wyraźnie oznaczone i nie są nadpisywane przez automatyczne odświeżanie portalu."
   ],
   "firmware": {
-    "version": "0.1.255",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.255.bin",
-    "md5": "42c571a8f028142cccc49382a4aab6c5",
-    "sha256": "b3e68313dc9425978de8e4569bcb99d5e72b0f75d1de922e3c2fe606ae3e9eaf",
-    "size": 1169936
+    "version": "0.1.256",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.256.bin",
+    "md5": "7c60b69946d95f30e40a696e62b13ee2",
+    "sha256": "3c698d38d73c8b99af31a2c2611e71e0001fa05289da167eb14fdfa788d71136",
+    "size": 1170640
   },
   "littlefs": {
-    "version": "0.1.255",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.255.bin",
-    "md5": "422ab9b92f83bc0afad1b549692d96f8",
-    "sha256": "d678ae8ad813bf921fa6c0131fff63c1ad661a4cb4ba554e775d28e653553190",
+    "version": "0.1.256",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.256.bin",
+    "md5": "949d43d8a0979132c1f07a6c11d69dee",
+    "sha256": "e6b8192377917b59df6cd1d917ec5c2d1ba74ce6f14a5fefca1290825e14b7dc",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.255",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.255.dgu",
-    "md5": "20a3e5bed1c8230052c4d56788a5fdae",
-    "sha256": "ca65a0e69a65f9a23643c6275a4ab4df3123c716c8e5b93927d04c2ab0e4ae76",
-    "size": 5364680
+    "version": "0.1.256",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.256.dgu",
+    "md5": "42ab0ba53ac0500647b89820119b7692",
+    "sha256": "eff8707625b0ddb61939fd84b5531346a311e2b13787592008fd4ee60847f0f3",
+    "size": 5365370
   }
 }
