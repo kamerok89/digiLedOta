@@ -1,26 +1,26 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "firmware_version": "1.0.0.942",
-  "filesystem_version": "1.0.0.855",
-  "notes": "Testowe podbicie wersji firmware i portalu digiLed.",
+  "firmware_version": "1.0.0.943",
+  "filesystem_version": "1.0.0.856",
+  "notes": "Oryginalny znak graficzny digiLed w nagłówku portalu.",
   "changes": [
-    "Podbito testową wersję firmware do 1.0.0.942.",
-    "Podbito testową wersję portalu LittleFS do 1.0.0.855.",
-    "Przebudowano firmware, LittleFS oraz scalony obraz pamięci flash."
+    "Dodano zoptymalizowany, transparentny znak dwóch świetlnych okręgów przed nazwą urządzenia.",
+    "Dopasowano rozmiar logo do nagłówka na ekranach desktopowych i mobilnych.",
+    "Dodano subtelne wejście logo z obsługą preferencji ograniczonego ruchu."
   ],
   "firmware": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.942.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.943.bin",
     "size": 1726976,
-    "md5": "7E9ED92623290C656A2B52DB7A22BB40",
-    "sha256": "B983830A892B29EB95EC154F133276E4D0D7BDE918F76E998140127EAF932318"
+    "md5": "C859D1E24CA102ECB1CBA04B026E5359",
+    "sha256": "C31D9E21EEE699525DF3CE9AF78ADA43E6570B07004981282CE3D6FC40E207C2"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.855.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.856.bin",
     "size": 4194304,
-    "md5": "C380F1C9A2CA332DFC89D0F1C729D8EC",
-    "sha256": "D5D82D77DEBAD30EDF929207BDBD0542A5BB4F16D0BAA0AAE1627916CDA2E93D"
+    "md5": "69A83F1D057EC591A7F957AB451935D6",
+    "sha256": "978D9F16F2E696706A87E1EB27F781774EFA9DEDEDF288E258B3E87D74A24015"
   },
-  "build_time": "2026-08-30T16:00:06+01:00",
+  "build_time": "2026-08-30T16:17:03+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

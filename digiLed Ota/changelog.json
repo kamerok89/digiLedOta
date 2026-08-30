@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.943",
+      "firmware_version": "1.0.0.943",
+      "filesystem_version": "1.0.0.856",
+      "date": "2026-08-30T16:17:03+01:00",
+      "title": "Oryginalne logo w nagłówku",
+      "changes": [
+        "Dodano zoptymalizowany, transparentny znak dwóch świetlnych okręgów przed dynamiczną nazwą urządzenia.",
+        "Logo ma osobny responsywny rozmiar dla ekranów desktopowych i mobilnych.",
+        "Zachowano działanie menu, edycji lokalizacji oraz pozostałych kontrolek nagłówka.",
+        "Dodano subtelną animację wejścia respektującą ustawienie ograniczonego ruchu."
+      ]
+    },
+    {
       "version": "1.0.0.942",
       "firmware_version": "1.0.0.942",
       "filesystem_version": "1.0.0.855",
