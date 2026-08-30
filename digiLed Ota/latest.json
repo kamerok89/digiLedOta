@@ -10,17 +10,17 @@
     "Przebudowano firmware, LittleFS oraz scalony obraz pamięci flash."
   ],
   "firmware": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Ota/firmware-1.0.0.941.bin",
-    "size": 1726992,
-    "md5": "329F8AA0D1E2D66B9AB81099CF8F4C9B",
-    "sha256": "15A9ACEFE7DDEC88E1E2EE18F700AECDD9BFFE9736A6ADF1DAB297A1B90A2EA4"
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.941.bin",
+    "size": 1726976,
+    "md5": "78B4C5AA149A5FB29C733A4A7143B037",
+    "sha256": "EACBFADD7A3AF0F527070D51E7841541A4CF3270F39CFD6D9A228CD2E1468358"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Ota/littlefs-1.0.0.854.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.854.bin",
     "size": 4194304,
-    "md5": "5D00CA4D0798972EAA74D663087A888F",
-    "sha256": "EED85B64F3A2F33B102027D416B570F60ADDB4B4927FD1D3F667C45E3F243370"
+    "md5": "45CB0A8B626F03FB9ED3031EBA5725E6",
+    "sha256": "22C930BC5EE0DCB027986208C4541B3B4F16506DDCC64A4956A2B1D0FC644162"
   },
-  "build_time": "2026-08-30T15:48:10+01:00",
-  "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Ota/changelog.json"
+  "build_time": "2026-08-30T15:51:33+01:00",
+  "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
