@@ -1,13 +1,14 @@
 {
-  "product": "s3_digiLedGate",
+  "product": "digiLed Gate",
   "channel": "stable",
   "version": "0.1.254",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Wydanie migracyjne do nowej nazwy digiLed Gate.",
+  "notes": "Ujednolicono nazwę projektu i całego kanału aktualizacji jako digiLed Gate.",
   "changes": [
-    "Ujednolicono nazwę projektu i kanału aktualizacji jako digiLed Gate.",
-    "Zachowano zgodność aktualizacji dla urządzeń korzystających ze starej ścieżki OTA."
+    "Ujednolicono nazwę projektu, produktu i plików aktualizacji jako digiLed Gate.",
+    "Repozytorium OTA korzysta teraz z katalogu digiLed Gate i nowych nazw pakietów DGU.",
+    "Zachowano obsługę starszej nazwy produktu, aby urządzenia i kopie ustawień pozostały zgodne."
   ],
   "firmware": {
     "version": "0.1.254",
