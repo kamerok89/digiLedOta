@@ -1,34 +1,34 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.256",
+  "version": "0.1.257",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Poprawiono stan przydzielenia adresu TF-BUS oraz czytelność zapisywania ustawień emulatora.",
+  "notes": "Generator numeru seryjnego TF-BUS uwzględnia rodzinę modułu i pełny eFuse MAC urządzenia.",
   "changes": [
-    "Adres TF-BUS jest pokazywany dopiero po faktycznym przydzieleniu go przez centralę CLU.",
-    "Przełącznik emulatora i przycisk zapisu mają teraz jednoznaczne etykiety oraz czytelne stany.",
-    "Niezapisane zmiany są wyraźnie oznaczone i nie są nadpisywane przez automatyczne odświeżanie portalu."
+    "Numery seryjne są tworzone z prefiksu rodziny modułu oraz stabilnego skrótu pełnego eFuse MAC.",
+    "Potwierdzone prefiksy to 281 dla LED RGBW DIN oraz 330 dla IO Module DIN 8.",
+    "Nieznana rodzina nie otrzymuje błędnego prefiksu, a kolizjogenna konwersja nibble modulo 10 została usunięta."
   ],
   "firmware": {
-    "version": "0.1.256",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.256.bin",
-    "md5": "7c60b69946d95f30e40a696e62b13ee2",
-    "sha256": "3c698d38d73c8b99af31a2c2611e71e0001fa05289da167eb14fdfa788d71136",
-    "size": 1170640
+    "version": "0.1.257",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.257.bin",
+    "md5": "9b8291ed220117676f97ae2154e7c4d4",
+    "sha256": "3c8ab1450cf8f683d013aa2bcb11c1076373220fa8873fab22fbd2e4a2f4156b",
+    "size": 1170720
   },
   "littlefs": {
-    "version": "0.1.256",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.256.bin",
-    "md5": "949d43d8a0979132c1f07a6c11d69dee",
-    "sha256": "e6b8192377917b59df6cd1d917ec5c2d1ba74ce6f14a5fefca1290825e14b7dc",
+    "version": "0.1.257",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.257.bin",
+    "md5": "51cf6a7b3497d02ed42e4c92a26332b2",
+    "sha256": "6f0e419059e2116fa844b661612e00c8b95806463487cf05e9a5323905598cf9",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.256",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.256.dgu",
-    "md5": "42ab0ba53ac0500647b89820119b7692",
-    "sha256": "eff8707625b0ddb61939fd84b5531346a311e2b13787592008fd4ee60847f0f3",
-    "size": 5365370
+    "version": "0.1.257",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.257.dgu",
+    "md5": "770f9fa5fcdcefc45b2f004e25064d63",
+    "sha256": "76ca6f4fdd690ddf6a2fc4e50502ac4e5404666599fe42ad3ea51470627a74f6",
+    "size": 5365464
   }
 }
