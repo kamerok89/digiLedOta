@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.864",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.864",
+      "date": "2026-08-30T18:03:35+01:00",
+      "title": "Animacja digiLed po wylogowaniu",
+      "changes": [
+        "Usunięto dotychczasową klepsydrę, tekstowy znak digiLed i animację trzech kropek z ekranu przejścia.",
+        "Wprowadzono animację okręgów oraz flar odpowiadającą modalowi restartu urządzenia.",
+        "Zachowano istniejący komunikat stanu, obsługę obu motywów oraz logikę wylogowania.",
+        "Dla użytkowników preferujących ograniczony ruch wyświetlany jest statyczny wariant znaku."
+      ]
+    },
+    {
       "version": "1.0.0.863",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.863",

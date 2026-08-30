@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.944",
-  "filesystem_version": "1.0.0.863",
-  "notes": "Nowy, responsywny formularz logowania digiLed.",
+  "filesystem_version": "1.0.0.864",
+  "notes": "Animowany ekran przejścia po wylogowaniu w stylu modala restartu.",
   "changes": [
-    "Przebudowano formularz logowania z wykorzystaniem istniejącego świetlnego symbolu digiLed.",
-    "Dodano spójne warianty jasny i ciemny oraz responsywny układ dla telefonów.",
-    "Zachowano wybór języka, przełącznik motywu, dane urządzenia i dotychczasowy mechanizm autoryzacji.",
-    "Logo i elementy formularza pozostają statyczne, bez dekoracyjnych animacji."
+    "Zastąpiono klepsydrę, napis digiLed i trzy kropki animowanym symbolem dwóch świetlnych okręgów.",
+    "Dodano płynne pulsowanie okręgów, poświaty oraz niezależnych niebieskich i czerwonych flar.",
+    "Ekran wylogowania jest teraz wizualnie spójny z modalem ponownego uruchamiania urządzenia.",
+    "Animacja respektuje systemowe ustawienie ograniczonego ruchu."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.944.bin",
@@ -17,11 +17,11 @@
     "sha256": "EC1ED15CC12FC7B9D3977C149C189CF86D36A7D03C9EA4525DC534F4F41AD4AF"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.863.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.864.bin",
     "size": 4194304,
-    "md5": "994EC888BF36EA294BCC3FD01E0B06A8",
-    "sha256": "40CE1C69F78325E48583C950ABC061D86EA4955378A13735DEA631FBE0E3BEC5"
+    "md5": "D73E5B9A63579712E1190AB5C3A9D05D",
+    "sha256": "A1697E65DF3D23D6F0DB85C723BAD04161102E8C02F7080946A20A5EAD7CC4C5"
   },
-  "build_time": "2026-08-30T17:55:59+01:00",
+  "build_time": "2026-08-30T18:03:35+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
