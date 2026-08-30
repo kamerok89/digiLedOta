@@ -2,13 +2,13 @@
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
   "firmware_version": "1.0.0.944",
-  "filesystem_version": "1.0.0.864",
-  "notes": "Animowany ekran przejścia po wylogowaniu w stylu modala restartu.",
+  "filesystem_version": "1.0.0.865",
+  "notes": "Pełny znak digiLed w nagłówku formularza logowania.",
   "changes": [
-    "Zastąpiono klepsydrę, napis digiLed i trzy kropki animowanym symbolem dwóch świetlnych okręgów.",
-    "Dodano płynne pulsowanie okręgów, poświaty oraz niezależnych niebieskich i czerwonych flar.",
-    "Ekran wylogowania jest teraz wizualnie spójny z modalem ponownego uruchamiania urządzenia.",
-    "Animacja respektuje systemowe ustawienie ograniczonego ruchu."
+    "Dodano oryginalny napis digiLed bezpośrednio pod świetlnym symbolem w panelu logowania.",
+    "Dopasowano proporcje i odstępy pełnego znaku osobno dla komputerów i telefonów.",
+    "W jasnym motywie biały fragment napisu otrzymał równy ciemny kontur bez przesuniętego cienia.",
+    "Logo formularza pozostaje statyczne zgodnie z przyjętym projektem."
   ],
   "firmware": {
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.944.bin",
@@ -17,11 +17,11 @@
     "sha256": "EC1ED15CC12FC7B9D3977C149C189CF86D36A7D03C9EA4525DC534F4F41AD4AF"
   },
   "filesystem": {
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.864.bin",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.865.bin",
     "size": 4194304,
-    "md5": "D73E5B9A63579712E1190AB5C3A9D05D",
-    "sha256": "A1697E65DF3D23D6F0DB85C723BAD04161102E8C02F7080946A20A5EAD7CC4C5"
+    "md5": "1D9B88DFD099E4B2BEBABCA1F8A2D4ED",
+    "sha256": "228B1F392EACC74C4DDF7D64E884CF9DAE206984E4EEAB089DCA9EC0170F7A37"
   },
-  "build_time": "2026-08-30T18:03:35+01:00",
+  "build_time": "2026-08-30T18:11:29+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

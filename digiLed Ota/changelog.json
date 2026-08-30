@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.865",
+      "firmware_version": "1.0.0.944",
+      "filesystem_version": "1.0.0.865",
+      "date": "2026-08-30T18:11:29+01:00",
+      "title": "Pełne logo w panelu logowania",
+      "changes": [
+        "Umieszczono oryginalny wordmark digiLed pod symbolem dwóch świetlnych okręgów.",
+        "Pełny znak otrzymał responsywne wymiary i zwarte odstępy na ekranach mobilnych.",
+        "W jasnym motywie zastosowano symetryczny kontur zapewniający czytelność białej części napisu.",
+        "Nie dodano animacji do logo formularza logowania."
+      ]
+    },
+    {
       "version": "1.0.0.864",
       "firmware_version": "1.0.0.944",
       "filesystem_version": "1.0.0.864",
