@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.930",
+      "firmware_version": "1.0.0.930",
+      "filesystem_version": "1.0.0.849",
+      "date": "2026-08-30T13:45:45+01:00",
+      "title": "Zmiana nazwy projektu na digiLed",
+      "changes": [
+        "Zmieniono nazwę repozytorium projektu z s3_seedStudio na digiLed i odświeżono lokalne odwołania konfiguracyjne.",
+        "Pliki OTA projektu przeniesiono do katalogu digiLed w repozytorium digiLedOta, a firmware i portal korzystają z nowych adresów manifestu oraz changelogu.",
+        "Pozostawiono manifest zgodności pod starą ścieżką releases/latest.json, aby urządzenia z wcześniejszym firmware mogły pobrać aktualizację.",
+        "Zbudowano firmware 1.0.0.930, portal LittleFS 1.0.0.849 i scalony obraz flash 8 MB."
+      ]
+    },
+    {
       "version": "1.0.0.924",
       "firmware_version": "1.0.0.924",
       "filesystem_version": "1.0.0.847",
