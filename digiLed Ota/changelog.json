@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.965",
+      "firmware_version": "1.0.0.965",
+      "filesystem_version": "1.0.0.889",
+      "date": "2026-09-06T14:46:03+01:00",
+      "title": "Wersja testowa aktualizacji",
+      "changes": [
+        "Podbito numer wersji w celu przetestowania aktualizacji pobieranej z GitHuba.",
+        "Pakiet DGU zawiera firmware 1.0.0.965 oraz portal 1.0.0.889."
+      ]
+    },
+    {
       "version": "1.0.0.964",
       "firmware_version": "1.0.0.964",
       "filesystem_version": "1.0.0.888",
