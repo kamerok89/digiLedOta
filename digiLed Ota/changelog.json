@@ -1,6 +1,132 @@
 {
   "releases": [
     {
+      "version": "1.0.0.963",
+      "firmware_version": "1.0.0.963",
+      "filesystem_version": "1.0.0.887",
+      "date": "2026-09-06T14:23:50+01:00",
+      "title": "Ukrywanie akcji podczas instalacji",
+      "changes": [
+        "Przycisk Sprawdź aktualizację jest ukrywany na czas pobierania, wgrywania i instalowania pakietu.",
+        "Podczas zwykłego sprawdzania dostępności przycisk pozostaje widoczny i pokazuje obracającą się ikonę.",
+        "Jeżeli instalacja zakończy się błędem, przycisk automatycznie pojawia się ponownie."
+      ]
+    },
+    {
+      "version": "1.0.0.962",
+      "firmware_version": "1.0.0.962",
+      "filesystem_version": "1.0.0.886",
+      "date": "2026-09-06T14:08:52+01:00",
+      "title": "Menu kontekstowe pola aktualizacji",
+      "changes": [
+        "Pole aktualizacji delikatnie podświetla się po wskazaniu kursorem.",
+        "Prawy przycisk myszy otwiera menu operacji związanych z aktualizacją i obsługą urządzenia.",
+        "Menu udostępnia wybór pliku, przełączanie APP, listę zmian, pobieranie i wczytywanie ustawień oraz restart.",
+        "Wszystkie pozycje korzystają z istniejących mechanizmów portalu i obsługują jasny oraz ciemny motyw.",
+        "Dodano sterowanie menu klawiszami strzałek, Home, End, Escape i klawiszem menu kontekstowego."
+      ]
+    },
+    {
+      "version": "1.0.0.961",
+      "firmware_version": "1.0.0.961",
+      "filesystem_version": "1.0.0.885",
+      "date": "2026-09-06T13:48:57+01:00",
+      "title": "Czytelniejszy nagłówek i wersje aktualizacji",
+      "changes": [
+        "Nazwę sekcji zmieniono z Aktualizacja pakietowa na Aktualizacje.",
+        "Opis sekcji informuje o sprawdzaniu dostępności oraz ręcznym wyborze i instalacji oprogramowania.",
+        "Aktualną wersję wyrównano do lewej krawędzi panelu.",
+        "Po wykryciu nowego pakietu DGU prezentowana jest jednocześnie wersja obecna i dostępna."
+      ]
+    },
+    {
+      "version": "1.0.0.960",
+      "firmware_version": "1.0.0.960",
+      "filesystem_version": "1.0.0.884",
+      "date": "2026-09-06T13:32:32+01:00",
+      "title": "Zielony i szerszy przycisk aktualizacji",
+      "changes": [
+        "Kolor kompaktowej akcji aktualizacji zmieniono na zielony w jasnym i ciemnym motywie.",
+        "Rozwiniętą szerokość zwiększono do 138 px, a przestrzeń tekstu do 108 px.",
+        "Dłuższe tłumaczenia mieszczą się bez ściskania i ucinania napisu.",
+        "Zachowano płynne przejście między ikoną a pełnym przyciskiem."
+      ]
+    },
+    {
+      "version": "1.0.0.959",
+      "firmware_version": "1.0.0.959",
+      "filesystem_version": "1.0.0.883",
+      "date": "2026-09-06T13:11:48+01:00",
+      "title": "Nowy niezależny przycisk aktualizacji DGU",
+      "changes": [
+        "Usunięto poprzedni komponent przycisku, jego selektory CSS, identyfikatory oraz powiązania JavaScript.",
+        "Nowa akcja nie używa globalnych klas btn ani primary, dzięki czemu jej wygląd nie jest nadpisywany.",
+        "Przycisk jest ukryty bez aktualizacji i pojawia się jako kompaktowa ikona po wykryciu nowego pakietu.",
+        "Hover oraz fokus płynnie rozwijają akcję do pełnego napisu Zaktualizuj.",
+        "Wariant mobilny pozostaje rozwinięty dla wygodnej obsługi dotykowej."
+      ]
+    },
+    {
+      "version": "1.0.0.958",
+      "firmware_version": "1.0.0.958",
+      "filesystem_version": "1.0.0.882",
+      "date": "2026-09-06T13:00:10+01:00",
+      "title": "Uproszczony status i przycisk aktualizacji DGU",
+      "changes": [
+        "Usunięto oznaczenie TEST z nagłówka panelu.",
+        "Komunikat sprawdzania zmieniono na Trwa wyszukiwanie aktualizacji, a stan aktualny na Wszystko jest aktualne.",
+        "Dwie wersje firmware i UI zastąpiono pojedynczym numerem Oprogramowanie odpowiadającym wspólnemu pakietowi DGU.",
+        "Przycisk Zaktualizuj jest niewidoczny bez aktualizacji, a na pulpicie płynnie rozwija się z okrągłej ikony.",
+        "Na ekranach dotykowych przycisk pozostaje rozwinięty dla zachowania czytelności i wygodnej obsługi."
+      ]
+    },
+    {
+      "version": "1.0.0.957",
+      "firmware_version": "1.0.0.957",
+      "filesystem_version": "1.0.0.881",
+      "date": "2026-09-06T10:37:59+01:00",
+      "title": "Widok pamięci DGU zgodny z digiLed Gate",
+      "changes": [
+        "Pasek panelu DGU pokazuje rzeczywistą zajętość firmware i LittleFS oraz pozostałą wolną przestrzeń.",
+        "Pod paskiem dodano tekstowe wartości zajętości firmware, LittleFS i łącznego wolnego miejsca.",
+        "Przycisk Aktualizuj urządzenie otrzymał niski, zwarty, zielony wygląd zgodny z panelem digiLed Gate.",
+        "W trakcie aktualizacji pasek pamięci nadal przełącza się na prezentację postępu transferu i instalacji.",
+        "Ujednolicono kolory segmentów pamięci z digiLed Gate."
+      ]
+    },
+    {
+      "version": "1.0.0.956",
+      "firmware_version": "1.0.0.956",
+      "filesystem_version": "1.0.0.880",
+      "date": "2026-09-06T10:10:57+01:00",
+      "title": "Zgodność systemu DGU z digiLed Gate",
+      "changes": [
+        "Usunięto obliczanie SHA-256 z przeglądarki i zależność od Web Crypto.",
+        "Przeglądarka odpowiada wyłącznie za pobranie, odczyt metadanych i przesłanie pakietu.",
+        "ESP32 strumieniowo weryfikuje sumy SHA-256 firmware i LittleFS przed zmianą partycji startowej.",
+        "Manifest latest.json otrzymał wspólne z digiLed Gate pola version, hardware i partition_scheme oraz wersje wewnątrz sekcji artefaktów.",
+        "Zachowano właściwy dla digiLed identyfikator produktu, aby blokować instalację pakietów przeznaczonych dla Gate.",
+        "Rozszerzono automatyczne wersjonowanie cache o pliki dgu-update.css i dgu-update.js."
+      ]
+    },
+    {
+      "version": "1.0.0.954",
+      "firmware_version": "1.0.0.954",
+      "filesystem_version": "1.0.0.878",
+      "date": "2026-09-06T09:38:01+01:00",
+      "title": "Testowy system aktualizacji pakietowej DGU",
+      "changes": [
+        "Dodano testowy panel aktualizacji pakietowej poniżej dotychczasowego systemu OTA.",
+        "Pakiet DGU agreguje firmware, LittleFS i manifest zgodności w jednym pliku.",
+        "Weryfikowane są urządzenie docelowe, wariant sprzętowy, układ partycji, rozmiary i sumy SHA-256 obu składników.",
+        "Nowa wersja może zostać sprawdzona i pobrana z GitHuba bezpośrednio z panelu.",
+        "Ręczny wybór pliku obsługuje pakiety DGU oraz osobne obrazy firmware.bin i littlefs.bin.",
+        "Partycja startowa jest przełączana dopiero po zapisaniu i sprawdzeniu obu składników pakietu.",
+        "Dotychczasowe pola aktualizacji pozostają dostępne równolegle na czas testów.",
+        "Przeniesiono pełną weryfikację SHA-256 z przeglądarki do ESP32, zgodnie z przepływem stosowanym w digiLed Gate."
+      ]
+    },
+    {
       "version": "1.0.0.953",
       "firmware_version": "1.0.0.953",
       "filesystem_version": "1.0.0.873",
