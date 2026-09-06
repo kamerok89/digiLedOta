@@ -1,6 +1,20 @@
 {
   "releases": [
     {
+      "version": "1.0.0.964",
+      "firmware_version": "1.0.0.964",
+      "filesystem_version": "1.0.0.888",
+      "date": "2026-09-06T14:38:30+01:00",
+      "title": "Prostsza i bezpieczniejsza aktualizacja",
+      "changes": [
+        "Status nowej wersji skrócono do komunikatu Dostępna aktualizacja.",
+        "Komunikaty techniczne zastąpiono prostszymi wskazówkami dla użytkownika.",
+        "Obok nazwy pakietu wyświetlany jest jego rozmiar w megabajtach.",
+        "Przed instalacją wyświetlany jest istniejący modal umożliwiający pobranie kopii ustawień.",
+        "Anulowanie modala zatrzymuje aktualizację, a wielokrotne kliknięcia nie otwierają kolejnych okien."
+      ]
+    },
+    {
       "version": "1.0.0.963",
       "firmware_version": "1.0.0.963",
       "filesystem_version": "1.0.0.887",
