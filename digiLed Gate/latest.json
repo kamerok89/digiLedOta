@@ -1,34 +1,34 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.269",
+  "version": "0.1.270",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Przycisk instalacji rozwija się teraz nad paskiem bez rezerwowania przestrzeni w recovery.",
+  "notes": "Przycisk instalacji przeniesiono pod pasek, naprzeciw legendy pamięci w recovery.",
   "changes": [
-    "Pasek postępu zawsze zachowuje pełną dostępną szerokość.",
-    "Przycisk Zainstaluj jest niezależną warstwą zakotwiczoną nad prawą częścią paska.",
-    "Rozwinięty przycisk zachodzi na pasek i nie przesuwa ani nie zwęża pozostałych elementów."
+    "Przycisk Zainstaluj znajduje się pod paskiem, po prawej stronie naprzeciw legendy Firmware, Portal i Wolne.",
+    "Pasek postępu zachowuje pełną szerokość, a miejsce na akcję jest wydzielone tylko w wierszu legendy.",
+    "Przycisk znika natychmiast po rozpoczęciu instalacji i wraca po błędzie, umożliwiając ponowną próbę."
   ],
   "firmware": {
-    "version": "0.1.269",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.269.bin",
-    "md5": "426fd91752137c2522c67b0cabb8ce52",
-    "sha256": "9c546bf8446e7117e56b5fa855d489ca16cf308f5c37a607d6aee5f57ac8cc4f",
-    "size": 1230272
+    "version": "0.1.270",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.270.bin",
+    "md5": "ac1ecdb0444b5267f4e61ea554821b02",
+    "sha256": "95d925e944563ccc99451ac40d4f35ac3576f0192bd59745be797a45683575ac",
+    "size": 1230800
   },
   "littlefs": {
-    "version": "0.1.269",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.269.bin",
-    "md5": "4c301793ac6df00fc0ff11a73dd10136",
-    "sha256": "cfb3cec8866575ab4db958fbf6fb163378b330cf738445e09289de6bcc42755e",
+    "version": "0.1.270",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.270.bin",
+    "md5": "55a742bb3e055e33db44b38209c3b4c0",
+    "sha256": "7448ea37a62b52656e2879a89e83f87ac72391f792d73b569624bd6fa13e270d",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.269",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.269.dgu",
-    "md5": "df8db83c303144c187c84b9a05a77b0a",
-    "sha256": "14d0c231c88fa15b4de9903f32fc06afad5eb701535070c8f4157a6a1197315a",
-    "size": 5425016
+    "version": "0.1.270",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.270.dgu",
+    "md5": "4af2bc25b4cb0ad27da4302705fb746b",
+    "sha256": "dd98f142f00ca7df9af391263282122810c231c442a49b846ed2208bc470ada9",
+    "size": 5425544
   }
 }
