@@ -1,34 +1,34 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.258",
+  "version": "0.1.259",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Podgląd na żywo TF-BUS jest widoczny tylko podczas aktywnego połączenia modułu z CLU.",
+  "notes": "Nowy ekran recovery zgodny wizualnie z interfejsem digiLED.",
   "changes": [
-    "Panel Podgląd na żywo pojawia się wyłącznie wtedy, gdy CLU regularnie odpytuje moduł TF-BUS.",
-    "Panel jest ukrywany dla modułu wyłączonego, rozłączonego, usuniętego, zbanowanego lub oczekującego na połączenie.",
-    "Stan początkowy panelu jest ukryty, dzięki czemu nie miga on przed pierwszym odczytem statusu."
+    "Tryb recovery otrzymał nowy, czytelny ekran zgodny wizualnie z interfejsem digiLED.",
+    "Strona recovery jest dostępna pod adresami /recovery, /recovery.html oraz /emergency.",
+    "Ekran pokazuje wersje, aktywny slot OTA, zajętość pamięci oraz postęp ręcznego wgrywania firmware i LittleFS."
   ],
   "firmware": {
-    "version": "0.1.258",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.258.bin",
-    "md5": "c18b3d48852351b41cd63a84579e3612",
-    "sha256": "6c29b3762055366bef2633fca441c4beef0b72a8d71e138158d2f5061d655a59",
-    "size": 1170720
+    "version": "0.1.259",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.259.bin",
+    "md5": "8cc31cc293f192123fb4f7b017ee1640",
+    "sha256": "51168fecff3bc19f075c3d6469d30c2fa3ba99032b8e774d98ab5c813298d4a7",
+    "size": 1203472
   },
   "littlefs": {
-    "version": "0.1.258",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.258.bin",
-    "md5": "0e791e09019768a3ff167f125d3164ba",
-    "sha256": "200066745af9fc771bee46b5b992e8f62e28aa8bb2584beacc50876eaa5b8cb1",
+    "version": "0.1.259",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.259.bin",
+    "md5": "0904519538321933867c4e35d9623a2e",
+    "sha256": "c85e5be0946798681e5966d285f6da40929ccc1e7e5d988696fc3598d6e747f1",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.258",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.258.dgu",
-    "md5": "73a483ad40c9caef7f98286f9d4e9af7",
-    "sha256": "a7401bd57c41e93c133c7062d6a0e63bdf1e50f7ca0163468953a8d95a26b923",
-    "size": 5365464
+    "version": "0.1.259",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.259.dgu",
+    "md5": "5b38f9999b68167db1a9f2c5e2fbcf52",
+    "sha256": "4cc3f3283bda19c17d77b3b3bc4722ef872c9f3780ddb2fcfabfe71b91195c9b",
+    "size": 5398216
   }
 }
