@@ -1,34 +1,34 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.342",
+  "version": "0.1.343",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Bezpośrednie przejścia z adresów IP w zakładce Wi-Fi.",
+  "notes": "Rzeczywisty poziom sygnału w animowanym wskaźniku Wi-Fi.",
   "changes": [
-    "Adres STA otwiera widok statusu połączenia Wi-Fi na właściwym urządzeniu.",
-    "Adres AP otwiera stronę captive portal urządzenia.",
-    "Klikalne adresy zachowują spójny wygląd jasnego i ciemnego motywu."
+    "Liczba widocznych łuków ikony Wi-Fi odpowiada jakości wyliczonej z RSSI.",
+    "Wskaźnik rozróżnia brak sygnału oraz cztery poziomy jakości połączenia.",
+    "Dekoracyjne pierścienie i dotychczasowy wygląd modala pozostały bez zmian."
   ],
   "firmware": {
-    "version": "0.1.342",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.342.bin",
-    "md5": "718cea1e730588846a184122d46d3db1",
-    "sha256": "0e1f7d26a18558fd4b23bc7dc888056310596e1db60fd31bc2380e84ab9d0978",
+    "version": "0.1.343",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.343.bin",
+    "md5": "46c710a5d36286926410800a89cc0b5e",
+    "sha256": "da64490c0b4b9a4a5b18ef0c94b81bbd2387af1ea08dfd9ecd37267111b8d089",
     "size": 1263792
   },
   "littlefs": {
-    "version": "0.1.342",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.342.bin",
-    "md5": "f64062d57cd68c6476642a311d9b632d",
-    "sha256": "213b0b9d8410c0d7e53b0c65cd2adad68aee1a633e4cd4737be858ee3972d532",
+    "version": "0.1.343",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.343.bin",
+    "md5": "4c81a1de0c3fb4f60ea8da90f0255e54",
+    "sha256": "5c3e31808bc4152f338f38ea81ef6732050a507d79552777814455c02a1043db",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.342",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.342.dgu",
-    "md5": "ef56dc572ad26d2bf1f25d176398971d",
-    "sha256": "216355a9f376bed690be5f860873fcc6f92dd7871c6c6e686139585016093310",
+    "version": "0.1.343",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.343.dgu",
+    "md5": "0a58f1db9e6aef06e6e6289ab5bd970d",
+    "sha256": "2c86c1a880189c3ae70a6b1235eb17f94f05dc518371c525415d82188ce64289",
     "size": 5458536
   }
 }
