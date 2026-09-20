@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.969",
+      "firmware_version": "1.0.0.969",
+      "filesystem_version": "1.0.0.904",
+      "date": "2026-09-20T10:59:22+01:00",
+      "title": "Sterowanie TF-BUS przez digiLed Gate",
+      "changes": [
+        "Dodano endpoint /api/ext/tf/rgbw korzystający ze wspólnego dekodera TF-Remote/MiLight.",
+        "Obsłużono sterowanie kolorami, scenami, jasnością, nasyceniem i efektami z digiLed Gate.",
+        "Adres radiowy FF00 działa jako uniwersalny broadcast bez wcześniejszego parowania.",
+        "Discovery API v2 publikuje capability tf.rgbw, a dokumentacja opisuje nowy most."
+      ]
+    },
+    {
       "version": "1.0.0.968",
       "firmware_version": "1.0.0.968",
       "filesystem_version": "1.0.0.903",

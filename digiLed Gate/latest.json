@@ -1,35 +1,35 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.347",
+  "version": "0.1.348",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Bezpieczne i jednoznaczne wykrywanie oraz sterowanie modułami digiLed.",
+  "notes": "Sterowanie digiLed z TF-BUS przez HTTP z emulatorem komunikatów CLU.",
   "changes": [
-    "Gate rozpoznaje moduły po typie produktu i stabilnym identyfikatorze urządzenia.",
-    "Ponowne wyszukiwanie aktualizuje zmieniony adres IP tego samego modułu.",
-    "Nowe moduły otrzymują token w nagłówku Authorization, a starsze wersje pozostają zgodne.",
-    "Wyłączony HTTP Gate blokuje bezpośrednie sterowanie, a diagnostyka nie pokazuje tokenu."
+    "TF-BUS steruje zgodnymi modułami digiLed przez asynchroniczny most HTTP, a bez zgodnego celu używa MiLight.",
+    "Adres 0 / FF00 działa jako broadcast, a moduły HTTP korzystają z unikalnych adresów 1–255.",
+    "Konsola TF-BUS emuluje komunikaty CLU i pokazuje trasę oraz wynik dostarczenia.",
+    "Starsze konfiguracje adresów są automatycznie migrowane."
   ],
   "firmware": {
-    "version": "0.1.347",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.347.bin",
-    "md5": "086b6bda8092edc3055bf9f8a7c0cf6c",
-    "sha256": "c946f4273215b51c4087d6fcc57c231a2f2a42ab78ccc157edb19428d01a01b4",
-    "size": 1270848
+    "version": "0.1.348",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.348.bin",
+    "md5": "e059b6d12fd6b0bee94e9ec7384526f2",
+    "sha256": "ec3aa600e3c69cd55057655446246a9503b030b2c161fd64d75a10b9c74eb75c",
+    "size": 1278144
   },
   "littlefs": {
-    "version": "0.1.347",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.347.bin",
-    "md5": "783d284e1af2d0b001a4f6e7fad91e4a",
-    "sha256": "bcdee7ab5882f82206cb0170d3099ec5cba52f1b3b5275dbc538e20d3f904f3e",
+    "version": "0.1.348",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.348.bin",
+    "md5": "f7f81e72f4b647334bd405f9f975222b",
+    "sha256": "b5389dcbd58bbfa6ecdb4add8f070ac5c0544be6cc9b703b98277ce96c3a3015",
     "size": 4194304
   },
   "dgu": {
-    "version": "0.1.347",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.347.dgu",
-    "md5": "a94e3401a8742ba141602c4cfe8dd6ff",
-    "sha256": "326651a170fdd1ed55467d777c725951aae93ce23ee6805d510fe742c2526517",
-    "size": 5465592
+    "version": "0.1.348",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.348.dgu",
+    "md5": "225fb526be026b413a2a5e44822baf1a",
+    "sha256": "456de5642c1665be943886022d2f8fc80ccafa9765228dd1cb990d37f550f282",
+    "size": 5472888
   }
 }
