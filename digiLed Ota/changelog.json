@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.968",
+      "firmware_version": "1.0.0.968",
+      "filesystem_version": "1.0.0.903",
+      "date": "2026-09-20T00:00:00+01:00",
+      "title": "Integracja z digiLed Gate",
+      "changes": [
+        "Rozszerzono discovery o typ produktu, stabilny identyfikator urządzenia, hostname i wersję API.",
+        "Dodano listę capabilities, dzięki której Gate może dobierać obsługiwane funkcje.",
+        "Dodano autoryzację nagłówkiem Bearer bez usuwania zgodności ze starszym parametrem token w URL."
+      ]
+    },
+    {
       "version": "1.0.0.965",
       "firmware_version": "1.0.0.965",
       "filesystem_version": "1.0.0.889",
