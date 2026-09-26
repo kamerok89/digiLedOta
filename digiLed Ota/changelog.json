@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.977",
+      "firmware_version": "1.0.0.977",
+      "filesystem_version": "1.0.0.977",
+      "date": "2026-09-26T19:42:35+01:00",
+      "title": "Lista zmian przy dostępnej aktualizacji",
+      "changes": [
+        "W pasku Dostępna aktualizacja dodano ikonę i akcję Lista zmian.",
+        "Kliknięcie nowej akcji otwiera tę samą listę zmian co polecenie Opcje > Lista zmian.",
+        "Dodano obsługę klawiatury, fokusu oraz jasnego i ciemnego motywu."
+      ]
+    },
+    {
       "version": "1.0.0.976",
       "firmware_version": "1.0.0.976",
       "filesystem_version": "1.0.0.976",
