@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.976",
+      "firmware_version": "1.0.0.976",
+      "filesystem_version": "1.0.0.976",
+      "date": "2026-09-26T19:36:58+01:00",
+      "title": "Płynny zapis scen i spójne wydania OTA",
+      "changes": [
+        "Zapis konfiguracji scen przeniesiono do zadania w tle, poza blokadę renderowania LED.",
+        "Firmware, portal LittleFS i pakiet DGU otrzymują jeden wspólny numer wydania.",
+        "Zwykłe kompilacje nie podbijają już automatycznie numeru wersji.",
+        "Proces wydania automatycznie tworzy artefakty, sumy kontrolne, manifest i historię zmian."
+      ]
+    },
+    {
       "version": "1.0.0.969",
       "firmware_version": "1.0.0.969",
       "filesystem_version": "1.0.0.904",
