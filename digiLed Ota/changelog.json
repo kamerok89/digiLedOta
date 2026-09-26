@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.978",
+      "firmware_version": "1.0.0.978",
+      "filesystem_version": "1.0.0.978",
+      "date": "2026-09-26T20:02:51+01:00",
+      "title": "Uporządkowane menu opcji aktualizacji",
+      "changes": [
+        "File Manager, Recovery, restart urządzenia i ustawienia fabryczne przeniesiono do menu Opcje.",
+        "Przycisk Opcje otrzymał ikonę po lewej, czytelną etykietę i animowany chevron po prawej.",
+        "Operacje korzystają z dotychczasowych zabezpieczeń i okien potwierdzenia."
+      ]
+    },
+    {
       "version": "1.0.0.977",
       "firmware_version": "1.0.0.977",
       "filesystem_version": "1.0.0.977",
