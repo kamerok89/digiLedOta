@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1000",
+      "firmware_version": "1.0.0.1000",
+      "filesystem_version": "1.0.0.1000",
+      "date": "2026-10-02T12:21:56+01:00",
+      "title": "Restart urządzenia przez Wake-on-LAN",
+      "changes": [
+        "Dodano opcję Restart przez WoL w sekcji Usługi i odświeżanie, z trwałym zapisem ustawienia.",
+        "Dodano obsługę pakietów WoL na UDP 7 i 9 dla adresu MAC urządzenia oraz blokadę restartu podczas zapisu OTA."
+      ]
+    },
+    {
       "version": "1.0.0.999",
       "firmware_version": "1.0.0.999",
       "filesystem_version": "1.0.0.999",
