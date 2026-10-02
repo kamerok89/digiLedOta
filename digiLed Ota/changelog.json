@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1001",
+      "firmware_version": "1.0.0.1001",
+      "filesystem_version": "1.0.0.1001",
+      "date": "2026-10-02T12:23:45+01:00",
+      "title": "Restart przez WoL z ochroną aktualizacji OTA",
+      "changes": [
+        "Dodano przełącznik Restart przez WoL oraz obsługę pakietów UDP 7/9 dla adresu MAC urządzenia.",
+        "Restart zachowuje stan LED w trybie przywracania i jest blokowany podczas aktualizacji internetowej, BIN oraz DGU."
+      ]
+    },
+    {
       "version": "1.0.0.1000",
       "firmware_version": "1.0.0.1000",
       "filesystem_version": "1.0.0.1000",
