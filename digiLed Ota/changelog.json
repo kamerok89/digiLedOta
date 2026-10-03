@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1010",
+      "firmware_version": "1.0.0.1010",
+      "filesystem_version": "1.0.0.1010",
+      "date": "2026-10-04T00:25:40+01:00",
+      "title": "Poprawka ciągłego działania efektu Reakcja i dyfuzja",
+      "changes": [
+        "Usunięto trwałe wygaszanie efektu Reakcja i dyfuzja spowodowane zatrzymywaniem inhibitora przez zaokrąglanie do 8 bitów.",
+        "Dodano lokalne, cykliczne pobudzenia podtrzymujące ewolucję plam światła oraz poprawiono ich widoczność na krótkich taśmach.",
+        "Zaktualizowano podgląd w portalu i dodano test regresji obejmujący 50 minut działania symulacji."
+      ]
+    },
+    {
       "version": "1.0.0.1009",
       "firmware_version": "1.0.0.1009",
       "filesystem_version": "1.0.0.1009",
