@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1002",
+      "firmware_version": "1.0.0.1002",
+      "filesystem_version": "1.0.0.1002",
+      "date": "2026-10-03T14:35:53+01:00",
+      "title": "20 nowych efektów standardowych Run FX",
+      "changes": [
+        "Dodano 20 różnych animacji standardowych: meteory, piłki, świetliki, pioruny, świece, bicie serca, SOS, pociąg, zamek, licznik binarny, regułę 30, mrówkę, reakcję i dyfuzję, interferencję fal, radar, domino, atrament, losowe wypełnianie, ruch uliczny i sprężysty pas.",
+        "Uporządkowano 50 standardowych efektów tematycznie w portalu i sterowaniu pilotem, zachowując identyfikatory istniejących scen.",
+        "Dodano podglądy nowych animacji oraz polskie i angielskie nazwy i opisy. Katalog zawiera 91 efektów Run FX i opcję bez efektu."
+      ]
+    },
+    {
       "version": "1.0.0.1001",
       "firmware_version": "1.0.0.1001",
       "filesystem_version": "1.0.0.1001",
