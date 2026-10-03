@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1003",
+      "firmware_version": "1.0.0.1003",
+      "filesystem_version": "1.0.0.1003",
+      "date": "2026-10-03T18:31:13+01:00",
+      "title": "Skalowanie interfejsu digiLed",
+      "changes": [
+        "Dodano suwak skali interfejsu od 100% do 175%, z domyślną wartością 125% i zapisem w przeglądarce.",
+        "Dostosowano układ responsywny, pozycjonowanie menu i przeciąganie edytora zakresów LED do wybranej skali."
+      ]
+    },
+    {
       "version": "1.0.0.1002",
       "firmware_version": "1.0.0.1002",
       "filesystem_version": "1.0.0.1002",
