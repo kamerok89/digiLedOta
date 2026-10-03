@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1008",
+      "firmware_version": "1.0.0.1008",
+      "filesystem_version": "1.0.0.1008",
+      "date": "2026-10-03T20:29:00+01:00",
+      "title": "Uproszczone ustawienie skali interfejsu",
+      "changes": [
+        "Skrócono nazwę ustawienia do Skala, umieszczono obok wartość procentową i zmieniono opis rozmiaru elementów interfejsu.",
+        "Przycisk Domyślne jest mniejszy i wyśrodkowany względem suwaka, także na telefonie."
+      ]
+    },
+    {
       "version": "1.0.0.1007",
       "firmware_version": "1.0.0.1007",
       "filesystem_version": "1.0.0.1007",
