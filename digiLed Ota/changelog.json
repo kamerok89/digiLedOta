@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1007",
+      "firmware_version": "1.0.0.1007",
+      "filesystem_version": "1.0.0.1007",
+      "date": "2026-10-03T20:19:45+01:00",
+      "title": "Podziałka suwaka skali interfejsu",
+      "changes": [
+        "Dodano podziałkę co 5% oraz oznaczenia 100%, 125%, 150% i 175% pod suwakiem skali interfejsu.",
+        "Kliknięcie oznaczenia ustawia wskazaną skalę, a aktualnie wybrana wartość jest wyróżniona."
+      ]
+    },
+    {
       "version": "1.0.0.1006",
       "firmware_version": "1.0.0.1006",
       "filesystem_version": "1.0.0.1006",
