@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1006",
+      "firmware_version": "1.0.0.1006",
+      "filesystem_version": "1.0.0.1006",
+      "date": "2026-10-03T20:09:45+01:00",
+      "title": "Ochrona aktualizacji przed przejęciem sesji portalu",
+      "changes": [
+        "Zabezpieczono kartę aktualizującą przed odłączeniem przez inne karty i zablokowano zmiany ustawień podczas aktualizacji.",
+        "Dodano stronę oczekiwania z automatycznym powrotem do portalu oraz ostrzeżenie przed zamknięciem karty podczas przesyłania aktualizacji."
+      ]
+    },
+    {
       "version": "1.0.0.1005",
       "firmware_version": "1.0.0.1005",
       "filesystem_version": "1.0.0.1005",
