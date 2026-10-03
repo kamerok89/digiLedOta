@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1004",
+      "firmware_version": "1.0.0.1004",
+      "filesystem_version": "1.0.0.1004",
+      "date": "2026-10-03T19:24:49+01:00",
+      "title": "Poprawki wyglądu ustawienia skali interfejsu",
+      "changes": [
+        "Ujednolicono marginesy i odstępy kafelka skali z pozostałymi sekcjami konfiguracji.",
+        "Poprawiono krańcowe pozycje i wypełnienie suwaka oraz kontrast kontrolek w jasnym motywie."
+      ]
+    },
+    {
       "version": "1.0.0.1003",
       "firmware_version": "1.0.0.1003",
       "filesystem_version": "1.0.0.1003",
