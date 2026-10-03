@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1009",
+      "firmware_version": "1.0.0.1009",
+      "filesystem_version": "1.0.0.1009",
+      "date": "2026-10-03T21:01:27+01:00",
+      "title": "Wyróżnienie domyślnej skali interfejsu",
+      "changes": [
+        "Subtelnie wyróżniono domyślną skalę 125% kolorem, mocniejszą kreską podziałki i delikatnym tłem podpisu."
+      ]
+    },
+    {
       "version": "1.0.0.1008",
       "firmware_version": "1.0.0.1008",
       "filesystem_version": "1.0.0.1008",
