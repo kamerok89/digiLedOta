@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1005",
+      "firmware_version": "1.0.0.1005",
+      "filesystem_version": "1.0.0.1005",
+      "date": "2026-10-03T19:38:32+01:00",
+      "title": "Kompaktowy modal wczytywania ustawień",
+      "changes": [
+        "Zmniejszono belkę nazwy pliku w modalu wczytywania ustawień i dodano animowane wypełnienie podczas zapisu.",
+        "Po potwierdzeniu zapisu belka wypełnia się w całości i pokazuje oczekiwanie na restart. Dostosowano oba motywy."
+      ]
+    },
+    {
       "version": "1.0.0.1004",
       "firmware_version": "1.0.0.1004",
       "filesystem_version": "1.0.0.1004",
