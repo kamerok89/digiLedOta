@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1023",
+      "firmware_version": "1.0.0.1023",
+      "filesystem_version": "1.0.0.1023",
+      "date": "2026-10-04T16:47:09+01:00",
+      "title": "TF-Bus jako pierwsza zakładka",
+      "changes": [
+        "Przeniesiono zakładkę TF-Bus przed Modbus TCP i Modbus RTU."
+      ]
+    },
+    {
       "version": "1.0.0.1022",
       "firmware_version": "1.0.0.1022",
       "filesystem_version": "1.0.0.1022",
