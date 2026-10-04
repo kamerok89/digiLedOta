@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1030",
+      "firmware_version": "1.0.0.1030",
+      "filesystem_version": "1.0.0.1030",
+      "date": "2026-10-04T19:43:04+01:00",
+      "title": "Usunięcie zbiorczego panelu statusu integracji",
+      "changes": [
+        "Usunięto panel Status integracji wraz z kartami stanu, licznikiem ramek i czasem aktualizacji.",
+        "Oczyszczono nieużywane skrypty, style i tłumaczenia oraz uniezależniono zakładki od usuniętego panelu. TF-Bus pozostaje domyślną kartą."
+      ]
+    },
+    {
       "version": "1.0.0.1029",
       "firmware_version": "1.0.0.1029",
       "filesystem_version": "1.0.0.1029",
