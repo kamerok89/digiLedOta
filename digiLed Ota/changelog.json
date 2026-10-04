@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1021",
+      "firmware_version": "1.0.0.1021",
+      "filesystem_version": "1.0.0.1021",
+      "date": "2026-10-04T16:20:21+01:00",
+      "title": "Konsola TF-Bus w stylu digiLed Gate",
+      "changes": [
+        "Przebudowano monitor TF-Bus: opis magistrali, pasek narzędzi, liczniki w pillach oraz większa konsola z kolorami RX/TX i regulacją wysokości.",
+        "Dodano panel ustawień pod ikoną koła zębatego: wybór kierunku, przełączniki rodzajów ramek i prezentacji, przywracanie domyślnych oraz przycisk Zastosuj.",
+        "Filtry i pauza zmieniają wyłącznie widok. Kopiowanie i eksport LOG zachowują pełny zapis, a ustawienia widoku mogą być zapamiętane."
+      ]
+    },
+    {
       "version": "1.0.0.1020",
       "firmware_version": "1.0.0.1020",
       "filesystem_version": "1.0.0.1020",
