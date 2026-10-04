@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1017",
+      "firmware_version": "1.0.0.1017",
+      "filesystem_version": "1.0.0.1017",
+      "date": "2026-10-04T12:37:01+01:00",
+      "title": "Spójna strzałka menu profilu TF-Bus",
+      "changes": [
+        "Zastąpiono tekstową strzałkę profilu TF-Bus ikoną chevron zgodną z pozostałymi polami portalu, z animacją obrotu przy otwieraniu menu."
+      ]
+    },
+    {
       "version": "1.0.0.1016",
       "firmware_version": "1.0.0.1016",
       "filesystem_version": "1.0.0.1016",
