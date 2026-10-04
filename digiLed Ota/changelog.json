@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1024",
+      "firmware_version": "1.0.0.1024",
+      "filesystem_version": "1.0.0.1024",
+      "date": "2026-10-04T17:06:04+01:00",
+      "title": "Naprawa sprawdzania aktualizacji OTA",
+      "changes": [
+        "Sprawdzanie manifestu OTA przeniesiono do przeglądarki, eliminując błąd SSL spowodowany brakiem pamięci RAM ESP32.",
+        "Aktualna wersja firmware jest pobierana niezależnie od manifestu i pozostaje widoczna także po błędzie połączenia z GitHubem.",
+        "Zachowano sprawdzanie zgodności sprzętu i partycji, wersji firmware i portalu oraz dostępności pakietu DGU."
+      ]
+    },
+    {
       "version": "1.0.0.1023",
       "firmware_version": "1.0.0.1023",
       "filesystem_version": "1.0.0.1023",
