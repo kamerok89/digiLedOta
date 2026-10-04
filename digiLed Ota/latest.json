@@ -1,45 +1,46 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1026",
+  "version": "1.0.0.1027",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "firmware_version": "1.0.0.1026",
-  "filesystem_version": "1.0.0.1026",
-  "notes": "Historie Modbus i terminala oraz manifest DGU w PSRAM",
+  "firmware_version": "1.0.0.1027",
+  "filesystem_version": "1.0.0.1027",
+  "notes": "Dalsze wykorzystanie PSRAM w portalu i logach",
   "changes": [
-    "Przeniesiono do PSRAM struktury historii Modbus i terminala, zachowując dotychczasową pojemność oraz obsługę logów.",
-    "Bufor manifestu DGU jest przydzielany w PSRAM tylko na czas weryfikacji pakietu i zwalniany przed rozpoczęciem zapisu flash oraz przy błędach.",
-    "Brak pamięci historii nie zatrzymuje usług. Błąd przydziału manifestu DGU bezpiecznie przerywa aktualizację przed zapisem firmware. Silnik analizy audio pozostawiono bez zmian."
+    "Dokumenty JSON konfiguracji, portalu, diagnostyki i integracji korzystają w pierwszej kolejności z PSRAM; zachowano awaryjny przydział wewnętrzny dla obsługi API.",
+    "Przeniesiono treści historii Modbus i terminala do PSRAM. Nieudany przydział tekstu zachowuje poprzednią historię, a czyszczenie zwalnia jej pamięć.",
+    "Przeniesiono mapowania akcji MiLight oraz pamięć podręczną skanowania Wi-Fi do PSRAM z obsługą błędów przydziału.",
+    "Bufory i silnik LED oraz silnik analizy audio pozostały bez zmian."
   ],
   "firmware": {
-    "version": "1.0.0.1026",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1026.bin",
-    "size": 1803152,
-    "md5": "E53801BA7D4792C2F28F40F8D65CE57C",
-    "sha256": "94AADAB6F44D4D73F712DC2D0D63A7AB001C106C556D4F68A3716A13C7371C9A"
+    "version": "1.0.0.1027",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1027.bin",
+    "size": 1807488,
+    "md5": "51FAD4045CB9C262355669366E3AD3AA",
+    "sha256": "2ABDC298F0243893A1104E98D561A8887D725022E64F99BF2A1691A67F4D63DF"
   },
   "littlefs": {
-    "version": "1.0.0.1026",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1026.bin",
+    "version": "1.0.0.1027",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1027.bin",
     "size": 4194304,
-    "md5": "F7E872A7E46282AF52ABED9C1FA46604",
-    "sha256": "74D2038B30A78C794BD477E21DE5B647B954E61B1BD7094EEF8B37282749C79F"
+    "md5": "3F813BDCED6F2712DFF163314774FFA9",
+    "sha256": "84AC4A9440246C155EDB5B14238571EA313E734D89B9C19EE15362278F6696AD"
   },
   "filesystem": {
-    "version": "1.0.0.1026",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1026.bin",
+    "version": "1.0.0.1027",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1027.bin",
     "size": 4194304,
-    "md5": "F7E872A7E46282AF52ABED9C1FA46604",
-    "sha256": "74D2038B30A78C794BD477E21DE5B647B954E61B1BD7094EEF8B37282749C79F"
+    "md5": "3F813BDCED6F2712DFF163314774FFA9",
+    "sha256": "84AC4A9440246C155EDB5B14238571EA313E734D89B9C19EE15362278F6696AD"
   },
   "dgu": {
-    "version": "1.0.0.1026",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1026.dgu",
-    "size": 5997913,
-    "md5": "00B23275AF68A6A4E94BDBE08685DDE8",
-    "sha256": "C6EBF89B65ABDFBA7D59A1AF14C8F59A7DADEBF4E555DB509D5DCF758680495C"
+    "version": "1.0.0.1027",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1027.dgu",
+    "size": 6002249,
+    "md5": "E9F00ECC424D80625CD7B429A7534CCE",
+    "sha256": "2C4702B007CC7A6F3DB786202ED9BDB077E1AA80235505C8F33762A5C2993FD0"
   },
-  "build_time": "2026-10-04T17:55:43+01:00",
+  "build_time": "2026-10-04T19:06:03+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

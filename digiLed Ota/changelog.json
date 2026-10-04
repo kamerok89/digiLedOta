@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1027",
+      "firmware_version": "1.0.0.1027",
+      "filesystem_version": "1.0.0.1027",
+      "date": "2026-10-04T19:06:03+01:00",
+      "title": "Dalsze wykorzystanie PSRAM w portalu i logach",
+      "changes": [
+        "Dokumenty JSON konfiguracji, portalu, diagnostyki i integracji korzystają w pierwszej kolejności z PSRAM; zachowano awaryjny przydział wewnętrzny dla obsługi API.",
+        "Przeniesiono treści historii Modbus i terminala do PSRAM. Nieudany przydział tekstu zachowuje poprzednią historię, a czyszczenie zwalnia jej pamięć.",
+        "Przeniesiono mapowania akcji MiLight oraz pamięć podręczną skanowania Wi-Fi do PSRAM z obsługą błędów przydziału.",
+        "Bufory i silnik LED oraz silnik analizy audio pozostały bez zmian."
+      ]
+    },
+    {
       "version": "1.0.0.1026",
       "firmware_version": "1.0.0.1026",
       "filesystem_version": "1.0.0.1026",
