@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1033",
+      "firmware_version": "1.0.0.1033",
+      "filesystem_version": "1.0.0.1033",
+      "date": "2026-10-04T20:30:34+01:00",
+      "title": "Znak wodny digiLed na kartach bramek",
+      "changes": [
+        "Dodano subtelne logo w tle karty digiLed Gate oraz nagłówków szczegółów aktywności i ustawień bramki.",
+        "Logo zoptymalizowano do WebP o rozmiarze około 11 KiB; znak wodny nie przechwytuje kliknięć i zachowuje czytelność informacji."
+      ]
+    },
+    {
       "version": "1.0.0.1032",
       "firmware_version": "1.0.0.1032",
       "filesystem_version": "1.0.0.1032",
