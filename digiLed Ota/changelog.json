@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1015",
+      "firmware_version": "1.0.0.1015",
+      "filesystem_version": "1.0.0.1015",
+      "date": "2026-10-04T11:56:31+01:00",
+      "title": "Czytelny numer seryjny i firmware TF-Bus",
+      "changes": [
+        "Numer seryjny TF-Bus jest wyświetlany i zapisywany jako rzeczywista wartość zamiast zera. Przycisk Domyślne przywraca numer urządzenia, a stare kopie konfiguracji z zerem są przeliczane.",
+        "Dostosowano pola numeru seryjnego i firmware do digiLed Gate: żółty zapis szesnastkowy pod numerem oraz żółty opis major.minor.patch pod firmware."
+      ]
+    },
+    {
       "version": "1.0.0.1014",
       "firmware_version": "1.0.0.1014",
       "filesystem_version": "1.0.0.1014",
