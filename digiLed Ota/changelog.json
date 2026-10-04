@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1016",
+      "firmware_version": "1.0.0.1016",
+      "filesystem_version": "1.0.0.1016",
+      "date": "2026-10-04T12:08:26+01:00",
+      "title": "Panel TF-Bus zgodny ze stylistyką digiLed Gate",
+      "changes": [
+        "Dodano stylowane menu profilu, animowane pille statusów oraz żółty komunikat i obramowanie niezapisanych zmian.",
+        "Zielone obramowanie oznacza przypisany adres i aktywny polling CLU. Po wyłączeniu emulatora pozostają tylko podstawowe ustawienia modułu.",
+        "Uzupełniono polskie komunikaty stanów i zdarzeń TF-Bus oraz żółte opisy adresu, numeru seryjnego i firmware."
+      ]
+    },
+    {
       "version": "1.0.0.1015",
       "firmware_version": "1.0.0.1015",
       "filesystem_version": "1.0.0.1015",
