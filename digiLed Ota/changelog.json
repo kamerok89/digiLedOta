@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1036",
+      "firmware_version": "1.0.0.1036",
+      "filesystem_version": "1.0.0.1036",
+      "date": "2026-10-04T20:56:33+01:00",
+      "title": "Czytelniejsze informacje o pojemności pamięci OTA",
+      "changes": [
+        "Przy niebieskiej i żółtej kropce wyświetlana jest zajęta pamięć, pojemność partycji oraz procent wykorzystania, np. 1.72 MB / 1.94 MB (89.0%).",
+        "Opis przy szarej kropce ma format Wolne … z …. Pojemność firmware jest odczytywana z aktualnej partycji OTA."
+      ]
+    },
+    {
       "version": "1.0.0.1035",
       "firmware_version": "1.0.0.1035",
       "filesystem_version": "1.0.0.1035",
