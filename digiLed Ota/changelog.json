@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1011",
+      "firmware_version": "1.0.0.1011",
+      "filesystem_version": "1.0.0.1011",
+      "date": "2026-10-04T09:25:56+01:00",
+      "title": "Usunięcie panelu integracji Z-Wave PWM",
+      "changes": [
+        "Usunięto frontend odczytu PWM, panel Capture, kalibrację oraz ulubione akcje z importem i eksportem JSON.",
+        "Usunięto opcje PWM z pinoutu, usług i konfiguracji konfliktu audio. Zachowano backend do kolejnego etapu."
+      ]
+    },
+    {
       "version": "1.0.0.1010",
       "firmware_version": "1.0.0.1010",
       "filesystem_version": "1.0.0.1010",
