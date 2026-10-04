@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1029",
+      "firmware_version": "1.0.0.1029",
+      "filesystem_version": "1.0.0.1029",
+      "date": "2026-10-04T19:33:10+01:00",
+      "title": "TF-Bus domyślnie aktywną kartą integracji",
+      "changes": [
+        "Po otwarciu integracji domyślnie wyświetlana jest karta TF-Bus. Panele pomocnicze Modbus pozostają ukryte do wybrania Modbus TCP lub RTU."
+      ]
+    },
+    {
       "version": "1.0.0.1028",
       "firmware_version": "1.0.0.1028",
       "filesystem_version": "1.0.0.1028",
