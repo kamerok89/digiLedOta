@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1035",
+      "firmware_version": "1.0.0.1035",
+      "filesystem_version": "1.0.0.1035",
+      "date": "2026-10-04T20:43:42+01:00",
+      "title": "Animacja nasłuchiwania pilotów i bramek MiLight",
+      "changes": [
+        "Dodano ikonę modułu digiLed Gate obok pilota w panelu dodawania urządzeń.",
+        "Podczas nasłuchiwania oba symbole emitują rozchodzące się fale radiowe. Animacja zatrzymuje się po zakończeniu nasłuchu i uwzględnia ograniczenie ruchu w ustawieniach przeglądarki."
+      ]
+    },
+    {
       "version": "1.0.0.1034",
       "firmware_version": "1.0.0.1034",
       "filesystem_version": "1.0.0.1034",
