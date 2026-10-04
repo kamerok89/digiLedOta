@@ -1,45 +1,45 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1019",
+  "version": "1.0.0.1020",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "firmware_version": "1.0.0.1019",
-  "filesystem_version": "1.0.0.1019",
-  "notes": "Konsola RGBW z kolorowaniem składni i logiem wykonania",
+  "firmware_version": "1.0.0.1020",
+  "filesystem_version": "1.0.0.1020",
+  "notes": "Rozbudowana mapa komend RGBW w stylu digiLed Gate",
   "changes": [
-    "Przebudowano konsolę RGBW na dwa panele: edytor komend CLU z kolorowaniem kanałów, liczb, delay i komentarzy oraz czytelny log wykonania lokalnego.",
-    "Log pokazuje kroki sekwencji, trasę przez API TF-Bus, przyjęcie do kolejki, potwierdzony wynik silnika scen i FX, czas wykonania oraz zatrzymanie po błędzie.",
-    "Dodano kopiowanie i czyszczenie logu. Zachowano zapis programu, Ctrl+Enter, zatrzymywanie sekwencji i responsywny układ konsoli."
+    "Zastąpiono tabelę RGBW dwunastoma kartami z opisem parametrów, zakresami wartości, żółtymi przykładami oraz edytowalną komendą i przyciskiem Wyślij.",
+    "Dodano kolorowaną przykładową sekwencję, objaśnienie HUE oraz wybór alternatywnych przykładów. Komendy z kart trafiają do konsoli wykonania bez nadpisywania programu.",
+    "Mapa obsługuje język polski i angielski oraz układ mobilny. Zachowano bezpośrednie sterowanie digiLed bez adresowania Gate przez W=11."
   ],
   "firmware": {
-    "version": "1.0.0.1019",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1019.bin",
+    "version": "1.0.0.1020",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1020.bin",
     "size": 1802016,
-    "md5": "922C192BA29071AA2B8B8624762913E4",
-    "sha256": "1F2BC2A052C176A2C423906178380253D6E4EC67F1F99769BBE86E17D2C1D6F2"
+    "md5": "ACE6C18DD7A8227C6A561BF0D80EB485",
+    "sha256": "00DB6F4D2F21932D38FBF922B932B056EF28FD1CE3464AF784DF78C07D7CAA83"
   },
   "littlefs": {
-    "version": "1.0.0.1019",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1019.bin",
+    "version": "1.0.0.1020",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1020.bin",
     "size": 4194304,
-    "md5": "F4483B014624628357FEEBF09270396F",
-    "sha256": "333589ED85B766D279DEFD3C0B320FBC51DFFB761445B1E54D451101B2AD7067"
+    "md5": "B2C777DB54BD9546BEEF8E24781AA0B6",
+    "sha256": "C3293AEF9F6EA1946FE61A24A19ADD2CE15783BE02D44490E9DFC73CE26F3ECA"
   },
   "filesystem": {
-    "version": "1.0.0.1019",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1019.bin",
+    "version": "1.0.0.1020",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1020.bin",
     "size": 4194304,
-    "md5": "F4483B014624628357FEEBF09270396F",
-    "sha256": "333589ED85B766D279DEFD3C0B320FBC51DFFB761445B1E54D451101B2AD7067"
+    "md5": "B2C777DB54BD9546BEEF8E24781AA0B6",
+    "sha256": "C3293AEF9F6EA1946FE61A24A19ADD2CE15783BE02D44490E9DFC73CE26F3ECA"
   },
   "dgu": {
-    "version": "1.0.0.1019",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1019.dgu",
+    "version": "1.0.0.1020",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1020.dgu",
     "size": 5996777,
-    "md5": "945FCFA9E5CB70D636936CAB6DE11465",
-    "sha256": "563071DCED3EADFD93026B68B2C235403267F6E20A37C801F7BB8C1CF9D78A3C"
+    "md5": "744A791310AC7F039EE7CA60974BF073",
+    "sha256": "9B43B29572587ACA328485CD693EEADF5824C501B44CF76B83C055CFF6624C3D"
   },
-  "build_time": "2026-10-04T15:43:47+01:00",
+  "build_time": "2026-10-04T15:59:34+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

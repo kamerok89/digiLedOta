@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1020",
+      "firmware_version": "1.0.0.1020",
+      "filesystem_version": "1.0.0.1020",
+      "date": "2026-10-04T15:59:34+01:00",
+      "title": "Rozbudowana mapa komend RGBW w stylu digiLed Gate",
+      "changes": [
+        "Zastąpiono tabelę RGBW dwunastoma kartami z opisem parametrów, zakresami wartości, żółtymi przykładami oraz edytowalną komendą i przyciskiem Wyślij.",
+        "Dodano kolorowaną przykładową sekwencję, objaśnienie HUE oraz wybór alternatywnych przykładów. Komendy z kart trafiają do konsoli wykonania bez nadpisywania programu.",
+        "Mapa obsługuje język polski i angielski oraz układ mobilny. Zachowano bezpośrednie sterowanie digiLed bez adresowania Gate przez W=11."
+      ]
+    },
+    {
       "version": "1.0.0.1019",
       "firmware_version": "1.0.0.1019",
       "filesystem_version": "1.0.0.1019",
