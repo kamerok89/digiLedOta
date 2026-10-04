@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1034",
+      "firmware_version": "1.0.0.1034",
+      "filesystem_version": "1.0.0.1034",
+      "date": "2026-10-04T20:38:51+01:00",
+      "title": "Usunięcie znaku wodnego z listy pilotów",
+      "changes": [
+        "Usunięto znak wodny digiLed z karty bramki na liście zapisanych pilotów. Logo pozostaje w szczegółach aktywności i ustawieniach bramki."
+      ]
+    },
+    {
       "version": "1.0.0.1033",
       "firmware_version": "1.0.0.1033",
       "filesystem_version": "1.0.0.1033",
