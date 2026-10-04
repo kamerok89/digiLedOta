@@ -1,46 +1,45 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1013",
+  "version": "1.0.0.1014",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "firmware_version": "1.0.0.1013",
-  "filesystem_version": "1.0.0.1013",
-  "notes": "Obsługa TF-Bus CLU w digiLed",
+  "firmware_version": "1.0.0.1014",
+  "filesystem_version": "1.0.0.1014",
+  "notes": "Uproszczony panel TF-Bus w stylu digiLed Gate",
   "changes": [
-    "Dodano emulator LED RGBW DIN oraz sniffer TF-Bus na wspólnym złączu RS485, z wykrywaniem, adresowaniem i odpowiedziami dla CLU.",
-    "Komendy RGBW sterują lokalnie scenami i FX; dodano adresowanie odbiornika przez W=11, kolejkę komend i podgląd wyniku wykonania.",
-    "Rozbudowano panel TF-Bus o profile firmware, numer seryjny, konfigurację UART, podgląd kanałów, sekwencje testowe z zapisem programu oraz konsolę ramek z filtrami i eksportem LOG.",
-    "Dodano walidację konfliktów z Modbus RTU i GPIO, zapis konfiguracji w kopii JSON, czyszczenie adresów przy resecie fabrycznym oraz obsługę bajtu AA wewnątrz ramek."
+    "Przebudowano panel emulatora na wzór digiLed Gate: profil modułu, przełącznik, zapis zmian, adres CLU, numer seryjny, firmware i liczniki komunikacji.",
+    "TF-Bus działa zawsze jako emulator na UART1 ze stałą transmisją 115200 8N1 bez inwersji. Usunięto wybór kontrolera, trybu i konfigurację portu.",
+    "Zachowano monitor ramek, testy RGBW, profile modułu i adresowanie odbiornika; ustawienia połączenia przeniesiono do zwijanej sekcji."
   ],
   "firmware": {
-    "version": "1.0.0.1013",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1013.bin",
-    "size": 1803200,
-    "md5": "635CE3C26CA68D058762743FF32C813A",
-    "sha256": "A332C99F9715306A8C04D1825570AEB264D6C0B3F02FD9AF00F529E3DB51E7C1"
+    "version": "1.0.0.1014",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1014.bin",
+    "size": 1802720,
+    "md5": "C83D7EB52FD506E4EE25FAB2A95F57C3",
+    "sha256": "AD761E631257A54524A199B11160DB6F2E088E058D9BA58C6D719F927D4E49BD"
   },
   "littlefs": {
-    "version": "1.0.0.1013",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1013.bin",
+    "version": "1.0.0.1014",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1014.bin",
     "size": 4194304,
-    "md5": "2E28784C46B98EC0E11FEF7F1FE3295D",
-    "sha256": "2CB258AC57B4875BEE15A919B4F12652863B44EBB13AFEDDC92E21C3996F4BE3"
+    "md5": "543B19CD79D925889DE7F5201B72953F",
+    "sha256": "DBAE4B16F7C5EF05DB2D72DFE635769BF61AB95626153065D0E08452CC8BA543"
   },
   "filesystem": {
-    "version": "1.0.0.1013",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1013.bin",
+    "version": "1.0.0.1014",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1014.bin",
     "size": 4194304,
-    "md5": "2E28784C46B98EC0E11FEF7F1FE3295D",
-    "sha256": "2CB258AC57B4875BEE15A919B4F12652863B44EBB13AFEDDC92E21C3996F4BE3"
+    "md5": "543B19CD79D925889DE7F5201B72953F",
+    "sha256": "DBAE4B16F7C5EF05DB2D72DFE635769BF61AB95626153065D0E08452CC8BA543"
   },
   "dgu": {
-    "version": "1.0.0.1013",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1013.dgu",
-    "size": 5997961,
-    "md5": "41ED2F520C4A6894A58BB16C884ABA8F",
-    "sha256": "5B94BCD2835DE57B025067452CA8E1E895934A6071DA79A391E6786955CA2F35"
+    "version": "1.0.0.1014",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1014.dgu",
+    "size": 5997481,
+    "md5": "A14D6B59397DD2B3363BE433D682ED44",
+    "sha256": "4418F38733151C25C0759E4D4FB4B5A0A32BA08FF61B3BA4FE9D21B2FF3CE2BC"
   },
-  "build_time": "2026-10-04T10:26:56+01:00",
+  "build_time": "2026-10-04T11:19:27+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

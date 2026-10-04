@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1014",
+      "firmware_version": "1.0.0.1014",
+      "filesystem_version": "1.0.0.1014",
+      "date": "2026-10-04T11:19:27+01:00",
+      "title": "Uproszczony panel TF-Bus w stylu digiLed Gate",
+      "changes": [
+        "Przebudowano panel emulatora na wzór digiLed Gate: profil modułu, przełącznik, zapis zmian, adres CLU, numer seryjny, firmware i liczniki komunikacji.",
+        "TF-Bus działa zawsze jako emulator na UART1 ze stałą transmisją 115200 8N1 bez inwersji. Usunięto wybór kontrolera, trybu i konfigurację portu.",
+        "Zachowano monitor ramek, testy RGBW, profile modułu i adresowanie odbiornika; ustawienia połączenia przeniesiono do zwijanej sekcji."
+      ]
+    },
+    {
       "version": "1.0.0.1013",
       "firmware_version": "1.0.0.1013",
       "filesystem_version": "1.0.0.1013",
