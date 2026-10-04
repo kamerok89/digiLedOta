@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1019",
+      "firmware_version": "1.0.0.1019",
+      "filesystem_version": "1.0.0.1019",
+      "date": "2026-10-04T15:43:47+01:00",
+      "title": "Konsola RGBW z kolorowaniem składni i logiem wykonania",
+      "changes": [
+        "Przebudowano konsolę RGBW na dwa panele: edytor komend CLU z kolorowaniem kanałów, liczb, delay i komentarzy oraz czytelny log wykonania lokalnego.",
+        "Log pokazuje kroki sekwencji, trasę przez API TF-Bus, przyjęcie do kolejki, potwierdzony wynik silnika scen i FX, czas wykonania oraz zatrzymanie po błędzie.",
+        "Dodano kopiowanie i czyszczenie logu. Zachowano zapis programu, Ctrl+Enter, zatrzymywanie sekwencji i responsywny układ konsoli."
+      ]
+    },
+    {
       "version": "1.0.0.1018",
       "firmware_version": "1.0.0.1018",
       "filesystem_version": "1.0.0.1018",
