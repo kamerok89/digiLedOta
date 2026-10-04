@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1032",
+      "firmware_version": "1.0.0.1032",
+      "filesystem_version": "1.0.0.1032",
+      "date": "2026-10-04T20:23:07+01:00",
+      "title": "Nazwa i ikona bramki digiLed Gate w MiLight",
+      "changes": [
+        "Adresy FFxx są prezentowane jako digiLed Gate w liście urządzeń, szczegółach, ustawieniach i opisach dodawania bramki.",
+        "Ikona bramki zachowuje kształt modułu DIN i zawiera znak oraz oznaczenie digiLed Gate."
+      ]
+    },
+    {
       "version": "1.0.0.1031",
       "firmware_version": "1.0.0.1031",
       "filesystem_version": "1.0.0.1031",
