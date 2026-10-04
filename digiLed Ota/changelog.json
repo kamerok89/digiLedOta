@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1026",
+      "firmware_version": "1.0.0.1026",
+      "filesystem_version": "1.0.0.1026",
+      "date": "2026-10-04T17:55:43+01:00",
+      "title": "Historie Modbus i terminala oraz manifest DGU w PSRAM",
+      "changes": [
+        "Przeniesiono do PSRAM struktury historii Modbus i terminala, zachowując dotychczasową pojemność oraz obsługę logów.",
+        "Bufor manifestu DGU jest przydzielany w PSRAM tylko na czas weryfikacji pakietu i zwalniany przed rozpoczęciem zapisu flash oraz przy błędach.",
+        "Brak pamięci historii nie zatrzymuje usług. Błąd przydziału manifestu DGU bezpiecznie przerywa aktualizację przed zapisem firmware. Silnik analizy audio pozostawiono bez zmian."
+      ]
+    },
+    {
       "version": "1.0.0.1025",
       "firmware_version": "1.0.0.1025",
       "filesystem_version": "1.0.0.1025",
