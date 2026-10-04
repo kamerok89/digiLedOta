@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1025",
+      "firmware_version": "1.0.0.1025",
+      "filesystem_version": "1.0.0.1025",
+      "date": "2026-10-04T17:41:41+01:00",
+      "title": "Historia ramek TF-Bus w PSRAM",
+      "changes": [
+        "Przeniesiono bufor 128 ramek konsoli TF-Bus do PSRAM, zwalniając około 28 KiB wewnętrznego RAM.",
+        "Odczyt, zapis i czyszczenie historii korzystają ze wspólnej blokady usługi TF-Bus; usunięto zbędną blokadę sekcji krytycznej przy dostępie do PSRAM.",
+        "Brak PSRAM lub błąd przydziału historii nie zatrzymuje emulatora i nie powoduje zajęcia zastępczego bufora w wewnętrznym RAM."
+      ]
+    },
+    {
       "version": "1.0.0.1024",
       "firmware_version": "1.0.0.1024",
       "filesystem_version": "1.0.0.1024",
