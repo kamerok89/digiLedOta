@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1022",
+      "firmware_version": "1.0.0.1022",
+      "filesystem_version": "1.0.0.1022",
+      "date": "2026-10-04T16:44:07+01:00",
+      "title": "Przyciski konsoli TF-Bus po lewej",
+      "changes": [
+        "Wyrównano pasek przycisków konsoli TF-Bus do lewej strony."
+      ]
+    },
+    {
       "version": "1.0.0.1021",
       "firmware_version": "1.0.0.1021",
       "filesystem_version": "1.0.0.1021",
