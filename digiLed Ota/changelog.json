@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1031",
+      "firmware_version": "1.0.0.1031",
+      "filesystem_version": "1.0.0.1031",
+      "date": "2026-10-04T20:05:05+01:00",
+      "title": "Przywracanie pilotów MiLight po restarcie",
+      "changes": [
+        "Naprawiono znikanie dodanych pilotów MiLight po ponownym uruchomieniu: integracja wczytuje zapisane piloty i przypisania przycisków podczas startu urządzenia.",
+        "Konfiguracja MiLight jest odtwarzana również przy wyłączonej integracji lub niedostępnym radiu nRF24."
+      ]
+    },
+    {
       "version": "1.0.0.1030",
       "firmware_version": "1.0.0.1030",
       "filesystem_version": "1.0.0.1030",
