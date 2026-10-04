@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1013",
+      "firmware_version": "1.0.0.1013",
+      "filesystem_version": "1.0.0.1013",
+      "date": "2026-10-04T10:26:56+01:00",
+      "title": "Obsługa TF-Bus CLU w digiLed",
+      "changes": [
+        "Dodano emulator LED RGBW DIN oraz sniffer TF-Bus na wspólnym złączu RS485, z wykrywaniem, adresowaniem i odpowiedziami dla CLU.",
+        "Komendy RGBW sterują lokalnie scenami i FX; dodano adresowanie odbiornika przez W=11, kolejkę komend i podgląd wyniku wykonania.",
+        "Rozbudowano panel TF-Bus o profile firmware, numer seryjny, konfigurację UART, podgląd kanałów, sekwencje testowe z zapisem programu oraz konsolę ramek z filtrami i eksportem LOG.",
+        "Dodano walidację konfliktów z Modbus RTU i GPIO, zapis konfiguracji w kopii JSON, czyszczenie adresów przy resecie fabrycznym oraz obsługę bajtu AA wewnątrz ramek."
+      ]
+    },
+    {
       "version": "1.0.0.1012",
       "firmware_version": "1.0.0.1012",
       "filesystem_version": "1.0.0.1012",
