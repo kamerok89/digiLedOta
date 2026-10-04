@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1028",
+      "firmware_version": "1.0.0.1028",
+      "filesystem_version": "1.0.0.1028",
+      "date": "2026-10-04T19:26:48+01:00",
+      "title": "Procesy: oznaczenie PSRAM i czytelniejszy RAM",
+      "changes": [
+        "Dodano gwiazdkę w kolumnie RAM dla procesów, dla których wykryto dostęp do danych w PSRAM, oraz legendę *PSRAM pod tabelą.",
+        "Ujednolicono wyświetlanie pamięci stosu w jednym wierszu: użycie / pojemność, separator kółeczka i wolne miejsce.",
+        "Zmieniono polskie nazwy stanów na Uruchomiony, Wstrzymany i Gotowy oraz dodano podpowiedzi wyjaśniające oczekiwanie na CPU lub zdarzenie."
+      ]
+    },
+    {
       "version": "1.0.0.1027",
       "firmware_version": "1.0.0.1027",
       "filesystem_version": "1.0.0.1027",
