@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1012",
+      "firmware_version": "1.0.0.1012",
+      "filesystem_version": "1.0.0.1012",
+      "date": "2026-10-04T09:35:58+01:00",
+      "title": "Usunięcie backendu integracji Z-Wave PWM",
+      "changes": [
+        "Usunięto przechwytywanie PWM, kalibrację, dekoder kanału W i API ulubionych akcji.",
+        "Oczyszczono konfigurację, pinout, kopie JSON i wykrywanie konfliktów GPIO w audio, Modbus oraz MiLight.",
+        "Zachowano sterowanie wbudowaną diodą i wspólne akcje integracji. Usunięto pozostałe nieużywane elementy frontendu."
+      ]
+    },
+    {
       "version": "1.0.0.1011",
       "firmware_version": "1.0.0.1011",
       "filesystem_version": "1.0.0.1011",
