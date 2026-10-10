@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1037",
+      "firmware_version": "1.0.0.1037",
+      "filesystem_version": "1.0.0.1037",
+      "date": "2026-10-10T20:11:08+01:00",
+      "title": "Obsługa starszych pilotów MILight RGBW",
+      "changes": [
+        "Dodano odbiór starszego protokołu MILight RGBW V1: cztery grupy, kolor, jasność, efekty i przytrzymanie przycisków.",
+        "Dodano zębatkę w sekcji Piloty i wybór protokołu radiowego; domyślnie aktywny pozostaje RGB+CCT V2.",
+        "Wybór protokołu jest zapamiętywany, a piloty i mapowania obu protokołów są zachowywane także w kopii konfiguracji."
+      ]
+    },
+    {
       "version": "1.0.0.1036",
       "firmware_version": "1.0.0.1036",
       "filesystem_version": "1.0.0.1036",
