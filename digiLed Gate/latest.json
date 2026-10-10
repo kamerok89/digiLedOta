@@ -1,34 +1,34 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.383",
+  "version": "0.1.384",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Kolejność RGB w panelu MiLight i poprawiona sekwencja białego światła RGBW.",
+  "notes": "Kanoniczne ramki poleceń starego MiLight RGBW, w tym białego światła.",
   "changes": [
-    "Ustawienia MiLight pozwalają wybrać i zapamiętać RGB, RBG, GRB, GBR, BRG lub BGR; korekta dotyczy barw panelu w obu protokołach.",
-    "Białe światło RGBW poprzedza włączenie aktywnej grupy; opóźnione komendy suwaka są anulowane, a żądania panelu wysyłane kolejno.",
-    "Podgląd koloru pokazuje biel po komendzie Białe światło i zachowuje ją przy zmianie jasności."
+    "Ramki bieli, ON/OFF, trybu nocnego i prędkości RGBW nie zawierają poprzedniego koloru, jasności ani numeru efektu.",
+    "Białe światło nadaje samodzielną komendę ALL lub aktywnej grupy w formacie FUT096, bez poprzedzającego ON.",
+    "Kolor, jasność i efekt używają wyłącznie swoich pól danych; zapamiętana kolejność RGB pozostaje aktywna."
   ],
   "firmware": {
-    "version": "0.1.383",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.383.bin",
-    "size": 1309104,
-    "md5": "b4b505d4f6a8139d4233079ea14540b6",
-    "sha256": "02cfa4b5c24625f451209b95b4221962093bc5faed9d8fbe04082bbbd2634792"
+    "version": "0.1.384",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.384.bin",
+    "size": 1309088,
+    "md5": "803ce3c38a27ca3814a9a05f3ae7e0af",
+    "sha256": "827d0f1be946a4ae99e136bae78ebf5830f2f59caaa939c882cbacda678e9e44"
   },
   "littlefs": {
-    "version": "0.1.383",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.383.bin",
+    "version": "0.1.384",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.384.bin",
     "size": 4194304,
-    "md5": "01a4dc520b635be800bf75c76ef5a93a",
-    "sha256": "d5227748bc47353752ffb370ae896727dea039c5dc5ed88e390bd1673b202cb6"
+    "md5": "e2de9c873f62dab4a174e41fd52ee186",
+    "sha256": "1e7a80856af9338493dc9939d5ecd104e7af28da21e0014fd1f92f9384ce7008"
   },
   "dgu": {
-    "version": "0.1.383",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.383.dgu",
-    "size": 5503848,
-    "md5": "2b22b724322a55c694fe487bb27f7d34",
-    "sha256": "959fb78c835455007bd48056457f34dbe2f3df9652f9a8826068d8b99f8097bb"
+    "version": "0.1.384",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.384.dgu",
+    "size": 5503832,
+    "md5": "ca8fcd7e94af8eb86fb213e1cf98ed4a",
+    "sha256": "e93b631cd9e1b03de8edbf572ec4ab94e4aa264f5d522f8b5538879f8cf7b7ac"
   }
 }
