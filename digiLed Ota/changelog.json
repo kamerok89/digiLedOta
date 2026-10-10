@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1038",
+      "firmware_version": "1.0.0.1038",
+      "filesystem_version": "1.0.0.1038",
+      "date": "2026-10-10T20:22:59+01:00",
+      "title": "Zębatka po prawej stronie nagłówka Piloty",
+      "changes": [
+        "Przeniesiono przycisk wyboru protokołu MILight na prawy koniec nagłówka Piloty, w jednym wierszu z tytułem."
+      ]
+    },
+    {
       "version": "1.0.0.1037",
       "firmware_version": "1.0.0.1037",
       "filesystem_version": "1.0.0.1037",
