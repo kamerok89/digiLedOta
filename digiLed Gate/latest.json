@@ -1,34 +1,34 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.381",
+  "version": "0.1.382",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Pełny pilot starego MiLight RGBW 7-bajtowego i zapamiętywany wybór protokołu.",
+  "notes": "Nowy pinout XIAO ESP32-S3 dla nRF24 i TF-BUS.",
   "changes": [
-    "Dodano nadawanie starego MiLight RGBW 7-bajtowego: ALL, cztery grupy, kolor, jasność, biel, tryb nocny, dziewięć efektów i regulacja prędkości.",
-    "Zębatka w panelu MiLight otwiera wybór starego lub nowego protokołu; wybór jest zapamiętywany, a domyślnym pozostaje nowy RGB+CCT.",
-    "Stary pilot otrzymał wybór efektu, poprzedni efekt i parowanie aktywnej grupy; panel ukrywa nieobsługiwane nasycenie."
+    "XIAO ESP32-S3: nRF24 CE=GPIO1, CSN=GPIO2, SCK=GPIO3, MISO=GPIO5, MOSI=GPIO4; IRQ niepodłączony.",
+    "XIAO ESP32-S3: TF-BUS RX=GPIO7, TX=GPIO8, DE/RE=GPIO9; piny nie kolidują z radiem.",
+    "Tabela i kopiowanie pinoutu w portalu pokazują nowe GPIO oraz oznaczenia D płytki XIAO."
   ],
   "firmware": {
-    "version": "0.1.381",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.381.bin",
+    "version": "0.1.382",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.382.bin",
     "size": 1307712,
-    "md5": "979f45fe49abf19fd5cd5bea83f60f6b",
-    "sha256": "42c6a4a9e98d595b1d3c4e0a899f12d902d4db937eab71f9ea9a382e063b2b87"
+    "md5": "cd1422f48c1f11925edbe9cd96694790",
+    "sha256": "28c60cf88ca516a60e4dbb4085c94e16b94c3042efe02e440cb29224d8bf55fc"
   },
   "littlefs": {
-    "version": "0.1.381",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.381.bin",
+    "version": "0.1.382",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.382.bin",
     "size": 4194304,
-    "md5": "8e5cec5a53666183784e5da633694fa1",
-    "sha256": "0cc787d81a46d1ff6d41579e66abde06926f8df7ff3b0d5ca3e0fa14e60be06c"
+    "md5": "b0a1e64a0ceae966397a91eb73e2a9ca",
+    "sha256": "219bc1aa6b2d56794fe3f624ce2adf1763054333c2e6f8d753113342d521854e"
   },
   "dgu": {
-    "version": "0.1.381",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.381.dgu",
+    "version": "0.1.382",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.382.dgu",
     "size": 5502456,
-    "md5": "80ecfbf3f3da5527712f33354733cebb",
-    "sha256": "c2db049eec273b05b11a8d739b948957c6d9ffce9a5fdc10cafb6aaf936e444b"
+    "md5": "8758061ec860b3d3848ff41da033a20e",
+    "sha256": "7c11f9162da828e638e5e1a4357a02bf783513a078cd3ac7dee928a4d59c0b97"
   }
 }
