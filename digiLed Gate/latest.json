@@ -1,33 +1,33 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.387",
+  "version": "0.1.388",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Pilot FUT092 w jasnym i ciemnym motywie portalu.",
+  "notes": "Geometria obudowy i przycisków bliższa oryginalnemu FUT092.",
   "changes": [
-    "Panel sterowania MiLight w formie pilota FUT092: koło barw, pionowe suwaki, przyciski S+/M/S− i cztery klawisze grup.",
-    "Grafitowa obudowa w motywie ciemnym i perłowa obudowa z żółtymi przyciskami w motywie jasnym; obsługa koła barw klawiaturą."
+    "Bardziej owalne zakończenia obudowy pilota FUT092, zbliżone do oryginału.",
+    "Łukowe przyciski zasilania i S+/M/S− oraz węższe klawisze grup w obu motywach."
   ],
   "firmware": {
-    "version": "0.1.387",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.387.bin",
+    "version": "0.1.388",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.388.bin",
     "size": 1309088,
-    "md5": "dfe292bf1fea348ab100950574b58d26",
-    "sha256": "34b3619fdd3a1937031c58e1d130dbf83f9d4df18c6c161622c7ea0603abe9bb"
+    "md5": "43f99c6aefe84ea670c3f97a115e40f2",
+    "sha256": "4cc1c0410535bcd86b3a90cf5b2ceb2dbe1d74e23df520cfd608680c352a0e05"
   },
   "littlefs": {
-    "version": "0.1.387",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.387.bin",
+    "version": "0.1.388",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.388.bin",
     "size": 4194304,
-    "md5": "c46eb647fe074c71a4487fb47532c659",
-    "sha256": "c2344382f5eca707a82d68c99f71b8865e762814f8e43e1994506f14f8007922"
+    "md5": "13deb4eb97e8a3459b9fa59b573662d7",
+    "sha256": "f4c340203a5a87ff9c8a300414dca11ba75f2680a5b6b7c73fcbada70b397961"
   },
   "dgu": {
-    "version": "0.1.387",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.387.dgu",
+    "version": "0.1.388",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.388.dgu",
     "size": 5503832,
-    "md5": "ff06bbfb985dbcfdbc62df56d1a25861",
-    "sha256": "8076d12b83c2bf4ddd555424fba2daa6a57dec65d91434103d07db6c8de9a7d1"
+    "md5": "99d8236477a4b6d7ae22204451ca81e1",
+    "sha256": "cd0f7188b2e9895b54da3825bfe68e052dc10cd1e53aa204fd1a14e52f3e9271"
   }
 }
