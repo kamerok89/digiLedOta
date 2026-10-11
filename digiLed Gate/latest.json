@@ -1,33 +1,33 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.393",
+  "version": "0.1.394",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Pilot dopasowany do ekranu aplikacji Android.",
+  "notes": "Zmiana oprogramowania między digiLed Gate a digiLed z resetem ustawień.",
   "changes": [
-    "Piloty FUT092 i FUT096 w aplikacji automatycznie dopasowują rozmiar do wysokości i szerokości ekranu.",
-    "Pełna obudowa z klawiszami grup mieści się w widoku pilota; rozmiar przeliczany również po obrocie telefonu."
+    "Instalacja pakietu digiLed na digiLed Gate, także w recovery, z modalem potwierdzającym zmianę oprogramowania.",
+    "Przywrócenie ustawień, Wi-Fi i logowania do domyślnych po weryfikacji pełnego pakietu; zachowana kontrola sprzętu, partycji i SHA-256."
   ],
   "firmware": {
-    "version": "0.1.393",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.393.bin",
-    "size": 1309088,
-    "md5": "37fc62ce5ece5fb3bb270ad7eda0ada3",
-    "sha256": "493a050c69f134b9d85b28bf617630e608d17f482a695803612dc54786dc1af1"
+    "version": "0.1.394",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.394.bin",
+    "size": 1311008,
+    "md5": "6a299abbf9b32d5703ef90ced1ff2ad1",
+    "sha256": "3315780d4a7eafb113d047af654846791461af3a6729cbd5ba9c0d00ce222fd5"
   },
   "littlefs": {
-    "version": "0.1.393",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.393.bin",
+    "version": "0.1.394",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.394.bin",
     "size": 4194304,
-    "md5": "f07db0cef27f50d95f5ac312541a41fd",
-    "sha256": "081ef2f3651e499e34e640363ce62ff3fb075902ccde63aca779be69ad65f171"
+    "md5": "ae7314e79de423dfd85fe5b19c05b7fc",
+    "sha256": "19d0891eeeb91034b71a5cefe1ab0cd7cfaefbe5883fd0f1cd96a4911b624020"
   },
   "dgu": {
-    "version": "0.1.393",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.393.dgu",
-    "size": 5503832,
-    "md5": "d258de32240a42125f70e4748c634cf0",
-    "sha256": "86288cddf5a65fe5377abfd55780b4a1d0102ced14a1dd5e3cd00e2d9917e6b3"
+    "version": "0.1.394",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.394.dgu",
+    "size": 5505752,
+    "md5": "2c689dcdc0f2cbd69b6bafd60162096e",
+    "sha256": "74140c05768337194324f1cc3b2255b8fbf7c2a0afe76ae73aa47e6405dafafa"
   }
 }
