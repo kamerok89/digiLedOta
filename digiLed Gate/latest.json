@@ -1,33 +1,33 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.385",
+  "version": "0.1.386",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Kompaktowy kafelek wyłączonego emulatora TF-BUS.",
+  "notes": "Nowoczesny, przejrzysty pasek sterowania emulatorem TF-BUS.",
   "changes": [
-    "Wyłączony emulator po zapisaniu zmian ukrywa status i opis modułu, zmniejszając wysokość kafelka profilu TF-BUS.",
-    "Komunikat po zmianie profilu nadal pojawia się przez 5,2 sekundy, także przy wyłączonym emulatorze."
+    "Lżejszy pasek sterowania emulatorem: przełącznik bez ramki i jednoliniowy przycisk zapisu o stałej szerokości.",
+    "Spokojny wskaźnik niezapisanych zmian oraz obracający się wskaźnik zapisu, znak potwierdzenia i przycisk ponowienia po błędzie."
   ],
   "firmware": {
-    "version": "0.1.385",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.385.bin",
+    "version": "0.1.386",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.386.bin",
     "size": 1309088,
-    "md5": "66d038d57bdb915b6ffad52690eae130",
-    "sha256": "2cc32e39afd439f292210e775eb27834416ce6857d4314a4f50ac2601a6ca20d"
+    "md5": "03ea522a44a00928825526eff75ddaf4",
+    "sha256": "7ca70b1b76cd1157b792988aac08e7e6371ed1a533a99538ffb36c437a779b08"
   },
   "littlefs": {
-    "version": "0.1.385",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.385.bin",
+    "version": "0.1.386",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.386.bin",
     "size": 4194304,
-    "md5": "004e0331a088d4f71fb626a33db72d83",
-    "sha256": "14f74193a827bdc0189c3f71f21674c605467f1f6fe5e2589fc18f74547e9613"
+    "md5": "d058c1a1232285630cc9ef417b2f1eb7",
+    "sha256": "c96995ac2c3d8ded3008c3d93a4d6192003b39f57e1be44224a6167faa5efa5b"
   },
   "dgu": {
-    "version": "0.1.385",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.385.dgu",
+    "version": "0.1.386",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.386.dgu",
     "size": 5503832,
-    "md5": "5ff57fbdd1aaebc67c959a0b94b03b1e",
-    "sha256": "235eb0ba00df888c6769bd5b82a52416c3afa67798b476cdb63e59141dcfe821"
+    "md5": "18a5699b6ec4e531dcb94b46922947cc",
+    "sha256": "877c485b7cb0b9b516bdd8f844b529a37392536d8e15c61547d55c288f4877ff"
   }
 }
