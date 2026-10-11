@@ -1,33 +1,33 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.389",
+  "version": "0.1.390",
   "hardware": "SEEED_XIAO_ESP32S3_8MB",
   "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Pilot FUT096 dla RGBW i dioda aktywności w obu pilotach.",
+  "notes": "ID pilota w ustawieniach i mniejsze piloty.",
   "changes": [
-    "Osobny wygląd pilota FUT096 dla starszego protokołu RGBW 7-bajtów: pozioma jasność i przyciski S−/M/S+ pod kołem barw.",
-    "Centralna czerwona dioda aktywności w FUT092 i FUT096 reaguje na przyciski, suwaki, koło barw i wysyłanie komend."
+    "ID pilota, zapis ID i opis parowania przeniesione do ustawień pod przyciskiem zębatki.",
+    "Piloty FUT092 i FUT096 pomniejszone o 10%; aktywna grupa widoczna przy nagłówku sterowania."
   ],
   "firmware": {
-    "version": "0.1.389",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.389.bin",
+    "version": "0.1.390",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.390.bin",
     "size": 1309088,
-    "md5": "b006e28bd6a426dc60a852e8ef7afe92",
-    "sha256": "5dbdad664d13c6b2bf2e4b02566da79682a830152b1e3322e266af2532114476"
+    "md5": "8922aff8a46f8dc05ae3767a0399e228",
+    "sha256": "99fc4c924fcd50367643de9392b2ea3caa272ed7cfbcfbbaa54cb5ba48a0fa5f"
   },
   "littlefs": {
-    "version": "0.1.389",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.389.bin",
+    "version": "0.1.390",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.390.bin",
     "size": 4194304,
-    "md5": "55f38fb24fdc0006da6800c85fe20331",
-    "sha256": "63175ee663365e3f7fab34fd592f0c778e74a1cdbf08cbb2e46358185adabd54"
+    "md5": "514a0fbc4c6971fa0c7d7240cbf6e86c",
+    "sha256": "7919ab4869229b993096d3bfc4f39bfa6163115f6c9bce87fc55ce66e6923180"
   },
   "dgu": {
-    "version": "0.1.389",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.389.dgu",
+    "version": "0.1.390",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.390.dgu",
     "size": 5503832,
-    "md5": "796f25873a8be8c75f6551ee86cb31f9",
-    "sha256": "95f7a741e3ffda30d2a0b81312b09d2fe215b706f215478f080f351132d83a91"
+    "md5": "95750066e2d9bb78935895fbfcc24843",
+    "sha256": "6820a66cf77f30424157d6cf1657a75a5a5b2f364001e6d0599eb64d714ca69f"
   }
 }
