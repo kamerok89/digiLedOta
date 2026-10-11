@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1039",
+      "firmware_version": "1.0.0.1039",
+      "filesystem_version": "1.0.0.1039",
+      "date": "2026-10-11T21:51:15+01:00",
+      "title": "Zmiana oprogramowania digiLed i digiLed Gate",
+      "changes": [
+        "Instalacja pakietu digiLed Gate na digiLed z modalem potwierdzającym zmianę oprogramowania i przywrócenie ustawień domyślnych.",
+        "Reset ustawień, Wi-Fi i logowania następuje po weryfikacji całego pakietu; zachowano kontrolę sprzętu, partycji i SHA-256."
+      ]
+    },
+    {
       "version": "1.0.0.1038",
       "firmware_version": "1.0.0.1038",
       "filesystem_version": "1.0.0.1038",
