@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1068",
+      "firmware_version": "1.0.0.1068",
+      "filesystem_version": "1.0.0.1068",
+      "date": "2026-10-18T21:48:40+01:00",
+      "title": "Krótsza blokada silnika LED podczas odpytywania portalu",
+      "changes": [
+        "Odczyt scen kopiuje spójny stan pod blokadą silnika, a budowanie JSON i odpowiedzi HTTP odbywa się już poza blokadą.",
+        "Status schematów również tworzy JSON po zwolnieniu blokady renderowania LED; zachowano dotychczasowy format API i częstotliwość odświeżania portalu."
+      ]
+    },
+    {
       "version": "1.0.0.1067",
       "firmware_version": "1.0.0.1067",
       "filesystem_version": "1.0.0.1067",
