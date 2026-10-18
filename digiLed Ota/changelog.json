@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1052",
+      "firmware_version": "1.0.0.1052",
+      "filesystem_version": "1.0.0.1052",
+      "date": "2026-10-18T13:38:52+01:00",
+      "title": "Wygodniejszy kreator schematów",
+      "changes": [
+        "Dodano czytelne czasy kroków, osobne przewijanie kolumn oraz podsumowanie przebiegów i orientacyjnego czasu z uwzględnieniem RunI.",
+        "Dodano przeciąganie kroków i oznaczanie niezapisanych zmian z potwierdzeniem odrzucenia oraz ochroną przy opuszczaniu strony."
+      ]
+    },
+    {
       "version": "1.0.0.1051",
       "firmware_version": "1.0.0.1051",
       "filesystem_version": "1.0.0.1051",
