@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1056",
+      "firmware_version": "1.0.0.1056",
+      "filesystem_version": "1.0.0.1056",
+      "date": "2026-10-18T16:09:11+01:00",
+      "title": "Uruchamianie i zatrzymywanie schematu jednym przyciskiem",
+      "changes": [
+        "Przycisk aktywnego schematu zmienia się na Zatrzymaj i zatrzymuje schemat po kliknięciu; usunięto osobny przycisk zatrzymania z nagłówka.",
+        "Przycisk Nowy schemat wyróżniono zielonym kolorem."
+      ]
+    },
+    {
       "version": "1.0.0.1055",
       "firmware_version": "1.0.0.1055",
       "filesystem_version": "1.0.0.1055",
