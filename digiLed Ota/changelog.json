@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1047",
+      "firmware_version": "1.0.0.1047",
+      "filesystem_version": "1.0.0.1047",
+      "date": "2026-10-18T11:16:02+01:00",
+      "title": "Dwa tryby demonstracyjne efektów",
+      "changes": [
+        "Dodano Demo - Szczęśliwy Traf: kolejne uruchomienia sceny wybierają efekty po kolei.",
+        "Dodano Demo - Ślepy Los: każde uruchomienie losuje efekt bez powtórzenia poprzedniego wyboru.",
+        "Oba tryby pomijają Sound Reactive, brak efektu i same tryby demo; wybór pozostaje stały przez całe uruchomienie sceny."
+      ]
+    },
+    {
       "version": "1.0.0.1046",
       "firmware_version": "1.0.0.1046",
       "filesystem_version": "1.0.0.1046",
