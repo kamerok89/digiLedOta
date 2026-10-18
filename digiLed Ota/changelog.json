@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1050",
+      "firmware_version": "1.0.0.1050",
+      "filesystem_version": "1.0.0.1050",
+      "date": "2026-10-18T12:34:08+01:00",
+      "title": "Nowe listy wyboru i narzędzia kreatora schematów",
+      "changes": [
+        "Listy Działanie, Scena i Kierunek mają wygląd wyboru efektów w ustawieniach scen i obsługę klawiatury.",
+        "Przeniesiono Dodaj krok do nagłówka, dodano ikony operacji kroków i wyłączono zamykanie kreatora kliknięciem poza modalem."
+      ]
+    },
+    {
       "version": "1.0.0.1049",
       "firmware_version": "1.0.0.1049",
       "filesystem_version": "1.0.0.1049",
