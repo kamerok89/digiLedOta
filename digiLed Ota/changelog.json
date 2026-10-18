@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1061",
+      "firmware_version": "1.0.0.1061",
+      "filesystem_version": "1.0.0.1061",
+      "date": "2026-10-18T19:20:46+01:00",
+      "title": "Optymalizacja JavaScript portalu",
+      "changes": [
+        "Zmniejszono script.js o około 138 KB i jego gzip o około 23 KB bez usuwania funkcji portalu.",
+        "Dodano powtarzalną minifikację i gzip podczas budowania oraz oddzielono źródło JavaScript od plików wynikowych.",
+        "Zachowano nazwy globalne współdzielone ze schematami, integracjami i HTML; CSS pozostawiono bez zmian."
+      ]
+    },
+    {
       "version": "1.0.0.1060",
       "firmware_version": "1.0.0.1060",
       "filesystem_version": "1.0.0.1060",
