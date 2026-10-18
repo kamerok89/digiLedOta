@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1044",
+      "firmware_version": "1.0.0.1044",
+      "filesystem_version": "1.0.0.1044",
+      "date": "2026-10-18T09:30:00+01:00",
+      "title": "Wymuszona aktualizacja DGU z terminala",
+      "changes": [
+        "Dodano komendę firmware-force-update, która pobiera najnowsze DGU z GitHub i instaluje firmware oraz portal także dla tej samej wersji.",
+        "Terminal pokazuje postęp pobierania, zapisu, weryfikacji sum SHA-256, błędy i potwierdzenie restartu; podgląd pozostaje dostępny podczas aktualizacji."
+      ]
+    },
+    {
       "version": "1.0.0.1043",
       "firmware_version": "1.0.0.1043",
       "filesystem_version": "1.0.0.1043",
