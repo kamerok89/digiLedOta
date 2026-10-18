@@ -10,36 +10,36 @@
   "changes": [
     "Dodano przycisk Terminal obok portalu głównego i modal z historią HTTP oraz wysyłaniem komend.",
     "Zachowano kopiowanie, zaznaczanie, eksport logu, czyszczenie historii, menu kontekstowe, znaczniki czasu i automatyczne przewijanie.",
-    "Widok terminala, style i ikony są zapisane w firmware i działają bez plików portalu LittleFS."
+    "Widok terminala, style i ikony są zapisane w firmware i działają bez plików portalu LittleFS; strony recovery są wysyłane strumieniowo z Flash."
   ],
   "firmware": {
     "version": "1.0.0.1042",
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1042.bin",
-    "size": 1898608,
-    "md5": "DFF7A300D1604BED5F8194566949A90B",
-    "sha256": "12D50FACF131E2B1866AEA35F9A7E3058447B6C37992C5887006BC99EEDF9E2E"
+    "size": 1898736,
+    "md5": "E96D410E4162DF50BAC90837DEABC8E1",
+    "sha256": "1D873DF7E248E9D29A48709E70F427273B4556362CD21DAD797FA6EBB58805D5"
   },
   "littlefs": {
     "version": "1.0.0.1042",
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1042.bin",
     "size": 4194304,
-    "md5": "23A0A66723BC92D01410079D2AC2104E",
-    "sha256": "BA4551F87336E1767AAA53A4DE70F7514B6A846405E84DA93543978FA776D691"
+    "md5": "C16A0434A0C00FEA5B935CD01BF4A582",
+    "sha256": "74920F75734035EA21830BAB9FF52C7DF5DC7E8ECB66F8A438A772FA2127D91B"
   },
   "filesystem": {
     "version": "1.0.0.1042",
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1042.bin",
     "size": 4194304,
-    "md5": "23A0A66723BC92D01410079D2AC2104E",
-    "sha256": "BA4551F87336E1767AAA53A4DE70F7514B6A846405E84DA93543978FA776D691"
+    "md5": "C16A0434A0C00FEA5B935CD01BF4A582",
+    "sha256": "74920F75734035EA21830BAB9FF52C7DF5DC7E8ECB66F8A438A772FA2127D91B"
   },
   "dgu": {
     "version": "1.0.0.1042",
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1042.dgu",
-    "size": 6093369,
-    "md5": "9FF5A2B3FAA16D93D6A7EEE68EF3C008",
-    "sha256": "A16B15C8A1C8B0AEB3F97A4CFAA2E7260C6FA0DAD4DB2C31A737E7C8C98947F2"
+    "size": 6093497,
+    "md5": "353B82945E611096E9DC892FFD9C2059",
+    "sha256": "6EEE90CAD54C3D4C35CC940DE9C434E60EBD233ED0F108C0047695CA61E3919A"
   },
-  "build_time": "2026-10-18T09:12:45+01:00",
+  "build_time": "2026-10-18T09:14:05+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

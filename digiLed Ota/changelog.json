@@ -4,12 +4,12 @@
       "version": "1.0.0.1042",
       "firmware_version": "1.0.0.1042",
       "filesystem_version": "1.0.0.1042",
-      "date": "2026-10-18T09:12:45+01:00",
+      "date": "2026-10-18T09:14:05+01:00",
       "title": "Terminal awaryjny w recovery digiLed",
       "changes": [
         "Dodano przycisk Terminal obok portalu głównego i modal z historią HTTP oraz wysyłaniem komend.",
         "Zachowano kopiowanie, zaznaczanie, eksport logu, czyszczenie historii, menu kontekstowe, znaczniki czasu i automatyczne przewijanie.",
-        "Widok terminala, style i ikony są zapisane w firmware i działają bez plików portalu LittleFS."
+        "Widok terminala, style i ikony są zapisane w firmware i działają bez plików portalu LittleFS; strony recovery są wysyłane strumieniowo z Flash."
       ]
     },
     {
