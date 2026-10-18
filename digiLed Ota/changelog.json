@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1065",
+      "firmware_version": "1.0.0.1065",
+      "filesystem_version": "1.0.0.1065",
+      "date": "2026-10-18T20:32:09+01:00",
+      "title": "Szersze wykresy i zwarty układ zajętości pamięci",
+      "changes": [
+        "Wykresy RAM, PSRAM i temperatury dopasowują szerokość do kafelka, zachowując wysokość 120 px.",
+        "Zajęte i wolne miejsce w app0, app1 oraz files są wyświetlane w jednym wierszu po przeciwnych stronach.",
+        "Przyciski Uruchom, Aktywny i Menedżer plików mają ograniczoną szerokość i są wyrównane do lewej."
+      ]
+    },
+    {
       "version": "1.0.0.1064",
       "firmware_version": "1.0.0.1064",
       "filesystem_version": "1.0.0.1064",
