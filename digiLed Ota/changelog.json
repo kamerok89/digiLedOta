@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1051",
+      "firmware_version": "1.0.0.1051",
+      "filesystem_version": "1.0.0.1051",
+      "date": "2026-10-18T13:16:20+01:00",
+      "title": "Spójny wygląd kreatora i kolory kroków",
+      "changes": [
+        "Ujednolicono przyciski kreatora do stylu Kopiuj i Usuń; Dodaj krok znajduje się pod nagłówkiem, a licznik przy prawej krawędzi.",
+        "Dodano delikatne kolory kafelków zależne od rodzaju kroku: RunW, RunI, Sleep, Stop i ColorMixTime."
+      ]
+    },
+    {
       "version": "1.0.0.1050",
       "firmware_version": "1.0.0.1050",
       "filesystem_version": "1.0.0.1050",
