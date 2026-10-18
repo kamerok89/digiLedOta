@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1055",
+      "firmware_version": "1.0.0.1055",
+      "filesystem_version": "1.0.0.1055",
+      "date": "2026-10-18T14:58:39+01:00",
+      "title": "Suwaki kolorów w kreatorze schematów",
+      "changes": [
+        "Dodano suwaki odcienia, nasycenia i jasności z dynamicznymi gradientami, dokładnym wpisem liczbowym i obsługą Mix.",
+        "Zmiany koloru aktualizują podgląd kroku i pozostają tymczasowe podczas wykonywania schematu."
+      ]
+    },
+    {
       "version": "1.0.0.1054",
       "firmware_version": "1.0.0.1054",
       "filesystem_version": "1.0.0.1054",
