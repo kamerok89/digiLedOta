@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1062",
+      "firmware_version": "1.0.0.1062",
+      "filesystem_version": "1.0.0.1062",
+      "date": "2026-10-18T19:35:51+01:00",
+      "title": "Porządkowanie JavaScript i moduł aktualizacji na żądanie",
+      "changes": [
+        "Usunięto 18 wcześniejszych, nadpisanych definicji funkcji, zachowując działające implementacje.",
+        "Panel aktualizacji DGU jest pobierany dopiero po wejściu w Oprogramowanie, z wersjonowaniem i ponawianiem po błędzie.",
+        "Zmniejszono główny script.js o około 49 KB; cały JavaScript zajmuje dodatkowo około 20 KB mniej niż poprzednio.",
+        "Przywracanie konfiguracji po aktualizacji pozostaje dostępne od startu portalu. CSS i sposób przechowywania gzip bez zmian."
+      ]
+    },
+    {
       "version": "1.0.0.1061",
       "firmware_version": "1.0.0.1061",
       "filesystem_version": "1.0.0.1061",
