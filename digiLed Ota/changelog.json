@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1041",
+      "firmware_version": "1.0.0.1041",
+      "filesystem_version": "1.0.0.1041",
+      "date": "2026-10-18T08:57:04+01:00",
+      "title": "Większe odstępy w recovery",
+      "changes": [
+        "Zwiększono odstępy między przyciskami recovery i oddzielono dolny panel akcji od obszaru aktualizacji."
+      ]
+    },
+    {
       "version": "1.0.0.1040",
       "firmware_version": "1.0.0.1040",
       "filesystem_version": "1.0.0.1040",
