@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1067",
+      "firmware_version": "1.0.0.1067",
+      "filesystem_version": "1.0.0.1067",
+      "date": "2026-10-18T20:56:38+01:00",
+      "title": "Czytelniejsze informacje o pamięci LittleFS",
+      "changes": [
+        "Kafelek Pliki i Foldery pokazuje nazwę LittleFS i całkowity rozmiar partycji.",
+        "Przy zajętym i wolnym miejscu dodano rzeczywiste procenty z dokładnością do jednego miejsca po przecinku oraz angielskie tłumaczenie nagłówka."
+      ]
+    },
+    {
       "version": "1.0.0.1066",
       "firmware_version": "1.0.0.1066",
       "filesystem_version": "1.0.0.1066",
