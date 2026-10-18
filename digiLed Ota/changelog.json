@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1071",
+      "firmware_version": "1.0.0.1071",
+      "filesystem_version": "1.0.0.1071",
+      "date": "2026-10-18T22:10:49+01:00",
+      "title": "Rozdzielenie obsługi HTTP i renderowania LED",
+      "changes": [
+        "Przeniesiono zadanie AsyncTCP i obsługę żądań portalu na rdzeń 0, pozostawiając domyślny silnik LED na rdzeniu 1.",
+        "Rozdzielenie ogranicza wypieranie renderowania przez obsługę sieci o wyższym priorytecie; zachowano wcześniejsze skrócenie transmisji do skonfigurowanej liczby LED i ciche pomiary rytmu klatek."
+      ]
+    },
+    {
       "version": "1.0.0.1070",
       "firmware_version": "1.0.0.1070",
       "filesystem_version": "1.0.0.1070",
