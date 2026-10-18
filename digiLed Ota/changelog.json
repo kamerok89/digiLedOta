@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1040",
+      "firmware_version": "1.0.0.1040",
+      "filesystem_version": "1.0.0.1040",
+      "date": "2026-10-18T08:52:56+01:00",
+      "title": "Nowy ekran recovery digiLed",
+      "changes": [
+        "Zastąpiono recovery interfejsem z digiLed Gate: wspólny wybór pliku BIN lub DGU, pasek pamięci i postępu oraz kompaktowy układ.",
+        "Dodano analizę pakietu, modal potwierdzenia i zmianę digiLed na digiLed Gate z ostrzeżeniem o resecie ustawień.",
+        "Dostosowano diagnostykę pamięci, wersje czteroczłonowe i obsługę błędów; zachowano pełną weryfikację DGU w urządzeniu."
+      ]
+    },
+    {
       "version": "1.0.0.1039",
       "firmware_version": "1.0.0.1039",
       "filesystem_version": "1.0.0.1039",
