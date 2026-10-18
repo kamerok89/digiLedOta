@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1054",
+      "firmware_version": "1.0.0.1054",
+      "filesystem_version": "1.0.0.1054",
+      "date": "2026-10-18T14:07:44+01:00",
+      "title": "Prędkości scen w krokach schematów",
+      "changes": [
+        "Dodano własne prędkości startu, pracy i zatrzymania 1–1000 w krokach RunW i RunI oraz prędkość zatrzymania w kroku Stop.",
+        "Prędkości są tymczasowe i nie zmieniają zapisanej konfiguracji scen; istniejące schematy zachowują dotychczasowe ustawienia."
+      ]
+    },
+    {
       "version": "1.0.0.1053",
       "firmware_version": "1.0.0.1053",
       "filesystem_version": "1.0.0.1053",
