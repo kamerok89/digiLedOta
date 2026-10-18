@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1060",
+      "firmware_version": "1.0.0.1060",
+      "filesystem_version": "1.0.0.1060",
+      "date": "2026-10-18T18:59:58+01:00",
+      "title": "Mapa Flash — dopracowanie widoku",
+      "changes": [
+        "Usunięto stary, powielony wykaz pamięci pod nową mapą i uzupełniono wskaźnik pojemności kości.",
+        "Zachowano dokładny podział partycji, neutralne wolne miejsce oraz czerwony stan krytyczny files.",
+        "Nieznany rozmiar obrazu ma jednoznaczny opis również w podpowiedzi mapy."
+      ]
+    },
+    {
       "version": "1.0.0.1059",
       "firmware_version": "1.0.0.1059",
       "filesystem_version": "1.0.0.1059",
