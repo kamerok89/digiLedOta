@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1059",
+      "firmware_version": "1.0.0.1059",
+      "filesystem_version": "1.0.0.1059",
+      "date": "2026-10-18T18:54:10+01:00",
+      "title": "Dokładna mapa pamięci Flash",
+      "changes": [
+        "Mapa pokazuje System, app0, app1, files oraz pamięć poza partycjami z rzeczywistej tablicy partycji.",
+        "Dodano zajęte i wolne miejsce w obu slotach firmware oraz files; wolna przestrzeń ma neutralny kolor.",
+        "Zapełnienie files od 90% oznaczane jest ostrzeżeniem, a od 95% czerwonym stanem krytycznym."
+      ]
+    },
+    {
       "version": "1.0.0.1058",
       "firmware_version": "1.0.0.1058",
       "filesystem_version": "1.0.0.1058",
