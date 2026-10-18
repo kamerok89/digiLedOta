@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1043",
+      "firmware_version": "1.0.0.1043",
+      "filesystem_version": "1.0.0.1043",
+      "date": "2026-10-18T09:16:53+01:00",
+      "title": "Stabilne menu terminala recovery",
+      "changes": [
+        "Menu opcji i menu kontekstowe terminala pozostają otwarte podczas automatycznego dopisywania i przewijania logów.",
+        "Terminal awaryjny nadal działa w modalu bez plików LittleFS, z kompletem funkcji obecnego terminala."
+      ]
+    },
+    {
       "version": "1.0.0.1042",
       "firmware_version": "1.0.0.1042",
       "filesystem_version": "1.0.0.1042",
