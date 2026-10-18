@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1066",
+      "firmware_version": "1.0.0.1066",
+      "filesystem_version": "1.0.0.1066",
+      "date": "2026-10-18T20:40:16+01:00",
+      "title": "Naprawa File Managera przy plikach tylko gzip",
+      "changes": [
+        "File Manager poprawnie serwuje CSS i JavaScript gzip również wtedy, gdy usunięto nieskompresowane kopie.",
+        "Zachowano kontrolę dostępu i poprawne nagłówki Content-Type oraz Content-Encoding bez przywracania dużych plików."
+      ]
+    },
+    {
       "version": "1.0.0.1065",
       "firmware_version": "1.0.0.1065",
       "filesystem_version": "1.0.0.1065",
