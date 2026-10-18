@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1064",
+      "firmware_version": "1.0.0.1064",
+      "filesystem_version": "1.0.0.1064",
+      "date": "2026-10-18T20:14:04+01:00",
+      "title": "Małe wykresy pamięci i temperatury",
+      "changes": [
+        "RAM, PSRAM i temperatura SoC mają wykresy historii 190 × 120 px z ostatnich 40 odczytów.",
+        "Zachowano bieżące wartości i ostrzeżenia; brak odczytu tworzy przerwę w wykresie, a restart zeruje historię.",
+        "Usunięto zewnętrzną ramkę i powielony opis mapy Flash oraz ujednolicono przycisk menedżera plików z przyciskiem Uruchom."
+      ]
+    },
+    {
       "version": "1.0.0.1063",
       "firmware_version": "1.0.0.1063",
       "filesystem_version": "1.0.0.1063",
