@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1057",
+      "firmware_version": "1.0.0.1057",
+      "filesystem_version": "1.0.0.1057",
+      "date": "2026-10-18T16:59:45+01:00",
+      "title": "Pełne tłumaczenia sekcji Schematy",
+      "changes": [
+        "Uzupełniono angielskie etykiety kreatora, menu, podpowiedzi, potwierdzeń i komunikatów błędów.",
+        "Zmiana języka odświeża także stałe teksty bez utraty edytowanego schematu."
+      ]
+    },
+    {
       "version": "1.0.0.1056",
       "firmware_version": "1.0.0.1056",
       "filesystem_version": "1.0.0.1056",
