@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1045",
+      "firmware_version": "1.0.0.1045",
+      "filesystem_version": "1.0.0.1045",
+      "date": "2026-10-18T09:37:02+01:00",
+      "title": "Aktualizacja z terminala z zachowaniem konfiguracji",
+      "changes": [
+        "Komenda firmware-force-update zachowuje poprawne pliki ustawień, logowania, scen i pilotów podczas instalacji najnowszego DGU z GitHub.",
+        "Kopia konfiguracji powstaje w PSRAM przed zapisem LittleFS; przywrócone pliki są odczytywane i weryfikowane przed aktywacją nowego firmware."
+      ]
+    },
+    {
       "version": "1.0.0.1044",
       "firmware_version": "1.0.0.1044",
       "filesystem_version": "1.0.0.1044",
