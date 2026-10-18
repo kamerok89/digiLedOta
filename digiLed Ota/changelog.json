@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1058",
+      "firmware_version": "1.0.0.1058",
+      "filesystem_version": "1.0.0.1058",
+      "date": "2026-10-18T18:42:16+01:00",
+      "title": "Czytelniejszy terminal diagnostyczny",
+      "changes": [
+        "Ograniczono powtarzalne logi żądań scen i udanych automatycznych zapisów stanu.",
+        "Pinout jest wypisywany przy uruchomieniu oraz zmianie pinów; zachowano komunikaty błędów.",
+        "Usunięto zbędne próby kasowania nieistniejącej kopii schematów."
+      ]
+    },
+    {
       "version": "1.0.0.1057",
       "firmware_version": "1.0.0.1057",
       "filesystem_version": "1.0.0.1057",
