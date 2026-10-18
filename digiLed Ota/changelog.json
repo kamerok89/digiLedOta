@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1069",
+      "firmware_version": "1.0.0.1069",
+      "filesystem_version": "1.0.0.1069",
+      "date": "2026-10-18T22:00:59+01:00",
+      "title": "Diagnostyka rytmu klatek LED",
+      "changes": [
+        "Dodano cichy pomiar odstępów między ukończonymi klatkami LED i czasu obsługi renderowania, dostępny przez diagnostyczne API.",
+        "Pomiar przechowuje ostatnie 256 próbek w RAM, bez zapisu Flash i bez dodatkowych logów terminala; pozwala rozróżnić opóźnienia sieciowe od kosztu efektów."
+      ]
+    },
+    {
       "version": "1.0.0.1068",
       "firmware_version": "1.0.0.1068",
       "filesystem_version": "1.0.0.1068",
