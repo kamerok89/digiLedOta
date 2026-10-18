@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1063",
+      "firmware_version": "1.0.0.1063",
+      "filesystem_version": "1.0.0.1063",
+      "date": "2026-10-18T20:00:19+01:00",
+      "title": "Czytelny układ kafelków pamięci Flash",
+      "changes": [
+        "Usunięto zbiorczy pasek zajętości Flash wraz z nieużywanymi podpowiedziami, skryptami i stylami.",
+        "Kafelki app0 i app1 są obok siebie, files zajmuje pełną szerokość, a System i filesystemfree znajdują się poniżej.",
+        "W kafelku files przycisk menedżera plików znajduje się pomiędzy etykietami a wartościami zajętego i wolnego miejsca."
+      ]
+    },
+    {
       "version": "1.0.0.1062",
       "firmware_version": "1.0.0.1062",
       "filesystem_version": "1.0.0.1062",
