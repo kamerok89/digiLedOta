@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1070",
+      "firmware_version": "1.0.0.1070",
+      "filesystem_version": "1.0.0.1070",
+      "date": "2026-10-18T22:05:51+01:00",
+      "title": "Transmisja LED zgodna z długością paska",
+      "changes": [
+        "Sterownik WS2812 wysyła cyklicznie tylko skonfigurowaną liczbę LED zamiast zawsze 1000, zmniejszając koszt klatki i zwiększając zapas czasu dla portalu.",
+        "Po skróceniu paska poprzednio używana końcówka jest wygaszana jednym pełnym transferem; start zachowuje wyczyszczenie całego bufora oraz bezpieczną obsługę późniejszego wydłużania."
+      ]
+    },
+    {
       "version": "1.0.0.1069",
       "firmware_version": "1.0.0.1069",
       "filesystem_version": "1.0.0.1069",
