@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1046",
+      "firmware_version": "1.0.0.1046",
+      "filesystem_version": "1.0.0.1046",
+      "date": "2026-10-18T10:35:05+01:00",
+      "title": "Schematy scen z kreatorem sekwencji",
+      "changes": [
+        "Dodano sekcję Schematy nad scenami i kreator kroków RunW, RunI, Stop, Sleep oraz ColorMixTime z podglądem sekwencji.",
+        "Schematy działają w urządzeniu, obsługują równoległe sceny, dodatkowe powtórzenia 0–100, pętlę bez końca i płynne mieszanie HUE/SAT.",
+        "Parametry scen pozostają tymczasowe; schematy są zapisywane atomowo, obejmowane kopią konfiguracji i zachowywane przy aktualizacji z terminala."
+      ]
+    },
+    {
       "version": "1.0.0.1045",
       "firmware_version": "1.0.0.1045",
       "filesystem_version": "1.0.0.1045",
