@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1048",
+      "firmware_version": "1.0.0.1048",
+      "filesystem_version": "1.0.0.1048",
+      "date": "2026-10-18T11:47:07+01:00",
+      "title": "Nowe przyciski i menu schematów",
+      "changes": [
+        "Ujednolicono przyciski schematów ze stylem sterowania scenami; dodano menu Zatrzymaj, Edytuj i Usuń pod strzałką.",
+        "Aktywny schemat pokazuje Uruchomiono z obracającą się ikoną; usunięto osobne przyciski edycji i usuwania z wiersza."
+      ]
+    },
+    {
       "version": "1.0.0.1047",
       "firmware_version": "1.0.0.1047",
       "filesystem_version": "1.0.0.1047",
