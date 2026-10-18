@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1053",
+      "firmware_version": "1.0.0.1053",
+      "filesystem_version": "1.0.0.1053",
+      "date": "2026-10-18T13:47:11+01:00",
+      "title": "Czytelne potwierdzenie niezapisanych zmian",
+      "changes": [
+        "Naprawiono warstwy potwierdzenia: pola wyboru nie przebijają już ponad okno odrzucenia zmian.",
+        "Poprawiono kontrast, ramkę, przyciemnienie tła oraz wielkość tekstu i przycisków potwierdzenia."
+      ]
+    },
+    {
       "version": "1.0.0.1052",
       "firmware_version": "1.0.0.1052",
       "filesystem_version": "1.0.0.1052",
