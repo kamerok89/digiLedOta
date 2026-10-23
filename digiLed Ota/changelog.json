@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1072",
+      "firmware_version": "1.0.0.1072",
+      "filesystem_version": "1.0.0.1072",
+      "date": "2026-10-23T20:26:25+01:00",
+      "title": "Obsługa pamięci flash 16 MB i portalu LittleFS 12 MB",
+      "changes": [
+        "Rozszerzono partycję LittleFS z 4 do 12 MB, zachowując położenie i rozmiary obu partycji aplikacji OTA.",
+        "Wariant 16 MB ma osobne oznaczenie sprzętu i układu partycji. Pierwsza migracja z układu 8 MB wymaga pełnego obrazu przez USB oraz kopii ustawień."
+      ]
+    },
+    {
       "version": "1.0.0.1071",
       "firmware_version": "1.0.0.1071",
       "filesystem_version": "1.0.0.1071",
