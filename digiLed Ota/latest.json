@@ -21,23 +21,23 @@
     "version": "1.0.0.1078",
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1078.bin",
     "size": 12582912,
-    "md5": "9704DC4F87609CFA6E1B2CC6B665ECBC",
-    "sha256": "6D1102916260757E3A6B3183B83B661BCB96E3007CC9E6A2E140B0C5FBA0C793"
+    "md5": "44D7F19544FF23190CFD415B7AB0E838",
+    "sha256": "912E56DADFCC3C4C9F9584D780410321350B1309338E9410CF3E62BF6C0A400A"
   },
   "filesystem": {
     "version": "1.0.0.1078",
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1078.bin",
     "size": 12582912,
-    "md5": "9704DC4F87609CFA6E1B2CC6B665ECBC",
-    "sha256": "6D1102916260757E3A6B3183B83B661BCB96E3007CC9E6A2E140B0C5FBA0C793"
+    "md5": "44D7F19544FF23190CFD415B7AB0E838",
+    "sha256": "912E56DADFCC3C4C9F9584D780410321350B1309338E9410CF3E62BF6C0A400A"
   },
   "dgu": {
     "version": "1.0.0.1078",
     "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1078.dgu",
     "size": 14513084,
-    "md5": "8B9EB439F740BAA23915BC0A9E70F2D4",
-    "sha256": "7136F54605E5AFE5755412F3250FECA266184AE4EAB74D1D610976D286CA0E9A"
+    "md5": "5ABC80DF261B4EC237708274C2F24703",
+    "sha256": "0CF386F743037BFCE37549ECD824B9CC4610DEF0B09F4E3BE6650C9254CC7134"
   },
-  "build_time": "2026-10-24T06:41:08+01:00",
+  "build_time": "2026-10-24T06:42:16+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

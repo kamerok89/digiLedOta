@@ -4,7 +4,7 @@
       "version": "1.0.0.1078",
       "firmware_version": "1.0.0.1078",
       "filesystem_version": "1.0.0.1078",
-      "date": "2026-10-24T06:41:08+01:00",
+      "date": "2026-10-24T06:42:16+01:00",
       "title": "Wyszukiwanie Wi-Fi na żądanie",
       "changes": [
         "Wejście w zakładkę Wi-Fi nie uruchamia już samoczynnie skanowania sieci. Wyszukiwanie jest dostępne po użyciu przycisku Wyszukaj sieci lub przy włączonym odświeżaniu automatycznym. Kafelek Dodaj pozostaje dostępny bez skanowania."
