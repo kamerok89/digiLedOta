@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1074",
+      "firmware_version": "1.0.0.1074",
+      "filesystem_version": "1.0.0.1074",
+      "date": "2026-10-24T05:51:09+01:00",
+      "title": "Poprawa wyszukiwania sieci Wi-Fi",
+      "changes": [
+        "Naprawiono przedwczesne kończenie wyszukiwania sieci w portalu: oczekujące żądanie jest oznaczane jako trwający skan, a lista jest odczytywana po jego zakończeniu.",
+        "Poprawiono obsługę kodów uruchomienia i błędów skanera. Ręczne odświeżenie zleca nowy skan zamiast korzystać przez minutę z poprzedniego wyniku; minimalny odstęp między skanami wynosi 3 sekundy."
+      ]
+    },
+    {
       "version": "1.0.0.1073",
       "firmware_version": "1.0.0.1073",
       "filesystem_version": "1.0.0.1073",
