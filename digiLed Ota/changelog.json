@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1080",
+      "firmware_version": "1.0.0.1080",
+      "filesystem_version": "1.0.0.1080",
+      "date": "2026-10-24T07:23:50+01:00",
+      "title": "Krok Uruchom bez ponawiania startu sceny",
+      "changes": [
+        "Dodano działanie Uruchom z wyborem sceny i kierunku, bez limitu czasu. Włącza scenę tylko wtedy, gdy nie jest uruchomiona; kolejne przebiegi schematu pozostawiają działającą scenę bez zmian.",
+        "Scena uruchomiona tym krokiem działa do jawnego zatrzymania. Nie blokuje kolejnych przebiegów pętli; zachowano zatrzymanie krokiem Zatrzymaj scenę, zatrzymanie wszystkich scen schematu i zatrzymanie awaryjne."
+      ]
+    },
+    {
       "version": "1.0.0.1079",
       "firmware_version": "1.0.0.1079",
       "filesystem_version": "1.0.0.1079",
