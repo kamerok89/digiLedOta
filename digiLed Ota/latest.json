@@ -1,43 +1,45 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1078",
+  "version": "1.0.0.1079",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "firmware_version": "1.0.0.1078",
-  "filesystem_version": "1.0.0.1078",
-  "notes": "Wyszukiwanie Wi-Fi na żądanie",
+  "firmware_version": "1.0.0.1079",
+  "filesystem_version": "1.0.0.1079",
+  "notes": "Osobne działania koloru i prędkości w schematach",
   "changes": [
-    "Wejście w zakładkę Wi-Fi nie uruchamia już samoczynnie skanowania sieci. Wyszukiwanie jest dostępne po użyciu przycisku Wyszukaj sieci lub przy włączonym odświeżaniu automatycznym. Kafelek Dodaj pozostaje dostępny bez skanowania."
+    "RunW i RunI odpowiadają za uruchomienie sceny, kierunek i czas. Kolor oraz prędkości przeniesiono do osobnych działań Ustaw kolor i Ustaw prędkość dla wybranej sceny, bez migracji poprzednich schematów.",
+    "Ustaw kolor zawiera wybór RGB zsynchronizowany z HUE, nasyceniem i jasnością oraz niezależne miksowanie HUE i SAT. Czas miksowania określa utrzymanie koloru, a czas przejścia długość płynnej zmiany.",
+    "Ustaw prędkość zawiera przełącznik własnych prędkości oraz suwaki startu, pracy i stopu. Wyłączenie nadpisania przywraca prędkości sceny. Działania zmieniają bieżącą scenę oraz ustawienia kolejnych uruchomień w schemacie."
   ],
   "firmware": {
-    "version": "1.0.0.1078",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1078.bin",
-    "size": 1929712,
-    "md5": "44CBF03588ED42A86EF8D236C985DF4D",
-    "sha256": "83A744A496B0B76DF9AB5520B77F27D9E03F3950F8C56F6F81997365ECD62AF9"
+    "version": "1.0.0.1079",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1079.bin",
+    "size": 1930800,
+    "md5": "AA8A48F9B7F7A82F45A48461369D2DA4",
+    "sha256": "F293F91BB9487158C0112E574C6D7E8EB346A5502DC97631C771EFE4A823CE24"
   },
   "littlefs": {
-    "version": "1.0.0.1078",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1078.bin",
+    "version": "1.0.0.1079",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1079.bin",
     "size": 12582912,
-    "md5": "44D7F19544FF23190CFD415B7AB0E838",
-    "sha256": "912E56DADFCC3C4C9F9584D780410321350B1309338E9410CF3E62BF6C0A400A"
+    "md5": "3E4271AD3432EE9E8F80FFCCC87D898C",
+    "sha256": "DA4E687CA998534CB9D7F60370807CA299C0CBE5114A1A4458C96FDB742D0958"
   },
   "filesystem": {
-    "version": "1.0.0.1078",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1078.bin",
+    "version": "1.0.0.1079",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1079.bin",
     "size": 12582912,
-    "md5": "44D7F19544FF23190CFD415B7AB0E838",
-    "sha256": "912E56DADFCC3C4C9F9584D780410321350B1309338E9410CF3E62BF6C0A400A"
+    "md5": "3E4271AD3432EE9E8F80FFCCC87D898C",
+    "sha256": "DA4E687CA998534CB9D7F60370807CA299C0CBE5114A1A4458C96FDB742D0958"
   },
   "dgu": {
-    "version": "1.0.0.1078",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1078.dgu",
-    "size": 14513084,
-    "md5": "5ABC80DF261B4EC237708274C2F24703",
-    "sha256": "0CF386F743037BFCE37549ECD824B9CC4610DEF0B09F4E3BE6650C9254CC7134"
+    "version": "1.0.0.1079",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1079.dgu",
+    "size": 14514172,
+    "md5": "95A88524AD26437194D0A565D5EB4BFF",
+    "sha256": "0E3AFF1DF7820CBA5914FEE400DC3133CB44F4D4258623194C4855C508017742"
   },
-  "build_time": "2026-10-24T06:42:16+01:00",
+  "build_time": "2026-10-24T06:55:25+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
