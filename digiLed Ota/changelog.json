@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1075",
+      "firmware_version": "1.0.0.1075",
+      "filesystem_version": "1.0.0.1075",
+      "date": "2026-10-24T06:09:13+01:00",
+      "title": "Skanowanie Wi-Fi zgodne z digiLed Gate",
+      "changes": [
+        "Zastosowano synchroniczne oczekiwanie na wynik skanowania Wi-Fi, tak jak w digiLed Gate, wykonywane w osobnym zadaniu bez blokowania portalu. Usunięto odpytywanie scanComplete, które na urządzeniu kończyło skan błędem po 6 sekundach.",
+        "Błąd kończy pojedynczą próbę skanowania zamiast uruchamiać kolejne skany aż do przekroczenia czasu w portalu. Po nieudanym skanie zatrzymywany jest skaner sterownika przed ponowną próbą."
+      ]
+    },
+    {
       "version": "1.0.0.1074",
       "firmware_version": "1.0.0.1074",
       "filesystem_version": "1.0.0.1074",

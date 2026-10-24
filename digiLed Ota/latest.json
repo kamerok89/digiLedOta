@@ -1,44 +1,44 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1074",
+  "version": "1.0.0.1075",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "firmware_version": "1.0.0.1074",
-  "filesystem_version": "1.0.0.1074",
-  "notes": "Poprawa wyszukiwania sieci Wi-Fi",
+  "firmware_version": "1.0.0.1075",
+  "filesystem_version": "1.0.0.1075",
+  "notes": "Skanowanie Wi-Fi zgodne z digiLed Gate",
   "changes": [
-    "Naprawiono przedwczesne kończenie wyszukiwania sieci w portalu: oczekujące żądanie jest oznaczane jako trwający skan, a lista jest odczytywana po jego zakończeniu.",
-    "Poprawiono obsługę kodów uruchomienia i błędów skanera. Ręczne odświeżenie zleca nowy skan zamiast korzystać przez minutę z poprzedniego wyniku; minimalny odstęp między skanami wynosi 3 sekundy."
+    "Zastosowano synchroniczne oczekiwanie na wynik skanowania Wi-Fi, tak jak w digiLed Gate, wykonywane w osobnym zadaniu bez blokowania portalu. Usunięto odpytywanie scanComplete, które na urządzeniu kończyło skan błędem po 6 sekundach.",
+    "Błąd kończy pojedynczą próbę skanowania zamiast uruchamiać kolejne skany aż do przekroczenia czasu w portalu. Po nieudanym skanie zatrzymywany jest skaner sterownika przed ponowną próbą."
   ],
   "firmware": {
-    "version": "1.0.0.1074",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1074.bin",
-    "size": 1929728,
-    "md5": "D686CF736AC6E2BFB743451ADE4DF7DB",
-    "sha256": "05896ACE563298A4302C78980F45A8E45C88C3A3571AC3129BEF3C1989FA5E6B"
+    "version": "1.0.0.1075",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1075.bin",
+    "size": 1929712,
+    "md5": "6A3ABFDC3FD60083B7CCBEE7FBDEA818",
+    "sha256": "D19B5918FA3BD84EC5B5DB08EDC5911729682AA7F43EDE6C116809046615C4E4"
   },
   "littlefs": {
-    "version": "1.0.0.1074",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1074.bin",
+    "version": "1.0.0.1075",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1075.bin",
     "size": 12582912,
-    "md5": "67CCAE02D9B7FD26035F45CD93057838",
-    "sha256": "0EAB00DC358D2791F63666A6BFFE078F6DD016E71C6BBBA73375F2C34DF02664"
+    "md5": "F2FAFD57E168661A4F7D1149F4F261C1",
+    "sha256": "D5265CB82ABCC4C4E1A416BAEF65141050B2ADB062C0472521A63C622CD51D0D"
   },
   "filesystem": {
-    "version": "1.0.0.1074",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1074.bin",
+    "version": "1.0.0.1075",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1075.bin",
     "size": 12582912,
-    "md5": "67CCAE02D9B7FD26035F45CD93057838",
-    "sha256": "0EAB00DC358D2791F63666A6BFFE078F6DD016E71C6BBBA73375F2C34DF02664"
+    "md5": "F2FAFD57E168661A4F7D1149F4F261C1",
+    "sha256": "D5265CB82ABCC4C4E1A416BAEF65141050B2ADB062C0472521A63C622CD51D0D"
   },
   "dgu": {
-    "version": "1.0.0.1074",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1074.dgu",
-    "size": 14513100,
-    "md5": "CE91685A5EB896EEBCB1A0A948426040",
-    "sha256": "49843EFC6826594187786F737E0D7C73CDA123550364681A7E0A4BF3DACBA617"
+    "version": "1.0.0.1075",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1075.dgu",
+    "size": 14513084,
+    "md5": "AE76BBD306DA4E59DD437AD582C417CA",
+    "sha256": "8DF8414ABDD8238678F6A231AC297296CC3AE242F1F4A9912474F6747B8CE838"
   },
-  "build_time": "2026-10-24T05:51:09+01:00",
+  "build_time": "2026-10-24T06:09:13+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
