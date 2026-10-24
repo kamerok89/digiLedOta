@@ -1,32 +1,33 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.398",
-  "hardware": "SEEED_XIAO_ESP32S3_8MB",
-  "partition_scheme": "ota_littlefs_8mb",
-  "notes": "Większe odstępy w recovery.",
+  "version": "0.1.399",
+  "hardware": "SEEED_XIAO_ESP32S3_16MB",
+  "partition_scheme": "ota_littlefs_16mb",
+  "notes": "Portal LittleFS 12 MiB dla pamięci flash 16 MB.",
   "changes": [
-    "Zwiększono odstępy między przyciskami recovery i oddzielono panel akcji od obszaru aktualizacji."
+    "Zwiększono partycję portalu LittleFS z 4 MiB do 12 MiB (+8 MiB) dla pamięci flash 16 MB.",
+    "Pierwsza instalacja wymaga wgrania nowej tablicy partycji przez USB na urządzeniu z pamięcią 16 MB; DGU nie zmienia tablicy partycji."
   ],
   "firmware": {
-    "version": "0.1.398",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.398.bin",
+    "version": "0.1.399",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.399.bin",
     "size": 1312384,
-    "md5": "447d288bc328aff76b78a0770153b773",
-    "sha256": "e129037fde1488ce5b02c62d663f42f603391885ec3d09085d23881d7c52eced"
+    "md5": "9930fb2bffffab02c40986002edbadc1",
+    "sha256": "e3e180e2ff9afae8148336227f9a12ec284ef2658471be8a014116aa0773d405"
   },
   "littlefs": {
-    "version": "0.1.398",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.398.bin",
-    "size": 4194304,
-    "md5": "b4803b6e2e27d09a232aae6cc92a5f12",
-    "sha256": "bca209d483fc3ab8162d434ec5163c4f628c0bad9d4a0965de6b082055877897"
+    "version": "0.1.399",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.399.bin",
+    "size": 12582912,
+    "md5": "8e2d9a4a30ac02726549b3a5a4a1a623",
+    "sha256": "9dfb4e8f62d8f48719325d19857f58360e688053ab70dd8ba68cac0f650771cb"
   },
   "dgu": {
-    "version": "0.1.398",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.398.dgu",
-    "size": 5507128,
-    "md5": "e22c7b21ebe9a41e7c5025bb66b5f913",
-    "sha256": "e2c7df2685dba952f148182503dd908ddb3a8b079b7c034b2287e9ea800c98d2"
+    "version": "0.1.399",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.399.dgu",
+    "size": 13895739,
+    "md5": "34686a2b813cb1ab16f04c9313bfc992",
+    "sha256": "2d76f90624bb89af79bc2953438a7fab0365d2e07fb9432d8c59e6d2056dba10"
   }
 }
