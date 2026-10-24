@@ -1,43 +1,43 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1077",
+  "version": "1.0.0.1078",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "firmware_version": "1.0.0.1077",
-  "filesystem_version": "1.0.0.1077",
-  "notes": "Ręczne dodawanie sieci Wi-Fi",
+  "firmware_version": "1.0.0.1078",
+  "filesystem_version": "1.0.0.1078",
+  "notes": "Wyszukiwanie Wi-Fi na żądanie",
   "changes": [
-    "Zmieniono nazwę kafelka Ukryta sieć na Dodaj i dostosowano wskazówki. Formularz umożliwia zapis danych oraz próbę połączenia z siecią niewidoczną lub chwilowo niedostępną."
+    "Wejście w zakładkę Wi-Fi nie uruchamia już samoczynnie skanowania sieci. Wyszukiwanie jest dostępne po użyciu przycisku Wyszukaj sieci lub przy włączonym odświeżaniu automatycznym. Kafelek Dodaj pozostaje dostępny bez skanowania."
   ],
   "firmware": {
-    "version": "1.0.0.1077",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1077.bin",
+    "version": "1.0.0.1078",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1078.bin",
     "size": 1929712,
-    "md5": "5762CD3CE46FF77B990983BA1DEEF3BC",
-    "sha256": "9558F33AADC6CF18D1609586343D73F8FF524C72FE24456C78A28F3AEA5CA8D9"
+    "md5": "44CBF03588ED42A86EF8D236C985DF4D",
+    "sha256": "83A744A496B0B76DF9AB5520B77F27D9E03F3950F8C56F6F81997365ECD62AF9"
   },
   "littlefs": {
-    "version": "1.0.0.1077",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1077.bin",
+    "version": "1.0.0.1078",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1078.bin",
     "size": 12582912,
-    "md5": "1CA13318D67A86852D0AD08BB72A63E7",
-    "sha256": "F6B971800205E9D3B1B2F94C79C0EFFC5C5BA555311538170C9D1CC20370E2FE"
+    "md5": "9704DC4F87609CFA6E1B2CC6B665ECBC",
+    "sha256": "6D1102916260757E3A6B3183B83B661BCB96E3007CC9E6A2E140B0C5FBA0C793"
   },
   "filesystem": {
-    "version": "1.0.0.1077",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1077.bin",
+    "version": "1.0.0.1078",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1078.bin",
     "size": 12582912,
-    "md5": "1CA13318D67A86852D0AD08BB72A63E7",
-    "sha256": "F6B971800205E9D3B1B2F94C79C0EFFC5C5BA555311538170C9D1CC20370E2FE"
+    "md5": "9704DC4F87609CFA6E1B2CC6B665ECBC",
+    "sha256": "6D1102916260757E3A6B3183B83B661BCB96E3007CC9E6A2E140B0C5FBA0C793"
   },
   "dgu": {
-    "version": "1.0.0.1077",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1077.dgu",
+    "version": "1.0.0.1078",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1078.dgu",
     "size": 14513084,
-    "md5": "74A9B06C409A331B3F00B99686A30A03",
-    "sha256": "BA701BA28EABC3635CE8A4CD8DB421BFBDE04ED312BE545395E1C0E61291B969"
+    "md5": "8B9EB439F740BAA23915BC0A9E70F2D4",
+    "sha256": "7136F54605E5AFE5755412F3250FECA266184AE4EAB74D1D610976D286CA0E9A"
   },
-  "build_time": "2026-10-24T06:34:52+01:00",
+  "build_time": "2026-10-24T06:41:08+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
