@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1073",
+      "firmware_version": "1.0.0.1073",
+      "filesystem_version": "1.0.0.1073",
+      "date": "2026-10-24T05:31:55+01:00",
+      "title": "Ujednolicenie kafelka temperatury SoC",
+      "changes": [
+        "Uproszczono kafelek temperatury SoC: podniesiono nazwę i status, usunięto pomarańczową poświatę oraz dodano opis zakresu pracy od -10°C do 90°C. Ujednolicono układ z kafelkami RAM i PSRAM."
+      ]
+    },
+    {
       "version": "1.0.0.1072",
       "firmware_version": "1.0.0.1072",
       "filesystem_version": "1.0.0.1072",
