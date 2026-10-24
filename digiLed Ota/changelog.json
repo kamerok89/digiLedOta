@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1077",
+      "firmware_version": "1.0.0.1077",
+      "filesystem_version": "1.0.0.1077",
+      "date": "2026-10-24T06:34:52+01:00",
+      "title": "Ręczne dodawanie sieci Wi-Fi",
+      "changes": [
+        "Zmieniono nazwę kafelka Ukryta sieć na Dodaj i dostosowano wskazówki. Formularz umożliwia zapis danych oraz próbę połączenia z siecią niewidoczną lub chwilowo niedostępną."
+      ]
+    },
+    {
       "version": "1.0.0.1076",
       "firmware_version": "1.0.0.1076",
       "filesystem_version": "1.0.0.1076",
