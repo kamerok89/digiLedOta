@@ -1,44 +1,45 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1080",
+  "version": "1.0.0.1081",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "firmware_version": "1.0.0.1080",
-  "filesystem_version": "1.0.0.1080",
-  "notes": "Krok Uruchom bez ponawiania startu sceny",
+  "firmware_version": "1.0.0.1081",
+  "filesystem_version": "1.0.0.1081",
+  "notes": "Test schematu w edytorze i restart po zapisie",
   "changes": [
-    "Dodano działanie Uruchom z wyborem sceny i kierunku, bez limitu czasu. Włącza scenę tylko wtedy, gdy nie jest uruchomiona; kolejne przebiegi schematu pozostawiają działającą scenę bez zmian.",
-    "Scena uruchomiona tym krokiem działa do jawnego zatrzymania. Nie blokuje kolejnych przebiegów pętli; zachowano zatrzymanie krokiem Zatrzymaj scenę, zatrzymanie wszystkich scen schematu i zatrzymanie awaryjne."
+    "Dodano przycisk Test pomiędzy Anuluj a Zapisz schemat. Uruchamia bieżącą wersję z edytora bez zapisywania, pozwala ją zatrzymać i zachowuje stałą szerokość przy zmianie napisu.",
+    "Zapis aktualnie działającego schematu zatrzymuje go i uruchamia ponownie z nowymi ustawieniami, także po teście niezapisanego schematu. Zapis innego schematu nie przerywa bieżącego działania.",
+    "Zamknięcie edytora zatrzymuje uruchomiony podgląd testowy; zwykłe działanie zapisanego schematu pozostaje niezależne od edytora."
   ],
   "firmware": {
-    "version": "1.0.0.1080",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1080.bin",
-    "size": 1931152,
-    "md5": "7004224F68E5402198EEAB13528E58BC",
-    "sha256": "224585414CBEDBDA8D2F4435FAE4513E1DDCFCF319337F964566245434C02BFF"
+    "version": "1.0.0.1081",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1081.bin",
+    "size": 1932560,
+    "md5": "8D645A80910E9772DF905D34F3D82313",
+    "sha256": "D325ADC74AC265BE5F7B451AA3C4DE330BE3D7A35475E31CA5CE504DD59D406F"
   },
   "littlefs": {
-    "version": "1.0.0.1080",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1080.bin",
+    "version": "1.0.0.1081",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1081.bin",
     "size": 12582912,
-    "md5": "A5551F11CD46F7FC2E0046D69CF46410",
-    "sha256": "F9C3816F64A4F9E9E50C067EBAB4ABBFE38B11090367ACF3E6AEE577249EF284"
+    "md5": "6C69F6827BB9E7976E2CD5125C24BBF9",
+    "sha256": "FDD9C85733884DEE7AE94F6381C77511A8068E655D21E0E392CE07EFE3D1FEC2"
   },
   "filesystem": {
-    "version": "1.0.0.1080",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1080.bin",
+    "version": "1.0.0.1081",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1081.bin",
     "size": 12582912,
-    "md5": "A5551F11CD46F7FC2E0046D69CF46410",
-    "sha256": "F9C3816F64A4F9E9E50C067EBAB4ABBFE38B11090367ACF3E6AEE577249EF284"
+    "md5": "6C69F6827BB9E7976E2CD5125C24BBF9",
+    "sha256": "FDD9C85733884DEE7AE94F6381C77511A8068E655D21E0E392CE07EFE3D1FEC2"
   },
   "dgu": {
-    "version": "1.0.0.1080",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1080.dgu",
-    "size": 14514524,
-    "md5": "625FD0E32AACE5DC77C4EADB0FE7FEC4",
-    "sha256": "334D1D634FDFC8F1985F6EAB11DAC92681C57DF31B38AB54413374D15DA2D004"
+    "version": "1.0.0.1081",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1081.dgu",
+    "size": 14515932,
+    "md5": "AFED8ED0E0A7C525F4B890CB4FF82140",
+    "sha256": "9CF02616BF4E6979A7D716092502A14B0121F88ABC22489E06810EF2DFE264BA"
   },
-  "build_time": "2026-10-24T07:23:50+01:00",
+  "build_time": "2026-10-24T07:49:41+01:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

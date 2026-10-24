@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1081",
+      "firmware_version": "1.0.0.1081",
+      "filesystem_version": "1.0.0.1081",
+      "date": "2026-10-24T07:49:41+01:00",
+      "title": "Test schematu w edytorze i restart po zapisie",
+      "changes": [
+        "Dodano przycisk Test pomiędzy Anuluj a Zapisz schemat. Uruchamia bieżącą wersję z edytora bez zapisywania, pozwala ją zatrzymać i zachowuje stałą szerokość przy zmianie napisu.",
+        "Zapis aktualnie działającego schematu zatrzymuje go i uruchamia ponownie z nowymi ustawieniami, także po teście niezapisanego schematu. Zapis innego schematu nie przerywa bieżącego działania.",
+        "Zamknięcie edytora zatrzymuje uruchomiony podgląd testowy; zwykłe działanie zapisanego schematu pozostaje niezależne od edytora."
+      ]
+    },
+    {
       "version": "1.0.0.1080",
       "firmware_version": "1.0.0.1080",
       "filesystem_version": "1.0.0.1080",
