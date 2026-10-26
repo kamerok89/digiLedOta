@@ -1,34 +1,33 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.400",
+  "version": "0.1.401",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "notes": "Nowy pinout digiLed Gate zgodny ze schematem PCB.",
+  "notes": "Stałe świecenie diody zasilania na GPIO38.",
   "changes": [
-    "Pinout digiLed Gate zgodny ze schematem: RS485 RO/RX=GPIO6, DI/TX=GPIO4, DE/RE=GPIO5.",
-    "nRF24: CE=GPIO9, CSN=GPIO10, MOSI=GPIO11, SCK=GPIO12, MISO=GPIO13; IRQ niepodłączony.",
-    "Dioda statusu na GPIO38, aktywna stanem wysokim; tabela i kopiowanie pinoutu pokazują nowe połączenia."
+    "Dioda LED na GPIO38 świeci stale od uruchomienia firmware jako wskaźnik zasilania.",
+    "Wi-Fi, AP, komunikacja i aktualizacja OTA nie zmieniają świecenia diody w profilu digiLed Gate."
   ],
   "firmware": {
-    "version": "0.1.400",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.400.bin",
-    "size": 1312464,
-    "md5": "d5d5b57068d02a6ea3f0fe6369d7236f",
-    "sha256": "e9cc1a9c9a7cabca447d6433e0a0a0c78a847e654095a21a5f2879b83a63a565"
+    "version": "0.1.401",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.401.bin",
+    "size": 1312496,
+    "md5": "5c9968ecac58badbe47de4435dc9cb3f",
+    "sha256": "bbfae8ec478f8980b5a5f99048a1a32a136f5310c643afa6e8ff756c74a71bd4"
   },
   "littlefs": {
-    "version": "0.1.400",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.400.bin",
+    "version": "0.1.401",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.401.bin",
     "size": 12582912,
-    "md5": "42d9bc2f66a5cd4a6116f32ddd3426db",
-    "sha256": "0afdb6b7925130a4525d317318abd632e2801772a45cb14d055c96cccc977c91"
+    "md5": "3743aff01176e9dc40d462299839b265",
+    "sha256": "cb139eeb513a8013b2384c86b0261fae9f130d4cf573e008457b6ed46c1ee73f"
   },
   "dgu": {
-    "version": "0.1.400",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.400.dgu",
-    "size": 13895819,
-    "md5": "710f194764d3c6c450d0f9cd5965e6a9",
-    "sha256": "560b9ca2e0cc52fc7dca5f57d9a564ebd6706472ef8f2053db83d5bebab899b6"
+    "version": "0.1.401",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.401.dgu",
+    "size": 13895851,
+    "md5": "7d55fa3a8cf329d39f2f6145169a6e1d",
+    "sha256": "962a77bb6480a8ee6dcbe24238ccd2d917a1e8e256a107a03ac2f2dc6bc9c55e"
   }
 }
