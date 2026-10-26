@@ -1,33 +1,33 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.402",
+  "version": "0.1.403",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "notes": "Zamiana pinów RS485: TX GPIO6, RX GPIO4.",
+  "notes": "Przywrócono pinout RS485: RX GPIO6, TX GPIO4.",
   "changes": [
-    "Zamieniono piny RS485: DI/TX=GPIO6, RO/RX=GPIO4; DE/RE pozostaje na GPIO5.",
-    "Tabela i kopiowanie pinoutu w portalu pokazują nowe przypisanie TX i RX."
+    "Przywrócono poprzedni pinout RS485: RO/RX=GPIO6, DI/TX=GPIO4; DE/RE pozostaje na GPIO5.",
+    "Tabela i kopiowanie pinoutu w portalu pokazują przywrócone przypisanie RX i TX."
   ],
   "firmware": {
-    "version": "0.1.402",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.402.bin",
+    "version": "0.1.403",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.403.bin",
     "size": 1312496,
-    "md5": "bc0f940cbcab88aa35ee12123f2b685b",
-    "sha256": "8ecc6f72d9a20d3feb7cb1563d3af36d93862f4aa8a3f6002d93a1f95de8e186"
+    "md5": "398f8014f5598489004007437e5580ed",
+    "sha256": "b91b545e55bee2ccd0d1b0d3f9c6d965047f04f5592e926004a5be156e5cdc22"
   },
   "littlefs": {
-    "version": "0.1.402",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.402.bin",
+    "version": "0.1.403",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.403.bin",
     "size": 12582912,
-    "md5": "77d2219a8574d35e7b6013534845d72d",
-    "sha256": "6252ea9f704c469e2cf984d88131a0d897a9d035760d42e48fe30cdef38a523f"
+    "md5": "0ec1363ad244a72f8cfd5a27b51303e7",
+    "sha256": "8dc55955ee1140a2ad3b2358bb51475351a7acf4ed1f09317ffc8e25cfd19a17"
   },
   "dgu": {
-    "version": "0.1.402",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.402.dgu",
+    "version": "0.1.403",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.403.dgu",
     "size": 13895851,
-    "md5": "c92e75a2ac5b5e216951d468d68c2986",
-    "sha256": "b8229d65d03801f6f2c798f94ab24dcaf3d0e228d5b66ab2192a8fc2029c1974"
+    "md5": "70275d75f0f3777890b2517279a968b1",
+    "sha256": "03160571e8f3d68121d027e410a63572f114db5d21f6f36cd7b5a7c310b39f43"
   }
 }
