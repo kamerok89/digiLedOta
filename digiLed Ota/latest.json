@@ -1,45 +1,46 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1081",
+  "version": "1.0.0.1082",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "firmware_version": "1.0.0.1081",
-  "filesystem_version": "1.0.0.1081",
-  "notes": "Test schematu w edytorze i restart po zapisie",
+  "firmware_version": "1.0.0.1082",
+  "filesystem_version": "1.0.0.1082",
+  "notes": "Domyślny pinout PCB i poprawki odbioru MiLight V2",
   "changes": [
-    "Dodano przycisk Test pomiędzy Anuluj a Zapisz schemat. Uruchamia bieżącą wersję z edytora bez zapisywania, pozwala ją zatrzymać i zachowuje stałą szerokość przy zmianie napisu.",
-    "Zapis aktualnie działającego schematu zatrzymuje go i uruchamia ponownie z nowymi ustawieniami, także po teście niezapisanego schematu. Zapis innego schematu nie przerywa bieżącego działania.",
-    "Zamknięcie edytora zatrzymuje uruchomiony podgląd testowy; zwykłe działanie zapisanego schematu pozostaje niezależne od edytora."
+    "Nowa instalacja i reset fabryczny: RS485 RX=GPIO6, TX=GPIO4, DE/RE=GPIO5; mikrofon BCLK=GPIO1, WS=GPIO2, SD=GPIO42.",
+    "Domyślne nRF24: CE=GPIO9, CSN=GPIO10, SCK=GPIO12, MOSI=GPIO11, MISO=GPIO13, IRQ nieprzypisany; WS2812=GPIO7, reset=GPIO8, LED=GPIO38.",
+    "Odbiornik MiLight odczytuje zaległe ramki przed zmianą kanału, ograniczając utratę komend pilota i bramki.",
+    "Poprawiono wybór dekodera V2: sprawdzane są oba warianty Hub i Blog przed odrzuceniem ramki z błędną sumą kontrolną."
   ],
   "firmware": {
-    "version": "1.0.0.1081",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1081.bin",
-    "size": 1932560,
-    "md5": "8D645A80910E9772DF905D34F3D82313",
-    "sha256": "D325ADC74AC265BE5F7B451AA3C4DE330BE3D7A35475E31CA5CE504DD59D406F"
+    "version": "1.0.0.1082",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1082.bin",
+    "size": 1932608,
+    "md5": "3B57590BE64560462C0064C35DCD775B",
+    "sha256": "6043F59A797B879CC1EE8138562E67C16DC8A139FCA42614B83072BAA4547782"
   },
   "littlefs": {
-    "version": "1.0.0.1081",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1081.bin",
+    "version": "1.0.0.1082",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1082.bin",
     "size": 12582912,
-    "md5": "6C69F6827BB9E7976E2CD5125C24BBF9",
-    "sha256": "FDD9C85733884DEE7AE94F6381C77511A8068E655D21E0E392CE07EFE3D1FEC2"
+    "md5": "027FCEFB2EFD844FC5FD939D2ED7466A",
+    "sha256": "40D66FFAC6530A1703292F83D52C5511B132FD8AC3E87DBE95AEF95F42FAD56E"
   },
   "filesystem": {
-    "version": "1.0.0.1081",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1081.bin",
+    "version": "1.0.0.1082",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1082.bin",
     "size": 12582912,
-    "md5": "6C69F6827BB9E7976E2CD5125C24BBF9",
-    "sha256": "FDD9C85733884DEE7AE94F6381C77511A8068E655D21E0E392CE07EFE3D1FEC2"
+    "md5": "027FCEFB2EFD844FC5FD939D2ED7466A",
+    "sha256": "40D66FFAC6530A1703292F83D52C5511B132FD8AC3E87DBE95AEF95F42FAD56E"
   },
   "dgu": {
-    "version": "1.0.0.1081",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1081.dgu",
-    "size": 14515932,
-    "md5": "AFED8ED0E0A7C525F4B890CB4FF82140",
-    "sha256": "9CF02616BF4E6979A7D716092502A14B0121F88ABC22489E06810EF2DFE264BA"
+    "version": "1.0.0.1082",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1082.dgu",
+    "size": 14515980,
+    "md5": "D9AC0648DEE799C3F2D68BB7C5257653",
+    "sha256": "862F035FD07A336F84A71FA3986A4035C24A2A57C58B3929BF9135C09864D086"
   },
-  "build_time": "2026-10-24T07:49:41+01:00",
+  "build_time": "2026-10-28T16:57:34+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

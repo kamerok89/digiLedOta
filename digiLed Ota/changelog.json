@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1082",
+      "firmware_version": "1.0.0.1082",
+      "filesystem_version": "1.0.0.1082",
+      "date": "2026-10-28T16:57:34+00:00",
+      "title": "Domyślny pinout PCB i poprawki odbioru MiLight V2",
+      "changes": [
+        "Nowa instalacja i reset fabryczny: RS485 RX=GPIO6, TX=GPIO4, DE/RE=GPIO5; mikrofon BCLK=GPIO1, WS=GPIO2, SD=GPIO42.",
+        "Domyślne nRF24: CE=GPIO9, CSN=GPIO10, SCK=GPIO12, MOSI=GPIO11, MISO=GPIO13, IRQ nieprzypisany; WS2812=GPIO7, reset=GPIO8, LED=GPIO38.",
+        "Odbiornik MiLight odczytuje zaległe ramki przed zmianą kanału, ograniczając utratę komend pilota i bramki.",
+        "Poprawiono wybór dekodera V2: sprawdzane są oba warianty Hub i Blog przed odrzuceniem ramki z błędną sumą kontrolną."
+      ]
+    },
+    {
       "version": "1.0.0.1081",
       "firmware_version": "1.0.0.1081",
       "filesystem_version": "1.0.0.1081",
