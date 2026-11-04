@@ -1,34 +1,34 @@
 {
   "product": "digiLed Gate",
   "channel": "stable",
-  "version": "0.1.405",
+  "version": "0.1.406",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "notes": "W=0: adresowana scena MiLight + HTTP; W=13: poprzedni/następny RUN FX.",
+  "notes": "W=0: sceny MiLight + HTTP; W=13: RUN FX; wspólne adresy HTTP.",
   "changes": [
-    "W=0 zastępuje W=20 i dawne RGB: R=adres, G=scena, B=wyłącz/włącz/przełącz; równoczesna wysyłka MiLight + HTTP.",
-    "W=13: poprzedni/następny RUN FX sceny przez radio (B=0/1); wymaga nowego digiLed.",
-    "W=1–10 i W=12 używają celu W=11 oraz obu transportów. Kolejka radia nie nadpisuje oczekujących komend; status sumuje wyniki MiLight i HTTP."
+    "W=0 zastępuje W=20 i dawne RGB: R=adres, G=scena, B=wyłącz/włącz/przełącz; MiLight i HTTP równocześnie.",
+    "W=13: poprzedni/następny RUN FX sceny tylko radiowo (B=0/1); obsługa w digiLed 1.0.0.1086.",
+    "Panel pozwala zapisać kilka modułów HTTP o tym samym adresie. W=1–10 i W=12 używają celu W=11 oraz obu transportów."
   ],
   "firmware": {
-    "version": "0.1.405",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.405.bin",
+    "version": "0.1.406",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/firmware-0.1.406.bin",
     "size": 1311696,
-    "md5": "a7ab20655d15ac37e26efc0ec13e85a2",
-    "sha256": "5ac5b18edf2c9f0ced93d100f40795a89c8b3007ad4dd3dc3b6993c115131d21"
+    "md5": "7233195ca55d842c785ace938bae45d9",
+    "sha256": "c1b849d9dfb058233b54b2b579dba585d93e950ba2be1111347d964afea91b17"
   },
   "littlefs": {
-    "version": "0.1.405",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.405.bin",
+    "version": "0.1.406",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/littlefs-0.1.406.bin",
     "size": 12582912,
-    "md5": "468ea3bc79fcf35ae81f78d5d56b7209",
-    "sha256": "1a47efc98c7ce6f6ea1b888a24bb6c376017cb98a8da877ccf3634e859b41a03"
+    "md5": "2668c0e07928292cea49975389ba0107",
+    "sha256": "eb3192d0ad9fec91f4d1c8095a8c2a1b2613efb1c75fd14dd4185e75a874c37f"
   },
   "dgu": {
-    "version": "0.1.405",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.405.dgu",
+    "version": "0.1.406",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/refs/heads/main/digiLed%20Gate/digiLed%20Gate-0.1.406.dgu",
     "size": 13895051,
-    "md5": "f3d7dc392ec7d9e279ebd024d80f7c48",
-    "sha256": "e4a5c40a948077a4cf10a7c79c0c7e0dbd483360f1f7ec740109ee7741f7ef57"
+    "md5": "a5c43b1e029e4da074c12906666c2625",
+    "sha256": "569764198adec6acea06f0b8947a6af4fd854001f5e238aee966c715bfd78b69"
   }
 }
