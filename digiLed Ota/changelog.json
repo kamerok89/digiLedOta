@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1084",
+      "firmware_version": "1.0.0.1084",
+      "filesystem_version": "1.0.0.1084",
+      "date": "2026-11-04T14:42:20+00:00",
+      "title": "Domyślny pinout zgodny ze sprawdzoną płytką PCB",
+      "changes": [
+        "Domyślny mikrofon Sound Reactive: BCLK=GPIO41, WS=GPIO42, SD=GPIO40, zgodnie ze sprawdzonym połączeniem PCB.",
+        "Ujednolicono domyślne ustawienia firmware i przycisku Domyślne w portalu: RS485 RX=6, TX=4, DE/RE=5; MiLight CE=9, CSN=10, SCK=12, MOSI=11, MISO=13, IRQ=-1; WS2812=7, reset=8, dioda LED=38.",
+        "Nowy pinout obowiązuje przy pierwszym uruchomieniu i po resecie fabrycznym; aktualizacja zachowuje zapisane ustawienia użytkownika."
+      ]
+    },
+    {
       "version": "1.0.0.1083",
       "firmware_version": "1.0.0.1083",
       "filesystem_version": "1.0.0.1083",
