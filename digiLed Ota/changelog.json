@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1086",
+      "firmware_version": "1.0.0.1086",
+      "filesystem_version": "1.0.0.1086",
+      "date": "2026-11-04T20:25:08+00:00",
+      "title": "MiLight: poprzedni i następny RUN FX wybranej sceny",
+      "changes": [
+        "Dodano W=13: R=adres bramki FF01–FFFF, G=scena 1–24, B=0 poprzedni lub 1 następny efekt RUN FX.",
+        "Wybór RUN FX pomija efekty START/STOP, zawija listę i uruchamia wyłącznie wskazaną scenę. W=0 w nowym Gate jest tłumaczone na zgodne polecenia W=6/W=7."
+      ]
+    },
+    {
       "version": "1.0.0.1085",
       "firmware_version": "1.0.0.1085",
       "filesystem_version": "1.0.0.1085",
