@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1083",
+      "firmware_version": "1.0.0.1083",
+      "filesystem_version": "1.0.0.1083",
+      "date": "2026-11-04T14:15:02+00:00",
+      "title": "Ochrona Sound Reactive przed konfliktem z pamięcią PSRAM",
+      "changes": [
+        "Zablokowano GPIO26–37 zajęte przez flash i Octal PSRAM; portal nie udostępnia GPIO33–37 do przypisania.",
+        "Sound Reactive nie uruchamia I2S z niebezpieczną zapisaną konfiguracją, zapobiegając pętli restartów; zalecane piny mikrofonu: BCLK=1, WS=2, SD=42."
+      ]
+    },
+    {
       "version": "1.0.0.1082",
       "firmware_version": "1.0.0.1082",
       "filesystem_version": "1.0.0.1082",
