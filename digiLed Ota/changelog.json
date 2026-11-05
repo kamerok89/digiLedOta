@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1088",
+      "firmware_version": "1.0.0.1088",
+      "filesystem_version": "1.0.0.1088",
+      "date": "2026-11-05T19:35:24+00:00",
+      "title": "Płynna zmiana prędkości przez MiLight i Grenton",
+      "changes": [
+        "Usunięto synchroniczny zapis flash pod blokadą renderowania LED przy W=12 i W=14/15/16.",
+        "Prędkości nadal są zapamiętywane; zapis wykonuje istniejące zadanie w tle, tak jak przy konfiguracji z panelu."
+      ]
+    },
+    {
       "version": "1.0.0.1087",
       "firmware_version": "1.0.0.1087",
       "filesystem_version": "1.0.0.1087",
