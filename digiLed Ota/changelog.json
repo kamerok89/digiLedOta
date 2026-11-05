@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1087",
+      "firmware_version": "1.0.0.1087",
+      "filesystem_version": "1.0.0.1087",
+      "date": "2026-11-05T19:15:44+00:00",
+      "title": "Prędkości Grenton 0–100 przeliczane na 0–1000",
+      "changes": [
+        "W=12 przelicza globalne prędkości START/RUN/STOP ×10: 0–100 z Grentona daje 0–1000 w digiLed.",
+        "Dodano W=14 START, W=15 RUN i W=16 STOP: R=adres, G=scena, B=prędkość 0–100. Zmieniana jest tylko wskazana faza sceny, z zachowaniem pozostałych efektywnych prędkości."
+      ]
+    },
+    {
       "version": "1.0.0.1086",
       "firmware_version": "1.0.0.1086",
       "filesystem_version": "1.0.0.1086",
