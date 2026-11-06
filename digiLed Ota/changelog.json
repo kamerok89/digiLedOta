@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1089",
+      "firmware_version": "1.0.0.1089",
+      "filesystem_version": "1.0.0.1089",
+      "date": "2026-11-06T21:58:20+00:00",
+      "title": "Sterowanie odświeżaniem wizualizacji audio",
+      "changes": [
+        "Zastąpiono zbędną opcję wyłączania Modbus RTU przełącznikiem odświeżania wizualizacji Sound Reactive.",
+        "Podgląd startuje ze wstrzymanym odświeżaniem; przełącznik wznawia i zatrzymuje wykresy bez wyłączania analizy audio ani efektów LED.",
+        "Dodano odpytywanie statusu przy braku świeżych ramek audio."
+      ]
+    },
+    {
       "version": "1.0.0.1088",
       "firmware_version": "1.0.0.1088",
       "filesystem_version": "1.0.0.1088",
