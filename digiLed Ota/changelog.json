@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.15",
+      "firmware_version": "2.0.0.15",
+      "filesystem_version": "2.0.0.15",
+      "date": "2026-11-08T18:21:39+00:00",
+      "title": "Automatyczne przywracanie ustawień i czytelne etykiety",
+      "changes": [
+        "Podgląd kopii ustawień odlicza 10 sekund i automatycznie rozpoczyna import przy braku interakcji. Kliknięcie, użycie klawiatury lub przewijanie zatrzymuje odliczanie.",
+        "Poprawiono opis urządzenia w potwierdzeniu aktualizacji na digiLed Neo z pamięcią flash 16 MB.",
+        "Usunięto wymuszanie wersalików w etykietach portalu, zachowując skróty techniczne."
+      ]
+    },
+    {
       "version": "2.0.0.14",
       "firmware_version": "2.0.0.14",
       "filesystem_version": "2.0.0.14",
