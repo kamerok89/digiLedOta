@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.1",
+      "firmware_version": "2.0.0.1",
+      "filesystem_version": "2.0.0.1",
+      "date": "2026-11-08T14:45:31+00:00",
+      "title": "Dwa dyski w menedżerze plików",
+      "changes": [
+        "Kafelki plików portalu i ustawień są wyświetlane obok siebie; każdy ma przycisk menedżera prowadzący do właściwej partycji.",
+        "Menedżer plików udostępnia osobny kafelek Konfiguracja z ikoną settings.png, zajętością oraz obsługą plików ustawień.",
+        "Operacje plikowe i zadania w tle zachowują wybór partycji niezależnie od innych żądań."
+      ]
+    },
+    {
       "version": "2.0.0.0",
       "firmware_version": "2.0.0.0",
       "filesystem_version": "2.0.0.0",
