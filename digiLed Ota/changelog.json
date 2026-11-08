@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.21",
+      "firmware_version": "2.0.0.21",
+      "filesystem_version": "2.0.0.21",
+      "date": "2026-11-08T20:16:16+00:00",
+      "title": "Bezpieczne skanowanie Wi-Fi z terminala",
+      "changes": [
+        "Polecenie wifiscan wykonuje oczekiwanie na wyniki w zadaniu roboczym i natychmiast zwalnia obsługę terminala WWW oraz pętlę portu szeregowego.",
+        "Powtórne polecenia podczas skanowania nie zapełniają kolejki; wyniki są wypisywane w logu po zakończeniu.",
+        "Limit czasu skanowania nie wyświetla starych wyników ani fałszywej informacji o braku sieci; dodano obsługę niedostępnej pamięci skanera."
+      ]
+    },
+    {
       "version": "2.0.0.20",
       "firmware_version": "2.0.0.20",
       "filesystem_version": "2.0.0.20",
