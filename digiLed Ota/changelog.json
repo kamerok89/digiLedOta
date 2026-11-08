@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.13",
+      "firmware_version": "2.0.0.13",
+      "filesystem_version": "2.0.0.13",
+      "date": "2026-11-08T18:02:15+00:00",
+      "title": "Czytelny pinout i bezpieczny wybór GPIO",
+      "changes": [
+        "Zmieniono kolejność RS485 na TX, DE/RE, RX oraz MiLight na CE, CSN, MOSI, SCK, MISO, IRQ. Edycja IRQ jest wyłączona.",
+        "Pola wyboru GPIO mają spójną strzałkę, a nazwy systemowe to Wyjście taśmy LED i Ustawienia fabryczne.",
+        "Listy GPIO pomijają piny zarezerwowane przez firmware i chronione przypisania systemowe."
+      ]
+    },
+    {
       "version": "2.0.0.12",
       "firmware_version": "2.0.0.12",
       "filesystem_version": "2.0.0.12",
