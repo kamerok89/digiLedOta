@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.9",
+      "firmware_version": "2.0.0.9",
+      "filesystem_version": "2.0.0.9",
+      "date": "2026-11-08T17:02:02+00:00",
+      "title": "Zapamiętywanie wersji firmware obu slotów",
+      "changes": [
+        "Wersje firmware są trwale zapisywane osobno dla app0 i app1, aby numer poprzedniego oprogramowania był widoczny także po restarcie i przełączeniu slotu.",
+        "Zapis wersji jest powiązany z identyfikatorem obrazu firmware, co zapobiega wyświetlaniu starego numeru po nadpisaniu slotu.",
+        "Dodano rozpoznawanie wcześniejszych wydań digiLed na podstawie identyfikatorów obrazów."
+      ]
+    },
+    {
       "version": "2.0.0.8",
       "firmware_version": "2.0.0.8",
       "filesystem_version": "2.0.0.8",
