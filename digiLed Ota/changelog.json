@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "2.0.0.12",
+      "firmware_version": "2.0.0.12",
+      "filesystem_version": "2.0.0.12",
+      "date": "2026-11-08T17:40:25+00:00",
+      "title": "Karta produktu digiLed Neo",
+      "changes": [
+        "Rozbudowano okno Informacje o produkcie o opis przeznaczenia, możliwości, identyfikację urządzenia i parametry oprogramowania.",
+        "Karta odczytuje rzeczywiste wersje firmware, portalu, ESP-IDF, Arduino-ESP32, FreeRTOS oraz bibliotek i datę kompilacji w UTC.",
+        "Dodano rozwijane szczegóły platformy, odnośniki do komponentów i dokumentacji API oraz kopiowanie informacji diagnostycznych bez danych dostępowych.",
+        "Dopracowano układ mobilny, oba motywy, obsługę klawiatury i weryfikację kompletnego obrazu USB."
+      ]
+    },
+    {
       "version": "2.0.0.11",
       "firmware_version": "2.0.0.11",
       "filesystem_version": "2.0.0.11",
