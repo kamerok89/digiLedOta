@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.4",
+      "firmware_version": "2.0.0.4",
+      "filesystem_version": "2.0.0.4",
+      "date": "2026-11-08T15:52:56+00:00",
+      "title": "Kafelki firmware w układzie dysków",
+      "changes": [
+        "Sloty app0 i app1 mają ikonę firmware.png, pasek zajętości, pojemność, wolne i zajęte miejsce oraz wersję firmware.",
+        "Tekstowe przyciski slotów zastąpiono ikonami active.png i switch.png z podpowiedziami. Przełączenie nadal wymaga potwierdzenia w modalu."
+      ]
+    },
+    {
       "version": "2.0.0.3",
       "firmware_version": "2.0.0.3",
       "filesystem_version": "2.0.0.3",
