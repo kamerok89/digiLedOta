@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.22",
+      "firmware_version": "2.0.0.22",
+      "filesystem_version": "2.0.0.22",
+      "date": "2026-11-08T20:27:57+00:00",
+      "title": "Czytelne echo poleceń terminala",
+      "changes": [
+        "Po wysłaniu polecenia panel od razu pobiera historię terminala, pokazując echo polecenia i odpowiedź urządzenia.",
+        "Polecenia użytkownika mają niebieski tekst, tło i boczny znacznik widoczne w jasnym oraz ciemnym motywie.",
+        "Dodano echo anulowania konfiguracji Wi-Fi i ochronę przed podwójnym wysłaniem podczas trwającego żądania; hasła pozostają zamaskowane."
+      ]
+    },
+    {
       "version": "2.0.0.21",
       "firmware_version": "2.0.0.21",
       "filesystem_version": "2.0.0.21",
