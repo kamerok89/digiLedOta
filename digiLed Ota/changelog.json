@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.10",
+      "firmware_version": "2.0.0.10",
+      "filesystem_version": "2.0.0.10",
+      "date": "2026-11-08T17:17:29+00:00",
+      "title": "Czytelna etykieta LIVE i przycisk odświeżania procesów",
+      "changes": [
+        "Poprawiono kontrast etykiety LIVE oraz stanów oczekiwania i błędu w panelu procesów.",
+        "Przycisk Odśwież ma wyraźne tło, obramowanie, tekst i widoczny fokus klawiatury w jasnym oraz ciemnym motywie."
+      ]
+    },
+    {
       "version": "2.0.0.9",
       "firmware_version": "2.0.0.9",
       "filesystem_version": "2.0.0.9",
