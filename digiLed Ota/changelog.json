@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.23",
+      "firmware_version": "2.0.0.23",
+      "filesystem_version": "2.0.0.23",
+      "date": "2026-11-08T20:53:01+00:00",
+      "title": "Kolory ważnych informacji terminala",
+      "changes": [
+        "Zmieniono nagłówek informacji urządzenia na digiLed Serial Info.",
+        "Wyróżniono kolorami nagłówki, uruchomienie firmware i usług, adresy sieciowe, informacje sprzętowe i OTA oraz ostrzeżenia i błędy.",
+        "Kolory terminala dopasowano do jasnego i ciemnego motywu; błędy mają pierwszeństwo przed informacjami o usługach."
+      ]
+    },
+    {
       "version": "2.0.0.22",
       "firmware_version": "2.0.0.22",
       "filesystem_version": "2.0.0.22",
