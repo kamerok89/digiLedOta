@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.8",
+      "firmware_version": "2.0.0.8",
+      "filesystem_version": "2.0.0.8",
+      "date": "2026-11-08T16:49:44+00:00",
+      "title": "Czytelne opisy temperatury i wyrównana ikona slotu",
+      "changes": [
+        "Ikona uruchamiania drugiego slotu jest wyrównana do paska zajętości.",
+        "Zmieniono opis Nominalna praca na Temperatura w normie, poprawiono kontrast stanów temperatury w jasnym motywie i powiększono opisy wykresu."
+      ]
+    },
+    {
       "version": "2.0.0.7",
       "firmware_version": "2.0.0.7",
       "filesystem_version": "2.0.0.7",
