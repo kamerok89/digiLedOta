@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.7",
+      "firmware_version": "2.0.0.7",
+      "filesystem_version": "2.0.0.7",
+      "date": "2026-11-08T16:35:36+00:00",
+      "title": "Spójne kafelki systemu i nieprzydzielonej pamięci",
+      "changes": [
+        "System i Nieprzydzielone miejsce mają układ z ikoną, paskiem oraz danymi o pojemności. Użyto ikon secure.png i freespace.png.",
+        "Nieprzydzielone miejsce jest po lewej, a System po prawej. Wyłączono efekt najechania na te kafelki oraz sloty app0 i app1 w obu motywach."
+      ]
+    },
+    {
       "version": "2.0.0.6",
       "firmware_version": "2.0.0.6",
       "filesystem_version": "2.0.0.6",

@@ -1,44 +1,44 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "2.0.0.6",
+  "version": "2.0.0.7",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_4m_config_16mb",
-  "firmware_version": "2.0.0.6",
-  "filesystem_version": "2.0.0.6",
-  "notes": "Wspólny wiersz danych o zajętości pamięci",
+  "firmware_version": "2.0.0.7",
+  "filesystem_version": "2.0.0.7",
+  "notes": "Spójne kafelki systemu i nieprzydzielonej pamięci",
   "changes": [
-    "Kafelki app0 i app1 pokazują zajęte miejsce w jednym wierszu z wolnym miejscem i całkowitą pojemnością.",
-    "Dodano zajęte miejsce do kafelków konfiguracji i plików portalu w tym samym układzie."
+    "System i Nieprzydzielone miejsce mają układ z ikoną, paskiem oraz danymi o pojemności. Użyto ikon secure.png i freespace.png.",
+    "Nieprzydzielone miejsce jest po lewej, a System po prawej. Wyłączono efekt najechania na te kafelki oraz sloty app0 i app1 w obu motywach."
   ],
   "firmware": {
-    "version": "2.0.0.6",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.6.bin",
+    "version": "2.0.0.7",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.7.bin",
     "size": 1936880,
-    "md5": "0729C80B5A19629ADEBE3217FBE7AEAC",
-    "sha256": "1BC557DC69D44AEFD77FA0678B2C0CB106832603ABE0D4D8B22357203E985292"
+    "md5": "EAAB6F885D819D0A80FC3BC6FCB34A77",
+    "sha256": "CA2BCFB512B771B9B3E4044041E471F898A1B0270410A36466B6C78E5E3348A2"
   },
   "littlefs": {
-    "version": "2.0.0.6",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.6.bin",
+    "version": "2.0.0.7",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.7.bin",
     "size": 7340032,
-    "md5": "C26E2D36AEE0670C8232507023BD8D19",
-    "sha256": "6E08AE25D376CC470C400ECB5CBFB1D6F6600961E3B3734342572BACBDF34D86"
+    "md5": "A2C33809383E7DD2BD2E9347C235AFE7",
+    "sha256": "D9213D89004619D3DEC6FDBF5FF4CEC6ADFF91D8002E0B45CDF40DA1BE93AFF1"
   },
   "filesystem": {
-    "version": "2.0.0.6",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.6.bin",
+    "version": "2.0.0.7",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.7.bin",
     "size": 7340032,
-    "md5": "C26E2D36AEE0670C8232507023BD8D19",
-    "sha256": "6E08AE25D376CC470C400ECB5CBFB1D6F6600961E3B3734342572BACBDF34D86"
+    "md5": "A2C33809383E7DD2BD2E9347C235AFE7",
+    "sha256": "D9213D89004619D3DEC6FDBF5FF4CEC6ADFF91D8002E0B45CDF40DA1BE93AFF1"
   },
   "dgu": {
-    "version": "2.0.0.6",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.6.dgu",
+    "version": "2.0.0.7",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.7.dgu",
     "size": 9277363,
-    "md5": "3C732AE3B80F7CB1D371CBC768EFF7B3",
-    "sha256": "812A33B56B8FB634730540C76C89FD88DA59991BCEC2524526A42841F765C117"
+    "md5": "9AB37253C0675E79036D9D4967BD8C9A",
+    "sha256": "7052F356E344C20DD830A445C74BD8C22DB356DA329D2971BDA54D37FD578739"
   },
-  "build_time": "2026-11-08T16:22:26+00:00",
+  "build_time": "2026-11-08T16:35:36+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
