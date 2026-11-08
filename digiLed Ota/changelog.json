@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.6",
+      "firmware_version": "2.0.0.6",
+      "filesystem_version": "2.0.0.6",
+      "date": "2026-11-08T16:22:26+00:00",
+      "title": "Wspólny wiersz danych o zajętości pamięci",
+      "changes": [
+        "Kafelki app0 i app1 pokazują zajęte miejsce w jednym wierszu z wolnym miejscem i całkowitą pojemnością.",
+        "Dodano zajęte miejsce do kafelków konfiguracji i plików portalu w tym samym układzie."
+      ]
+    },
+    {
       "version": "2.0.0.5",
       "firmware_version": "2.0.0.5",
       "filesystem_version": "2.0.0.5",
