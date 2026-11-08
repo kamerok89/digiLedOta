@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1092",
+      "firmware_version": "1.0.0.1092",
+      "filesystem_version": "1.0.0.1092",
+      "date": "2026-11-08T14:01:43+00:00",
+      "title": "Ciągłe monitorowanie połączenia Wi-Fi i powrotu AP",
+      "changes": [
+        "Zapis danych Wi-Fi nie czeka na zadanie zmieniające połączenie sieciowe; monitorowanie startuje po przyjęciu konfiguracji.",
+        "Modal cyklicznie sprawdza stan także po 22 sekundach i po zmianie adresu AP, potwierdza dostępność nowego panelu oraz pokazuje błędy zgłoszone przez firmware.",
+        "Sprawdzanie nowego adresu działa z włączonym logowaniem dzięki tymczasowemu tokenowi i weryfikacji tożsamości urządzenia."
+      ]
+    },
+    {
       "version": "1.0.0.1091",
       "firmware_version": "1.0.0.1091",
       "filesystem_version": "1.0.0.1091",
