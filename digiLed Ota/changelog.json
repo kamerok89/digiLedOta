@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.3",
+      "firmware_version": "2.0.0.3",
+      "filesystem_version": "2.0.0.3",
+      "date": "2026-11-08T15:05:29+00:00",
+      "title": "Kafelki zasobów w stylu dysków Windows",
+      "changes": [
+        "Konfiguracja i pliki portalu mają ikony po lewej, nazwę zasobu, pasek zajętości i informację o wolnej oraz całkowitej pojemności.",
+        "Konfiguracja jest wyświetlana po lewej, a pliki portalu po prawej. Kliknięcie całego kafelka otwiera właściwy dysk w menedżerze plików; osobne przyciski zostały usunięte."
+      ]
+    },
+    {
       "version": "2.0.0.2",
       "firmware_version": "2.0.0.2",
       "filesystem_version": "2.0.0.2",
