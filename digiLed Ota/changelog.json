@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.14",
+      "firmware_version": "2.0.0.14",
+      "filesystem_version": "2.0.0.14",
+      "date": "2026-11-08T18:09:23+00:00",
+      "title": "Zwarty układ wszystkich pól pinoutu",
+      "changes": [
+        "Sound Reactive i System mają po trzy pola GPIO w jednym wierszu, zgodnie z układem pozostałych grup pinoutu."
+      ]
+    },
+    {
       "version": "2.0.0.13",
       "firmware_version": "2.0.0.13",
       "filesystem_version": "2.0.0.13",
