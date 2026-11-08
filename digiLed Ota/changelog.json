@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.18",
+      "firmware_version": "2.0.0.18",
+      "filesystem_version": "2.0.0.18",
+      "date": "2026-11-08T19:06:24+00:00",
+      "title": "Suwak podglądu temperatury bieli",
+      "changes": [
+        "Dodano pod jasnością suwak temperatury bieli 2200–6500 K z cienką skalą, podziałką i opisem wybranej barwy.",
+        "Suwak działa na razie jako podgląd w interfejsie, zachowuje wybór podczas odświeżania widoku i nie wysyła zmian do silnika LED."
+      ]
+    },
+    {
       "version": "2.0.0.17",
       "firmware_version": "2.0.0.17",
       "filesystem_version": "2.0.0.17",
