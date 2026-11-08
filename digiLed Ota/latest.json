@@ -1,45 +1,44 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1089",
+  "version": "1.0.0.1090",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_littlefs_16mb",
-  "firmware_version": "1.0.0.1089",
-  "filesystem_version": "1.0.0.1089",
-  "notes": "Sterowanie odświeżaniem wizualizacji audio",
+  "firmware_version": "1.0.0.1090",
+  "filesystem_version": "1.0.0.1090",
+  "notes": "Informacja o zmianie adresu AP przy konflikcie Wi-Fi",
   "changes": [
-    "Zastąpiono zbędną opcję wyłączania Modbus RTU przełącznikiem odświeżania wizualizacji Sound Reactive.",
-    "Podgląd startuje ze wstrzymanym odświeżaniem; przełącznik wznawia i zatrzymuje wykresy bez wyłączania analizy audio ani efektów LED.",
-    "Dodano odpytywanie statusu przy braku świeżych ramek audio."
+    "Modal połączenia informuje o konieczności ponownego połączenia z AP DigiLED i pokazuje nowy adres panelu przy konflikcie podsieci.",
+    "Opóźnienie zmiany adresu AP pozwala odczytać instrukcję; preferowany adres zapasowy to 192.168.8.1."
   ],
   "firmware": {
-    "version": "1.0.0.1089",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1089.bin",
-    "size": 1934848,
-    "md5": "DCE5E51CE1D4C32B232DBF86BF109921",
-    "sha256": "EE7C7A58BA8C535EC33587438749302E58031682FD1837E8E9CFF6FBB1C1D720"
+    "version": "1.0.0.1090",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1090.bin",
+    "size": 1935104,
+    "md5": "4F42ED221B6840BA54282535BB844DFF",
+    "sha256": "A4AB188F740CBB4C095B3777FB2AE5A42E990D7F6932F930A78CA2AD9038102D"
   },
   "littlefs": {
-    "version": "1.0.0.1089",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1089.bin",
+    "version": "1.0.0.1090",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1090.bin",
     "size": 12582912,
-    "md5": "4B6B413D3898CA6DEAA77B6F11E458EC",
-    "sha256": "FDEDD5C520BA6C62937300A90EA5C9B8FA057B457E75A03C88DE5A193F808203"
+    "md5": "7B7374AC29F274CA80C46BBE8EFFF714",
+    "sha256": "BAF4F358362B7CF090476D8642664734FB289D94C90FA42942E7300FE01AEF81"
   },
   "filesystem": {
-    "version": "1.0.0.1089",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1089.bin",
+    "version": "1.0.0.1090",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1090.bin",
     "size": 12582912,
-    "md5": "4B6B413D3898CA6DEAA77B6F11E458EC",
-    "sha256": "FDEDD5C520BA6C62937300A90EA5C9B8FA057B457E75A03C88DE5A193F808203"
+    "md5": "7B7374AC29F274CA80C46BBE8EFFF714",
+    "sha256": "BAF4F358362B7CF090476D8642664734FB289D94C90FA42942E7300FE01AEF81"
   },
   "dgu": {
-    "version": "1.0.0.1089",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1089.dgu",
-    "size": 14518220,
-    "md5": "1E9C36AD1A7EFE0B72EE86FEE793C8D4",
-    "sha256": "E71A56BBEDE42F9CF3522B4A9B69005FC2F01DA62DFA4D248C05330DA0BEC614"
+    "version": "1.0.0.1090",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1090.dgu",
+    "size": 14518476,
+    "md5": "1F1510433BC5C28B5BD3D7B16A4339E2",
+    "sha256": "54EB33743FEC4314A55CB9C1252EFDD32D1D5E58FF53DE0241DE870D508619F5"
   },
-  "build_time": "2026-11-06T21:58:20+00:00",
+  "build_time": "2026-11-08T13:34:40+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

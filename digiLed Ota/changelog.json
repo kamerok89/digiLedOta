@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1090",
+      "firmware_version": "1.0.0.1090",
+      "filesystem_version": "1.0.0.1090",
+      "date": "2026-11-08T13:34:40+00:00",
+      "title": "Informacja o zmianie adresu AP przy konflikcie Wi-Fi",
+      "changes": [
+        "Modal połączenia informuje o konieczności ponownego połączenia z AP DigiLED i pokazuje nowy adres panelu przy konflikcie podsieci.",
+        "Opóźnienie zmiany adresu AP pozwala odczytać instrukcję; preferowany adres zapasowy to 192.168.8.1."
+      ]
+    },
+    {
       "version": "1.0.0.1089",
       "firmware_version": "1.0.0.1089",
       "filesystem_version": "1.0.0.1089",
