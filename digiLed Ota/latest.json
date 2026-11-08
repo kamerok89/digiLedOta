@@ -1,45 +1,46 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "1.0.0.1092",
+  "version": "2.0.0.0",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
-  "partition_scheme": "ota_littlefs_16mb",
-  "firmware_version": "1.0.0.1092",
-  "filesystem_version": "1.0.0.1092",
-  "notes": "Ciągłe monitorowanie połączenia Wi-Fi i powrotu AP",
+  "partition_scheme": "ota_4m_config_16mb",
+  "firmware_version": "2.0.0.0",
+  "filesystem_version": "2.0.0.0",
+  "notes": "Nowy układ pamięci 16 MiB z osobną konfiguracją",
   "changes": [
-    "Zapis danych Wi-Fi nie czeka na zadanie zmieniające połączenie sieciowe; monitorowanie startuje po przyjęciu konfiguracji.",
-    "Modal cyklicznie sprawdza stan także po 22 sekundach i po zmianie adresu AP, potwierdza dostępność nowego panelu oraz pokazuje błędy zgłoszone przez firmware.",
-    "Sprawdzanie nowego adresu działa z włączonym logowaniem dzięki tymczasowemu tokenowi i weryfikacji tożsamości urządzenia."
+    "Dwa sloty firmware po 4 MiB, portal 7 MiB oraz osobna partycja ustawień 896 KiB w obrębie pierwszego MiB pamięci.",
+    "Ustawienia, dane logowania, sceny, schematy i konfiguracja MiLight są oddzielone od plików portalu i pozostają na miejscu podczas jego aktualizacji.",
+    "Pierwsza instalacja wymaga pełnego scalonego obrazu BIN przez USB od adresu 0x0. Aktualizacja ze starego układu przez OTA nie jest obsługiwana.",
+    "Mapa pamięci pokazuje osobno zajętość partycji ustawień oraz portalu."
   ],
   "firmware": {
-    "version": "1.0.0.1092",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-1.0.0.1092.bin",
-    "size": 1936240,
-    "md5": "7F2150EEE2E28093F46780007E691857",
-    "sha256": "6CDD447E82B45B6406FB97E09547ED98856963A00B61F56E90E95A55B8058B58"
+    "version": "2.0.0.0",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.0.bin",
+    "size": 1934992,
+    "md5": "679D483CD7E5856719A7CB3C66C8B64F",
+    "sha256": "B899115AA22A5A46B3B1F6D01A9CA56889E62814D542F9D7E30A5370B36709A2"
   },
   "littlefs": {
-    "version": "1.0.0.1092",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1092.bin",
-    "size": 12582912,
-    "md5": "1F1E89D2374EB22BA589CAF77CCC2992",
-    "sha256": "701A2AE4868C349CFB9B0E623657B3BA8DBEC62747515B218A73B05E7A7ABFAE"
+    "version": "2.0.0.0",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.0.bin",
+    "size": 7340032,
+    "md5": "29716DB4746F68CB1E0A87AC24A1B3A0",
+    "sha256": "8794553B5BEF928C9E8A3261E2867FCFC8E8D15A66BC7789F3422BAEA800708F"
   },
   "filesystem": {
-    "version": "1.0.0.1092",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-1.0.0.1092.bin",
-    "size": 12582912,
-    "md5": "1F1E89D2374EB22BA589CAF77CCC2992",
-    "sha256": "701A2AE4868C349CFB9B0E623657B3BA8DBEC62747515B218A73B05E7A7ABFAE"
+    "version": "2.0.0.0",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.0.bin",
+    "size": 7340032,
+    "md5": "29716DB4746F68CB1E0A87AC24A1B3A0",
+    "sha256": "8794553B5BEF928C9E8A3261E2867FCFC8E8D15A66BC7789F3422BAEA800708F"
   },
   "dgu": {
-    "version": "1.0.0.1092",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-1.0.0.1092.dgu",
-    "size": 14519612,
-    "md5": "F9604AB92AEDF2F2713E462DF1DD23C6",
-    "sha256": "FD38846BD3C5C2F95EC3D431A36B61B4862DEF8E5E967A323BF567BC1D269ACC"
+    "version": "2.0.0.0",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.0.dgu",
+    "size": 9275475,
+    "md5": "83D4E8E5A85E4A199DCACC2C3BF4CDE6",
+    "sha256": "754DF1DE820C2F001B2DA83973032622ECDA142B92FE8051C2ADCBC227A78C88"
   },
-  "build_time": "2026-11-08T14:01:43+00:00",
+  "build_time": "2026-11-08T14:21:20+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

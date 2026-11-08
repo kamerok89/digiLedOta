@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "2.0.0.0",
+      "firmware_version": "2.0.0.0",
+      "filesystem_version": "2.0.0.0",
+      "date": "2026-11-08T14:21:20+00:00",
+      "title": "Nowy układ pamięci 16 MiB z osobną konfiguracją",
+      "changes": [
+        "Dwa sloty firmware po 4 MiB, portal 7 MiB oraz osobna partycja ustawień 896 KiB w obrębie pierwszego MiB pamięci.",
+        "Ustawienia, dane logowania, sceny, schematy i konfiguracja MiLight są oddzielone od plików portalu i pozostają na miejscu podczas jego aktualizacji.",
+        "Pierwsza instalacja wymaga pełnego scalonego obrazu BIN przez USB od adresu 0x0. Aktualizacja ze starego układu przez OTA nie jest obsługiwana.",
+        "Mapa pamięci pokazuje osobno zajętość partycji ustawień oraz portalu."
+      ]
+    },
+    {
       "version": "1.0.0.1092",
       "firmware_version": "1.0.0.1092",
       "filesystem_version": "1.0.0.1092",
