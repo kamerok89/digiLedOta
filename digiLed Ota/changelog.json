@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "1.0.0.1091",
+      "firmware_version": "1.0.0.1091",
+      "filesystem_version": "1.0.0.1091",
+      "date": "2026-11-08T13:40:43+00:00",
+      "title": "Instrukcja powrotu do AP przed próbą połączenia Wi-Fi",
+      "changes": [
+        "Modal otwiera się przed wysłaniem konfiguracji Wi-Fi, dzięki czemu instrukcja pozostaje widoczna także po natychmiastowej utracie komunikacji z AP.",
+        "Instrukcja zawiera nazwę AP i odnośnik do 192.168.8.1; brak odpowiedzi panelu nie jest przedstawiany jako potwierdzone połączenie z Wi-Fi."
+      ]
+    },
+    {
       "version": "1.0.0.1090",
       "firmware_version": "1.0.0.1090",
       "filesystem_version": "1.0.0.1090",
