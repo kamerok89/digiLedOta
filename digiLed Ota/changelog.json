@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.5",
+      "firmware_version": "2.0.0.5",
+      "filesystem_version": "2.0.0.5",
+      "date": "2026-11-08T16:13:28+00:00",
+      "title": "Nazwa i wersja firmware w nagłówku slotu",
+      "changes": [
+        "Nagłówki slotów pokazują app0 lub app1 oraz digiLed Neo z rozpoznaną wersją firmware. Wersja nie jest powielana pod paskiem.",
+        "Usunięto ikonę aktywnego slotu i techniczny opis esp-idf spod nieaktywnego slotu. Zachowano dane pamięci i ikonę przełączania drugiego slotu."
+      ]
+    },
+    {
       "version": "2.0.0.4",
       "firmware_version": "2.0.0.4",
       "filesystem_version": "2.0.0.4",
