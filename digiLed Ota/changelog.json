@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.16",
+      "firmware_version": "2.0.0.16",
+      "filesystem_version": "2.0.0.16",
+      "date": "2026-11-08T18:38:23+00:00",
+      "title": "Skrót do konfiguracji scen",
+      "changes": [
+        "Dodano przycisk z ikoną ustawień po lewej stronie Uruchom wszystko. Otwiera konfigurację scen i przewija do jej panelu."
+      ]
+    },
+    {
       "version": "2.0.0.15",
       "firmware_version": "2.0.0.15",
       "filesystem_version": "2.0.0.15",
