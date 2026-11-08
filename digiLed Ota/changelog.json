@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.11",
+      "firmware_version": "2.0.0.11",
+      "filesystem_version": "2.0.0.11",
+      "date": "2026-11-08T17:22:12+00:00",
+      "title": "Okno informacji o produkcie",
+      "changes": [
+        "Dodano pozycję Informacje o produkcie z ikoną informacyjną w menu opcji aktualizacji, nad poleceniem Uruchom ponownie.",
+        "Pozycja otwiera przygotowany modal z nagłówkiem Informacje o produkcie, bez dodatkowej treści."
+      ]
+    },
+    {
       "version": "2.0.0.10",
       "firmware_version": "2.0.0.10",
       "filesystem_version": "2.0.0.10",
