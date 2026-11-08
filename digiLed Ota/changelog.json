@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "2.0.0.19",
+      "firmware_version": "2.0.0.19",
+      "filesystem_version": "2.0.0.19",
+      "date": "2026-11-08T19:34:26+00:00",
+      "title": "Sterowanie temperaturą bieli",
+      "changes": [
+        "Suwak temperatury bieli steruje odcieniem i nasyceniem oraz zachowuje jasność.",
+        "Dodano W=17 TF-Bus: R=22–65, G=0 wszystkie sceny lub 1–24 wybrana, B=0.",
+        "Dodano HTTP global/white i scene/white z parametrem kelvin oraz opcjonalną jasnością bri.",
+        "Temperatura bieli jest zapisywana w ustawieniach i odtwarzana w panelu; ręczna zmiana odcienia lub nasycenia przełącza na kolor własny."
+      ]
+    },
+    {
       "version": "2.0.0.18",
       "firmware_version": "2.0.0.18",
       "filesystem_version": "2.0.0.18",
