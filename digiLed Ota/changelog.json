@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.20",
+      "firmware_version": "2.0.0.20",
+      "filesystem_version": "2.0.0.20",
+      "date": "2026-11-08T19:57:06+00:00",
+      "title": "Temperatura bieli w konfiguracji scen",
+      "changes": [
+        "Dodano suwak temperatury bieli do koloru lokalnego każdej sceny i do parametrów globalnych.",
+        "Wybór bieli synchronizuje odcień i nasycenie, zachowuje jasność i zapisuje temperaturę w konfiguracji.",
+        "Ręczna zmiana odcienia lub nasycenia przełącza dany kolor w tryb własny; oczekiwanie na tabelę barw nie nadpisuje późniejszych zmian."
+      ]
+    },
+    {
       "version": "2.0.0.19",
       "firmware_version": "2.0.0.19",
       "filesystem_version": "2.0.0.19",
