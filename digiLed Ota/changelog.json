@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "2.0.0.24",
+      "firmware_version": "2.0.0.24",
+      "filesystem_version": "2.0.0.24",
+      "date": "2026-11-09T20:36:35+00:00",
+      "title": "Edycja zakresu sceny z podglądem na żywo",
+      "changes": [
+        "Przebudowano modal zakresu LED: nawigacja scen obok siebie, zakres i liczba LED w nagłówku oraz kompaktowe pola w jednej kolumnie.",
+        "Zapisz utrwala i stosuje zmiany bez zamykania modala; dodano osobny przycisk Zamknij obok przycisku Zapisz.",
+        "Dodano przełącznik Podgląd na żywo, który aktualizuje zakres na taśmie bez zapisywania każdej zmiany do pamięci flash i bez uruchamiania wyłączonych scen.",
+        "Zmiany podglądu wysyłane są kolejno, zapis czeka na ich zakończenie, a Przywróć wraca do ostatniego zapisanego zakresu."
+      ]
+    },
+    {
       "version": "2.0.0.23",
       "firmware_version": "2.0.0.23",
       "filesystem_version": "2.0.0.23",
