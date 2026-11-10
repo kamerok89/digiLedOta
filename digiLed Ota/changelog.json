@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "2.0.0.25",
+      "firmware_version": "2.0.0.25",
+      "filesystem_version": "2.0.0.25",
+      "date": "2026-11-10T20:28:22+00:00",
+      "title": "Płynniejsze przesuwanie i zmiana rozmiaru zakresu LED",
+      "changes": [
+        "Podczas przeciągania aktualizowany jest wyłącznie bieżący segment i jego pola; usunięto przebudowę podglądów wszystkich scen przy każdym ruchu myszy.",
+        "Ruchy myszy łączone są w jedną aktualizację na klatkę, a geometria toru jest zapamiętywana na początku przeciągania.",
+        "Nakładanie scen i pozostałe podglądy przeliczane są po zakończeniu przeciągania; ostatnia pozycja jest stosowana także przy szybkim puszczeniu przycisku.",
+        "Zachowano podgląd na żywo i zapis zakresów; zamknięcie edytora kończy oczekującą aktualizację przeciągania."
+      ]
+    },
+    {
       "version": "2.0.0.24",
       "firmware_version": "2.0.0.24",
       "filesystem_version": "2.0.0.24",

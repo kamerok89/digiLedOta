@@ -1,46 +1,46 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "2.0.0.24",
+  "version": "2.0.0.25",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_4m_config_16mb",
-  "firmware_version": "2.0.0.24",
-  "filesystem_version": "2.0.0.24",
-  "notes": "Edycja zakresu sceny z podglądem na żywo",
+  "firmware_version": "2.0.0.25",
+  "filesystem_version": "2.0.0.25",
+  "notes": "Płynniejsze przesuwanie i zmiana rozmiaru zakresu LED",
   "changes": [
-    "Przebudowano modal zakresu LED: nawigacja scen obok siebie, zakres i liczba LED w nagłówku oraz kompaktowe pola w jednej kolumnie.",
-    "Zapisz utrwala i stosuje zmiany bez zamykania modala; dodano osobny przycisk Zamknij obok przycisku Zapisz.",
-    "Dodano przełącznik Podgląd na żywo, który aktualizuje zakres na taśmie bez zapisywania każdej zmiany do pamięci flash i bez uruchamiania wyłączonych scen.",
-    "Zmiany podglądu wysyłane są kolejno, zapis czeka na ich zakończenie, a Przywróć wraca do ostatniego zapisanego zakresu."
+    "Podczas przeciągania aktualizowany jest wyłącznie bieżący segment i jego pola; usunięto przebudowę podglądów wszystkich scen przy każdym ruchu myszy.",
+    "Ruchy myszy łączone są w jedną aktualizację na klatkę, a geometria toru jest zapamiętywana na początku przeciągania.",
+    "Nakładanie scen i pozostałe podglądy przeliczane są po zakończeniu przeciągania; ostatnia pozycja jest stosowana także przy szybkim puszczeniu przycisku.",
+    "Zachowano podgląd na żywo i zapis zakresów; zamknięcie edytora kończy oczekującą aktualizację przeciągania."
   ],
   "firmware": {
-    "version": "2.0.0.24",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.24.bin",
+    "version": "2.0.0.25",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.25.bin",
     "size": 1951152,
-    "md5": "BF6CDA3FE75F3954894D127D12143E47",
-    "sha256": "857623AFE253F9DA4668A735E2BB4C502A14D1898A70AFBD0EAABF8AA567A48F"
+    "md5": "141C3E0DDEC9437B2C07D8DFF31D7E98",
+    "sha256": "D0F19513DE322CFFDA36E1B7CFA1E03F68D1782C842297282E5E7F018917B50D"
   },
   "littlefs": {
-    "version": "2.0.0.24",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.24.bin",
+    "version": "2.0.0.25",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.25.bin",
     "size": 7340032,
-    "md5": "0C7E0352D647BD72A828E7A89C72E58C",
-    "sha256": "324DEC71B95B0A3D73CC1662BFF7C704449D5D6BCAD0B65E330C846FD1E75A60"
+    "md5": "554EFDC6F8E9577680201FFB91196A50",
+    "sha256": "9B8628C9C75458C800CEE435818C2C857BA1591B49B73F2F6B33DA90383BEE44"
   },
   "filesystem": {
-    "version": "2.0.0.24",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.24.bin",
+    "version": "2.0.0.25",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.25.bin",
     "size": 7340032,
-    "md5": "0C7E0352D647BD72A828E7A89C72E58C",
-    "sha256": "324DEC71B95B0A3D73CC1662BFF7C704449D5D6BCAD0B65E330C846FD1E75A60"
+    "md5": "554EFDC6F8E9577680201FFB91196A50",
+    "sha256": "9B8628C9C75458C800CEE435818C2C857BA1591B49B73F2F6B33DA90383BEE44"
   },
   "dgu": {
-    "version": "2.0.0.24",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.24.dgu",
+    "version": "2.0.0.25",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.25.dgu",
     "size": 9291638,
-    "md5": "29805410A81DA44FB56B4681E3F631CC",
-    "sha256": "1B8EF994B1EA80F0F32A8CF2348BEEF115A6919ED3E059AEF94AF637A831A8C6"
+    "md5": "DFB8CE5BBC345B77609DF35E9C2DAC10",
+    "sha256": "B4113E99D90901E08C4C9B834CA22E987EB9E677ED6DC3EC933AEDCD006A2DCE"
   },
-  "build_time": "2026-11-09T20:36:35+00:00",
+  "build_time": "2026-11-10T20:28:22+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
