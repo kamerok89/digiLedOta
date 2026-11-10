@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "2.0.0.26",
+      "firmware_version": "2.0.0.26",
+      "filesystem_version": "2.0.0.26",
+      "date": "2026-11-10T20:37:18+00:00",
+      "title": "Animacja zakresu LED od poprzedniej pozycji",
+      "changes": [
+        "Zapis konfiguracji nie odtwarza animacji paska LED od zera; modal zachowuje istniejące segmenty i ich pozycje.",
+        "Animowane są wyłącznie rzeczywiste zmiany położenia i szerokości, przez 160 ms od poprzedniego stanu; przeciąganie pozostaje bez opóźnienia.",
+        "Zmniejszono liczbę odczytów konfiguracji scen i usunięto zbędną ponowną synchronizację po edycji pól zakresu.",
+        "Przełączanie scen zachowuje segmenty podglądu oraz poprawnie aktualizuje etykiety, kolory i uchwyty; uwzględniono ograniczenie animacji w przeglądarce."
+      ]
+    },
+    {
       "version": "2.0.0.25",
       "firmware_version": "2.0.0.25",
       "filesystem_version": "2.0.0.25",
