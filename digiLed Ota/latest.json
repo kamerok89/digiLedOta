@@ -1,46 +1,45 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "2.0.0.26",
+  "version": "2.0.0.27",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_4m_config_16mb",
-  "firmware_version": "2.0.0.26",
-  "filesystem_version": "2.0.0.26",
-  "notes": "Animacja zakresu LED od poprzedniej pozycji",
+  "firmware_version": "2.0.0.27",
+  "filesystem_version": "2.0.0.27",
+  "notes": "Zapis scen bez ponownej animacji pasków",
   "changes": [
-    "Zapis konfiguracji nie odtwarza animacji paska LED od zera; modal zachowuje istniejące segmenty i ich pozycje.",
-    "Animowane są wyłącznie rzeczywiste zmiany położenia i szerokości, przez 160 ms od poprzedniego stanu; przeciąganie pozostaje bez opóźnienia.",
-    "Zmniejszono liczbę odczytów konfiguracji scen i usunięto zbędną ponowną synchronizację po edycji pól zakresu.",
-    "Przełączanie scen zachowuje segmenty podglądu oraz poprawnie aktualizuje etykiety, kolory i uchwyty; uwzględniono ograniczenie animacji w przeglądarce."
+    "Poprawiono pełne odświeżenie konfiguracji po zapisie: już wyświetlone paski LED zachowują stan gotowości i nie animują się ponownie od zera.",
+    "Usunięto odtwarzanie animacji w konfiguracji pod otwartym modalem przy każdym kliknięciu Zapisz.",
+    "Dodano test pełnego przebiegu trzech kolejnych zapisów, który sprawdza brak animacji i przejść pasków w modalu oraz w widoku pod nim."
   ],
   "firmware": {
-    "version": "2.0.0.26",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.26.bin",
+    "version": "2.0.0.27",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.27.bin",
     "size": 1951152,
-    "md5": "1622AF9429CD8561F797945118CA6C96",
-    "sha256": "1EEDFF27EC1E84546D5633ECDABBB15269E6CFA35680A48337F81A04C7AD578D"
+    "md5": "4256C795770F99B528D3183AB6CC81C4",
+    "sha256": "45D67792B46AF029FBD8D81DF89BD8C0AEBCB4DC043ECB85DD6591D17D93D5AB"
   },
   "littlefs": {
-    "version": "2.0.0.26",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.26.bin",
+    "version": "2.0.0.27",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.27.bin",
     "size": 7340032,
-    "md5": "566A31EBE56BE9F56B7BD6559244695F",
-    "sha256": "FFA86CD3AD4C6A5B61400D839AA31E5AE9D267C65A6CAF6341A24D9CAFF2A0D3"
+    "md5": "C6EDA93320C0ED560446D093043E4090",
+    "sha256": "73E2F205787F964F690349612EFF122877D4B1EF9B3CBA8C288D222BA7E11752"
   },
   "filesystem": {
-    "version": "2.0.0.26",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.26.bin",
+    "version": "2.0.0.27",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.27.bin",
     "size": 7340032,
-    "md5": "566A31EBE56BE9F56B7BD6559244695F",
-    "sha256": "FFA86CD3AD4C6A5B61400D839AA31E5AE9D267C65A6CAF6341A24D9CAFF2A0D3"
+    "md5": "C6EDA93320C0ED560446D093043E4090",
+    "sha256": "73E2F205787F964F690349612EFF122877D4B1EF9B3CBA8C288D222BA7E11752"
   },
   "dgu": {
-    "version": "2.0.0.26",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.26.dgu",
+    "version": "2.0.0.27",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.27.dgu",
     "size": 9291638,
-    "md5": "1592B23BA88D541FF95A2C2C75AF569C",
-    "sha256": "187BC06469CEE18CCE1579F14E9C2BA81C8010E45CA77C5BE51ED05333F6CF58"
+    "md5": "D6DCC1EF4935A2E4A1ED3523500CE435",
+    "sha256": "6F5AD77A5470393A4A38DA6C235B927870469FE74CF7E92DA3FC43B59A4E0813"
   },
-  "build_time": "2026-11-10T20:37:18+00:00",
+  "build_time": "2026-11-10T20:46:31+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
