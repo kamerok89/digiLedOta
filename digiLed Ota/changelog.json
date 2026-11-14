@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.29",
+      "firmware_version": "2.0.0.29",
+      "filesystem_version": "2.0.0.29",
+      "date": "2026-11-14T18:46:51+00:00",
+      "title": "Czytelniejszy captive portal",
+      "changes": [
+        "Usunięto wersaliki, poprawiono hierarchię i grubość czcionek oraz uproszczono instrukcje dostępu do urządzenia w języku polskim i angielskim."
+      ]
+    },
+    {
       "version": "2.0.0.28",
       "firmware_version": "2.0.0.28",
       "filesystem_version": "2.0.0.28",
