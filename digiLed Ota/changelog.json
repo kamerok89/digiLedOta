@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.28",
+      "firmware_version": "2.0.0.28",
+      "filesystem_version": "2.0.0.28",
+      "date": "2026-11-14T18:33:07+00:00",
+      "title": "Captive portal z dostępem przez Wi-Fi",
+      "changes": [
+        "Dodano nazwę, opis i adres MAC urządzenia w captive portal, zachowując logo, język i motyw.",
+        "Dodano instrukcję oraz przycisk dostępu przez aktywną sieć Wi-Fi z bieżącym adresem IP urządzenia."
+      ]
+    },
+    {
       "version": "2.0.0.27",
       "firmware_version": "2.0.0.27",
       "filesystem_version": "2.0.0.27",
