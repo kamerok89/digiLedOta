@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.32",
+      "firmware_version": "2.0.0.32",
+      "filesystem_version": "2.0.0.32",
+      "date": "2026-11-15T20:37:28+00:00",
+      "title": "Potwierdzenie połączenia z Wi-Fi",
+      "changes": [
+        "Dodano modal Połącz w stylu okna restartu, z nazwą wybranej sieci oraz przyciskami Anuluj i Połącz.",
+        "Potwierdzenie obejmuje ostatnie połączenia, sieci ze skanowania oraz ręczne wpisanie sieci. Ujednolicono rozmiar i układ okien potwierdzenia Wi-Fi."
+      ]
+    },
+    {
       "version": "2.0.0.31",
       "firmware_version": "2.0.0.31",
       "filesystem_version": "2.0.0.31",
