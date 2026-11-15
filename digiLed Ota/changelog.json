@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.41",
+      "firmware_version": "2.0.0.41",
+      "filesystem_version": "2.0.0.41",
+      "date": "2026-11-15T21:28:23+00:00",
+      "title": "Czytelne pola integracji API w jasnym motywie",
+      "changes": [
+        "Rozjaśniono pola tokena i whitelisty IP oraz zwiększono kontrast tekstu, podpowiedzi, obramowań i podpisów przykładów URL w jasnym motywie."
+      ]
+    },
+    {
       "version": "2.0.0.40",
       "firmware_version": "2.0.0.40",
       "filesystem_version": "2.0.0.40",
