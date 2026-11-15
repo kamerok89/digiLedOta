@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.45",
+      "firmware_version": "2.0.0.45",
+      "filesystem_version": "2.0.0.45",
+      "date": "2026-11-15T22:12:59+00:00",
+      "title": "Logo i wspólna wersja w informacjach o produkcie",
+      "changes": [
+        "W nagłówku informacji o produkcie umieszczono grafikę digiLed na podłożu zapewniającym czytelność w jasnym i ciemnym motywie.",
+        "Zmieniono nazwy wersji na Oprogramowanie urządzenia i Interfejs użytkownika. Identyczne wersje są pokazywane jako jedna pozycja Oprogramowanie użytkownika oraz interfejs."
+      ]
+    },
+    {
       "version": "2.0.0.44",
       "firmware_version": "2.0.0.44",
       "filesystem_version": "2.0.0.44",
