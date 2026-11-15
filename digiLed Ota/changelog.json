@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.47",
+      "firmware_version": "2.0.0.47",
+      "filesystem_version": "2.0.0.47",
+      "date": "2026-11-15T22:30:17+00:00",
+      "title": "Pierścienie bez ciemnej obwódki w jasnym motywie",
+      "changes": [
+        "Dodano wariant pierścieni z przezroczystymi krawędziami bez ciemnej obwódki, używany w jasnym motywie na ekranie startowym i podczas restartu.",
+        "Ciemny motyw zachowuje dotychczasową grafikę pierścieni."
+      ]
+    },
+    {
       "version": "2.0.0.46",
       "firmware_version": "2.0.0.46",
       "filesystem_version": "2.0.0.46",
