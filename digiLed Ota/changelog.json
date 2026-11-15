@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.48",
+      "firmware_version": "2.0.0.48",
+      "filesystem_version": "2.0.0.48",
+      "date": "2026-11-15T22:37:38+00:00",
+      "title": "Grafika produktu dopasowana do motywu",
+      "changes": [
+        "W informacjach o produkcie zastosowano jasny i ciemny wariant pierścieni, przełączany wraz z motywem. Usunięto ciemne prostokątne podłoże grafiki."
+      ]
+    },
+    {
       "version": "2.0.0.47",
       "firmware_version": "2.0.0.47",
       "filesystem_version": "2.0.0.47",
