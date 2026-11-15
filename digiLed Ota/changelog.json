@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.50",
+      "firmware_version": "2.0.0.50",
+      "filesystem_version": "2.0.0.50",
+      "date": "2026-11-15T22:55:38+00:00",
+      "title": "Spójne okna i potwierdzanie usuwania połączeń Wi-Fi",
+      "changes": [
+        "Usunięto ikonę firmware z informacji o produkcie i ujednolicono przyciski zamknięcia okien połączenia oraz rozłączenia Wi-Fi.",
+        "Dodano potwierdzenie usuwania zapisanego połączenia z nazwą sieci oraz informacją o usunięciu hasła.",
+        "Przyciski w modalach otrzymały wspólne podświetlenie, animację najechania i kliknięcia oraz zaznaczenie klawiaturą, z obsługą ograniczenia ruchu."
+      ]
+    },
+    {
       "version": "2.0.0.49",
       "firmware_version": "2.0.0.49",
       "filesystem_version": "2.0.0.49",
