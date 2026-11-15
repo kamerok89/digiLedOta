@@ -1,44 +1,44 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "2.0.0.30",
+  "version": "2.0.0.31",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_4m_config_16mb",
-  "firmware_version": "2.0.0.30",
-  "filesystem_version": "2.0.0.30",
-  "notes": "Wybór scen uruchamianych po restarcie",
+  "firmware_version": "2.0.0.31",
+  "filesystem_version": "2.0.0.31",
+  "notes": "Potwierdzenie rozłączenia Wi-Fi",
   "changes": [
-    "Opcja Uruchom po restarcie uruchamia zaznaczone sceny wyłącznie w trybie Uruchom włączony. Brak zaznaczonych scen pozostawia LED wyłączone.",
-    "Usunięto wpływ tej opcji na ręczne uruchamianie, wczytywanie kopii konfiguracji i awaryjne odtwarzanie poprzedniego stanu."
+    "Dodano okno potwierdzenia rozłączenia Wi-Fi w stylu okna ponownego uruchamiania, z przyciskami Anuluj i Rozłącz.",
+    "Okno ostrzega o utracie połączenia z portalem, zachowaniu danych sieci i blokuje ponowne wysłanie polecenia podczas rozłączania."
   ],
   "firmware": {
-    "version": "2.0.0.30",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.30.bin",
+    "version": "2.0.0.31",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.31.bin",
     "size": 1954976,
-    "md5": "DBB7B3762F7B22D90500040775A4C4DF",
-    "sha256": "95547EEBF270DE777A9F6C67AD534E8A6FEC14E84586D0444C9EC0D5CE5095BC"
+    "md5": "FC57FDE64B19767AE8156C00B4758330",
+    "sha256": "1A1697FC4D0134230DEAFEE2E42FC468F6A212C4EF87E09CB83AC96881852AC6"
   },
   "littlefs": {
-    "version": "2.0.0.30",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.30.bin",
+    "version": "2.0.0.31",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.31.bin",
     "size": 7340032,
-    "md5": "E73D643676CB24C9268410D153B2AAB0",
-    "sha256": "8DE862119AB9FBFD5DA3BE293E154A6F31C9F12D26F58AA28F5591C29876ED21"
+    "md5": "DF46677F453AB63A1B966733FE1ECD6A",
+    "sha256": "7CB606FFDFEFE5C4CDA8BC3F7EE0E783C8B295CC93A00E287D78662E2212C617"
   },
   "filesystem": {
-    "version": "2.0.0.30",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.30.bin",
+    "version": "2.0.0.31",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.31.bin",
     "size": 7340032,
-    "md5": "E73D643676CB24C9268410D153B2AAB0",
-    "sha256": "8DE862119AB9FBFD5DA3BE293E154A6F31C9F12D26F58AA28F5591C29876ED21"
+    "md5": "DF46677F453AB63A1B966733FE1ECD6A",
+    "sha256": "7CB606FFDFEFE5C4CDA8BC3F7EE0E783C8B295CC93A00E287D78662E2212C617"
   },
   "dgu": {
-    "version": "2.0.0.30",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.30.dgu",
+    "version": "2.0.0.31",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.31.dgu",
     "size": 9295462,
-    "md5": "3629DDC51FAD93D47F43DF1EA0A97A2C",
-    "sha256": "B8C379B068065FC249385363BD4DED7C52D996E592C5E7495E5D586B107D4D8D"
+    "md5": "07051B2802A0E406C3398AA3E04DA2D1",
+    "sha256": "71195BAE1FA8F8A6FB2A56A80957BE733224809117E52DCDCFF605D48AC84DE5"
   },
-  "build_time": "2026-11-15T19:50:21+00:00",
+  "build_time": "2026-11-15T20:32:10+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

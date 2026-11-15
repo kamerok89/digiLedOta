@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.31",
+      "firmware_version": "2.0.0.31",
+      "filesystem_version": "2.0.0.31",
+      "date": "2026-11-15T20:32:10+00:00",
+      "title": "Potwierdzenie rozłączenia Wi-Fi",
+      "changes": [
+        "Dodano okno potwierdzenia rozłączenia Wi-Fi w stylu okna ponownego uruchamiania, z przyciskami Anuluj i Rozłącz.",
+        "Okno ostrzega o utracie połączenia z portalem, zachowaniu danych sieci i blokuje ponowne wysłanie polecenia podczas rozłączania."
+      ]
+    },
+    {
       "version": "2.0.0.30",
       "firmware_version": "2.0.0.30",
       "filesystem_version": "2.0.0.30",
