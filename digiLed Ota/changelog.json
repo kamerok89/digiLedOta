@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.43",
+      "firmware_version": "2.0.0.43",
+      "filesystem_version": "2.0.0.43",
+      "date": "2026-11-15T21:45:44+00:00",
+      "title": "Czytelne nazwy oprogramowania i interfejsu użytkownika",
+      "changes": [
+        "W mapie pamięci i potwierdzeniu aktualizacji zmieniono nazwy na Interfejs użytkownika oraz Oprogramowanie urządzenia.",
+        "Zaktualizowano opis sekcji Oprogramowanie: Oprogramowanie, Interfejs użytkownika, narzędzia serwisowe, pomoc, informacje."
+      ]
+    },
+    {
       "version": "2.0.0.42",
       "firmware_version": "2.0.0.42",
       "filesystem_version": "2.0.0.42",
