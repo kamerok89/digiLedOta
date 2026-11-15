@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.35",
+      "firmware_version": "2.0.0.35",
+      "filesystem_version": "2.0.0.35",
+      "date": "2026-11-15T20:51:18+00:00",
+      "title": "Widok instalacji z samym panelem aktualizacji",
+      "changes": [
+        "Podczas pobierania i instalacji aktualizacji menu, nagłówek i pozostałe sekcje płynnie znikają, pozostawiając tylko panel postępu.",
+        "Po błędzie aktualizacji wraca pełny interfejs. Animacja uwzględnia ustawienie ograniczenia ruchu w przeglądarce."
+      ]
+    },
+    {
       "version": "2.0.0.34",
       "firmware_version": "2.0.0.34",
       "filesystem_version": "2.0.0.34",
