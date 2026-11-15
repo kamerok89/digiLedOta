@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.33",
+      "firmware_version": "2.0.0.33",
+      "filesystem_version": "2.0.0.33",
+      "date": "2026-11-15T20:40:05+00:00",
+      "title": "Spójne kolory okien Wi-Fi w jasnym motywie",
+      "changes": [
+        "Okna Połącz i Rozłącz korzystają z tych samych kolorów jasnego motywu co okno ponownego uruchamiania: tła, nagłówka, tekstu, przycisków i przesłony."
+      ]
+    },
+    {
       "version": "2.0.0.32",
       "firmware_version": "2.0.0.32",
       "filesystem_version": "2.0.0.32",
