@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.39",
+      "firmware_version": "2.0.0.39",
+      "filesystem_version": "2.0.0.39",
+      "date": "2026-11-15T21:12:20+00:00",
+      "title": "Aktualizacja z zachowaniem konfiguracji na osobnej partycji",
+      "changes": [
+        "Usunięto wykonywanie kopii i proponowanie przywracania ustawień z procesu aktualizacji. Konfiguracja pozostaje na osobnej partycji config i jest odczytywana po restarcie.",
+        "Ręczny eksport i import ustawień pozostają dostępne jako osobne narzędzia."
+      ]
+    },
+    {
       "version": "2.0.0.38",
       "firmware_version": "2.0.0.38",
       "filesystem_version": "2.0.0.38",
