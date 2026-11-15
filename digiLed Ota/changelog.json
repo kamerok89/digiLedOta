@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.38",
+      "firmware_version": "2.0.0.38",
+      "filesystem_version": "2.0.0.38",
+      "date": "2026-11-15T21:05:28+00:00",
+      "title": "Lista zmian dostępna podczas aktualizacji",
+      "changes": [
+        "Podczas pobierania i instalacji można otwierać oraz zamykać listę zmian bez przerywania aktualizacji. Pozostałe elementy sterowania pozostają zablokowane.",
+        "Panel instalacji informuje o korzyściach regularnych aktualizacji."
+      ]
+    },
+    {
       "version": "2.0.0.37",
       "firmware_version": "2.0.0.37",
       "filesystem_version": "2.0.0.37",
