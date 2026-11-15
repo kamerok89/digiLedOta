@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.46",
+      "firmware_version": "2.0.0.46",
+      "filesystem_version": "2.0.0.46",
+      "date": "2026-11-15T22:27:10+00:00",
+      "title": "Nowe pomniejszone logo w informacjach o produkcie",
+      "changes": [
+        "Zastąpiono logo grafiką digiLedFull.png, pomniejszoną do 640 × 213 px i skompresowaną z 758 KB do 86 KB z zachowaniem przezroczystości.",
+        "Wspólna wersja jest opisana jako Oprogramowanie urządzenia oraz interfejs użytkownika."
+      ]
+    },
+    {
       "version": "2.0.0.45",
       "firmware_version": "2.0.0.45",
       "filesystem_version": "2.0.0.45",
