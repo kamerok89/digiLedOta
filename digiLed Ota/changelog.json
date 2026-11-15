@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.40",
+      "firmware_version": "2.0.0.40",
+      "filesystem_version": "2.0.0.40",
+      "date": "2026-11-15T21:24:38+00:00",
+      "title": "Opcjonalny pełny reset ustawień po aktualizacji",
+      "changes": [
+        "Dodano domyślnie wyłączony przełącznik Przywróć ustawienia fabryczne w potwierdzeniu aktualizacji, ze stylem dopasowanym do jasnego i ciemnego motywu.",
+        "Po pomyślnej weryfikacji aktualizacji zaznaczony reset czyści całą partycję config i wszystkie przestrzenie NVS, w tym dane Wi-Fi i logowania. Bez zaznaczenia ustawienia są zachowywane.",
+        "Uzupełniono zwykły reset fabryczny o pełne czyszczenie konfiguracji i NVS."
+      ]
+    },
+    {
       "version": "2.0.0.39",
       "firmware_version": "2.0.0.39",
       "filesystem_version": "2.0.0.39",
