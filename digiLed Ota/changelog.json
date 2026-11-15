@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.42",
+      "firmware_version": "2.0.0.42",
+      "filesystem_version": "2.0.0.42",
+      "date": "2026-11-15T21:32:14+00:00",
+      "title": "Czytelny przycisk zamknięcia potwierdzenia aktualizacji",
+      "changes": [
+        "Zwiększono kontrast krzyżyka w oknie potwierdzenia aktualizacji. Dodano podświetlenie po najechaniu i wyraźne zaznaczenie klawiaturą w jasnym i ciemnym motywie."
+      ]
+    },
+    {
       "version": "2.0.0.41",
       "firmware_version": "2.0.0.41",
       "filesystem_version": "2.0.0.41",
