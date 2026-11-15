@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.30",
+      "firmware_version": "2.0.0.30",
+      "filesystem_version": "2.0.0.30",
+      "date": "2026-11-15T19:50:21+00:00",
+      "title": "Wybór scen uruchamianych po restarcie",
+      "changes": [
+        "Opcja Uruchom po restarcie uruchamia zaznaczone sceny wyłącznie w trybie Uruchom włączony. Brak zaznaczonych scen pozostawia LED wyłączone.",
+        "Usunięto wpływ tej opcji na ręczne uruchamianie, wczytywanie kopii konfiguracji i awaryjne odtwarzanie poprzedniego stanu."
+      ]
+    },
+    {
       "version": "2.0.0.29",
       "firmware_version": "2.0.0.29",
       "filesystem_version": "2.0.0.29",
