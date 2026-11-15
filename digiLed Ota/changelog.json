@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.49",
+      "firmware_version": "2.0.0.49",
+      "filesystem_version": "2.0.0.49",
+      "date": "2026-11-15T22:44:44+00:00",
+      "title": "Logo produktu jak na ekranie logowania",
+      "changes": [
+        "Informacje o produkcie pokazują pełny znak z pierścieniami, smugami i napisem digiLed, identyczny jak na ekranie logowania, z czytelnym napisem w jasnym motywie.",
+        "Przycisk zamknięcia informacji o produkcie korzysta z tego samego stylu, podświetlenia po najechaniu i zaznaczenia klawiaturą co potwierdzenie aktualizacji."
+      ]
+    },
+    {
       "version": "2.0.0.48",
       "firmware_version": "2.0.0.48",
       "filesystem_version": "2.0.0.48",
