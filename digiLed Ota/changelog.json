@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.36",
+      "firmware_version": "2.0.0.36",
+      "filesystem_version": "2.0.0.36",
+      "date": "2026-11-15T21:02:02+00:00",
+      "title": "Stała szerokość panelu i czytelny postęp aktualizacji",
+      "changes": [
+        "Panel aktualizacji zachowuje szerokość sprzed ukrycia interfejsu i pozostaje wyśrodkowany.",
+        "Powiększono licznik procentowy i zwiększono jego kontrast w jasnym oraz ciemnym motywie."
+      ]
+    },
+    {
       "version": "2.0.0.35",
       "firmware_version": "2.0.0.35",
       "filesystem_version": "2.0.0.35",
