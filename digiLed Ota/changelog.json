@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.44",
+      "firmware_version": "2.0.0.44",
+      "filesystem_version": "2.0.0.44",
+      "date": "2026-11-15T22:02:14+00:00",
+      "title": "Ostrzeżenie przy obniżaniu wersji oprogramowania",
+      "changes": [
+        "Przy wyborze starszej wersji potwierdzenie aktualizacji pokazuje ostrzeżenie o obniżeniu wersji, podpis Starsza wersja, żółty numer i ikonę U+E7A7.",
+        "Zmieniono etykiety szczegółów pliku na Nazwa pliku, Rozmiar pliku i Opis urządzenia."
+      ]
+    },
+    {
       "version": "2.0.0.43",
       "firmware_version": "2.0.0.43",
       "filesystem_version": "2.0.0.43",
