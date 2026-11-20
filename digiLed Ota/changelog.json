@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.52",
+      "firmware_version": "2.0.0.52",
+      "filesystem_version": "2.0.0.52",
+      "date": "2026-11-20T22:44:00+00:00",
+      "title": "Płynniejsze przejścia przy niskiej jasności",
+      "changes": [
+        "Rozjaśnianie i wygaszanie całości oblicza gamma 2,2 bez pośredniego zaokrąglania maski, z zaokrągleniem dopiero końcowych kanałów RGB.",
+        "Usunięto wymuszony niezerowy poziom przy skalowaniu przejścia, ograniczając skok przy zapalaniu i gaszeniu LED. Zachowano dotychczasową jasność docelową i czas animacji."
+      ]
+    },
+    {
       "version": "2.0.0.51",
       "firmware_version": "2.0.0.51",
       "filesystem_version": "2.0.0.51",
