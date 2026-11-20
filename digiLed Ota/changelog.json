@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.51",
+      "firmware_version": "2.0.0.51",
+      "filesystem_version": "2.0.0.51",
+      "date": "2026-11-20T22:15:52+00:00",
+      "title": "Korekcja gamma rozjaśniania i wygaszania",
+      "changes": [
+        "Zastosowano gamma 2,2 dla rozjaśniania i wygaszania całości, aby wyrównać odczuwalne tempo zmian jasności bez zmiany czasu przejścia."
+      ]
+    },
+    {
       "version": "2.0.0.50",
       "firmware_version": "2.0.0.50",
       "filesystem_version": "2.0.0.50",
