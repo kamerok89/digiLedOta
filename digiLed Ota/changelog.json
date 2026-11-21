@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.66",
+      "firmware_version": "2.0.0.66",
+      "filesystem_version": "2.0.0.66",
+      "date": "2026-11-21T15:17:11+00:00",
+      "title": "Kompaktowy widok scen",
+      "changes": [
+        "Dodano widoki normalny, kompaktowy i ukryty dla panelu scen, z osobnym zapamiętywaniem wyboru i ikoną następnego działania."
+      ]
+    },
+    {
       "version": "2.0.0.65",
       "firmware_version": "2.0.0.65",
       "filesystem_version": "2.0.0.65",
