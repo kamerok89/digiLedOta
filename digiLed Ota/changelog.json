@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.61",
+      "firmware_version": "2.0.0.61",
+      "filesystem_version": "2.0.0.61",
+      "date": "2026-11-21T12:22:44+00:00",
+      "title": "Ustawienia taśmy nad kolorem i światłem",
+      "changes": [
+        "Sekcję Taśma i sprzęt przeniesiono nad kolumny Kolor i światło oraz Tempo i przejścia, zachowując zwijanie i zapis ustawień."
+      ]
+    },
+    {
       "version": "2.0.0.60",
       "firmware_version": "2.0.0.60",
       "filesystem_version": "2.0.0.60",
