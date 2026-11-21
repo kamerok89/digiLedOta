@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.56",
+      "firmware_version": "2.0.0.56",
+      "filesystem_version": "2.0.0.56",
+      "date": "2026-11-21T10:35:02+00:00",
+      "title": "Tryby przejścia koloru w scenach i schematach",
+      "changes": [
+        "Dodano wybór przejścia koloru: paleta HUE, natychmiastowa transformacja, zanikanie i pojawianie oraz płynne przenikanie RGB.",
+        "Tryb przejścia można zapisać globalnie oraz osobno w każdym kroku koloru schematu. Dotychczasowa paleta HUE pozostaje domyślna."
+      ]
+    },
+    {
       "version": "2.0.0.55",
       "firmware_version": "2.0.0.55",
       "filesystem_version": "2.0.0.55",
