@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.58",
+      "firmware_version": "2.0.0.58",
+      "filesystem_version": "2.0.0.58",
+      "date": "2026-11-21T11:46:30+00:00",
+      "title": "Otwarty układ konfiguracji scen",
+      "changes": [
+        "Przebudowano parametry globalne: kolor i światło po lewej, tempo i przejścia po prawej, sprzęt w osobnej zwijanej sekcji.",
+        "Wprowadzono neutralne tło, mniej ramek, czytelny przycisk zapisu oraz układ jednokolumnowy na telefonach. Sekcja sprzętu zapamiętuje rozwinięcie."
+      ]
+    },
+    {
       "version": "2.0.0.57",
       "firmware_version": "2.0.0.57",
       "filesystem_version": "2.0.0.57",
