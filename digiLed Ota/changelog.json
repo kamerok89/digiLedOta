@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.73",
+      "firmware_version": "2.0.0.73",
+      "filesystem_version": "2.0.0.73",
+      "date": "2026-11-21T20:19:40+00:00",
+      "title": "Rozwijany wybór scen pod przyciskiem efektu",
+      "changes": [
+        "Zmieniono ikonę wyboru scen na strzałkę w dół. Panel otwiera się bezpośrednio pod przyciskiem, uwzględnia skalę interfejsu i przewija zawartość przy ograniczonej wysokości."
+      ]
+    },
+    {
       "version": "2.0.0.72",
       "firmware_version": "2.0.0.72",
       "filesystem_version": "2.0.0.72",
