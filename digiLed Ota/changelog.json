@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.70",
+      "firmware_version": "2.0.0.70",
+      "filesystem_version": "2.0.0.70",
+      "date": "2026-11-21T19:39:17+00:00",
+      "title": "Spójne obramowanie przełącznika parametrów",
+      "changes": [
+        "Przycisk widoku parametrów otrzymał to samo obramowanie, tło i stany interakcji co przełącznik widoku scen."
+      ]
+    },
+    {
       "version": "2.0.0.69",
       "firmware_version": "2.0.0.69",
       "filesystem_version": "2.0.0.69",
