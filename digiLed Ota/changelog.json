@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.53",
+      "firmware_version": "2.0.0.53",
+      "filesystem_version": "2.0.0.53",
+      "date": "2026-11-21T09:28:42+00:00",
+      "title": "Wspólny suwak koloru i temperatury bieli",
+      "changes": [
+        "Górny suwak rozszerzono o zakres bieli 2200–6500 K zsynchronizowany z dokładną regulacją temperatury.",
+        "Wybór bieli zeruje nasycenie w panelu, a powrót do kolorów przywraca poprzednie nasycenie."
+      ]
+    },
+    {
       "version": "2.0.0.52",
       "firmware_version": "2.0.0.52",
       "filesystem_version": "2.0.0.52",
