@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.64",
+      "firmware_version": "2.0.0.64",
+      "filesystem_version": "2.0.0.64",
+      "date": "2026-11-21T14:30:40+00:00",
+      "title": "Poprawki kompaktowego widoku schematów",
+      "changes": [
+        "Zmieniono ikonę widoku normalnego na E944, pozostawiając E7B3 dla kompaktowego i ED1A dla ukrytego.",
+        "W widoku kompaktowym ukryto nagłówek Schematy i zatrzymanie awaryjne oraz poszerzono przyciski dodawania i uruchamiania schematów."
+      ]
+    },
+    {
       "version": "2.0.0.63",
       "firmware_version": "2.0.0.63",
       "filesystem_version": "2.0.0.63",
