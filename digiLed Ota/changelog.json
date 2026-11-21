@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.74",
+      "firmware_version": "2.0.0.74",
+      "filesystem_version": "2.0.0.74",
+      "date": "2026-11-21T20:32:13+00:00",
+      "title": "Niższe kompaktowe kafelki efektów",
+      "changes": [
+        "W kompaktowych efektach przeniesiono podgląd i włączanie do górnego wiersza obok licznika scen, wyśrodkowano ikonę uruchamiania i usunięto dolny wiersz przycisków."
+      ]
+    },
+    {
       "version": "2.0.0.73",
       "firmware_version": "2.0.0.73",
       "filesystem_version": "2.0.0.73",

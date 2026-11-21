@@ -1,43 +1,43 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "2.0.0.73",
+  "version": "2.0.0.74",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_4m_config_16mb",
-  "firmware_version": "2.0.0.73",
-  "filesystem_version": "2.0.0.73",
-  "notes": "Rozwijany wybór scen pod przyciskiem efektu",
+  "firmware_version": "2.0.0.74",
+  "filesystem_version": "2.0.0.74",
+  "notes": "Niższe kompaktowe kafelki efektów",
   "changes": [
-    "Zmieniono ikonę wyboru scen na strzałkę w dół. Panel otwiera się bezpośrednio pod przyciskiem, uwzględnia skalę interfejsu i przewija zawartość przy ograniczonej wysokości."
+    "W kompaktowych efektach przeniesiono podgląd i włączanie do górnego wiersza obok licznika scen, wyśrodkowano ikonę uruchamiania i usunięto dolny wiersz przycisków."
   ],
   "firmware": {
-    "version": "2.0.0.73",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.73.bin",
+    "version": "2.0.0.74",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.74.bin",
     "size": 1959520,
-    "md5": "D3F0F50426AAB400A7A4DE90285F301B",
-    "sha256": "E8381CFA96AD886BD162F7C8458F32C8988409B1DB7490A939C0DC3B74D1C111"
+    "md5": "E90B26A6B5202C59F879B02C80382967",
+    "sha256": "90E660DB3885A1B84F9360F76D795A77ABE63B15466D611EC27B7513985D4A20"
   },
   "littlefs": {
-    "version": "2.0.0.73",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.73.bin",
+    "version": "2.0.0.74",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.74.bin",
     "size": 7340032,
-    "md5": "5481F0DD7257AAD7B1E8343EC769E37C",
-    "sha256": "6389B4A71659747BCB9E354952F703DF52562CA2D66C9622A70C36F1F10C5F1F"
+    "md5": "4A64D98F07D908C8FB73E018B9EE5618",
+    "sha256": "5B0CEDC40A1BBC5DB934DFD48089CB107FDDFD751CC0AE59BC9859E21CE6C1B2"
   },
   "filesystem": {
-    "version": "2.0.0.73",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.73.bin",
+    "version": "2.0.0.74",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.74.bin",
     "size": 7340032,
-    "md5": "5481F0DD7257AAD7B1E8343EC769E37C",
-    "sha256": "6389B4A71659747BCB9E354952F703DF52562CA2D66C9622A70C36F1F10C5F1F"
+    "md5": "4A64D98F07D908C8FB73E018B9EE5618",
+    "sha256": "5B0CEDC40A1BBC5DB934DFD48089CB107FDDFD751CC0AE59BC9859E21CE6C1B2"
   },
   "dgu": {
-    "version": "2.0.0.73",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.73.dgu",
+    "version": "2.0.0.74",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.74.dgu",
     "size": 9300006,
-    "md5": "4B774379F098EFCACEC6521159D16672",
-    "sha256": "C58257CC3DC050D98814EE561FD1790BBD2CBBF79FCA575352BE0FD6CB6FC3C4"
+    "md5": "DA4AD13B4B37FDE7567FC8DAD734B842",
+    "sha256": "F08B8E1DCFFE938B5A43F23837414B5B45018AD94B798B9AED99E60692A0DF41"
   },
-  "build_time": "2026-11-21T20:19:40+00:00",
+  "build_time": "2026-11-21T20:32:13+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
