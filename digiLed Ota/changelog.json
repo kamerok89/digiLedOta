@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.69",
+      "firmware_version": "2.0.0.69",
+      "filesystem_version": "2.0.0.69",
+      "date": "2026-11-21T19:31:03+00:00",
+      "title": "Trzy widoki panelu parametrów",
+      "changes": [
+        "Dodano standardowy, kompaktowy i ukryty widok parametrów z osobnym zapamiętywaniem wyboru i przełącznikiem zgodnym z panelami scen i schematów."
+      ]
+    },
+    {
       "version": "2.0.0.68",
       "firmware_version": "2.0.0.68",
       "filesystem_version": "2.0.0.68",
