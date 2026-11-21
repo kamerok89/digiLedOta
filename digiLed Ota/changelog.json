@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.71",
+      "firmware_version": "2.0.0.71",
+      "filesystem_version": "2.0.0.71",
+      "date": "2026-11-21T19:44:17+00:00",
+      "title": "Jednakowy rozmiar przełączników widoku",
+      "changes": [
+        "Przełączniki widoku scen, schematów i parametrów mają stały rozmiar 36 × 32 px oraz jednakowe zaokrąglenie we wszystkich trybach."
+      ]
+    },
+    {
       "version": "2.0.0.70",
       "firmware_version": "2.0.0.70",
       "filesystem_version": "2.0.0.70",
