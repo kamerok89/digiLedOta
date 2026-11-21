@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.60",
+      "firmware_version": "2.0.0.60",
+      "filesystem_version": "2.0.0.60",
+      "date": "2026-11-21T12:14:15+00:00",
+      "title": "Zwarty i wyrównany układ konfiguracji scen",
+      "changes": [
+        "Zmniejszono odstępy i wyrównano rzędy suwaków oraz list wyboru między kolumnami koloru i prędkości.",
+        "Zgrupowano opóźnienia i czas przejścia w jednym rzędzie oraz uporządkowano pola sprzętowe i panel limitu mocy."
+      ]
+    },
+    {
       "version": "2.0.0.59",
       "firmware_version": "2.0.0.59",
       "filesystem_version": "2.0.0.59",
