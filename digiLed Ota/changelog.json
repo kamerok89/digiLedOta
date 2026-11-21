@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.72",
+      "firmware_version": "2.0.0.72",
+      "filesystem_version": "2.0.0.72",
+      "date": "2026-11-21T20:08:43+00:00",
+      "title": "Nowe widoki efektów i podręczny wybór scen",
+      "changes": [
+        "Dodano standardowy, kompaktowy i ukryty widok efektów z zapamiętywaniem wyboru.",
+        "Przycisk wyboru scen z ikoną listy znajduje się obok numerów scen; ustawienia otwierają się przy przycisku i dopasowują do krawędzi ekranu."
+      ]
+    },
+    {
       "version": "2.0.0.71",
       "firmware_version": "2.0.0.71",
       "filesystem_version": "2.0.0.71",
