@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.65",
+      "firmware_version": "2.0.0.65",
+      "filesystem_version": "2.0.0.65",
+      "date": "2026-11-21T14:47:53+00:00",
+      "title": "Czytelne ikony przełączania widoku schematów",
+      "changes": [
+        "Ikona przełącznika pokazuje kolejne działanie: lista oznacza zagęszczenie widoku, przekreślone oko ukrycie, a otwarte oko przywrócenie pełnego panelu."
+      ]
+    },
+    {
       "version": "2.0.0.64",
       "firmware_version": "2.0.0.64",
       "filesystem_version": "2.0.0.64",
