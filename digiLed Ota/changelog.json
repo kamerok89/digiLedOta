@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.59",
+      "firmware_version": "2.0.0.59",
+      "filesystem_version": "2.0.0.59",
+      "date": "2026-11-21T11:58:20+00:00",
+      "title": "Spójny wygląd konfiguracji scen",
+      "changes": [
+        "Przywrócono wspólne tło, obramowanie i narożniki kafelka konfiguracji scen w jasnym i ciemnym motywie.",
+        "Przywrócono obwódki suwaków, etykiety wartości i kolory prędkości, zachowując nowy układ dwóch kolumn i zwijaną sekcję sprzętu."
+      ]
+    },
+    {
       "version": "2.0.0.58",
       "firmware_version": "2.0.0.58",
       "filesystem_version": "2.0.0.58",
