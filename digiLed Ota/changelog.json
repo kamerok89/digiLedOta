@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.77",
+      "firmware_version": "2.0.0.77",
+      "filesystem_version": "2.0.0.77",
+      "date": "2026-11-21T22:04:31+00:00",
+      "title": "Nazwa efektu przy stanie sceny",
+      "changes": [
+        "Aktywne sceny pokazują nazwę bieżącego efektu obok stanu i kierunku. Tryby demonstracyjne pokazują faktycznie wybrany efekt."
+      ]
+    },
+    {
       "version": "2.0.0.76",
       "firmware_version": "2.0.0.76",
       "filesystem_version": "2.0.0.76",
