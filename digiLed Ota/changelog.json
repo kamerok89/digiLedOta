@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.55",
+      "firmware_version": "2.0.0.55",
+      "filesystem_version": "2.0.0.55",
+      "date": "2026-11-21T09:52:10+00:00",
+      "title": "Biel w ustawieniach scen i schematach",
+      "changes": [
+        "Rozszerzono suwaki koloru globalnego i lokalnego scen o biel 2200–6500 K z dokładną regulacją temperatury i przywracaniem nasycenia.",
+        "Dodano wybór i zapis temperatury bieli w krokach koloru schematów, z obsługą przejść i przełączania trybu Mix."
+      ]
+    },
+    {
       "version": "2.0.0.54",
       "firmware_version": "2.0.0.54",
       "filesystem_version": "2.0.0.54",

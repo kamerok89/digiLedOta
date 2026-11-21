@@ -1,43 +1,44 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "2.0.0.54",
+  "version": "2.0.0.55",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_4m_config_16mb",
-  "firmware_version": "2.0.0.54",
-  "filesystem_version": "2.0.0.54",
-  "notes": "Spójny wygląd suwaka temperatury bieli",
+  "firmware_version": "2.0.0.55",
+  "filesystem_version": "2.0.0.55",
+  "notes": "Biel w ustawieniach scen i schematach",
   "changes": [
-    "Suwak temperatury bieli ma teraz tę samą wysokość, obudowę i wielkość uchwytu co pozostałe suwaki, w jasnym i ciemnym motywie."
+    "Rozszerzono suwaki koloru globalnego i lokalnego scen o biel 2200–6500 K z dokładną regulacją temperatury i przywracaniem nasycenia.",
+    "Dodano wybór i zapis temperatury bieli w krokach koloru schematów, z obsługą przejść i przełączania trybu Mix."
   ],
   "firmware": {
-    "version": "2.0.0.54",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.54.bin",
-    "size": 1955200,
-    "md5": "4AD284E3488080A638667E6AF66A7BE0",
-    "sha256": "5ACBF23D2DD9E77E52240F120FEB6A923AEF4FA127505CF3087B263A5625B58C"
+    "version": "2.0.0.55",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.55.bin",
+    "size": 1955632,
+    "md5": "F65C79A8113EB57FE199F86EC50132A3",
+    "sha256": "D4A60B6C82B87FAA10003903E54F500174FA95032BE22CABFB16A719E3AA730F"
   },
   "littlefs": {
-    "version": "2.0.0.54",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.54.bin",
+    "version": "2.0.0.55",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.55.bin",
     "size": 7340032,
-    "md5": "2D09B1AB289A7E062954F6DF85186A11",
-    "sha256": "14EBD66B3595E71986E1408752784BB9F17D775A5E852B95EA0C4C0C22F6CBC5"
+    "md5": "320E204F1620C589F5705D800EC5EAC4",
+    "sha256": "7405B4A9A0EFA7FFBAEB4DF7B0062F99AACC8A183EEA50D7ED5171549F3EFBD8"
   },
   "filesystem": {
-    "version": "2.0.0.54",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.54.bin",
+    "version": "2.0.0.55",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.55.bin",
     "size": 7340032,
-    "md5": "2D09B1AB289A7E062954F6DF85186A11",
-    "sha256": "14EBD66B3595E71986E1408752784BB9F17D775A5E852B95EA0C4C0C22F6CBC5"
+    "md5": "320E204F1620C589F5705D800EC5EAC4",
+    "sha256": "7405B4A9A0EFA7FFBAEB4DF7B0062F99AACC8A183EEA50D7ED5171549F3EFBD8"
   },
   "dgu": {
-    "version": "2.0.0.54",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.54.dgu",
-    "size": 9295686,
-    "md5": "20E4A60B4925D4AB49A56CCEE43FCC11",
-    "sha256": "D78351B7960147AAA9E29E5D4B7C71EFA00A25B4CD9B09A95318C3131B6D6949"
+    "version": "2.0.0.55",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.55.dgu",
+    "size": 9296118,
+    "md5": "3353B51A4B45C10339767D38E3FF07D1",
+    "sha256": "8470BBD828334750504BF78B73C431BC30CB68F16A590088664506E30B92E757"
   },
-  "build_time": "2026-11-21T09:38:50+00:00",
+  "build_time": "2026-11-21T09:52:10+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
