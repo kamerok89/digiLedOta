@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.57",
+      "firmware_version": "2.0.0.57",
+      "filesystem_version": "2.0.0.57",
+      "date": "2026-11-21T10:52:20+00:00",
+      "title": "Poprawne warstwy list wyboru nad linią LED",
+      "changes": [
+        "Naprawiono zasłanianie rozwiniętych list parametrów globalnych przez linię LED rozwiniętej sceny."
+      ]
+    },
+    {
       "version": "2.0.0.56",
       "firmware_version": "2.0.0.56",
       "filesystem_version": "2.0.0.56",
