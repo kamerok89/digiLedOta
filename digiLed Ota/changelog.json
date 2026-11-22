@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.94",
+      "firmware_version": "2.0.0.94",
+      "filesystem_version": "2.0.0.94",
+      "date": "2026-11-22T13:12:26+00:00",
+      "title": "Karty hostname i połączeń portalu",
+      "changes": [
+        "Przebudowano Hostname i Połączenia portalu na dwie karty w stylu kafelków AP i STA, umieszczone obok siebie pod podglądem sieci.",
+        "Zachowano przełącznik hostname, otwieranie i edycję nazwy lokalnej oraz zmianę i zapis limitu kart przeglądarki. Na telefonie karty układają się pionowo."
+      ]
+    },
+    {
       "version": "2.0.0.93",
       "firmware_version": "2.0.0.93",
       "filesystem_version": "2.0.0.93",
