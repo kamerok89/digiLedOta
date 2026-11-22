@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.102",
+      "firmware_version": "2.0.0.102",
+      "filesystem_version": "2.0.0.102",
+      "date": "2026-11-22T16:41:11+00:00",
+      "title": "Animacja ikony menu",
+      "changes": [
+        "Dodano płynne zwężenie i powrót ikony menu podczas przełączania paska bocznego, z uwzględnieniem ograniczenia animacji."
+      ]
+    },
+    {
       "version": "2.0.0.101",
       "firmware_version": "2.0.0.101",
       "filesystem_version": "2.0.0.101",
