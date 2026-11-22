@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.81",
+      "firmware_version": "2.0.0.81",
+      "filesystem_version": "2.0.0.81",
+      "date": "2026-11-22T08:10:49+00:00",
+      "title": "Potwierdzenie ochrony portalu z danymi logowania",
+      "changes": [
+        "Przed włączeniem ochrony pojawia się modal z loginem, podglądem hasła i potwierdzeniem zapisania danych.",
+        "Przy własnym haśle, którego nie można odczytać ze skrótu, można ustawić nowe przed włączeniem ochrony. Po włączeniu nadal wymagane jest aktualne hasło do jego zmiany."
+      ]
+    },
+    {
       "version": "2.0.0.80",
       "firmware_version": "2.0.0.80",
       "filesystem_version": "2.0.0.80",
