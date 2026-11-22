@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.93",
+      "firmware_version": "2.0.0.93",
+      "filesystem_version": "2.0.0.93",
+      "date": "2026-11-22T13:05:17+00:00",
+      "title": "Ostatnie sieci Wi-Fi w informacjach STA",
+      "changes": [
+        "Na dole modala informacji STA dodano ostatnio używane sieci z możliwością połączenia przy użyciu zapisanego hasła i usunięcia sieci z pamięci po potwierdzeniu.",
+        "Lista wyróżnia aktywną sieć, obsługuje pustą pamięć i błędy odczytu oraz dopasowuje układ do telefonu."
+      ]
+    },
+    {
       "version": "2.0.0.92",
       "firmware_version": "2.0.0.92",
       "filesystem_version": "2.0.0.92",
