@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.106",
+      "firmware_version": "2.0.0.106",
+      "filesystem_version": "2.0.0.106",
+      "date": "2026-11-22T18:39:12+00:00",
+      "title": "Proces aktualizacji zgodny z digiLed Gate",
+      "changes": [
+        "Ujednolicono widok instalacji z digiLed Gate: przygotowanie, firmware, portal i weryfikacja, z aktywnymi oraz zakończonymi etapami.",
+        "Dodano wspólny niebiesko-żółty pasek postępu, nazwy aktualizowanych obrazów, liczniki danych i etapy 1 z 2 oraz 2 z 2.",
+        "Postęp pakietu DGU uwzględnia osobno firmware i LittleFS. Zachowano blokadę sesji, weryfikację urządzenia i obsługę błędów."
+      ]
+    },
+    {
       "version": "2.0.0.105",
       "firmware_version": "2.0.0.105",
       "filesystem_version": "2.0.0.105",
