@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.108",
+      "firmware_version": "2.0.0.108",
+      "filesystem_version": "2.0.0.108",
+      "date": "2026-11-22T18:57:10+00:00",
+      "title": "Kontrastowy separator etapów aktualizacji",
+      "changes": [
+        "Dodano separator między segmentami postępu firmware i portalu: czarny w jasnym motywie oraz jasny w ciemnym."
+      ]
+    },
+    {
       "version": "2.0.0.107",
       "firmware_version": "2.0.0.107",
       "filesystem_version": "2.0.0.107",
