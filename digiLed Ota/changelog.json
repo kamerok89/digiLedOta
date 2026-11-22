@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.88",
+      "firmware_version": "2.0.0.88",
+      "filesystem_version": "2.0.0.88",
+      "date": "2026-11-22T11:30:59+00:00",
+      "title": "Pełniejsze ustawienia STA w stylu digiLed Gate",
+      "changes": [
+        "Modal STA pokazuje zapisane hasło z możliwością odsłonięcia, oznaczenie stanu oraz układ i kolory bliższe digiLed Gate.",
+        "Włączenie STA jest zapamiętywane po restarcie. Istotne zmiany wymagają potwierdzenia, a zapomnienie sieci usuwa również zapisaną konfigurację IP.",
+        "Zapisane hasło jest odczytywane wyłącznie przez autoryzowany endpoint bez buforowania; nie trafia do publicznego statusu ani danych odzyskiwania połączenia."
+      ]
+    },
+    {
       "version": "2.0.0.87",
       "firmware_version": "2.0.0.87",
       "filesystem_version": "2.0.0.87",

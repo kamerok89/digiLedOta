@@ -1,45 +1,45 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "2.0.0.87",
+  "version": "2.0.0.88",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_4m_config_16mb",
-  "firmware_version": "2.0.0.87",
-  "filesystem_version": "2.0.0.87",
-  "notes": "Nowe kafelki AP i Wi-Fi w stylu digiLed Gate",
+  "firmware_version": "2.0.0.88",
+  "filesystem_version": "2.0.0.88",
+  "notes": "Pełniejsze ustawienia STA w stylu digiLed Gate",
   "changes": [
-    "Dodano dwa kafelki AP i połączenia STA w zakładce Status, nad dotychczasowym panelem aktywnego punktu dostępowego.",
-    "Ustawienia AP i STA otwierają się w modalach. Dodano wyszukiwanie sieci z formularzem połączenia, DHCP i stałym IP, podgląd wpisanego hasła oraz akcje rozłączenia i zapomnienia sieci.",
-    "Dotychczasowe panele Wi-Fi pozostają dostępne. Wyłączenie STA rozłącza do ponownego uruchomienia urządzenia, a puste hasło w ustawieniach STA zachowuje zapisane hasło."
+    "Modal STA pokazuje zapisane hasło z możliwością odsłonięcia, oznaczenie stanu oraz układ i kolory bliższe digiLed Gate.",
+    "Włączenie STA jest zapamiętywane po restarcie. Istotne zmiany wymagają potwierdzenia, a zapomnienie sieci usuwa również zapisaną konfigurację IP.",
+    "Zapisane hasło jest odczytywane wyłącznie przez autoryzowany endpoint bez buforowania; nie trafia do publicznego statusu ani danych odzyskiwania połączenia."
   ],
   "firmware": {
-    "version": "2.0.0.87",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.87.bin",
-    "size": 1960480,
-    "md5": "46B467D057E57919C3B58914CCEF610F",
-    "sha256": "4DBF0903236087B107A142F8BFCBFD8F03740CBD5172508C8045915426F4581C"
+    "version": "2.0.0.88",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.88.bin",
+    "size": 1961696,
+    "md5": "74AC5EB6B08FC47C4E2A2B1DF0BABB36",
+    "sha256": "FE6C434190303A96C09A755251EFFD0AC5DC901FCD140CD469D6061F42E38394"
   },
   "littlefs": {
-    "version": "2.0.0.87",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.87.bin",
+    "version": "2.0.0.88",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.88.bin",
     "size": 7340032,
-    "md5": "345851EEE6E1D313461E1702CDAD0EA8",
-    "sha256": "38FC237C3F3BAAAB22AD7235F2C8351DF0959417DEFA687B2AC38CBE9A345CBC"
+    "md5": "FE1C4B2D0ABC99B8A75551981957D145",
+    "sha256": "889E886F1257AA029304A6F21D82A56AC67ABF27F3979960BDC1B06DECB16C80"
   },
   "filesystem": {
-    "version": "2.0.0.87",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.87.bin",
+    "version": "2.0.0.88",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.88.bin",
     "size": 7340032,
-    "md5": "345851EEE6E1D313461E1702CDAD0EA8",
-    "sha256": "38FC237C3F3BAAAB22AD7235F2C8351DF0959417DEFA687B2AC38CBE9A345CBC"
+    "md5": "FE1C4B2D0ABC99B8A75551981957D145",
+    "sha256": "889E886F1257AA029304A6F21D82A56AC67ABF27F3979960BDC1B06DECB16C80"
   },
   "dgu": {
-    "version": "2.0.0.87",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.87.dgu",
-    "size": 9300966,
-    "md5": "7BFE01201A5733ECF7CB9D627928FC50",
-    "sha256": "B60AEEFF789C58E67A19A2EA7216338E11E3EB7C988EBEF9338AB93EE1C16079"
+    "version": "2.0.0.88",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.88.dgu",
+    "size": 9302182,
+    "md5": "55C39E702A8CA3732B239CECA18422CE",
+    "sha256": "4D23F09DB35313B645BEA618B90EE65684B3953B11E7C1B524EB202D6DE3D098"
   },
-  "build_time": "2026-11-22T11:06:07+00:00",
+  "build_time": "2026-11-22T11:30:59+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }
