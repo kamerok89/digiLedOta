@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.107",
+      "firmware_version": "2.0.0.107",
+      "filesystem_version": "2.0.0.107",
+      "date": "2026-11-22T18:48:23+00:00",
+      "title": "Procent aktualizacji zgodny z digiLed Gate",
+      "changes": [
+        "Usunięto starszy styl nadpisujący procent łącznego postępu aktualizacji: ramkę, niebieskie tło i powiększony tekst.",
+        "Procent ma teraz taki sam rozmiar, kolor i wyrównanie jak w digiLed Gate. Sprawdzono pełny kontener panelu aktualizacji."
+      ]
+    },
+    {
       "version": "2.0.0.106",
       "firmware_version": "2.0.0.106",
       "filesystem_version": "2.0.0.106",
