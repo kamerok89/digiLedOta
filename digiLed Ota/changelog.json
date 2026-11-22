@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.82",
+      "firmware_version": "2.0.0.82",
+      "filesystem_version": "2.0.0.82",
+      "date": "2026-11-22T08:17:33+00:00",
+      "title": "Mniejsza ramka przycisku pomocy Sound Reactive",
+      "changes": [
+        "Zmniejszono przycisk pytajnika do 28 × 28 px, aby mieścił się z odstępem wewnątrz obramowania sekcji Sound Reactive."
+      ]
+    },
+    {
       "version": "2.0.0.81",
       "firmware_version": "2.0.0.81",
       "filesystem_version": "2.0.0.81",
