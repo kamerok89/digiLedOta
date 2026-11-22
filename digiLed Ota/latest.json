@@ -1,45 +1,44 @@
 {
   "product": "digiled-xiao-esp32s3",
   "channel": "stable",
-  "version": "2.0.0.96",
+  "version": "2.0.0.97",
   "hardware": "SEEED_XIAO_ESP32S3_16MB",
   "partition_scheme": "ota_4m_config_16mb",
-  "firmware_version": "2.0.0.96",
-  "filesystem_version": "2.0.0.96",
-  "notes": "Synchronizacja czasu w konfiguracji i usługach",
+  "firmware_version": "2.0.0.97",
+  "filesystem_version": "2.0.0.97",
+  "notes": "Nowe karty Wi-Fi zamiast zakładek",
   "changes": [
-    "Dodano pozycję NTP — Synchronizacja czasu w Usługach i odświeżaniu.",
-    "Przeniesiono ustawienia czasu z zakładki Wi-Fi do nowego kafelka Synchronizacja czasu bezpośrednio pod Konfiguracją scen. Zachowano presety stref, POSIX, serwery NTP, zapis i reset.",
-    "Dopracowano jasny i ciemny motyw oraz ukrywanie ustawień po wyłączeniu usługi NTP."
+    "Usunięto dawny pasek zakładek Status, Wi-Fi, AP i NTP. Widok Wi-Fi pokazuje bezpośrednio karty AP, STA, Hostname i Połączenia portalu.",
+    "Usunięto stare formularze AP, dawną listę skanowania i jej automatyczne odświeżanie. Ustawienia, wyszukiwanie i informacje są dostępne przez nowe karty oraz modale; NTP pozostaje w Konfiguracji."
   ],
   "firmware": {
-    "version": "2.0.0.96",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.96.bin",
+    "version": "2.0.0.97",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/firmware-2.0.0.97.bin",
     "size": 1961696,
-    "md5": "1E8A5A843EF4D06F42B6976060CC5F87",
-    "sha256": "8A49B33020C714AC90C40E753C5BCE326E7BE9FF8CFAC180E012019056C41E08"
+    "md5": "27B3868FA0BA39D838DD5EA0B684807E",
+    "sha256": "10C6DA896A05E8AFE40C3DA17AE447C5F7FDC10D52A741018E8B131291D4180C"
   },
   "littlefs": {
-    "version": "2.0.0.96",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.96.bin",
+    "version": "2.0.0.97",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.97.bin",
     "size": 7340032,
-    "md5": "3E6F4CE47A0AC109FEB34C8D9FD27159",
-    "sha256": "10CADF1B02A595F3D0B10A609A37DC5E6923E7964556052E2122134DF2BC3111"
+    "md5": "1D47B94380D7987F5F31F510EA7AF944",
+    "sha256": "F65957C896F86819C2058A6CF2CE0C999C320ED0AF29A752D80C51EB238A824B"
   },
   "filesystem": {
-    "version": "2.0.0.96",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.96.bin",
+    "version": "2.0.0.97",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/littlefs-2.0.0.97.bin",
     "size": 7340032,
-    "md5": "3E6F4CE47A0AC109FEB34C8D9FD27159",
-    "sha256": "10CADF1B02A595F3D0B10A609A37DC5E6923E7964556052E2122134DF2BC3111"
+    "md5": "1D47B94380D7987F5F31F510EA7AF944",
+    "sha256": "F65957C896F86819C2058A6CF2CE0C999C320ED0AF29A752D80C51EB238A824B"
   },
   "dgu": {
-    "version": "2.0.0.96",
-    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.96.dgu",
+    "version": "2.0.0.97",
+    "url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/digiLed-2.0.0.97.dgu",
     "size": 9302182,
-    "md5": "319C826CA4A4ABE5E7A4E92CB5FC43B9",
-    "sha256": "AF7EE8B1EBA442CAE0EDB7F278EBB0E2BD073E58B31E4EC56659B19710CD1DCA"
+    "md5": "9AB299B793F9D2C6B1879B7FA801F65A",
+    "sha256": "0A9B7132840997E2BDF0E15845F339A913B618497C8F041613A7D06034D74405"
   },
-  "build_time": "2026-11-22T13:29:12+00:00",
+  "build_time": "2026-11-22T13:36:10+00:00",
   "changelog_url": "https://raw.githubusercontent.com/kamerok89/digiLedOta/main/digiLed%20Ota/changelog.json"
 }

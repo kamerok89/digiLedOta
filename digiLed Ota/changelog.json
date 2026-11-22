@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.97",
+      "firmware_version": "2.0.0.97",
+      "filesystem_version": "2.0.0.97",
+      "date": "2026-11-22T13:36:10+00:00",
+      "title": "Nowe karty Wi-Fi zamiast zakładek",
+      "changes": [
+        "Usunięto dawny pasek zakładek Status, Wi-Fi, AP i NTP. Widok Wi-Fi pokazuje bezpośrednio karty AP, STA, Hostname i Połączenia portalu.",
+        "Usunięto stare formularze AP, dawną listę skanowania i jej automatyczne odświeżanie. Ustawienia, wyszukiwanie i informacje są dostępne przez nowe karty oraz modale; NTP pozostaje w Konfiguracji."
+      ]
+    },
+    {
       "version": "2.0.0.96",
       "firmware_version": "2.0.0.96",
       "filesystem_version": "2.0.0.96",
