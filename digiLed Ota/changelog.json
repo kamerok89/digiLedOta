@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.101",
+      "firmware_version": "2.0.0.101",
+      "filesystem_version": "2.0.0.101",
+      "date": "2026-11-22T14:12:03+00:00",
+      "title": "Spójny przycisk zatrzymania schematu",
+      "changes": [
+        "Ujednolicono ikonę, kolory i wygląd przycisku zatrzymania schematu z przyciskiem zatrzymania scen w obu motywach."
+      ]
+    },
+    {
       "version": "2.0.0.100",
       "firmware_version": "2.0.0.100",
       "filesystem_version": "2.0.0.100",
