@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.90",
+      "firmware_version": "2.0.0.90",
+      "filesystem_version": "2.0.0.90",
+      "date": "2026-11-22T12:34:38+00:00",
+      "title": "Spinner i dopracowana lista sieci Wi-Fi",
+      "changes": [
+        "Dodano animowany spinner podczas skanowania oraz poprawne zakończenie stanu oczekiwania po wynikach lub błędzie.",
+        "Lista sieci ma czytelne wektorowe ikony sygnału i zabezpieczeń, lżejsze kafelki oraz zwarty formularz połączenia wzorowany na digiLed Gate, z Anuluj przy nazwie sieci."
+      ]
+    },
+    {
       "version": "2.0.0.89",
       "firmware_version": "2.0.0.89",
       "filesystem_version": "2.0.0.89",
