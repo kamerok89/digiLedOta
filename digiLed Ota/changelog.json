@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.103",
+      "firmware_version": "2.0.0.103",
+      "filesystem_version": "2.0.0.103",
+      "date": "2026-11-22T17:27:56+00:00",
+      "title": "Biel i schematy w HTTP, MiLight oraz Modbus",
+      "changes": [
+        "Dodano API v4: listę, stan i sterowanie schematami oraz biel wszystkich scen.",
+        "Rozszerzono Modbus TCP/RTU o temperaturę bieli, tryb koloru i rejestry sterowania oraz stanu schematów.",
+        "Dodano W=18 do schematów i mapowanie przycisków MiLight; zmiana jasności zachowuje temperaturę bieli."
+      ]
+    },
+    {
       "version": "2.0.0.102",
       "firmware_version": "2.0.0.102",
       "filesystem_version": "2.0.0.102",
