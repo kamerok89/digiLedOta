@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.83",
+      "firmware_version": "2.0.0.83",
+      "filesystem_version": "2.0.0.83",
+      "date": "2026-11-22T08:25:10+00:00",
+      "title": "Spójna informacja o wyłączonych usługach",
+      "changes": [
+        "Dodano komunikat Usługa wyłączona przy wyłączonych usługach i w panelach ustawień oraz ujednolicono opis MiLight.",
+        "Uzupełniono nazwę i opis usługi Modbus TCP/RTU o TF-BUS."
+      ]
+    },
+    {
       "version": "2.0.0.82",
       "firmware_version": "2.0.0.82",
       "filesystem_version": "2.0.0.82",
