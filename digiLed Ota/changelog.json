@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.79",
+      "firmware_version": "2.0.0.79",
+      "filesystem_version": "2.0.0.79",
+      "date": "2026-11-22T07:42:42+00:00",
+      "title": "Spójna wysokość przycisków w widoku kompaktowym",
+      "changes": [
+        "Przyciski scen, schematów, parametrów i efektów zachowują standardową wysokość 36 px również w widoku kompaktowym; skracane są wyłącznie opisy i szerokości."
+      ]
+    },
+    {
       "version": "2.0.0.78",
       "firmware_version": "2.0.0.78",
       "filesystem_version": "2.0.0.78",
