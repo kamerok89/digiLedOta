@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.87",
+      "firmware_version": "2.0.0.87",
+      "filesystem_version": "2.0.0.87",
+      "date": "2026-11-22T11:06:07+00:00",
+      "title": "Nowe kafelki AP i Wi-Fi w stylu digiLed Gate",
+      "changes": [
+        "Dodano dwa kafelki AP i połączenia STA w zakładce Status, nad dotychczasowym panelem aktywnego punktu dostępowego.",
+        "Ustawienia AP i STA otwierają się w modalach. Dodano wyszukiwanie sieci z formularzem połączenia, DHCP i stałym IP, podgląd wpisanego hasła oraz akcje rozłączenia i zapomnienia sieci.",
+        "Dotychczasowe panele Wi-Fi pozostają dostępne. Wyłączenie STA rozłącza do ponownego uruchomienia urządzenia, a puste hasło w ustawieniach STA zachowuje zapisane hasło."
+      ]
+    },
+    {
       "version": "2.0.0.86",
       "firmware_version": "2.0.0.86",
       "filesystem_version": "2.0.0.86",
