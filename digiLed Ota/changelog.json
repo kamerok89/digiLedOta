@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.80",
+      "firmware_version": "2.0.0.80",
+      "filesystem_version": "2.0.0.80",
+      "date": "2026-11-22T07:55:52+00:00",
+      "title": "Normalne zatrzymanie schematu w nagłówku",
+      "changes": [
+        "Usunięto sekcję zatrzymania awaryjnego. Obok Nowy schemat dodano przycisk normalnego zatrzymania aktywnego schematu, z wykonaniem kolejki wyłączania."
+      ]
+    },
+    {
       "version": "2.0.0.79",
       "firmware_version": "2.0.0.79",
       "filesystem_version": "2.0.0.79",
