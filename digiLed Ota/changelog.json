@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.89",
+      "firmware_version": "2.0.0.89",
+      "filesystem_version": "2.0.0.89",
+      "date": "2026-11-22T12:24:25+00:00",
+      "title": "Spójne style nowych kafelków i modali Wi-Fi",
+      "changes": [
+        "Usunięto wersaliki i zamieniono kolejność pól IP oraz hasła w ustawieniach AP.",
+        "Wyśrodkowano napisy przycisków, poprawiono jasny motyw i przełączniki oraz dodano wyraźniejsze stany najechania i fokusu zgodne ze stylem portalu."
+      ]
+    },
+    {
       "version": "2.0.0.88",
       "firmware_version": "2.0.0.88",
       "filesystem_version": "2.0.0.88",
