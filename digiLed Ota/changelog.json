@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.95",
+      "firmware_version": "2.0.0.95",
+      "filesystem_version": "2.0.0.95",
+      "date": "2026-11-22T13:20:39+00:00",
+      "title": "Usunięcie starej listy sieci i wyśrodkowanie limitu kart",
+      "changes": [
+        "Usunięto stary kafelek Ostatnie połączenia i jego kod odświeżania. Zapisane sieci pozostają dostępne w modalu informacji STA.",
+        "Wyśrodkowano liczbę oraz przyciski minus i plus w polu limitu kart przeglądarki."
+      ]
+    },
+    {
       "version": "2.0.0.94",
       "firmware_version": "2.0.0.94",
       "filesystem_version": "2.0.0.94",
