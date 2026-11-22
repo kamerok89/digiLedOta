@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "2.0.0.92",
+      "firmware_version": "2.0.0.92",
+      "filesystem_version": "2.0.0.92",
+      "date": "2026-11-22T12:57:07+00:00",
+      "title": "Usunięcie starych podglądów AP i STA",
+      "changes": [
+        "Usunięto stare kafelki Aktywny punkt dostępowy i Aktualnie połączona sieć z zakładki Status. Ich rolę pełnią nowe kafelki AP i STA z modalami informacji i ustawień.",
+        "Wyczyszczono nieużywany kod generowania podglądów, zbędne obliczenia i dedykowane style starego podglądu AP; zachowano hostname, limit kart oraz pozostałe zakładki Wi-Fi."
+      ]
+    },
+    {
       "version": "2.0.0.91",
       "firmware_version": "2.0.0.91",
       "filesystem_version": "2.0.0.91",
