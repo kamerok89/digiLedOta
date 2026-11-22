@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.105",
+      "firmware_version": "2.0.0.105",
+      "filesystem_version": "2.0.0.105",
+      "date": "2026-11-22T17:55:00+00:00",
+      "title": "Tytuł scen w widoku kompaktowym",
+      "changes": [
+        "Dodano napis Sceny po lewej stronie nagłówka kompaktowej sekcji scen."
+      ]
+    },
+    {
       "version": "2.0.0.104",
       "firmware_version": "2.0.0.104",
       "filesystem_version": "2.0.0.104",
