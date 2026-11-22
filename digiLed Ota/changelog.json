@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "2.0.0.96",
+      "firmware_version": "2.0.0.96",
+      "filesystem_version": "2.0.0.96",
+      "date": "2026-11-22T13:29:12+00:00",
+      "title": "Synchronizacja czasu w konfiguracji i usługach",
+      "changes": [
+        "Dodano pozycję NTP — Synchronizacja czasu w Usługach i odświeżaniu.",
+        "Przeniesiono ustawienia czasu z zakładki Wi-Fi do nowego kafelka Synchronizacja czasu bezpośrednio pod Konfiguracją scen. Zachowano presety stref, POSIX, serwery NTP, zapis i reset.",
+        "Dopracowano jasny i ciemny motyw oraz ukrywanie ustawień po wyłączeniu usługi NTP."
+      ]
+    },
+    {
       "version": "2.0.0.95",
       "firmware_version": "2.0.0.95",
       "filesystem_version": "2.0.0.95",
