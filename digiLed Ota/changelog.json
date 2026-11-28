@@ -1,6 +1,16 @@
 {
   "releases": [
     {
+      "version": "2.0.0.110",
+      "firmware_version": "2.0.0.110",
+      "filesystem_version": "2.0.0.110",
+      "date": "2026-11-28T20:19:42+00:00",
+      "title": "Czytelniejszy panel pinoutu",
+      "changes": [
+        "Poprawiono kolory menu wyboru profilu, ukryto strzałki GPIO w gotowych profilach i usunięto opisy spod nagłówków grup pinoutu."
+      ]
+    },
+    {
       "version": "2.0.0.109",
       "firmware_version": "2.0.0.109",
       "filesystem_version": "2.0.0.109",
